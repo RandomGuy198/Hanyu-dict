@@ -1,0 +1,199 @@
+{
+  "id": "story-001",
+  "kind": "story",
+  "title": "一把伞 Yì bǎ sǎn — The umbrella left behind",
+  "summary": "On a rainy afternoon Ah Ming finds an umbrella in the coffee shop he forgot it in, and the name on it is his own.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "weather",
+    "everyday-life",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Read the story once without stopping at words. The lines mix a narrator with the two people, and every line has pinyin and English under it."
+    },
+    {
+      "type": "dialogue",
+      "title": "Part one",
+      "body": [
+        {
+          "speaker": "旁白",
+          "zh": "外面下雨了。",
+          "py": "Wàimiàn xià yǔ le.",
+          "en": "It is raining outside."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "阿明在图书馆看书。",
+          "py": "Ā Míng zài túshūguǎn kàn shū.",
+          "en": "Ah Ming is reading in the library."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他没有带伞。",
+          "py": "tā méiyǒu dài sǎn.",
+          "en": "He did not bring an umbrella."
+        },
+        {
+          "speaker": "阿明",
+          "zh": "我先去喝杯咖啡。",
+          "py": "wǒ xiān qù hē bēi kāfēi.",
+          "en": "I will get a coffee first."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "雨很大，他跑得很快。",
+          "py": "Yǔ hěn dà, tā pǎo de hěn kuài.",
+          "en": "The rain is heavy and he runs fast."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他在店里坐了一个小时。",
+          "py": "tā zài diàn lǐ zuò le yí gè xiǎoshí.",
+          "en": "He sits in the shop for an hour."
+        },
+        {
+          "speaker": "阿明",
+          "zh": "天晴了，我该走了。",
+          "py": "Tiān qíng le, wǒ gāi zǒu le.",
+          "en": "The sky has cleared, I should go."
+        },
+        {
+          "speaker": "店员",
+          "zh": "你的伞在这里！",
+          "py": "Nǐ de sǎn zài zhèlǐ!",
+          "en": "Your umbrella is here!"
+        },
+        {
+          "speaker": "阿明",
+          "zh": "这不是我的。",
+          "py": "zhè bú shì wǒ de.",
+          "en": "This is not mine."
+        },
+        {
+          "speaker": "店员",
+          "zh": "上面有一个名字。",
+          "py": "shàngmian yǒu yí gè míngzi.",
+          "en": "There is a name on it."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "阿明看了看那个名字。",
+          "py": "Ā Míng kàn le kan nàge míngzi.",
+          "en": "Ah Ming takes a look at the name."
+        },
+        {
+          "speaker": "阿明",
+          "zh": "这是我的名字！",
+          "py": "zhè shì wǒ de míngzi!",
+          "en": "That is my name!"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Part two",
+      "body": [
+        {
+          "speaker": "旁白",
+          "zh": "阿明想起来了。",
+          "py": "Ā Míng xiǎng qǐlai le.",
+          "en": "Ah Ming remembers now."
+        },
+        {
+          "speaker": "阿明",
+          "zh": "上午我在这儿等朋友。",
+          "py": "shàngwǔ wǒ zài zhèr děng péngyou.",
+          "en": "This morning I waited here for a friend."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他在这里丢过外套。",
+          "py": "tā zài zhèlǐ diū guo wàitào.",
+          "en": "He lost his coat here once."
+        },
+        {
+          "speaker": "店员",
+          "zh": "外套在椅子上。",
+          "py": "wàitào zài yǐzi shàng.",
+          "en": "The coat is on the chair."
+        },
+        {
+          "speaker": "阿明",
+          "zh": "伞是我的。谢谢你！",
+          "py": "Sǎn shì wǒ de. xièxie nǐ!",
+          "en": "The umbrella is mine. Thank you!"
+        },
+        {
+          "speaker": "旁白",
+          "zh": "伞是蓝色的，有个洞。",
+          "py": "sǎn shì lánsè de, yǒu ge dòng.",
+          "en": "The umbrella is blue and has a hole."
+        },
+        {
+          "speaker": "店员",
+          "zh": "不用谢。下次别忘啦。",
+          "py": "bú yòng xiè. xià cì bié wàng la.",
+          "en": "No need to thank me. Do not forget next time."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "回家的路上，天又下雨了。",
+          "py": "huíjiā de lùshang, tiān yòu xià yǔ le.",
+          "en": "On the way home it rains again."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "这次阿明有伞。",
+          "py": "zhè cì Ā Míng yǒu sǎn.",
+          "en": "This time Ah Ming has an umbrella."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他和同学一起打伞。",
+          "py": "tā hé tóngxué yìqǐ dǎ sǎn.",
+          "en": "He shares the umbrella with his classmates."
+        },
+        {
+          "speaker": "同学",
+          "zh": "你真够朋友。",
+          "py": "nǐ zhēn gòu péngyou.",
+          "en": "You are a real friend."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他们一起吃了橘子。",
+          "py": "tāmen yìqǐ chī le júzi.",
+          "en": "They eat some oranges together."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Words in this story",
+      "body": [
+        "伞 sǎn — umbrella",
+        "下雨 xià yǔ — to rain",
+        "图书馆 túshūguǎn — library",
+        "店员 diànyuán — shop worker",
+        "名字 míngzi — name",
+        "想起来 xiǎng qǐlai — to remember",
+        "路上 lùshang — on the way",
+        "够朋友 gòu péngyou — a true friend",
+        "外套 wàitào — coat"
+      ]
+    },
+    {
+      "type": "text",
+      "body": "Think about it: Why was the umbrella in the shop? What did Ah Ming do on the way home? Answer in one Chinese sentence each, for example starting with 因为 yīnwèi (because)."
+    },
+    {
+      "type": "note",
+      "body": "A made-up reading passage written from scratch for this project. Any resemblance to a published graded reader, coursebook story, or official exam text is accidental; nothing here is taken from a commercial course."
+    }
+  ]
+}

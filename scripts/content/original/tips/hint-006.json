@@ -1,0 +1,19 @@
+{
+  "id": "hint-006",
+  "kind": "tip",
+  "title": "Mine dictionary examples for your own sentences",
+  "summary": "Read the example sentences attached to a headword and copy the pattern, not the topic.",
+  "level": "elementary",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "dictionary-lookup",
+    "sentences"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "A dictionary entry tells you what a word means; an example tells you what it can stand next to. When you look up a word, read any example sentence attached to it and note the frame around the word: which measure word, which complement, which particle at the end. Then keep the frame and swap the content, so a sentence about rain becomes a sentence about a bus. Write both versions side by side. That single step turns a lookup into grammar practice, and it keeps your spoken sentences close to how the language actually arranges itself."
+    }
+  ]
+}

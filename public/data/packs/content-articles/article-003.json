@@ -1,0 +1,68 @@
+{
+  "id": "article-003",
+  "kind": "article",
+  "title": "A metro app in a language you are still learning",
+  "summary": "Screens of unfamiliar words turn readable once you know the five verbs that run them.",
+  "level": "intermediate",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "transport",
+    "reading",
+    "city-life"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Reading a live transit screen is the honest test of reading skill: the text was not written for you, it is dry, and it changes while you stare at it. The good news is that a metro app reuses a tiny set of two-character actions over and over."
+    },
+    {
+      "type": "text",
+      "body": "地图上的词不难，难的是它不等你。 Dìtú shàng de cí bù nán, nán de shì tā bù děng nǐ. — The words on a map are not hard; the hard part is that it does not wait for you.  我要去火车站，它给我两条路。 Wǒ yào qù huǒchēzhàn, tā gěi wǒ liǎng tiáo lù. — I want the train station and it gives me two routes.  第一条快，可是要换乘两次。 Dì yī tiáo kuài, kěshì yào huàn chéng liǎng cì. — The first is fast but needs two changes of line.  第二条慢二十分钟，只换一次。 Dì èr tiáo màn èrshí fēnzhōng, zhǐ huàn yí cì. — The second is twenty minutes slower with only one change.  我选了慢的那条，因为我不想跑。 Wǒ xuǎn le màn de nà tiáo, yīnwèi wǒ bù xiǎng pǎo. — I chose the slow one because I do not want to run."
+    },
+    {
+      "type": "text",
+      "body": "屏幕上有几个词，每次都站在最前面。 Píngmù shàng yǒu jǐ ge cí, měi cì dōu zhàn zài zuì qiánmian. — A few words sit at the very front of the screen every time.  提示和注意后面，一般是重要的话。 Tíshì hé zhùyì hòumian, yìbān shì zhòngyào de huà. — After 提示 and 注意 there is usually something important.  进站、出站、刷卡、扫码，都是两个字的动作。 Jìn zhàn, chū zhàn, shuā kǎ, sǎo mǎ, dōu shì liǎng ge zì de dòngzuò. — Enter the station, leave it, tap a card, scan a code: all two-character actions.  机器不让我进，我就去找服务台。 Jīqì bú ràng wǒ jìn, wǒ jiù qù zhǎo fúwùtái. — When the machine will not let me in, I go to the service desk.  人多的时候，牌子上写：请往里走。 Rén duō de shíhou, páizi shàng xiě: qǐng wǎng lǐ zǒu. — When it is crowded the sign reads: please move further in."
+    },
+    {
+      "type": "text",
+      "body": "第一次我看了十分钟地图，也没上车。 Dì yī cì wǒ kàn le shí fēnzhōng dìtú, yě méi shàng chē. — The first time I read the map for ten minutes and never got on the train.  后来我学会只看三样东西：出口、号码、街名。 Hòulái wǒ xuéhuì zhǐ kàn sān yàng dōngxi: chūkǒu, hàomǎ, jiē míng. — Later I learned to look at only three things: the exit, the number, the street name.  这些字在站的外面还会再出现一次。 Zhèxiē zì zài zhàn de wàimiàn hái huì zài chūxiàn yí cì. — These characters appear once more outside the station.  读不懂的时候，先找数字，再找箭头。 Dú bu dǒng de shíhou, xiān zhǎo shùzì, zài zhǎo jiàntóu. — When you cannot read it, look for numbers first and then for arrows.  屏幕上的一行字，比二十张卡片有用。 Píngmù shàng de yì háng zì, bǐ èrshí zhāng kǎpiàn yǒuyòng. — One real line on a screen is worth twenty flashcards."
+    },
+    {
+      "type": "list",
+      "title": "On the platform",
+      "body": [
+        "地铁 dìtiě — metro",
+        "换乘 huàn chéng — to change lines",
+        "还有三站 hái yǒu sān zhàn — three stops to go",
+        "首班车 shǒu bān chē — first service of the day",
+        "末班车 mò bān chē — last service of the day",
+        "发车时间 fāchē shíjiān — departure time",
+        "一号线 yí hào xiàn — line one",
+        "站台 zhàntái — platform",
+        "进站 jìn zhàn — to enter the station",
+        "出站 chū zhàn — to leave the station",
+        "刷卡 shuā kǎ — to tap a card",
+        "扫码 sǎo mǎ — to scan a code",
+        "服务台 fúwùtái — service desk",
+        "提示 tíshì — notice, tip",
+        "箭头 jiàntóu — arrow"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Sentences you may need to say",
+      "body": [
+        "我去火车站，坐几号线？ wǒ qù huǒchēzhàn, zuò jǐ hào xiàn? — I am going to the train station, which line?",
+        "这一班车几点发车？ zhè yì bān chē jǐ diǎn fāchē? — When does this service leave?",
+        "我的卡刷不了。 wǒ de kǎ shuā bu liǎo. — My card will not tap.",
+        "这个出口到不到大门？ zhège chūkǒu dào bu dào dàmén? — Does this exit reach the main gate?",
+        "请等一下，我还在找路。 qǐng děng yíxià, wǒ hái zài zhǎo lù. — Wait a moment, I am still finding the way."
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial reading material written from scratch for this project. It describes common everyday situations in general terms, is not taken from any commercial course, textbook, or official exam, and names no specific company, product, or service."
+    }
+  ]
+}

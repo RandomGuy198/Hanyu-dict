@@ -1,0 +1,135 @@
+{
+  "id": "story-008",
+  "kind": "story",
+  "title": "海边的风 Hǎibiān de fēng — The wind from the sea",
+  "summary": "A rented bike, a torn tyre, and a roadside repair stand teach the value of asking early.",
+  "level": "intermediate",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "travel",
+    "nature",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "dialogue",
+      "title": "Halfway there",
+      "body": [
+        {
+          "speaker": "旁白",
+          "zh": "六月，阿亮和小莫骑了两天的车去海边。",
+          "py": "liù yuè, Ā Liàng hé Xiǎo Mò qí le liǎng tiān de chē qù hǎibiān.",
+          "en": "In June, Ah Liang and Xiao Mo have been cycling for two days toward the sea."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他们的计划很简单：下午到，晚上看日出以前的海。",
+          "py": "tāmen de jìhuà hěn jiǎndān: xiàwǔ dào, wǎnshang kàn rìchū yǐqián de hǎi.",
+          "en": "Their plan is simple: arrive in the afternoon, see the pre-dawn sea."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "可是离海边还有三十公里的时候，前面那条胎破了。",
+          "py": "kěshì lí hǎibiān hái yǒu sānshí gōnglǐ de shíhou, qiánmiàn nà tiáo tāi pò le.",
+          "en": "But thirty kilometres short of the coast the front tyre goes flat."
+        },
+        {
+          "speaker": "小莫",
+          "zh": "我们带的工具不好用，钉子太粗。",
+          "py": "wǒmen dài de gōngjù bù hǎoyòng, dīngzi tài cū.",
+          "en": "The tools we carry do not work, the patch strip is too thick."
+        },
+        {
+          "speaker": "阿亮",
+          "zh": "我早说过应该检查一遍。",
+          "py": "wǒ zǎo shuō guò yīnggāi jiǎnchá yí biàn.",
+          "en": "I said long ago we should have checked it once."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "风从海那边吹来，太阳慢慢下去。",
+          "py": "fēng cóng hǎi nàbian chuī lái, tàiyáng màn man xiàqu.",
+          "en": "The wind blows from the sea side and the sun slowly sinks."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "路边有一个补胎的摊子，一位大叔在收东西。",
+          "py": "lù biān yǒu yí gè bǔ tāi de tānzi, yí wèi dàshū zài shōu dōngxi.",
+          "en": "By the road is a tyre repair stall and an uncle is packing up."
+        },
+        {
+          "speaker": "阿亮",
+          "zh": "大叔，能不能帮我们补一下？我们可以多付。",
+          "py": "dàshū, néng bu néng bāng wǒmen bǔ yíxià? wǒmen kěyǐ duō fù.",
+          "en": "Sir, could you repair it for us? We can pay extra."
+        },
+        {
+          "speaker": "大叔",
+          "zh": "钱不钱的不重要。天黑了路上不好走。",
+          "py": "qián bu qián de bú zhòngyào. tiān hēi le lù shàng bù hǎo zǒu.",
+          "en": "Money is not the point. Once it is dark the road is hard going."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他一边补一边问他们从哪里来，要去多久。",
+          "py": "tā yìbiān bǔ yìbiān wèn tāmen cóng nǎlǐ lái, yào qù duō jiǔ.",
+          "en": "While he patches he asks where they came from and how long they will stay."
+        },
+        {
+          "speaker": "大叔",
+          "zh": "海边晚上比这儿凉十度，把厚衣服拿出来。",
+          "py": "hǎibiān wǎnshang bǐ zhèr liáng shí dù, bǎ hòu yīfu ná chūlai.",
+          "en": "The coast is ten degrees cooler at night, take out your warm clothes."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "二十分钟以后，两条胎都好了。",
+          "py": "èrshí fēnzhōng yǐhòu, liǎng tiáo tāi dōu hǎo le.",
+          "en": "Twenty minutes later both tyres are fine."
+        },
+        {
+          "speaker": "小莫",
+          "zh": "我们本来要吵架，现在只想吃面。",
+          "py": "wǒmen běnlái yào chǎojià, xiànzài zhǐ xiǎng chī miàn.",
+          "en": "We were about to quarrel, now we only want noodles."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "那天他们没有看到日出以前的海。",
+          "py": "nà tiān tāmen méiyǒu kàn dào rìchū yǐqián de hǎi.",
+          "en": "That day they did not see the sea before sunrise."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "第二天早上五点，他们醒了，外面全是光。",
+          "py": "dì èr tiān zǎoshang wǔ diǎn, tāmen xǐng le, wàimiàn quán shì guāng.",
+          "en": "At five the next morning they wake up and everything outside is light."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Words in this story",
+      "body": [
+        "轮胎 lúntāi — tyre",
+        "胎 tāi — tyre, casing",
+        "破 pò — to burst, to break",
+        "补胎 bǔ tāi — to patch a tyre",
+        "摊子 tānzi — roadside stall",
+        "工具 gōngjù — tools",
+        "检查 jiǎnchá — to check",
+        "凉 liáng — cool",
+        "吵架 chǎojià — to quarrel"
+      ]
+    },
+    {
+      "type": "text",
+      "body": "Think about it: Ah Liang blames his partner and the uncle solves the problem. Write three lines of your own ending using 一边…一边… yìbiān…yìbiān… (doing two things at once) and 比 bǐ (compared with)."
+    },
+    {
+      "type": "note",
+      "body": "A made-up reading passage written from scratch for this project. Any resemblance to a published graded reader, coursebook story, or official exam text is accidental; nothing here is taken from a commercial course."
+    }
+  ]
+}

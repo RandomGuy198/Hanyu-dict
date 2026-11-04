@@ -1,0 +1,151 @@
+/* Design tokens — original scale, palette and typography for this project.
+   No third-party font files are shipped: CJK text uses the device's own system face. */
+:root {
+  /* palette */
+  --ink-900: #14211d;
+  --ink-700: #24382f;
+  --ink-500: #40564c;
+  --ink-300: #6f8479;
+  --ink-100: #a8b7ae;
+  --paper: #fbfaf6;
+  --paper-raised: #ffffff;
+  --paper-sunken: #f1efe8;
+  --line: #e2ded2;
+  --brand-700: #17564a;
+  --brand-600: #1f6f5c;
+  --brand-500: #2b8871;
+  --brand-100: #dcece6;
+  --accent-600: #b6543a;
+  --accent-100: #f6e2d9;
+  --ok-600: #2f7a3c;
+  --warn-600: #9a6b00;
+  --danger-600: #a4322a;
+  --focus: #0b7285;
+
+  /* semantic */
+  --bg: var(--paper);
+  --bg-raised: var(--paper-raised);
+  --bg-sunken: var(--paper-sunken);
+  --border: var(--line);
+  --text: var(--ink-900);
+  --text-muted: var(--ink-500);
+  --text-faint: var(--ink-300);
+  --primary: var(--brand-600);
+  --primary-strong: var(--brand-700);
+  --primary-soft: var(--brand-100);
+  --on-primary: #ffffff;
+  --secondary: var(--accent-600);
+  --secondary-soft: var(--accent-100);
+
+  /* type */
+  --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  --font-cjk: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+    "Source Han Sans SC", "WenQuanYi Micro Hei", var(--font-ui);
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+  --text-scale: 1;
+  --fs-xs: calc(0.75rem * var(--text-scale));
+  --fs-sm: calc(0.875rem * var(--text-scale));
+  --fs-md: calc(1rem * var(--text-scale));
+  --fs-lg: calc(1.175rem * var(--text-scale));
+  --fs-xl: calc(1.45rem * var(--text-scale));
+  --fs-2xl: calc(1.85rem * var(--text-scale));
+  --fs-cjk: calc(1.9rem * var(--text-scale));
+  --lh: 1.55;
+
+  /* space & shape (4px base grid) */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+  --shadow-1: 0 1px 2px rgba(20, 33, 29, 0.08);
+  --shadow-2: 0 6px 18px rgba(20, 33, 29, 0.12);
+  --tap: 44px;
+  --nav-h: 60px;
+
+  /* safe areas */
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+
+  --motion: 160ms;
+  --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+:root[data-theme='dark'] {
+  --bg: #131a17;
+  --bg-raised: #1b2420;
+  --bg-sunken: #0e1412;
+  --border: #2c3831;
+  --text: #e8efe9;
+  --text-muted: #a6b5ab;
+  --text-faint: #7d8d84;
+  --primary: #4fb096;
+  --primary-strong: #7cccb4;
+  --primary-soft: #223b34;
+  --on-primary: #06231b;
+  --secondary: #e79a7c;
+  --secondary-soft: #43291f;
+  --ok-600: #6bc47c;
+  --warn-600: #d9ad4e;
+  --danger-600: #e4796f;
+  --focus: #7fd4e8;
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-2: 0 8px 22px rgba(0, 0, 0, 0.55);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-theme='auto'] {
+    color-scheme: dark;
+    --bg: #131a17;
+    --bg-raised: #1b2420;
+    --bg-sunken: #0e1412;
+    --border: #2c3831;
+    --text: #e8efe9;
+    --text-muted: #a6b5ab;
+    --text-faint: #7d8d84;
+    --primary: #4fb096;
+    --primary-strong: #7cccb4;
+    --primary-soft: #223b34;
+    --on-primary: #06231b;
+    --secondary: #e79a7c;
+    --secondary-soft: #43291f;
+    --ok-600: #6bc47c;
+    --warn-600: #d9ad4e;
+    --danger-600: #e4796f;
+    --focus: #7fd4e8;
+  }
+}
+
+:root[data-contrast='high'] {
+  --text: #000000;
+  --text-muted: #26332d;
+  --text-faint: #3c4c45;
+  --border: #6f8479;
+  --bg: #ffffff;
+}
+
+:root[data-contrast='high'][data-theme='dark'] {
+  --text: #ffffff;
+  --text-muted: #dbe6df;
+  --text-faint: #bccdc4;
+  --border: #97ada2;
+  --bg: #060908;
+}
+
+:root[data-motion='reduced'] {
+  --motion: 1ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion: 1ms;
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "story-002",
+  "kind": "story",
+  "title": "第一次坐地铁 Dì yī cì zuò dìtiě — The first metro ride",
+  "summary": "A first metro ride turns into a wrong exit, a kind station worker, and a free lesson.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "transport",
+    "city",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "dialogue",
+      "title": "The station",
+      "body": [
+        {
+          "speaker": "旁白",
+          "zh": "小云今天去朋友家。",
+          "py": "Xiǎo Yún jīntiān qù péngyou jiā.",
+          "en": "Xiao Yun is going to a friend house today."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "她第一次坐地铁。",
+          "py": "tā dì yī cì zuò dìtiě.",
+          "en": "It is her first ride on the metro."
+        },
+        {
+          "speaker": "小云",
+          "zh": "这个机器怎么买票？",
+          "py": "zhège jīqì zěnme mǎi piào?",
+          "en": "How do you buy a ticket on this machine?"
+        },
+        {
+          "speaker": "旁白",
+          "zh": "她按了两下，票没有出来。",
+          "py": "tā àn le liǎng xià, piào méi yǒu chūlái.",
+          "en": "She presses twice and no ticket comes out."
+        },
+        {
+          "speaker": "小云",
+          "zh": "请问，我去中山路，坐哪条线？",
+          "py": "qǐng wèn, wǒ qù Zhōngshān Lù, zuò nǎ tiáo xiàn?",
+          "en": "Excuse me, I am going to Zhongshan Road. Which line?"
+        },
+        {
+          "speaker": "站务员",
+          "zh": "坐二号线，四站以后换一号线。",
+          "py": "zuò èr hào xiàn, sì zhàn yǐhòu huàn yí hào xiàn.",
+          "en": "Take line two, then change to line one after four stops."
+        },
+        {
+          "speaker": "小云",
+          "zh": "我坐过站了怎么办？",
+          "py": "wǒ zuò guò zhàn le zěnme bàn?",
+          "en": "What if I miss my stop?"
+        },
+        {
+          "speaker": "站务员",
+          "zh": "别担心。对面往回坐，很快。",
+          "py": "bié dānxīn. duìmiàn wǎng huí zuò, hěn kuài.",
+          "en": "Do not worry. Go back on the other side, it is quick."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "小云进去了，可是出口不对。",
+          "py": "Xiǎo Yún jìnqù le, kěshì chūkǒu bú duì.",
+          "en": "She gets in, but the exit is wrong."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "她在桥上站了五分钟。",
+          "py": "tā zài qiáo shàng zhàn le wǔ fēn zhōng.",
+          "en": "She stands on the bridge for five minutes."
+        },
+        {
+          "speaker": "小云",
+          "zh": "刚才那个人说得对，我应该看清楚。",
+          "py": "gāngcái nàgè rén shuō de duì, wǒ yīnggāi kàn qīngchu.",
+          "en": "That person was right, I should look carefully."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "第二次，她先看墙上的图，再走。",
+          "py": "dì èr cì, tā xiān kàn qiáng shàng de tú, zài zǒu.",
+          "en": "The second time she reads the map first, then walks."
+        },
+        {
+          "speaker": "小云",
+          "zh": "找到了！中山路到了。",
+          "py": "zhǎodào le! Zhōngshān Lù dào le.",
+          "en": "Found it! Zhongshan Road is here."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "朋友在门口等她。",
+          "py": "péngyou zài ménkǒu děng tā.",
+          "en": "Her friend is waiting at the door."
+        },
+        {
+          "speaker": "朋友",
+          "zh": "你第一次坐就找到了，真快。",
+          "py": "nǐ dì yī cì zuò jiù zhǎodào le, zhēn kuài.",
+          "en": "You found it on your first ride, that is fast."
+        },
+        {
+          "speaker": "小云",
+          "zh": "不是我的本事，是那个人的话。",
+          "py": "bú shì wǒ de běnshi, shì nàgè rén de huà.",
+          "en": "It is not my skill, it is what that person said."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Words in this story",
+      "body": [
+        "地铁 dìtiě — metro",
+        "买票 mǎi piào — to buy a ticket",
+        "机器 jīqì — machine",
+        "站 zhàn — stop, station",
+        "换 huàn — to change (lines)",
+        "坐过站 zuò guò zhàn — to ride past your stop",
+        "出口 chūkǒu — exit",
+        "本事 běnshi — skill"
+      ]
+    },
+    {
+      "type": "text",
+      "body": "Think about it: What did the station worker tell her, and what does Xiao Yun learn at the end? Say one of those two things in Chinese."
+    },
+    {
+      "type": "note",
+      "body": "A made-up reading passage written from scratch for this project. Any resemblance to a published graded reader, coursebook story, or official exam text is accidental; nothing here is taken from a commercial course."
+    }
+  ]
+}

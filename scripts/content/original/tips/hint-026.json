@@ -1,0 +1,19 @@
+{
+  "id": "hint-026",
+  "kind": "tip",
+  "title": "Prepare for offline waiting time",
+  "summary": "Download the data you need while you still have signal, so dead zones become study time.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "offline",
+    "study-habits"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Study time usually shows up where the signal does not: a platform, a plane, a basement classroom. Keep a small set of reading material and your dictionary data available offline so a fifteen-minute wait is usable instead of wasted. Check this once a week on purpose, because content that only exists online is content you will not reach when you want it. Choose short things for these slots, since a passage you can finish in five minutes fits the gaps far better than a long one."
+    }
+  ]
+}

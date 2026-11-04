@@ -1,0 +1,70 @@
+{
+  "id": "lesson-005",
+  "kind": "lesson",
+  "title": "Two no words: bú shì and méiyǒu",
+  "summary": "Learn why 是 shì takes 不 bù but 有 yǒu takes 没 méi, and how the same split shapes verbs.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "negation",
+    "grammar",
+    "verbs"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Chinese has two everyday no words, and the verb decides which one you may use. 是 shì (to be) is negated with 不 bù: 我不是老师 wǒ bú shì lǎoshī (I am not a teacher). The two never mix: 有 yǒu is not negated with 不 bù, and 是 shì is not negated with 没 méi. 有 yǒu (to have) is negated with 没 méi, written 没有 méiyǒu: 我没有时间 wǒ méiyǒu shíjiān (I have no time), 他没有车 tā méiyǒu chē (he has no car). The reason is historic: 没 méi originally meant to sink or disappear, so it denies existence or completion, while 不 bù just refuses the idea."
+    },
+    {
+      "type": "text",
+      "body": "The same split reaches verbs. 不 bù plus a verb denies a habit, a wish, or the future: 我不吃辣 wǒ bù chī là (I do not eat spicy food), 他不去 tā bú qù (he will not go). 没 méi plus a verb denies that something happened: 我没吃早饭 wǒ méi chī zǎofàn (I did not have breakfast), 他没来 tā méi lái (he did not come). A rough test: if English uses did, think 没 méi; if English uses do not or will not, think 不 bù. Also keep 了 le out of 没 méi sentences: say 我没看 wǒ méi kàn, and never add 了 le at the end."
+    },
+    {
+      "type": "dialogue",
+      "title": "Before the film",
+      "body": [
+        {
+          "speaker": "A",
+          "zh": "你是李老师吗？",
+          "py": "nǐ shì Lǐ lǎoshī ma?",
+          "en": "Are you Teacher Li?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我不是，我姐姐才是。",
+          "py": "wǒ bú shì, wǒ jiějie cái shì.",
+          "en": "I am not; my older sister is."
+        },
+        {
+          "speaker": "A",
+          "zh": "你有票吗？",
+          "py": "nǐ yǒu piào ma?",
+          "en": "Do you have a ticket?"
+        },
+        {
+          "speaker": "B",
+          "zh": "没有。我没买票。",
+          "py": "méiyǒu. wǒ méi mǎi piào.",
+          "en": "No. I did not buy a ticket."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Practise these",
+      "body": [
+        "今天不是星期三。 jīntiān bú shì Xīngqīsān. — Today is not Wednesday.",
+        "我这里没有糖。 wǒ zhèlǐ méiyǒu táng. — I have no sugar here.",
+        "她不喝咖啡。 tā bù hē kāfēi. — She does not drink coffee.",
+        "我没带伞。 wǒ méi dài sǎn. — I did not bring an umbrella.",
+        "他们不是中国人。 tāmen bú shì Zhōngguó rén. — They are not Chinese.",
+        "你没有说错。 nǐ méiyǒu shuō cuò. — You did not say anything wrong."
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial practice material written from scratch for general learners of Mandarin. It teaches the two no words, bú shì and méiyǒu, and nothing in it is taken from, copied from, or aligned to any commercial course, textbook brand, app, or official exam. It is not an answer key for any test."
+    }
+  ]
+}

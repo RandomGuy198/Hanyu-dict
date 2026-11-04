@@ -1,0 +1,19 @@
+{
+  "id": "hint-022",
+  "kind": "tip",
+  "title": "Polite requests are frames, not words",
+  "summary": "Keep three ready frames with qǐng, kěyǐ…ma, and máfan, and politeness takes care of itself.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "politeness",
+    "speaking"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Everyday politeness in Chinese comes from framing a request rather than from long sentences. Three frames cover most of it: 请 qǐng plus the action, as in 请稍等 qǐng shāo děng (please wait a moment); 可以…吗 kěyǐ…ma for permission, as in 我可以坐这里吗? wǒ kěyǐ zuò zhèlǐ ma?; and 麻烦 máfan plus the person and the task, as in 麻烦您帮我一下 máfan nín bāng wǒ yíxià. Use 您 nín with a stranger who is helping you, and switch to 你 nǐ once you are among peers. End a soft suggestion with 吧 ba, and you will sound considerate without needing a longer vocabulary."
+    }
+  ]
+}

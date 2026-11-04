@@ -1,0 +1,154 @@
+{
+  "id": "story-003",
+  "kind": "story",
+  "title": "店里来了一只猫 Diàn lǐ lái le yì zhī māo — The cat that moved in",
+  "summary": "A cat walks into a fruit stall and quietly changes the everyday life of the whole street.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "animals",
+    "neighbourhood",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "dialogue",
+      "title": "The new regular",
+      "body": [
+        {
+          "speaker": "旁白",
+          "zh": "李大爷卖水果。",
+          "py": "Lǐ dàye mài shuǐguǒ.",
+          "en": "Old Man Li sells fruit."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "一天，门口来了一只小猫。",
+          "py": "yì tiān, ménkǒu lái le yì zhī xiǎo māo.",
+          "en": "One day a small cat comes to his door."
+        },
+        {
+          "speaker": "李大爷",
+          "zh": "你饿了吗？吃点吧。",
+          "py": "nǐ è le ma? chī diǎn ba.",
+          "en": "Are you hungry? Have something to eat."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "猫没有走，第二天又来了。",
+          "py": "māo méiyǒu zǒu, dì èr tiān yòu lái le.",
+          "en": "The cat does not leave and comes again the next day."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "它坐在苹果筐旁边。",
+          "py": "tā zuò zài píngguǒ kuāng pángbiān.",
+          "en": "It sits beside the apple crate."
+        },
+        {
+          "speaker": "李大爷",
+          "zh": "它比我的收音机还忙。",
+          "py": "tā bǐ wǒ de shōuyīnjī hái máng.",
+          "en": "It is busier than my radio."
+        },
+        {
+          "speaker": "顾客",
+          "zh": "大爷，这只猫是你的吗？",
+          "py": "dàye, zhè zhī māo shì nǐ de ma?",
+          "en": "Sir, is this cat yours?"
+        },
+        {
+          "speaker": "李大爷",
+          "zh": "不是。它自己来的。",
+          "py": "bú shì. tā zìjǐ lái de.",
+          "en": "No. It came on its own."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "猫天天来，还带来两只小鸟。",
+          "py": "māo tiāntiān lái, hái dàilái liǎng zhī xiǎo niǎo.",
+          "en": "The cat comes every day and brings two small birds."
+        },
+        {
+          "speaker": "李大爷",
+          "zh": "鸟不能给你，放了它们。",
+          "py": "niǎo bù néng gěi nǐ, fàng le tāmen.",
+          "en": "You cannot keep the birds, let them go."
+        },
+        {
+          "speaker": "李大爷",
+          "zh": "你天天来，就是我的人。",
+          "py": "nǐ tiāntiān lái, jiù shì wǒ de rén.",
+          "en": "If you come every day, you are one of my people."
+        },
+        {
+          "speaker": "顾客",
+          "zh": "猫今天来了吗？",
+          "py": "māo jīntiān lái le ma?",
+          "en": "Did the cat come today?"
+        },
+        {
+          "speaker": "旁白",
+          "zh": "它一来，摊子前就热闹了。",
+          "py": "tā yì lái, tānzi qián jiù rènao le.",
+          "en": "As soon as it arrives, the stall becomes lively."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "猫总是坐在最前面。",
+          "py": "māo zǒng shì zuò zài zuì qiánmian.",
+          "en": "The cat always sits at the very front."
+        },
+        {
+          "speaker": "李大爷",
+          "zh": "它比我的水果还重要。",
+          "py": "tā bǐ wǒ de shuǐguǒ hái zhòngyào.",
+          "en": "It matters even more to me than my fruit."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "后来街上的人都认识它。",
+          "py": "hòulái jiē shàng de rén dōu rènshi tā.",
+          "en": "Later everybody on the street knew it."
+        },
+        {
+          "speaker": "顾客",
+          "zh": "买橘子，找猫大爷。",
+          "py": "mǎi júzi, zhǎo māo dàye.",
+          "en": "Buying oranges? Ask Cat Man."
+        },
+        {
+          "speaker": "李大爷",
+          "zh": "这只猫比我会做生意。",
+          "py": "zhè zhī māo bǐ wǒ huì zuò shēngyi.",
+          "en": "This cat is better at business than I am."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Words in this story",
+      "body": [
+        "猫 māo — cat",
+        "水果 shuǐguǒ — fruit",
+        "卖 mài — to sell",
+        "筐 kuāng — basket, crate",
+        "收音机 shōuyīnjī — radio",
+        "顾客 gùkè — customer",
+        "做生意 zuò shēngyi — to do business",
+        "放了 fàng le — to let go",
+        "热闹 rènao — lively",
+        "认识 rènshi — to know (a face or a place)"
+      ]
+    },
+    {
+      "type": "text",
+      "body": "Think about it: What two animals does the story mention, and why do people start calling the shop by a new name?"
+    },
+    {
+      "type": "note",
+      "body": "A made-up reading passage written from scratch for this project. Any resemblance to a published graded reader, coursebook story, or official exam text is accidental; nothing here is taken from a commercial course."
+    }
+  ]
+}

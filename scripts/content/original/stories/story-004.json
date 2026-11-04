@@ -1,0 +1,160 @@
+{
+  "id": "story-004",
+  "kind": "story",
+  "title": "一碗面条 Yì wǎn miàntiáo — One bowl of noodles",
+  "summary": "An old notebook recipe explains why one bowl of noodles tastes like a childhood kitchen.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "food",
+    "family",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "dialogue",
+      "title": "The notebook",
+      "body": [
+        {
+          "speaker": "旁白",
+          "zh": "大江在城里工作，很忙。",
+          "py": "Dà Jiāng zài chéng lǐ gōngzuò, hěn máng.",
+          "en": "Da Jiang works in the city and is very busy."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他每天吃外面的饭。",
+          "py": "tā měi tiān chī wàimiàn de fàn.",
+          "en": "He eats out every day."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "一天晚上，他想起了奶奶的面条。",
+          "py": "yì tiān wǎnshang, tā xiǎngqǐ le nǎinai de miàntiáo.",
+          "en": "One night he thinks of his grandmother noodles."
+        },
+        {
+          "speaker": "大江",
+          "zh": "那个味道我一直在找。",
+          "py": "nàgè wèidao wǒ yìzhí zài zhǎo.",
+          "en": "I have been looking for that taste all along."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他给家里打了电话。",
+          "py": "tā gěi jiā lǐ dǎ le diànhuà.",
+          "en": "He calls home."
+        },
+        {
+          "speaker": "妈妈",
+          "zh": "面条很简单，你先烧水。",
+          "py": "miàntiáo hěn jiǎndān, nǐ xiān shāo shuǐ.",
+          "en": "Noodles are simple, boil the water first."
+        },
+        {
+          "speaker": "大江",
+          "zh": "我记不住，你再说一遍。",
+          "py": "wǒ jì bu zhù, nǐ zài shuō yí biàn.",
+          "en": "I cannot keep it in mind, say it again."
+        },
+        {
+          "speaker": "妈妈",
+          "zh": "水开了放面，面软了放青菜。",
+          "py": "shuǐ kāi le fàng miàn, miàn ruǎn le fàng qīngcài.",
+          "en": "When the water boils add the noodles, when they soften add the greens."
+        },
+        {
+          "speaker": "妈妈",
+          "zh": "最后加一点盐和油。",
+          "py": "zuìhòu jiā yìdiǎn yán hé yóu.",
+          "en": "At the end add a little salt and oil."
+        },
+        {
+          "speaker": "妈妈",
+          "zh": "盐少一点，奶奶吃得淡。",
+          "py": "yán shǎo yìdiǎn, nǎinai chī de dàn.",
+          "en": "Less salt, your grandmother eats bland food."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "锅太小，面放不下。",
+          "py": "guō tài xiǎo, miàn fàng bu xià.",
+          "en": "The pot is too small and the noodles do not fit."
+        },
+        {
+          "speaker": "大江",
+          "zh": "我买一个大锅。",
+          "py": "wǒ mǎi yí ge dà guō.",
+          "en": "I will buy a big pot."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "第二天他做了一碗。",
+          "py": "dì èr tiān tā zuò le yì wǎn.",
+          "en": "The next day he makes one bowl."
+        },
+        {
+          "speaker": "同事",
+          "zh": "这面香，比食堂的好吃。",
+          "py": "zhè miàn xiāng, bǐ shítáng de hǎochī.",
+          "en": "These noodles smell good, better than the canteen."
+        },
+        {
+          "speaker": "大江",
+          "zh": "这是我奶奶的做法。",
+          "py": "zhè shì wǒ nǎinai de zuòfǎ.",
+          "en": "This is my grandmother way of making them."
+        },
+        {
+          "speaker": "同事",
+          "zh": "你教教我吧。",
+          "py": "nǐ jiāo jiao wǒ ba.",
+          "en": "Please teach me."
+        },
+        {
+          "speaker": "大江",
+          "zh": "周末你来我家。",
+          "py": "zhōumò nǐ lái wǒ jiā.",
+          "en": "Come over at the weekend."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "下班以后，他买了一本本子。",
+          "py": "xiàbān yǐhòu, tā mǎi le yì běn běnzi.",
+          "en": "After work he buys a notebook."
+        },
+        {
+          "speaker": "旁白",
+          "zh": "他把那四行字写了下来。",
+          "py": "tā bǎ nà sì háng zì xiě le xiàlái.",
+          "en": "He writes down those four lines."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Words in this story",
+      "body": [
+        "面条 miàntiáo — noodles",
+        "味道 wèidao — taste, flavour",
+        "烧水 shāo shuǐ — to boil water",
+        "青菜 qīngcài — green vegetables",
+        "盐 yán — salt",
+        "香 xiāng — fragrant",
+        "食堂 shítáng — canteen",
+        "做法 zuòfǎ — method of cooking",
+        "写下来 xiě xiàlái — to write down",
+        "锅 guō — pot"
+      ]
+    },
+    {
+      "type": "text",
+      "body": "Think about it: Which four steps does the mother give? Try saying them in Chinese with 先 xiān (first), 再 zài (then), and 最后 zuìhòu (at the end)."
+    },
+    {
+      "type": "note",
+      "body": "A made-up reading passage written from scratch for this project. Any resemblance to a published graded reader, coursebook story, or official exam text is accidental; nothing here is taken from a commercial course."
+    }
+  ]
+}

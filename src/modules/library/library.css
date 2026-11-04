@@ -1,0 +1,152 @@
+/* Library module styles. Tokens only; reuses shared .card/.btn/.chip/.item primitives. */
+
+.lib-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+}
+
+.lib-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+}
+.lib-toolbar .searchbar {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.lib-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.lib-count {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* Saved words: a selection checkbox sits in an entry row's trailing actions column. */
+.lib-select {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.lib-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+}
+.lib-actions .btn {
+  min-height: 34px;
+  padding: var(--sp-1) var(--sp-3);
+  font-size: var(--fs-xs);
+}
+
+.lib-card-title {
+  font-size: var(--fs-md);
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+.lib-card-sub {
+  display: block;
+  margin-top: var(--sp-1);
+}
+
+/* Per-item note + remove controls live in an entry row's trailing actions column. */
+.lib-trail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+  align-items: stretch;
+}
+.lib-note-input {
+  width: 7rem;
+  max-width: 42vw;
+  min-height: 30px;
+  padding: var(--sp-1) var(--sp-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  color: var(--text);
+  font-size: var(--fs-xs);
+}
+.lib-note-input:focus {
+  border-color: var(--primary);
+}
+
+.lib-entry {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding: var(--sp-4);
+}
+.lib-entry-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+}
+.lib-entry .textarea {
+  min-height: 88px;
+}
+.lib-entry-fields {
+  display: grid;
+  gap: var(--sp-3);
+}
+@media (min-width: 620px) {
+  .lib-entry-fields {
+    grid-template-columns: 1fr auto;
+    align-items: end;
+  }
+}
+
+.lib-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+}
+.lib-inline .input {
+  flex: 1 1 10rem;
+  min-width: 0;
+}
+
+.lib-search-results {
+  margin-top: var(--sp-3);
+}
+
+.lib-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2) var(--sp-4);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+/* The NameDialog form reuses the shared .dialog content class; the native <dialog> keeps the
+   same UA styling the spine's ConfirmDialog relies on, so nothing is overridden globally here. */
+.lib-dialog {
+  margin: 0;
+}
+
+.lib-add-form {
+  display: grid;
+  gap: var(--sp-3);
+}
+
+@media (max-width: 360px) {
+  .lib-entry-fields {
+    grid-template-columns: 1fr;
+  }
+  .lib-note-input {
+    width: 6rem;
+  }
+}

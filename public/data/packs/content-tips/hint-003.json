@@ -1,0 +1,19 @@
+{
+  "id": "hint-003",
+  "kind": "tip",
+  "title": "Type the rounded vowel with v",
+  "summary": "Use the v key for ü on a pinyin keyboard and remember which written letters are silent.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "input-method",
+    "pinyin"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Most on-screen keyboards have no ü, so a pinyin input method reads v in its place. Type nv for 女 nǚ (woman), lv for 绿 lǜ (green), and lve for 略 lüè (a little). After j, q, x, and y there is no ü to type at all: 去 qù (go), 学 xué (learn), 鱼 yú (fish), and 全 quán (whole) are typed with u, because those spellings always mean the rounded vowel anyway. Learn the handful of contrasts the other way: 路 lù (road) and 绿 lǜ (green) are different vowels, and the dots stay only after l and n. Keep your phone keyboard on a pinyin layout while you study, so the habit forms during real typing and not only during drills."
+    }
+  ]
+}

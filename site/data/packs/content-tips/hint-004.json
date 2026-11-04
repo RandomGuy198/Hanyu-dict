@@ -1,0 +1,19 @@
+{
+  "id": "hint-004",
+  "kind": "tip",
+  "title": "Attach a measure word to every countable noun",
+  "summary": "Write each new noun together with its measure word so counting works from the first day.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "measure-words",
+    "vocabulary"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "A noun learned without its measure word is a noun you cannot count. Store the pair as one item: 一本书 yì běn shū (a book), 一张纸 yì zhāng zhǐ (a sheet of paper), 一条路 yì tiáo lù (a road), 一辆车 yí liàng chē (a car), 一双鞋 yì shuāng xié (a pair of shoes). When you meet a noun used with more than one measure word, keep the one that describes its shape and let the rest come later; 条 tiáo for long and flexible things and 张 zhāng for flat things explain most of what you will see. Write the pair in a full short phrase rather than alone, because 一张 yì zhāng is meaningless but 一张票 yì zhāng piào (a ticket) sticks. This costs one extra word per entry and saves you from building a habit you must break."
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+/* Personalisation, data and provenance screens. */
+
+.prof-section {
+  display: grid;
+  gap: var(--sp-3);
+}
+
+.prof-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-3);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--sp-2);
+}
+
+.prof-section-head h2 {
+  margin: 0;
+  font-size: var(--fs-lg);
+}
+
+.prof-help {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin: 0;
+}
+
+.prof-block-label {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.prof-switch {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  accent-color: var(--primary);
+}
+
+.prof-check-text > .help {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+
+.prof-grid {
+  display: grid;
+  gap: var(--sp-4);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 720px) {
+  .prof-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.prof-stack-sm {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.prof-actions {
+  display: grid;
+  gap: var(--sp-2);
+  justify-items: start;
+}
+
+.prof-progress {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.prof-err {
+  margin: 0;
+  font-size: var(--fs-xs);
+  color: var(--danger-600);
+  overflow-wrap: anywhere;
+}
+
+.prof-list {
+  display: grid;
+  gap: var(--sp-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.prof-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--bg-raised);
+  font-size: var(--fs-sm);
+}
+
+.prof-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.prof-scroll > .table {
+  min-width: 40rem;
+}
+
+.prof-check-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: var(--sp-2) 0;
+  border-top: 1px solid var(--border);
+}
+
+.prof-check-row:first-of-type {
+  border-top: 0;
+}
+
+.prof-check-text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.prof-range-row {
+  display: grid;
+  gap: var(--sp-1);
+}
+
+.prof-range-row input[type='range'] {
+  width: 100%;
+  min-height: var(--tap);
+  accent-color: var(--primary);
+}
+
+.prof-status {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.prof-voice-list {
+  display: grid;
+  gap: var(--sp-1);
+  margin: 0;
+  padding-left: var(--sp-5);
+  font-size: var(--fs-sm);
+}
+
+.prof-code {
+  max-height: 22rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: var(--fs-xs);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--sp-3);
+  margin: 0;
+}
+
+.prof-file-list {
+  display: grid;
+  gap: var(--sp-1);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.prof-file-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) 0;
+  border-top: 1px solid var(--border);
+}
+
+.prof-file-row:first-child {
+  border-top: 0;
+}
+
+.prof-dl {
+  display: grid;
+  gap: var(--sp-2);
+  margin: 0;
+}
+
+.prof-dl > div {
+  display: grid;
+  gap: 2px;
+}
+
+.prof-dl dt {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.prof-dl dd {
+  margin: 0;
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+.prof-ticks {
+  display: grid;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.prof-ticks li {
+  display: flex;
+  gap: var(--sp-2);
+  align-items: flex-start;
+  font-size: var(--fs-sm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--bg-raised);
+}
+
+.prof-ticks svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  color: var(--warn-600);
+}
+
+.prof-num {
+  font-variant-numeric: tabular-nums;
+}
+
+.prof-count {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+
+/* About screen: one bordered card per upstream source, two columns on wide screens. */
+.prof-src-grid {
+  display: grid;
+  gap: var(--sp-3);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 720px) {
+  .prof-src-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.prof-src {
+  display: grid;
+  gap: var(--sp-2);
+  align-content: start;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--sp-3);
+  background: var(--bg-raised);
+}
+
+.prof-src-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-2);
+}
+
+.prof-src-head h3 {
+  margin: 0;
+  font-size: var(--fs-md);
+}

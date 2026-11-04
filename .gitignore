@@ -1,0 +1,28 @@
+# Build output and caches
+node_modules/
+dist/
+dist-*/
+playwright-report/
+test-results/
+coverage/
+.vite/
+.qbcheck/
+*.tsbuildinfo
+npm-install.log
+
+# Raw reference material stays outside the repository on purpose (see docs/PLAN_COMPLIANCE.md)
+.cache/
+*.apk
+*.apk.xz
+*.dex
+*.traineddata
+Modded/
+
+# Local secrets and OS noise
+.env
+.env.*
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+desktop.ini

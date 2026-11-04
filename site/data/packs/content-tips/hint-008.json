@@ -1,0 +1,31 @@
+{
+  "id": "hint-008",
+  "kind": "tip",
+  "title": "Build one word list per errand",
+  "summary": "Group vocabulary by the task you will need it for, such as a pharmacy run or a metro trip.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "vocabulary",
+    "travel"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Random lists of interesting words are hard to use and easy to drop. A list built around one errand is self-explanatory: for a pharmacy trip you need the words for fever, medicine, how many times a day, and side effects; for the metro you need exit, change trains, tap your card, and the last service of the day. Keep each list to ten items or fewer and write a one-line sentence for anything you expect to say out loud. Before a real errand, reread that list on the way and review it again that evening, while the situation is still fresh in your memory."
+    },
+    {
+      "type": "list",
+      "title": "A pharmacy run in six words",
+      "body": [
+        "发烧 fāshāo — to have a fever",
+        "药 yào — medicine",
+        "一天几次？ yì tiān jǐ cì? — How many times a day?",
+        "副作用 fùzuòyòng — side effect",
+        "你有没有这个药？ nǐ yǒu méi yǒu zhège yào? — Do you have this medicine?",
+        "便宜 piányi — cheap"
+      ]
+    }
+  ]
+}

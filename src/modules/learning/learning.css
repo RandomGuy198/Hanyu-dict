@@ -1,0 +1,499 @@
+/* Learning module: practice hub, review session, tests and progress.
+   Tokens only — no literal colours, font sizes or spacing values. */
+
+.learn-stats {
+  display: grid;
+  gap: var(--sp-2);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 8.5rem), 1fr));
+}
+.learn-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--sp-3);
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.learn-stat-value {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.learn-stat-label {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+.learn-panel {
+  display: grid;
+  gap: var(--sp-3);
+}
+.learn-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  align-items: flex-end;
+}
+.learn-inline > .field {
+  flex: 1 1 12rem;
+  margin-bottom: 0;
+  min-width: 0;
+}
+.learn-narrow-field {
+  max-width: 10rem;
+}
+.learn-goal {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+/* flashcards */
+.learn-flash {
+  display: grid;
+  gap: var(--sp-3);
+}
+.learn-flash-card {
+  display: grid;
+  gap: var(--sp-3);
+  min-height: 12rem;
+  align-content: start;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-5) var(--sp-4);
+  box-shadow: var(--shadow-1);
+}
+.learn-flash-card:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+.learn-flash-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+.learn-flash-front {
+  font-size: var(--fs-lg);
+}
+.learn-answer {
+  display: grid;
+  gap: var(--sp-2);
+  border-top: 1px solid var(--border);
+  padding-top: var(--sp-3);
+}
+.learn-example {
+  display: grid;
+  gap: var(--sp-1);
+  background: var(--bg-sunken);
+  border-radius: var(--radius);
+  padding: var(--sp-3);
+  font-size: var(--fs-sm);
+}
+.learn-reveal-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+.learn-grade-grid {
+  display: grid;
+  gap: var(--sp-2);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 8rem), 1fr));
+}
+.learn-grade-btn {
+  display: grid;
+  gap: 2px;
+  justify-items: center;
+  min-height: var(--tap);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-raised);
+  color: var(--text);
+  font-size: var(--fs-sm);
+  font-weight: 650;
+  cursor: pointer;
+  text-align: center;
+}
+.learn-grade-btn:hover:not(:disabled) {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+.learn-grade-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.learn-grade-next {
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.learn-grade-key {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+.learn-hint {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+
+/* tests */
+.learn-test-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+.learn-options {
+  display: grid;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.learn-option {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  min-height: var(--tap);
+  padding: var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+  cursor: pointer;
+  font-size: var(--fs-md);
+}
+.learn-option:hover {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+.learn-option input {
+  width: 20px;
+  height: 20px;
+  margin: 2px 0 0;
+  accent-color: var(--primary);
+  flex: none;
+}
+.learn-option.is-picked {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+.learn-option-cjk {
+  font-family: var(--font-cjk);
+  font-size: var(--fs-lg);
+}
+.learn-review-list {
+  display: grid;
+  gap: var(--sp-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.learn-result-line {
+  display: grid;
+  gap: var(--sp-1);
+  padding: var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+}
+.learn-stem {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  line-height: 1.35;
+}
+.learn-stem-cjk {
+  font-family: var(--font-cjk);
+}
+
+/* progress charts (original CSS/SVG, no chart library) */
+.learn-chart {
+  margin: 0;
+  display: grid;
+  gap: var(--sp-2);
+}
+.learn-chart-caption {
+  display: grid;
+  gap: var(--sp-1);
+}
+.learn-chart-cols {
+  display: flex;
+  align-items: stretch;
+  gap: var(--sp-1);
+  height: 11rem;
+  padding-top: var(--sp-2);
+  border-top: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: thin;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.learn-chart-cols-compact {
+  height: 8rem;
+}
+.learn-chart-cols-compact .learn-col {
+  width: 1.4rem;
+  min-width: 1.4rem;
+}
+.learn-col {
+  flex: 1 0 auto;
+  width: 2.25rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: var(--sp-1);
+  justify-items: center;
+  text-align: center;
+}
+.learn-col-track {
+  display: grid;
+  align-items: end;
+  width: 100%;
+}
+.learn-col-bar {
+  width: 100%;
+  max-width: 2.5rem;
+  min-height: 2px;
+  background: var(--primary);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  transition: height var(--motion) var(--ease);
+}
+.learn-col-bar-forecast {
+  background: var(--secondary);
+}
+.learn-col-bar-zero {
+  background: none;
+  border-bottom: 2px solid var(--border);
+}
+.learn-col-value {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.learn-col-label {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+
+/* month grid: a real table, every count printed as text */
+.learn-month {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: var(--sp-1);
+  table-layout: fixed;
+  font-size: var(--fs-xs);
+}
+.learn-month th {
+  color: var(--text-muted);
+  font-weight: 600;
+  text-align: center;
+  padding: 0 0 var(--sp-1);
+}
+.learn-cell {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-sunken);
+  padding: var(--sp-1);
+  vertical-align: top;
+  height: 3rem;
+  min-width: 0;
+}
+.learn-cell-pad {
+  border-color: transparent;
+  background: none;
+}
+.learn-cell-day {
+  display: block;
+  font-weight: 650;
+  color: var(--text);
+}
+.learn-cell-count {
+  display: block;
+  color: var(--text-muted);
+  overflow-wrap: anywhere;
+}
+.learn-cell-count-empty {
+  color: var(--text-faint);
+}
+.learn-cell-low {
+  background: var(--primary-soft);
+}
+.learn-cell-mid {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+.learn-cell-high {
+  background: var(--primary);
+}
+.learn-cell-high .learn-cell-day,
+.learn-cell-high .learn-cell-count {
+  color: var(--on-primary);
+}
+.learn-cell-future {
+  background: none;
+  border-style: dashed;
+}
+.learn-cell-today {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+.learn-swatch-low {
+  background: var(--primary-soft);
+}
+.learn-swatch-mid {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+.learn-swatch-none {
+  background: var(--bg-sunken);
+}
+
+.learn-stack {
+  display: flex;
+  gap: 2px;
+  height: 1.5rem;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--bg-sunken);
+}
+.learn-seg {
+  display: grid;
+  place-items: center;
+  min-width: 1.5rem;
+  color: var(--on-primary);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  background: var(--primary);
+}
+.learn-seg-new {
+  background: var(--secondary);
+}
+.learn-seg-suspend {
+  background: var(--text-faint);
+}
+.learn-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.learn-legend li {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+.learn-swatch {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 3px;
+  background: var(--primary);
+  flex: none;
+}
+.learn-swatch-new {
+  background: var(--secondary);
+}
+.learn-swatch-suspend {
+  background: var(--text-faint);
+}
+.learn-donut-note {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+.learn-achieve {
+  display: grid;
+  gap: var(--sp-2);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+}
+.learn-achieve-item {
+  display: grid;
+  gap: var(--sp-2);
+  padding: var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+}
+.learn-achieve-item[data-locked='true'] {
+  background: var(--bg-sunken);
+}
+.learn-achieve-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+.learn-spark {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--primary);
+  flex: none;
+}
+.learn-footnote {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+.learn-flow {
+  display: grid;
+  gap: var(--sp-4);
+}
+.learn-flow > * {
+  min-width: 0;
+}
+.learn-section-lead {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0;
+}
+.learn-rule {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin: 0;
+}
+.learn-local-line {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0;
+}
+.learn-stat-link {
+  text-decoration: none;
+  color: inherit;
+}
+.learn-stat-link:hover {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+/* test shelf + test screen */
+.learn-needs {
+  display: grid;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.learn-passage {
+  display: grid;
+  gap: var(--sp-2);
+  background: var(--bg-sunken);
+  border-radius: var(--radius);
+  padding: var(--sp-3);
+}
+.learn-passage-line {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+}
+
+/* Tap targets: the shared .btn-sm is 34px, which is below this app's --tap minimum. Inside
+   the learning screens every control, including the compact ones, reaches the full target. */
+.learn-flow .btn-sm {
+  min-height: var(--tap);
+  padding: var(--sp-2) var(--sp-3);
+  font-size: var(--fs-sm);
+}
+

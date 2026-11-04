@@ -1,0 +1,19 @@
+{
+  "id": "hint-029",
+  "kind": "tip",
+  "title": "Shadow one short line at a time",
+  "summary": "Listen to a single line, pause, and copy it immediately, matching rhythm before individual sounds.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "speaking",
+    "pronunciation"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Copying speech while it is still in your ear trains timing, which sits below individual sounds and fixes more than you expect. Take one line only, let it end, and say it immediately without rereading anything. Do three or four lines per session and stop while it still feels easy; a tired shadow turns into guessing. Where you can, match the pauses and the length of the final syllable rather than chasing a perfect vowel, and use the same line the next day."
+    }
+  ]
+}

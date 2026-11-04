@@ -1,0 +1,70 @@
+{
+  "id": "lesson-002",
+  "kind": "lesson",
+  "title": "When tones change: two third tones, plus bù and yī",
+  "summary": "Say 你好 nǐ hǎo as ní hǎo without rewriting it, and pick up the automatic shifts of 不 bù and 一 yī.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "tones",
+    "sandhi",
+    "pinyin"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Tones change inside phrases even though the spelling stays the same. This is called tone sandhi, written 连读变调 lián dú biàn diào; you may ignore the term but not the habit. The biggest rule: two third tones in a row are spoken as a rising tone plus a third tone. 你好 nǐ hǎo is written nǐ hǎo but said ní hǎo, and 很好 hěn hǎo is written hěn hǎo but said hén hǎo. Two systems of writing pinyin exist. Some books write the tone you say, and some dictionaries, including the one this app is built on, write the tone a syllable carries when read alone. Both are the same word: learn the shift, and do not be surprised when a dictionary gives the alone-read tone, printing 一 yī where the spoken phrase says 一个 yí gè."
+    },
+    {
+      "type": "text",
+      "body": "不 bù is bú right before another fourth tone: 不是 bú shì (to be not), 不要 bú yào (to not want), 不会 bú huì (cannot), but still 不好 bù hǎo (not good) and 不行 bù xíng (not workable). 一 yī is yì before a first, second, or third tone: 一天 yì tiān (one day), 一年 yì nián (one year), 一起 yì qǐ (together); it is yí before a fourth tone: 一个 yí gè (one), 一次 yí cì (once); and it goes light between two copies of the same verb: 看一看 kàn yi kan (have a look)."
+    },
+    {
+      "type": "dialogue",
+      "title": "At the bakery",
+      "body": [
+        {
+          "speaker": "A",
+          "zh": "你好！我要一个面包。",
+          "py": "nǐ hǎo! wǒ yào yí gè miànbāo.",
+          "en": "Hello! I would like one bread roll."
+        },
+        {
+          "speaker": "B",
+          "zh": "好的。还要别的吗？",
+          "py": "hǎo de. hái yào bié de ma?",
+          "en": "Sure. Anything else?"
+        },
+        {
+          "speaker": "A",
+          "zh": "不要，谢谢。多少钱？",
+          "py": "bú yào, xièxie. duōshao qián?",
+          "en": "No, thanks. How much is it?"
+        },
+        {
+          "speaker": "B",
+          "zh": "八块。给你。",
+          "py": "bā kuài. gěi nǐ.",
+          "en": "Eight yuan. Here you go."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Practise these",
+      "body": [
+        "我们一起去。 wǒmen yì qǐ qù. — Let us go together.",
+        "他不是学生。 tā bú shì xuésheng. — He is not a student.",
+        "这封信我看了两遍。 zhè fēng xìn wǒ kàn le liǎng biàn. — I have read this letter twice.",
+        "对不起，我不知道。 duìbuqǐ, wǒ bù zhīdào. — Sorry, I do not know.",
+        "你慢慢说，好吗？ nǐ màn man shuō, hǎo ma? — Say it slowly, all right?",
+        "明年见！ míngnián jiàn! — See you next year!"
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial practice material written from scratch for general learners of Mandarin. It teaches tone sandhi, including the shifts of bù and yī, and nothing in it is taken from, copied from, or aligned to any commercial course, textbook brand, app, or official exam. It is not an answer key for any test."
+    }
+  ]
+}

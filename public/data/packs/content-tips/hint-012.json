@@ -1,0 +1,19 @@
+{
+  "id": "hint-012",
+  "kind": "tip",
+  "title": "Read text where you already know most words",
+  "summary": "Judge a reading text by how much you recognise, and stay below a handful of unknowns per line.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "reading",
+    "comprehension"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Reading that constantly stops you is not reading, it is searching. Pick a passage where you can recognise nearly every word without help, so your eye learns how words cluster instead of how one word looks alone. A useful check: read one line, and if you had to stop twice or more, the text is too hard for pleasure reading today. Keep two reading tracks going at once, one that is easy enough to finish and one that stretches you a little, and finish the easy one."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "article-002",
+  "kind": "article",
+  "title": "Ordering food without a panic",
+  "summary": "A meal out is a short fixed sequence, and each step has only one or two sentences that anyone says.",
+  "level": "elementary",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "food",
+    "ordering",
+    "everyday"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "A meal out is a fixed sequence of small moments: tea, chopsticks, the spice question, the dishes, the bill, the leftovers. Each moment has one or two sentences that people actually use, so the whole event is learnable before you sit down."
+    },
+    {
+      "type": "text",
+      "title": "Sit down first",
+      "body": "点菜只有几个动作，每个动作有一两句话。 Diǎn cài zhǐ yǒu jǐ ge dòngzuò, měi ge dòngzuò yǒu yì liǎng jù huà. — Ordering food is only a few moves, and each move has one or two sentences.  坐下以后，茶自己就来了。 Zuò xià yǐhòu, chá zìjǐ jiù lái le. — After you sit down, the tea comes by itself.  我想要一杯温水，不要冰的。 Wǒ xiǎng yào yì bēi wēnshuǐ, bú yào bīng de. — I would like a glass of warm water, not an iced one.  一双筷子，一把汤匙，这就够了。 Yì shuāng kuàizi, yì bǎ tāngchí, zhè jiù gòu le. — One pair of chopsticks, one soup spoon, and that is enough.  勺子用来喝汤，不用来吃饭。 Sháozi yòng lái hē tāng, bú yòng lái chī fàn. — The spoon is for soup, not for the rice."
+    },
+    {
+      "type": "text",
+      "title": "How spicy, and what to leave out",
+      "body": "服务员一定会问你辣不辣。 Fúwùyuán yídìng huì wèn nǐ là bu là. — The waiter will certainly ask you whether you want chilli.  不辣、微辣、中辣、很辣，四个词就够了。 Bú là, wēi là, zhōng là, hěn là, sì ge cí jiù gòu le. — No chilli, a little, medium, a lot, and four words are enough.  我不吃香菜，也少放盐。 Wǒ bù chī xiāngcài, yě shǎo fàng yán. — I do not eat coriander, and please use less salt.  上次我没说清楚，端上来一碗红的。 Shàng cì wǒ méi shuō qīngchu, duān shànglái yì wǎn hóng de. — Last time I did not explain clearly and a red bowl arrived.  现在我会先说：这个我不能吃辣。 Xiànzài wǒ huì xiān shuō: zhège wǒ bù néng chī là. — Now I say it first: I cannot take chilli with this one."
+    },
+    {
+      "type": "text",
+      "title": "The bill and the leftovers",
+      "body": "吃饭的人多，账单来得也快。 Chī fàn de rén duō, zhàngdān lái de yě kuài. — With many people eating, the bill comes quickly too.  想付钱，就说买单，也可以说账单。 Xiǎng fù qián, jiù shuō mǎidān, yě kěyǐ shuō zhàngdān. — To pay, call out mǎidān, or ask for the zhàngdān.  剩的菜想拿走，就要一个打包盒。 Shèng de cài xiǎng ná zǒu, jiù yào yí ge dǎbāo hé. — To take the leftovers home, ask for a box.  墙上有一个小方块，扫一下就付好了。 Qiáng shàng yǒu yí ge xiǎo fāngkuài, sǎo yí xià jiù fù hǎo le. — There is a small square on the wall; scan it once and it is paid.  付钱以前，先看清桌上的单子。 Fù qián yǐqián, xiān kàn qīng zhuō shàng de dānzi. — Before paying, look carefully at the slip on the table.  走完的时候，店里的人会喊一声慢走。 Zǒu wán de shíhou, diàn lǐ de rén huì hǎn yì shēng màn zǒu. — When you leave, someone in the shop calls out a send-off."
+    },
+    {
+      "type": "list",
+      "title": "Kitchen and table words",
+      "body": [
+        "菜单 càidān — menu",
+        "点菜 diǎn cài — to order dishes",
+        "筷子 kuàizi — chopsticks",
+        "汤匙 tāngchí — soup spoon",
+        "碗 wǎn — bowl",
+        "香菜 xiāngcài — coriander",
+        "辣 là — spicy",
+        "微辣 wēi là — mildly spicy",
+        "少盐 shǎo yán — less salt",
+        "少油 shǎo yóu — less oil",
+        "账单 zhàngdān — the bill",
+        "买单 mǎidān — to pay the bill",
+        "打包 dǎbāo — to box up leftovers",
+        "服务员 fúwùyuán — waiter",
+        "慢走 màn zǒu — a send-off from the door"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Six sentences for the table",
+      "body": [
+        "请给我菜单。 qǐng gěi wǒ càidān. — Please give me the menu.",
+        "这位点好了吗？ zhè wèi diǎn hǎo le ma? — Has this person finished ordering?",
+        "来一个青菜，不要辣。 lái yí gè qīngcài, bú yào là. — One greens dish, no chilli.",
+        "再加一碗饭。 zài jiā yì wǎn fàn. — Add one more bowl of rice.",
+        "这个不是我点的。 zhège bú shì wǒ diǎn de. — This is not what I ordered.",
+        "请打包，谢谢。 qǐng dǎbāo, xièxie. — A box for the leftovers, please."
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial reading material written from scratch for this project. It describes common everyday situations in general terms, is not taken from any commercial course, textbook, or official exam, and names no specific company, product, or service."
+    }
+  ]
+}

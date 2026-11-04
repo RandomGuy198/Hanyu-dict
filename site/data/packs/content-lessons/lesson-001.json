@@ -1,0 +1,77 @@
+{
+  "id": "lesson-001",
+  "kind": "lesson",
+  "title": "Four tones and one light one",
+  "summary": "Hear, shape, and mark the four Mandarin tones, plus the short neutral tone that carries no mark.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "tones",
+    "pinyin",
+    "pronunciation"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Every full syllable in Mandarin carries one of four tones, and a fifth, very common sound is the neutral tone: light, short, and written with no tone mark at all. Tone is part of the word, not decoration. One syllable can mean four different things: 妈 mā (mother), 麻 má (hemp), 马 mǎ (horse), 骂 mà (to scold). From the first week, learn each new word together with its tone, the way you would learn its spelling."
+    },
+    {
+      "type": "text",
+      "body": "Keep the shapes simple: tone one is high and flat, tone two rises, tone three dips low, tone four falls sharply. The neutral tone, written 轻声 qīngshēng, is the same syllable said fast and light, and its height depends on the tone before it. You meet it constantly in words you learn early: 妈妈 māma (mother), 谢谢 xièxie (thanks), 朋友 péngyou (friend), 便宜 piányi (cheap), 医生 yīshēng (doctor)."
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen for the shape",
+      "body": [
+        {
+          "speaker": "A",
+          "zh": "他喝茶。",
+          "py": "tā hē chá.",
+          "en": "He drinks tea."
+        },
+        {
+          "speaker": "B",
+          "zh": "她也喝咖啡。",
+          "py": "tā yě hē kāfēi.",
+          "en": "She also drinks coffee."
+        },
+        {
+          "speaker": "A",
+          "zh": "这是马，不是猫。",
+          "py": "zhè shì mǎ, bú shì māo.",
+          "en": "This is a horse, not a cat."
+        },
+        {
+          "speaker": "B",
+          "zh": "妈妈呢？",
+          "py": "māma ne?",
+          "en": "And where is mom?"
+        },
+        {
+          "speaker": "A",
+          "zh": "爸爸在家。",
+          "py": "bàba zài jiā.",
+          "en": "Dad is at home."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Practise these",
+      "body": [
+        "他爱花。 tā ài huā. — He loves flowers.",
+        "她怕老虎。 tā pà lǎohǔ. — She is afraid of tigers.",
+        "他知道。 tā zhīdào. — He knows.",
+        "那是你的书吗？ nà shì nǐ de shū ma? — Is that your book?",
+        "请坐，喝水。 qǐng zuò, hē shuǐ. — Please sit down and have some water.",
+        "我们四点见。 wǒmen sì diǎn jiàn. — We will meet at four.",
+        "他不认识路。 tā bú rènshi lù. — He does not know the way."
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial practice material written from scratch for general learners of Mandarin. It teaches the four tones and the neutral tone, and nothing in it is taken from, copied from, or aligned to any commercial course, textbook brand, app, or official exam. It is not an answer key for any test."
+    }
+  ]
+}

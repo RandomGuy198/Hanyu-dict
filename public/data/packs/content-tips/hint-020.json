@@ -1,0 +1,19 @@
+{
+  "id": "hint-020",
+  "kind": "tip",
+  "title": "Learn result complements as one verb",
+  "summary": "Store ting dong and zhao dao as single words rather than as a verb plus a separate idea.",
+  "level": "elementary",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "complements",
+    "vocabulary"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "A result complement is not a second verb you add on the fly; it is part of the word. Learn 听懂 tīng dǒng (to catch by listening), 看完 kàn wán (to read to the end), 找到 zhǎodào (to find), 记住 jì zhù (to remember), and 说错 shuō cuò (to say wrongly) as entries of their own, with their own examples, and they stop feeling like construction work. Notice that the outcome and the action share one slot for 了 le, which lands after the whole unit: 我找到了 wǒ zhǎodào le. Also learn the negative shape as one piece, since 没 méi goes in front and the 了 le disappears: 我没找到 wǒ méi zhǎodào."
+    }
+  ]
+}

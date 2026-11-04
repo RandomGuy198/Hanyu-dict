@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-04T15:16:37.414Z",
+  "note": "Opt-in OCR assets, served as static same-origin files. Nothing here loads until the user starts a recognition on the capture screen. Models and runtime are Apache-2.0; see public/licenses.",
+  "usage": "tesseract.js 5 with workerPath=<base>/ocr/worker.min.js, corePath=<base>/ocr, langPath=<base>/ocr/lang, gzip=true.",
+  "runtime": [
+    {
+      "path": "worker.min.js",
+      "bytes": 123724,
+      "sha256": "aca1229639fc9907d86f96e825955a2b7c5716d17f3bc3acd71f9c7ab66181fc",
+      "kind": "runtime"
+    },
+    {
+      "path": "tesseract-core-lstm.wasm.js",
+      "bytes": 3938277,
+      "sha256": "8f04aa0cc81e7bde33f80e92fa01a7a665f0b4884d098acf5de9c7104a11dfaa",
+      "kind": "runtime"
+    },
+    {
+      "path": "tesseract-core-simd-lstm.wasm.js",
+      "bytes": 3938657,
+      "sha256": "ce20eda9533cbed1e6c2b4276fbae1e0adc61b6754b5513084be601787b457cf",
+      "kind": "runtime"
+    }
+  ],
+  "models": [
+    {
+      "lang": "chi_sim",
+      "path": "lang/chi_sim.traineddata.gz",
+      "bytes": 1722294,
+      "rawBytes": 2469156,
+      "sha256": "6a317f84d100103a0740334e01c3dedbe761a29d946b44a166cb322729094bec",
+      "rawSha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730",
+      "license": "Apache-2.0"
+    },
+    {
+      "lang": "eng",
+      "path": "lang/eng.traineddata.gz",
+      "bytes": 1962155,
+      "rawBytes": 4113088,
+      "sha256": "b130d16b69e3888bc099133991a50a5b50e1da0e3ff6ca31a5496fab0fb386c3",
+      "rawSha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+      "license": "Apache-2.0"
+    }
+  ],
+  "totalBytes": 11685107
+}

@@ -1,0 +1,70 @@
+{
+  "id": "lesson-008",
+  "kind": "lesson",
+  "title": "Saying when: clock, dates, and order",
+  "summary": "Put time words in their fixed place and build dates from the year down.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "time",
+    "grammar",
+    "dates"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Time words come before what happens, never after it. The neutral slot is subject, then time, then verb: 我八点上班 wǒ bā diǎn shàngbān, 她星期六去跳舞 tā Xīngqīliù qù tiàowǔ. Putting the time first for emphasis is also fine: 八点我上班 bā diǎn wǒ shàngbān. What is not possible is 我上班八点 wǒ shàngbān bā diǎn. Day parts lead the clock: 上午 shàngwǔ (morning), 中午 zhōngwǔ (noon), 下午 xiàwǔ (afternoon), 晚上 wǎnshang (evening), 凌晨 língchén (small hours). The clock itself uses 点 diǎn (the hour), 分 fēn (minute), 半 bàn (half past), 刻 kè (quarter): 九点 jiǔ diǎn, 两点十分 liǎng diǎn shí fēn, 四点一刻 sì diǎn yí kè, 五点半 wǔ diǎn bàn."
+    },
+    {
+      "type": "text",
+      "body": "Dates run from big to small, the opposite of the order you may be used to: 2026 年 nián (year), 11 月 yuè (month), 4 日 rì, or 号 hào in speech. Weeks are 星期一 Xīngqīyī or 礼拜一 lǐbàiyī. Relative days are single words: 前天 qiántiān, 昨天 zuótiān, 今天 jīntiān, 明天 míngtiān, 后天 hòutiān. For order, 以前 yǐqián (before) and 以后 yǐhòu (after) carry the whole clause: 吃饭以前洗手 chī fàn yǐqián xǐshǒu, 五点以后打电话给我 wǔ diǎn yǐhòu dǎ diànhuà gěi wǒ. Span and range use 从…到 cóng…dào: 商店从九点到六点开门 shāngdiàn cóng jiǔ diǎn dào liù diǎn kāi mén, 我学了两年的中文 wǒ xué le liǎng nián de Zhōngwén."
+    },
+    {
+      "type": "dialogue",
+      "title": "Making a plan",
+      "body": [
+        {
+          "speaker": "A",
+          "zh": "你明天有空吗？",
+          "py": "nǐ míngtiān yǒu kòng ma?",
+          "en": "Are you free tomorrow?"
+        },
+        {
+          "speaker": "B",
+          "zh": "下午三点以后有。",
+          "py": "xiàwǔ sān diǎn yǐhòu yǒu.",
+          "en": "After three in the afternoon, yes."
+        },
+        {
+          "speaker": "A",
+          "zh": "那我们三点半见。",
+          "py": "nà wǒmen sān diǎn bàn jiàn.",
+          "en": "Then let us meet at half past three."
+        },
+        {
+          "speaker": "B",
+          "zh": "好。我们以前去过那里吗？",
+          "py": "hǎo. wǒmen yǐqián qù guò nàlǐ ma?",
+          "en": "All right. Have we been there before?"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Practise these",
+      "body": [
+        "我每天早上七点跑步。 wǒ měi tiān zǎoshang qī diǎn pǎobù. — I go running at seven every morning.",
+        "她的生日是三月八号。 tā de shēngrì shì sān yuè bā hào. — Her birthday is March 8.",
+        "我们从周一工作到周五。 wǒmen cóng Zhōuyī gōngzuò dào Zhōuwǔ. — We work from Monday to Friday.",
+        "开会以前我先收手机。 kāi huì yǐqián wǒ xiān shōu shǒujī. — I put my phone away before the meeting.",
+        "他去年十二月到了北京。 tā qùnián shí èr yuè dào le Běijīng. — He arrived in Beijing last December.",
+        "晚上十点以后很安静。 wǎnshang shí diǎn yǐhòu hěn ānjìng. — It is very quiet after ten at night."
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial practice material written from scratch for general learners of Mandarin. It teaches time expressions and dates, and nothing in it is taken from, copied from, or aligned to any commercial course, textbook brand, app, or official exam. It is not an answer key for any test."
+    }
+  ]
+}

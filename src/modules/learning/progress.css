@@ -1,0 +1,209 @@
+/* Progress screen: charts and counters. Reuses .learn-* primitives from learning.css;
+   everything new is .prog-. Tokens only — no literal colours or font sizes. */
+
+.prog-caption {
+  display: grid;
+  gap: var(--sp-1);
+  font-size: var(--fs-md);
+}
+.prog-caption strong {
+  font-size: var(--fs-md);
+}
+
+/* bar charts: heights are data-driven fractions of --prog-plot-h, set inline */
+.prog-plot {
+  --prog-plot-h: 8rem;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--sp-1);
+  min-height: calc(var(--prog-plot-h) + 3rem);
+  padding-top: var(--sp-2);
+  border-top: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.prog-plot-compact {
+  --prog-plot-h: 6rem;
+}
+.prog-col {
+  flex: 1 1 2rem;
+  min-width: 2rem;
+  display: grid;
+  justify-items: center;
+  align-content: end;
+  gap: var(--sp-1);
+  text-align: center;
+}
+.prog-plot-compact .prog-col {
+  flex: 1 1 1.4rem;
+  min-width: 1.4rem;
+}
+.prog-col-bar {
+  width: 100%;
+  max-width: 2.5rem;
+  min-height: 2px;
+  background: var(--primary);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  transition: height var(--motion) var(--ease);
+}
+.prog-col-bar-zero {
+  background: none;
+  border-bottom: 2px solid var(--border);
+}
+.prog-col-value {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.prog-col-label {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+.prog-chart-note {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin: 0;
+}
+
+/* month grid */
+.prog-month {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: var(--sp-1);
+  table-layout: fixed;
+  font-size: var(--fs-xs);
+}
+.prog-month th {
+  color: var(--text-muted);
+  font-weight: 600;
+  text-align: center;
+  padding: 0 0 var(--sp-1);
+}
+.prog-cell {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-sunken);
+  padding: var(--sp-1);
+  vertical-align: top;
+  height: 3rem;
+  min-width: 0;
+}
+.prog-cell-pad {
+  border-color: transparent;
+  background: none;
+}
+.prog-cell-day {
+  display: block;
+  font-weight: 650;
+  color: var(--text);
+}
+.prog-cell-count {
+  display: block;
+  color: var(--text-muted);
+  overflow-wrap: anywhere;
+}
+.prog-cell-count-empty {
+  color: var(--text-faint);
+}
+.prog-cell-none {
+  background: var(--bg-sunken);
+}
+.prog-cell-low {
+  background: var(--primary-soft);
+}
+.prog-cell-mid {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+.prog-cell-high {
+  background: var(--primary);
+}
+.prog-cell-high .prog-cell-day,
+.prog-cell-high .prog-cell-count {
+  color: var(--on-primary);
+}
+.prog-cell-future {
+  background: none;
+  border-style: dashed;
+}
+.prog-cell-today {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+.prog-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+.prog-legend li {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+.prog-swatch {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  flex: none;
+}
+.prog-swatch-none {
+  background: var(--bg-sunken);
+}
+.prog-swatch-low {
+  background: var(--primary-soft);
+}
+.prog-swatch-mid {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+.prog-swatch-high {
+  background: var(--primary);
+}
+
+/* page furniture */
+.prog-section-lead {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0;
+}
+.prog-rule {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin: 0;
+}
+.prog-stats {
+  display: grid;
+  gap: var(--sp-2);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+}
+.prog-stat-link {
+  text-decoration: none;
+  color: inherit;
+}
+.prog-stat-link:hover {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+.prog-state-line {
+  display: grid;
+  gap: var(--sp-1);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0;
+}
+.prog-footnote {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin: 0;
+}
+.prog-local-line {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0;
+}

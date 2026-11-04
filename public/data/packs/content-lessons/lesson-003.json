@@ -1,0 +1,82 @@
+{
+  "id": "lesson-003",
+  "kind": "lesson",
+  "title": "Reading pinyin: the sneaky vowel ü",
+  "summary": "Know when a written u is really ü, how to type it as v, and which pinyin letters are silent.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "pinyin",
+    "spelling",
+    "input-method"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Mandarin has a rounded vowel that English lacks: ü, said like ee with your lips pushed into a circle. Its spelling is sneaky, because after j, q, x, and y the two dots are dropped. So ju, qu, xu, and yu always contain ü: 去 qù (go), 学 xué (learn), 鱼 yú (fish), 句 jù (sentence), 月 yuè (month). After l and n the dots stay, and they matter: 女 nǚ (woman) next to 努 nǔ (to strive), 绿 lǜ (green) next to 路 lù (road), 旅 lǚ (travel) next to 炉 lú (stove)."
+    },
+    {
+      "type": "text",
+      "body": "Keyboards rarely have a ü key, so pinyin input methods borrow v for it: type nv to reach 女 nǚ, lv for 绿 lǜ, and lvxing for 旅行 lǚxíng (to travel). You still type qu, xu, ju, and yu with u, because those syllables cannot be pronounced any other way. Two more quirks to expect: some vowels hide, so niu is really niou and dui is really duei; and the i in zhi, chi, shi, and ri is a buzz after the consonant, not the vowel of 比 bǐ (to compare). The tone mark rides on the main vowel, and in -iu or -ui it lands on the last letter: 六 liù (six), 对 duì (correct), 全 quán (whole)."
+    },
+    {
+      "type": "dialogue",
+      "title": "Typing with a friend",
+      "body": [
+        {
+          "speaker": "A",
+          "zh": "你怎么打中文？",
+          "py": "nǐ zěnme dǎ Zhōngwén?",
+          "en": "How do you type Chinese?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我用拼音打字。",
+          "py": "wǒ yòng pīnyīn dǎ zì.",
+          "en": "I type with pinyin."
+        },
+        {
+          "speaker": "A",
+          "zh": "这个女字怎么打？",
+          "py": "zhège nǚ zì zěnme dǎ?",
+          "en": "How do you type this character for woman?"
+        },
+        {
+          "speaker": "B",
+          "zh": "键盘上没有它。",
+          "py": "jiànpán shàng méiyǒu tā.",
+          "en": "There is no key for it on the keyboard."
+        },
+        {
+          "speaker": "A",
+          "zh": "那用什么？",
+          "py": "nà yòng shénme?",
+          "en": "Then what do you use?"
+        },
+        {
+          "speaker": "B",
+          "zh": "它和绿的打法一样。",
+          "py": "tā hé lǜ de dǎfǎ yíyàng.",
+          "en": "It is typed exactly like the character for green, using the v key."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Practise these",
+      "body": [
+        "他去北京学中文。 tā qù Běijīng xué Zhōngwén. — He is going to Beijing to study Chinese.",
+        "我有一个绿色的包。 wǒ yǒu yí gè lǜsè de bāo. — I have a green bag.",
+        "这个鱼不贵。 zhège yú bú guì. — This fish is not expensive.",
+        "我们八点去火车站。 wǒmen bā diǎn qù huǒchēzhàn. — We go to the train station at eight.",
+        "你住在哪里？ nǐ zhù zài nǎlǐ? — Where do you live?",
+        "姐姐学法语。 jiějie xué Fǎyǔ. — My older sister studies French."
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial practice material written from scratch for general learners of Mandarin. It teaches pinyin spelling and the v typing convention, and nothing in it is taken from, copied from, or aligned to any commercial course, textbook brand, app, or official exam. It is not an answer key for any test."
+    }
+  ]
+}

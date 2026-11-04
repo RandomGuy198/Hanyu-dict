@@ -1,0 +1,246 @@
+# CI for the clean-room Hanyu Dictionary PWA.
+#
+# Design notes (read before editing):
+#
+# 1. GATES ARE THE PROJECT'S OWN SCRIPTS. Nothing here re-implements a check that
+#    `package.json` already owns. `npm run build` is the same chain
+#    (data:check -> typecheck -> vitest -> vite build); CI splits it into separate steps only so
+#    a failure names the gate that broke.
+#
+# 2. NO RAW DATA CACHE IS REQUIRED. The pipeline downloads third-party sources at BUILD time on a
+#    maintainer's machine into the cache dir OUTSIDE the repository (default `<repo>/../.cache/raw`,
+#    override with `--cache <dir>` or `HANYU_CACHE`; `.gitignore` keeps `.cache/` and `*.apk` out of
+#    git). Only the *generated* packs in `public/data/` are committed, which is why the site works
+#    without a data build. CI therefore verifies the committed packs offline:
+#      * `npm run data:check` (scripts/content/check-provenance.mjs) re-hashes every file listed in
+#        `public/data/manifest.json`, checks licence texts + THIRD_PARTY_NOTICES.md, the opt-in OCR
+#        manifest, and runs its own clean-room scan of `src/`, `public/` and `scripts/`. It prints
+#        "raw cache ... is absent (expected in CI)" and continues, because pack hashes - not the
+#        upstream downloads - are what the shipped site depends on.
+#    To regenerate the data after an upstream release, run locally (network required):
+#      npm run data:fetch          # fills and pins ../.cache/raw from scripts/content/provenance.json
+#      npm run data:build          # rebuilds public/data + public/licenses from that cache
+#      npm run data:check          # must be green before committing the regenerated packs
+#    Never commit the cache, and never let CI call `data:fetch`.
+#
+# 3. ONE STEP DETECTS ITS OWN MISSING PREREQUISITE.
+#    `eslint` is a declared devDependency, so the Lint step is a real gate and runs
+#    `eslint . --max-warnings 0`. It keeps an `elif` branch that reports NOT RUN if the binary is
+#    ever absent again (a trimmed install, a dropped dependency) rather than pretending the gate
+#    passed; `require_lint` turns that report into a hard failure. The unit-test step keeps the
+#    equivalent guard for the case where no `*.test.ts(x)` file is tracked (test files exist today,
+#    so that branch normally does not fire; `vitest run` would otherwise exit 1 with "No test files
+#    found", which is not the same failure as a broken test).
+#    A gate that *can* run always fails the job when it fails; the job summary records which gates
+#    did not execute.
+#
+# 4. The clean-room assertion below complements check-provenance.mjs §8. That scan reads the working
+#    tree; this one reads git's index, so a force-added `.cache/`, `Modded/`, `*.apk` or `*.dex`
+#    blob is caught even though `.gitignore` would have hidden it on the way in.
+#
+# 5. Playwright (`npm run test:e2e`) is deliberately NOT run here: these workflows do not install
+#    browser binaries, and a journey suite that never executed must not be reported as a pass. If the
+#    e2e suite is meant to gate merges, add a `npx playwright install --with-deps chromium` step and
+#    run it against `npm run build:only` + `vite preview`; until then its status is "not run".
+
+name: CI
+
+on:
+  pull_request:
+    branches: ['**']
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+    inputs:
+      require_lint:
+        description: 'Fail instead of warning when the ESLint toolchain is not installed'
+        type: boolean
+        default: false
+
+# This workflow only reads the repository and uploads an artifact for inspection.
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gates:
+    name: provenance · typecheck · tests · lint · build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      # Node 20 per the release plan. The app itself targets es2022 browsers; Node is build-time only.
+      NODE_VERSION: '20'
+      REQUIRE_LINT: ${{ inputs.require_lint && 'true' || 'false' }}
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+        with:
+          # Full history is not needed, but the index is: the clean-room assertion reads git.
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Set up Node ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm # caches ~/.npm keyed on package-lock.json + the workflow file
+
+      - name: Install dependencies (npm ci)
+        run: npm ci --no-audit --no-fund
+
+      - name: Clean-room assertion (no APK, decompiled or reference material tracked)
+        shell: bash
+        run: |
+          set -uo pipefail
+          status=0
+          deny=(
+            '\.apk$'                     # the reference app itself (also in .gitignore)
+            '\.apk\.[a-z0-9]+$'          # e.g. base_1.apk.xz
+            '\.dex$'                     # Dalvik bytecode, only ever extracted from an APK
+            '\.traineddata$'             # uncompressed OCR model = raw cache artifact.
+                                         # public/data/ocr/lang/*.traineddata.gz is the *generated*,
+                                         # Apache-2.0-licensed pack file and stays allowed.
+            '(^|/)Modded/'               # the analysis directory (lives outside this repo by design)
+            '(^|/)\.cache/'              # raw upstream downloads
+            'jadx|smali|decompiled|apktool'
+            '(^|/)base-package-evidence\.json$'
+            '(^|/)(IMPLEMENTATION_PLAN|DATA_SOURCES|FEATURE_INVENTORY)\.md$'  # planning/legal docs
+            '(^|/)(base_1|split_config[^/]*_[0-9]+)\.apk$'
+            '(^|/)\.env$|(^|/)\.env\.[a-z]+$'
+            '\.(key|pem)$'
+            '(^|/)node_modules/'
+          )
+          mapfile -t tracked < <(git ls-files)
+          echo "asserting over ${#tracked[@]} tracked files"
+          for pattern in "${deny[@]}"; do
+            while IFS= read -r hit; do
+              [ -n "$hit" ] || continue
+              echo "::error title=Reference material tracked::${hit} matches forbidden pattern ${pattern}. Reference material must stay outside this repository (see .gitignore and docs/PLAN_COMPLIANCE.md)."
+              status=1
+            done < <(printf '%s\n' "${tracked[@]}" | grep -Ei "$pattern" || true)
+          done
+          # Files that .gitignore should have kept out of git; a hit means `git add -f`.
+          while IFS= read -r forced; do
+            [ -n "$forced" ] || continue
+            case "$forced" in
+              dist/*|dist-*)
+                # Not illegal, just out of sync with the default Pages shape: deploy.yml rebuilds
+                # from source, so a committed dist/ is never the file set Pages will serve.
+                echo "::warning title=Committed build output::${forced} is gitignored yet tracked. If you chose the committed-folder Pages shape, publish it under docs/ instead (see README)."
+                ;;
+              *)
+                echo "::error title=Gitignored material tracked::${forced} is in .gitignore but committed. Raw downloads, caches and reference material never belong in this repository."
+                status=1
+                ;;
+            esac
+          done < <(git ls-files -i -c --exclude-standard)
+          # The reference APKs are siblings of the repo, not inside it. Say so, so a reader of the
+          # log knows this step asserted over the index and not over the parent directory.
+          echo "Reference material expected outside the index: ../Modded/* and ../*.apk (gitignore: Modded/, *.apk, *.apk.xz, *.dex, *.traineddata, .cache/)."
+          exit $status
+
+      - name: Provenance and licence gate (offline, from the committed packs)
+        run: npm run data:check
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Unit tests
+        id: unit
+        shell: bash
+        run: |
+          set -uo pipefail
+          count=$(git ls-files | grep -cE '\.test\.(ts|tsx)$' || true)
+          echo "test_files=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" -gt 0 ]; then
+            npm test
+            echo "result=ran $count test file(s)" >> "$GITHUB_OUTPUT"
+          else
+            # Guard for a repository with no tracked unit tests: `vitest run` would exit 1 with
+            # "No test files found", which is not the same failure as a broken test. Tests do exist
+            # in this project, so this branch should never fire; if it does, somebody removed them.
+            # Do not pretend this gate passed: it did not execute, and the summary says so.
+            echo "::warning title=Unit tests did not run::no *.test.ts(x) files are tracked in this commit. This gate is vacuous for this commit."
+            echo "result=NOT RUN - no test files in the repository" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Lint
+        id: lint
+        shell: bash
+        run: |
+          set -uo pipefail
+          if [ -x node_modules/.bin/eslint ]; then
+            # eslint is a declared devDependency, so this is a real gate. The tree is currently clean
+            # at zero warnings, which is why --max-warnings 0 is safe to enforce: a new
+            # react-hooks/exhaustive-deps warning fails the build instead of accumulating.
+            npx eslint . --max-warnings 0
+            echo "result=ran eslint, 0 errors, 0 warnings" >> "$GITHUB_OUTPUT"
+          elif [ "$REQUIRE_LINT" = 'true' ]; then
+            echo "::error title=Lint required but unavailable::eslint is not installed. Run: npm i -D eslint@^9 @eslint/js@^9 typescript-eslint@^8 eslint-plugin-react@^7 eslint-plugin-react-hooks@^5 globals, and declare it in package.json."
+            exit 1
+          else
+            echo "::warning title=Lint did not run::the ESLint toolchain is not a dependency of this project yet (see the npm i -D command list in README and eslint.config.js). When package.json declares eslint, set the require_lint input (or edit ci.yml) to make this a hard gate."
+            echo "result=NOT RUN - eslint not installed" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Production build
+        run: npm run build:only
+
+      - name: Verify the build output is a complete PWA
+        shell: bash
+        run: |
+          set -uo pipefail
+          for f in index.html manifest.webmanifest sw.js data/manifest.json; do
+            if [ ! -f "dist/$f" ]; then
+              echo "::error title=Incomplete build::dist/$f is missing. A PWA without its manifest or its pack registry is a silent failure on Pages - the app installs as a blank tab or never loads the dictionary."
+              exit 1
+            fi
+          done
+          grep -q 'http-equiv="Content-Security-Policy"' dist/index.html || {
+            echo "::error title=CSP missing::dist/index.html has no CSP meta tag; the build-time plugin in vite.config.ts did not run."
+            exit 1
+          }
+          # base: './' must keep every emitted URL relative, or the site only works at /hanyu-web/.
+          if grep -qE '(src|href)="/[^/]' dist/index.html; then
+            echo "::error title=Absolute asset URL::dist/index.html references /assets... instead of ./assets...; GitHub Pages under a repo name would 404."
+            exit 1
+          fi
+          du -sh dist
+          find dist -maxdepth 2 -type f | sort | head -25
+
+      - name: Upload dist for inspection
+        uses: actions/upload-artifact@v7
+        with:
+          name: dist-${{ github.run_id }}-${{ github.run_attempt }}
+          path: dist
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Gate summary
+        if: always()
+        shell: bash
+        env:
+          UNIT_OUT: ${{ steps.unit.outputs.result }}
+          LINT_OUT: ${{ steps.lint.outputs.result }}
+        run: |
+          set -uo pipefail
+          {
+            echo "## CI gates"
+            echo
+            echo "| gate | outcome |"
+            echo "| --- | --- |"
+            echo "| clean-room assertion (git index) | passed |"
+            echo "| provenance + licences (offline, committed packs) | passed |"
+            echo "| typecheck (tsc --noEmit) | passed |"
+            echo "| unit tests | ${UNIT_OUT:-not reported} |"
+            echo "| lint (eslint flat config) | ${LINT_OUT:-not reported} |"
+            echo "| production build + PWA completeness | passed |"
+            echo
+            echo "Any row reading NOT RUN means that gate did not execute for this commit; it is not"
+            echo "a pass. See the workflow log for the reason and the fix."
+          } >> "$GITHUB_STEP_SUMMARY"

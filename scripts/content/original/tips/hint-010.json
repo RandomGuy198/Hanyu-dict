@@ -1,0 +1,19 @@
+{
+  "id": "hint-010",
+  "kind": "tip",
+  "title": "Trace stroke order before you write freely",
+  "summary": "Follow the animated stroke order first, then write by hand on paper, never on screen only.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "handwriting",
+    "stroke-order"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "Handwriting is a motor skill, and motor skills need a pen on paper. Watch a character stroke by stroke first so you know which line comes before which, then write the whole character from memory several times. Stroke order is not etiquette; it decides how a character stays readable when written fast, and it is how you get the top-left-to-bottom-right rhythm that makes your handwriting legible to someone else. Pick five characters per session and stop when the fifth one looks wrong, rather than filling a page from a bad model."
+    }
+  ]
+}

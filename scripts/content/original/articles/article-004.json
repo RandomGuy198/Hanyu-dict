@@ -1,0 +1,70 @@
+{
+  "id": "article-004",
+  "kind": "article",
+  "title": "Holidays at home",
+  "summary": "Food, phone calls, and train tickets: the ordinary Chinese of a family day off.",
+  "level": "elementary",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "holidays",
+    "family",
+    "culture"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "A holiday in a Chinese-speaking home is organised around a table, a phone, and a journey. None of it needs literary language, and the words that carry the day can be learned in a single evening."
+    },
+    {
+      "type": "text",
+      "title": "The table",
+      "body": "家里的节日是从一张桌子开始的。 Jiā lǐ de jiérì shì cóng yì zhāng zhuōzi kāishǐ de. — A family holiday begins with one table.  我们说一家人吃饭，意思是所有人都到。 Wǒmen shuō yì jiā rén chī fàn, yìsi shì suǒyǒu rén dōu dào. — When we say the family eats together, we mean everyone has arrived.  那天桌上有饺子、鱼，还有汤圆。 Nà tiān zhuō shàng yǒu jiǎozi, yú, hái yǒu tāngyuán. — On that day the table holds dumplings, fish, and rice balls.  年纪大的人先坐，也先吃。 Niánjì dà de rén xiān zuò, yě xiān chī. — The older person sits first and eats first.  我在厨房只做一件事：包饺子。 Wǒ zài chúfáng zhǐ zuò yí jiàn shì: bāo jiǎozi. — In the kitchen I do only one thing: wrapping dumplings."
+    },
+    {
+      "type": "text",
+      "title": "The phone calls",
+      "body": "吃饭以前，家里先打几个电话。 Chī fàn yǐqián, jiā lǐ xiān dǎ jǐ ge diànhuà. — Before the meal the family makes a few calls.  新年快乐这句话最短，也最有用。 Xīnnián kuàilè zhè jù huà zuì duǎn, yě zuì yǒuyòng. — Happy new year is the shortest greeting and the most useful.  别人给我红包的时候，我说恭喜发财。 Bié rén gěi wǒ hóngbāo de shíhou, wǒ shuō gōngxǐ fācái. — When someone hands me a red envelope, I say may you prosper.  家里的问题只有两个：吃了吗，什么时候回来。 Jiā lǐ de wèntí zhǐ yǒu liǎng ge: chī le ma, shénme shíhou huílái. — At home there are only two questions: have you eaten, and when are you coming back.  第一个问题的回答是吃了吃了。 Dì yī ge wèntí de huídá shì chī le chī le. — The answer to the first one is yes I have, yes I have."
+    },
+    {
+      "type": "text",
+      "title": "The journey",
+      "body": "放假的时候，所有人都要去买票。 Fàngjià de shíhou, suǒyǒu rén dōu yào qù mǎi piào. — When the holiday comes, everybody goes to buy tickets.  假很长，票不好买。 Jià hěn cháng, piào bù hǎo mǎi. — The break is long and the tickets are hard to get.  哥哥回老家，路上堵了四个小时。 Gēge huí lǎojiā, lùshang dǔ le sì ge xiǎoshí. — My older brother goes back to the home town and sits in traffic for four hours.  上班的日子也要跟着调，大家都说调休。 Shàngbān de rìzi yě yào gēnzhe tiáo, dàjiā dōu shuō tiáoxiū. — Working days shift around the break too, and everyone calls it tiaoxiu.  走的时候，妈妈只说一句：路上小心。 Zǒu de shíhou, māma zhǐ shuō yí jù: lùshang xiǎoxīn. — When you leave, mother says only one line: be careful on the way."
+    },
+    {
+      "type": "list",
+      "title": "Holiday words",
+      "body": [
+        "节日 jiérì — festival, holiday",
+        "放假 fàngjià — to have days off",
+        "一家人 yì jiā rén — the whole family",
+        "饺子 jiǎozi — dumpling",
+        "包饺子 bāo jiǎozi — to wrap dumplings",
+        "汤圆 tāngyuán — glutinous rice ball",
+        "月饼 yuèbǐng — mooncake",
+        "红包 hóngbāo — red envelope",
+        "恭喜发财 gōngxǐ fācái — may you prosper",
+        "回老家 huí lǎojiā — to go back to the family home town",
+        "堵车 dǔ chē — to be stuck in traffic",
+        "票不好买 piào bù hǎo mǎi — tickets are hard to buy",
+        "调休 tiáoxiū — to shift working days around a holiday",
+        "路上小心 lùshang xiǎoxīn — be careful on the way"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Lines you will hear at the table",
+      "body": [
+        "吃了吗？ chī le ma? — Have you eaten?",
+        "多吃点儿，别客气。 duō chī diǎnr, bié kèqi. — Eat more, do not stand on ceremony.",
+        "什么时候回来？ shénme shíhou huílái? — When are you coming back?",
+        "我给大家倒茶。 wǒ gěi dàjiā dào chá. — Let me pour tea for everyone.",
+        "今天人真多。 jīntiān rén zhēn duō. — There are really a lot of people today."
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial reading material written from scratch for this project. It describes common everyday situations in general terms, is not taken from any commercial course, textbook, or official exam, and names no specific company, product, or service."
+    }
+  ]
+}

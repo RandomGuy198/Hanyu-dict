@@ -1,0 +1,70 @@
+{
+  "id": "lesson-012",
+  "kind": "lesson",
+  "title": "Linking ideas and asking politely",
+  "summary": "Join clauses with yīnwèi...suǒyǐ, dànshì, and háishi, then soften requests with qǐng, kěyǐ, and máfan.",
+  "level": "elementary",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "conjunctions",
+    "politeness",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "A few connectives carry most everyday linking. 和 hé (and) joins nouns only: 我和姐姐 wǒ hé jiějie (my sister and I); for clauses use 而且 érqiě (and moreover) or 也 yě (also): 她唱歌，也弹吉他 tā chàng gē, yě tán jítā. Because and so come as a pair, and Chinese says both: 因为下雨，所以我们没去 yīnwèi xià yǔ, suǒyǐ wǒmen méi qù. Contrast takes 但是 dànshì or 可是 kěshì (but): 我想去，可是没时间 wǒ xiǎng qù, kěshì méi shíjiān. Choice questions use 还是 háishi (or?), while 或者 huòzhě gives alternatives inside a statement: 你喝茶还是咖啡? nǐ hē chá háishi kāfēi? 我周末看书或者做饭 wǒ zhōumò kàn shū huòzhě zuò fàn. Sequencing uses 先…再 xiān…zài: 先洗手，再吃饭 xiān xǐshǒu, zài chī fàn."
+    },
+    {
+      "type": "text",
+      "body": "Politeness in Chinese is mostly about framing, not fancy words. 请 qǐng before a request is standard: 请稍等 qǐng shāo děng. 您 nín is the respectful you, used with shop staff, elders, and officials. Ask permission with 可以…吗 kěyǐ…ma? or 能不能 néng bu néng: 我可以看看菜单吗? wǒ kěyǐ kànkan càidān ma? 能不能慢一点儿说? néng bu néng màn yìdiǎnr shuō? To borrow effort, say 麻烦 máfan, literally to trouble someone: 麻烦您帮我一下 máfan nín bāng wǒ yíxià. Apologise lightly with 不好意思 bù hǎoyìsi. Add 吧 ba to soften a suggestion (我们九点见吧 wǒmen jiǔ diǎn jiàn ba) and 好不好 hǎo bù hǎo or 行吗 xíng ma at the end when you truly want an answer."
+    },
+    {
+      "type": "dialogue",
+      "title": "A small favour",
+      "body": [
+        {
+          "speaker": "A",
+          "zh": "您好，可以帮我拿一下那个盒子吗？",
+          "py": "nín hǎo, kěyǐ bāng wǒ ná yíxià nàgè hézi ma?",
+          "en": "Hello, could you help me grab that box?"
+        },
+        {
+          "speaker": "B",
+          "zh": "当然可以。您是要这个吗？",
+          "py": "dāngrán kěyǐ. nín shì yào zhège ma?",
+          "en": "Of course. Is this the one you want?"
+        },
+        {
+          "speaker": "A",
+          "zh": "对，谢谢您。麻烦您了。",
+          "py": "duì, xièxie nín. máfan nín le.",
+          "en": "Yes, thank you. Sorry to trouble you."
+        },
+        {
+          "speaker": "B",
+          "zh": "不客气。因为今天人少，所以很快。",
+          "py": "bú kèqi. yīnwèi jīntiān rén shǎo, suǒyǐ hěn kuài.",
+          "en": "You are welcome. There are few people today, so it is quick."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Practise these",
+      "body": [
+        "因为今天太累，所以我早一点回去。 yīnwèi jīntiān tài lèi, suǒyǐ wǒ zǎo yìdiǎn huíqù. — I am very tired today, so I will go back early.",
+        "请帮我拿两双筷子，好吗？ qǐng bāng wǒ ná liǎng shuāng kuàizi, hǎo ma? — Could you bring me two pairs of chopsticks?",
+        "你可以明天再来，也可以现在等。 nǐ kěyǐ míngtiān zài lái, yě kěyǐ xiànzài děng. — You can come back tomorrow or wait now.",
+        "他不说中文，也不说英文，只说法文。 tā bù shuō Zhōngwén, yě bù shuō Yīngwén, zhǐ shuō Fǎwén. — He speaks neither Chinese nor English, only French.",
+        "你们喝茶还是喝果汁？ nǐmen hē chá háishi hē guǒzhī? — Would you have tea or juice?",
+        "麻烦您把窗户关一下。 máfan nín bǎ chuānghu guān yíxià. — Could you please close the window?"
+      ]
+    },
+    {
+      "type": "note",
+      "body": "Independent, unofficial practice material written from scratch for general learners of Mandarin. It teaches conjunctions and polite requests, and nothing in it is taken from, copied from, or aligned to any commercial course, textbook brand, app, or official exam. It is not an answer key for any test."
+    }
+  ]
+}

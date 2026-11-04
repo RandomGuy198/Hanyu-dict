@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "note": "Build-time provenance register for the content pipeline. One entry per upstream source. Raw downloads live OUTSIDE the repository in the cache dir (default ../.cache/raw, override with --cache or HANYU_CACHE); never copy them into the repo.",
+  "sources": [
+    {
+      "id": "cc-cedict",
+      "upstreamProject": "CC-CEDICT community maintenance project (CC-CEDICT.org), published by MDBG",
+      "sourceUrl": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.zip",
+      "projectUrl": "https://cc-cedict.org/wiki/",
+      "upstreamVersion": "1.0 (format=ts, version=1 subversion=0)",
+      "upstreamDate": "2026-11-04T07:19:40Z",
+      "pinnedBy": "release date in the file header (#! date=) plus the sha256 of the extracted cedict_ts.u8",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseFile": "public/licenses/CC-BY-SA-4.0.txt",
+      "attribution": "CC-CEDICT community maintenance project (CC-CEDICT.org) and contributors.",
+      "attributionNote": "Also credits CEDICT - Copyright (C) 1997, 1998 Paul Andrew Denisowski, as stated in the CC-CEDICT file header.",
+      "shareAlike": true,
+      "shareAlikeNote": "dictionary-core is an adaptation of CC-CEDICT and is distributed under CC BY-SA 4.0.",
+      "downloads": [
+        {
+          "cacheFile": "cedict_ts.u8",
+          "bytes": 9871533,
+          "sha256": "e8f991744f1a5b4b42d4a1d7d25940634e0ff17e46f84b6d018a91e08aaaea0e",
+          "fetch": {
+            "kind": "archive-member",
+            "url": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.zip",
+            "member": "cedict_ts.u8",
+            "archiveSha256": "594d6414c969dc143953bdcc2ae151069ae20354a20aacc1ac8b0edfcf273187",
+            "note": "MDBG serves the dictionary as a zip; the cache stores the extracted member. The URL always points at the current release, so integrity is pinned by sha256."
+          }
+        }
+      ],
+      "transformations": [
+        "Re-keyed into the canonical U+001F record schema (simplified, traditional, pinyinNumbered, pinyinMarked, pinyinPlain, definition).",
+        "Pinyin normalised to lowercase with single spaces; merged source syllables such as `bai3ke4` are split into `bai3 ke4`.",
+        "pinyinMarked and pinyinPlain precomputed locally by scripts/content/lib/pinyin.mjs (no upstream audio or third-party transliteration used).",
+        "Glosses joined with `; `; a leading `(also ...)`/`(variant of ...)` note is stripped only when the gloss still has content after it (8 of 125365 records in the pinned release), otherwise kept verbatim.",
+        "Sorted by simplified code-point order, then pinyinNumbered; sharded at 8192 records per file.",
+        "Header/comment lines and the `#!` metadata block are not carried into the pack."
+      ],
+      "packs": [
+        "dictionary-core"
+      ]
+    },
+    {
+      "id": "unicode-unihan",
+      "upstreamProject": "The Unicode Consortium - Unihan database",
+      "sourceUrl": "https://www.unicode.org/Public/16.0.0/ucd/Unihan.zip",
+      "projectUrl": "https://www.unicode.org/charts/unihan.html",
+      "upstreamVersion": "16.0.0",
+      "upstreamDate": "2024-08-01",
+      "pinnedBy": "version-numbered URL (immutable) plus sha256 of Unihan.zip",
+      "license": "Unicode-License-3.0",
+      "licenseUrl": "https://www.unicode.org/license.txt",
+      "licenseFile": "public/licenses/Unicode-License-v3.txt",
+      "attribution": "Unicode (https://www.unicode.org) - Unicode™ and the Unicode logo are registered trademarks of Unicode, Inc. in the United States and other countries; Unihan data is used under the Unicode License v3.",
+      "attributionNote": "Unicode License v3 requires the copyright/permission notice to accompany the data or its documentation; the full text ships at public/licenses/Unicode-License-v3.txt.",
+      "shareAlike": false,
+      "downloads": [
+        {
+          "cacheFile": "Unihan.zip",
+          "bytes": 8382485,
+          "sha256": "b8f000df69de7828d21326a2ffea462b04bc7560022989f7cc704f10521ef3e0",
+          "fetch": {
+            "kind": "url",
+            "url": "https://www.unicode.org/Public/16.0.0/ucd/Unihan.zip"
+          }
+        }
+      ],
+      "transformations": [
+        "Only the fields named by docs/DATA_FORMAT.md are read: kMandarin, kCantonese, kDefinition, kSimplifiedVariant, kTraditionalVariant, kRSUnicode, kTotalStrokes.",
+        "kRSUnicode is normalised to `<radicalNumber>'<restrokes>'` using the first value only (Unihan 16.0.0 stores the pair dot-separated, e.g. `1.0`).",
+        "kTotalStrokes uses the first value only.",
+        "Simplified/traditional variant lists are capped at 6 codepoints per record.",
+        "Codepoints are written as lowercase hex; records sorted by code point, 2048 per shard."
+      ],
+      "packs": [
+        "characters"
+      ]
+    },
+    {
+      "id": "hanzi-writer-data",
+      "upstreamProject": "hanzi-writer-data (David Chanin), derived from the Make Me a Hanzi project (Alan Davis / skishore)",
+      "sourceUrl": "https://registry.npmjs.org/hanzi-writer-data/-/hanzi-writer-data-2.0.1.tgz",
+      "projectUrl": "https://github.com/chanind/hanzi-writer-data",
+      "upstreamVersion": "2.0.1",
+      "upstreamDate": "2019-05-14",
+      "pinnedBy": "npm package version plus sha256 of the registry tarball",
+      "license": "Arphic-Public-License-1999",
+      "licenseUrl": "https://github.com/chanind/hanzi-writer-data/blob/master/ARPHICPL.TXT",
+      "licenseFile": "public/licenses/ARPHIC.txt",
+      "licenseFileSource": "hw/package/ARPHICPL.TXT copied verbatim (also available as hw/package/APL/english/ARPHICPL.TXT)",
+      "licenseTextSha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328",
+      "attribution": "Stroke outlines and medians from the Make Me a Hanzi project (https://github.com/skishore/makemeahanzi), distributed via hanzi-writer-data by David Chanin (https://github.com/chanind/hanzi-writer-data), licensed under the Arphic Public License (Copyright (C) 1999 Arphic Technology Co., Ltd.).",
+      "shareAlike": true,
+      "shareAlikeNote": "The Arphic Public License requires prominent change notices for modified data and keeps derived data under the same terms; change notices are in THIRD_PARTY_NOTICES.md.",
+      "downloads": [
+        {
+          "cacheFile": "hwdata.tgz",
+          "bytes": 13484680,
+          "sha256": "72baf3d82b114e60d6e40ea05f24d2262a05cd39d544e2f322ba2fceb7beff15",
+          "fetch": {
+            "kind": "npm-tarball",
+            "pkg": "hanzi-writer-data",
+            "version": "2.0.1",
+            "url": "https://registry.npmjs.org/hanzi-writer-data/-/hanzi-writer-data-2.0.1.tgz"
+          },
+          "extract": {
+            "kind": "tar",
+            "into": "hw",
+            "expectedDir": "hw/package",
+            "expectedCharFiles": 9574
+          }
+        }
+      ],
+      "transformations": [
+        "One JSON object per character rewritten as compact JSONL, `{\"c\":char,\"s\":[outline paths],\"m\":[flattened medians]}`.",
+        "`radStrokes` from the upstream files is intentionally dropped (docs/DATA_FORMAT.md).",
+        "Median arrays are flattened from [[x,y],...] to [x0,y0,x1,y1,...]; the runtime re-pairs them.",
+        "SVG outline path strings are kept verbatim (integer coordinates in the 0..1024 write box; 49 of the 9,574 characters carry 55 upstream paths with .5 coordinates which are kept as-is rather than rounded, so the artwork is unchanged).",
+        "400 characters per shard, plus strokes/index.txt mapping each character to its shard."
+      ],
+      "packs": [
+        "strokes"
+      ]
+    },
+    {
+      "id": "hanzi-writer",
+      "upstreamProject": "hanzi-writer (David Chanin) - runtime animation code, not data",
+      "sourceUrl": "https://registry.npmjs.org/hanzi-writer/-/hanzi-writer-3.7.3.tgz",
+      "projectUrl": "https://github.com/chanind/hanzi-writer",
+      "upstreamVersion": "3.7.3",
+      "upstreamDate": "bundled from node_modules at build time",
+      "pinnedBy": "npm package version plus sha256 of the registry tarball",
+      "license": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "licenseFile": "public/licenses/MIT.txt",
+      "attribution": "hanzi-writer, Copyright (c) 2014 David Chanin, MIT licensed (https://github.com/chanind/hanzi-writer).",
+      "shareAlike": false,
+      "downloads": [
+        {
+          "cacheFile": "hanzi-writer-3.7.3.tgz",
+          "bytes": 212177,
+          "sha256": "015acae9c2aa2779c3c398d34efacd034239251d4795573eeaaa60c0b60f56f2",
+          "fetch": {
+            "kind": "npm-tarball",
+            "pkg": "hanzi-writer",
+            "version": "3.7.3",
+            "url": "https://registry.npmjs.org/hanzi-writer/-/hanzi-writer-3.7.3.tgz"
+          },
+          "consumedFrom": {
+            "dir": "node_modules/hanzi-writer",
+            "licenseFile": "node_modules/hanzi-writer/LICENSE"
+          }
+        }
+      ],
+      "transformations": [
+        "No data transformation: the MIT licence text is shipped verbatim and the package is bundled by the app bundler.",
+        "Character data is served from public/data/packs/strokes through Hanzi Writer's charDataLoader instead of the upstream CDN."
+      ],
+      "packs": []
+    },
+    {
+      "id": "tatoeba",
+      "upstreamProject": "Tatoeba project (https://tatoeba.org)",
+      "sourceUrl": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2",
+      "projectUrl": "https://tatoeba.org/en/downloads",
+      "upstreamVersion": "2026-10-31 export snapshot (Last-Modified of the pinned files)",
+      "upstreamDate": "2026-10-31",
+      "pinnedBy": "content hash: Tatoeba republishes the same URL, so each file is pinned by sha256",
+      "license": "CC-BY-2.0-FR",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "licenseFile": "public/licenses/CC-BY-2.0-FR.txt",
+      "attribution": "Sentences and translations from the Tatoeba project (https://tatoeba.org), licensed CC BY 2.0 FR; original sentence ids and translations are preserved.",
+      "shareAlike": false,
+      "attributionGap": "The pinned per-language exports carry only `id`, `lang`, `text`. Contributor usernames are NOT present in them (they live in sentences_detailed/contributions dumps of 1.4 GB and 594 MB, deliberately not vendored). The <author> segment of every sourceRef is therefore the literal `unknown`; sentence ids are preserved so attribution can be resolved against tatoeba.org.",
+      "downloads": [
+        {
+          "cacheFile": "cmn_sentences.tsv.bz2",
+          "bytes": 1259760,
+          "sha256": "d603c1b9c67fb7a5a68c56fe6df5c935025ca1f36a1f9a912c33ed6dbed91743",
+          "fetch": {
+            "kind": "url",
+            "url": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2"
+          }
+        },
+        {
+          "cacheFile": "cmn-eng_links.tsv.bz2",
+          "bytes": 481706,
+          "sha256": "417b2697222806aaf22bf7f510dd5eed246869a1ef40d7d80c6b43f4758b54b8",
+          "fetch": {
+            "kind": "url",
+            "url": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn-eng_links.tsv.bz2"
+          }
+        },
+        {
+          "cacheFile": "eng_sentences.tsv.bz2",
+          "bytes": 24923592,
+          "sha256": "07f33d399f0a55b917202abbd901f23c39c54a6dd562252985ce8c7e168db6ef",
+          "fetch": {
+            "kind": "url",
+            "url": "https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences.tsv.bz2"
+          }
+        }
+      ],
+      "transformations": [
+        "Mandarin sentences joined to their English translations through cmn-eng_links.tsv.bz2; only cmn->eng linked pairs are used.",
+        "Up to 3 sentences attached per CC-CEDICT headword of length >= 2 that occurs as a substring of the sentence.",
+        "Quality guard: sentences with fewer than 4 or more than 60 Hanzi characters are skipped.",
+        "Each sentence is converted to simplified and traditional with the Unihan kSimplifiedVariant/kTraditionalVariant maps; characters without a mapping are left unchanged (documented Unihan gap).",
+        "sourceRefs keep the form `tatoeba:<id>:<author>` joined by `+` (one item for the Chinese sentence, one for its English translation).",
+        "Sharded at 8192 records per file."
+      ],
+      "packs": [
+        "examples"
+      ]
+    },
+    {
+      "id": "tessdata-fast",
+      "upstreamProject": "tesseract-ocr/tessdata_fast (standard tesseract OCR traineddata)",
+      "sourceUrl": "https://github.com/tesseract-ocr/tessdata_fast",
+      "projectUrl": "https://github.com/tesseract-ocr/tessdata_fast",
+      "upstreamVersion": "git commit 87416418657359cb625c412a48b6e1d6d41c29bd",
+      "upstreamDate": "2024-08-01",
+      "pinnedBy": "raw.githubusercontent.com URL with the full commit sha (immutable) plus sha256 of each traineddata file",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "licenseFile": "public/licenses/Apache-2.0.txt",
+      "attribution": "chi_sim.traineddata and eng.traineddata from tesseract-ocr/tessdata_fast (https://github.com/tesseract-ocr/tessdata_fast), Apache License 2.0.",
+      "shareAlike": false,
+      "downloads": [
+        {
+          "cacheFile": "chi_sim.traineddata",
+          "bytes": 2469156,
+          "sha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730",
+          "fetch": {
+            "kind": "url",
+            "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/chi_sim.traineddata"
+          }
+        },
+        {
+          "cacheFile": "eng.traineddata",
+          "bytes": 4113088,
+          "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+          "fetch": {
+            "kind": "url",
+            "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/eng.traineddata"
+          }
+        }
+      ],
+      "transformations": [
+        "Gzipped for transport only (zlib level 9, fixed header) - model content is unmodified.",
+        "Opt-in download: sizes and sha256 are published in public/data/ocr/manifest.json so the UI can show the byte cost first."
+      ],
+      "packs": [
+        "ocr-chi_sim",
+        "ocr-eng"
+      ]
+    },
+    {
+      "id": "tesseract.js-core",
+      "upstreamProject": "tesseract.js-core (WebAssembly build of tesseract core, maintained by the tesseract.js project)",
+      "sourceUrl": "https://registry.npmjs.org/tesseract.js-core/-/tesseract.js-core-5.1.1.tgz",
+      "projectUrl": "https://github.com/naptha/tesseract.js-core",
+      "upstreamVersion": "5.1.1",
+      "upstreamDate": "installed dependency version 5.1.1",
+      "pinnedBy": "npm package version + sha256 of the registry tarball; the build asserts node_modules matches that version",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "licenseFile": "public/licenses/Apache-2.0.txt",
+      "attribution": "tesseract.js-core 5.1.1 (https://github.com/naptha/tesseract.js-core), Apache License 2.0.",
+      "shareAlike": false,
+      "downloads": [
+        {
+          "cacheFile": "tesseract.js-core-5.1.1.tgz",
+          "bytes": 11318242,
+          "sha256": "8c1c83c01ecbfcaeb62a5a2d1023ea98162cad082aa47b9c2c39c129847dba8a",
+          "fetch": {
+            "kind": "npm-tarball",
+            "pkg": "tesseract.js-core",
+            "version": "5.1.1",
+            "url": "https://registry.npmjs.org/tesseract.js-core/-/tesseract.js-core-5.1.1.tgz"
+          },
+          "consumedFrom": {
+            "dir": "node_modules/tesseract.js-core",
+            "licenseFile": "node_modules/tesseract.js-core/LICENSE",
+            "files": [
+              "tesseract-core-lstm.wasm.js",
+              "tesseract-core-simd-lstm.wasm.js"
+            ]
+          }
+        }
+      ],
+      "transformations": [
+        "Copied byte for byte; only the non-threaded LSTM variants are shipped (the tessdata_fast models are LSTM-only and tesseract.js 5 loads exactly tesseract-core[-simd]-lstm.wasm.js via importScripts).",
+        "Legacy (non-LSTM) and worker-thread cores are intentionally omitted to keep the opt-in download small."
+      ],
+      "packs": [],
+      "shippedAs": "static same-origin files under public/data/ocr/ (see build-ocr.mjs and public/data/ocr/manifest.json); not an IndexedDB pack"
+    },
+    {
+      "id": "tesseract.js",
+      "upstreamProject": "tesseract.js (naptha) - browser worker and API",
+      "sourceUrl": "https://registry.npmjs.org/tesseract.js/-/tesseract.js-5.1.1.tgz",
+      "projectUrl": "https://github.com/naptha/tesseract.js",
+      "upstreamVersion": "5.1.1",
+      "upstreamDate": "installed dependency version 5.1.1",
+      "pinnedBy": "npm package version + sha256 of the registry tarball; the build asserts node_modules matches that version",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "licenseFile": "public/licenses/Apache-2.0.txt",
+      "attribution": "tesseract.js 5.1.1 worker (https://github.com/naptha/tesseract.js), Apache License 2.0.",
+      "shareAlike": false,
+      "downloads": [
+        {
+          "cacheFile": "tesseract.js-5.1.1.tgz",
+          "bytes": 629862,
+          "sha256": "0d08b3722256aacfc652d03b68183a9ed3c997b54778842e7db73ff08a6ae81a",
+          "fetch": {
+            "kind": "npm-tarball",
+            "pkg": "tesseract.js",
+            "version": "5.1.1",
+            "url": "https://registry.npmjs.org/tesseract.js/-/tesseract.js-5.1.1.tgz"
+          },
+          "consumedFrom": {
+            "dir": "node_modules/tesseract.js",
+            "licenseFile": "node_modules/tesseract.js/LICENSE",
+            "files": [
+              "dist/worker.min.js"
+            ]
+          }
+        }
+      ],
+      "transformations": [
+        "Copied byte for byte (dist/worker.min.js), no modification."
+      ],
+      "packs": [],
+      "shippedAs": "static same-origin files under public/data/ocr/ (see build-ocr.mjs and public/data/ocr/manifest.json); not an IndexedDB pack"
+    },
+    {
+      "id": "original",
+      "upstreamProject": "This project (hanyu-web) - content authored for the app",
+      "sourceUrl": "scripts/content/original",
+      "projectUrl": "scripts/content/original",
+      "upstreamVersion": "build date (SOURCE_DATE_EPOCH when set)",
+      "upstreamDate": "authored in repository",
+      "pinnedBy": "repository revision; each source file is validated against the block schema",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseFile": "public/licenses/CC-BY-4.0.txt",
+      "attribution": "Original content authored for this project (CC BY 4.0).",
+      "shareAlike": false,
+      "downloads": [],
+      "transformations": [
+        "Original JSON files under scripts/content/original/<pack>/<file>.json are validated against the block schema and packaged into public/data/packs/content/<pack>/<file>.json."
+      ],
+      "packs": [
+        "content-tips",
+        "content-lessons",
+        "content-stories",
+        "content-articles"
+      ]
+    }
+  ]
+}

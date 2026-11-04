@@ -1,0 +1,1067 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-04T15:16:37.914Z",
+  "minAppVersion": "1.0.0",
+  "packs": [
+    {
+      "id": "dictionary-core",
+      "kind": "dictionary",
+      "label": "CC-CEDICT words",
+      "version": "1.0-89235be9",
+      "required": true,
+      "license": "CC-BY-SA-4.0",
+      "sourceUrl": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.zip",
+      "attribution": "CC-CEDICT community maintenance project (CC-CEDICT.org) and contributors.",
+      "modifications": "Re-keyed into the canonical U+001F record schema (simplified, traditional, pinyinNumbered, pinyinMarked, pinyinPlain, definition). Pinyin normalised to lowercase with single spaces; merged source syllables such as `bai3ke4` are split into `bai3 ke4`. pinyinMarked and pinyinPlain precomputed locally by scripts/content/lib/pinyin.mjs (no upstream audio or third-party transliteration used). Glosses joined with `; `; a leading `(also ...)`/`(variant of ...)` note is stripped only when the gloss still has content after it (8 of 125365 records in the pinned release), otherwise kept verbatim. Sorted by simplified code-point order, then pinyinNumbered; sharded at 8192 records per file. Header/comment lines and the `#!` metadata block are not carried into the pack.",
+      "coverage": {
+        "records": 125365,
+        "languages": [
+          "zh-Hans",
+          "zh-Hant",
+          "en"
+        ]
+      },
+      "bytes": 12075381,
+      "files": [
+        {
+          "path": "packs/dictionary-core/000.txt",
+          "sha256": "301b7a4c388607dac2ab5fb7a30d47efada3fabc0f25f511d89862550d77d020",
+          "bytes": 912563,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/001.txt",
+          "sha256": "78480fae306b311db6c1a3d646ff5ee93b495116ba978c33495f6e915ad88ef5",
+          "bytes": 791169,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/002.txt",
+          "sha256": "48fd824fa2b63aed991c652f285013f7bc21ff5c33a4ea629119aa4130a108bf",
+          "bytes": 816744,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/003.txt",
+          "sha256": "08f3bcab6e9b0531a2f8d1d79cf1b85712796990368a32ed87e953dbe5581198",
+          "bytes": 801309,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/004.txt",
+          "sha256": "6d27abf8214ecb6f9485fba672d1217310e129101908244d51b379aba5828a4f",
+          "bytes": 808135,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/005.txt",
+          "sha256": "bd2a42174d93484032f081a904b7a59e5c4555f51fbc5559a068965743e75fad",
+          "bytes": 790801,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/006.txt",
+          "sha256": "97425e1fa494527c4a4520992d32af4590dadcbafed4131a417cc607b1b7afe3",
+          "bytes": 777688,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/007.txt",
+          "sha256": "f5f12876ccfe92f3df74af758f43b9d6b6c9792cfdb94ffef0a6b00c18079be6",
+          "bytes": 807800,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/008.txt",
+          "sha256": "b8222d9b0ce63d9365661885910d781d7b65c1c8e86f7d79d99418f5fc8683a8",
+          "bytes": 773110,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/009.txt",
+          "sha256": "ea5676c3088b3684c94a5f3ab88bc458893995734a45ac96d8c7308a2791d7da",
+          "bytes": 757607,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/010.txt",
+          "sha256": "36f31224c280ee3cad99301c141491059e0dd43399a4c68b944842c4535b2341",
+          "bytes": 761327,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/011.txt",
+          "sha256": "eed0d65dab9008777a8e621388dde449fc33eb10ac1632211e62c7866669e4dc",
+          "bytes": 755995,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/012.txt",
+          "sha256": "a4ee76f0d3a4376d8be08bb0d2a3ac1f4f98e76a0f51f787b981e83c6342b069",
+          "bytes": 736808,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/013.txt",
+          "sha256": "60e5299675dd108029a9c19067410ce284230e643366f15779ff4bd94ca0b9f9",
+          "bytes": 775271,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/014.txt",
+          "sha256": "9dc12ccff638c89f00c91b1726eee265b602ca26dacde0016e165f33bdef7453",
+          "bytes": 776493,
+          "records": 8192
+        },
+        {
+          "path": "packs/dictionary-core/015.txt",
+          "sha256": "d5a8f0123a67c2d947ca2204367c9bcaee0f9f76e38ba2c33a848989ea331e18",
+          "bytes": 232561,
+          "records": 2485
+        }
+      ]
+    },
+    {
+      "id": "characters",
+      "kind": "characters",
+      "label": "Unihan character data",
+      "version": "16.0.0-7e31647c",
+      "required": true,
+      "license": "Unicode-License-3.0",
+      "sourceUrl": "https://www.unicode.org/Public/16.0.0/ucd/Unihan.zip",
+      "attribution": "Unicode (https://www.unicode.org) - Unicode™ and the Unicode logo are registered trademarks of Unicode, Inc. in the United States and other countries; Unihan data is used under the Unicode License v3.",
+      "modifications": "Only the fields named by docs/DATA_FORMAT.md are read: kMandarin, kCantonese, kDefinition, kSimplifiedVariant, kTraditionalVariant, kRSUnicode, kTotalStrokes. kRSUnicode is normalised to `<radicalNumber>'<restrokes>'` using the first value only (Unihan 16.0.0 stores the pair dot-separated, e.g. `1.0`). kTotalStrokes uses the first value only. Simplified/traditional variant lists are capped at 6 codepoints per record. Codepoints are written as lowercase hex; records sorted by code point, 2048 per shard.",
+      "coverage": {
+        "records": 98682,
+        "languages": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "bytes": 3357858,
+      "files": [
+        {
+          "path": "packs/characters/000.txt",
+          "sha256": "90db7ff5d708f7e31f32ff66e0397b944560367dacfb903b32949eb1003a7374",
+          "bytes": 168222,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/001.txt",
+          "sha256": "cf4beea07a1909e02d8d7bc6b73e57bd74d3b4118a30a868092d99d80dc4b22e",
+          "bytes": 170355,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/002.txt",
+          "sha256": "b4225950d9f7139c41d961e8c2a35b014aaedbfc68dbac12bd8369e54cd28128",
+          "bytes": 164281,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/003.txt",
+          "sha256": "e43654b2204468a6647aa04f114a941389df5037333f30407c32e86fbb974d08",
+          "bytes": 114785,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/004.txt",
+          "sha256": "047a16cb3dbf1a7c7c6efb4da35ef47b3133ae6229f9bc2a45988fc3711ccf86",
+          "bytes": 98214,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/005.txt",
+          "sha256": "42e640beaae90a1034944386fe996dd381ce0ca8935e38fa516b8c2e4436b116",
+          "bytes": 100303,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/006.txt",
+          "sha256": "158b81ce9713f1b43212ef4041447b6be31a220efe364f3c180fbfc15e5aa743",
+          "bytes": 97400,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/007.txt",
+          "sha256": "f5dd201cbc589f8270da4a3fda89f4c84991749efb350cbac3fa16c12c9b31ed",
+          "bytes": 94408,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/008.txt",
+          "sha256": "bab88ff545759249072520cdcb2a102a78451e6eb61042ee4fa8ff417e37ec90",
+          "bytes": 96910,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/009.txt",
+          "sha256": "5cdc028afa9c7c264cce31d6abb7a39de9968550eec8bc6440e72d1764788be9",
+          "bytes": 100440,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/010.txt",
+          "sha256": "932784dfaa6bd23e6303d73d3bb2a9c9b0aaf7f1c310ef9a13ce8d3cd08f2523",
+          "bytes": 96464,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/011.txt",
+          "sha256": "238b34194a72f36fbcea2e94ddddf487728d326948102456c66df1457ccc095b",
+          "bytes": 101696,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/012.txt",
+          "sha256": "1dee5dbecca12e1d4c39b26e73a0c27ead2868e14e13dd6632163004ed2397d0",
+          "bytes": 102334,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/013.txt",
+          "sha256": "4d0f5de9ec4e30af510bc76531846636662b11c9dbd0ca0ed2948044dcd5c81d",
+          "bytes": 75275,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/014.txt",
+          "sha256": "1e5ec27c1f5f6a6816c66e732c9de9bfc380809380166be4d8d269565eaca88b",
+          "bytes": 49434,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/015.txt",
+          "sha256": "b17d7c56997d61e15191ee6dfecaf4d596eca0920b00e1ce30cd104c553e115c",
+          "bytes": 54189,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/016.txt",
+          "sha256": "49a93852ef1328b9c12938b9709b8f62a232a95811983bc9bbc354315b450442",
+          "bytes": 49863,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/017.txt",
+          "sha256": "51d9f86f045120467a62e85110c73b00501921b0176c9f0eb8627675dea886a4",
+          "bytes": 50019,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/018.txt",
+          "sha256": "c1f90fcf5540f833afa2e8bad6c3053a3ff65a1ac1f8b48e9b35c0fcadb295cf",
+          "bytes": 50209,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/019.txt",
+          "sha256": "81c2a7af51dea5705bd29fc4ffe70dd0a51b112b75d6fe27cb5d15e8f9d91248",
+          "bytes": 51292,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/020.txt",
+          "sha256": "7ef408d109ddf1bd2780b0df88ee231894b4e26de766624317b6fb277b832242",
+          "bytes": 50368,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/021.txt",
+          "sha256": "5c41d586b6cf4a6a40ca64379c66665a2f23422043c9385af97a6c71d59134fa",
+          "bytes": 50012,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/022.txt",
+          "sha256": "7623352685cb2924b4c4d9b6ba8724846b66c97224cc44d47bb255314a64c463",
+          "bytes": 50328,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/023.txt",
+          "sha256": "9dc2985e8117b2a8ee86f3c42d2d4bc78bfc418a75d3d455fd954b1d81d513c7",
+          "bytes": 52850,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/024.txt",
+          "sha256": "beed4847017cc4ced0ed07306e3d8af2d5ea831f0df0eb87b2c60a251cb1395f",
+          "bytes": 52436,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/025.txt",
+          "sha256": "bee8bf51c43500b169d6e58f4b51b79fe1f685d9523dfb06544c2f69dd98f9d6",
+          "bytes": 53406,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/026.txt",
+          "sha256": "ef8a1b42a9ccefd9364b4c628ed744c0d1f31b5ca080f53082abed1e614eee20",
+          "bytes": 52320,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/027.txt",
+          "sha256": "9685286239b905379b522297ab68a26cd49306827be3514c3d729f0c0febad31",
+          "bytes": 52033,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/028.txt",
+          "sha256": "99487110ad1c6a8c3e2cf8bf4640878ba53706c12bd000fb01d157d804421d09",
+          "bytes": 52750,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/029.txt",
+          "sha256": "18deb5af0276071423fa5009672da7520539512c5355af126d1a215d6cbd6f46",
+          "bytes": 53755,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/030.txt",
+          "sha256": "04da0467147a624ead3018daf1695f4ecb8a6ab9a07c88e34503ef713d3a43f7",
+          "bytes": 52487,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/031.txt",
+          "sha256": "ef254968dc7d8ceb586a4b777d8ec3e574981db42d2e3d8b18b50ad2f633d0f2",
+          "bytes": 53301,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/032.txt",
+          "sha256": "94a50b95e9099e7b2299305336f11251decfe49f94dc9794ac3c914de7e6f213",
+          "bytes": 55277,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/033.txt",
+          "sha256": "c461971d831751abc1462eb532668e90dbd6caf506d5ffc6f1a3823e2db3368c",
+          "bytes": 53184,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/034.txt",
+          "sha256": "fa2ddd1f5dd53b855bf01be100d49c1af9c66a310ac4b0fc96b8e3464d593e08",
+          "bytes": 51321,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/035.txt",
+          "sha256": "00db0363c8b24a90a544b949c606497b5ccb672324a0d9d20c858956d94058dd",
+          "bytes": 50967,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/036.txt",
+          "sha256": "bd0994b6d4dce45d7136153873d26781ecdeeb46abcc6a7792fafa6a28930a79",
+          "bytes": 57218,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/037.txt",
+          "sha256": "61ee8074b4b209fadbe2640a9c4ca7079173b821c54a07a9afcd67b44f17362a",
+          "bytes": 51367,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/038.txt",
+          "sha256": "a03fc53903f3871f4921ec5ae5526c62796535fdd8c35a579b5f244e644d3d55",
+          "bytes": 56543,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/039.txt",
+          "sha256": "c216277362065d453fe7d07e9ad08a3732c4f6bf087b4fafdd26a89a624b73aa",
+          "bytes": 55044,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/040.txt",
+          "sha256": "44a4cdc81fd0261e9a705e2340a561c261edc9870e731db70922953b1de0bb0d",
+          "bytes": 46655,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/041.txt",
+          "sha256": "e253c8ce56a6260de436c699d7cceb5c8a018551bb2b374560226b9de2283074",
+          "bytes": 48057,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/042.txt",
+          "sha256": "7d1b366bd51a5b5a05c3d3ab3cf7d6b01c0417b4e689f0defda3ec83d65ac23b",
+          "bytes": 48941,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/043.txt",
+          "sha256": "a50bb40bfbca0856eb14404ed65b6d0b8811839b28f9ac6e8e53752709869b93",
+          "bytes": 49428,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/044.txt",
+          "sha256": "d504c43d92b837e0f9077f1e19f8d20dd43222f9408f83e5c2a6ae7217a8a82e",
+          "bytes": 51803,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/045.txt",
+          "sha256": "ec0f72c035528706bb05a005149249caadedaa7a3583b37f3ee7aa1f94040a2a",
+          "bytes": 63332,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/046.txt",
+          "sha256": "9629754fa17bf425b804c151e7c1dbf0319c11a3880cbe3662d7afcca1d916eb",
+          "bytes": 49959,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/047.txt",
+          "sha256": "cccc153f840a57c590c0273207479facab6dd9f404c6c29f8d62a391e4ccc833",
+          "bytes": 47818,
+          "records": 2048
+        },
+        {
+          "path": "packs/characters/048.txt",
+          "sha256": "8cb5b62083388b316f35a537fcc34590aeca6145deb905efdca8b34d3c540add",
+          "bytes": 8805,
+          "records": 378
+        }
+      ]
+    },
+    {
+      "id": "strokes",
+      "kind": "strokes",
+      "label": "Stroke order graphics",
+      "version": "2.0.1-26f7d044",
+      "required": false,
+      "license": "Arphic-Public-License-1999",
+      "sourceUrl": "https://registry.npmjs.org/hanzi-writer-data/-/hanzi-writer-data-2.0.1.tgz",
+      "attribution": "Stroke outlines and medians from the Make Me a Hanzi project (https://github.com/skishore/makemeahanzi), distributed via hanzi-writer-data by David Chanin (https://github.com/chanind/hanzi-writer-data), licensed under the Arphic Public License (Copyright (C) 1999 Arphic Technology Co., Ltd.).",
+      "modifications": "One JSON object per character rewritten as compact JSONL, `{\"c\":char,\"s\":[outline paths],\"m\":[flattened medians]}`. `radStrokes` from the upstream files is intentionally dropped (docs/DATA_FORMAT.md). Median arrays are flattened from [[x,y],...] to [x0,y0,x1,y1,...]; the runtime re-pairs them. SVG outline path strings are kept verbatim (integer coordinates in the 0..1024 write box; 49 of the 9,574 characters carry 55 upstream paths with .5 coordinates which are kept as-is rather than rounded, so the artwork is unchanged). 400 characters per shard, plus strokes/index.txt mapping each character to its shard.",
+      "coverage": {
+        "records": 9574,
+        "languages": [
+          "zh-Hans",
+          "zh-Hant"
+        ],
+        "sidecarFiles": 1
+      },
+      "bytes": 29462119,
+      "files": [
+        {
+          "path": "packs/strokes/000.jsonl",
+          "sha256": "8dce1c6b10c37eafdba53992fbe8a7cbf36abf3d0d042adfa62c88a833ef1ff9",
+          "bytes": 766377,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/001.jsonl",
+          "sha256": "70b093351dc134c84bbee5a772d978a26f976039f2f53e5c89f11be6ca036809",
+          "bytes": 973284,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/002.jsonl",
+          "sha256": "12adff285cfbec572a94dcd8432927e04b0e2fdce8c6bbdba4eae2b915073837",
+          "bytes": 969643,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/003.jsonl",
+          "sha256": "ab66506880aa69e9f251bd72bc428c2f68127a9660a2fa1208477aef6006b771",
+          "bytes": 1156259,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/004.jsonl",
+          "sha256": "a0cb6b6ea79726c24f1dfa008ebc75ee0a4c58c2e94c62b2284b45885c5722d1",
+          "bytes": 1092299,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/005.jsonl",
+          "sha256": "e74549804be65ea89a867061ae6678b9705a600faa985d50ef55174bdfcd83da",
+          "bytes": 1041130,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/006.jsonl",
+          "sha256": "4cb23a816b8b332c8365f8cc343f01e38390ce7cd99de0c8ba2b06d594b873bf",
+          "bytes": 1147868,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/007.jsonl",
+          "sha256": "9196b97e5359d990a4e438e6bd7bf67c46927e63a2470481c1b0d177aa559fd3",
+          "bytes": 1317723,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/008.jsonl",
+          "sha256": "ec36f56f85ee1f980abdf9e43bf8ea896c520be31632d25b2e64c1da2a0c6c1a",
+          "bytes": 1192651,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/009.jsonl",
+          "sha256": "d9e4c2fcf2f75635e083df23ecbf6f6c472a78b7b1b63a89a7e08df1e5d4218c",
+          "bytes": 978985,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/010.jsonl",
+          "sha256": "b7e54b2c2b9e7b1b33aa3eb60aa9690561b5adab092a6f8752dab34393c9b221",
+          "bytes": 1285757,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/011.jsonl",
+          "sha256": "2d7fabf5327e219bc8cab1f1f6e169cad5fa3ff98534b30484e4c9c3f9a2f300",
+          "bytes": 1155188,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/012.jsonl",
+          "sha256": "855aa37cc341459a9ac9fb629f0eeed5aa058105ada6a54ba3d95766a34282ae",
+          "bytes": 1289949,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/013.jsonl",
+          "sha256": "0775eb2c36b9f7b65399d0b036d2db5e1b9cc932eac921cc2287b0c9861d2ff3",
+          "bytes": 1291208,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/014.jsonl",
+          "sha256": "f41f984e0f3b7adadcc10069c8a9b9defa7fb19bd11efd7dbdbf8934de09f0b4",
+          "bytes": 1301743,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/015.jsonl",
+          "sha256": "b02dfce9b42e8e6faa9f2b676edc0da12953f9b5cdd9a6018b61cf6380752f08",
+          "bytes": 1112489,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/016.jsonl",
+          "sha256": "07168f8edf7bc9e21834fa3e58b9281c89dbe9c0ca16ebebe24179b60ecc1237",
+          "bytes": 1369570,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/017.jsonl",
+          "sha256": "4ce273970c7188320ad525ce3903df15f8d8c3296213159250c84f0ceae4aa11",
+          "bytes": 1447097,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/018.jsonl",
+          "sha256": "d75c5e78baf50c4b3ea2ac127b5cd046e5be87e2abb0edeb765a3a70fac32e75",
+          "bytes": 1200396,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/019.jsonl",
+          "sha256": "ec25e3569470dd41b2b7e052dfdec6c5b20dfc31ee2551d80e60ef2813ba5d5f",
+          "bytes": 1335634,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/020.jsonl",
+          "sha256": "898045699b3b6ad0125abeaf479df7c42a884635c01cc2e1f079b558e6b31425",
+          "bytes": 1392995,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/021.jsonl",
+          "sha256": "ab263ffcd0e2cc9acb12cd3a109278b72021fa9f31b61908aa283ffbc63a3243",
+          "bytes": 1357232,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/022.jsonl",
+          "sha256": "d6f739e219d5078ce078c23895e905f3fe879e4d706e930e210ed6a20193a4df",
+          "bytes": 1567666,
+          "records": 400
+        },
+        {
+          "path": "packs/strokes/023.jsonl",
+          "sha256": "2779a4bf546bcb9ee8f4b3bf43fddb726d1f24be7f479efa4a308ce247aad086",
+          "bytes": 1584940,
+          "records": 374
+        },
+        {
+          "path": "packs/strokes/index.txt",
+          "sha256": "9e20caaecc0f4e22aac93fed4204f3258c8863cfe823c96d1c4c30dd507b9935",
+          "bytes": 134036
+        }
+      ]
+    },
+    {
+      "id": "examples",
+      "kind": "examples",
+      "label": "Example sentences",
+      "version": "2026-10-31-export-snapsh-0c5de70d",
+      "required": false,
+      "license": "CC-BY-2.0-FR",
+      "sourceUrl": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2",
+      "attribution": "Sentences and translations from the Tatoeba project (https://tatoeba.org), licensed CC BY 2.0 FR; original sentence ids and translations are preserved.",
+      "modifications": "Mandarin sentences joined to their English translations through cmn-eng_links.tsv.bz2; only cmn->eng linked pairs are used. Up to 3 sentences attached per CC-CEDICT headword of length >= 2 that occurs as a substring of the sentence. Quality guard: sentences with fewer than 4 or more than 60 Hanzi characters are skipped. Each sentence is converted to simplified and traditional with the Unihan kSimplifiedVariant/kTraditionalVariant maps; characters without a mapping are left unchanged (documented Unihan gap). sourceRefs keep the form `tatoeba:<id>:<author>` joined by `+` (one item for the Chinese sentence, one for its English translation). Sharded at 8192 records per file.",
+      "coverage": {
+        "records": 39806,
+        "languages": [
+          "zh-Hans",
+          "zh-Hant",
+          "en"
+        ]
+      },
+      "bytes": 7679210,
+      "files": [
+        {
+          "path": "packs/examples/000.txt",
+          "sha256": "a28ed118a946c746dcadd76333c3af5cae10d5aca62bfce463c0b1a5feff8b6e",
+          "bytes": 1593745,
+          "records": 8192
+        },
+        {
+          "path": "packs/examples/001.txt",
+          "sha256": "ec61ec6cd6cc07bd4694f7cc72b419804cae27aaaa660788a2eb0f8d2639e3d5",
+          "bytes": 1566221,
+          "records": 8192
+        },
+        {
+          "path": "packs/examples/002.txt",
+          "sha256": "b82b0b7d9107e6820ff8e6e2d5b586c7a6f93b55046cf54094e83dd81cc26208",
+          "bytes": 1562520,
+          "records": 8192
+        },
+        {
+          "path": "packs/examples/003.txt",
+          "sha256": "5d18c7165bf51e370932c5a39b4a405c6e29a2e6af2d717ae8c1ce9c40d89b5c",
+          "bytes": 1591971,
+          "records": 8192
+        },
+        {
+          "path": "packs/examples/004.txt",
+          "sha256": "e08b138155610f2cabaa9edf40e2a7d7d74322c7dfbdcf51ef3acd08c03f26d5",
+          "bytes": 1364753,
+          "records": 7038
+        }
+      ]
+    },
+    {
+      "id": "content-tips",
+      "kind": "content",
+      "label": "Study tips",
+      "version": "build-date-592bb1d9",
+      "required": true,
+      "license": "CC-BY-4.0",
+      "attribution": "Original content authored for this project (CC BY 4.0).",
+      "modifications": "Original JSON files under scripts/content/original/<pack>/<file>.json are validated against the block schema and packaged into public/data/packs/content/<pack>/<file>.json.",
+      "coverage": {
+        "records": 30,
+        "languages": [
+          "en",
+          "zh-Hans"
+        ]
+      },
+      "bytes": 31301,
+      "files": [
+        {
+          "path": "packs/content-tips/hint-001.json",
+          "sha256": "c258d303e34f9b62f3c4217eee787da96f693c36daa2b7d38255e08394cbfca0",
+          "bytes": 1403,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-002.json",
+          "sha256": "f6e90eab3288d9c3511b29aa7d54504cc386776ac6883b3205c9a7ca36031dfa",
+          "bytes": 888,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-003.json",
+          "sha256": "6b0620e7ec990740dd7e38a924449e64caeed6d09089ae777879db5c2e599a82",
+          "bytes": 1062,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-004.json",
+          "sha256": "c3016203334cb651aab34ccf20bb22232f7a40a52785824cf04eac0d1361262b",
+          "bytes": 1200,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-005.json",
+          "sha256": "3c23ef260b871bc4d84408e6194fbffed7055be214a888a3843b29e0f2ce3ed5",
+          "bytes": 1115,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-006.json",
+          "sha256": "143658679e93295208800c0cc1ef6faa36232e0b45e2b390f1437dabc76fd87c",
+          "bytes": 985,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-007.json",
+          "sha256": "dc643cd98db0a043f1dccd637e2365fb82a12ce69156331ff1347e7526b8359e",
+          "bytes": 953,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-008.json",
+          "sha256": "db34a3022ff879080f349f8999665ee9ffa4856a2badfcf3d71ae3ef2d7a041e",
+          "bytes": 1418,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-009.json",
+          "sha256": "9daccc6c367836b0454a169851c32d09a13f9f32d797ebb7aec85332b1305b4b",
+          "bytes": 929,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-010.json",
+          "sha256": "234c91a9236b5c5685130624a4ca4af854b1fefb30626059e7f58c6054cce728",
+          "bytes": 973,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-011.json",
+          "sha256": "ca5bd520bbfdf7b3d7e3b0020945b0958527d906fcf16d4b313dfb0f45e2cced",
+          "bytes": 1110,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-012.json",
+          "sha256": "55ca69017f5ceb910bfb794c6a09bc1a034290a1da32b98fa11ef45d00eb01dd",
+          "bytes": 908,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-013.json",
+          "sha256": "5279fa995fc77d65ec3993ac29e3b7f063702f13b29919f8944f8b4887e6cc59",
+          "bytes": 919,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-014.json",
+          "sha256": "5f58f13590eac4440067ad76f9a0efb20fbe3321698c2c093731041128818a87",
+          "bytes": 957,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-015.json",
+          "sha256": "5a8b13f407b3630838b90b85f7081dd20790f4fe6c66586d66f866f4ae68c681",
+          "bytes": 1030,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-016.json",
+          "sha256": "6d0ac9439ffb42a2cab949a0d9cf9e71b5123833371afa8acf36ec2da945566d",
+          "bytes": 1059,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-017.json",
+          "sha256": "698c498d165b7773d995f99722a8c22a97545d366fd66e4b6a86b1a60e8cfb04",
+          "bytes": 1044,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-018.json",
+          "sha256": "a2f2fb488acc9c02ab196a711cf431f9289ec3d84255ed4894ef5f489e342d9f",
+          "bytes": 1500,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-019.json",
+          "sha256": "1a9b6da85327efc6075739b54acdff8fa79d92330c81c9360ee3d9303564a78c",
+          "bytes": 1005,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-020.json",
+          "sha256": "139bea68e8d0662dadad9a39994d281938064cf9b76436d2c3264a872fc33a87",
+          "bytes": 1065,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-021.json",
+          "sha256": "b402fd5c7da1a6af7890207ec31ff14ac9758dcfa364d7006e7efc095733b846",
+          "bytes": 1032,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-022.json",
+          "sha256": "24375836ce939c605d338bf28bda67e7225309ffa773eafd59cb5765c68f7f70",
+          "bytes": 1053,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-023.json",
+          "sha256": "6cbf3a8e02c1e7d32af7b4517d9f95148034fc63fbe3c863b5bc446d6325a305",
+          "bytes": 908,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-024.json",
+          "sha256": "023cad1d5947c913d9a7f5ff109a182359d9f858367f0da8c0c82a617a50e001",
+          "bytes": 1301,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-025.json",
+          "sha256": "cbda3de13b4ea00e9c37151d1ae85e69c17d1e25c3f82bbdfa0f50eb4e5da5fa",
+          "bytes": 940,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-026.json",
+          "sha256": "5dfb0e3095e32761d1d5eb314b0b7098039945594433aa91ef39233c47f933de",
+          "bytes": 906,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-027.json",
+          "sha256": "6e439486eb188f4517ee3c1dc623c7e73c9c82b9c5b994aa5b442584659a4349",
+          "bytes": 869,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-028.json",
+          "sha256": "2d06ea637eae0fbfeaa90985a5cb156f995090aebbe49ba6c4e1d3a83a91c13a",
+          "bytes": 918,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-029.json",
+          "sha256": "9fb8332ddbc0903bd320a85dc59b482c3fc561d6583e0623088ff2dd57142acc",
+          "bytes": 895,
+          "records": 1
+        },
+        {
+          "path": "packs/content-tips/hint-030.json",
+          "sha256": "0a8dea42d061a06e0d9ca93dfae7ef783c580e11438a410d84ddacda1713f2f0",
+          "bytes": 956,
+          "records": 1
+        }
+      ]
+    },
+    {
+      "id": "content-lessons",
+      "kind": "content",
+      "label": "Lessons",
+      "version": "build-date-6dcd9842",
+      "required": true,
+      "license": "CC-BY-4.0",
+      "attribution": "Original content authored for this project (CC BY 4.0).",
+      "modifications": "Original JSON files under scripts/content/original/<pack>/<file>.json are validated against the block schema and packaged into public/data/packs/content/<pack>/<file>.json.",
+      "coverage": {
+        "records": 12,
+        "languages": [
+          "en",
+          "zh-Hans"
+        ]
+      },
+      "bytes": 46167,
+      "files": [
+        {
+          "path": "packs/content-lessons/lesson-001.json",
+          "sha256": "aaaf257a2585250f8ed3f2e47cf5da043fa2c7864562ec95bf1932e54524176d",
+          "bytes": 3206,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-002.json",
+          "sha256": "8f675392456bf11cf0d38452a15a8d5b5c976b3d929ee434fac797e7390889d9",
+          "bytes": 3627,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-003.json",
+          "sha256": "a9d2422450b78f3fb9ddd48e92d7dd00c7812fc022471e9e6ff731c9dc4b43ae",
+          "bytes": 3846,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-004.json",
+          "sha256": "de92176118a9f7ad1ad2a3254abe3c6a889dee6ecb278ae744d95de5dd34db49",
+          "bytes": 3784,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-005.json",
+          "sha256": "28e96eb4cc4262705c17470813d4c4f46d70bd5cf2a8db54b0957e9466afa1ba",
+          "bytes": 3461,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-006.json",
+          "sha256": "300673a6a5646e91b3ed8e954ac9fd767ca270ba2865df9f496447c7993f242c",
+          "bytes": 3705,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-007.json",
+          "sha256": "33222a5c43d9ee5e54e046b0b937aa9231cc4d7640ccaddd0b568f8093e7509a",
+          "bytes": 3733,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-008.json",
+          "sha256": "4eec028f30750c9d6e8851f481f13c06feb0c12ebe98efd7dfee667d4eea977e",
+          "bytes": 4032,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-009.json",
+          "sha256": "d44a1f550d21af736c3b3ffb48ca994f4a7abae6eca52a66a5a26ef3742d0f3b",
+          "bytes": 4269,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-010.json",
+          "sha256": "07272894f13ef4896b48036c1d7dea4568594a01e2915276eed75451b7c711e8",
+          "bytes": 4058,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-011.json",
+          "sha256": "2671c699ddfb01a0c0a2221e976b275cfa5d6645274968b0783ac199301ccf9d",
+          "bytes": 3935,
+          "records": 1
+        },
+        {
+          "path": "packs/content-lessons/lesson-012.json",
+          "sha256": "38f13cd0c2e4a598bf9c7db0d17104de05774fdb0fa25d42401e53becd893925",
+          "bytes": 4511,
+          "records": 1
+        }
+      ]
+    },
+    {
+      "id": "content-stories",
+      "kind": "content",
+      "label": "Short stories",
+      "version": "build-date-347d5b0d",
+      "required": true,
+      "license": "CC-BY-4.0",
+      "attribution": "Original content authored for this project (CC BY 4.0).",
+      "modifications": "Original JSON files under scripts/content/original/<pack>/<file>.json are validated against the block schema and packaged into public/data/packs/content/<pack>/<file>.json.",
+      "coverage": {
+        "records": 8,
+        "languages": [
+          "en",
+          "zh-Hans"
+        ]
+      },
+      "bytes": 44614,
+      "files": [
+        {
+          "path": "packs/content-stories/story-001.json",
+          "sha256": "d4fa3d918b68264c672ff9ea5cd7d8bdd74af09af8dca09c83763adae95adff9",
+          "bytes": 6513,
+          "records": 1
+        },
+        {
+          "path": "packs/content-stories/story-002.json",
+          "sha256": "5cf45e7ec9feb8c0da53eee86cf809e06020c52d6dda5b98bee06c48ce7d6c98",
+          "bytes": 5169,
+          "records": 1
+        },
+        {
+          "path": "packs/content-stories/story-003.json",
+          "sha256": "6a2f744906af89f120fc5bff348b37529c9b1d5741e86e7b4a814dcdb7ab5a54",
+          "bytes": 5393,
+          "records": 1
+        },
+        {
+          "path": "packs/content-stories/story-004.json",
+          "sha256": "d0444d67dfb140abcdc9c902821e9f51ce16aceb32f1416edebcefc9c2a6d32b",
+          "bytes": 5626,
+          "records": 1
+        },
+        {
+          "path": "packs/content-stories/story-005.json",
+          "sha256": "c7fa1f4aa24aafa00c73b7e7b47469a66a8bc620678883288c0ef0a07c6d7279",
+          "bytes": 5061,
+          "records": 1
+        },
+        {
+          "path": "packs/content-stories/story-006.json",
+          "sha256": "3e082333822fd94bb52cf0e6f91b6facd361364e80bb20c1e526830282890e8f",
+          "bytes": 5845,
+          "records": 1
+        },
+        {
+          "path": "packs/content-stories/story-007.json",
+          "sha256": "65d8598504f0756d4b53774a25259c44b9d3073b94af4c4e490e73dc614e79b0",
+          "bytes": 5082,
+          "records": 1
+        },
+        {
+          "path": "packs/content-stories/story-008.json",
+          "sha256": "092c998bfea7637f39044a3198c2b16e1b0ec682e10857b4ea0fd95d7dd4c11d",
+          "bytes": 5925,
+          "records": 1
+        }
+      ]
+    },
+    {
+      "id": "content-articles",
+      "kind": "content",
+      "label": "Reference articles",
+      "version": "build-date-57a99918",
+      "required": true,
+      "license": "CC-BY-4.0",
+      "attribution": "Original content authored for this project (CC BY 4.0).",
+      "modifications": "Original JSON files under scripts/content/original/<pack>/<file>.json are validated against the block schema and packaged into public/data/packs/content/<pack>/<file>.json.",
+      "coverage": {
+        "records": 4,
+        "languages": [
+          "en",
+          "zh-Hans"
+        ]
+      },
+      "bytes": 21359,
+      "files": [
+        {
+          "path": "packs/content-articles/article-001.json",
+          "sha256": "fc898cf723f8d040fbe2f81dbd0c8f7eacb97f3dec2ddf45ea7fe253a2cbbd3a",
+          "bytes": 5488,
+          "records": 1
+        },
+        {
+          "path": "packs/content-articles/article-002.json",
+          "sha256": "9702cf027f33e1faaa23c4f0e059cb525c71b133a2e7c5307316d49dd410b65c",
+          "bytes": 5252,
+          "records": 1
+        },
+        {
+          "path": "packs/content-articles/article-003.json",
+          "sha256": "9d701b8c9f23419bc465d2e314216ef1abcddddf8c49f3b6626f19b101863156",
+          "bytes": 5507,
+          "records": 1
+        },
+        {
+          "path": "packs/content-articles/article-004.json",
+          "sha256": "f87a35a2ad9c3e703cc465f96f57e4c6e6387a22851902c08fa113d3090a6a9c",
+          "bytes": 5112,
+          "records": 1
+        }
+      ]
+    }
+  ]
+}

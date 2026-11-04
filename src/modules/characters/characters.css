@@ -1,0 +1,258 @@
+/* Character + handwriting module styles. Tokens only; classes are prefixed `.char-`. */
+
+/* ---------------------------------------------------------------- character head */
+
+.char-head {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-5);
+  flex-wrap: wrap;
+}
+.char-glyph-box {
+  display: grid;
+  justify-items: center;
+  gap: var(--sp-1);
+}
+.char-glyph {
+  font-family: var(--font-cjk);
+  font-size: calc(4.2rem * var(--text-scale));
+  line-height: 1.1;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+  padding: var(--sp-3) var(--sp-5);
+}
+.char-codepoint {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+.char-facts {
+  flex: 1 1 14rem;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--sp-1) var(--sp-3);
+  margin: 0;
+  font-size: var(--fs-sm);
+}
+.char-facts dt {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.char-facts dd {
+  margin: 0;
+}
+.char-readings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+.char-variants {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+.char-variants-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+.char-variants .chip {
+  font-family: var(--font-cjk);
+  font-size: var(--fs-md);
+  min-height: var(--tap);
+  text-decoration: none;
+}
+.char-glosses {
+  margin: 0;
+  padding-left: var(--sp-5);
+  font-size: var(--fs-md);
+}
+
+/* ---------------------------------------------------------------- stroke panel */
+
+.char-panel {
+  display: grid;
+  gap: var(--sp-3);
+}
+.char-stage {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1;
+  margin-inline: auto;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  touch-action: none;
+}
+.char-stage svg {
+  display: block;
+  max-width: 100%;
+}
+.char-static-svg {
+  width: 100%;
+  height: 100%;
+}
+.char-static-path {
+  fill: var(--text);
+  opacity: 0.16;
+}
+.char-static-path.is-dim {
+  opacity: 0.08;
+}
+.char-static-path.is-lit {
+  fill: var(--secondary);
+  opacity: 0.95;
+}
+.char-num-badge circle {
+  fill: var(--secondary);
+}
+.char-num-badge text {
+  fill: var(--paper);
+  font-family: var(--font-ui);
+  /* rem here maps onto the 1024-unit SVG box, so numerals scale with the grid and text prefs */
+  font-size: calc(2.5rem * var(--text-scale));
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.char-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+  justify-content: center;
+}
+.char-live {
+  min-height: 1.5em;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  margin: 0;
+}
+.char-stroke-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1);
+  justify-content: center;
+}
+.char-stroke-list .chip {
+  min-height: var(--tap);
+}
+.char-install {
+  display: grid;
+  gap: var(--sp-3);
+}
+.char-install-status {
+  display: grid;
+  gap: var(--sp-2);
+  justify-items: center;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- writing desk */
+
+.char-desk-svg {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 1;
+  display: block;
+  margin-inline: auto;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  touch-action: none;
+  cursor: crosshair;
+}
+.char-desk-svg:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+.char-grid-line {
+  stroke: var(--border);
+  stroke-width: 3;
+  fill: none;
+}
+.char-grid-dashed {
+  stroke-dasharray: 18 14;
+  stroke-width: 2;
+}
+.char-desk-outline {
+  fill: var(--text);
+  opacity: 0.14;
+}
+.char-desk-glyph {
+  fill: var(--text);
+  opacity: 0.2;
+  font-family: var(--font-cjk);
+  /* rem maps onto the 1024-unit SVG write box */
+  font-size: calc(45rem * var(--text-scale));
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.char-desk-guide {
+  fill: none;
+  stroke: var(--primary);
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 26 20;
+  opacity: 0.55;
+}
+.char-desk-user {
+  fill: none;
+  stroke: var(--secondary);
+  stroke-width: 26;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.char-desk-results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1);
+  justify-content: center;
+}
+.char-example {
+  display: grid;
+  gap: 2px;
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid var(--border);
+}
+.char-example:last-child {
+  border-bottom: 0;
+}
+.char-example-zh {
+  font-family: var(--font-cjk);
+  font-size: var(--fs-lg);
+  line-height: 1.35;
+}
+.char-example-py {
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+}
+.char-example-en {
+  font-size: var(--fs-sm);
+}
+.char-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+.char-input {
+  flex: 1 1 10rem;
+  max-width: 14rem;
+  font-family: var(--font-cjk);
+  font-size: var(--fs-lg);
+}
+.char-head-mini {
+  font-family: var(--font-cjk);
+  font-size: var(--fs-xl);
+  line-height: 1.2;
+}

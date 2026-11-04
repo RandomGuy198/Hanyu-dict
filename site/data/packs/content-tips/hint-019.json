@@ -1,0 +1,19 @@
+{
+  "id": "hint-019",
+  "kind": "tip",
+  "title": "Put time before the action",
+  "summary": "Build the habit of subject, then time, then verb, and dates from year down to day.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "time",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "One word order causes most beginner slips with time. The time word belongs before the verb: 我七点跑步 wǒ qī diǎn pǎobù (I run at seven), never 我跑步七点 wǒ pǎobù qī diǎn. When a sentence has both a time and a place, put time first and place after the verb: 她星期六在图书馆看书 tā Xīngqīliù zài túshūguǎn kàn shū (she reads in the library on Saturday). Written dates and times run large to small, year, month, day, hour, minute, which is the opposite direction from what many learners expect, so read them aloud in that order until the descent feels normal."
+    }
+  ]
+}

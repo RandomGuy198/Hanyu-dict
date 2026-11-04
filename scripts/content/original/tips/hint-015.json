@@ -1,0 +1,19 @@
+{
+  "id": "hint-015",
+  "kind": "tip",
+  "title": "Learn the neutral tone in the words you use most",
+  "summary": "Take the light, unmarked syllables of high-frequency words off the guesswork list.",
+  "level": "beginner",
+  "license": "CC-BY-4.0",
+  "attribution": "Original content authored for this project.",
+  "tags": [
+    "tones",
+    "vocabulary"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "body": "The neutral tone has no mark, so nothing in the spelling tells a learner to shorten it. That makes a small list worth memorising early, since these words appear everywhere: 妈妈 māma (mother), 谢谢 xièxie (thanks), 朋友 péngyou (friend), 时候 shíhou (time), 医生 yīshēng (doctor), 什么 shénme (what), and the sentence particles 吧 ba and 呢 ne. Say each one fast and let the second syllable fall off rather than stressing it. If your version of 妈妈 māma sounds like two equal syllables, you are pronouncing a citation form; a light second syllable is what makes it natural."
+    }
+  ]
+}
