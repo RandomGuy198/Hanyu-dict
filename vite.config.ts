@@ -3,6 +3,60 @@ import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 import { fileURLToPath, URL } from 'node:url';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const PRIVATE_DATA_DIR = fileURLToPath(new URL('../Hanyu data', import.meta.url));
+const BRIDGE_PREFIXES = ['/__local_private_data__/', '/__private_data__/'];
+
+function mimeForExt(filePath: string): string {
+  const ext = path.extname(filePath).toLowerCase();
+  if (ext === '.json') return 'application/json; charset=utf-8';
+  if (ext === '.webp') return 'image/webp';
+  if (ext === '.mp3') return 'audio/mpeg';
+  return 'application/octet-stream';
+}
+
+function localPrivateDataBridge(): Plugin {
+  const handler = (
+    req: { url?: string; method?: string },
+    res: { statusCode: number; setHeader: (k: string, v: string) => void; end: (b?: Buffer | string) => void },
+    next: () => void,
+  ) => {
+    const rawUrl = req.url ?? '';
+    const pathname = rawUrl.split('?')[0] ?? '';
+    const prefix = BRIDGE_PREFIXES.find((p) => pathname.startsWith(p));
+    if (!prefix) {
+      next();
+      return;
+    }
+    const rel = decodeURIComponent(pathname.slice(prefix.length)).replace(/^\/+/, '');
+    if (!rel || rel.includes('..') || rel.startsWith('.')) {
+      res.statusCode = 400;
+      res.end('Invalid path');
+      return;
+    }
+    const resolved = path.resolve(PRIVATE_DATA_DIR, rel);
+    if (!resolved.startsWith(path.resolve(PRIVATE_DATA_DIR)) || !fs.existsSync(resolved) || !fs.statSync(resolved).isFile()) {
+      res.statusCode = 404;
+      res.end('Not found');
+      return;
+    }
+    res.statusCode = 200;
+    res.setHeader('Content-Type', mimeForExt(resolved));
+    res.setHeader('Cache-Control', 'no-cache');
+    res.end(fs.readFileSync(resolved));
+  };
+  return {
+    name: 'hanyu:local-private-data-bridge',
+    configureServer(server) {
+      server.middlewares.use(handler);
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use(handler);
+    },
+  };
+}
 
 /**
  * GitHub Pages serves the site under /<repo>/ and cannot send response headers, so the
@@ -45,6 +99,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
+    localPrivateDataBridge(),
     cspForProduction(),
     VitePWA({
       registerType: 'prompt',

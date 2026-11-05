@@ -26,6 +26,7 @@ export interface CharRecord {
   strokeCount: number | null;
   simplifiedOf: number[];
   traditionalOf: number[];
+  hanViet?: string[];
 }
 
 export function parseCharacterLine(line: string): CharRecord | null {
@@ -34,6 +35,7 @@ export function parseCharacterLine(line: string): CharRecord | null {
   const codepoint = Number.parseInt(parts[0], 16);
   if (!Number.isFinite(codepoint)) return null;
   const stroke = parts[6] ? Number.parseInt(parts[6], 10) : Number.NaN;
+  const hanViet = (parts[9] || '').split(' ').filter(Boolean);
   return {
     codepoint,
     char: parts[1] ?? '',
@@ -44,6 +46,7 @@ export function parseCharacterLine(line: string): CharRecord | null {
     strokeCount: Number.isFinite(stroke) ? stroke : null,
     simplifiedOf: parseCodepointList(parts[7] || ''),
     traditionalOf: parseCodepointList(parts[8] || ''),
+    hanViet: hanViet.length > 0 ? hanViet : undefined,
   };
 }
 

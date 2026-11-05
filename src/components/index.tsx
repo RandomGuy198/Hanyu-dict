@@ -13,10 +13,10 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useDictionary, usePreferences, useSavedWords, useToast } from '../app/providers';
 import { IconChevronLeft, IconCheck, IconSpeaker, IconStar } from '../app/icons';
 import { formatBytes, formatDate } from '../app/hooks';
-import { speak } from '../data/speech';
+import { playWordAudio } from '../data/audioPlayer';
 import { entryId } from '../domain/searchRanking';
 import { US } from '../domain/types';
-import type { DictEntry, Preferences } from '../domain/types';
+import type { AudioSliceRef, DictEntry, Preferences } from '../domain/types';
 
 export function PageHeader({
   title,
@@ -102,8 +102,21 @@ export function PinyinText({ entry }: { entry: DictEntry }) {
 
 export function DefinitionText({ entry }: { entry: DictEntry }) {
   const glosses = useMemo(() => entry.definition.split('; ').filter(Boolean), [entry.definition]);
+  const glossesVi = useMemo(() => {
+    if (entry.definitionsVi?.length) return entry.definitionsVi.filter(Boolean);
+    if (entry.definitionVi) return entry.definitionVi.split('; ').filter(Boolean);
+    return [];
+  }, [entry.definitionVi, entry.definitionsVi]);
+
   return (
     <span className="definition">
+      {entry.hanViet ? <span className="badge han-viet-badge">[HV: {entry.hanViet}] </span> : null}
+      {glossesVi.length > 0 ? (
+        <span className="definition-vi">
+          <strong>{glossesVi.join('; ')}</strong>
+          {glosses.length > 0 ? ' — ' : ''}
+        </span>
+      ) : null}
       {glosses.length > 2 ? (
         <ol className="gloss-list">
           {glosses.map((gloss, index) => (
@@ -119,11 +132,15 @@ export function DefinitionText({ entry }: { entry: DictEntry }) {
 
 export function SpeakButton({
   text,
+  pinyin,
+  slice,
   lang,
   label,
   compact,
 }: {
   text: string;
+  pinyin?: string;
+  slice?: AudioSliceRef;
   lang?: string;
   label?: string;
   compact?: boolean;
@@ -136,11 +153,14 @@ export function SpeakButton({
       type="button"
       className={`btn btn-ghost btn-icon ${compact ? 'btn-sm' : ''}`}
       aria-label={label ?? `Play synthetic audio for ${text}`}
-      title={label ?? 'Device text-to-speech'}
+      title={label ?? 'Play pronunciation audio'}
       disabled={busy}
       onClick={async () => {
         setBusy(true);
-        const result = await speak(text, { lang: lang ?? prefs.ttsLang, rate: prefs.ttsRate });
+        const result = await playWordAudio(text, pinyin, slice, {
+          lang: lang ?? prefs.ttsLang,
+          rate: prefs.ttsRate,
+        });
         setBusy(false);
         if (!result.ok) toast.push({ message: result.reason ?? 'No audio available', tone: 'warn' });
       }}
@@ -203,7 +223,7 @@ export function EntryLine({
         </span>
       </button>
       <span className="entry-line-actions">
-        <SpeakButton text={preferredHeadword(entry, prefs)} />
+        <SpeakButton text={preferredHeadword(entry, prefs)} pinyin={entry.pinyinNumbered} />
         <SaveButton entry={entry} />
         {trailing}
       </span>

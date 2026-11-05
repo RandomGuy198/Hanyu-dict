@@ -67,6 +67,12 @@ export interface DictEntry {
   pinyinPlain: string;
   /** English glosses joined with "; ". */
   definition: string;
+  /** Vietnamese glosses joined with "; " (from CVDICT). */
+  definitionVi?: string;
+  /** Vietnamese gloss list (from CVDICT). */
+  definitionsVi?: string[];
+  /** Word-level Sino-Vietnamese reading (from Unihan kVietnamese). */
+  hanViet?: string;
   /** Character count of the headword. */
   length: number;
 }
@@ -81,6 +87,7 @@ export interface CharInfo {
   strokeCount: number | null;
   simplifiedOf: number[];
   traditionalOf: number[];
+  hanViet?: string[];
 }
 
 export interface StrokeData {
@@ -160,6 +167,7 @@ export interface SavedWord {
   /** entry id */
   id: string;
   addedAt: string;
+  updatedAt?: string;
   /** list ids this word belongs to */
   lists: string[];
   note?: string;
@@ -168,6 +176,8 @@ export interface SavedWord {
   traditional: string;
   pinyinMarked: string;
   definition: string;
+  definitionVi?: string;
+  hanViet?: string;
 }
 
 export interface WordList {
@@ -192,6 +202,7 @@ export interface Category {
   name: string;
   parentId?: string;
   createdAt: string;
+  updatedAt?: string;
 }
 
 export interface NotebookEntry {
@@ -208,13 +219,18 @@ export interface NotebookEntry {
 export type SrsRating = 'again' | 'hard' | 'good' | 'easy';
 
 export interface SrsCard {
-  /** entry id */
+  /** entry id or lesson card id */
   id: string;
   deckId: string;
+  kind?: 'recognition' | 'writing';
   simplified: string;
   traditional: string;
   pinyinMarked: string;
+  pinyinNumbered?: string;
+  hanViet?: string;
   definition: string;
+  definitionVi?: string;
+  lessonId?: string;
   /** days since last review, current interval and ease factor */
   interval: number;
   ease: number;
@@ -223,6 +239,7 @@ export interface SrsCard {
   due: string;
   lastReviewed?: string;
   createdAt: string;
+  updatedAt?: string;
   suspended?: boolean;
 }
 
@@ -230,6 +247,7 @@ export interface Deck {
   id: string;
   name: string;
   createdAt: string;
+  updatedAt?: string;
   /** direction of the prompt shown first */
   prompt: 'zh2en' | 'en2zh' | 'pinyin2zh';
   newPerDay: number;
@@ -350,3 +368,242 @@ export const DEFAULT_PREFERENCES: Preferences = {
   dailyGoal: 20,
   installedPacks: [],
 };
+
+/* ---------- Books, Courses, Audio & Sync (v0.2) ---------- */
+
+export type BookId = 'b1' | 'b2' | 'b3' | 'b4' | 'b5' | 'b6';
+
+export interface BooksManifest {
+  schemaVersion: 1;
+  generatedAt: string;
+  books: BookSummary[];
+}
+
+export interface BookSummary {
+  bookId: BookId;
+  volumeNumber: 1 | 2 | 3 | 4 | 5 | 6;
+  titleVi: string;
+  titleZh: string;
+  pageCount: number;
+  lessonNumbers: number[];
+  globalLessonRange: [number, number];
+  lessons: LessonSummary[];
+}
+
+export interface LessonSummary {
+  lessonId: string;
+  bookId: BookId;
+  lessonNumber: number;
+  globalLessonNumber: number;
+  titleZh: string;
+  titlePinyin: string;
+  titleVi: string;
+  startPage: number;
+  endPage: number;
+  vocabCount: number;
+  sentenceCount: number;
+  lessonAudioPath: string;
+}
+
+export interface AudioSliceRef {
+  audioPath: string;
+  startMs: number;
+  endMs: number;
+  confidence: number;
+}
+
+export interface PageHotspot {
+  id: string;
+  bboxPct: [number, number, number, number];
+  kind: 'title' | 'sentence' | 'vocab' | 'note' | 'grammar' | 'exercise' | 'other';
+  refId?: string;
+  zhText: string;
+  pinyin?: string;
+  viText?: string;
+  audioSlice?: AudioSliceRef;
+  ttsAudioPath?: string;
+}
+
+export interface LessonPageMap {
+  pageNumber: number;
+  imagePath: string;
+  widthPx: number;
+  heightPx: number;
+  hotspots: PageHotspot[];
+}
+
+export interface LessonVocabItem {
+  id: string;
+  index: number;
+  hanzi: string;
+  traditional?: string;
+  pos: string;
+  pinyin: string;
+  pinyinNumbered: string;
+  hanViet: string;
+  meaningEn: string;
+  meaningVi: string;
+  pageNumber: number;
+  bboxPct?: [number, number, number, number];
+  lessonAudioSlice?: AudioSliceRef;
+  ttsAudioPath: string;
+}
+
+export interface SentenceToken {
+  surface: string;
+  pinyin: string;
+  citationPinyin?: string;
+  vocabId?: string;
+  dictHeadword?: string;
+  ttsAudioPath?: string;
+}
+
+export interface LessonSentence {
+  id: string;
+  speaker?: string;
+  zh: string;
+  pinyin: string;
+  vi?: string;
+  en?: string;
+  sandhiNotes?: string[];
+  pageNumber: number;
+  bboxPct?: [number, number, number, number];
+  lessonAudioSlice?: AudioSliceRef;
+  ttsAudioPath: string;
+  tokens: SentenceToken[];
+}
+
+export interface LessonDialogueBlock {
+  id: string;
+  title?: string;
+  sentences: LessonSentence[];
+}
+
+export interface LessonNoteItem {
+  id: string;
+  heading: string;
+  bodyZh?: string;
+  bodyVi: string;
+  bodyEn?: string;
+  examples: LessonSentence[];
+}
+
+export interface LessonGrammarItem {
+  id: string;
+  heading: string;
+  explanationVi: string;
+  explanationEn?: string;
+  examples: LessonSentence[];
+}
+
+export interface LessonPronunciationSection {
+  initials?: string[];
+  finals?: string[];
+  toneDrills?: {
+    text: string;
+    pinyin: string;
+    ttsAudioPath: string;
+    lessonAudioSlice?: AudioSliceRef;
+  }[];
+}
+
+export interface LessonExerciseItem {
+  id: string;
+  kind: 'substitution' | 'fill_blank' | 'comprehension' | 'correct_sentence' | 'reading_passage';
+  promptVi: string;
+  items: {
+    zh: string;
+    pinyin?: string;
+    answer?: string;
+    ttsAudioPath?: string;
+  }[];
+}
+
+export interface LessonDocument {
+  schemaVersion: 1;
+  lessonId: string;
+  bookId: BookId;
+  lessonNumber: number;
+  globalLessonNumber: number;
+  titleZh: string;
+  titlePinyin: string;
+  titleVi: string;
+  startPage: number;
+  endPage: number;
+  lessonAudioPath: string;
+  lessonAudioDurationMs: number;
+  pages: LessonPageMap[];
+  vocabulary: LessonVocabItem[];
+  dialogues: LessonDialogueBlock[];
+  notes: LessonNoteItem[];
+  grammar: LessonGrammarItem[];
+  pronunciation?: LessonPronunciationSection;
+  exercises: LessonExerciseItem[];
+  writingTargets: string[];
+}
+
+export interface AudioManifest {
+  schemaVersion: 1;
+  generatedAt: string;
+  defaultVoice?: string;
+  voice?: string;
+  engine?: string;
+  words: Record<
+    string,
+    {
+      path: string;
+      durationMs: number;
+      voice?: string;
+      engine?: string;
+    }
+  >;
+  sentences: Record<
+    string,
+    {
+      path: string;
+      durationMs: number;
+      voice?: string;
+      engine?: string;
+    }
+  >;
+}
+
+export type CourseStepId = 'vocab' | 'dialogue' | 'grammar' | 'drill' | 'writing';
+
+export interface CourseLessonProgress {
+  lessonId: string;
+  bookId: string;
+  completedSteps: CourseStepId[];
+  bestDrillScore?: number;
+  writingCompletedChars: string[];
+  completedAt?: string;
+  lastStudiedAt: string;
+  updatedAt: string;
+}
+
+export interface BookBookmark {
+  bookId: string;
+  lastPageNumber: number;
+  lastLessonId: string;
+  viewMode: 'page' | 'text' | 'split';
+  updatedAt: string;
+}
+
+export interface SyncStateFile {
+  schemaVersion: 1;
+  updatedAt: string;
+  deviceId: string;
+  deletedIds: Record<string, string>;
+  preferences: Record<string, unknown>;
+  savedWords: SavedWord[];
+  wordLists: WordList[];
+  notebooks: Notebook[];
+  categories: Category[];
+  notebookEntries: NotebookEntry[];
+  decks: Deck[];
+  cards: SrsCard[];
+  courseProgress: Record<string, CourseLessonProgress>;
+  bookBookmarks: Record<string, BookBookmark>;
+  dailyActivity: Record<string, ActivityDay>;
+}
+

@@ -1,10 +1,7 @@
-/** `/data` — manual backup and restore of user data only, entirely on this device.
+/** `/data` — GitHub private-repo sync overview and manual JSON backup/restore of user data.
  *
- *  There is no account, no server and no sync anywhere in this app: exporting writes a JSON file
- *  through the browser’s own download, importing reads a file you pick, and nothing leaves the
- *  device unless you save that file yourself. Dictionary and content packs are never exported —
- *  they are replaceable content re-downloaded from this site (see `/offline-data`). Every count
- *  shown here is read straight from IndexedDB via `buildBackup()`. */
+ *  User learning state syncs with `RandomGuy198/Hanyu-data` when a Fine-Grained PAT is configured,
+ *  and can also be exported or imported as a standalone JSON file on this device. */
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -43,13 +40,15 @@ const STORE_LABELS: Record<UserStore, string> = {
   achievements: 'Achievements',
   documents: 'Imported documents',
   photos: 'Camera captures',
+  courseProgress: 'Course progress',
+  bookBookmarks: 'Book bookmarks',
 };
 
 /** Plain-language list of what the export file actually holds, so the user is never guessing. */
 const FILE_CONTENTS =
   'your settings, saved words, word lists, notebooks and notes, flashcard decks and their schedule, ' +
-  'practice answers and sessions, daily activity, achievements, search history, and the records of ' +
-  'imported documents and camera captures';
+  'course progress, book bookmarks, practice answers and sessions, daily activity, achievements, search history, ' +
+  'and the records of imported documents';
 
 type ImportMode = 'merge' | 'replace';
 
@@ -234,13 +233,12 @@ export default function DataPage() {
       <div className="notice notice-info">
         <IconDownload />
         <div>
-          <strong>Backups are files you keep — there is no cloud copy.</strong>
+          <strong>Đồng bộ kho riêng GitHub &amp; sao lưu cục bộ.</strong>
           <p className="text-sm">
-            This app has no account, no server and no automatic sync. Exporting hands a JSON file to
-            your browser&rsquo;s download; importing reads a file you choose. Nothing leaves the
-            device unless you save that file yourself, and a backup sitting in your downloads folder
-            is the only copy. Data packs are not included: they are re-downloaded from{' '}
-            <Link to="/offline-data">offline data</Link>.
+            Tiến độ học tập được lưu tức thì trong IndexedDB trên thiết bị này và đồng bộ tự động
+            qua kho riêng tư <code>RandomGuy198/Hanyu-data</code> khi bạn kết nối Fine-Grained PAT
+            trong <Link to="/settings">Cài đặt</Link>. Bạn cũng có thể xuất/nhập bản sao lưu JSON
+            thủ công bất kỳ lúc nào tại đây.
           </p>
         </div>
       </div>
@@ -501,8 +499,8 @@ export default function DataPage() {
           ) : null}
         </div>
         {erased ? (
-          <Link className="btn btn-sm" to="/offline-data">
-            Download the required packs again
+          <Link className="btn btn-sm" to="/settings">
+            Mở cài đặt &amp; kết nối lại
           </Link>
         ) : null}
       </section>
@@ -546,8 +544,8 @@ export default function DataPage() {
           <div className="stack">
             <p>
               This clears the whole database, including the downloaded dictionary and content packs
-              and the settings this app keeps here. You will need to re-download the packs from{' '}
-              <Link to="/offline-data">offline data</Link>.
+              and the settings this app keeps here. Open-licensed packs will be automatically
+              re-fetched when you next use the dictionary.
             </p>
             <p className="data-help">
               Nothing is sent anywhere when it is deleted: it is removed from this browser only.

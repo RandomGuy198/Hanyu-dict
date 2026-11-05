@@ -6,7 +6,9 @@ import Dexie, { type Table } from 'dexie';
 import type {
   ActivityDay,
   Achievement,
+  BookBookmark,
   Category,
+  CourseLessonProgress,
   Deck,
   DictEntry,
   ImportedDocument,
@@ -49,6 +51,33 @@ export interface PhotoImageRow {
   blob: Blob;
 }
 
+export interface RemoteCacheRow {
+  path: string;
+  category: 'book' | 'lesson' | 'page' | 'audio' | 'manifest';
+  version?: string;
+  data: unknown;
+  updatedAt: string;
+}
+
+const mutationListeners = new Set<() => void>();
+
+export function onLocalMutation(listener: () => void): () => void {
+  mutationListeners.add(listener);
+  return () => {
+    mutationListeners.delete(listener);
+  };
+}
+
+export function notifyLocalMutation(): void {
+  for (const listener of mutationListeners) {
+    try {
+      listener();
+    } catch {
+      // Never let a sync listener break a local database write.
+    }
+  }
+}
+
 export class HanyuDatabase extends Dexie {
   meta!: Table<{ key: string; value: unknown }, string>;
   preferences!: Table<Preferences, string>;
@@ -70,6 +99,9 @@ export class HanyuDatabase extends Dexie {
   documentBlobs!: Table<DocumentBlobRow, string>;
   photos!: Table<PhotoWord, string>;
   photoImages!: Table<PhotoImageRow, string>;
+  remoteCache!: Table<RemoteCacheRow, string>;
+  courseProgress!: Table<CourseLessonProgress, string>;
+  bookBookmarks!: Table<BookBookmark, string>;
 
   constructor(name = 'hanyu-web') {
     super(name);
@@ -102,13 +134,26 @@ export class HanyuDatabase extends Dexie {
       wordLists: 'id, updatedAt, name',
       categories: 'id, parentId, name',
     });
+    // v3 adds private repo cache, course progress, book bookmarks, and updatedAt indexes for sync.
+    this.version(3).stores({
+      savedWords: 'id, addedAt, updatedAt, *lists',
+      wordLists: 'id, updatedAt, name',
+      notebooks: 'id, categoryId, updatedAt, name',
+      categories: 'id, parentId, name, updatedAt',
+      notebookEntries: 'id, notebookId, updatedAt, *entryIds',
+      decks: 'id, updatedAt, name',
+      cards: 'id, deckId, kind, due, repetitions, updatedAt',
+      remoteCache: 'path, category, updatedAt',
+      courseProgress: 'lessonId, bookId, lastStudiedAt, updatedAt',
+      bookBookmarks: 'bookId, updatedAt',
+    });
   }
 }
 
 /** Single shared instance for the app; tests construct their own named database. */
 export const db = new HanyuDatabase();
 
-export const SCHEMA_VERSION = 2;
+export const SCHEMA_VERSION = 3;
 
 export async function ensurePreferences(): Promise<Preferences> {
   const existing = await db.preferences.get('preferences');
@@ -126,6 +171,7 @@ export async function ensurePreferences(): Promise<Preferences> {
 
 export async function savePreferences(next: Preferences): Promise<void> {
   await db.preferences.put(next);
+  notifyLocalMutation();
 }
 
 export async function setMeta(key: string, value: unknown): Promise<void> {
@@ -137,11 +183,56 @@ export async function getMeta<T>(key: string): Promise<T | undefined> {
   return row ? (row.value as T) : undefined;
 }
 
+export async function recordTombstone(table: string, id: string, deletedAt = new Date().toISOString()): Promise<void> {
+  const existing = (await getMeta<Record<string, string>>('sync.deletedIds')) ?? {};
+  existing[`${table}:${id}`] = deletedAt;
+  await setMeta('sync.deletedIds', existing);
+  notifyLocalMutation();
+}
+
+export async function getDeletedIds(): Promise<Record<string, string>> {
+  return (await getMeta<Record<string, string>>('sync.deletedIds')) ?? {};
+}
+
+export async function saveCourseProgress(progress: CourseLessonProgress): Promise<void> {
+  const row: CourseLessonProgress = {
+    ...progress,
+    updatedAt: progress.updatedAt || new Date().toISOString(),
+  };
+  await db.courseProgress.put(row);
+  notifyLocalMutation();
+}
+
+export async function getCourseProgress(lessonId: string): Promise<CourseLessonProgress | undefined> {
+  return db.courseProgress.get(lessonId);
+}
+
+export async function getAllCourseProgress(): Promise<CourseLessonProgress[]> {
+  return db.courseProgress.toArray();
+}
+
+export async function saveBookBookmark(bookmark: BookBookmark): Promise<void> {
+  const row: BookBookmark = {
+    ...bookmark,
+    updatedAt: bookmark.updatedAt || new Date().toISOString(),
+  };
+  await db.bookBookmarks.put(row);
+  notifyLocalMutation();
+}
+
+export async function getBookBookmark(bookId: string): Promise<BookBookmark | undefined> {
+  return db.bookBookmarks.get(bookId);
+}
+
+export async function getAllBookBookmarks(): Promise<BookBookmark[]> {
+  return db.bookBookmarks.toArray();
+}
+
 export async function bumpActivity(
   day: string,
   patch: Partial<Omit<ActivityDay, 'day'>>,
 ): Promise<ActivityDay> {
-  return db.transaction('rw', db.activity, async () => {
+  const updated = await db.transaction('rw', db.activity, async () => {
     const current =
       (await db.activity.get(day)) ??
       ({
@@ -163,6 +254,8 @@ export async function bumpActivity(
     await db.activity.put(current);
     return current;
   });
+  notifyLocalMutation();
+  return updated;
 }
 
 export function todayKey(date = new Date()): string {
@@ -174,23 +267,39 @@ export function todayKey(date = new Date()): string {
 
 /** Delete a notebook/list/category and everything that pointed at it, in one transaction. */
 export async function deleteListCascade(listId: string): Promise<void> {
-  await db.transaction('rw', db.wordLists, db.savedWords, async () => {
+  const now = new Date().toISOString();
+  await db.transaction('rw', db.wordLists, db.savedWords, db.meta, async () => {
     await db.savedWords.where('lists').equals(listId).modify((word) => {
       word.lists = word.lists.filter((id) => id !== listId);
+      word.updatedAt = now;
     });
     await db.wordLists.delete(listId);
+    const deleted = ((await db.meta.get('sync.deletedIds'))?.value as Record<string, string> | undefined) ?? {};
+    deleted[`wordLists:${listId}`] = now;
+    await db.meta.put({ key: 'sync.deletedIds', value: deleted });
   });
+  notifyLocalMutation();
 }
 
 export async function deleteNotebookCascade(notebookId: string): Promise<void> {
-  await db.transaction('rw', db.notebooks, db.notebookEntries, async () => {
+  const now = new Date().toISOString();
+  await db.transaction('rw', db.notebooks, db.notebookEntries, db.meta, async () => {
+    const entries = await db.notebookEntries.where('notebookId').equals(notebookId).toArray();
     await db.notebookEntries.where('notebookId').equals(notebookId).delete();
     await db.notebooks.delete(notebookId);
+    const deleted = ((await db.meta.get('sync.deletedIds'))?.value as Record<string, string> | undefined) ?? {};
+    deleted[`notebooks:${notebookId}`] = now;
+    for (const entry of entries) {
+      deleted[`notebookEntries:${entry.id}`] = now;
+    }
+    await db.meta.put({ key: 'sync.deletedIds', value: deleted });
   });
+  notifyLocalMutation();
 }
 
 export async function deleteCategoryCascade(categoryId: string): Promise<void> {
-  await db.transaction('rw', db.categories, db.notebooks, async () => {
+  const now = new Date().toISOString();
+  await db.transaction('rw', db.categories, db.notebooks, db.meta, async () => {
     const all = await db.categories.toArray();
     const doomed = new Set<string>([categoryId]);
     // Collect descendants iteratively: a nested transaction would deadlock on IDB locks.
@@ -210,13 +319,20 @@ export async function deleteCategoryCascade(categoryId: string): Promise<void> {
       .anyOf([...doomed])
       .modify((notebook) => {
         delete notebook.categoryId;
+        notebook.updatedAt = now;
       });
     await db.categories.bulkDelete([...doomed]);
+    const deleted = ((await db.meta.get('sync.deletedIds'))?.value as Record<string, string> | undefined) ?? {};
+    for (const id of doomed) {
+      deleted[`categories:${id}`] = now;
+    }
+    await db.meta.put({ key: 'sync.deletedIds', value: deleted });
   });
+  notifyLocalMutation();
 }
 
-/** Every user-data table, in export order. Pack files are deliberately excluded: they are
- *  replaceable content, not user data. */
+/** Every user-data table, in export order. Pack files and remoteCache are deliberately excluded:
+ *  they are replaceable content, not user data. */
 export const USER_STORES = [
   'preferences',
   'searchHistory',
@@ -233,6 +349,8 @@ export const USER_STORES = [
   'achievements',
   'documents',
   'photos',
+  'courseProgress',
+  'bookBookmarks',
 ] as const;
 
 export type UserStore = (typeof USER_STORES)[number];

@@ -12,6 +12,7 @@ import {
   detectMode,
   editDistance,
   entryId,
+  foldVietnamese,
   initialsKey,
   lengthPenalty,
   normaliseQuery,
@@ -21,26 +22,28 @@ import {
 import { US } from '@/domain/types';
 import type { SearchResult } from '@/domain/types';
 
-/** Records in the documented field order:
- *  simplified | traditional | pinyinNumbered | pinyinMarked | pinyinPlain | definition */
+/** Records in the documented field order (6-field legacy or 8-field v0.2):
+ *  simplified | traditional | pinyinNumbered | pinyinMarked | pinyinPlain | definition | definitionVi | hanViet */
 const FIXTURE_ROWS: string[][] = [
-  ['中', '中', 'zhong1', 'zhōng', 'zhong', 'middle; centre; a halfway point'],
-  ['中国', '中國', 'zhong1 guo2', 'zhōngguó', 'zhongguo', 'China'],
-  ['中国人', '中國人', 'zhong1 guo2 ren2', 'zhōngguórén', 'zhongguoren', 'a Chinese person'],
-  ['中间', '中間', 'zhong1 jian1', 'zhōngjiān', 'zhongjian', 'middle; between; interior'],
-  ['国', '國', 'guo2', 'guó', 'guo', 'country; nation; a state'],
-  ['水果', '水果', 'shui3 guo3', 'shuǐguǒ', 'shuiguo', 'fruit'],
-  ['图书馆', '圖書館', 'tu2 shu1 guan3', 'túshūguǎn', 'tushuguan', 'library; book depository'],
-  ['图', '圖', 'tu2', 'tú', 'tu', 'picture; map; a plan'],
-  ['书', '書', 'shu1', 'shū', 'shu', 'book; a written work'],
-  ['爱', '愛', 'ai4', 'ài', 'ai', 'to love; affection; a like of'],
-  ['律师', '律師', 'lv4 shi1', 'lǜshī', 'lvshi', 'lawyer; attorney'],
-  ['绿', '綠', 'lv4', 'lǜ', 'lv', 'green; a colour'],
-  ['行', '行', 'xing2', 'xíng', 'xing', 'to walk; a row; OK'],
-  ['行', '行', 'hang2', 'háng', 'hang', 'row; line; a branch'],
-  ['诗', '詩', 'shi1', 'shī', 'shi', 'poem; poetry'],
-  ['瓷器', '瓷器', 'ci4 qi2', 'cìqí', 'ciqi', 'china (porcelain)'],
-  ['零', '零', 'ling2', 'líng', 'ling', 'zero; nought; a fractional amount'],
+  ['中', '中', 'zhong1', 'zhōng', 'zhong', 'middle; centre; a halfway point', 'ở giữa; trung tâm', 'trung'],
+  ['中国', '中國', 'zhong1 guo2', 'zhōngguó', 'zhongguo', 'China', 'Trung Quốc', 'trung quốc'],
+  ['中国人', '中國人', 'zhong1 guo2 ren2', 'zhōngguórén', 'zhongguoren', 'a Chinese person', 'người Trung Quốc', 'trung quốc nhân'],
+  ['中间', '中間', 'zhong1 jian1', 'zhōngjiān', 'zhongjian', 'middle; between; interior', 'ở giữa; trung gian', 'trung gian'],
+  ['国', '國', 'guo2', 'guó', 'guo', 'country; nation; a state', 'nước; quốc gia', 'quốc'],
+  ['水果', '水果', 'shui3 guo3', 'shuǐguǒ', 'shuiguo', 'fruit', 'hoa quả; trái cây', 'thủy quả'],
+  ['图书馆', '圖書館', 'tu2 shu1 guan3', 'túshūguǎn', 'tushuguan', 'library; book depository', 'thư viện', 'đồ thư quán'],
+  ['图', '圖', 'tu2', 'tú', 'tu', 'picture; map; a plan', 'bức tranh; bản đồ', 'đồ'],
+  ['书', '書', 'shu1', 'shū', 'shu', 'book; a written work', 'sách', 'thư'],
+  ['爱', '愛', 'ai4', 'ài', 'ai', 'to love; affection; a like of', 'yêu; thích', 'ái'],
+  ['律师', '律師', 'lv4 shi1', 'lǜshī', 'lvshi', 'lawyer; attorney', 'luật sư', 'luật sư'],
+  ['绿', '綠', 'lv4', 'lǜ', 'lv', 'green; a colour', 'màu xanh lá', 'lục'],
+  ['行', '行', 'xing2', 'xíng', 'xing', 'to walk; a row; OK', 'đi; được', 'hành'],
+  ['行', '行', 'hang2', 'háng', 'hang', 'row; line; a branch', 'hàng; ngành', 'hàng'],
+  ['诗', '詩', 'shi1', 'shī', 'shi', 'poem; poetry', 'thơ; bài thơ', 'thi'],
+  ['瓷器', '瓷器', 'ci4 qi2', 'cìqí', 'ciqi', 'china (porcelain)', 'đồ sứ', 'từ khí'],
+  ['零', '零', 'ling2', 'líng', 'ling', 'zero; nought; a fractional amount', 'số không; lẻ', 'linh'],
+  ['忙', '忙', 'mang2', 'máng', 'mang', 'busy; hurriedly', 'bận; bận rộn', 'mang'],
+  ['汉语', '漢語', 'han4 yu3', 'Hànyǔ', 'hanyu', 'Chinese language', 'tiếng Hán; tiếng Trung', 'hán ngữ'],
 ];
 
 function line(fields: string[]): string {
@@ -430,12 +433,15 @@ describe('normaliseQuery and detectMode', () => {
       pinyinMarked: 'zhōngguó',
       pinyinPlain: 'zhongguo',
       definition: 'China',
+      definitionVi: 'Trung Quốc',
+      definitionsVi: ['Trung Quốc'],
+      hanViet: 'trung quốc',
       length: 2,
     });
     expect(buildEntry('x', []).definition).toBe('');
   });
 
-  it('tokenises definitions on latin alphanumerics only', () => {
+  it('tokenises definitions on latin alphanumerics and Vietnamese diacritics', () => {
     expect(tokeniseDefinition('to love; affection — a like of')).toEqual([
       'to',
       'love',
@@ -445,6 +451,19 @@ describe('normaliseQuery and detectMode', () => {
       'of',
     ]);
     expect(tokeniseDefinition('中文 only')).toEqual(['only']);
+    expect(tokeniseDefinition('thư viện; đồ thư quán')).toEqual([
+      'thư',
+      'thu',
+      'viện',
+      'vien',
+      'đồ',
+      'do',
+      'thư',
+      'thu',
+      'quán',
+      'quan',
+    ]);
+    expect(foldVietnamese('Tiếng Đàn Hán Ngữ')).toBe('tieng dan han ngu');
     expect(tokeniseDefinition('')).toEqual([]);
   });
 
@@ -572,5 +591,44 @@ describe('sampleCharacters', () => {
     expect(index.sampleCharacters(100).length).toBeLessThanOrEqual(100);
     const filtered = index.sampleCharacters(100, (char) => char === '中');
     expect(filtered).toEqual(['中']);
+  });
+});
+
+describe('Vietnamese definitions and Hán-Việt search (D-07)', () => {
+  const index = fixtureIndex();
+
+  it('searching "thư viện" or "thu vien" returns 图书馆 (túshūguǎn)', () => {
+    const accented = index.search({ text: 'thư viện' });
+    expect(accented.length).toBeGreaterThan(0);
+    expect(accented[0].entry.simplified).toBe('图书馆');
+    expect(accented[0].entry.pinyinMarked).toBe('túshūguǎn');
+    expect(accented[0].entry.definitionVi).toBe('thư viện');
+
+    const folded = index.search({ text: 'thu vien' });
+    expect(folded.length).toBeGreaterThan(0);
+    expect(folded[0].entry.simplified).toBe('图书馆');
+  });
+
+  it('searching "bận" returns 忙 (máng)', () => {
+    const results = index.search({ text: 'bận' });
+    expect(results.length).toBeGreaterThan(0);
+    expect(results[0].entry.simplified).toBe('忙');
+    expect(results[0].entry.pinyinMarked).toBe('máng');
+  });
+
+  it('searching Hán-Việt "hán ngữ" returns 汉语 (Hànyǔ)', () => {
+    const results = index.search({ text: 'hán ngữ' });
+    expect(results.length).toBeGreaterThan(0);
+    expect(results[0].entry.simplified).toBe('汉语');
+    expect(results[0].entry.pinyinMarked).toBe('Hànyǔ');
+    expect(results[0].entry.hanViet).toBe('hán ngữ');
+  });
+
+  it('still ranks exact Hanzi and Pinyin matches above definition matches', () => {
+    const hanziHit = index.search({ text: '汉语' })[0];
+    const pinyinHit = index.search({ text: 'hanyu' })[0];
+    const viHit = index.search({ text: 'tiếng Hán' })[0];
+    expect(hanziHit.score).toBeGreaterThan(pinyinHit.score);
+    expect(pinyinHit.score).toBeGreaterThan(viHit.score);
   });
 });

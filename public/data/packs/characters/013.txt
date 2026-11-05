@@ -1,2048 +1,2048 @@
-9c40鱀jìkei3195'112CDA8
-9c41鱁zhúzuk6195'113120F
-9c42鱂jiāngzoeng1name of fish195'119CC9
-9c43鱃xiūsau1195'113120C
-9c44鱄zhuānzyun1anchovy195'112B68B 31210
-9c45鱅yōngjung4a kind of tench195'119CD9
-9c46鱆zhāngzoeng1an octopus, devilfish195'112B812
-9c47鱇kānghong1anglerfish195'1129F8C
-9c48鱈xuěsyut3codfish195'119CD5
-9c49鱉biēbit3turtle195'129CD6
-9c4a鱊yùwat6195'122B6AA
-9c4b鱋qūkeoi1195'122CDAC
-9c4c鱌xiàngzoeng6195'122CDB2
-9c4d鱍bōbut6195'12311E3
-9c4e鱎jiǎogiu2195'12311E9
-9c4f鱏xúncam4a ray, skate195'1231213
-9c50鱐sùsuk1dried fish195'12311FF
-9c51鱑huángwong4the sturgeon195'122CDAB
-9c52鱒zūnzyun1barbel195'129CDF
-9c53鱓shànto4eel195'122CD9B
-9c54鱔shànsin5eel195'129CDD
-9c55鱕fānfaan1195'1231215
-9c56鱖guìgwai3mandarin fish195'129CDC
-9c57鱗línleon4fish scales195'129CDE
-9c58鱘xúncam4sturgeon195'129C9F
-9c59鱙miáojiu4195'12
-9c5a鱚xǐhei1195'122CDAE
-9c5b鱛zēngzang1fish name195'12
-9c5c鱜xiānghoeng1195'13
-9c5d鱝fènfan5fish195'139CBC
-9c5e鱞guāngwaan1195'132CDB5
-9c5f鱟hòuhau6horseshoe crab195'139C8E
-9c60鱠kuàikui2minced fish; hash195'139C99
-9c61鱡zéicaak6the cuttle-fish195'13
-9c62鱢sāosou1195'132B6AB
-9c63鱣zhānzin1sturgeon195'139CE3
-9c64鱤gǎngam2195'139CE1
-9c65鱥guìgwai3195'132EB1D
-9c66鱦yìngjing6195'13311F8
-9c67鱧lǐlai5snakehead195'139CE2
-9c68鱨chángsoeng4codfish195'149CBF 31218
-9c69鱩léileoi4195'13
-9c6a鱪shǔsyu2195'13
-9c6b鱫àioi3195'13
-9c6c鱬rújyu4195'1431217
-9c6d鱭jìcai5anchovy195'149C9A
-9c6e鱮xùzeoi6silver carp (Hypophthalmichthys molitrix); bream195'142B688
-9c6f鱯hùwu6195'149CE0
-9c70鱰shǔcyu5195'14
-9c71鱱lìlai6195'15
-9c72鱲lièlip6(Cant.) 赤鱲角, Hong Kong place name195'152B6AD
-9c73鱳lìlik6195'15
-9c74鱴mièmit6195'1531219
-9c75鱵zhēnzam1195'152EB24
-9c76鱶xiǎngsoeng2a shark195'15
-9c77鱷èngok6crocodile, alligator195'169CC4 3121A
-9c78鱸lúlou4sea perch, sea bass195'169C88
-9c79鱹guàngun3195'182CDBA
-9c7a鱺lílei4eel195'199CA1
-9c7b鱻xiānsin1fresh, new, delicious; rare, few195'223121C
-9c7c鱼yújyu4fish; surname; Kangxi radical 195195'9B5A
-9c7d鱽dāodou1the mullet195'9B5B
-9c7e鱾jǐgei2name of fish195'9B62
-9c7f鱿yóujau4cuttlefish195'9B77
-9c80鲀túntyun4blowfish, globefish, Spheroides vermicular195'9B68
-9c81鲁lǔlou5foolish, stupid, rash; vulgar195'9B6F
-9c82鲂fángfong4bream195'9B74
-9c83鲃bābaa1a kind of fish; a bonito, (same as 鮁) shark195'4C3E
-9c84鲄hého4195'9B7A
-9c85鲅bàbat6fish name195'9B81
-9c86鲆píngping4sole195'9B83
-9c87鲇niánnim4sheatfish, Parasilurus asotus195'9B8E
-9c88鲈lúlou4sea perch, sea bass195'9C78
-9c89鲉yóujau4195'9B8B
-9c8a鲊zhǎzaa2minced and salted fish; to preserve195'9B93
-9c8b鲋fùfu6carp, Carassius auratus195'9B92
-9c8c鲌bóbaak6common bleak (Alburnus alburnus); various other freshwater fish195'9B8A
-9c8d鲍bàobaau1abalone; dried fish; surname195'9B91
-9c8e鲎hòuhau6king crab195'9C5F
-9c8f鲏pípei4Spanish mackerel195'9B8D
-9c90鲐táitoi4globefish, tetraodon195'9B90
-9c91鲑guīgwai1salmon; Spheroides vermicularis195'9BAD
-9c92鲒jiégit3clam; oyster195'9B9A
-9c93鲓kàokaau3195'9BB3
-9c94鲔wěifui2kind of sturgeon, tuna195'9BAA
-9c95鲕érji4roe195'9B9E
-9c96鲖tóngtung4snakefish195'9BA6
-9c97鲗zéicaak6cuttlefish195'9C02
-9c98鲘hòuhau6195'9B9C
-9c99鲙kuàikui2minced fish; hash195'9C60
-9c9a鲚jìcai5anchovy195'9C6D
-9c9b鲛jiāogaau1shark195'9BAB
-9c9c鲜xiānsin1fresh; delicious; attractive195'9BAE
-9c9d鲝zhǎzaa2minced and salted fish; a place in Sichuan195'9BBA
-9c9e鲞xiǎngsoeng2dried fish195'9B9D 9BD7
-9c9f鲟xúncam4sturgeon195'9C58
-9ca0鲠gěnggang2fish bones; honest, upright195'9BC1
-9ca1鲡lílei4eel195'9C7A
-9ca2鲢liánlin4silver carp, Hypophthalmichthys195'9C31
-9ca3鲣jiāngin1skipjack, bonito195'9C39
-9ca4鲤lǐlei5carp195'9BC9
-9ca5鲥shísi4reeves' shad; hilsa herring195'9C23
-9ca6鲦tiáotiu4minnow195'9C37
-9ca7鲧gǔngwan2giant fish; father of emperor195'9BC0
-9ca8鲨shāsaa1shark195'9BCA
-9ca9鲩huànwaan5carp195'9BC7
-9caa鲪jūngwan1195'9BB6
-9cab鲫jìzik1Carassius auratus, crucian carp195'9BFD
-9cac鲬yǒngjung2a flathead (fish)195'9BD2
-9cad鲭qīngcing1mackerel195'9BD6
-9cae鲮língling4carp195'9BEA
-9caf鲯qíkei4Coryphaena hippurus195'9BD5
-9cb0鲰zōuzau1small fish; small; minnow195'9BEB
-9cb1鲱fēifei1herring195'9BE1
-9cb2鲲kūnkwan1spawn; roe; fry195'9BE4
-9cb3鲳chāngcoeng1the silvery pomfret, Stromateoides argenteus195'9BE7
-9cb4鲴gùgu3fish guts195'9BDD
-9cb5鲵níngai4Cryptobranchus japonicus; a salamander195'9BE2
-9cb6鲶niánnim4sheat195'9BF0
-9cb7鲷diāodiu1Pagrosomus major, porgy195'9BDB
-9cb8鲸jīngking4whale195'9BE8
-9cb9鲹shēnsam1a horse mackerel195'9C3A
-9cba鲺shīsat1cat fish195'9BF4
-9cbb鲻zīzi1mullet195'9BD4
-9cbc鲼fènfan5fish195'9C5D
-9cbd鲽diédip6flatfish; flounder; sole195'9C08
-9cbe鲾bībik1195'9C0F
-9cbf鲿chángsoeng4codfish195'9C68
-9cc0鳀títai4anchovy195'9BF7
-9cc1鳁wēnwan1sardine195'9C1B 9C2E
-9cc2鳂wēiwai1name of fish195'9C03
-9cc3鳃sāisoi1fish gills195'9C13
-9cc4鳄èngok6alligator195'9C10 9C77
-9cc5鳅qiūcau1loach195'9C0D
-9cc6鳆fùfuk1abalone195'9C12
-9cc7鳇huángwong4sturgeon195'9C09
-9cc8鳈quáncyun4name of fish195'9C01
-9cc9鳉jiāngzoeng1name of fish195'9C42
-9cca鳊biānbin1bream195'9BFF
-9ccb鳋sāosou1carp195'9C20
-9ccc鳌áongou4huge sea turtle195'9C32
-9ccd鳍qíkei4fin195'9C2D
-9cce鳎tǎtaap3sole195'9C28
-9ccf鳏guāngwaan1huge fish; widower; bachelor195'9C25
-9cd0鳐yáojiu4the nautilus; the ray195'9C29
-9cd1鳑pángpong4several species of small carp195'9C1F
-9cd2鳒jiāngim1big-mouthed flounder195'9C1C
-9cd3鳓lèlak6Chinese herring; shad195'9C33
-9cd4鳔biàopiu5swimming bladder of fish195'9C3E
-9cd5鳕xuěsyut3codfish195'9C48
-9cd6鳖biēbit3turtle195'9C49
-9cd7鳗mánmaan6eel195'9C3B
-9cd8鳘mǐnman5codfish195'9C35
-9cd9鳙yōngjung4bighead195'9C45
-9cda鳚wèigeneral term of a kind of fish, a snake-like fish195'4C81
-9cdb鳛xízaap6the weather or dojo loach, Misgurnus anguillicaudatus195'9C3C
-9cdc鳜guìgwai3mandarin fish195'9C56
-9cdd鳝shànsin5eel195'9C54
-9cde鳞línleon4fish scales195'9C57
-9cdf鳟zūnzyun1barbel195'9C52
-9ce0鳠hùwu6195'9C6F
-9ce1鳡gǎngam2195'9C64
-9ce2鳢lǐlai5snakehead195'9C67
-9ce3鳣zhānzin1sturgeon195'9C63
-9ce4鳤guǎngun2a kind of fish; with a long cylinder body195'4C98
-9ce5鳥niǎoniu5bird; Kangxi radical 196196'09E1F
-9ce6鳦yǐjyut6swallow196'131247
-9ce7鳧fúfu4wild duck, teal; swim196'251EB
-9ce8鳨lìlik6196'2
-9ce9鳩jiūgau1pigeon, dove; collect, assemble196'29E20
-9cea鳪búbuk1196'2
-9ceb鳫yànngaan6wild goose196'2
-9cec鳬fǔfu4wild duck, teal; swim196'251EB
-9ced鳭diāodou1196'231248
-9cee鳮jīgai1chickens; domestic fowl196'2
-9cef鳯fèngfung6male phoenix; symbol of joy196'2
-9cf0鳰rùjap6196'2
-9cf1鳱gāngon1196'33124A
-9cf2鳲shīsi1turtledove, cuckoo196'39E24
-9cf3鳳fèngfung6male phoenix; symbol of joy196'351E4
-9cf4鳴míngming4cry of bird or animal; make sound196'39E23
-9cf5鳵bǎobou2196'3
-9cf6鳶yuānjyun1kite; Milvus species (various)196'39E22
-9cf7鳷zhīzi1jay (Garrulus lidthi)196'42B6DB
-9cf8鳸hùwu6196'431253
-9cf9鳹qín196'4
-9cfa鳺fūfu1196'43124E
-9cfb鳻bānbaan1the wild pigeon196'431251
-9cfc鳼wénman4196'42A243
-9cfd鳽jiāngin1196'42B6DA
-9cfe鳾shīsi1nuthatch196'44D13
-9cff鳿yùjuk6196'43124D
-9d00鴀fǒufau4196'42B6DC
-9d01鴁yāojiu1a legendary bird196'42EB62
-9d02鴂juékyut3the tailor-bird; the working bird196'431254
-9d03鴃juégwik1shrike; butcherbird196'42B6DE
-9d04鴄pǐpat1duck196'4
-9d05鴅huānfun1196'42B6DD
-9d06鴆zhènzam6a bird resembling the secretary falcon196'49E29
-9d07鴇bǎobou2bustard; procuress; Otis species (various)196'49E28
-9d08鴈yànngaan6wild goose196'4
-9d09鴉yāaa1crow, raven; Corvus species (various)196'49E26
-9d0a鴊zhèngzing3196'5
-9d0b鴋fāngfong1196'4
-9d0c鴌fèngfung6196'4
-9d0d鴍wénman4196'42CE00
-9d0e鴎ōuau1seagull, tern196'4
-9d0f鴏dàidak6196'5
-9d10鴐gēgaa1196'52B6E4
-9d11鴑rújyu4196'5
-9d12鴒língling4species of lark; wagtail; Motacilla species (various)196'59E30
-9d13鴓miè196'52EB64
-9d14鴔fúfuk6196'52B6E1
-9d15鴕tuóto4ostrich; Struthio camelus196'59E35
-9d16鴖mínman4196'5
-9d17鴗lìlap6kingfisher196'52B061
-9d18鴘biǎnbin2196'531261
-9d19鴙zhìzi6196'53125B
-9d1a鴚gēgo1196'531255
-9d1b鴛yuānjyun1male mandarin duck (Aix galericulata)196'59E33
-9d1c鴜cíci4196'52A248
-9d1d鴝qúkeoi4mynah; Erithacus species (various)196'59E32
-9d1e鴞xiāohiu1owl196'59E2E
-9d1f鴟chīci1kite, horned owl; wine cups196'59E31
-9d20鴠dàndaan3a kind of nightingale196'531257
-9d21鴡jūzeoi1196'531258
-9d22鴢yǎojiu2196'531262
-9d23鴣gūgu1Arborophila species (various)196'59E2A
-9d24鴤zhōngzung1196'5
-9d25鴥yùwat6swoop196'52B6E3
-9d26鴦yāngjoeng1female mandarin duck (Aix galericulata)196'59E2F
-9d27鴧yùwat6196'5
-9d28鴨yāaap3duck; Anas species (various)196'59E2D
-9d29鴩tiětit3196'53125A
-9d2a鴪yùwat6swoop196'5
-9d2b鴫tiántin4a snipe196'52ED3F
-9d2c鴬yīngang1oriole, green finch196'5
-9d2d鴭duīdeoi1196'6
-9d2e鴮wūwu1196'62B6E6
-9d2f鴯érji4swallow196'69E38
-9d30鴰guākut3the crow196'69E39
-9d31鴱àingaai6196'63126A
-9d32鴲zhīzi1196'62A246
-9d33鴳yànaan3quail196'62B6E9
-9d34鴴hénghang4plover196'69E3B
-9d35鴵xiāogiu1196'6
-9d36鴶jiágat1196'631265
-9d37鴷lièlit6a woodpecker196'64D15
-9d38鴸zhūzyu1196'63126B
-9d39鴹yángjoeng4196'63126F
-9d3a鴺tíji4the pelican196'631269
-9d3b鴻hónghung4species of wild swan; vast196'69E3F
-9d3c鴼luòlou6196'6
-9d3d鴽rújyu4a species of bird resembling quail196'62B6EA
-9d3e鴾móumau4a crested ibis196'631272
-9d3f鴿gēgap3pigeon, dove; Columba species (various)196'69E3D
-9d40鵀rénjam4hoopoe196'62CE0A
-9d41鵁jiāogaau1the fishing cormorant196'64D14
-9d42鵂xiūjau1owl; bird of ill omen196'69E3A
-9d43鵃zhōuzau1ancient name for a bird with black featers and a short tail196'69E3C
-9d44鵄chīci1(variant of 鴟) kite, horned owl; wine cups196'62CE08
-9d45鵅luòlok6196'63126E
-9d46鵆hénghang4196'6
-9d47鵇niánnin4196'6
-9d48鵈ědiu1196'6
-9d49鵉luánlyun4196'6
-9d4a鵊jiágaap3196'72B6E5
-9d4b鵋jìgei6196'73127D
-9d4c鵌tútou4196'731278
-9d4d鵍huānfun1196'7
-9d4e鵎tuǒto2196'73127B
-9d4f鵏bǔbou2196'72CDD5
-9d50鵐wúmou4196'79E40
-9d51鵑juāngyun1cuckoo196'79E43
-9d52鵒yùjuk6mynah bird; Acridotheres tristis196'79E46
-9d53鵓bóbut6wood pigeon196'79E41
-9d54鵔jùnzeon3196'73127F
-9d55鵕jùnzeon3196'73127E
-9d56鵖bīgip3196'73125D
-9d57鵗xīhei1196'731279
-9d58鵘jùngwan6196'7
-9d59鵙júgwik1shrike; Lanius species (various)196'731250
-9d5a鵚tūtuk1moulting, bald196'72A24D
-9d5b鵛jīngging1196'731260
-9d5c鵜títai4pelican196'79E48
-9d5d鵝éngo4goose196'79E45
-9d5e鵞éngo4goose196'7
-9d5f鵟kuáng196'72B6ED
-9d60鵠húhuk6target196'79E44
-9d61鵡wǔmou5species of parrot196'79E49
-9d62鵢shēnsan1196'7
-9d63鵣làilaai6196'7
-9d64鵤jiaogok3148'11
-9d65鵥pànpun3196'7
-9d66鵦lùluk6196'8
-9d67鵧pípei4196'82B6E8
-9d68鵨shūsyu1196'8
-9d69鵩fúfuk6owl-like bird; buzzard; Otus scops196'82B6F3
-9d6a鵪ānam1quail; Coturnix coturnix196'89E4C
-9d6b鵫zhuózok6pheasant196'82B6F1
-9d6c鵬péngpaang4fabulous bird of enormous size196'89E4F
-9d6d鵭qínkam4a small bird with black neck196'8
-9d6e鵮qiānzaam1to peck, as birds196'89E50
-9d6f鵯bēibei1Pycnonotus species (various)196'89E4E
-9d70鵰diāodiu1eagle, vulture; Aquila species (various)196'82B6F2
-9d71鵱lùluk6196'831280
-9d72鵲quèzoek3magpie; Pica species (various)196'89E4A
-9d73鵳jiāngin1196'83128B
-9d74鵴júguk1196'831287
-9d75鵵tùtou3196'831286
-9d76鵶yāaa1crow, raven; Corvus species (various)196'831268
-9d77鵷yuānjyun1a legendary bird similar to the phoenix, firebird196'89E53
-9d78鵸qíkei4196'831281
-9d79鵹lílei4196'831283
-9d7a鵺yèje6196'8
-9d7b鵻zhuīzeoi1pigeon; turtle-dove; a hawk196'831285
-9d7c鵼kōnghung1a fabulous night-bird, grotesque monster196'83128A
-9d7d鵽duòzyut3196'83128D
-9d7e鵾kūnkwan1a bird resembling the crane196'89E4D
-9d7f鵿shēngsing1196'8
-9d80鶀qíkei4196'82CE12
-9d81鶁jīngging1196'8
-9d82鶂yìjik6hawk; Ardea cinerea196'82CDFC 31288
-9d83鶃yìjik6hawk; Ardea cinerea196'831284
-9d84鶄jīngzing1a kind of water bird196'84D16
-9d85鶅zīzi1196'83128E
-9d86鶆láiloi4196'831275
-9d87鶇dōngdung1thrush; Turdus species (various)196'89E2B
-9d88鶈qīcai1196'8
-9d89鶉chúnseon4quail; Turnix species (various)196'89E51
-9d8a鶊gēnggang1oriole196'89E52
-9d8b鶋jūgeoi1a sea-bird with a white breast196'83128C
-9d8c鶌juégwat6196'82B6F5
-9d8d鶍yìji6196'8
-9d8e鶎zūnzung1196'8
-9d8f鶏jīgai1chicken196'8
-9d90鶐shùwat6196'9
-9d91鶑yīngang1196'8
-9d92鶒chìcik1a duck-like bird196'92B6F6
-9d93鶓miáomiu4emu196'99E4B
-9d94鶔róujau4196'931297
-9d95鶕ānam1196'92CE1D
-9d96鶖qiūcau1large waterfowl with naked head; Garrulus glandarius196'99E59
-9d97鶗títai4a kind of hawk; cuckoo196'92B6F8
-9d98鶘húwu4pelican196'99E55
-9d99鶙títai4196'931295
-9d9a鶚èngok6osprey, fishhawk; Pandion haliaetus196'99E57
-9d9b鶛jiēgaai1196'931290
-9d9c鶜máomaau4196'9
-9d9d鶝fúfuk1196'93128F
-9d9e鶞chūnceon1196'931291
-9d9f鶟túdat6196'931296
-9da0鶠yǎnjin2196'92CE18
-9da1鶡héhot3crossbill, species of nightingale196'99E56
-9da2鶢yuána bird which frequents the sea-shore196'931292
-9da3鶣piānpin1196'92CE1C
-9da4鶤kūnkwan1196'931271
-9da5鶥méimei4babbler, Timaliidae species (various); thrush196'99E5B
-9da6鶦húwu4pelican196'92B6F7
-9da7鶧yīngjing1196'9
-9da8鶨chuàncyun3196'931298
-9da9鶩wùmou6duck196'99E5C
-9daa鶪júgwik1a shrike196'94D17
-9dab鶫dōnggaan2thrush; Turdus naumanni196'9
-9dac鶬cāngcong1oriole196'109E27
-9dad鶭fǎngfong2196'102B6EF
-9dae鶮hèhok6196'10
-9daf鶯yīngang1oriole, green finch; Sylvia species (various)196'1083BA
-9db0鶰yuánjyun4196'102B6EB
-9db1鶱xiānhin1to soar196'102CE23
-9db2鶲wēngjung1flycatcher196'109E5F
-9db3鶳shīsi1196'10
-9db4鶴hèhok6crane; Grus species (various)196'109E64
-9db5鶵chúco1chick, fledging; infant, toddler196'102CE05
-9db6鶶tángtong4196'103129D
-9db7鶷xiáhat6196'103129F
-9db8鶸ruòjoek6light yellowish-green196'10
-9db9鶹liúlau4the owl196'109E60
-9dba鶺jízik3wagtail196'109E61
-9dbb鶻gúgwat1a kind of pigeon; falcon196'109E58
-9dbc鶼jiāngim1fabulous mythical bird196'109E63
-9dbd鶽sǔnzeon2a hawk196'103129B
-9dbe鶾hànhon6196'10
-9dbf鶿cíci4cormorant196'10
-9dc0鷀cíci4the fishing cormorant196'109E5A
-9dc1鷁yìjik6fishhawk; bow or prow196'109E62
-9dc2鷂yàojiu6sparrow hawk; Circus species (various)196'109E5E
-9dc3鷃yànaan3quail196'102EB68
-9dc4鷄jīgai1chicken196'109E21
-9dc5鷅lìleot6196'102B6FD
-9dc6鷆tiántin4bird name196'10
-9dc7鷇kòukau3chicks, fledglings196'102C1AE
-9dc8鷈tītai1a kind of bird196'104D18
-9dc9鷉tītai1grebe196'104D18
-9dca鷊yìjik6pheasant196'109E5D
-9dcb鷋tútou4196'11312A0
-9dcc鷌mǎmaa5196'10
-9dcd鷍xiāohiu1196'10
-9dce鷎gāogou1196'102CE22
-9dcf鷏tiántin4Caprimulgus indicus196'103129A
-9dd0鷐chénsan4196'112B700
-9dd1鷑jí196'11312A2
-9dd2鷒tuántyun4196'113124F
-9dd3鷓zhèze3partridge196'119E67
-9dd4鷔áongou4a bird of ill-omen to the state196'112A251
-9dd5鷕yǎojiu5call196'11312A1
-9dd6鷖yīji1seagull196'119E65
-9dd7鷗ōuau1seagull, tern; Larus species (various)196'119E25
-9dd8鷘chìcik1a water bird196'11
-9dd9鷙zhìzi3hawk, vulture196'119E37
-9dda鷚liùlau6Anthus species (various)196'119E68
-9ddb鷛yōngjung4196'11312A4
-9ddc鷜lǘleoi4196'112CE1E
-9ddd鷝bìbat1196'11
-9dde鷞shuāngsoeng1turquoise kingfisher196'112EB6A
-9ddf鷟zhuózok6phoenix196'112CE26
-9de0鷠yújyu4195'11
-9de1鷡wúmou4196'12
-9de2鷢juékyut3196'12312A7
-9de3鷣yínjam4196'122B703
-9de4鷤tí196'122B6F4
-9de5鷥sīsi1egret; Egretta garzetta196'129E36
-9de6鷦jiāoziu1wren196'129E6A
-9de7鷧yìji3cormorant196'12312A6
-9de8鷨huáwaa4196'122A24A
-9de9鷩bìbai3pheasant196'122B701
-9dea鷪yīngang1196'12
-9deb鷫sùsuk1turquoise kingfisher196'129E54
-9dec鷬huángwong4196'12
-9ded鷭fánfaan4196'122CE2A
-9dee鷮jiāogiu1long-tailed pheasant196'123126C
-9def鷯liáoliu4wren196'129E69
-9df0鷰yànjin3swallow (bird)196'122CE27
-9df1鷱gāogou1196'12
-9df2鷲jiùzau6condor, vulture196'129E6B
-9df3鷳xiánhaan4the silver pheasant, Lophura nycthemera196'129E47
-9df4鷴xiánhaan4silver pheasant badge worn by civil officials of the 5th grade; Lophura species (various)196'12
-9df5鷵tútou4196'12312A9
-9df6鷶mǎimaai5196'1231273
-9df7鷷zūnzeon1196'122B704
-9df8鷸yùwat6snipe, kingfisher; Tringa species (various)196'129E6C
-9df9鷹yīngjing1eagle, falcon; Accipiter species (various)196'139E70
-9dfa鷺lùlou6heron, egret; Ardea species (various)196'129E6D
-9dfb鷻tuántyun4196'12
-9dfc鷼xiánhaan4196'12
-9dfd鷽xuéhok6oriental bullfinch, weaver bird; Pyrrhula species (various)196'139E34
-9dfe鷾yìji3swallow196'13312B0
-9dff鷿pìpik1little grebe, dabchick (Tachybaptus ruficollis)196'132CE2F
-9e00鸀shǔ196'13312AC
-9e01鸁luólo4196'13312AE
-9e02鸂xīkai1Mandarin duck, Aix galericulata196'133D89
-9e03鸃yíji4196'133124C
-9e04鸄jīgik1196'13312AF
-9e05鸅zézaak6196'133125F
-9e06鸆yújyu4196'13312AB
-9e07鸇zhānzin1hawk; Butastur indicus196'139E6F
-9e08鸈yèjip6196'13
-9e09鸉yángjoeng4196'1331274
-9e0a鸊pìpik1little grebe, dabchick (Tachybaptus ruficollis)196'134D19
-9e0b鸋níngning4(archaic) a wren196'142B6E2
-9e0c鸌hùwok3196'149E71
-9e0d鸍mímei4196'14
-9e0e鸎yīngang1the mango-bird; the Chinese oriole196'142CE15
-9e0f鸏méngmung4196'149E72
-9e10鸐dídik6196'14312B1
-9e11鸑yuèngok6a legendary waterfowl; a young phoenix196'142CE1A
-9e12鸒yùjyu6eastern jackdaw; Corvus monedula196'14312AD
-9e13鸓lěileoi5196'15312B3
-9e14鸔bǔbuk1196'15
-9e15鸕lúlou4cormorant196'169E2C
-9e16鸖hèhok6196'162CE30
-9e17鸗lónglung4196'162B6DF
-9e18鸘shuāngsoeng1eagle196'179E74
-9e19鸙yuèjoek6196'17312B5
-9e1a鸚yīngjing1parrot196'179E66
-9e1b鸛guàngun3crane, Grus japonensis; stork; Ciconia species (various)196'189E73
-9e1c鸜qúkeoi4a species of mynah196'182CE31
-9e1d鸝lílei4Chinese oriole; Oriolus oriolus196'199E42
-9e1e鸞luánlyun4mythical bird related to the phoenix196'199E3E
-9e1f鸟niǎoniu5bird; Kangxi radical 196196'9CE5
-9e20鸠jiūgau1pigeon; collect, assemble196'9CE9
-9e21鸡jīgai1chicken196'96DE 9DC4
-9e22鸢yuānjyun1kite; Milvus species (various)196'9CF6
-9e23鸣míngming4cry of bird or animal; make sound196'9CF4
-9e24鸤shīsi1turtledove, cuckoo196'9CF2
-9e25鸥ōuau1seagull, tern; Larus species (various)196'9DD7
-9e26鸦yāaa1crow; Corvus species (various)196'9D09
-9e27鸧cāngcong1oriole196'9DAC
-9e28鸨bǎobou2bustard; procuress; Otis species (various)196'9D07
-9e29鸩zhènzam6a bird resembling the secretary falcon196'9D06
-9e2a鸪gūgu1Arborophila species (various)196'9D23
-9e2b鸫dōngdung1thrush; Turdus species (various)196'9D87
-9e2c鸬lúlou4cormorant196'9E15
-9e2d鸭yāaap3duck; Anas species (various)196'9D28
-9e2e鸮xiāohiu1owl196'9D1E
-9e2f鸯yāngjoeng1female mandarin duck (Aix galericulata)196'9D26
-9e30鸰língling4species of lark; wagtail; Motacilla species (various)196'9D12
-9e31鸱chīci1kite, horned owl; wine cups196'9D1F
-9e32鸲qúkeoi4mynah; Erithacus species (various)196'9D1D
-9e33鸳yuānjyun1male mandarin duck (Aix galericulata)196'9D1B
-9e34鸴xuéhok6oriental bullfinch, weaver bird; Pyrrhula species (various)196'9DFD
-9e35鸵tuóto4ostrich196'9D15
-9e36鸶sīsi1the eastern egret196'9DE5
-9e37鸷zhìzi3hawk, vulture196'9DD9
-9e38鸸érji4swallow196'9D2F
-9e39鸹guākut3the crow196'9D30
-9e3a鸺xiūjau1horned owl, scops chinensis196'9D42
-9e3b鸻hénghang4plover196'9D34
-9e3c鸼zhōuzau1ancient name for a bird with black featers and a short tail196'9D43
-9e3d鸽gēgap3pigeon, dove; Columba species (various)196'9D3F
-9e3e鸾luánlyun4fabulous bird196'9E1E
-9e3f鸿hónghung4species of wild swan; vast196'9D3B
-9e40鹀wúmou4196'9D50
-9e41鹁bóbut6species of pigeon196'9D53
-9e42鹂lílei4Chinese oriole; Oriolus oriolus196'9E1D
-9e43鹃juāngyun1cuckoo196'9D51
-9e44鹄gǔhuk6target196'9D60
-9e45鹅éngo4goose196'9D5D
-9e46鹆yùjuk6myna; manah; Acridotheres tristis196'9D52
-9e47鹇xiánhaan4silver pheasant, Lophura nycthemera; Lophura species (various)196'9DF3
-9e48鹈títai4pelican196'9D5C
-9e49鹉wǔmou5species of parrot196'9D61
-9e4a鹊quècoek3magpie; Pica species (various)196'9D72
-9e4b鹋miáomiu4emu196'9D93
-9e4c鹌ānam1quail; Coturnix coturnix196'9D6A
-9e4d鹍kūnkwan1a bird resembling the crane196'9D7E
-9e4e鹎bēibei1bird196'9D6F
-9e4f鹏péngpaang4fabulous bird of enormous size196'9D6C
-9e50鹐qiānzaam1to peck, as birds196'9D6E
-9e51鹑chúnseon4quail; Turnix species (various)196'9D89
-9e52鹒gēnggang1oriole196'9D8A
-9e53鹓yuānjyun1co-worker196'9D77
-9e54鹔sùsuk1turquoise kingfisher196'9DEB
-9e55鹕húwu4pelican196'9D98
-9e56鹖héhot3crossbill, species of nightingale196'9DA1
-9e57鹗èngok6osprey, fishhawk196'9D9A
-9e58鹘gǔgwat1a kind of pigeon; Treron permagna196'9DBB
-9e59鹙qiūcau1large waterfowl with naked head; Garrulus glandarius196'9D96
-9e5a鹚cíci4cormorant196'9DC0
-9e5b鹛méimei4babbler, Timaliidae species (various); thrush196'9DA5
-9e5c鹜wùmou6duck196'9DA9
-9e5d鹝yìjik6pheasant196'9DCA
-9e5e鹞yàojiu6sparrow hawk; kite shaped like196'9DC2
-9e5f鹟wēngjung1flycatcher196'9DB2
-9e60鹠liúlau4the owl196'9DB9
-9e61鹡jízik3wagtail196'9DBA
-9e62鹢yìjik6fishhawk bow or prow196'9DC1
-9e63鹣jiāngim1fabulous mythical bird196'9DBC
-9e64鹤hèhok6crane; Grus species (various)196'9DB4
-9e65鹥yīji1seagull196'9DD6
-9e66鹦yīngjing1parrot196'9E1A
-9e67鹧zhèze3partridge196'9DD3
-9e68鹨liùlau6Anthus species (various)196'9DDA
-9e69鹩liáoliu4wren196'9DEF
-9e6a鹪jiāoziu1wren196'9DE6
-9e6b鹫jiùzau6condor, vulture196'9DF2
-9e6c鹬yùwat6snipe, kingfisher196'9DF8
-9e6d鹭lùlou6heron, egret; Ardea species (various)196'9DFA
-9e6e鹮huánsyun4spoonbill; ibis; family Threskiornidae196'4D09
-9e6f鹯zhānzin1hawk; Butastur indicus196'9E07
-9e70鹰yīngjing1falcon; Accipiter species (various)196'9DF9
-9e71鹱hùwok3196'9E0C
-9e72鹲méngmung4196'9E0F
-9e73鹳guàngun3crane, Grus japonensis; stork; Ciconia species (various)196'9E1B
-9e74鹴shuāngsoeng1eagle196'9E18
-9e75鹵lǔlou5saline soil; natural salt, rock salt; Kangxi radical 197197'05364
-9e76鹶jīnging1salty and bitter; pitiful197'4
-9e77鹷língling4197'5
-9e78鹸jiǎngaan2alkaline, alkali, lye, salt197'8
-9e79鹹xiánhaam4salty, briny; salted; pickled197'954B8
-9e7a鹺cuóco4salty; salt197'109E7E
-9e7b鹻jiǎngaan2impure sodium carbonate197'10
-9e7c鹼jiǎngaan2alkaline, alkali, lye, salt197'137877
-9e7d鹽yánjim4salt197'1376D0
-9e7e鹾cuóco4salty; salt197'9E7A
-9e7f鹿lùluk6deer; surname; Kangxi radical 198198'0
-9e80麀yōujau1female deer, doe198'2
-9e81麁cūcou1rough, thick, course; rude198'2
-9e82麂jǐgei2muntjac, barking deer; Muntiacus species (various)198'2
-9e83麃páo biāobiu1till, plow198'4
-9e84麄cūcou1coarse, rough, rude198'4
-9e85麅páopaau4a small spotted deer found in north China198'5
-9e86麆zhùcyu4198'5
-9e87麇jūngwan1general name for hornless deer; to collect, to band together198'5
-9e88麈zhǔzyu2legendary species of deer198'5
-9e89麉jiāngin1198'6
-9e8a麊mímei4198'6
-9e8b麋mímei4Père David's deer, milu, elaphure (Elaphurus davidianus); surname198'6
-9e8c麌yǔjyu5stag; herd198'7
-9e8d麍liúlau4198'7
-9e8e麎chénsan4198'7
-9e8f麏jūngwan1198'7
-9e90麐línleon4female of Chinese unicorn198'7
-9e91麑níngai4fawn, young deer198'8
-9e92麒qíkei4legendary auspicious animal198'8
-9e93麓lùluk1foothill198'8
-9e94麔jiùkau5198'8
-9e95麕jūngwan1muntjac deer, hornless river deer198'8
-9e96麖jīngging1198'8
-9e97麗lìlai6beautiful, magnificent, elegant198'84E3D
-9e98麘xiānghoeng1scent198'9
-9e99麙xián198'9
-9e9a麚jiāgaa1198'9
-9e9b麛mímai4fawn198'9
-9e9c麜lìleot6198'10
-9e9d麝shèse6musk deer198'10
-9e9e麞zhāngzoeng1water deer (Hydropotes inermis)198'11
-9e9f麟línleon4female of Chinese unicorn198'12
-9ea0麠jīngging1a large deer198'13
-9ea1麡qícai4198'142CE3E
-9ea2麢língling4198'17
-9ea3麣yánngaam4198'20
-9ea4麤cūcou1rough, coarse198'22
-9ea5麥màimak6wheat, barley, oats; Kangxi radical 199199'09EA6
-9ea6麦màimak6wheat, barley, oats; simplified form of Kangxi radical 199199'9EA69EA5 9EA6
-9ea7麧héhat6199'3312C7
-9ea8麨chǎociu2199'42A38A
-9ea9麩fūfu1bran199'49EB8
-9eaa麪miànmin6flour, noodles, dough199'4
-9eab麫miànmin6flour; vermicelli; dough199'4
-9eac麬fūfu1199'524FF2
-9ead麭pàopaau3a sticky rice ball199'5
-9eae麮qùheoi3porridge199'5312CB
-9eaf麯qūkuk1yeast, leaven199'666F2 312D0
-9eb0麰móumau4barley199'62EB87
-9eb1麱fūfu1bran of wheat199'7312D6
-9eb2麲xiànhaan6199'72A389
-9eb3麳láiloi4199'82A38C
-9eb4麴qūkuk1yeast, leaven; surname199'89EB9
-9eb5麵miànmin6flour, dough, noodles199'99762
-9eb6麶chici1199'11
-9eb7麷fēngfung1199'182B711
-9eb8麸fūfu1bran199'9EA9
-9eb9麹qūkuk1yeast, leaven; surname199'9EB4
-9eba麺miànmin6flour, dough, noodles199'
-9ebb麻mámaa4hemp, jute, flax; sesame; Kangxi radical 200200'0
-9ebc麼memo1interrogative final particle; insignificant, small, tiny200'34E48
-9ebd麽mómo1interrogative final particle; insignificant, small, tiny200'34E48
-9ebe麾huīfai1a pennant, flag, banner; to signal to200'4
-9ebf麿moleoi5I, personal name marker200'7
-9ec0黀zōuzau1200'8
-9ec1黁núnnyun5200'9
-9ec2黂fénfan4200'13312F1
-9ec3黃huángwong4yellow; surname; Kangxi radical 201201'09EC4
-9ec4黄huángwong4yellow; surname201'09EC49EC3 9EC4
-9ec5黅jīngam1201'4
-9ec6黆guānggwong1201'4
-9ec7黇tiāntim1fallow deer (Dama dama)201'5
-9ec8黈tǒutau2yellow; augment, increase201'5
-9ec9黉hónghung4school201'59ECC
-9eca黊huàwaa6201'6
-9ecb黋kuàngkong3201'6
-9ecc黌hónghung4school201'139EC9
-9ecd黍shǔsyu2glutinous millet; Kangxi radical 202202'0
-9ece黎lílai4surname; numerous, many; black202'3
-9ecf黏niánnim4stick to; glutinous, sticky; glue202'5
-9ed0黐chīci1to stick; sticky202'10
-9ed1黑hēihak1black; dark; evil, sinister; Kangxi radical 203203'0
-9ed2黒hēihak1black; dark; evil203'0
-9ed3黓yìjik6black203'3
-9ed4黔qiánkim4black; Guizhou203'4
-9ed5黕dǎndam2red203'4
-9ed6黖xìhei3203'4
-9ed7黗tūntan1203'4
-9ed8默mòmak6silent; quiet, still; dark203'4
-9ed9黙mòmak6silent; quiet, still; dark86'11
-9eda黚qiánkim4203'5
-9edb黛dàidoi6blacken eyebrows; black203'5
-9edc黜chùzeot1dismiss; demote, downgrade203'5
-9edd黝yǒujau2black203'5
-9ede點diǎndim2dot, speck, spot; point, degree203'570B9
-9edf黟yīji1black and shining; ebony203'6
-9ee0黠xiákit3sly, cunning, shrewd; artful203'6
-9ee1黡yǎnjim2mole, scar, blemish203'69EF6
-9ee2黢qūzeot1black203'7
-9ee3黣měimui5203'7
-9ee4黤yǎnjim2blue-black203'8
-9ee5黥qíngking4to tattoo; to brand the face of criminals203'8
-9ee6黦yuèwat1203'8
-9ee7黧lílai4a dark, yellowish colour203'8
-9ee8黨dǎngdong2political party, gang, faction203'8515A
-9ee9黩dúduk6to dishonor, defile, corrupt; soiled203'89EF7
-9eea黪cǎncaam2grey black203'89EF2
-9eeb黫yānjan1203'9
-9eec黬yánngaam4blackhead203'9
-9eed黭yǎn203'9
-9eee黮dǎndam2black, dark; unclear; private203'9
-9eef黯ànam2dark, black; sullen, dreary203'9
-9ef0黰zhěncan2young girl's hair style203'10
-9ef1黱dàidoi6203'10
-9ef2黲cǎncaam2grey black203'119EEA
-9ef3黳yīji1203'11
-9ef4黴méimei4mold, mildew; bacteria, fungi203'119709
-9ef5黵zhǎndaam2to soil, stain203'13
-9ef6黶yǎnjim2mole, scar, blemish203'149EE1
-9ef7黷dúduk6to dishonor, defile, corrupt; soiled203'159EE9
-9ef8黸lúlou1203'16312F6
-9ef9黹zhǐzi2embroidery, needlework; Kangxi radical 204204'0
-9efa黺fěnfan2204'4
-9efb黻fúfat1special pattern of embroidery204'5
-9efc黼fǔfu2embroidered official or sacrificial robe204'7
-9efd黽miǎnman5to strive; to endeavor; Kangxi radical 205205'09EFE
-9efe黾mǐnman5to strive; to endeavor205'9EFE9EFD 9EFE
-9eff黿yuánjyun4large turtle, sea turtle205'49F0B
-9f00鼀cùcuk1205'5312FE
-9f01鼁qùheoi3205'5312FF
-9f02鼂cháociu4a kind of sea turtle; surname205'5
-9f03鼃wāwaa1the edible water-frog205'6
-9f04鼄zhūzyu1the spider205'62CE63
-9f05鼅zhīzi1spider205'831304
-9f06鼆méngman4205'1031306
-9f07鼇áongou4huge sea turtle205'10
-9f08鼈biēbit3a fresh-water turtle, Trionyx sinensis205'1231307
-9f09鼉tuóto4Chinese allegator (Alligator sinensis)205'129F0D
-9f0a鼊bìbik1205'1331309
-9f0b鼋yuánjyun4large turtle, sea turtle205'9EFF
-9f0c鼌cháociu4205'
-9f0d鼍tuóto4large reptile, water lizard205'9F09
-9f0e鼎dǐngding2large, three-legged bronze caldron; Kangxi radical 206; hexagram ䷱206'0
-9f0f鼏mìmik6cover of tripod caldron206'2
-9f10鼐nàinaai5incense tripod206'2
-9f11鼑dǐngding2206'2
-9f12鼒zīzi1large tripod caldron with small mouth206'3
-9f13鼓gǔgu2drum; beat, top, strike; Kangxi radical 207207'0
-9f14鼔gǔgu2a drum; to drum, from whence comes: to rouse; to swell; to bulge207'0
-9f15鼕dōngdung1rattle of drums207'551AC
-9f16鼖fénfan4drum207'5
-9f17鼗táotou4small revolving drum with knobs207'69F179780 9F17
-9f18鼘yuānjyun1207'8
-9f19鼙pípei4drum carried on horseback207'8
-9f1a鼚chāngcoeng1drumming207'83130A
-9f1b鼛gāogou1drum207'8
-9f1c鼜qìcik1207'10
-9f1d鼝yuānjyun1207'11
-9f1e鼞tāngtong1207'11
-9f1f鼟tēngtang1onomatopoeic, drumming sound207'12
-9f20鼠shǔsyu2rat, mouse; Kangxi radical 208208'0
-9f21鼡shǔlip6rat, mouse208'
-9f22鼢fénfan4a variety of mole208'4
-9f23鼣fèifai6208'4
-9f24鼤wénman4208'4
-9f25鼥bábat6groundhog, woodchuck208'5
-9f26鼦diāodiu1208'5
-9f27鼧tuóto4the marmot208'5
-9f28鼨zhōngzung1208'5
-9f29鼩qúkeoi4shrew208'5
-9f2a鼪shēngsang1weasel208'5
-9f2b鼫shísek6marmot; squirrel208'5
-9f2c鼬yòujau6weasel, Mustela itatsi208'5
-9f2d鼭shísi4208'6
-9f2e鼮tíngting4208'7
-9f2f鼯wúng4flying squirrel208'7
-9f30鼰júgwik1208'7
-9f31鼱jīngzing1208'8
-9f32鼲húnwan4208'93130F
-9f33鼳júgwik1208'9
-9f34鼴yǎnjin2mole; Talpidae species (various)208'99F39
-9f35鼵tūdat6208'9
-9f36鼶sīsi1208'10
-9f37鼷xīhai4a mouse208'10
-9f38鼸xiànjim6208'10
-9f39鼹yǎnjin2mole; Talpidae species (various)208'109F399F34 9F39
-9f3a鼺léileoi4208'15
-9f3b鼻bíbei6nose; first; Kangxi radical 209209'0
-9f3c鼼yàojiu6(Cant.) curving upwards209'2
-9f3d鼽qiúkau4clogged nose209'2
-9f3e鼾hānhon4snore loudly209'3
-9f3f鼿wùngat6209'3
-9f40齀wùngat6209'5
-9f41齁hōuhau1snore loudly; very, extremely209'5
-9f42齂xièhaai3209'8
-9f43齃èaat3209'9
-9f44齄zhāzaa1red sores on nose209'9
-9f45齅xiùcau3smell; to smell209'10
-9f46齆wèngung3stuffed nose209'10
-9f47齇zhāzaa1a pimple or red splotch on the nose209'11
-9f48齈nòngnung6cold in the head; catarrh of the nose; mucus from the nose209'1331316
-9f49齉nàngnong6stoppage of the nose; to speak with a nasal twang209'22
-9f4a齊qícai4even, uniform, of equal length; Kangxi radical 210210'09F50
-9f4b齋zhāizaai1vegetarian diet; study; to fast, abstain210'3658B
-9f4c齌jìcai4steam210'431317
-9f4d齍zīzi1210'531318
-9f4e齎jīzai1take in both hands and offer to210'78D4D
-9f4f齏jīzai1break or smash into pieces, pulverize; hash210'99F51
-9f50齐qícai4even, uniform, of equal length210'9F4A
-9f51齑jīzai1break or smash into pieces, pulverize; hash210'9F4F
-9f52齒chǐci2teeth; gears, cogs; age; Kangxi radical 211211'09F7F
-9f53齓chèncan3211'1
-9f54齔chèncan3lose baby teeth and get adult teeth211'29F80
-9f55齕héhat6gnaw, bite, nibble211'39F81
-9f56齖yángaa4211'42CE7A
-9f57齗yínngan4gums (of the teeth); to dispute211'49F82
-9f58齘xièhaai6211'42CE7C
-9f59齙bāobaau6projecting teeth211'59F85
-9f5a齚zézaak3to chew211'53132C
-9f5b齛xièsit3211'5
-9f5c齜cháizi1to show the teeth; crooked teeth211'59F87
-9f5d齝chīci1to chew the cud211'53132F
-9f5e齞yǎnjin6to display the teeth211'53132B
-9f5f齟jǔzeoi2irregular teeth; discord211'59F83
-9f60齠tiáotiu4lose baby teeth and get adult teeth211'59F86
-9f61齡língling4age; years211'59F84
-9f62齢língling4age; years211'
-9f63齣chūceot1act; stanza; time, occasion211'551FA 3132E
-9f64齤quánkyun4211'631332
-9f65齥xièsit3211'631331
-9f66齦kěnngan4gums211'69F88
-9f67齧nièngit6bite, gnaw; wear down, erode211'62B729
-9f68齨jiùkau5211'6
-9f69齩yǎongaau5to chew; to bite211'62B72A
-9f6a齪chuòcuk1narrow, small; dirty211'79F8A
-9f6b齫yǔnwan5211'7
-9f6c齬yǔjyu5uneven teeth; to disagree211'79F89
-9f6d齭chǔco2toothache211'82B72D
-9f6e齮yǐji2bite211'82CE88
-9f6f齯níngai4teeth grown in old age211'82B81C
-9f70齰zézaak3to bite211'82B72C
-9f71齱zōucuk1211'831336
-9f72齲qǔgeoi2tooth decay211'99F8B
-9f73齳yǔnwan5toothless211'931333
-9f74齴yǎn211'92B72E
-9f75齵óujyu4uneven (teeth)211'931339
-9f76齶èngok6palate, roof of mouth211'9816D
-9f77齷wòak1narrow, small; dirty211'99F8C
-9f78齸yìjik1211'103133D
-9f79齹cīci1211'102CE8E
-9f7a齺zōuzau1211'103132D
-9f7b齻diāndin1211'103133A
-9f7c齼chǔco2211'132CE93
-9f7d齽jìngam6211'132CE94
-9f7e齾yàngaa3211'202B730
-9f7f齿chǐci2teeth; gears, cogs; age; simplified form of the Kangxi radical 211211'9F52
-9f80龀chèncan3lose baby teeth and get adult teeth211'9F54
-9f81龁héhat6gnaw, bite, nibble211'9F55
-9f82龂yínngan4gums (of the teeth); to dispute211'9F57
-9f83龃jǔzeoi2irregular teeth; discord211'9F5F
-9f84龄língling4age; years211'9F61
-9f85龅bāobaau6teeth protrude211'9F59
-9f86龆tiáotiu4lose baby teeth and get adult teeth211'9F60
-9f87龇zīzi1to show the teeth; crooked teeth211'9F5C
-9f88龈yínngan4gums211'9F66
-9f89龉yǔjyu5uneven teeth; to disagree211'9F6C
-9f8a龊chuòcuk1narrow, small; dirty211'9F6A
-9f8b龋qǔgeoi2tooth decay211'9F72
-9f8c龌wòaak1narrow, small; dirty211'9F77
-9f8d龍lónglung4dragon; Kangxi radical 212212'09F99
-9f8e龎pángpong4disorderly, messy; huge, big212'25390
-9f8f龏gōnggung1212'331341
-9f90龐pángpong4disorderly, messy; huge, big53'165E9E
-9f91龑yǎnjim5used in personal names212'44DAE
-9f92龒lónglung4dragon212'5
-9f93龓lǒnglung5a halter212'62B732
-9f94龔gōnggung1give, present; reverential212'69F9A
-9f95龕kānham1niche, shrine212'69F9B
-9f96龖dádaap6flight of a dragon212'1631342
-9f97龗língling4212'17
-9f98龘dádaap6the appearance of a dragon walking212'322EE5D
-9f99龙lónglung4dragon; symbolic of emperor212'9F8D
-9f9a龚gōnggung1give, present; reverential212'9F94
-9f9b龛kānham1niche, shrine212'9F95
-9f9c龜guīgwai1turtle or tortoise; cuckold; Kangxi radical 213213'09F9F
-9f9d龝qiūcau1autumn, fall; year213'52C4EB
-9f9e龞biēbit3turtle213'1231348
-9f9f龟guīgwai1turtle or tortoise; cuckold213'9F9F9F9C 9F9F
-9fa0龠yuèjoek6flute; pipe, ancient measure; Kangxi radical 214214'0
-9fa1龡chuīceoi1to blow, exhale214'4
-9fa2龢héwo4in harmony; calm, peaceful214'5
-9fa3龣juégok3214'8
-9fa4龤xiéhaai4to harmonize; to accord with; to agree214'9
-9fa5龥yùjyu6beg, appeal for help214'92CC73
-9fa6龦soeng486'11
-9fa7龧syu272'12
-9fa8龨zeoi122'8
-9fa9龩gan3140'13
-9faa龪zhānjan4156'2
-9fab龫gon3159'5
-9fac龬wǎngmong5167'8
-9fad龭ji6187'1129A0E
-9fae龮jik6187'17
-9faf龯mou6167'528C46
-9fb0龰zǒuzi277'0
-9fb1龱31'2
-9fb2龲fu3167'1030F8B
-9fb3龳32'13
-9fb4龴5'1
-9fb5龵shǒusau264'0
-9fb6龶32'1
-9fb7龷140'1
-9fb8龸42'2
-9fb9龹12'4
-9fba龺24'6
-9fbb龻luánlyun4149'123005C
-9fbc龼32'14
-9fbd龽86'11307B3
-9fbe龾107'8
-9fbf龿140'8
-9fc0鿀140'18
-9fc1鿁hung6149'64724
-9fc2鿂159'112EDD9
-9fc3鿃shǎnsim2(same as 睒) to blink, twinkle109'7
-9fc4鿄liángloeng475'6
-9fc5鿅113'13
-9fc6鿆113'4
-9fc7鿇zhēngzang19'6
-9fc8鿈ce160'4
-9fc9鿉wu160'4
-9fca鿊zi2140'7
-9fcb鿋hei1145'12
-9fcc鿌liángloeng4cool, cold; disheartened85'9
-9fcd鿍gàngpung1hill; long and narrow highland; used in place names; (Cant.) throw up and scatter (as dust)32'6
-9fce鿎tǎdaat6(tǎ) place name in Zhejiang; (dá) cobblestone, water gate, place name in Guangdong112'640EE
-9fcf鿏màifaan6meitnerium (element 109, Mt)167'4951
-9fd0鿐zau2a kind of clam195'104CA4
-9fd1鿑15'5
-9fd2鿒caraway140'69FD3
-9fd3鿓caraway140'99FD2
-9fd4鿔gēgo1copernicium (element 112, Cn)167'93B6
-9fd5鿕dānDanio chrysotaeniata195'311A5
-9fd6鿖1'6
-9fd7鿗1'8
-9fd8鿘9'10
-9fd9鿙9'11
-9fda鿚9'14
-9fdb鿛15'22
-9fdc鿜64'19
-9fdd鿝75'23
-9fde鿞78'16
-9fdf鿟115'79FE0
-9fe0鿠115'169FDF
-9fe1鿡122'28
-9fe2鿢128'8
-9fe3鿣128'9
-9fe4鿤128'12
-9fe5鿥138'17
-9fe6鿦140'18
-9fe7鿧170'23
-9fe8鿨173'19
-9fe9鿩195'18
-9fea鿪86'13
-9feb鿫àoou3oganesson (element 118)84'13
-9fec鿬tiántin4tennessine (element 117)112'5
-9fed鿭nǐnip6nihonium (element 113)167'9268 9448
-9fee鿮53'10
-9fef鿯119'10
-9ff0鿰hánhon485'122C267
-9ff1鿱bābaa196'4
-9ff2鿲láolou4151'727C0E
-9ff3鿳tuòto4195'119FF8
-9ff4鿴dōngdung1195'9B97
-9ff5鿵zhìzi3195'29DD3
-9ff6鿶lángloeng4195'29DD5
-9ff7鿷ànjam1195'29E4E
-9ff8鿸tuòto4195'9FF3
-9ff9鿹mìmat6195'2CD68
-9ffa鿺màimak6196'2A133
-9ffb鿻bùbou3208'5
-9ffc鿼jiāgaa1208'5
-9ffd鿽30'10
-9ffe鿾làng32'9
-9fff鿿xìng85'9
-f900豈how? what?151'3
-f901更more, still further, much more73'3
-f902車cart, vehicle; carry in cart159'0
-f903賈surname; merchant; buy, trade154'6
-f904滑slip, slide; slippery, polished85'10
-f905串string; relatives; conspire2'6
-f906句sentence30'2
-f907龜turtle or tortoise; cuckold213'0
-f908龜turtle or tortoise; cuckold213'0
-f909契deed, contract, bond; engrave37'6
-f90a金gold; metals in general; money167'0
-f90b喇horn, bugle; lama; final particle30'9
-f90c奈but, how; bear, stand, endure37'5
-f90d懶lazy, languid, listless61'16
-f90e癩leprosy, scabies, mange; shoddy104'16
-f90f羅net for catching birds; gauze122'14
-f910蘿type of creeping plant; turnip140'19
-f911螺spiral shell; conch; spiral142'11
-f912裸bare, nude; undress, strip145'8
-f913邏patrol; inspect; watch162'19
-f914樂happy, glad; enjoyable; music75'11
-f915洛river in Shanxi province; city85'6
-f916烙brand, burn; branding iron86'6
-f917珞kind of necklace96'6
-f918落fall, drop; net income, surplus140'9
-f919酪cream, cheese; koumiss164'6
-f91a駱white horse with black mane; camel187'6
-f91b亂confusion, state of chaos; create chaos, revolt5'12
-f91c卵egg; ovum; roe; spawn26'5
-f91d欄railing, balustrade; animal pen75'17
-f91e爛rotten, spoiled, decayed86'17
-f91f蘭orchid; elegant, graceful140'17
-f920鸞fabulous bird196'19
-f921嵐mountain mist, mountain haze46'9
-f922濫flood, overflow; excessive85'14
-f923藍blue; indigo plant; surname140'14
-f924襤ragged, tattered, threadbare145'14
-f925拉pull, drag; seize, hold; lengthen64'5
-f926臘year end sacrifice; dried meat130'15
-f927蠟wax; candle; waxy, glazed142'15
-f928廊long4corridor, porch, veranda53'9
-f929朗clear, bright; distinct74'7
-f92a浪wave; wasteful, reckless85'7
-f92b狼wolf94'7
-f92c郎gentleman, young man; husband163'6
-f92d來come, coming; return, returning9'6
-f92e冷cold, cool; lonely15'5
-f92f勞labor, toil, do manual work19'10
-f930擄capture, seize64'13
-f931櫓oar, scull; row75'15
-f932爐fireplace, stove, oven, furnace86'16
-f933盧cottage, hut; surname; black108'11
-f934老old, aged; experienced125'0
-f935蘆rushes, reeds140'16
-f936虜lou5capture, imprison, seize; prison141'6
-f937路road, path, street; journey157'6
-f938露dew; bare, open, exposed173'12
-f939魯foolish, stupid, rash; vulgar195'4
-f93a鷺heron, egret196'12
-f93b碌rough, uneven, rocky; mediocre112'8
-f93c祿blessing, happiness, prosperity113'8
-f93d綠green; chlorine120'8
-f93e菉the green bamboo; greenish bamboo140'8
-f93f錄copy, write down, record167'8
-f940鹿deer; surname; Kangxi radical 198198'0
-f941論debate; discuss; discourse149'8
-f942壟grave, mound; ridge in field32'16
-f943弄do, play or fiddle with; alley55'4
-f944籠cage; cage-like basket118'16
-f945聾lung4deaf128'16
-f946牢prison; stable, pen; secure93'3
-f947磊pile of rocks or stones; great112'10
-f948賂bribe; give present154'6
-f949雷thunder173'5
-f94a壘rampart, military wall32'15
-f94b屢frequently, often, again and again44'11
-f94c樓building of two or more stories75'11
-f94d淚tears; weep, cry85'8
-f94e漏leak, drip; funnel; hour glass85'11
-f94f累tired; implicate, involve; bother120'5
-f950縷thread; detailed, precise120'11
-f951陋narrow; crude, coarse; ugly170'6
-f952勒strangle, tighten19'9
-f953肋ribs; chest130'2
-f954凜shiver with cold or fear, fearful15'13
-f955凌pure; virtuous; insult; maltreat15'8
-f956稜corner, edge, angle; square block115'8
-f957綾thin silk, damask silk120'8
-f958菱water-chestnut, water caltrop140'8
-f959陵hill, mound; mausoleum170'8
-f95a讀read, study; pronounce149'15
-f95b拏take; bring; grasp, hold; arrest64'5
-f95c樂happy, glad; enjoyable; music75'11
-f95d諾promise; assent, approve149'9
-f95e丹cinnabar (native HgS); vermilion (artificial HgS used as pigment)3'3
-f95f寧repose, serenity, peace; peaceful40'11
-f960怒anger, rage, passion; angry61'5
-f961率to lead; ratio; rate; limit95'6
-f962異different, unusual, strange102'7
-f963北north; northern; northward21'3
-f964磻a tributary of the Wei river in Shanxi112'12
-f965便convenience, ease; expedient9'7
-f966復return; repeat; repeatedly60'9
-f967不no, not; un-; negative prefix1'3
-f968泌to seep out, excrete85'5
-f969數number; several; count; fate66'11
-f96a索large rope, cable; rules, laws120'4
-f96b參take part in, intervene28'9
-f96c塞stop up, block. seal, cork32'10
-f96d省province; save, economize109'4
-f96e葉leaf, petal; page of book; period140'9
-f96f說speak, say, talk; scold, upbraid149'7
-f970殺kill, slaughter, murder; hurt79'7
-f971辰early morning161'0
-f972沈sink, submerge; addicted to; name85'4
-f973拾pick up, collect, tidy up; ten64'6
-f974若if, supposing, assuming; similar140'5
-f975掠rob, ransack, plunder; pass by64'8
-f976略approximately, roughly; outline102'6
-f977亮bright, brilliant, radiant, light8'7
-f978兩two, both, pair, couple; ounce11'6
-f979凉cool, cold; disheartened15'8
-f97a梁bridge; beam; rafters; surname75'7
-f97b糧food, grain, provisions119'12
-f97c良good, virtuous, respectable138'1
-f97d諒excuse, forgive; guess, presume149'8
-f97e量measure, quantity, capacity166'5
-f97f勵strive; encourage19'15
-f980呂surname; a musical note30'4
-f981女woman, girl; feminine; rad. 3838'0
-f982廬hut, cottage; name of a mountain53'16
-f983旅trip, journey; travel; traveler70'6
-f984濾strain out, filter85'15
-f985礪whetstone; sharpen112'15
-f986閭village of twenty-five families169'7
-f987驪a pure black horse; a pair of horses187'19
-f988麗beautiful, magnificent, elegant198'8
-f989黎surname; numerous, many; black202'3
-f98a力power, capability, influence19'0
-f98b曆calendar, era72'12
-f98c歷take place, past, history77'12
-f98d轢run over something with a vehicle159'15
-f98e年year; new-years; person's age51'3
-f98f憐pity, sympathize61'12
-f990戀love; long for, yearn for; love61'19
-f991撚twirl in fingers, tease, toy with64'12
-f992漣flowing water; ripples; weeping85'11
-f993煉smelt, refine; distill, condense86'9
-f994璉vessel used to hold grain offerings96'11
-f995秊year; new-years; person's age115'3
-f996練practice, drill, exercise, train120'9
-f997聯connect, join; associate, ally128'11
-f998輦a hand-cart; to transport by carriage159'8
-f999蓮lotus, water lily; paradise140'11
-f99a連join, connect; continuous; even162'7
-f99b鍊smelt metals, forge; refine167'9
-f99c列a line; to arrange in order, classify18'4
-f99d劣bad, inferior; slightly19'4
-f99e咽throat; pharynx30'6
-f99f烈fiery, violent, vehement, ardent86'6
-f9a0裂split, crack, break open; rend145'6
-f9a1說speak, say, talk; scold, upbraid149'7
-f9a2廉upright, honorable, honest53'10
-f9a3念think of, recall, study61'4
-f9a4捻to twist, nip with the fingers64'8
-f9a5殮dress corpse for burial78'13
-f9a6簾a blind, screen, curtain118'13
-f9a7獵hunt; field sports94'15
-f9a8令command, order; 'commandant', magistrate; allow, cause9'3
-f9a9囹prison, enclosure31'5
-f9aa寧repose, serenity, peace; peaceful40'11
-f9ab嶺mountain ridge, mountain peak46'14
-f9ac怜pity, sympathize61'5
-f9ad玲tinkling of jade96'5
-f9ae瑩lustre of gems; bright, lustrous96'10
-f9af羚species of antelope123'5
-f9b0聆listen, hear128'5
-f9b1鈴bell167'5
-f9b2零zero; fragment, fraction173'5
-f9b3靈spirit, soul; spiritual world173'16
-f9b4領neck; collar; lead, guide181'5
-f9b5例precedent, example; regulation9'6
-f9b6禮social custom; manners; courtesy; rites113'13
-f9b7醴sweet wine; sweet spring164'13
-f9b8隸be subservient to; servant171'9
-f9b9惡evil, wicked, bad, foul61'8
-f9ba了to finish; particle of completed action6'1
-f9bb僚officials; bureaucracy9'12
-f9bc寮shanty, hut, shack40'12
-f9bd尿urine; urinate44'4
-f9be料consider, conjecture; material68'6
-f9bf樂happy, glad; enjoyable; music75'11
-f9c0燎to burn, set afire; to illuminate; a signal lamp86'12
-f9c1療be healed, cured, recover104'12
-f9c2蓼smartweed, polygonum140'11
-f9c3遼distant, far162'12
-f9c4龍dragon; symbolic of emperor212'0
-f9c5暈halo in sky; fog; dizzy, faint72'9
-f9c6阮ancient musical instrument; surname170'4
-f9c7劉surname; kill, destroy18'13
-f9c8杻Ligustrum sinense, Chinese privet75'4
-f9c9柳willow tree; pleasure75'5
-f9ca流flow, circulate, drift; class85'6
-f9cb溜slide, glide, slip; slippery85'10
-f9cc琉sparkling stone; glazed, opaque96'6
-f9cd留stop, halt; stay, detain, keep102'5
-f9ce硫sulfur (element 16, S)112'7
-f9cf紐knot; button; handle, knob; tie120'4
-f9d0類class, group, kind, category181'10
-f9d1六number six12'2
-f9d2戮kill, massacre; oppress62'11
-f9d3陸land, continental; army170'8
-f9d4倫normal human relationships9'8
-f9d5崙Kunlun mountains in Jiangsu46'8
-f9d6淪be lost; sink, be submerged85'8
-f9d7輪wheel; revolve, turn; recur159'8
-f9d8律statute, principle, regulation60'6
-f9d9慄shiver, shudder, tremble; tremble61'10
-f9da栗chestnut tree, chestnuts; surname75'6
-f9db率to lead; ratio; rate; limit95'6
-f9dc隆prosperous, plentiful, abundant170'9
-f9dd利gains, advantage, profit, merit18'5
-f9de吏government official, magistrate30'3
-f9df履footwear, shoes; walk on, tread44'12
-f9e0易change; easy72'4
-f9e1李plum; judge; surname75'3
-f9e2梨pear; opera; cut, slash75'7
-f9e3泥mud, mire; earth, clay; plaster85'5
-f9e4理reason, logic; manage96'7
-f9e5痢dysentery104'7
-f9e6罹sorrow, grief; incur, meet with122'11
-f9e7裏inside, interior, within145'7
-f9e8裡inside, interior, within145'7
-f9e9里unit of distance; village; lane166'0
-f9ea離leave, depart; go away; separate172'11
-f9eb匿hide; go into hiding23'9
-f9ec溺drown; submerge in water; indulge85'10
-f9ed吝stingy, miserly, parsimonious30'4
-f9ee燐phosphorus (element 15, P)86'12
-f9ef璘luster of jade96'12
-f9f0藺rush used in making mats; surname140'16
-f9f1隣neighbor; neighboring; adjacent170'12
-f9f2鱗fish scales195'12
-f9f3麟female of Chinese unicorn198'12
-f9f4林forest, grove; surname75'4
-f9f5淋drip, soak, drench; perfectly85'8
-f9f6臨draw near, approach; descend131'11
-f9f7立stand; let stand; establish, set117'0
-f9f8笠bamboo hat; bamboo covering118'5
-f9f9粒grain; small particle119'5
-f9fa狀form; appearance; shape; official94'4
-f9fb炙roast, broil; toast; cauterize86'4
-f9fc識recognize, understand, know149'12
-f9fd什file of ten soldiers9'2
-f9fe茶tea140'6
-f9ff刺stab; prick, irritate; prod18'6
-fa00切cut, mince, slice, carve18'2
-fa01度degree, system; manner; to consider53'6
-fa02拓expand; open up; support or push64'5
-fa03糖sugar; candy; sweets119'10
-fa04宅residence, dwelling, home; grave40'3
-fa05洞cave, grotto; ravine; hole85'6
-fa06暴violent, brutal, tyrannical72'11
-fa07輻spokes of wheel159'9
-fa08行go; walk; move, travel; circulate144'0
-fa09降descend, fall, drop; lower, down170'6
-fa0a見see, observe, behold; perceive147'0
-fa0b廓broad, wide, open, empty; expand53'11
-fa0c兀duplicate of Big Five A46110'1
-fa0d嗀vomit30'10
-fa0e﨎29'11
-fa0f﨏32'7
-fa10塚cemetery; tomb32'10
-fa11﨑cape; spit; promontory46'9
-fa12晴clear weather72'8
-fa13﨓75'9
-fa14﨔75'10
-fa15凞bright15'14
-fa16猪pig94'8
-fa17益jik1profit108'5
-fa18礼lǐsocial custom; manners; courtesy; rites113'1
-fa19神spirit113'5
-fa1a祥good luck113'6
-fa1b福happiness113'9
-fa1c靖pacify; appease; calm174'5
-fa1d精essence; semen; spirit119'8
-fa1e羽feather124'0
-fa1f﨟140'13
-fa20蘒140'17
-fa21﨡142'5
-fa22諸several149'9
-fa23﨣156'4
-fa24﨤162'4
-fa25逸flee162'8
-fa26都metropolis163'9
-fa27﨧167'7
-fa28﨨167'8
-fa29﨩170'10
-fa2a飯cooked rice; food; meal184'4
-fa2b飼raise animals; feed; nourish184'5
-fa2c館public building184'8
-fa2d鶴crane196'10
-fa2e郞163'7
-fa2f隷171'8
-fa30侮9'7
-fa31僧9'12
-fa32免10'6
-fa33勉19'7
-fa34勤19'11
-fa35卑24'6
-fa36喝30'9
-fa37嘆30'11
-fa38器30'13
-fa39塀32'9
-fa3a墨32'12
-fa3b層44'12
-fa3c屮45'0
-fa3d悔61'7
-fa3e慨61'9
-fa3f憎61'12
-fa40懲61'15
-fa41敏66'7
-fa42既71'5
-fa43暑72'8
-fa44梅75'7
-fa45海85'7
-fa46渚85'8
-fa47漢85'11
-fa48煮86'8
-fa49爫87'0
-fa4a琢96'8
-fa4b碑112'8
-fa4c社113'3
-fa4d祉113'4
-fa4e祈113'4
-fa4f祐113'5
-fa50祖113'5
-fa51祝113'5
-fa52禍113'9
-fa53禎113'9
-fa54穀115'10
-fa55突116'4
-fa56節118'7
-fa57練120'9
-fa58縉120'10
-fa59繁120'11
-fa5a署122'8
-fa5b者125'4
-fa5c臭132'4
-fa5d艹140'0
-fa5e艹140'0
-fa5f著140'8
-fa60褐145'9
-fa61視147'4
-fa62謁149'9
-fa63謹149'11
-fa64賓154'7
-fa65贈154'12
-fa66辶162'0
-fa67逸162'8
-fa68難172'11
-fa69響180'11
-fa6a頻181'7
-fa6b恵61'7
-fa6c𤋮86'10
-fa6d舘30'13
-fa70並1'7
-fa71况15'5
-fa72全11'4
-fa73侀9'6
-fa74充10'4
-fa75冀12'14
-fa76勇19'7
-fa77勺20'1
-fa78喝30'9
-fa79啕30'8
-fa7a喙30'9
-fa7b嗢30'10
-fa7c塚32'10
-fa7d墳32'12
-fa7e奄37'5
-fa7f奔37'6
-fa80婢38'8
-fa81嬨38'14
-fa82廒53'11
-fa83廙53'12
-fa84彩59'8
-fa85徭60'10
-fa86惘61'8
-fa87慎61'10
-fa88愈61'9
-fa89憎61'12
-fa8a慠61'11
-fa8b懲61'15
-fa8c戴62'13
-fa8d揄64'9
-fa8e搜64'10
-fa8f摒64'9
-fa90敖66'7
-fa91晴72'8
-fa92朗74'7
-fa93望74'7
-fa94杖75'3
-fa95歹78'0
-fa96殺79'7
-fa97流85'6
-fa98滛85'10
-fa99滋85'9
-fa9a漢85'11
-fa9b瀞85'16
-fa9c煮86'8
-fa9d瞧109'12
-fa9e爵87'14
-fa9f犯94'2
-faa0猪94'8
-faa1瑱96'10
-faa2甆98'9
-faa3画102'3
-faa4瘝104'10
-faa5瘟104'9
-faa6益108'5
-faa7盛108'6
-faa8直109'3
-faa9睊109'7
-faaa着109'7
-faab磌112'10
-faac窱116'10
-faad節118'7
-faae类119'3
-faaf絛120'7
-fab0練120'9
-fab1缾121'6
-fab2者125'4
-fab3荒140'6
-fab4華140'8
-fab5蝹142'10
-fab6襁145'11
-fab7覆146'12
-fab8視113'7
-fab9調149'8
-faba諸149'9
-fabb請149'8
-fabc謁149'9
-fabd諾149'9
-fabe諭149'9
-fabf謹149'11
-fac0變149'16
-fac1贈154'12
-fac2輸159'9
-fac3遲162'12
-fac4醙164'10
-fac5鉶167'6
-fac6陼170'9
-fac7難172'11
-fac8靖174'5
-fac9韛178'11
-faca響180'11
-facb頋181'4
-facc頻181'7
-facd鬒190'10
-face龜213'0
-facf𢡊61'12
-fad0𢡄61'12
-fad1𣏕75'4
-fad2㮝75'9
-fad3䀘109'4
-fad4䀹109'7
-fad5𥉉109'10
-fad6𥳐118'12
-fad7𧻓156'6
-fad8齃209'9
-fad9龎212'2
-20000𠀀hēthe sound made by breathing in; oh! (see ㄛ BOPOMOFO LETTER O)1'1
-20001𠀁qīcat1(original form of 七)1'1
-20002𠀂1'1
-20003𠀃qiě1'2
-20004𠀄1'2
-20005𠀅hàihoi6(variant of 亥)1'2
-20006𠀆1'2
-20007𠀇1'3
-20008𠀈1'3
-20009𠀉qiūjau1(same as 丘) a hill; elder; empty; a name1'3
-2000a𠀊cāo1'3
-2000b𠀋1'3
-2000c𠀌1'3
-2000d𠀍shìsai3(same as 世) generation; world; era1'4
-2000e𠀎1'4
-2000f𠀏1'4
-20010𠀐1'4
-20011𠀑1'4
-20012𠀒1'4
-20013𠀓sī1'4
-20014𠀔jué1'4
-20015𠀕(variant of 亙)1'4
-20016𠀖1'4
-20017𠀗1'4
-20018𠀘1'5
-20019𠀙1'5
-2001a𠀚1'5
-2001b𠀛yù37'3
-2001c𠀜1'5
-2001d𠀝kōng25'4
-2001e𠀞1'5
-2001f𠀟1'5
-20020𠀠1'5
-20021𠀡tin11'6
-20022𠀢zī1'6
-20023𠀣1'6
-20024𠀤1'6
-20025𠀥7'5
-20026𠀦xíng1'6
-20027𠀧1'6
-20028𠀨1'6
-20029𠀩6'5
-2002a𠀪1'6
-2002b𠀫1'6
-2002c𠀬1'7
-2002d𠀭1'7
-2002e𠀮1'7
-2002f𠀯31'5
-20030𠀰1'7
-20031𠀱mǒu1'7
-20032𠀲1'7
-20033𠀳1'7
-20034𠀴1'7
-20035𠀵1'8
-20036𠀶1'8
-20037𠀷jī30'6
-20038𠀸yè1'8
-20039𠀹jūn30'6
-2003a𠀺1'8
-2003b𠀻1'8
-2003c𠀼qián35'7
-2003d𠀽lù1'9
-2003e𠀾bui51'92005E
-2003f𠀿1'9
-20040𠁀1'9
-20041𠁁dòudoek3a flagon1'10
-20042𠁂1'10
-20043𠁃1'10
-20044𠁄1'10
-20045𠁅1'10
-20046𠁆bik61'11
-20047𠁇1'11
-20048𠁈1'11
-20049𠁉chū16'10
-2004a𠁊1'11
-2004b𠁋1'11
-2004c𠁌1'12
-2004d𠁍1'12
-2004e𠁎lin41'13
-2004f𠁏1'13
-20050𠁐1'13
-20051𠁑1'13
-20052𠁒1'13
-20053𠁓1'14
-20054𠁔1'142BDD8
-20055𠁕1'15
-20056𠁖1'16
-20057𠁗shì1'15
-20058𠁘1'15
-20059𠁙1'15
-2005a𠁚1'15
-2005b𠁛1'15
-2005c𠁜12'15
-2005d𠁝1'15
-2005e𠁞bui572'132003E
-2005f𠁟1'17
-20060𠁠qiè1'19
-20061𠁡2'1
-20062𠁢2'1
-20063𠁣2'3
-20064𠁤31'2
-20065𠁥gǎthe horns of a sheep2'4
-20066𠁦2'5
-20067𠁧2'6
-20068𠁨cung12'6
-20069𠁩2'7
-2006a𠁪2'7
-2006b𠁫2'7
-2006c𠁬2'7
-2006d𠁭qí2'8
-2006e𠁮2'8
-2006f𠁯2'8
-20070𠁰2'9
-20071𠁱2'9
-20072𠁲170'4
-20073𠁳2'10
-20074𠁴2'11
-20075𠁵2'11
-20076𠁶2'13
-20077𠁷chǎn30'11
-20078𠁸2'14
-20079𠁹2'17
-2007a𠁺2'18
-2007b𠁻2'21
-2007c𠁼3'2
-2007d𠁽3'2
-2007e𠁾5'3
-2007f𠁿3'3
-20080𠂀3'4
-20081𠂁3'4
-20082𠂂3'5
-20083𠂃3'9
-20084𠂄huān3'12
-20085𠂅3'15
-20086𠂆yìjai64'1
-20087𠂇zuǒzo24'1
-20088𠂈jié4'1
-20089𠂉4'1
-2008a𠂊4'1
-2008b𠂋4'2
-2008c𠂌4'2
-2008d𠂍4'2
-2008e𠂎4'2
-2008f𠂏4'3
-20090𠂐4'3
-20091𠂑zōu4'3
-20092𠂒4'3
-20093𠂓4'3
-20094𠂔zǐzi2to stop4'4
-20095𠂕4'4
-20096𠂖4'4
-20097𠂗4'4
-20098𠂘4'4
-20099𠂙4'4
-2009a𠂚4'4
-2009b𠂛4'4
-2009c𠂜4'4
-2009d𠂝zāzung3full circle; encircle4'4
-2009e𠂞4'4
-2009f𠂟jīn4'4
-200a0𠂠4'4
-200a1𠂡4'4
-200a2𠂢pàipaai3to branch4'5
-200a3𠂣4'5
-200a4𠂤duīdeoi1to store up, to pile up4'5
-200a5𠂥cóng4'5
-200a6𠂦4'5
-200a7𠂧shèn4'5
-200a8𠂨137'0
-200a9𠂩4'5
-200aa𠂪4'5
-200ab𠂫4'5
-200ac𠂬27'4
-200ad𠂭4'5
-200ae𠂮27'4
-200af𠂯4'6
-200b0𠂰27'5
-200b1𠂱81'3
-200b2𠂲4'72C4E1
-200b3𠂳4'7
-200b4𠂴4'8
-200b5𠂵101'3
-200b6𠂶4'7
-200b7𠂷4'8
-200b8𠂸huáng5'8
-200b9𠂹4'9
-200ba𠂺4'9
-200bb𠂻4'9
-200bc𠂼4'9
-200bd𠂽4'9
-200be𠂾4'9
-200bf𠂿4'10
-200c0𠃀4'10
-200c1𠃁4'10
-200c2𠃂4'10
-200c3𠃃4'11
-200c4𠃄4'11
-200c5𠃅4'13
-200c6𠃆4'12
-200c7𠃇4'14
-200c8𠃈4'22
-200c9𠃉5'0
-200ca𠃊yǐn5'0
-200cb𠃋5'0
-200cc𠃌gǔngwan25'0
-200cd𠃍waang45'0
-200ce𠃎5'0
-200cf𠃏5'1
-200d0𠃐5'1
-200d1𠃑saam15'0
-200d2𠃒5'2
-200d3𠃓yángjoeng4to open out, to expand; bright, glorious5'2661C
-200d4𠃔wan5allow; right; sincere5'2
-200d5𠃕5'3
-200d6𠃖jiū5'3
-200d7𠃗5'3
-200d8𠃘5'3
-200d9𠃙5'3
-200da𠃚5'3
-200db𠃛5'3
-200dc𠃜5'3
-200dd𠃝5'3
-200de𠃞5'4
-200df𠃟5'4
-200e0𠃠5'4
-200e1𠃡5'4
-200e2𠃢5'4
-200e3𠃣5'4
-200e4𠃤5'5
-200e5𠃥5'5
-200e6𠃦5'5
-200e7𠃧5'5
-200e8𠃨5'5
-200e9𠃩5'6
-200ea𠃪5'6
-200eb𠃫shēn102'2
-200ec𠃬5'6
-200ed𠃭5'7
-200ee𠃮tam55'7
-200ef𠃯5'7
-200f0𠃰101'3
-200f1𠃱39'5
-200f2𠃲5'8
-200f3𠃳5'8
-200f4𠃴5'8
-200f5𠃵5'8
-200f6𠃶lyun6disorder5'8
-200f7𠃷5'8
-200f8𠃸5'9
-200f9𠃹5'9
-200fa𠃺jiù5'9
-200fb𠃻5'9
-200fc𠃼5'10
-200fd𠃽5'10
-200fe𠃾5'10
-200ff𠃿5'10
-20100𠄀5'10
-20101𠄁5'10
-20102𠄂5'10
-20103𠄃5'12
-20104𠄄5'12
-20105𠄅yè5'13
-20106𠄆5'13
-20107𠄇5'13
-20108𠄈5'13
-20109𠄉dòng5'16
-2010a𠄊5'18
-2010b𠄋5'19
-2010c𠄌juékyut3hook6'0
-2010d𠄍jié6'1
-2010e𠄎6'1
-2010f𠄏diǎo6'1
-20110𠄐6'1
-20111𠄑jué6'2
-20112𠄒chuí6'3
-20113𠄓6'3
-20114𠄔6'3
-20115𠄕6'5
-20116𠄖líng6'6
-20117𠄗6'6
-20118𠄘sing46'6
-20119𠄙6'7
-2011a𠄚tīng6'10
-2011b𠄛6'11
-2011c𠄜6'14
-2011d𠄝6'15
-2011e𠄞7'0
-2011f𠄟7'0
-20120𠄠7'0
-20121𠄡7'2
-20122𠄢7'4
-20123𠄣gèngang2stretch continuously7'4
-20124𠄤7'4
-20125𠄥7'4
-20126𠄦7'4
-20127𠄧7'4
-20128𠄨7'5
-20129𠄩7'5
-2012a𠄪7'5
-2012b𠄫7'6
-2012c𠄬7'6
-2012d𠄭7'6
-2012e𠄮yà7'6
-2012f𠄯7'6
-20130𠄰7'7
-20131𠄱yí7'7
-20132𠄲7'7
-20133𠄳7'7
-20134𠄴57'6
-20135𠄵7'8
-20136𠄶7'8
-20137𠄷7'8
-20138𠄸7'8
-20139𠄹7'9
-2013a𠄺7'9
-2013b𠄻7'10
-2013c𠄼7'11
-2013d𠄽7'11
-2013e𠄾7'11
-2013f𠄿wéi7'12
-20140𠅀7'13
-20141𠅁8'2
-20142𠅂jié8'3
-20143𠅃8'4
-20144𠅄8'4
-20145𠅅8'4
-20146𠅆8'4
-20147𠅇8'4
-20148𠅈8'5
-20149𠅉8'5
-2014a𠅊8'5
-2014b𠅋8'5
-2014c𠅌yí8'6
-2014d𠅍8'6
-2014e𠅎8'6
-2014f𠅏8'6
-20150𠅐8'6
-20151𠅑8'6
-20152𠅒8'6
-20153𠅓8'7
-20154𠅔8'7
-20155𠅕8'7
-20156𠅖8'8
-20157𠅗diè36'7
-20158𠅘8'8
-20159𠅙loeng6bright, clear8'8
-2015a𠅚qí8'8
-2015b𠅛8'8
-2015c𠅜8'8
-2015d𠅝8'8
-2015e𠅞8'9
-2015f𠅟8'9
-20160𠅠8'9
-20161𠅡8'9
-20162𠅢8'9
-20163𠅣8'9
-20164𠅤xí8'9
-20165𠅥8'9
-20166𠅦8'9
-20167𠅧8'9
-20168𠅨8'10
-20169𠅩8'10
-2016a𠅪8'10
-2016b𠅫8'10
-2016c𠅬bāo8'10
-2016d𠅭8'10
-2016e𠅮8'10
-2016f𠅯8'10
-20170𠅰111'7
-20171𠅱xiè36'9
-20172𠅲8'10
-20173𠅳8'11
-20174𠅴8'11
-20175𠅵8'11
-20176𠅶8'11
-20177𠅷8'11
-20178𠅸8'11
-20179𠅹zhàng52'10
-2017a𠅺8'11
-2017b𠅻8'11
-2017c𠅼8'11
-2017d𠅽42'10
-2017e𠅾8'12
-2017f𠅿8'12
-20180𠆀8'11
-20181𠆁8'13
-20182𠆂8'13
-20183𠆃8'13
-20184𠆄8'13
-20185𠆅8'13
-20186𠆆8'13
-20187𠆇8'13
-20188𠆈8'13
-20189𠆉8'13
-2018a𠆊30'12
-2018b𠆋8'14
-2018c𠆌yōngjung4(variant of 庸) usual, common; to use8'14
-2018d𠆍8'14
-2018e𠆎8'14
-2018f𠆏8'14
-20190𠆐xù8'14
-20191𠆑8'14
-20192𠆒8'14
-20193𠆓36'13
-20194𠆔8'14
-20195𠆕36'13
-20196𠆖8'14
-20197𠆗8'14
-20198𠆘8'14
-20199𠆙diè36'14
-2019a𠆚8'16
-2019b𠆛dān72'14
-2019c𠆜210'4
-2019d𠆝8'17
-2019e𠆞8'19
-2019f𠆟wěi8'22
-201a0𠆠8'26
-201a1𠆡8'27
-201a2𠆢9'0
-201a3𠆣guǎ9'1
-201a4𠆤9'1
-201a5𠆥9'1
-201a6𠆦9'2
-201a7𠆧9'2
-201a8𠆨9'2
-201a9𠆩fànfaan2(Cant.) to play9'3
-201aa𠆪9'3
-201ab𠆫coi49'3
-201ac𠆬9'3
-201ad𠆭9'3
-201ae𠆮mò19'3
-201af𠆯9'3
-201b0𠆰9'3
-201b1𠆱xī24'3
-201b2𠆲yǎnkwong253'25123
-201b3𠆳9'3
-201b4𠆴9'4
-201b5𠆵ní9'4
-201b6𠆶dàn9'4
-201b7𠆷9'4
-201b8𠆸9'4
-201b9𠆹9'4
-201ba𠆺9'4
-201bb𠆻9'4
-201bc𠆼9'4
-201bd𠆽9'4
-201be𠆾9'4
-201bf𠆿wu3(Cant.) to bow, stoop9'420325
-201c0𠇀9'4
-201c1𠇁jan59'4
-201c2𠇂9'4
-201c3𠇃9'4
-201c4𠇄9'4
-201c5𠇅9'4
-201c6𠇆joeng5look up to9'4
-201c7𠇇9'4
-201c8𠇈9'4
-201c9𠇉9'4
-201ca𠇊9'4
-201cb𠇋dǎn9'4
-201cc𠇌9'4
-201cd𠇍9'4
-201ce𠇎9'4
-201cf𠇏tāo9'4
-201d0𠇐respectful; attentive, carefully; cautious; to heed; to be watchful, to rely on; to trust to; to lean towards9'4349C
-201d1𠇑9'4
-201d2𠇒gōng11'4
-201d3𠇓9'4
-201d4𠇔mou49'4
-201d5𠇕9'4
-201d6𠇖9'5
-201d7𠇗kuā9'5
-201d8𠇘chù9'5
-201d9𠇙9'5
-201da𠇚9'5
-201db𠇛9'5
-201dc𠇜9'5
-201dd𠇝9'5
-201de𠇞9'5
-201df𠇟9'5
-201e0𠇠9'5
-201e1𠇡9'5
-201e2𠇢9'5
-201e3𠇣9'5
-201e4𠇤9'5
-201e5𠇥9'5
-201e6𠇦9'5
-201e7𠇧9'5
-201e8𠇨9'5
-201e9𠇩9'5
-201ea𠇪9'5
-201eb𠇫9'5
-201ec𠇬9'5
-201ed𠇭9'5
-201ee𠇮9'5
-201ef𠇯qù9'5
-201f0𠇰9'5
-201f1𠇱mòmaai6a kind of music9'5
-201f2𠇲jau19'5
-201f3𠇳shī9'5
-201f4𠇴9'5
-201f5𠇵gǎn9'5
-201f6𠇶9'5
-201f7𠇷shēng9'5
-201f8𠇸9'5
-201f9𠇹ging3straight; pass9'54FD3
-201fa𠇺9'5
-201fb𠇻9'5
-201fc𠇼9'5
-201fd𠇽9'5
-201fe𠇾9'5
-201ff𠇿9'5
-20200𠈀9'5
-20201𠈁tuō9'5
-20202𠈂30'4
-20203𠈃9'6
-20204𠈄waan69'6
-20205𠈅shōu9'6
-20206𠈆9'6
-20207𠈇9'6
-20208𠈈9'6
-20209𠈉9'6
-2020a𠈊niě9'6
-2020b𠈋9'6
-2020c𠈌jyu49'6
-2020d𠈍9'6
-2020e𠈎9'6
-2020f𠈏9'6
-20210𠈐9'6
-20211𠈑9'6
-20212𠈒9'6
-20213𠈓9'6
-20214𠈔lap69'6
-20215𠈕9'6
-20216𠈖9'6
-20217𠈗9'6
-20218𠈘9'6
-20219𠈙9'6
-2021a𠈚9'6
-2021b𠈛9'6
-2021c𠈜9'6
-2021d𠈝9'6
-2021e𠈞9'6
-2021f𠈟9'6
-20220𠈠9'6
-20221𠈡9'6
-20222𠈢9'6
-20223𠈣9'6
-20224𠈤yùn42'5
-20225𠈥guǎ9'6
-20226𠈦9'6
-20227𠈧9'6
-20228𠈨zok3make; work; compose, write; act, perform9'6
-20229𠈩9'6
-2022a𠈪9'6
-2022b𠈫9'6
-2022c𠈬xiāo9'6
-2022d𠈭láo9'7
-2022e𠈮9'7
-2022f𠈯9'7
-20230𠈰dàn9'7
-20231𠈱suō9'7
-20232𠈲9'7
-20233𠈳9'7
-20234𠈴9'7
-20235𠈵mǎng9'7
-20236𠈶yí9'7
-20237𠈷9'7
-20238𠈸tè9'7
-20239𠈹jau49'7
-2023a𠈺bì9'7
-2023b𠈻9'7
-2023c𠈼9'7
-2023d𠈽9'7
-2023e𠈾9'7
-2023f𠈿9'7
-20240𠉀9'7
-20241𠉁9'7
-20242𠉂tàtaat3to escape; to abscond; to flee, (interchangeable 達)9'73493
-20243𠉃9'7
-20244𠉄9'7
-20245𠉅9'7
-20246𠉆9'7
-20247𠉇9'7
-20248𠉈9'7
-20249𠉉9'7
-2024a𠉊9'7
-2024b𠉋9'7
-2024c𠉌9'7
-2024d𠉍9'7
-2024e𠉎9'7
-2024f𠉏9'7
-20250𠉐9'7
-20251𠉑9'7
-20252𠉒9'7
-20253𠉓9'7
-20254𠉔9'7
-20255𠉕9'7
-20256𠉖9'7
-20257𠉗luò9'7203E2
-20258𠉘9'7
-20259𠉙9'7
-2025a𠉚9'7
-2025b𠉛sing49'7
-2025c𠉜9'7
-2025d𠉝9'7
-2025e𠉞9'7
-2025f𠉟9'7
-20260𠉠9'7
-20261𠉡9'7
-20262𠉢xǐ9'7
-20263𠉣hūn9'8
-20264𠉤dá9'8
-20265𠉥9'8
-20266𠉦9'8
-20267𠉧jù9'8
+9c40鱀jìkei3195'112CDA8
+9c41鱁zhúzuk6195'113120F
+9c42鱂jiāngzoeng1name of fish195'119CC9
+9c43鱃xiūsau1195'113120C
+9c44鱄zhuānzyun1anchovy195'112B68B 31210
+9c45鱅yōngjung4a kind of tench195'119CD9
+9c46鱆zhāngzoeng1an octopus, devilfish195'112B812
+9c47鱇kānghong1anglerfish195'1129F8C
+9c48鱈xuěsyut3codfish195'119CD5
+9c49鱉biēbit3turtle195'129CD6
+9c4a鱊yùwat6195'122B6AA
+9c4b鱋qūkeoi1195'122CDAC
+9c4c鱌xiàngzoeng6195'122CDB2
+9c4d鱍bōbut6195'12311E3
+9c4e鱎jiǎogiu2195'12311E9
+9c4f鱏xúncam4a ray, skate195'1231213
+9c50鱐sùsuk1dried fish195'12311FF
+9c51鱑huángwong4the sturgeon195'122CDAB
+9c52鱒zūnzyun1barbel195'129CDF
+9c53鱓shànto4eel195'122CD9B
+9c54鱔shànsin5eel195'129CDD
+9c55鱕fānfaan1195'1231215
+9c56鱖guìgwai3mandarin fish195'129CDC
+9c57鱗línleon4fish scales195'129CDE
+9c58鱘xúncam4sturgeon195'129C9F
+9c59鱙miáojiu4195'12nghéo
+9c5a鱚xǐhei1195'122CDAE
+9c5b鱛zēngzang1fish name195'12
+9c5c鱜xiānghoeng1195'13
+9c5d鱝fènfan5fish195'139CBC
+9c5e鱞guāngwaan1195'132CDB5
+9c5f鱟hòuhau6horseshoe crab195'139C8E
+9c60鱠kuàikui2minced fish; hash195'139C99gỏi
+9c61鱡zéicaak6the cuttle-fish195'13
+9c62鱢sāosou1195'132B6AB
+9c63鱣zhānzin1sturgeon195'139CE3
+9c64鱤gǎngam2195'139CE1
+9c65鱥guìgwai3195'132EB1D
+9c66鱦yìngjing6195'13311F8
+9c67鱧lǐlai5snakehead195'139CE2
+9c68鱨chángsoeng4codfish195'149CBF 31218
+9c69鱩léileoi4195'13
+9c6a鱪shǔsyu2195'13
+9c6b鱫àioi3195'13
+9c6c鱬rújyu4195'1431217
+9c6d鱭jìcai5anchovy195'149C9A
+9c6e鱮xùzeoi6silver carp (Hypophthalmichthys molitrix); bream195'142B688
+9c6f鱯hùwu6195'149CE0
+9c70鱰shǔcyu5195'14
+9c71鱱lìlai6195'15
+9c72鱲lièlip6(Cant.) 赤鱲角, Hong Kong place name195'152B6AD
+9c73鱳lìlik6195'15
+9c74鱴mièmit6195'1531219
+9c75鱵zhēnzam1195'152EB24
+9c76鱶xiǎngsoeng2a shark195'15
+9c77鱷èngok6crocodile, alligator195'169CC4 3121A
+9c78鱸lúlou4sea perch, sea bass195'169C88rô
+9c79鱹guàngun3195'182CDBA
+9c7a鱺lílei4eel195'199CA1
+9c7b鱻xiānsin1fresh, new, delicious; rare, few195'223121C
+9c7c鱼yújyu4fish; surname; Kangxi radical 195195'9B5Angư
+9c7d鱽dāodou1the mullet195'9B5B
+9c7e鱾jǐgei2name of fish195'9B62
+9c7f鱿yóujau4cuttlefish195'9B77
+9c80鲀túntyun4blowfish, globefish, Spheroides vermicular195'9B68
+9c81鲁lǔlou5foolish, stupid, rash; vulgar195'9B6Flỗ
+9c82鲂fángfong4bream195'9B74
+9c83鲃bābaa1a kind of fish; a bonito, (same as 鮁) shark195'4C3E
+9c84鲄hého4195'9B7A
+9c85鲅bàbat6fish name195'9B81
+9c86鲆píngping4sole195'9B83
+9c87鲇niánnim4sheatfish, Parasilurus asotus195'9B8E
+9c88鲈lúlou4sea perch, sea bass195'9C78rô
+9c89鲉yóujau4195'9B8B
+9c8a鲊zhǎzaa2minced and salted fish; to preserve195'9B93
+9c8b鲋fùfu6carp, Carassius auratus195'9B92
+9c8c鲌bóbaak6common bleak (Alburnus alburnus); various other freshwater fish195'9B8A
+9c8d鲍bàobaau1abalone; dried fish; surname195'9B91
+9c8e鲎hòuhau6king crab195'9C5F
+9c8f鲏pípei4Spanish mackerel195'9B8D
+9c90鲐táitoi4globefish, tetraodon195'9B90
+9c91鲑guīgwai1salmon; Spheroides vermicularis195'9BAD
+9c92鲒jiégit3clam; oyster195'9B9A
+9c93鲓kàokaau3195'9BB3
+9c94鲔wěifui2kind of sturgeon, tuna195'9BAA
+9c95鲕érji4roe195'9B9E
+9c96鲖tóngtung4snakefish195'9BA6
+9c97鲗zéicaak6cuttlefish195'9C02
+9c98鲘hòuhau6195'9B9C
+9c99鲙kuàikui2minced fish; hash195'9C60gỏi
+9c9a鲚jìcai5anchovy195'9C6D
+9c9b鲛jiāogaau1shark195'9BAB
+9c9c鲜xiānsin1fresh; delicious; attractive195'9BAEtiên
+9c9d鲝zhǎzaa2minced and salted fish; a place in Sichuan195'9BBA
+9c9e鲞xiǎngsoeng2dried fish195'9B9D 9BD7
+9c9f鲟xúncam4sturgeon195'9C58
+9ca0鲠gěnggang2fish bones; honest, upright195'9BC1
+9ca1鲡lílei4eel195'9C7A
+9ca2鲢liánlin4silver carp, Hypophthalmichthys195'9C31liên
+9ca3鲣jiāngin1skipjack, bonito195'9C39
+9ca4鲤lǐlei5carp195'9BC9
+9ca5鲥shísi4reeves' shad; hilsa herring195'9C23
+9ca6鲦tiáotiu4minnow195'9C37
+9ca7鲧gǔngwan2giant fish; father of emperor195'9BC0
+9ca8鲨shāsaa1shark195'9BCA
+9ca9鲩huànwaan5carp195'9BC7
+9caa鲪jūngwan1195'9BB6
+9cab鲫jìzik1Carassius auratus, crucian carp195'9BFD
+9cac鲬yǒngjung2a flathead (fish)195'9BD2
+9cad鲭qīngcing1mackerel195'9BD6
+9cae鲮língling4carp195'9BEA
+9caf鲯qíkei4Coryphaena hippurus195'9BD5
+9cb0鲰zōuzau1small fish; small; minnow195'9BEB
+9cb1鲱fēifei1herring195'9BE1
+9cb2鲲kūnkwan1spawn; roe; fry195'9BE4
+9cb3鲳chāngcoeng1the silvery pomfret, Stromateoides argenteus195'9BE7
+9cb4鲴gùgu3fish guts195'9BDD
+9cb5鲵níngai4Cryptobranchus japonicus; a salamander195'9BE2nghê
+9cb6鲶niánnim4sheat195'9BF0
+9cb7鲷diāodiu1Pagrosomus major, porgy195'9BDB
+9cb8鲸jīngking4whale195'9BE8kình
+9cb9鲹shēnsam1a horse mackerel195'9C3A
+9cba鲺shīsat1cat fish195'9BF4
+9cbb鲻zīzi1mullet195'9BD4
+9cbc鲼fènfan5fish195'9C5D
+9cbd鲽diédip6flatfish; flounder; sole195'9C08
+9cbe鲾bībik1195'9C0F
+9cbf鲿chángsoeng4codfish195'9C68
+9cc0鳀títai4anchovy195'9BF7
+9cc1鳁wēnwan1sardine195'9C1B 9C2E
+9cc2鳂wēiwai1name of fish195'9C03
+9cc3鳃sāisoi1fish gills195'9C13
+9cc4鳄èngok6alligator195'9C10 9C77
+9cc5鳅qiūcau1loach195'9C0D
+9cc6鳆fùfuk1abalone195'9C12
+9cc7鳇huángwong4sturgeon195'9C09
+9cc8鳈quáncyun4name of fish195'9C01
+9cc9鳉jiāngzoeng1name of fish195'9C42
+9cca鳊biānbin1bream195'9BFF
+9ccb鳋sāosou1carp195'9C20
+9ccc鳌áongou4huge sea turtle195'9C32
+9ccd鳍qíkei4fin195'9C2D
+9cce鳎tǎtaap3sole195'9C28
+9ccf鳏guāngwaan1huge fish; widower; bachelor195'9C25
+9cd0鳐yáojiu4the nautilus; the ray195'9C29
+9cd1鳑pángpong4several species of small carp195'9C1F
+9cd2鳒jiāngim1big-mouthed flounder195'9C1C
+9cd3鳓lèlak6Chinese herring; shad195'9C33
+9cd4鳔biàopiu5swimming bladder of fish195'9C3E
+9cd5鳕xuěsyut3codfish195'9C48
+9cd6鳖biēbit3turtle195'9C49
+9cd7鳗mánmaan6eel195'9C3B
+9cd8鳘mǐnman5codfish195'9C35
+9cd9鳙yōngjung4bighead195'9C45
+9cda鳚wèigeneral term of a kind of fish, a snake-like fish195'4C81
+9cdb鳛xízaap6the weather or dojo loach, Misgurnus anguillicaudatus195'9C3C
+9cdc鳜guìgwai3mandarin fish195'9C56
+9cdd鳝shànsin5eel195'9C54
+9cde鳞línleon4fish scales195'9C57
+9cdf鳟zūnzyun1barbel195'9C52
+9ce0鳠hùwu6195'9C6F
+9ce1鳡gǎngam2195'9C64
+9ce2鳢lǐlai5snakehead195'9C67
+9ce3鳣zhānzin1sturgeon195'9C63
+9ce4鳤guǎngun2a kind of fish; with a long cylinder body195'4C98
+9ce5鳥niǎoniu5bird; Kangxi radical 196196'09E1Fđiểu
+9ce6鳦yǐjyut6swallow196'131247
+9ce7鳧fúfu4wild duck, teal; swim196'251EB
+9ce8鳨lìlik6196'2
+9ce9鳩jiūgau1pigeon, dove; collect, assemble196'29E20cưu
+9cea鳪búbuk1196'2
+9ceb鳫yànngaan6wild goose196'2
+9cec鳬fǔfu4wild duck, teal; swim196'251EB
+9ced鳭diāodou1196'231248
+9cee鳮jīgai1chickens; domestic fowl196'2
+9cef鳯fèngfung6male phoenix; symbol of joy196'2
+9cf0鳰rùjap6196'2
+9cf1鳱gāngon1196'33124A
+9cf2鳲shīsi1turtledove, cuckoo196'39E24
+9cf3鳳fèngfung6male phoenix; symbol of joy196'351E4phượng
+9cf4鳴míngming4cry of bird or animal; make sound196'39E23
+9cf5鳵bǎobou2196'3
+9cf6鳶yuānjyun1kite; Milvus species (various)196'39E22diều
+9cf7鳷zhīzi1jay (Garrulus lidthi)196'42B6DB
+9cf8鳸hùwu6196'431253
+9cf9鳹qín196'4
+9cfa鳺fūfu1196'43124E
+9cfb鳻bānbaan1the wild pigeon196'431251
+9cfc鳼wénman4196'42A243
+9cfd鳽jiāngin1196'42B6DA
+9cfe鳾shīsi1nuthatch196'44D13
+9cff鳿yùjuk6196'43124D
+9d00鴀fǒufau4196'42B6DC
+9d01鴁yāojiu1a legendary bird196'42EB62
+9d02鴂juékyut3the tailor-bird; the working bird196'431254
+9d03鴃juégwik1shrike; butcherbird196'42B6DE
+9d04鴄pǐpat1duck196'4
+9d05鴅huānfun1196'42B6DD
+9d06鴆zhènzam6a bird resembling the secretary falcon196'49E29
+9d07鴇bǎobou2bustard; procuress; Otis species (various)196'49E28
+9d08鴈yànngaan6wild goose196'4
+9d09鴉yāaa1crow, raven; Corvus species (various)196'49E26
+9d0a鴊zhèngzing3196'5
+9d0b鴋fāngfong1196'4
+9d0c鴌fèngfung6196'4
+9d0d鴍wénman4196'42CE00
+9d0e鴎ōuau1seagull, tern196'4
+9d0f鴏dàidak6196'5
+9d10鴐gēgaa1196'52B6E4
+9d11鴑rújyu4196'5
+9d12鴒língling4species of lark; wagtail; Motacilla species (various)196'59E30
+9d13鴓miè196'52EB64
+9d14鴔fúfuk6196'52B6E1
+9d15鴕tuóto4ostrich; Struthio camelus196'59E35
+9d16鴖mínman4196'5
+9d17鴗lìlap6kingfisher196'52B061
+9d18鴘biǎnbin2196'531261
+9d19鴙zhìzi6196'53125B
+9d1a鴚gēgo1196'531255
+9d1b鴛yuānjyun1male mandarin duck (Aix galericulata)196'59E33uyên
+9d1c鴜cíci4196'52A248
+9d1d鴝qúkeoi4mynah; Erithacus species (various)196'59E32cu
+9d1e鴞xiāohiu1owl196'59E2E
+9d1f鴟chīci1kite, horned owl; wine cups196'59E31
+9d20鴠dàndaan3a kind of nightingale196'531257
+9d21鴡jūzeoi1196'531258
+9d22鴢yǎojiu2196'531262
+9d23鴣gūgu1Arborophila species (various)196'59E2A
+9d24鴤zhōngzung1196'5
+9d25鴥yùwat6swoop196'52B6E3
+9d26鴦yāngjoeng1female mandarin duck (Aix galericulata)196'59E2Fương
+9d27鴧yùwat6196'5
+9d28鴨yāaap3duck; Anas species (various)196'59E2D
+9d29鴩tiětit3196'53125A
+9d2a鴪yùwat6swoop196'5
+9d2b鴫tiántin4a snipe196'52ED3F
+9d2c鴬yīngang1oriole, green finch196'5
+9d2d鴭duīdeoi1196'6
+9d2e鴮wūwu1196'62B6E6
+9d2f鴯érji4swallow196'69E38
+9d30鴰guākut3the crow196'69E39
+9d31鴱àingaai6196'63126A
+9d32鴲zhīzi1196'62A246
+9d33鴳yànaan3quail196'62B6E9
+9d34鴴hénghang4plover196'69E3B
+9d35鴵xiāogiu1196'6
+9d36鴶jiágat1196'631265
+9d37鴷lièlit6a woodpecker196'64D15
+9d38鴸zhūzyu1196'63126B
+9d39鴹yángjoeng4196'63126F
+9d3a鴺tíji4the pelican196'631269
+9d3b鴻hónghung4species of wild swan; vast196'69E3Fhồng
+9d3c鴼luòlou6196'6
+9d3d鴽rújyu4a species of bird resembling quail196'62B6EA
+9d3e鴾móumau4a crested ibis196'631272
+9d3f鴿gēgap3pigeon, dove; Columba species (various)196'69E3D
+9d40鵀rénjam4hoopoe196'62CE0A
+9d41鵁jiāogaau1the fishing cormorant196'64D14
+9d42鵂xiūjau1owl; bird of ill omen196'69E3A
+9d43鵃zhōuzau1ancient name for a bird with black featers and a short tail196'69E3C
+9d44鵄chīci1(variant of 鴟) kite, horned owl; wine cups196'62CE08
+9d45鵅luòlok6196'63126E
+9d46鵆hénghang4196'6
+9d47鵇niánnin4196'6
+9d48鵈ědiu1196'6
+9d49鵉luánlyun4196'6
+9d4a鵊jiágaap3196'72B6E5
+9d4b鵋jìgei6196'73127D
+9d4c鵌tútou4196'731278
+9d4d鵍huānfun1196'7
+9d4e鵎tuǒto2196'73127B
+9d4f鵏bǔbou2196'72CDD5
+9d50鵐wúmou4196'79E40
+9d51鵑juāngyun1cuckoo196'79E43
+9d52鵒yùjuk6mynah bird; Acridotheres tristis196'79E46cốc
+9d53鵓bóbut6wood pigeon196'79E41
+9d54鵔jùnzeon3196'73127F
+9d55鵕jùnzeon3196'73127E
+9d56鵖bīgip3196'73125D
+9d57鵗xīhei1196'731279
+9d58鵘jùngwan6196'7
+9d59鵙júgwik1shrike; Lanius species (various)196'731250
+9d5a鵚tūtuk1moulting, bald196'72A24D
+9d5b鵛jīngging1196'731260
+9d5c鵜títai4pelican196'79E48
+9d5d鵝éngo4goose196'79E45nga
+9d5e鵞éngo4goose196'7
+9d5f鵟kuáng196'72B6ED
+9d60鵠húhuk6target196'79E44
+9d61鵡wǔmou5species of parrot196'79E49vũ
+9d62鵢shēnsan1196'7
+9d63鵣làilaai6196'7
+9d64鵤jiaogok3148'11
+9d65鵥pànpun3196'7
+9d66鵦lùluk6196'8
+9d67鵧pípei4196'82B6E8
+9d68鵨shūsyu1196'8
+9d69鵩fúfuk6owl-like bird; buzzard; Otus scops196'82B6F3
+9d6a鵪ānam1quail; Coturnix coturnix196'89E4C
+9d6b鵫zhuózok6pheasant196'82B6F1
+9d6c鵬péngpaang4fabulous bird of enormous size196'89E4Fbằng
+9d6d鵭qínkam4a small bird with black neck196'8
+9d6e鵮qiānzaam1to peck, as birds196'89E50
+9d6f鵯bēibei1Pycnonotus species (various)196'89E4E
+9d70鵰diāodiu1eagle, vulture; Aquila species (various)196'82B6F2
+9d71鵱lùluk6196'831280
+9d72鵲quèzoek3magpie; Pica species (various)196'89E4Athước
+9d73鵳jiāngin1196'83128B
+9d74鵴júguk1196'831287cuốc
+9d75鵵tùtou3196'831286
+9d76鵶yāaa1crow, raven; Corvus species (various)196'831268
+9d77鵷yuānjyun1a legendary bird similar to the phoenix, firebird196'89E53
+9d78鵸qíkei4196'831281
+9d79鵹lílei4196'831283
+9d7a鵺yèje6196'8
+9d7b鵻zhuīzeoi1pigeon; turtle-dove; a hawk196'831285
+9d7c鵼kōnghung1a fabulous night-bird, grotesque monster196'83128A
+9d7d鵽duòzyut3196'83128D
+9d7e鵾kūnkwan1a bird resembling the crane196'89E4D
+9d7f鵿shēngsing1196'8
+9d80鶀qíkei4196'82CE12
+9d81鶁jīngging1196'8
+9d82鶂yìjik6hawk; Ardea cinerea196'82CDFC 31288
+9d83鶃yìjik6hawk; Ardea cinerea196'831284
+9d84鶄jīngzing1a kind of water bird196'84D16
+9d85鶅zīzi1196'83128E
+9d86鶆láiloi4196'831275
+9d87鶇dōngdung1thrush; Turdus species (various)196'89E2B
+9d88鶈qīcai1196'8
+9d89鶉chúnseon4quail; Turnix species (various)196'89E51
+9d8a鶊gēnggang1oriole196'89E52
+9d8b鶋jūgeoi1a sea-bird with a white breast196'83128C
+9d8c鶌juégwat6196'82B6F5
+9d8d鶍yìji6196'8
+9d8e鶎zūnzung1196'8
+9d8f鶏jīgai1chicken196'8
+9d90鶐shùwat6196'9
+9d91鶑yīngang1196'8
+9d92鶒chìcik1a duck-like bird196'92B6F6
+9d93鶓miáomiu4emu196'99E4B
+9d94鶔róujau4196'931297
+9d95鶕ānam1196'92CE1D
+9d96鶖qiūcau1large waterfowl with naked head; Garrulus glandarius196'99E59
+9d97鶗títai4a kind of hawk; cuckoo196'92B6F8
+9d98鶘húwu4pelican196'99E55
+9d99鶙títai4196'931295
+9d9a鶚èngok6osprey, fishhawk; Pandion haliaetus196'99E57
+9d9b鶛jiēgaai1196'931290
+9d9c鶜máomaau4196'9
+9d9d鶝fúfuk1196'93128F
+9d9e鶞chūnceon1196'931291
+9d9f鶟túdat6196'931296
+9da0鶠yǎnjin2196'92CE18
+9da1鶡héhot3crossbill, species of nightingale196'99E56
+9da2鶢yuána bird which frequents the sea-shore196'931292
+9da3鶣piānpin1196'92CE1C
+9da4鶤kūnkwan1196'931271
+9da5鶥méimei4babbler, Timaliidae species (various); thrush196'99E5B
+9da6鶦húwu4pelican196'92B6F7
+9da7鶧yīngjing1196'9
+9da8鶨chuàncyun3196'931298
+9da9鶩wùmou6duck196'99E5C
+9daa鶪júgwik1a shrike196'94D17
+9dab鶫dōnggaan2thrush; Turdus naumanni196'9
+9dac鶬cāngcong1oriole196'109E27
+9dad鶭fǎngfong2196'102B6EF
+9dae鶮hèhok6196'10
+9daf鶯yīngang1oriole, green finch; Sylvia species (various)196'1083BAoanh
+9db0鶰yuánjyun4196'102B6EB
+9db1鶱xiānhin1to soar196'102CE23
+9db2鶲wēngjung1flycatcher196'109E5F
+9db3鶳shīsi1196'10
+9db4鶴hèhok6crane; Grus species (various)196'109E64hạc
+9db5鶵chúco1chick, fledging; infant, toddler196'102CE05
+9db6鶶tángtong4196'103129D
+9db7鶷xiáhat6196'103129F
+9db8鶸ruòjoek6light yellowish-green196'10
+9db9鶹liúlau4the owl196'109E60
+9dba鶺jízik3wagtail196'109E61chích
+9dbb鶻gúgwat1a kind of pigeon; falcon196'109E58
+9dbc鶼jiāngim1fabulous mythical bird196'109E63
+9dbd鶽sǔnzeon2a hawk196'103129B
+9dbe鶾hànhon6196'10
+9dbf鶿cíci4cormorant196'10
+9dc0鷀cíci4the fishing cormorant196'109E5A
+9dc1鷁yìjik6fishhawk; bow or prow196'109E62
+9dc2鷂yàojiu6sparrow hawk; Circus species (various)196'109E5Ediều
+9dc3鷃yànaan3quail196'102EB68
+9dc4鷄jīgai1chicken196'109E21
+9dc5鷅lìleot6196'102B6FD
+9dc6鷆tiántin4bird name196'10
+9dc7鷇kòukau3chicks, fledglings196'102C1AE
+9dc8鷈tītai1a kind of bird196'104D18
+9dc9鷉tītai1grebe196'104D18
+9dca鷊yìjik6pheasant196'109E5D
+9dcb鷋tútou4196'11312A0đồ
+9dcc鷌mǎmaa5196'10
+9dcd鷍xiāohiu1196'10
+9dce鷎gāogou1196'102CE22
+9dcf鷏tiántin4Caprimulgus indicus196'103129A
+9dd0鷐chénsan4196'112B700
+9dd1鷑jí196'11312A2
+9dd2鷒tuántyun4196'113124F
+9dd3鷓zhèze3partridge196'119E67
+9dd4鷔áongou4a bird of ill-omen to the state196'112A251
+9dd5鷕yǎojiu5call196'11312A1
+9dd6鷖yīji1seagull196'119E65
+9dd7鷗ōuau1seagull, tern; Larus species (various)196'119E25
+9dd8鷘chìcik1a water bird196'11
+9dd9鷙zhìzi3hawk, vulture196'119E37
+9dda鷚liùlau6Anthus species (various)196'119E68
+9ddb鷛yōngjung4196'11312A4
+9ddc鷜lǘleoi4196'112CE1E
+9ddd鷝bìbat1196'11
+9dde鷞shuāngsoeng1turquoise kingfisher196'112EB6A
+9ddf鷟zhuózok6phoenix196'112CE26sạt
+9de0鷠yújyu4195'11
+9de1鷡wúmou4196'12
+9de2鷢juékyut3196'12312A7
+9de3鷣yínjam4196'122B703
+9de4鷤tí196'122B6F4
+9de5鷥sīsi1egret; Egretta garzetta196'129E36
+9de6鷦jiāoziu1wren196'129E6A
+9de7鷧yìji3cormorant196'12312A6
+9de8鷨huáwaa4196'122A24A
+9de9鷩bìbai3pheasant196'122B701
+9dea鷪yīngang1196'12
+9deb鷫sùsuk1turquoise kingfisher196'129E54
+9dec鷬huángwong4196'12
+9ded鷭fánfaan4196'122CE2A
+9dee鷮jiāogiu1long-tailed pheasant196'123126Ckeo
+9def鷯liáoliu4wren196'129E69
+9df0鷰yànjin3swallow (bird)196'122CE27
+9df1鷱gāogou1196'12
+9df2鷲jiùzau6condor, vulture196'129E6B
+9df3鷳xiánhaan4the silver pheasant, Lophura nycthemera196'129E47
+9df4鷴xiánhaan4silver pheasant badge worn by civil officials of the 5th grade; Lophura species (various)196'12
+9df5鷵tútou4196'12312A9
+9df6鷶mǎimaai5196'1231273
+9df7鷷zūnzeon1196'122B704
+9df8鷸yùwat6snipe, kingfisher; Tringa species (various)196'129E6C
+9df9鷹yīngjing1eagle, falcon; Accipiter species (various)196'139E70ưng
+9dfa鷺lùlou6heron, egret; Ardea species (various)196'129E6D
+9dfb鷻tuántyun4196'12
+9dfc鷼xiánhaan4196'12
+9dfd鷽xuéhok6oriental bullfinch, weaver bird; Pyrrhula species (various)196'139E34
+9dfe鷾yìji3swallow196'13312B0
+9dff鷿pìpik1little grebe, dabchick (Tachybaptus ruficollis)196'132CE2F
+9e00鸀shǔ196'13312AC
+9e01鸁luólo4196'13312AE
+9e02鸂xīkai1Mandarin duck, Aix galericulata196'133D89
+9e03鸃yíji4196'133124C
+9e04鸄jīgik1196'13312AF
+9e05鸅zézaak6196'133125F
+9e06鸆yújyu4196'13312AB
+9e07鸇zhānzin1hawk; Butastur indicus196'139E6F
+9e08鸈yèjip6196'13
+9e09鸉yángjoeng4196'1331274
+9e0a鸊pìpik1little grebe, dabchick (Tachybaptus ruficollis)196'134D19
+9e0b鸋níngning4(archaic) a wren196'142B6E2
+9e0c鸌hùwok3196'149E71vạc
+9e0d鸍mímei4196'14
+9e0e鸎yīngang1the mango-bird; the Chinese oriole196'142CE15
+9e0f鸏méngmung4196'149E72mòng
+9e10鸐dídik6196'14312B1
+9e11鸑yuèngok6a legendary waterfowl; a young phoenix196'142CE1A
+9e12鸒yùjyu6eastern jackdaw; Corvus monedula196'14312AD
+9e13鸓lěileoi5196'15312B3
+9e14鸔bǔbuk1196'15
+9e15鸕lúlou4cormorant196'169E2C
+9e16鸖hèhok6196'162CE30
+9e17鸗lónglung4196'162B6DF
+9e18鸘shuāngsoeng1eagle196'179E74
+9e19鸙yuèjoek6196'17312B5
+9e1a鸚yīngjing1parrot196'179E66
+9e1b鸛guàngun3crane, Grus japonensis; stork; Ciconia species (various)196'189E73
+9e1c鸜qúkeoi4a species of mynah196'182CE31cò
+9e1d鸝lílei4Chinese oriole; Oriolus oriolus196'199E42
+9e1e鸞luánlyun4mythical bird related to the phoenix196'199E3Eloan
+9e1f鸟niǎoniu5bird; Kangxi radical 196196'9CE5điểu
+9e20鸠jiūgau1pigeon; collect, assemble196'9CE9cưu
+9e21鸡jīgai1chicken196'96DE 9DC4
+9e22鸢yuānjyun1kite; Milvus species (various)196'9CF6diều
+9e23鸣míngming4cry of bird or animal; make sound196'9CF4
+9e24鸤shīsi1turtledove, cuckoo196'9CF2
+9e25鸥ōuau1seagull, tern; Larus species (various)196'9DD7
+9e26鸦yāaa1crow; Corvus species (various)196'9D09
+9e27鸧cāngcong1oriole196'9DAC
+9e28鸨bǎobou2bustard; procuress; Otis species (various)196'9D07
+9e29鸩zhènzam6a bird resembling the secretary falcon196'9D06
+9e2a鸪gūgu1Arborophila species (various)196'9D23
+9e2b鸫dōngdung1thrush; Turdus species (various)196'9D87
+9e2c鸬lúlou4cormorant196'9E15
+9e2d鸭yāaap3duck; Anas species (various)196'9D28
+9e2e鸮xiāohiu1owl196'9D1E
+9e2f鸯yāngjoeng1female mandarin duck (Aix galericulata)196'9D26ương
+9e30鸰língling4species of lark; wagtail; Motacilla species (various)196'9D12
+9e31鸱chīci1kite, horned owl; wine cups196'9D1F
+9e32鸲qúkeoi4mynah; Erithacus species (various)196'9D1Dcu
+9e33鸳yuānjyun1male mandarin duck (Aix galericulata)196'9D1Buyên
+9e34鸴xuéhok6oriental bullfinch, weaver bird; Pyrrhula species (various)196'9DFD
+9e35鸵tuóto4ostrich196'9D15
+9e36鸶sīsi1the eastern egret196'9DE5
+9e37鸷zhìzi3hawk, vulture196'9DD9
+9e38鸸érji4swallow196'9D2F
+9e39鸹guākut3the crow196'9D30
+9e3a鸺xiūjau1horned owl, scops chinensis196'9D42
+9e3b鸻hénghang4plover196'9D34
+9e3c鸼zhōuzau1ancient name for a bird with black featers and a short tail196'9D43
+9e3d鸽gēgap3pigeon, dove; Columba species (various)196'9D3F
+9e3e鸾luánlyun4fabulous bird196'9E1Eloan
+9e3f鸿hónghung4species of wild swan; vast196'9D3Bhồng
+9e40鹀wúmou4196'9D50
+9e41鹁bóbut6species of pigeon196'9D53
+9e42鹂lílei4Chinese oriole; Oriolus oriolus196'9E1D
+9e43鹃juāngyun1cuckoo196'9D51
+9e44鹄gǔhuk6target196'9D60
+9e45鹅éngo4goose196'9D5Dnga
+9e46鹆yùjuk6myna; manah; Acridotheres tristis196'9D52cốc
+9e47鹇xiánhaan4silver pheasant, Lophura nycthemera; Lophura species (various)196'9DF3
+9e48鹈títai4pelican196'9D5C
+9e49鹉wǔmou5species of parrot196'9D61vũ
+9e4a鹊quècoek3magpie; Pica species (various)196'9D72thước
+9e4b鹋miáomiu4emu196'9D93
+9e4c鹌ānam1quail; Coturnix coturnix196'9D6A
+9e4d鹍kūnkwan1a bird resembling the crane196'9D7E
+9e4e鹎bēibei1bird196'9D6F
+9e4f鹏péngpaang4fabulous bird of enormous size196'9D6Cbằng
+9e50鹐qiānzaam1to peck, as birds196'9D6E
+9e51鹑chúnseon4quail; Turnix species (various)196'9D89
+9e52鹒gēnggang1oriole196'9D8A
+9e53鹓yuānjyun1co-worker196'9D77
+9e54鹔sùsuk1turquoise kingfisher196'9DEB
+9e55鹕húwu4pelican196'9D98
+9e56鹖héhot3crossbill, species of nightingale196'9DA1
+9e57鹗èngok6osprey, fishhawk196'9D9A
+9e58鹘gǔgwat1a kind of pigeon; Treron permagna196'9DBB
+9e59鹙qiūcau1large waterfowl with naked head; Garrulus glandarius196'9D96
+9e5a鹚cíci4cormorant196'9DC0
+9e5b鹛méimei4babbler, Timaliidae species (various); thrush196'9DA5
+9e5c鹜wùmou6duck196'9DA9
+9e5d鹝yìjik6pheasant196'9DCA
+9e5e鹞yàojiu6sparrow hawk; kite shaped like196'9DC2diều
+9e5f鹟wēngjung1flycatcher196'9DB2
+9e60鹠liúlau4the owl196'9DB9
+9e61鹡jízik3wagtail196'9DBAchích
+9e62鹢yìjik6fishhawk bow or prow196'9DC1
+9e63鹣jiāngim1fabulous mythical bird196'9DBC
+9e64鹤hèhok6crane; Grus species (various)196'9DB4hạc
+9e65鹥yīji1seagull196'9DD6
+9e66鹦yīngjing1parrot196'9E1A
+9e67鹧zhèze3partridge196'9DD3
+9e68鹨liùlau6Anthus species (various)196'9DDA
+9e69鹩liáoliu4wren196'9DEF
+9e6a鹪jiāoziu1wren196'9DE6
+9e6b鹫jiùzau6condor, vulture196'9DF2
+9e6c鹬yùwat6snipe, kingfisher196'9DF8
+9e6d鹭lùlou6heron, egret; Ardea species (various)196'9DFA
+9e6e鹮huánsyun4spoonbill; ibis; family Threskiornidae196'4D09
+9e6f鹯zhānzin1hawk; Butastur indicus196'9E07
+9e70鹰yīngjing1falcon; Accipiter species (various)196'9DF9ưng
+9e71鹱hùwok3196'9E0Cvạc
+9e72鹲méngmung4196'9E0Fmòng
+9e73鹳guàngun3crane, Grus japonensis; stork; Ciconia species (various)196'9E1B
+9e74鹴shuāngsoeng1eagle196'9E18
+9e75鹵lǔlou5saline soil; natural salt, rock salt; Kangxi radical 197197'05364
+9e76鹶jīnging1salty and bitter; pitiful197'4
+9e77鹷língling4197'5
+9e78鹸jiǎngaan2alkaline, alkali, lye, salt197'8
+9e79鹹xiánhaam4salty, briny; salted; pickled197'954B8
+9e7a鹺cuóco4salty; salt197'109E7E
+9e7b鹻jiǎngaan2impure sodium carbonate197'10
+9e7c鹼jiǎngaan2alkaline, alkali, lye, salt197'137877
+9e7d鹽yánjim4salt197'1376D0
+9e7e鹾cuóco4salty; salt197'9E7A
+9e7f鹿lùluk6deer; surname; Kangxi radical 198198'0lộc
+9e80麀yōujau1female deer, doe198'2
+9e81麁cūcou1rough, thick, course; rude198'2
+9e82麂jǐgei2muntjac, barking deer; Muntiacus species (various)198'2hoẵng
+9e83麃páo biāobiu1till, plow198'4
+9e84麄cūcou1coarse, rough, rude198'4
+9e85麅páopaau4a small spotted deer found in north China198'5
+9e86麆zhùcyu4198'5
+9e87麇jūngwan1general name for hornless deer; to collect, to band together198'5
+9e88麈zhǔzyu2legendary species of deer198'5
+9e89麉jiāngin1198'6
+9e8a麊mímei4198'6
+9e8b麋mímei4Père David's deer, milu, elaphure (Elaphurus davidianus); surname198'6
+9e8c麌yǔjyu5stag; herd198'7
+9e8d麍liúlau4198'7
+9e8e麎chénsan4198'7
+9e8f麏jūngwan1198'7
+9e90麐línleon4female of Chinese unicorn198'7
+9e91麑níngai4fawn, young deer198'8nghê
+9e92麒qíkei4legendary auspicious animal198'8kì
+9e93麓lùluk1foothill198'8
+9e94麔jiùkau5198'8
+9e95麕jūngwan1muntjac deer, hornless river deer198'8
+9e96麖jīngging1198'8
+9e97麗lìlai6beautiful, magnificent, elegant198'84E3Dlệ
+9e98麘xiānghoeng1scent198'9
+9e99麙xián198'9
+9e9a麚jiāgaa1198'9
+9e9b麛mímai4fawn198'9
+9e9c麜lìleot6198'10
+9e9d麝shèse6musk deer198'10xạ
+9e9e麞zhāngzoeng1water deer (Hydropotes inermis)198'11
+9e9f麟línleon4female of Chinese unicorn198'12lân
+9ea0麠jīngging1a large deer198'13
+9ea1麡qícai4198'142CE3E
+9ea2麢língling4198'17
+9ea3麣yánngaam4198'20
+9ea4麤cūcou1rough, coarse198'22
+9ea5麥màimak6wheat, barley, oats; Kangxi radical 199199'09EA6mạch
+9ea6麦màimak6wheat, barley, oats; simplified form of Kangxi radical 199199'9EA69EA5 9EA6mạch
+9ea7麧héhat6199'3312C7
+9ea8麨chǎociu2199'42A38A
+9ea9麩fūfu1bran199'49EB8
+9eaa麪miànmin6flour, noodles, dough199'4
+9eab麫miànmin6flour; vermicelli; dough199'4
+9eac麬fūfu1199'524FF2
+9ead麭pàopaau3a sticky rice ball199'5
+9eae麮qùheoi3porridge199'5312CB
+9eaf麯qūkuk1yeast, leaven199'666F2 312D0khúc
+9eb0麰móumau4barley199'62EB87
+9eb1麱fūfu1bran of wheat199'7312D6
+9eb2麲xiànhaan6199'72A389
+9eb3麳láiloi4199'82A38C
+9eb4麴qūkuk1yeast, leaven; surname199'89EB9
+9eb5麵miànmin6flour, dough, noodles199'99762
+9eb6麶chici1199'11
+9eb7麷fēngfung1199'182B711
+9eb8麸fūfu1bran199'9EA9
+9eb9麹qūkuk1yeast, leaven; surname199'9EB4
+9eba麺miànmin6flour, dough, noodles199'miến
+9ebb麻mámaa4hemp, jute, flax; sesame; Kangxi radical 200200'0ma
+9ebc麼memo1interrogative final particle; insignificant, small, tiny200'34E48
+9ebd麽mómo1interrogative final particle; insignificant, small, tiny200'34E48mô
+9ebe麾huīfai1a pennant, flag, banner; to signal to200'4
+9ebf麿moleoi5I, personal name marker200'7
+9ec0黀zōuzau1200'8
+9ec1黁núnnyun5200'9
+9ec2黂fénfan4200'13312F1
+9ec3黃huángwong4yellow; surname; Kangxi radical 201201'09EC4hoàng
+9ec4黄huángwong4yellow; surname201'09EC49EC3 9EC4hoàng
+9ec5黅jīngam1201'4
+9ec6黆guānggwong1201'4
+9ec7黇tiāntim1fallow deer (Dama dama)201'5
+9ec8黈tǒutau2yellow; augment, increase201'5
+9ec9黉hónghung4school201'59ECC
+9eca黊huàwaa6201'6
+9ecb黋kuàngkong3201'6
+9ecc黌hónghung4school201'139EC9
+9ecd黍shǔsyu2glutinous millet; Kangxi radical 202202'0
+9ece黎lílai4surname; numerous, many; black202'3lê
+9ecf黏niánnim4stick to; glutinous, sticky; glue202'5
+9ed0黐chīci1to stick; sticky202'10
+9ed1黑hēihak1black; dark; evil, sinister; Kangxi radical 203203'0hắc
+9ed2黒hēihak1black; dark; evil203'0
+9ed3黓yìjik6black203'3
+9ed4黔qiánkim4black; Guizhou203'4
+9ed5黕dǎndam2red203'4
+9ed6黖xìhei3203'4
+9ed7黗tūntan1203'4
+9ed8默mòmak6silent; quiet, still; dark203'4mặc
+9ed9黙mòmak6silent; quiet, still; dark86'11
+9eda黚qiánkim4203'5
+9edb黛dàidoi6blacken eyebrows; black203'5
+9edc黜chùzeot1dismiss; demote, downgrade203'5
+9edd黝yǒujau2black203'5
+9ede點diǎndim2dot, speck, spot; point, degree203'570B9điểm
+9edf黟yīji1black and shining; ebony203'6
+9ee0黠xiákit3sly, cunning, shrewd; artful203'6
+9ee1黡yǎnjim2mole, scar, blemish203'69EF6
+9ee2黢qūzeot1black203'7
+9ee3黣měimui5203'7
+9ee4黤yǎnjim2blue-black203'8
+9ee5黥qíngking4to tattoo; to brand the face of criminals203'8
+9ee6黦yuèwat1203'8
+9ee7黧lílai4a dark, yellowish colour203'8
+9ee8黨dǎngdong2political party, gang, faction203'8515A
+9ee9黩dúduk6to dishonor, defile, corrupt; soiled203'89EF7
+9eea黪cǎncaam2grey black203'89EF2
+9eeb黫yānjan1203'9
+9eec黬yánngaam4blackhead203'9
+9eed黭yǎn203'9
+9eee黮dǎndam2black, dark; unclear; private203'9
+9eef黯ànam2dark, black; sullen, dreary203'9
+9ef0黰zhěncan2young girl's hair style203'10
+9ef1黱dàidoi6203'10
+9ef2黲cǎncaam2grey black203'119EEA
+9ef3黳yīji1203'11
+9ef4黴méimei4mold, mildew; bacteria, fungi203'119709
+9ef5黵zhǎndaam2to soil, stain203'13
+9ef6黶yǎnjim2mole, scar, blemish203'149EE1
+9ef7黷dúduk6to dishonor, defile, corrupt; soiled203'159EE9
+9ef8黸lúlou1203'16312F6
+9ef9黹zhǐzi2embroidery, needlework; Kangxi radical 204204'0
+9efa黺fěnfan2204'4
+9efb黻fúfat1special pattern of embroidery204'5
+9efc黼fǔfu2embroidered official or sacrificial robe204'7
+9efd黽miǎnman5to strive; to endeavor; Kangxi radical 205205'09EFE
+9efe黾mǐnman5to strive; to endeavor205'9EFE9EFD 9EFE
+9eff黿yuánjyun4large turtle, sea turtle205'49F0B
+9f00鼀cùcuk1205'5312FE
+9f01鼁qùheoi3205'5312FF
+9f02鼂cháociu4a kind of sea turtle; surname205'5
+9f03鼃wāwaa1the edible water-frog205'6
+9f04鼄zhūzyu1the spider205'62CE63
+9f05鼅zhīzi1spider205'831304
+9f06鼆méngman4205'1031306
+9f07鼇áongou4huge sea turtle205'10
+9f08鼈biēbit3a fresh-water turtle, Trionyx sinensis205'1231307
+9f09鼉tuóto4Chinese allegator (Alligator sinensis)205'129F0D
+9f0a鼊bìbik1205'1331309
+9f0b鼋yuánjyun4large turtle, sea turtle205'9EFF
+9f0c鼌cháociu4205'
+9f0d鼍tuóto4large reptile, water lizard205'9F09
+9f0e鼎dǐngding2large, three-legged bronze caldron; Kangxi radical 206; hexagram ䷱206'0đỉnh
+9f0f鼏mìmik6cover of tripod caldron206'2
+9f10鼐nàinaai5incense tripod206'2
+9f11鼑dǐngding2206'2
+9f12鼒zīzi1large tripod caldron with small mouth206'3
+9f13鼓gǔgu2drum; beat, top, strike; Kangxi radical 207207'0
+9f14鼔gǔgu2a drum; to drum, from whence comes: to rouse; to swell; to bulge207'0
+9f15鼕dōngdung1rattle of drums207'551ACđông
+9f16鼖fénfan4drum207'5
+9f17鼗táotou4small revolving drum with knobs207'69F179780 9F17
+9f18鼘yuānjyun1207'8
+9f19鼙pípei4drum carried on horseback207'8
+9f1a鼚chāngcoeng1drumming207'83130A
+9f1b鼛gāogou1drum207'8
+9f1c鼜qìcik1207'10
+9f1d鼝yuānjyun1207'11
+9f1e鼞tāngtong1207'11
+9f1f鼟tēngtang1onomatopoeic, drumming sound207'12
+9f20鼠shǔsyu2rat, mouse; Kangxi radical 208208'0
+9f21鼡shǔlip6rat, mouse208'
+9f22鼢fénfan4a variety of mole208'4
+9f23鼣fèifai6208'4
+9f24鼤wénman4208'4
+9f25鼥bábat6groundhog, woodchuck208'5
+9f26鼦diāodiu1208'5
+9f27鼧tuóto4the marmot208'5
+9f28鼨zhōngzung1208'5
+9f29鼩qúkeoi4shrew208'5
+9f2a鼪shēngsang1weasel208'5
+9f2b鼫shísek6marmot; squirrel208'5
+9f2c鼬yòujau6weasel, Mustela itatsi208'5
+9f2d鼭shísi4208'6
+9f2e鼮tíngting4208'7
+9f2f鼯wúng4flying squirrel208'7
+9f30鼰júgwik1208'7
+9f31鼱jīngzing1208'8
+9f32鼲húnwan4208'93130F
+9f33鼳júgwik1208'9
+9f34鼴yǎnjin2mole; Talpidae species (various)208'99F39
+9f35鼵tūdat6208'9
+9f36鼶sīsi1208'10
+9f37鼷xīhai4a mouse208'10
+9f38鼸xiànjim6208'10
+9f39鼹yǎnjin2mole; Talpidae species (various)208'109F399F34 9F39
+9f3a鼺léileoi4208'15
+9f3b鼻bíbei6nose; first; Kangxi radical 209209'0
+9f3c鼼yàojiu6(Cant.) curving upwards209'2
+9f3d鼽qiúkau4clogged nose209'2
+9f3e鼾hānhon4snore loudly209'3
+9f3f鼿wùngat6209'3
+9f40齀wùngat6209'5
+9f41齁hōuhau1snore loudly; very, extremely209'5
+9f42齂xièhaai3209'8
+9f43齃èaat3209'9
+9f44齄zhāzaa1red sores on nose209'9
+9f45齅xiùcau3smell; to smell209'10
+9f46齆wèngung3stuffed nose209'10
+9f47齇zhāzaa1a pimple or red splotch on the nose209'11
+9f48齈nòngnung6cold in the head; catarrh of the nose; mucus from the nose209'1331316
+9f49齉nàngnong6stoppage of the nose; to speak with a nasal twang209'22
+9f4a齊qícai4even, uniform, of equal length; Kangxi radical 210210'09F50tày
+9f4b齋zhāizaai1vegetarian diet; study; to fast, abstain210'3658B
+9f4c齌jìcai4steam210'431317
+9f4d齍zīzi1210'531318
+9f4e齎jīzai1take in both hands and offer to210'78D4D
+9f4f齏jīzai1break or smash into pieces, pulverize; hash210'99F51
+9f50齐qícai4even, uniform, of equal length210'9F4Atày
+9f51齑jīzai1break or smash into pieces, pulverize; hash210'9F4F
+9f52齒chǐci2teeth; gears, cogs; age; Kangxi radical 211211'09F7Fxỉ
+9f53齓chèncan3211'1
+9f54齔chèncan3lose baby teeth and get adult teeth211'29F80
+9f55齕héhat6gnaw, bite, nibble211'39F81
+9f56齖yángaa4211'42CE7A
+9f57齗yínngan4gums (of the teeth); to dispute211'49F82
+9f58齘xièhaai6211'42CE7C
+9f59齙bāobaau6projecting teeth211'59F85
+9f5a齚zézaak3to chew211'53132C
+9f5b齛xièsit3211'5
+9f5c齜cháizi1to show the teeth; crooked teeth211'59F87
+9f5d齝chīci1to chew the cud211'53132F
+9f5e齞yǎnjin6to display the teeth211'53132B
+9f5f齟jǔzeoi2irregular teeth; discord211'59F83
+9f60齠tiáotiu4lose baby teeth and get adult teeth211'59F86
+9f61齡língling4age; years211'59F84
+9f62齢língling4age; years211'
+9f63齣chūceot1act; stanza; time, occasion211'551FA 3132Exuất
+9f64齤quánkyun4211'631332
+9f65齥xièsit3211'631331
+9f66齦kěnngan4gums211'69F88
+9f67齧nièngit6bite, gnaw; wear down, erode211'62B729
+9f68齨jiùkau5211'6
+9f69齩yǎongaau5to chew; to bite211'62B72A
+9f6a齪chuòcuk1narrow, small; dirty211'79F8A
+9f6b齫yǔnwan5211'7
+9f6c齬yǔjyu5uneven teeth; to disagree211'79F89
+9f6d齭chǔco2toothache211'82B72D
+9f6e齮yǐji2bite211'82CE88
+9f6f齯níngai4teeth grown in old age211'82B81C
+9f70齰zézaak3to bite211'82B72C
+9f71齱zōucuk1211'831336
+9f72齲qǔgeoi2tooth decay211'99F8B
+9f73齳yǔnwan5toothless211'931333
+9f74齴yǎn211'92B72E
+9f75齵óujyu4uneven (teeth)211'931339
+9f76齶èngok6palate, roof of mouth211'9816D
+9f77齷wòak1narrow, small; dirty211'99F8C
+9f78齸yìjik1211'103133D
+9f79齹cīci1211'102CE8E
+9f7a齺zōuzau1211'103132D
+9f7b齻diāndin1211'103133A
+9f7c齼chǔco2211'132CE93
+9f7d齽jìngam6211'132CE94
+9f7e齾yàngaa3211'202B730
+9f7f齿chǐci2teeth; gears, cogs; age; simplified form of the Kangxi radical 211211'9F52xỉ
+9f80龀chèncan3lose baby teeth and get adult teeth211'9F54
+9f81龁héhat6gnaw, bite, nibble211'9F55
+9f82龂yínngan4gums (of the teeth); to dispute211'9F57
+9f83龃jǔzeoi2irregular teeth; discord211'9F5F
+9f84龄língling4age; years211'9F61
+9f85龅bāobaau6teeth protrude211'9F59
+9f86龆tiáotiu4lose baby teeth and get adult teeth211'9F60
+9f87龇zīzi1to show the teeth; crooked teeth211'9F5C
+9f88龈yínngan4gums211'9F66
+9f89龉yǔjyu5uneven teeth; to disagree211'9F6C
+9f8a龊chuòcuk1narrow, small; dirty211'9F6A
+9f8b龋qǔgeoi2tooth decay211'9F72
+9f8c龌wòaak1narrow, small; dirty211'9F77
+9f8d龍lónglung4dragon; Kangxi radical 212212'09F99long
+9f8e龎pángpong4disorderly, messy; huge, big212'25390
+9f8f龏gōnggung1212'331341
+9f90龐pángpong4disorderly, messy; huge, big53'165E9E
+9f91龑yǎnjim5used in personal names212'44DAE
+9f92龒lónglung4dragon212'5
+9f93龓lǒnglung5a halter212'62B732
+9f94龔gōnggung1give, present; reverential212'69F9A
+9f95龕kānham1niche, shrine212'69F9B
+9f96龖dádaap6flight of a dragon212'1631342
+9f97龗língling4212'17
+9f98龘dádaap6the appearance of a dragon walking212'322EE5D
+9f99龙lónglung4dragon; symbolic of emperor212'9F8Dlong
+9f9a龚gōnggung1give, present; reverential212'9F94
+9f9b龛kānham1niche, shrine212'9F95
+9f9c龜guīgwai1turtle or tortoise; cuckold; Kangxi radical 213213'09F9F
+9f9d龝qiūcau1autumn, fall; year213'52C4EB
+9f9e龞biēbit3turtle213'1231348
+9f9f龟guīgwai1turtle or tortoise; cuckold213'9F9F9F9C 9F9F
+9fa0龠yuèjoek6flute; pipe, ancient measure; Kangxi radical 214214'0
+9fa1龡chuīceoi1to blow, exhale214'4
+9fa2龢héwo4in harmony; calm, peaceful214'5
+9fa3龣juégok3214'8
+9fa4龤xiéhaai4to harmonize; to accord with; to agree214'9
+9fa5龥yùjyu6beg, appeal for help214'92CC73
+9fa6龦soeng486'11
+9fa7龧syu272'12
+9fa8龨zeoi122'8
+9fa9龩gan3140'13
+9faa龪zhānjan4156'2
+9fab龫gon3159'5
+9fac龬wǎngmong5167'8
+9fad龭ji6187'1129A0E
+9fae龮jik6187'17
+9faf龯mou6167'528C46
+9fb0龰zǒuzi277'0
+9fb1龱31'2
+9fb2龲fu3167'1030F8B
+9fb3龳32'13
+9fb4龴5'1
+9fb5龵shǒusau264'0
+9fb6龶32'1
+9fb7龷140'1
+9fb8龸42'2
+9fb9龹12'4
+9fba龺24'6
+9fbb龻luánlyun4149'123005C
+9fbc龼32'14
+9fbd龽86'11307B3
+9fbe龾107'8
+9fbf龿140'8
+9fc0鿀140'18
+9fc1鿁hung6149'64724
+9fc2鿂159'112EDD9
+9fc3鿃shǎnsim2(same as 睒) to blink, twinkle109'7
+9fc4鿄liángloeng475'6
+9fc5鿅113'13
+9fc6鿆113'4
+9fc7鿇zhēngzang19'6
+9fc8鿈ce160'4
+9fc9鿉wu160'4
+9fca鿊zi2140'7
+9fcb鿋hei1145'12
+9fcc鿌liángloeng4cool, cold; disheartened85'9
+9fcd鿍gàngpung1hill; long and narrow highland; used in place names; (Cant.) throw up and scatter (as dust)32'6
+9fce鿎tǎdaat6(tǎ) place name in Zhejiang; (dá) cobblestone, water gate, place name in Guangdong112'640EE
+9fcf鿏màifaan6meitnerium (element 109, Mt)167'4951
+9fd0鿐zau2a kind of clam195'104CA4
+9fd1鿑15'5
+9fd2鿒caraway140'69FD3
+9fd3鿓caraway140'99FD2
+9fd4鿔gēgo1copernicium (element 112, Cn)167'93B6cà
+9fd5鿕dānDanio chrysotaeniata195'311A5
+9fd6鿖1'6
+9fd7鿗1'8
+9fd8鿘9'10
+9fd9鿙9'11
+9fda鿚9'14
+9fdb鿛15'22
+9fdc鿜64'19
+9fdd鿝75'23
+9fde鿞78'16
+9fdf鿟115'79FE0
+9fe0鿠115'169FDF
+9fe1鿡122'28
+9fe2鿢128'8
+9fe3鿣128'9
+9fe4鿤128'12
+9fe5鿥138'17
+9fe6鿦140'18
+9fe7鿧170'23
+9fe8鿨173'19
+9fe9鿩195'18
+9fea鿪86'13
+9feb鿫àoou3oganesson (element 118)84'13
+9fec鿬tiántin4tennessine (element 117)112'5
+9fed鿭nǐnip6nihonium (element 113)167'9268 9448
+9fee鿮53'10
+9fef鿯119'10
+9ff0鿰hánhon485'122C267
+9ff1鿱bābaa196'4
+9ff2鿲láolou4151'727C0E
+9ff3鿳tuòto4195'119FF8
+9ff4鿴dōngdung1195'9B97
+9ff5鿵zhìzi3195'29DD3
+9ff6鿶lángloeng4195'29DD5lươn
+9ff7鿷ànjam1195'29E4E
+9ff8鿸tuòto4195'9FF3
+9ff9鿹mìmat6195'2CD68
+9ffa鿺màimak6196'2A133
+9ffb鿻bùbou3208'5
+9ffc鿼jiāgaa1208'5
+9ffd鿽30'10
+9ffe鿾làng32'9
+9fff鿿xìng85'9
+f900豈how? what?151'3
+f901更more, still further, much more73'3
+f902車cart, vehicle; carry in cart159'0
+f903賈surname; merchant; buy, trade154'6
+f904滑slip, slide; slippery, polished85'10
+f905串string; relatives; conspire2'6
+f906句sentence30'2
+f907龜turtle or tortoise; cuckold213'0
+f908龜turtle or tortoise; cuckold213'0
+f909契deed, contract, bond; engrave37'6
+f90a金gold; metals in general; money167'0
+f90b喇horn, bugle; lama; final particle30'9
+f90c奈but, how; bear, stand, endure37'5
+f90d懶lazy, languid, listless61'16
+f90e癩leprosy, scabies, mange; shoddy104'16
+f90f羅net for catching birds; gauze122'14
+f910蘿type of creeping plant; turnip140'19
+f911螺spiral shell; conch; spiral142'11
+f912裸bare, nude; undress, strip145'8
+f913邏patrol; inspect; watch162'19
+f914樂happy, glad; enjoyable; music75'11
+f915洛river in Shanxi province; city85'6
+f916烙brand, burn; branding iron86'6
+f917珞kind of necklace96'6
+f918落fall, drop; net income, surplus140'9
+f919酪cream, cheese; koumiss164'6
+f91a駱white horse with black mane; camel187'6
+f91b亂confusion, state of chaos; create chaos, revolt5'12
+f91c卵egg; ovum; roe; spawn26'5
+f91d欄railing, balustrade; animal pen75'17
+f91e爛rotten, spoiled, decayed86'17
+f91f蘭orchid; elegant, graceful140'17
+f920鸞fabulous bird196'19
+f921嵐mountain mist, mountain haze46'9
+f922濫flood, overflow; excessive85'14
+f923藍blue; indigo plant; surname140'14
+f924襤ragged, tattered, threadbare145'14
+f925拉pull, drag; seize, hold; lengthen64'5
+f926臘year end sacrifice; dried meat130'15
+f927蠟wax; candle; waxy, glazed142'15
+f928廊long4corridor, porch, veranda53'9
+f929朗clear, bright; distinct74'7
+f92a浪wave; wasteful, reckless85'7
+f92b狼wolf94'7
+f92c郎gentleman, young man; husband163'6
+f92d來come, coming; return, returning9'6
+f92e冷cold, cool; lonely15'5
+f92f勞labor, toil, do manual work19'10
+f930擄capture, seize64'13
+f931櫓oar, scull; row75'15
+f932爐fireplace, stove, oven, furnace86'16
+f933盧cottage, hut; surname; black108'11
+f934老old, aged; experienced125'0
+f935蘆rushes, reeds140'16
+f936虜lou5capture, imprison, seize; prison141'6
+f937路road, path, street; journey157'6
+f938露dew; bare, open, exposed173'12
+f939魯foolish, stupid, rash; vulgar195'4
+f93a鷺heron, egret196'12
+f93b碌rough, uneven, rocky; mediocre112'8
+f93c祿blessing, happiness, prosperity113'8
+f93d綠green; chlorine120'8
+f93e菉the green bamboo; greenish bamboo140'8
+f93f錄copy, write down, record167'8
+f940鹿deer; surname; Kangxi radical 198198'0
+f941論debate; discuss; discourse149'8
+f942壟grave, mound; ridge in field32'16
+f943弄do, play or fiddle with; alley55'4
+f944籠cage; cage-like basket118'16
+f945聾lung4deaf128'16
+f946牢prison; stable, pen; secure93'3
+f947磊pile of rocks or stones; great112'10
+f948賂bribe; give present154'6
+f949雷thunder173'5
+f94a壘rampart, military wall32'15
+f94b屢frequently, often, again and again44'11
+f94c樓building of two or more stories75'11
+f94d淚tears; weep, cry85'8
+f94e漏leak, drip; funnel; hour glass85'11
+f94f累tired; implicate, involve; bother120'5
+f950縷thread; detailed, precise120'11
+f951陋narrow; crude, coarse; ugly170'6
+f952勒strangle, tighten19'9
+f953肋ribs; chest130'2
+f954凜shiver with cold or fear, fearful15'13
+f955凌pure; virtuous; insult; maltreat15'8
+f956稜corner, edge, angle; square block115'8
+f957綾thin silk, damask silk120'8
+f958菱water-chestnut, water caltrop140'8
+f959陵hill, mound; mausoleum170'8
+f95a讀read, study; pronounce149'15
+f95b拏take; bring; grasp, hold; arrest64'5
+f95c樂happy, glad; enjoyable; music75'11
+f95d諾promise; assent, approve149'9
+f95e丹cinnabar (native HgS); vermilion (artificial HgS used as pigment)3'3
+f95f寧repose, serenity, peace; peaceful40'11
+f960怒anger, rage, passion; angry61'5
+f961率to lead; ratio; rate; limit95'6
+f962異different, unusual, strange102'7
+f963北north; northern; northward21'3
+f964磻a tributary of the Wei river in Shanxi112'12
+f965便convenience, ease; expedient9'7
+f966復return; repeat; repeatedly60'9
+f967不no, not; un-; negative prefix1'3
+f968泌to seep out, excrete85'5
+f969數number; several; count; fate66'11
+f96a索large rope, cable; rules, laws120'4
+f96b參take part in, intervene28'9
+f96c塞stop up, block. seal, cork32'10
+f96d省province; save, economize109'4
+f96e葉leaf, petal; page of book; period140'9
+f96f說speak, say, talk; scold, upbraid149'7
+f970殺kill, slaughter, murder; hurt79'7
+f971辰early morning161'0
+f972沈sink, submerge; addicted to; name85'4
+f973拾pick up, collect, tidy up; ten64'6
+f974若if, supposing, assuming; similar140'5
+f975掠rob, ransack, plunder; pass by64'8
+f976略approximately, roughly; outline102'6
+f977亮bright, brilliant, radiant, light8'7
+f978兩two, both, pair, couple; ounce11'6
+f979凉cool, cold; disheartened15'8
+f97a梁bridge; beam; rafters; surname75'7
+f97b糧food, grain, provisions119'12
+f97c良good, virtuous, respectable138'1
+f97d諒excuse, forgive; guess, presume149'8
+f97e量measure, quantity, capacity166'5
+f97f勵strive; encourage19'15
+f980呂surname; a musical note30'4
+f981女woman, girl; feminine; rad. 3838'0
+f982廬hut, cottage; name of a mountain53'16
+f983旅trip, journey; travel; traveler70'6
+f984濾strain out, filter85'15
+f985礪whetstone; sharpen112'15
+f986閭village of twenty-five families169'7
+f987驪a pure black horse; a pair of horses187'19
+f988麗beautiful, magnificent, elegant198'8
+f989黎surname; numerous, many; black202'3
+f98a力power, capability, influence19'0
+f98b曆calendar, era72'12
+f98c歷take place, past, history77'12
+f98d轢run over something with a vehicle159'15
+f98e年year; new-years; person's age51'3
+f98f憐pity, sympathize61'12
+f990戀love; long for, yearn for; love61'19
+f991撚twirl in fingers, tease, toy with64'12
+f992漣flowing water; ripples; weeping85'11
+f993煉smelt, refine; distill, condense86'9
+f994璉vessel used to hold grain offerings96'11
+f995秊year; new-years; person's age115'3
+f996練practice, drill, exercise, train120'9
+f997聯connect, join; associate, ally128'11
+f998輦a hand-cart; to transport by carriage159'8
+f999蓮lotus, water lily; paradise140'11
+f99a連join, connect; continuous; even162'7
+f99b鍊smelt metals, forge; refine167'9
+f99c列a line; to arrange in order, classify18'4
+f99d劣bad, inferior; slightly19'4
+f99e咽throat; pharynx30'6
+f99f烈fiery, violent, vehement, ardent86'6
+f9a0裂split, crack, break open; rend145'6
+f9a1說speak, say, talk; scold, upbraid149'7
+f9a2廉upright, honorable, honest53'10
+f9a3念think of, recall, study61'4
+f9a4捻to twist, nip with the fingers64'8
+f9a5殮dress corpse for burial78'13
+f9a6簾a blind, screen, curtain118'13
+f9a7獵hunt; field sports94'15
+f9a8令command, order; 'commandant', magistrate; allow, cause9'3
+f9a9囹prison, enclosure31'5
+f9aa寧repose, serenity, peace; peaceful40'11
+f9ab嶺mountain ridge, mountain peak46'14
+f9ac怜pity, sympathize61'5
+f9ad玲tinkling of jade96'5
+f9ae瑩lustre of gems; bright, lustrous96'10
+f9af羚species of antelope123'5
+f9b0聆listen, hear128'5
+f9b1鈴bell167'5
+f9b2零zero; fragment, fraction173'5
+f9b3靈spirit, soul; spiritual world173'16
+f9b4領neck; collar; lead, guide181'5
+f9b5例precedent, example; regulation9'6
+f9b6禮social custom; manners; courtesy; rites113'13
+f9b7醴sweet wine; sweet spring164'13
+f9b8隸be subservient to; servant171'9
+f9b9惡evil, wicked, bad, foul61'8
+f9ba了to finish; particle of completed action6'1
+f9bb僚officials; bureaucracy9'12
+f9bc寮shanty, hut, shack40'12
+f9bd尿urine; urinate44'4
+f9be料consider, conjecture; material68'6
+f9bf樂happy, glad; enjoyable; music75'11
+f9c0燎to burn, set afire; to illuminate; a signal lamp86'12
+f9c1療be healed, cured, recover104'12
+f9c2蓼smartweed, polygonum140'11
+f9c3遼distant, far162'12
+f9c4龍dragon; symbolic of emperor212'0
+f9c5暈halo in sky; fog; dizzy, faint72'9
+f9c6阮ancient musical instrument; surname170'4
+f9c7劉surname; kill, destroy18'13
+f9c8杻Ligustrum sinense, Chinese privet75'4
+f9c9柳willow tree; pleasure75'5
+f9ca流flow, circulate, drift; class85'6
+f9cb溜slide, glide, slip; slippery85'10
+f9cc琉sparkling stone; glazed, opaque96'6
+f9cd留stop, halt; stay, detain, keep102'5
+f9ce硫sulfur (element 16, S)112'7
+f9cf紐knot; button; handle, knob; tie120'4
+f9d0類class, group, kind, category181'10
+f9d1六number six12'2
+f9d2戮kill, massacre; oppress62'11
+f9d3陸land, continental; army170'8
+f9d4倫normal human relationships9'8
+f9d5崙Kunlun mountains in Jiangsu46'8
+f9d6淪be lost; sink, be submerged85'8
+f9d7輪wheel; revolve, turn; recur159'8
+f9d8律statute, principle, regulation60'6
+f9d9慄shiver, shudder, tremble; tremble61'10
+f9da栗chestnut tree, chestnuts; surname75'6
+f9db率to lead; ratio; rate; limit95'6
+f9dc隆prosperous, plentiful, abundant170'9
+f9dd利gains, advantage, profit, merit18'5
+f9de吏government official, magistrate30'3
+f9df履footwear, shoes; walk on, tread44'12
+f9e0易change; easy72'4
+f9e1李plum; judge; surname75'3
+f9e2梨pear; opera; cut, slash75'7
+f9e3泥mud, mire; earth, clay; plaster85'5
+f9e4理reason, logic; manage96'7
+f9e5痢dysentery104'7
+f9e6罹sorrow, grief; incur, meet with122'11
+f9e7裏inside, interior, within145'7
+f9e8裡inside, interior, within145'7
+f9e9里unit of distance; village; lane166'0
+f9ea離leave, depart; go away; separate172'11
+f9eb匿hide; go into hiding23'9
+f9ec溺drown; submerge in water; indulge85'10
+f9ed吝stingy, miserly, parsimonious30'4
+f9ee燐phosphorus (element 15, P)86'12
+f9ef璘luster of jade96'12
+f9f0藺rush used in making mats; surname140'16
+f9f1隣neighbor; neighboring; adjacent170'12
+f9f2鱗fish scales195'12
+f9f3麟female of Chinese unicorn198'12
+f9f4林forest, grove; surname75'4
+f9f5淋drip, soak, drench; perfectly85'8
+f9f6臨draw near, approach; descend131'11
+f9f7立stand; let stand; establish, set117'0
+f9f8笠bamboo hat; bamboo covering118'5
+f9f9粒grain; small particle119'5
+f9fa狀form; appearance; shape; official94'4
+f9fb炙roast, broil; toast; cauterize86'4
+f9fc識recognize, understand, know149'12
+f9fd什file of ten soldiers9'2
+f9fe茶tea140'6
+f9ff刺stab; prick, irritate; prod18'6
+fa00切cut, mince, slice, carve18'2
+fa01度degree, system; manner; to consider53'6
+fa02拓expand; open up; support or push64'5
+fa03糖sugar; candy; sweets119'10
+fa04宅residence, dwelling, home; grave40'3
+fa05洞cave, grotto; ravine; hole85'6
+fa06暴violent, brutal, tyrannical72'11
+fa07輻spokes of wheel159'9
+fa08行go; walk; move, travel; circulate144'0
+fa09降descend, fall, drop; lower, down170'6
+fa0a見see, observe, behold; perceive147'0
+fa0b廓broad, wide, open, empty; expand53'11
+fa0c兀duplicate of Big Five A46110'1
+fa0d嗀vomit30'10
+fa0e﨎29'11
+fa0f﨏32'7cốc
+fa10塚cemetery; tomb32'10
+fa11﨑cape; spit; promontory46'9
+fa12晴clear weather72'8
+fa13﨓75'9
+fa14﨔75'10
+fa15凞bright15'14
+fa16猪pig94'8
+fa17益jik1profit108'5
+fa18礼lǐsocial custom; manners; courtesy; rites113'1
+fa19神spirit113'5
+fa1a祥good luck113'6
+fa1b福happiness113'9
+fa1c靖pacify; appease; calm174'5
+fa1d精essence; semen; spirit119'8
+fa1e羽feather124'0
+fa1f﨟140'13
+fa20蘒140'17
+fa21﨡142'5sên
+fa22諸several149'9
+fa23﨣156'4
+fa24﨤162'4gặp
+fa25逸flee162'8
+fa26都metropolis163'9
+fa27﨧167'7
+fa28﨨167'8
+fa29﨩170'10
+fa2a飯cooked rice; food; meal184'4
+fa2b飼raise animals; feed; nourish184'5
+fa2c館public building184'8
+fa2d鶴crane196'10
+fa2e郞163'7
+fa2f隷171'8
+fa30侮9'7
+fa31僧9'12
+fa32免10'6
+fa33勉19'7
+fa34勤19'11
+fa35卑24'6
+fa36喝30'9
+fa37嘆30'11
+fa38器30'13
+fa39塀32'9
+fa3a墨32'12
+fa3b層44'12
+fa3c屮45'0
+fa3d悔61'7
+fa3e慨61'9
+fa3f憎61'12
+fa40懲61'15
+fa41敏66'7
+fa42既71'5
+fa43暑72'8
+fa44梅75'7
+fa45海85'7
+fa46渚85'8
+fa47漢85'11
+fa48煮86'8
+fa49爫87'0
+fa4a琢96'8
+fa4b碑112'8
+fa4c社113'3
+fa4d祉113'4
+fa4e祈113'4
+fa4f祐113'5
+fa50祖113'5
+fa51祝113'5
+fa52禍113'9
+fa53禎113'9
+fa54穀115'10
+fa55突116'4
+fa56節118'7
+fa57練120'9
+fa58縉120'10
+fa59繁120'11
+fa5a署122'8
+fa5b者125'4
+fa5c臭132'4
+fa5d艹140'0
+fa5e艹140'0
+fa5f著140'8
+fa60褐145'9
+fa61視147'4
+fa62謁149'9
+fa63謹149'11
+fa64賓154'7
+fa65贈154'12
+fa66辶162'0
+fa67逸162'8
+fa68難172'11
+fa69響180'11
+fa6a頻181'7
+fa6b恵61'7
+fa6c𤋮86'10
+fa6d舘30'13
+fa70並1'7
+fa71况15'5
+fa72全11'4
+fa73侀9'6
+fa74充10'4
+fa75冀12'14
+fa76勇19'7
+fa77勺20'1
+fa78喝30'9
+fa79啕30'8
+fa7a喙30'9
+fa7b嗢30'10
+fa7c塚32'10
+fa7d墳32'12
+fa7e奄37'5
+fa7f奔37'6
+fa80婢38'8
+fa81嬨38'14
+fa82廒53'11
+fa83廙53'12
+fa84彩59'8
+fa85徭60'10
+fa86惘61'8
+fa87慎61'10
+fa88愈61'9
+fa89憎61'12
+fa8a慠61'11
+fa8b懲61'15
+fa8c戴62'13
+fa8d揄64'9
+fa8e搜64'10
+fa8f摒64'9
+fa90敖66'7
+fa91晴72'8
+fa92朗74'7
+fa93望74'7
+fa94杖75'3
+fa95歹78'0
+fa96殺79'7
+fa97流85'6
+fa98滛85'10
+fa99滋85'9
+fa9a漢85'11
+fa9b瀞85'16
+fa9c煮86'8
+fa9d瞧109'12
+fa9e爵87'14
+fa9f犯94'2
+faa0猪94'8
+faa1瑱96'10
+faa2甆98'9
+faa3画102'3
+faa4瘝104'10
+faa5瘟104'9
+faa6益108'5
+faa7盛108'6
+faa8直109'3
+faa9睊109'7
+faaa着109'7
+faab磌112'10
+faac窱116'10
+faad節118'7
+faae类119'3
+faaf絛120'7
+fab0練120'9
+fab1缾121'6
+fab2者125'4
+fab3荒140'6
+fab4華140'8
+fab5蝹142'10
+fab6襁145'11
+fab7覆146'12
+fab8視113'7
+fab9調149'8
+faba諸149'9
+fabb請149'8
+fabc謁149'9
+fabd諾149'9
+fabe諭149'9
+fabf謹149'11
+fac0變149'16
+fac1贈154'12
+fac2輸159'9
+fac3遲162'12
+fac4醙164'10
+fac5鉶167'6
+fac6陼170'9
+fac7難172'11
+fac8靖174'5
+fac9韛178'11
+faca響180'11
+facb頋181'4
+facc頻181'7
+facd鬒190'10
+face龜213'0
+facf𢡊61'12
+fad0𢡄61'12
+fad1𣏕75'4
+fad2㮝75'9
+fad3䀘109'4
+fad4䀹109'7
+fad5𥉉109'10
+fad6𥳐118'12
+fad7𧻓156'6
+fad8齃209'9
+fad9龎212'2
+20000𠀀hēthe sound made by breathing in; oh! (see ㄛ BOPOMOFO LETTER O)1'1
+20001𠀁qīcat1(original form of 七)1'1
+20002𠀂1'1
+20003𠀃qiě1'2
+20004𠀄1'2
+20005𠀅hàihoi6(variant of 亥)1'2
+20006𠀆1'2
+20007𠀇1'3
+20008𠀈1'3
+20009𠀉qiūjau1(same as 丘) a hill; elder; empty; a name1'3
+2000a𠀊cāo1'3
+2000b𠀋1'3
+2000c𠀌1'3
+2000d𠀍shìsai3(same as 世) generation; world; era1'4
+2000e𠀎1'4
+2000f𠀏1'4
+20010𠀐1'4
+20011𠀑1'4
+20012𠀒1'4
+20013𠀓sī1'4
+20014𠀔jué1'4
+20015𠀕(variant of 亙)1'4
+20016𠀖1'4khạng
+20017𠀗1'4khệnh
+20018𠀘1'5
+20019𠀙1'5
+2001a𠀚1'5
+2001b𠀛yù37'3
+2001c𠀜1'5
+2001d𠀝kōng25'4
+2001e𠀞1'5
+2001f𠀟1'5
+20020𠀠1'5
+20021𠀡tin11'6
+20022𠀢zī1'6
+20023𠀣1'6
+20024𠀤1'6
+20025𠀥7'5
+20026𠀦xíng1'6
+20027𠀧1'6ba
+20028𠀨1'6cụp
+20029𠀩6'5
+2002a𠀪1'6khà
+2002b𠀫1'6khề
+2002c𠀬1'7
+2002d𠀭1'7
+2002e𠀮1'7
+2002f𠀯31'5
+20030𠀰1'7
+20031𠀱mǒu1'7
+20032𠀲1'7đứa
+20033𠀳1'7rẻ
+20034𠀴1'7trụt
+20035𠀵1'8
+20036𠀶1'8
+20037𠀷jī30'6
+20038𠀸yè1'8
+20039𠀹jūn30'6
+2003a𠀺1'8
+2003b𠀻1'8
+2003c𠀼qián35'7
+2003d𠀽lù1'9
+2003e𠀾bui51'92005E
+2003f𠀿1'9xuôi
+20040𠁀1'9đời
+20041𠁁dòudoek3a flagon1'10
+20042𠁂1'10đứa
+20043𠁃1'10
+20044𠁄1'10luồn
+20045𠁅1'10
+20046𠁆bik61'11
+20047𠁇1'11
+20048𠁈1'11
+20049𠁉chū16'10
+2004a𠁊1'11
+2004b𠁋1'11
+2004c𠁌1'12
+2004d𠁍1'12
+2004e𠁎lin41'13
+2004f𠁏1'13
+20050𠁐1'13
+20051𠁑1'13dưới
+20052𠁒1'13
+20053𠁓1'14
+20054𠁔1'142BDD8sánh
+20055𠁕1'15
+20056𠁖1'16
+20057𠁗shì1'15
+20058𠁘1'15
+20059𠁙1'15chả
+2005a𠁚1'15cúi
+2005b𠁛1'15
+2005c𠁜12'15
+2005d𠁝1'15gồm
+2005e𠁞bui572'132003E
+2005f𠁟1'17gồm
+20060𠁠qiè1'19
+20061𠁡2'1
+20062𠁢2'1
+20063𠁣2'3
+20064𠁤31'2
+20065𠁥gǎthe horns of a sheep2'4
+20066𠁦2'5
+20067𠁧2'6
+20068𠁨cung12'6
+20069𠁩2'7
+2006a𠁪2'7nhắm
+2006b𠁫2'7
+2006c𠁬2'7
+2006d𠁭qí2'8
+2006e𠁮2'8
+2006f𠁯2'8
+20070𠁰2'9
+20071𠁱2'9
+20072𠁲170'4
+20073𠁳2'10
+20074𠁴2'11
+20075𠁵2'11giữa
+20076𠁶2'13
+20077𠁷chǎn30'11
+20078𠁸2'14suốt
+20079𠁹2'17giữa
+2007a𠁺2'18xuyên
+2007b𠁻2'21chuỗi
+2007c𠁼3'2
+2007d𠁽3'2
+2007e𠁾5'3
+2007f𠁿3'3
+20080𠂀3'4
+20081𠂁3'4
+20082𠂂3'5
+20083𠂃3'9
+20084𠂄huān3'12
+20085𠂅3'15
+20086𠂆yìjai64'1
+20087𠂇zuǒzo24'1
+20088𠂈jié4'1
+20089𠂉4'1
+2008a𠂊4'1
+2008b𠂋4'2
+2008c𠂌4'2
+2008d𠂍4'2
+2008e𠂎4'2ấy
+2008f𠂏4'3
+20090𠂐4'3
+20091𠂑zōu4'3
+20092𠂒4'3
+20093𠂓4'3
+20094𠂔zǐzi2to stop4'4
+20095𠂕4'4
+20096𠂖4'4
+20097𠂗4'4
+20098𠂘4'4
+20099𠂙4'4
+2009a𠂚4'4
+2009b𠂛4'4
+2009c𠂜4'4
+2009d𠂝zāzung3full circle; encircle4'4
+2009e𠂞4'4
+2009f𠂟jīn4'4
+200a0𠂠4'4
+200a1𠂡4'4
+200a2𠂢pàipaai3to branch4'5
+200a3𠂣4'5
+200a4𠂤duīdeoi1to store up, to pile up4'5
+200a5𠂥cóng4'5
+200a6𠂦4'5
+200a7𠂧shèn4'5
+200a8𠂨137'0
+200a9𠂩4'5
+200aa𠂪4'5bèn
+200ab𠂫4'5bèn
+200ac𠂬27'4
+200ad𠂭4'5
+200ae𠂮27'4
+200af𠂯4'6
+200b0𠂰27'5
+200b1𠂱81'3
+200b2𠂲4'72C4E1
+200b3𠂳4'7
+200b4𠂴4'8
+200b5𠂵101'3
+200b6𠂶4'7
+200b7𠂷4'8
+200b8𠂸huáng5'8
+200b9𠂹4'9
+200ba𠂺4'9
+200bb𠂻4'9
+200bc𠂼4'9
+200bd𠂽4'9
+200be𠂾4'9
+200bf𠂿4'10
+200c0𠃀4'10
+200c1𠃁4'10
+200c2𠃂4'10
+200c3𠃃4'11
+200c4𠃄4'11
+200c5𠃅4'13mái
+200c6𠃆4'12
+200c7𠃇4'14
+200c8𠃈4'22
+200c9𠃉5'0
+200ca𠃊yǐn5'0
+200cb𠃋5'0
+200cc𠃌gǔngwan25'0
+200cd𠃍waang45'0
+200ce𠃎5'0
+200cf𠃏5'1
+200d0𠃐5'1
+200d1𠃑saam15'0
+200d2𠃒5'2
+200d3𠃓yángjoeng4to open out, to expand; bright, glorious5'2661C
+200d4𠃔wan5allow; right; sincere5'2
+200d5𠃕5'3
+200d6𠃖jiū5'3
+200d7𠃗5'3
+200d8𠃘5'3
+200d9𠃙5'3
+200da𠃚5'3
+200db𠃛5'3
+200dc𠃜5'3
+200dd𠃝5'3út
+200de𠃞5'4
+200df𠃟5'4
+200e0𠃠5'4
+200e1𠃡5'4
+200e2𠃢5'4
+200e3𠃣5'4ít
+200e4𠃤5'5
+200e5𠃥5'5
+200e6𠃦5'5
+200e7𠃧5'5
+200e8𠃨5'5
+200e9𠃩5'6chín
+200ea𠃪5'6
+200eb𠃫shēn102'2
+200ec𠃬5'6
+200ed𠃭5'7
+200ee𠃮tam55'7
+200ef𠃯5'7ụt
+200f0𠃰101'3
+200f1𠃱39'5
+200f2𠃲5'8
+200f3𠃳5'8
+200f4𠃴5'8
+200f5𠃵5'8
+200f6𠃶lyun6disorder5'8
+200f7𠃷5'8út
+200f8𠃸5'9
+200f9𠃹5'9
+200fa𠃺jiù5'9
+200fb𠃻5'9
+200fc𠃼5'10
+200fd𠃽5'10
+200fe𠃾5'10
+200ff𠃿5'10
+20100𠄀5'10vú
+20101𠄁5'10
+20102𠄂5'10
+20103𠄃5'12
+20104𠄄5'12
+20105𠄅yè5'13
+20106𠄆5'13
+20107𠄇5'13
+20108𠄈5'13
+20109𠄉dòng5'16
+2010a𠄊5'18
+2010b𠄋5'19
+2010c𠄌juékyut3hook6'0
+2010d𠄍jié6'1
+2010e𠄎6'1
+2010f𠄏diǎo6'1
+20110𠄐6'1
+20111𠄑jué6'2
+20112𠄒chuí6'3
+20113𠄓6'3
+20114𠄔6'3
+20115𠄕6'5
+20116𠄖líng6'6
+20117𠄗6'6
+20118𠄘sing46'6
+20119𠄙6'7
+2011a𠄚tīng6'10
+2011b𠄛6'11
+2011c𠄜6'14thờ
+2011d𠄝6'15
+2011e𠄞7'0
+2011f𠄟7'0
+20120𠄠7'0
+20121𠄡7'2
+20122𠄢7'4
+20123𠄣gèngang2stretch continuously7'4
+20124𠄤7'4
+20125𠄥7'4
+20126𠄦7'4gộp
+20127𠄧7'4vài
+20128𠄨7'5
+20129𠄩7'5hai
+2012a𠄪7'5
+2012b𠄫7'6
+2012c𠄬7'6
+2012d𠄭7'6
+2012e𠄮yà7'6
+2012f𠄯7'6bẩn
+20130𠄰7'7
+20131𠄱yí7'7
+20132𠄲7'7
+20133𠄳7'7kép
+20134𠄴57'6
+20135𠄵7'8
+20136𠄶7'8nhăm
+20137𠄷7'8
+20138𠄸7'8
+20139𠄹7'9
+2013a𠄺7'9giếng
+2013b𠄻7'10lăm
+2013c𠄼7'11năm
+2013d𠄽7'11vài
+2013e𠄾7'11
+2013f𠄿wéi7'12
+20140𠅀7'13
+20141𠅁8'2
+20142𠅂jié8'3
+20143𠅃8'4
+20144𠅄8'4
+20145𠅅8'4
+20146𠅆8'4
+20147𠅇8'4
+20148𠅈8'5
+20149𠅉8'5
+2014a𠅊8'5
+2014b𠅋8'5
+2014c𠅌yí8'6
+2014d𠅍8'6mất
+2014e𠅎8'6mất
+2014f𠅏8'6
+20150𠅐8'6mất
+20151𠅑8'6
+20152𠅒8'6mất
+20153𠅓8'7
+20154𠅔8'7
+20155𠅕8'7
+20156𠅖8'8
+20157𠅗diè36'7
+20158𠅘8'8
+20159𠅙loeng6bright, clear8'8
+2015a𠅚qí8'8
+2015b𠅛8'8
+2015c𠅜8'8lề
+2015d𠅝8'8
+2015e𠅞8'9
+2015f𠅟8'9
+20160𠅠8'9
+20161𠅡8'9
+20162𠅢8'9
+20163𠅣8'9
+20164𠅤xí8'9
+20165𠅥8'9
+20166𠅦8'9
+20167𠅧8'9
+20168𠅨8'10
+20169𠅩8'10
+2016a𠅪8'10
+2016b𠅫8'10
+2016c𠅬bāo8'10
+2016d𠅭8'10
+2016e𠅮8'10
+2016f𠅯8'10
+20170𠅰111'7
+20171𠅱xiè36'9
+20172𠅲8'10
+20173𠅳8'11quên
+20174𠅴8'11
+20175𠅵8'11
+20176𠅶8'11
+20177𠅷8'11
+20178𠅸8'11
+20179𠅹zhàng52'10
+2017a𠅺8'11
+2017b𠅻8'11quên
+2017c𠅼8'11mất
+2017d𠅽42'10
+2017e𠅾8'12
+2017f𠅿8'12
+20180𠆀8'11
+20181𠆁8'13
+20182𠆂8'13
+20183𠆃8'13
+20184𠆄8'13
+20185𠆅8'13
+20186𠆆8'13
+20187𠆇8'13
+20188𠆈8'13
+20189𠆉8'13
+2018a𠆊30'12
+2018b𠆋8'14
+2018c𠆌yōngjung4(variant of 庸) usual, common; to use8'14
+2018d𠆍8'14sởn
+2018e𠆎8'14
+2018f𠆏8'14
+20190𠆐xù8'14
+20191𠆑8'14
+20192𠆒8'14
+20193𠆓36'13
+20194𠆔8'14
+20195𠆕36'13
+20196𠆖8'14
+20197𠆗8'14
+20198𠆘8'14
+20199𠆙diè36'14
+2019a𠆚8'16
+2019b𠆛dān72'14
+2019c𠆜210'4
+2019d𠆝8'17
+2019e𠆞8'19
+2019f𠆟wěi8'22
+201a0𠆠8'26
+201a1𠆡8'27
+201a2𠆢9'0
+201a3𠆣guǎ9'1
+201a4𠆤9'1
+201a5𠆥9'1
+201a6𠆦9'2
+201a7𠆧9'2
+201a8𠆨9'2
+201a9𠆩fànfaan2(Cant.) to play9'3
+201aa𠆪9'3
+201ab𠆫coi49'3
+201ac𠆬9'3
+201ad𠆭9'3
+201ae𠆮mò19'3
+201af𠆯9'3
+201b0𠆰9'3
+201b1𠆱xī24'3
+201b2𠆲yǎnkwong253'25123
+201b3𠆳9'3trùm
+201b4𠆴9'4
+201b5𠆵ní9'4
+201b6𠆶dàn9'4
+201b7𠆷9'4
+201b8𠆸9'4
+201b9𠆹9'4
+201ba𠆺9'4
+201bb𠆻9'4
+201bc𠆼9'4
+201bd𠆽9'4
+201be𠆾9'4
+201bf𠆿wu3(Cant.) to bow, stoop9'420325
+201c0𠇀9'4
+201c1𠇁jan59'4
+201c2𠇂9'4
+201c3𠇃9'4
+201c4𠇄9'4
+201c5𠇅9'4
+201c6𠇆joeng5look up to9'4
+201c7𠇇9'4
+201c8𠇈9'4
+201c9𠇉9'4
+201ca𠇊9'4
+201cb𠇋dǎn9'4
+201cc𠇌9'4
+201cd𠇍9'4với
+201ce𠇎9'4
+201cf𠇏tāo9'4
+201d0𠇐respectful; attentive, carefully; cautious; to heed; to be watchful, to rely on; to trust to; to lean towards9'4349C
+201d1𠇑9'4
+201d2𠇒gōng11'4
+201d3𠇓9'4
+201d4𠇔mou49'4
+201d5𠇕9'4va
+201d6𠇖9'5bợm
+201d7𠇗kuā9'5
+201d8𠇘chù9'5
+201d9𠇙9'5
+201da𠇚9'5
+201db𠇛9'5
+201dc𠇜9'5
+201dd𠇝9'5
+201de𠇞9'5
+201df𠇟9'5
+201e0𠇠9'5
+201e1𠇡9'5
+201e2𠇢9'5
+201e3𠇣9'5
+201e4𠇤9'5
+201e5𠇥9'5
+201e6𠇦9'5
+201e7𠇧9'5
+201e8𠇨9'5
+201e9𠇩9'5
+201ea𠇪9'5
+201eb𠇫9'5
+201ec𠇬9'5
+201ed𠇭9'5
+201ee𠇮9'5
+201ef𠇯qù9'5
+201f0𠇰9'5
+201f1𠇱mòmaai6a kind of music9'5
+201f2𠇲jau19'5
+201f3𠇳shī9'5
+201f4𠇴9'5
+201f5𠇵gǎn9'5
+201f6𠇶9'5
+201f7𠇷shēng9'5
+201f8𠇸9'5
+201f9𠇹ging3straight; pass9'54FD3
+201fa𠇺9'5
+201fb𠇻9'5
+201fc𠇼9'5hùa
+201fd𠇽9'5tốp
+201fe𠇾9'5
+201ff𠇿9'5
+20200𠈀9'5
+20201𠈁tuō9'5
+20202𠈂30'4
+20203𠈃9'6
+20204𠈄waan69'6
+20205𠈅shōu9'6
+20206𠈆9'6
+20207𠈇9'6
+20208𠈈9'6
+20209𠈉9'6
+2020a𠈊niě9'6
+2020b𠈋9'6nhòng
+2020c𠈌jyu49'6
+2020d𠈍9'6
+2020e𠈎9'6
+2020f𠈏9'6
+20210𠈐9'6
+20211𠈑9'6
+20212𠈒9'6
+20213𠈓9'6
+20214𠈔lap69'6
+20215𠈕9'6
+20216𠈖9'6
+20217𠈗9'6
+20218𠈘9'6
+20219𠈙9'6
+2021a𠈚9'6
+2021b𠈛9'6
+2021c𠈜9'6
+2021d𠈝9'6
+2021e𠈞9'6
+2021f𠈟9'6
+20220𠈠9'6
+20221𠈡9'6
+20222𠈢9'6
+20223𠈣9'6
+20224𠈤yùn42'5
+20225𠈥guǎ9'6
+20226𠈦9'6
+20227𠈧9'6
+20228𠈨zok3make; work; compose, write; act, perform9'6
+20229𠈩9'6
+2022a𠈪9'6
+2022b𠈫9'6
+2022c𠈬xiāo9'6
+2022d𠈭láo9'7
+2022e𠈮9'7
+2022f𠈯9'7
+20230𠈰dàn9'7
+20231𠈱suō9'7
+20232𠈲9'7
+20233𠈳9'7
+20234𠈴9'7
+20235𠈵mǎng9'7
+20236𠈶yí9'7
+20237𠈷9'7
+20238𠈸tè9'7
+20239𠈹jau49'7
+2023a𠈺bì9'7
+2023b𠈻9'7
+2023c𠈼9'7
+2023d𠈽9'7
+2023e𠈾9'7
+2023f𠈿9'7
+20240𠉀9'7
+20241𠉁9'7
+20242𠉂tàtaat3to escape; to abscond; to flee, (interchangeable 達)9'73493
+20243𠉃9'7
+20244𠉄9'7
+20245𠉅9'7
+20246𠉆9'7
+20247𠉇9'7
+20248𠉈9'7
+20249𠉉9'7
+2024a𠉊9'7
+2024b𠉋9'7
+2024c𠉌9'7
+2024d𠉍9'7
+2024e𠉎9'7
+2024f𠉏9'7
+20250𠉐9'7
+20251𠉑9'7
+20252𠉒9'7
+20253𠉓9'7
+20254𠉔9'7
+20255𠉕9'7
+20256𠉖9'7
+20257𠉗luò9'7203E2
+20258𠉘9'7
+20259𠉙9'7
+2025a𠉚9'7
+2025b𠉛sing49'7
+2025c𠉜9'7vãi
+2025d𠉝9'7nghĩ
+2025e𠉞9'7nay
+2025f𠉟9'7xiên
+20260𠉠9'7trày
+20261𠉡9'7
+20262𠉢xǐ9'7
+20263𠉣hūn9'8
+20264𠉤dá9'8
+20265𠉥9'8
+20266𠉦9'8
+20267𠉧jù9'8

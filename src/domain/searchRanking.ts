@@ -96,6 +96,9 @@ export function buildEntry(id: string, parts: string[]): DictEntry {
   const pn = parts[2] ?? '';
   const pm = parts[3] ?? '';
   const def = parts[5] ?? '';
+  const defVi = parts[6] ? parts[6] : undefined;
+  const defsVi = defVi ? defVi.split('; ').filter(Boolean) : undefined;
+  const hanViet = parts[7] ? parts[7] : undefined;
   return {
     id,
     simplified: s,
@@ -104,6 +107,9 @@ export function buildEntry(id: string, parts: string[]): DictEntry {
     pinyinMarked: pm,
     pinyinPlain: pinyinKey(pn),
     definition: def,
+    ...(defVi ? { definitionVi: defVi } : {}),
+    ...(defsVi && defsVi.length > 0 ? { definitionsVi: defsVi } : {}),
+    ...(hanViet ? { hanViet } : {}),
     length: [...s].length,
   };
 }
@@ -118,8 +124,27 @@ export function initialsKey(numbered: string): string {
     .join('');
 }
 
-const TOKEN_RE = /[a-z0-9]+/g;
+/** Strip Vietnamese diacritics and fold đ/Đ -> d for accent-insensitive search. */
+export function foldVietnamese(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd')
+    .normalize('NFC');
+}
+
+const TOKEN_RE = /[\p{Script=Latin}\p{N}]+/gu;
 
 export function tokeniseDefinition(text: string): string[] {
-  return text.toLowerCase().match(TOKEN_RE) ?? [];
+  const raw = text.toLowerCase().match(TOKEN_RE) ?? [];
+  const out: string[] = [];
+  for (const token of raw) {
+    out.push(token);
+    const folded = foldVietnamese(token);
+    if (folded && folded !== token) {
+      out.push(folded);
+    }
+  }
+  return out;
 }

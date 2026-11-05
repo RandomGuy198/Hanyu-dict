@@ -1,2048 +1,2048 @@
-8c40豀xīhai4to quarrel; mean and petty150'10
-8c41豁huōkut3open up, clear; exempt150'10
-8c42豂liáoliu4150'11
-8c43豃hǎnhaam2150'12
-8c44豄dúduk6150'1530D94
-8c45豅lónglung4150'1630D91
-8c46豆dòudau6beans, peas; bean-shaped; Kangxi radical 151151'0
-8c47豇jiānggong1a small kidney bean151'3
-8c48豈qǐhei2how? what?151'35C82
-8c49豉chǐsi6fermented beans151'4
-8c4a豊lǐlai5abundant, lush, bountiful, plenty151'6
-8c4b豋dēngdang1ceremonial vessel151'6
-8c4c豌wānwun1peas151'8
-8c4d豍bībai1151'8
-8c4e豎shùsyu6vertical; perpendicular; upright151'87AD6
-8c4f豏xiànhaam5half-grown beans151'10
-8c50豐fēngfung1abundant, lush, bountiful, plenty; hexagram ䷶151'114E30
-8c51豑zhìdit6151'13
-8c52豒zhìdit6151'18
-8c53豓yànjim6beautiful, captivating, plump, voluptuous151'20
-8c54豔yànjim6plump, voluptuous, beautiful151'21
-8c55豕shǐci2a pig, boar; Kangxi radical 152152'0
-8c56豖chùcuk1a shackled pig152'1
-8c57豗huīfui1clamor152'3
-8c58豘túntyun4a small pig152'4
-8c59豙yìngai6152'4
-8c5a豚túntyun4small pig, suckling pig; shuffle one's feet152'4
-8c5b豛yìjik6152'4
-8c5c豜jiāngin1pig of 3 years152'4
-8c5d豝bābaa1sow (female pig)152'4
-8c5e豞hòukau3152'5
-8c5f豟èak1152'5
-8c60豠chúco4152'5
-8c61象xiàngzoeng6elephant; ivory; figure, image152'5
-8c62豢huànwaan6domestic animals; feed, raise152'6
-8c63豣jiāngin1pig of 3 years152'6
-8c64豤kěnhan2152'6
-8c65豥gāigoi1152'6
-8c66豦jùgeoi3a wild boar; to fight152'6
-8c67豧fūfu1152'7
-8c68豨xīhei1pig, hog152'7
-8c69豩bīnban1152'7
-8c6a豪háohou4brave, heroic, chivalrous152'7
-8c6b豫yùjyu6relaxed, comfortable, at ease; hexagram ䷏152'9
-8c6c豬zhūzyu1pig, hog152'9732A
-8c6d豭jiāgaa1boar, male pig152'9
-8c6e豮fénfan4castrated pig152'98C76
-8c6f豯xīhai4152'10
-8c70豰bóbok6152'10
-8c71豱wēnwan1152'10
-8c72豲huánjyun4152'10
-8c73豳bīnban1a Zhou-dynasty state152'10
-8c74豴dídik1a pig's hoof; to go, to send152'11
-8c75豵zōngzung1young pig152'112B386
-8c76豶fénfan4castrated pig152'138C6E
-8c77豷yìai3person's name152'12
-8c78豸zhìzi6legless insect-like animal, worm; Kangxi radical 153153'0
-8c79豹bàopaau3leopard, panther; surname153'3
-8c7a豺cháicaai4wolf; cruel, wicked, mean153'3
-8c7b豻ànngon6prison; a kind of wild dog153'3
-8c7c豼pípei4fox, leopard, panther153'4
-8c7d豽nàneot6153'4
-8c7e豾pīpei1153'5
-8c7f豿gǒugau2153'5
-8c80貀nàneot6153'5
-8c81貁yòujau6153'5
-8c82貂diāodiu1marten, sable, mink153'5
-8c83貃mòmak6153'5
-8c84貄sìsi3153'6
-8c85貅xiūjau1brave, fierce, courageous153'6
-8c86貆huánwun4small badger; porcupine153'6
-8c87貇kūnhan2to root, gnaw153'6
-8c88貈héhok6153'6
-8c89貉háohok6badger; raccoon dog153'6
-8c8a貊mòmak6leopard; ancient tribe in northeastern China153'6
-8c8b貋ànngon6153'7
-8c8c貌màomaau6countenance, appearance153'7
-8c8d貍lílei4fox153'7
-8c8e貎nímaau6lion; wild beast; wild horse153'8
-8c8f貏bǐbei2153'8
-8c90貐yǔjyu5䝟貐 a legendary man-eating monster153'9
-8c91貑jiāgaa1153'9
-8c92貒tuānteon1153'9
-8c93貓māomaau1cat153'9732B
-8c94貔pípei4a legendary bear-like animal153'10
-8c95貕xīhai4153'10
-8c96貖yìjik1153'10
-8c97貗jùgeoi6153'112B38C
-8c98貘mòmak6tapir153'11
-8c99貙chūceoi1a kind of animal like a tiger; fierce wild beasts153'114759
-8c9a貚tántaan4153'12
-8c9b貛huānfun1badger153'18
-8c9c貜juéfok3ape153'20
-8c9d貝bèibui3sea shell; money, currency; Kangxi radical 154154'08D1D
-8c9e貞zhēnzing1virtuous, chaste, pure; loyal154'28D1E
-8c9f貟yuánjyun4member; personnel, staff member154'28D20
-8ca0負fùfu6load, burden; carry, bear154'28D1F
-8ca1財cáicoi4wealth, valuables, riches154'38D22
-8ca2貢gònggung3offer tribute; tribute, gifts154'38D21
-8ca3貣tètik1to beg; to err, be mistaken154'330DDE
-8ca4貤yíji4steps, grade, strata; series154'330DE0
-8ca5貥hánghong4154'4
-8ca6貦wánwun6154'430DE1
-8ca7貧pínpan4poor, impoverished, needy154'48D2B
-8ca8貨huòfo3goods, commodities, products154'48D27
-8ca9販fànfaan3peddler, hawker, street merchant154'48D29
-8caa貪tāntaam1greedy, covet; covetous154'48D2A
-8cab貫guàngun3a string of 1000 coins; to go through154'48D2F
-8cac責zézaak3one's responsibility, duty154'48D23
-8cad貭zhìzat1matter, material, substance154'4
-8cae貮èrji6number two154'4
-8caf貯zhùcyu5store, stockpile, hoard154'58D2E
-8cb0貰shìsai3borrow; pardon; loan154'58D33
-8cb1貱bìbei3154'52C976
-8cb2貲zīzi1property; wealth; to count154'58D40
-8cb3貳èrji6accounting numeral for two154'58D30
-8cb4貴guìgwai3expensive, costly, valuable154'58D35
-8cb5貵piǎnpin2154'5
-8cb6貶biǎnbin2decrease, lower; censure, criticize154'58D2C
-8cb7買mǎimaai5buy, purchase; bribe, persuade154'54E70 27E52
-8cb8貸dàitaai3lend; borrow; pardon154'58D37
-8cb9貹shèngsang3154'5
-8cba貺kuàngfong3give, grant, bestow; surname154'58D36
-8cbb費fèifai3expenses, expenditures, fee154'58D39
-8cbc貼tiētip3paste to, stick on; attached to154'58D34
-8cbd貽yíji4give to, hand down, bequeath154'58D3B
-8cbe貾chíci4154'530DE2
-8cbf貿màomau6trade, barter; mixed; rashly154'58D38
-8cc0賀hèho6congratulate; send present154'58D3A
-8cc1賁bìbei3forge ahead; energetic; surname; hexagram ䷕154'58D32
-8cc2賂lùlou6bribe; give present154'68D42
-8cc3賃lìnjam6rent, hire; hired person154'68D41
-8cc4賄huìkui2bribe; riches, wealth154'68D3F
-8cc5賅gāigoi1prepared for; inclusive154'68D45
-8cc6賆piánpin4154'6
-8cc7資zīzi1property; wealth; capital154'68D44
-8cc8賈jiǎgaa2surname; merchant; buy, trade154'68D3E
-8cc9賉xùseot1to give alms154'6
-8cca賊zéicaak6thief, traitor154'68D3C
-8ccb賋jiǎogaau2154'6
-8ccc賌gāigoi1154'6
-8ccd賍zāngzong6booty, loot, stolen goods; bribe154'6
-8cce賎jiànzin6mean, low; cheap, worthless154'6
-8ccf賏yīngjing1pearls or shells strung together154'7
-8cd0賐xùnseon3154'7
-8cd1賑zhènzan3relieve, aid distressed; rich154'78D48
-8cd2賒shēse1buy and sell on credit; distant154'78D4A
-8cd3賓bīnban1guest, visitor; surname; submit154'75BBE
-8cd4賔bīnban1guest, visitor; surname; submit154'7
-8cd5賕qiúkau4bribe154'78D47
-8cd6賖shēse1154'7
-8cd7賗chuàncyun3154'72C978
-8cd8賘zāngzong1154'7
-8cd9賙zhōuzau1give for charity154'88D52
-8cda賚làiloi6give, present, confer; surname154'88D49
-8cdb賛zànzaan3help, support, assist, aid154'8
-8cdc賜cìci3give, bestow favors; appoint154'88D50
-8cdd賝chēncam1precious154'82B3A9
-8cde賞shǎngsoeng2reward, grant, bestow; appreciate154'88D4F
-8cdf賟tiǎntin2154'827E56
-8ce0賠péipui4indemnify, suffer loss154'88D54
-8ce1賡gēnggang1continue154'88D53
-8ce2賢xiánjin4virtuous, worthy, good; able154'88D24
-8ce3賣màimaai6sell; betray; show off154'85356
-8ce4賤jiànzin6mean, low; cheap, worthless154'88D31
-8ce5賥suìseoi6154'830DE4
-8ce6賦fùfu3tax; give; endow; army; diffuse154'88D4B
-8ce7賧tàndaam6fine154'88D55
-8ce8賨cóngcung4tribute paid in cloth by the tribes in Szechwan and Yunnan under the Han dynasty154'830DE5
-8ce9賩cóngcung4154'8
-8cea質zhìzat1matter, material, substance154'88D28
-8ceb賫jīzai1present154'88D4D
-8cec賬zhàngzoeng3accounts; bill, debt; credit154'88D26 27E54
-8ced賭dǔdou2bet, gamble, wager; compete154'98D4C
-8cee賮jìnzeon2farewell gift154'930DE7
-8cef賯xiōnghing1154'9
-8cf0賰chǔnseon2plentiful, wealthy or rich; handsome (pay, gifts, etc.)154'94790
-8cf1賱yǔnwan2154'9
-8cf2賲bǎobou2154'9
-8cf3賳zāizoi1154'9
-8cf4賴làilaai6rely, depend on; accuse falsely154'98D56
-8cf5賵fèngfung3gift154'98D57
-8cf6賶càngcong3154'102C973
-8cf7賷jīzai1take in both hands and offer to; present154'10
-8cf8賸shèngsing6leftovers, residue, remains154'102C089
-8cf9賹yìjat6154'1030DEA
-8cfa賺zhuànzaan6make money, earn; gain, profit154'108D5A
-8cfb賻fùfu6gift of money to help pay for a funeral154'108D59
-8cfc購gòugau3buy, purchase; hire154'108D2D
-8cfd賽sàicoi3compete, contend; contest, race154'108D5B
-8cfe賾zézaak3abstruse, deep, profound154'118D5C
-8cff賿liáolaau4154'11
-8d00贀yìji3154'11
-8d01贁bàibaai6to defeat to spoil or be spoiled; to corrupt or be corrupted66'14
-8d02贂chěncam2154'11
-8d03贃wàntaan3to earn, to make a profit; (Cant.) to enjoy oneself154'1127E57
-8d04贄zhìzi3gift to a superior; gift given at first meeting154'118D3D
-8d05贅zhuìzeoi6unnecessary, superfluous154'118D58
-8d06贆biāobiu1154'1230DEB
-8d07贇yūnwan1affable, agreeable, pleasant154'128D5F
-8d08贈zèngzang6give present; bestow, confer154'128D60
-8d09贉dàntaam5earnest money; silk label on books154'122B3AB
-8d0a贊zànzaan3help, support, assist, aid154'128D5E
-8d0b贋yànngaan6false; counterfeit; bogus; sham154'128D5D
-8d0c贌púduk6154'12
-8d0d贍shànsin6support, aid; to be sufficient; rich, elegant154'138D61
-8d0e贎wànmaan6154'13
-8d0f贏yíngjing4win; surplus, gain, profit154'138D62
-8d10贐jìnzeon2farewell present154'148D46
-8d11贑gàngam3Jiangxi province154'142B3AC
-8d12贒xiánjin4virtuous, worthy, good; able154'14
-8d13贓zāngzong1booty, loot, stolen goods; bribe154'148D43 30DED
-8d14贔bìbai3strong154'148D51
-8d15贕dúduk6154'152B9FF
-8d16贖shúsuk6buy, redeem; ransom; atone for154'158D4E
-8d17贗yànngaan6counterfeit, false154'158D5D
-8d18贘shǎngsoeng2154'15
-8d19贙xuànjyun5154'1630DEE
-8d1a贚lònglung6154'162B3A6
-8d1b贛gàngam3Jiangxi province; places therein154'178D63
-8d1c贜zāngzong1booty, loot, stolen goods; bribe154'188D43 30DED
-8d1d贝bèibui3sea shell; money, currency154'8C9D
-8d1e贞zhēnzing1virtuous, chaste, pure; loyal154'8C9E
-8d1f负fùfu6load, burden; carry, bear154'8CA0
-8d20贠yuánjyun4member; personnel, staff member154'8C9F
-8d21贡gònggung3offer tribute; tribute, gifts154'8CA2
-8d22财cáicoi4wealth, valuables, riches154'8CA1
-8d23责zézaak3one's responsibility, duty154'8CAC
-8d24贤xiánjin4virtuous, worthy, good; able154'8CE2
-8d25败bàibaai6be defeated, decline, fail154'6557
-8d26账zhàngzoeng3accounts; bill, debt; credit154'8CEC
-8d27货huòfo3goods, commodities, products154'8CA8
-8d28质zhìzat1matter, material, substance154'8CEA
-8d29贩fànfaan3peddler, hawker, street merchant154'8CA9
-8d2a贪tāntaam1be greedy, covet; covetous154'8CAA
-8d2b贫pínpan4poor, impoverished, needy154'8CA7
-8d2c贬biǎnbin2decrease, lower; censure, criticize154'8CB6
-8d2d购gòugau3buy, purchase; hire154'8CFC
-8d2e贮zhùcyu5store, stockpile, hoard154'8CAF
-8d2f贯guàngun3a string of 1000 coins; to go through154'8CAB
-8d30贰èrji6number two154'8CB3
-8d31贱jiànzin6mean, low; cheap, worthless154'8CE4
-8d32贲bēnbei3forge ahead; energetic; surname154'8CC1
-8d33贳shìsai3borrow; pardon; loan154'8CB0
-8d34贴tiētip3paste to, stick on; attached to154'8CBC
-8d35贵guìgwai3expensive, costly, valuable154'8CB4
-8d36贶kuàngfong3give, grant, bestow; surname154'8CBA
-8d37贷dàitaai3lend; borrow; pardon154'8CB8
-8d38贸màomau6trade, barter; mixed; rashly154'8CBF
-8d39费fèifai3expenses, expenditures, fee154'8CBB
-8d3a贺hèho6congratulate; send present154'8CC0
-8d3b贻yíji4give to, hand down, bequeath154'8CBD
-8d3c贼zéicaak6thief, traitor; kill154'8CCA
-8d3d贽zhìzi3gift superior; gift given154'8D04
-8d3e贾jiǎgaa2surname; merchant; buy, trade154'8CC8
-8d3f贿huìfui2bribe; bribes; riches, wealth154'8CC4
-8d40赀zīzi1property; wealth; to count154'8CB2
-8d41赁lìnjam6rent, hire; hired person154'8CC3
-8d42赂lùlou6bribe; give present154'8CC2
-8d43赃zāngzong1booty, loot, stolen goods; bribe154'8D13 8D1C
-8d44资zīzi1property; wealth; capital154'8CC7
-8d45赅gāigoi1prepared for; inclusive154'8CC5
-8d46赆jìnzeon2farewell present154'8D10
-8d47赇qiúkau4bribe154'8CD5
-8d48赈zhènzan3relieve, aid distressed; rich154'8CD1
-8d49赉làiloi6give, present, confer; surname154'8CDA
-8d4a赊shēse1buy and sell on credit, distant154'8CD2
-8d4b赋fùfu3tax; give; endow; army; diffuse154'8CE6
-8d4c赌dǔdou2bet, gamble, wager; compete154'8CED
-8d4d赍jīzai1present154'8CEB 9F4E
-8d4e赎shúsuk6buy, redeem; ransom; atone for154'8D16
-8d4f赏shǎngsoeng2reward, grant, bestow; appreciate154'8CDE
-8d50赐cìci3give, bestow favors; appoint154'8CDC
-8d51赑bìbai3strong154'8D14
-8d52赒zhōuzau1give for charity154'8CD9
-8d53赓gēnggang1continue154'8CE1
-8d54赔péipui4indemnify, suffer loss154'8CE0
-8d55赕dǎndaam6fine154'8CE7
-8d56赖làilaai6rely, depend on; accuse falsely154'8CF4
-8d57赗fèngfung3gift154'8CF5
-8d58赘zhuìzeoi6unnecessary, superfluous154'8D05
-8d59赙fùfu6gift of money help pay funeral154'8CFB
-8d5a赚zhuànzaan6make money, earn; gain, profit154'8CFA
-8d5b赛sàicoi3compete, contend; contest, race154'8CFD
-8d5c赜zézaak3abstruse, deep, profound154'8CFE
-8d5d赝yànngaan6false; counterfeit; bogus; sham154'8D0B 8D17
-8d5e赞zànzaan3help, support, assist, aid154'8D0A
-8d5f赟yūnwan1affable, agreeable, pleasant154'8D07
-8d60赠zèngzang6give present; bestow, confer154'8D08
-8d61赡shànsin6support, aid; rich, elegant154'8D0D
-8d62赢yíngjing4win; surplus, gain, profit154'8D0F
-8d63赣gàngam3Jiangxi province; places therein154'8D1B
-8d64赤chìcek3red; bare; Kangxi radical 155155'0
-8d65赥xīhik1155'4
-8d66赦shèse3forgive, remit, pardon155'4
-8d67赧nǎnnaan5blush, turn red155'5
-8d68赨tóngtung4155'6
-8d69赩xìsik1155'6
-8d6a赪chēngcing1deep red155'68D6C
-8d6b赫hèhaak1bright, radiant, glowing155'7
-8d6c赬chēngcing1deep red155'98D6A
-8d6d赭zhěze2reddish brown; hematite; ochre155'9
-8d6e赮xiáhaa4155'9
-8d6f赯tángtong4red, crimson155'10
-8d70走zǒuzau2walk, go on foot; run; leave; Kangxi radical 156156'0
-8d71赱zǒuzau2walk, go on foot; run; leave156'0
-8d72赲lìlik6156'2
-8d73赳jiūgau2grand, valiant156'2
-8d74赴fùfu6go to; attend, be present156'2
-8d75赵zhàoziu6surname; ancient state156'28D99
-8d76赶gǎngon2pursue, follow; expel, drive away156'38D768D76 8D95
-8d77起qǐhei2rise, stand up; go up; begin156'3
-8d78赸shànsaan3abuse, slander; vilify; ridicule156'3
-8d79赹qióngking4156'4
-8d7a赺yǐnjam5156'4
-8d7b赻xiǎnsin2156'4
-8d7c赼zīzi1156'4
-8d7d赽juékyut3156'4
-8d7e赾qǐnjan2156'4
-8d7f赿chíci4late slow; dilatory; tardy to delay; dull; stupid156'4
-8d80趀cīzi1156'5
-8d81趁chèncan3take advantage of, avail oneself156'5
-8d82趂chènji5to take advantage of; to avail oneself of. to follow; to go156'5
-8d83趃diédit6156'5
-8d84趄jūzeoi1weak, lame156'5
-8d85超chāociu1jump over, leap over; surpass156'5
-8d86趆dīdai1156'5
-8d87趇xìsap1156'5
-8d88趈zhānzaam6156'5
-8d89趉juégwat6156'5
-8d8a越yuèjyut6exceed, go beyond; the more ...156'5
-8d8b趋qūceoi1hasten, hurry; be attracted to156'58D8B8D8B 8DA8
-8d8c趌jígat1(Cant.) to order someone to leave156'6
-8d8d趍chíceoi1156'6
-8d8e趎chúzyu1156'6
-8d8f趏guāgwaat3156'6
-8d90趐xuèhyut3156'6
-8d91趑zīzi1can't move; to falter156'6
-8d92趒tiáotiu4to jump, to climb over, to leap, to posture; a gangway156'6
-8d93趓duǒdo2156'6
-8d94趔lièlit6not progressing; to be checked156'6
-8d95趕gǎngon2pursue, follow; expel, drive away156'78D76
-8d96趖suōso1to walk, go156'7
-8d97趗cùcuk1156'7
-8d98趘xíhat6156'7
-8d99趙zhàoziu6surname; Warring States-era kingdom in modern Hebei and Shanxi156'78D75
-8d9a趚sùsuk1156'7
-8d9b趛yǐnjam5156'8
-8d9c趜júguk1(Cant.) to suffocate156'8
-8d9d趝jiàngim3to pursue; to follow up156'8
-8d9e趞quècoek3156'8
-8d9f趟tàngtong3time, occasion; take journey156'8
-8da0趠chuòcoek3156'8
-8da1趡cuǐceoi2place156'8
-8da2趢lùluk6156'8
-8da3趣qùceoi3what attracts one's attention156'8
-8da4趤dàngdong6156'8
-8da5趥qiūcau1156'9
-8da6趦zīzi1unable to move; to falter156'9
-8da7趧títai4156'9
-8da8趨qūceoi1hasten, hurry; be attracted to156'108D8B
-8da9趩chìcik1156'12
-8daa趪huángwong4156'12
-8dab趫qiáokiu4nimble156'1230DF6
-8dac趬qiāohiu1156'1230DF5
-8dad趭jiàoziu3156'12
-8dae趮zàocou3easily provoked, hasty; fierce, cruel156'13
-8daf趯tìtik1jump156'14
-8db0趰ěrji5156'14
-8db1趱zǎnzaan2go in hurry, hasten; urge156'168DB2
-8db2趲zǎnzaan2go in hurry, hasten; urge156'198DB1
-8db3足zúzuk1foot; attain, satisfy, enough; Kangxi radical 156157'0
-8db4趴pāpaa1lying prone, leaning over157'2
-8db5趵bàopaau3noise of tramping feet157'3
-8db6趶kùfu3157'3
-8db7趷kēgat6to jolt; (Cant.) to raise up; block157'3
-8db8趸dǔndan2sell or buy wholesale; store157'38E89
-8db9趹juékyut3kick with hoof; horse's gallop157'4
-8dba趺fūfu1sit cross-legged; back of the foo157'4
-8dbb趻chěncam2157'4
-8dbc趼jiǎngaan2callous skin on hands or feet; blisters157'6
-8dbd趽fàngfong3157'4
-8dbe趾zhǐzi2toe; tracks, footprints157'4
-8dbf趿tātaat3to tread on; slipshod157'4
-8dc0跀yuèjyut6to cut off the feet, to stretch up157'4
-8dc1跁bàbaa6trample on, tread on; search for; (Cant.) to squat down157'4
-8dc2跂qíkei4creeping, crawling157'4
-8dc3跃yuèjoek6skip, jump, frolic157'48E8D
-8dc4跄qiàngcoeng1walk rapidly157'48E4C
-8dc5跅tuòtok3careless, lax; dissolute157'5
-8dc6跆táitoi4trample157'5
-8dc7跇yìjai6157'5
-8dc8跈niǎnnin2157'5
-8dc9跉língling4157'5
-8dca跊mèimui6157'5
-8dcb跋bábat6go by foot; epilogue, colophon157'5
-8dcc跌diē diédit3stumble, slip, fall down; stamp157'5
-8dcd跍kūfu1157'5
-8dce跎tuóto4slip, stumble, falter; vacillate157'5
-8dcf跏jiāgaa1sit cross-legged; squat157'5
-8dd0跐cīci2to trample, to step, to walk on the ball of the foot157'5
-8dd1跑pǎopaau2run, flee, leave in hurry157'5
-8dd2跒qiǎkaa2157'5
-8dd3跓zhùcyu5157'5
-8dd4跔jūkeoi1numb feet; to limp157'5
-8dd5跕diǎntip3shuffle, limp157'5
-8dd6跖zhízik3sole (of the foot)157'5
-8dd7跗fūfu1the instep157'5
-8dd8跘pánpun4157'5
-8dd9跙jùzeoi2weak, lame157'5
-8dda跚shānsaan1stagger, limp157'5
-8ddb跛bǒbai1lame157'5
-8ddc跜nínei4157'5
-8ddd距jùkeoi5distance; bird's spur157'5
-8dde跞lìlik1walk, move157'58E92
-8ddf跟gēngan1heel; to follow, accompany; with157'6
-8de0跠yíji4157'6
-8de1跡jīzik1search, track, trace157'68FF9
-8de2跢duòdo2157'6
-8de3跣xiǎnsin2bare footed157'6
-8de4跤jiāogaau1stumble, fall down; wrestle157'6
-8de5跥duòdo2stamp feet157'6
-8de6跦zhūzyu1hop157'6
-8de7跧quáncyun4crouch157'6
-8de8跨kuàkwaa3straddle, bestride, ride; carry157'6
-8de9跩zhuǎijai6to waddle, to limp157'6
-8dea跪guìgwai6kneel157'6
-8deb跫qióngkung4sound of footsteps157'6
-8dec跬kuǐkwai2to step; a stride equal to half a pace157'6
-8ded跭xiánghong4157'6
-8dee跮chìhasty walking157'6
-8def路lùlou6road, path, street; journey157'6
-8df0跰piánpin4157'6
-8df1跱zhìzi6stop157'6
-8df2跲jiágaap3hood, cowl, turban; stumble157'6
-8df3跳tiàotiu3jump, leap, vault, bounce; dance157'6
-8df4跴cǎicaai2step on, tread on; search for157'6
-8df5践jiàncin5trample, tread upon, walk on157'58E10
-8df6跶dataat3stumble, slip157'68E82
-8df7跷qiāohiu1raise one's foot157'68E7A
-8df8跸bìbat1clear way, make room for; clear street when emperor tours157'68E55
-8df9跹xiānsin1wander about, walk around; revolve157'68E9A
-8dfa跺duòdo2stamp feet, step157'6
-8dfb跻jīzai1ascend, go up, rise157'68E8B
-8dfc跼júguk6bent, stooped, crouched; contract157'7
-8dfd跽jìgei6to kneel for a long time, to go down on hands and knees157'7
-8dfe跾shūsuk1157'7
-8dff跿tútou4to jump about157'7
-8e00踀chùcuk1157'7
-8e01踁jìnghing5tinkling, obstinate157'7
-8e02踂niènip6157'7
-8e03踃xiāosiu1157'7
-8e04踄bùbok6157'7
-8e05踅xuécit3to walk around; turn back midway157'7
-8e06踆cūncyun4squat157'7
-8e07踇mǔmou5157'7
-8e08踈shūso1neglect; careless, lax157'7
-8e09踉liàngloeng6hop, jump; hurriedly, urgently157'7
-8e0a踊yǒngjung2leap, jump157'78E0A8E0A 8E34
-8e0b踋jiǎogoek3the foot or feet cast of a play157'7
-8e0c踌chóucau4hesitate, falter; smug, self-satisfied157'78E8A
-8e0d踍qiāohaau1157'7
-8e0e踎móumau1(Cant.) to squat157'7
-8e0f踏tàdaap6step on, trample, tread on, walk157'8
-8e10踐jiàncin5trample, tread upon, walk on157'88DF5
-8e11踑qí157'8
-8e12踒wōwo1to slip and sprain a limb157'8
-8e13踓wěiwai5157'8
-8e14踔chuōcoek3to get ahead; to stride; to excel157'8
-8e15踕jiézit6157'8
-8e16踖jízik1trample on, tread on157'8
-8e17踗niènip6157'8
-8e18踘jūguk1ball157'8
-8e19踙niènip6157'8
-8e1a踚lúnleon4157'82C9A7
-8e1b踛lùluk6157'8
-8e1c踜lèngling6to stumble; to slip; to fall157'8
-8e1d踝huáiwaa5ankle157'8
-8e1e踞jùgeoi3crouch, squat; sit, occupy157'8
-8e1f踟chíci4hesitate, undecided; embarrassed157'8
-8e20踠wǎnjyun2to writhe, struggle, squirm, wriggle; to be impatient for157'8
-8e21踡quánkyun4curled, coiled157'8
-8e22踢tītek3kick157'8
-8e23踣bóbaak6to stumble and fall prone; stiff in death157'8
-8e24踤zúzeot1157'8
-8e25踥qiècip3157'8
-8e26踦yǐji2the shin; to pierce; to touch157'8
-8e27踧cùcuk1level, as a road; appearance of uneasiness157'8
-8e28踨zōngzung1157'8
-8e29踩cǎicaai2step on157'8
-8e2a踪zōngzung1footprints, traces, tracks157'88E2A8E2A 8E64
-8e2b踫pèngpung3collide, bump into157'9
-8e2c踬zhìzi3stumble, totter; fail, be frustrated157'88E93
-8e2d踭zhēngzaang1(Cant.) heel, elbow157'8
-8e2e踮diǎndim3tiptoe157'8
-8e2f踯zhízaak6waver, hesitate, be irresolute157'88E91
-8e30踰yújyu4exceed, transgress; cross over157'9
-8e31踱duódok6stroll, pace, walk slowly157'9
-8e32踲dùndan6157'9
-8e33踳chuǎnceon2mixed; obstinate157'9
-8e34踴yǒngjung2leap, jump157'98E0A
-8e35踵zhǒngzung2heel; follow; visit, call on157'9
-8e36踶dìdai6paw157'9
-8e37踷zhǎzaa2157'9
-8e38踸chěncam2157'9
-8e39踹chuàicyun2trample, tread on, kick; to crush157'9
-8e3a踺jiàngin6157'8
-8e3b踻guāgwaa1157'9
-8e3c踼tángtong4to fall flat; to fall on the face157'9
-8e3d踽jǔgeoi2to walk alone; self-reliant157'9
-8e3e踾fúfuk1157'9
-8e3f踿zúzuk1157'9
-8e40蹀diédip6to skip, to dance; to put the foot down157'9
-8e41蹁piánpin4to walk with a limp157'9
-8e42蹂róujau4trample under foot, tread on157'9
-8e43蹃nuònoek6157'9
-8e44蹄títai4hoof; horse157'9
-8e45蹅chǎcaa5to tread on, walk through157'9
-8e46蹆tuǐtan3(Cant.) to move in a straight line157'10
-8e47蹇jiǎngin2lame, crippled; unlucky; hexagram ䷦157'10
-8e48蹈dǎodou6stamp feet; dance157'10
-8e49蹉cuōco1error, mistake, slip; failure157'10
-8e4a蹊qīhai4footpath, trail; track157'10
-8e4b蹋tàdaap6step on, tread on; stumble, slip157'10
-8e4c蹌qiāngcoeng1walk rapidly157'108DC4
-8e4d蹍niǎnnin5upper millstone; to grind, roll, triturate157'10
-8e4e蹎diāndin1to stumble, trip157'10
-8e4f蹏títai4hoof; horse157'10
-8e50蹐jízik3take short steps157'10
-8e51蹑niènip6tread, step on; follow, track157'108EA1
-8e52蹒pánpun4to jump over; to limp157'108E63
-8e53蹓liūlau6stroll, take walk157'10
-8e54蹔zànzaam6temporary; fleeting; ephemeral157'112B3D0
-8e55蹕bìbat1clear way, make room for; clear street when emperor tours157'118DF8
-8e56蹖chōngzung1157'11
-8e57蹗lùluk6157'11
-8e58蹘liáolaau4(Cant.) to roost157'11
-8e59蹙cùcuk1urgent, suddenly; grieve, lament157'11
-8e5a蹚tāngtong3tread through mud and water157'11
-8e5b蹛dàizai6157'1130E1A
-8e5c蹜sùsuk1walk carefully157'11
-8e5d蹝xǐsaai2sandal157'11
-8e5e蹞kuǐkwai2157'11
-8e5f蹟jīzik1trace, tracks; footprints157'11
-8e60蹠zhízik3step on, tread on; sole157'11
-8e61蹡qiāngcoeng1to limp; walking; in motion157'112C9C0
-8e62蹢dízaak6pig's hoof157'11
-8e63蹣pán mánpun4to jump over; to limp157'118E52
-8e64蹤zōngzung1footprints, traces, tracks157'118E2A 27FDB
-8e65蹥liánlin4157'1130E14
-8e66蹦bèngbang1hop, leap, jump; bright157'11
-8e67蹧zāozou1to spoil; to ruin157'11
-8e68蹨niǎnnim3(Cant.) to stand on tiptoe157'12
-8e69蹩biébit6to limp157'12
-8e6a蹪tuíteoi4157'1230E1E
-8e6b蹫júgwat1157'12
-8e6c蹬dēng dèngdang1step on, tread on; lose energy157'12
-8e6d蹭cèngsang3to shuffle, procrastinate, dilly-dally157'12
-8e6e蹮xiānsin1to whirl, pirouette157'11
-8e6f蹯fánfaan4an animal's paws157'12
-8e70蹰chúcyu4hesitate, waver, falter157'128E708E70 8E95
-8e71蹱zhōngzung1to stagger along; to fall157'12
-8e72蹲dūncyun4squat, crouch; idle about157'12
-8e73蹳bōbut6157'122B3C6
-8e74蹴cùcuk1kick; tread on; leap; solemn157'12
-8e75蹵cùcuk1to tread on; to kick157'12
-8e76蹶juékyut3stumble, fall down; trample157'12
-8e77蹷juékyut3to kick back; to stumble, slip, fall157'12
-8e78蹸lìnleon6157'12
-8e79蹹tádaap6to tread on; to stamp; to walk157'12
-8e7a蹺qiāohiu1raise one's foot157'128DF7
-8e7b蹻juēgiu2to raise the feet; to cross the legs; brave; sandals157'122B3CB
-8e7c蹼pǔbuk6webbed feet of waterfowl157'12
-8e7d蹽liāoliu1to run; to slip away quietly157'12
-8e7e蹾dūndan3to squat; to crouch157'12
-8e7f蹿cuāncyun1leap; to jump; to spurt out157'128EA5
-8e80躀guàngwaan3(Cant.) to stumble over, to fall157'112C9BB
-8e81躁zàocou3tense, excited, irritable157'13
-8e82躂dátaat3stumble, slip157'138DF6
-8e83躃bìbik1lame; a cripple157'13
-8e84躄bìbik1cripple, lame157'13
-8e85躅zhúzuk6walk carefully; hesitate, falter157'13
-8e86躆jùgeoi3157'13
-8e87躇chúcyu4hesitate, falter, be undecided157'13
-8e88躈qiàokiu3157'13
-8e89躉dǔndan2sell or buy wholesale; store157'138DB8
-8e8a躊chóucau4hesitate, falter; smug, self-satisfied157'148E0C
-8e8b躋jīzai1ascend, go up, rise157'148DFB
-8e8c躌wǔmou5157'14
-8e8d躍yuèjoek6skip, jump, frolic157'148DC3
-8e8e躎niǎnnin2(non-classical form of 跈), (same as 踐) to step upon; to tread upon; to trample, (same as 趁) to take advantage, hard to proceeding157'1447E2
-8e8f躏lìnleon6trample down, oppress, overrun157'148EAA
-8e90躐lièlip6to stride over; to step across157'15
-8e91躑zhízaak6waver, hesitate, be irresolute157'158E2F
-8e92躒lìlik1walk, move157'158DDE
-8e93躓zhìzi3stumble, totter; fail, be frustrated157'158E2C
-8e94躔cháncin4follow in, imitate; rut, path157'15
-8e95躕chúcyu4hesitate, waver, falter157'158E70
-8e96躖duànteon2157'15
-8e97躗wèiwai6exaggerate157'16
-8e98躘lónglung4to walk157'1628001
-8e99躙lìnleon6trample down, oppress, overrun157'16
-8e9a躚xiānsin1wander about, walk around; revolve157'168DF9
-8e9b躛wèiwai6exaggerate157'16
-8e9c躜zuānzyun1to jump157'168EA6
-8e9d躝lánlaan1to pass; to step over; to creep; to twine round157'172816C
-8e9e躞xièsip3to walk157'17
-8e9f躟rángjoeng4157'17
-8ea0躠sǎsit3to limp157'17
-8ea1躡niènip6tread, step on; follow, track157'188E51
-8ea2躢tàdaap6157'18
-8ea3躣qúkeoi4157'18
-8ea4躤jízik6157'18
-8ea5躥cuāncyun1leap; to jump; to spurt out157'188E7F
-8ea6躦cuózyun1to jump157'198E9C
-8ea7躧xǐsaai2sandal157'1930E10
-8ea8躨kuíkwai4157'21
-8ea9躩juéfok3take quick, short steps157'20
-8eaa躪lìnleon6trample down, oppress, overrun157'208E8F
-8eab身shēnsan1body; trunk, hull; Kangxi radical 158158'0
-8eac躬gōnggung1body; personally, in person158'3
-8ead躭dāndaam1to delay; to loiter; to hinder158'4
-8eae躮fēnfan1158'4
-8eaf躯qūkeoi1body158'48EAF8EAF 8EC0
-8eb0躰tǐtai2body; group, class, body, unit158'5
-8eb1躱duǒdo2hide158'6
-8eb2躲duǒdo2hide, secrete; avoid, escape158'6
-8eb3躳gōnggung1body; self158'7
-8eb4躴lánglong4tall158'7
-8eb5躵rěnjan2158'7
-8eb6躶luǒlo2bare, nude; undress, strip158'8
-8eb7躷ǎiai2of short stature, low in height158'8
-8eb8躸jīgei1158'8
-8eb9躹júguk1158'8
-8eba躺tǎngtong2lie down, recline158'8
-8ebb躻kōnghung1158'8
-8ebc躼làolou6158'8
-8ebd躽yǎnjin2(Cant.) 躽胸凸肚, to push out one's chest and belly158'9
-8ebe躾měimei5to discipline, train, bring up; discipline, training158'9
-8ebf躿kānghong1tall158'10
-8ec0軀qūkeoi1body158'118EAF
-8ec1軁lóulau4158'11
-8ec2軂làolou6158'122C9E4
-8ec3軃duǒdo2to droop, hang down158'1230E40
-8ec4軄zhízik1to govern, to oversee, to manage, to direct official duty, office158'12
-8ec5軅yànngaan6158'12
-8ec6軆tǐtai2body; group, class, body, unit158'13
-8ec7軇dàodou6158'142E736
-8ec8軈yīngjing3soon after, soon; almost; no more than; after all158'17
-8ec9軉yùjuk6158'2028257
-8eca車chēce1cart, vehicle; carry in a cart; Kangxi radical 159159'08F66
-8ecb軋yàaat3crush by weight; grind159'18F67
-8ecc軌guǐgwai2track, rut, path159'28F68
-8ecd軍jūngwan1army, military; soldiers, troops159'2519B
-8ece軎wèiwai6a brass parts for a cart in ancient China159'330E72
-8ecf軏yuèjyut6cross-bar at the end of the poles of a cart159'32B404
-8ed0軐xìnseon3159'3
-8ed1軑dàidai6a hubcap; a wheel159'38F6A
-8ed2軒xuānhin1carriage; high; wide; balcony; surname of the Yellow Emperor159'38F69
-8ed3軓fànfaan6159'330E74
-8ed4軔rènjan6a block that keeps a wheel from moving159'38F6B
-8ed5軕shānsim1159'32B405
-8ed6軖kuángkwong4159'430E76
-8ed7軗shūsyu4159'428405
-8ed8軘túntyun4war car159'430E78
-8ed9軙chéncan4a Chinese family name to arrange; to display wheel159'4
-8eda軚dàitaai5(Cant.) a steering wheel159'42EDD7
-8edb軛èaak1yoke, collar; to restrain159'48F6D
-8edc軜nànaap6reins159'42B407
-8edd軝qíkei4axle-tip159'42CA02
-8ede軞máomou4159'42CA01
-8edf軟ruǎnjyun5soft, flexible, pliable; weak159'48F6F
-8ee0軠kuángkwong4159'4
-8ee1軡qiánkim4159'4
-8ee2転zhuǎnzyun2shift, move, turn159'4
-8ee3軣hōnggwang1rumble, explosion, blast159'4
-8ee4軤hūfu1surname159'58F77
-8ee5軥qúkeoi4yoke159'530E81
-8ee6軦kuàngfong3159'5
-8ee7軧dǐdai2159'530E80
-8ee8軨língling4wooden cross-piece on front inside of carriage box159'52B409
-8ee9軩dàitoi5159'5
-8eea軪āoau1159'5
-8eeb軫zhěnzan2cross-board at rear of a carriage; 28th lunar mansion, determinative star γ Corvi (Gienah)159'58F78
-8eec軬fànfaan6159'52B40A
-8eed軭kuāngwaang1(Cant.) to spoil, ruin159'6
-8eee軮yǎngong3159'52CA04
-8eef軯pēngpaang1surname159'530E7D
-8ef0軰bèibui3a row of carriages; a generation; a class, a series a kind; denotes the plural159'5
-8ef1軱gūgu1large bone159'52E774
-8ef2軲gūgu1a wheel; to revolve159'58F71
-8ef3軳páopou4159'530E82
-8ef4軴zhùzyu3159'5
-8ef5軵rǒngfu2159'530E7F
-8ef6軶èaak1yoke, collar; to restrain159'5
-8ef7軷bábat6sacrifice159'52B408
-8ef8軸zhóuzuk6axle, axletree; pivot; axis159'58F74
-8ef9軹zhǐzi2end of axle; divergent159'58F75
-8efa軺yáojiu4small light carriage159'58F7A
-8efb軻kēo1axle; personal name of Mencius159'58F72
-8efc軼yìjat6rush forth; surpass, excel159'58F76
-8efd軽zhìzi3light; easy, simple; gentle159'5
-8efe軾shìsik1horizontal wooden bar in front of a sedan chair159'68F7C
-8eff軿píngping4curtained carriage used by women159'62B40C
-8f00輀érji4hearse159'62E775
-8f01輁gǒnggung2159'630E84
-8f02輂júguk1159'630E85
-8f03較jiàogaau3compare; comparatively, more159'68F83
-8f04輄guānggwong1159'628408
-8f05輅lùlou6a chariot, carriage; a carriage pull-bar159'68F82
-8f06輆kǎihoi2159'62CA07
-8f07輇quáncyun4cart wheel with no spokes159'68F81
-8f08輈zhōuzau1shaft159'68F80
-8f09載zàizoi3load; carry; transport, convey159'68F7D
-8f0a輊zhìzi3low rear portion of cart159'68F7E
-8f0b輋shēse4沙田禾輋, Hong Kong toponym159'62AA36
-8f0c輌liàngloeng6numerary adjunct for vehicles159'6
-8f0d輍yùjuk6159'7
-8f0e輎shāosaau1159'7
-8f0f輏yóujau4light; light carriage159'7
-8f10輐wànwun6159'730E87
-8f11輑yǐnwan5159'730E88
-8f12輒zhézip3then; each; rack on chariot for luggage or weapons159'78F84
-8f13輓wǎnwaan5mourn; pull; draw159'7633D 2CA08
-8f14輔fǔfu6cheek bone; protective; assist159'78F85
-8f15輕qīnghing1light; easy, simple; gentle159'78F7B
-8f16輖zhōuzau1159'82B40F
-8f17輗níngai4the cross-bar at the end of a carriage pole; linchpin of a large carriage159'82B410
-8f18輘léngling4a car-rut; rumbling of a cart159'830E8A
-8f19輙zhézip3then; each; rack on chariot for luggage or weapons159'830E8B
-8f1a輚zhànzaan6159'830E7C
-8f1b輛liàngloeng6numerary adjunct for vehicles159'88F86
-8f1c輜zīzi1a supply cart, covered wagon, dray159'88F8E
-8f1d輝huīfai1brightness, luster, brilliance159'88F89
-8f1e輞wǎngmong5exterior rim of wheel, felly159'88F8B
-8f1f輟chuòzyut3stop, suspend, halt159'88F8D
-8f20輠guǒgwo2grease pot hung under axle of cart159'830E8D
-8f21輡kǎnham2(same as 轗) to fail; a difficulty, misfortune159'830E90
-8f22輢yǐji2159'82B40E
-8f23輣péngpaang4159'830E8F
-8f24輤qiànsin3a pall to cover a hearse159'830E89
-8f25輥gǔngwan2turn round, revolve; roller159'88F8A
-8f26輦niǎnlin5a handcart; capital city159'88F87
-8f27輧píngping4curtained carriage used by women159'8
-8f28輨guǎngun2159'82B411
-8f29輩bèibui3generation, lifetime; class159'88F88
-8f2a輪lúnleon4wheel; revolve, turn; recur159'88F6E
-8f2b輫páipaai4159'830E8E
-8f2c輬liángloeng4a hearse; a carriage159'88F8C
-8f2d輭ruǎnjyun5flexible, pliable; weak, feeble159'9
-8f2e輮róujau4exterior rim of wheel, felly159'92B413
-8f2f輯jícap1gather up, collect; edit, compile159'98F91
-8f30輰yángjoeng4159'9
-8f31輱xiánhaam4159'9
-8f32輲chuáncyun4159'930E92
-8f33輳còucau3hubs of wheel; converge around159'98F8F
-8f34輴chūnceon1sled159'92E778
-8f35輵gégot3great array of spears and chariots159'92CA0D
-8f36輶yóujau4light carriage; trifling, light159'92CA0E
-8f37輷hōnggwang1159'92B412
-8f38輸shūsyu1transport, carry, haul159'98F93
-8f39輹fùfuk1two pieces of wood underneath a cart159'930E93
-8f3a輺zīzi1159'9
-8f3b輻fúfuk1spokes of wheel159'98F90
-8f3c輼wēnwan1159'98F92
-8f3d輽bènban6vehicle159'10
-8f3e輾zhǎnzin2turn over, roll159'108F97
-8f3f輿yújyu4cart, palanquin; public opinion159'108206
-8f40轀wēnwan1hearse159'108F92
-8f41轁tāotou1159'102EDDD
-8f42轂gǔguk1hub of wheel159'106BC2
-8f43轃zhēnzeon1159'1030E96
-8f44轄xiáhat6linchpin of wheel; control159'108F96
-8f45轅yuánjyun4axle; magistrate's office; surname159'108F95
-8f46轆lùluk1windlass, pulley, capstan; wheel159'118F98
-8f47轇jiāogaau1complicated, confused; dispute159'112B416
-8f48轈cháocaau4turret on a chariot159'112CA13
-8f49轉zhuǎnzyun2shift, move, turn159'118F6C
-8f4a轊wèiwai6axle-tip159'112B415
-8f4b轋húnwan4159'11
-8f4c轌xuěsyut3sled159'11
-8f4d轍zhécit3wagon ruts, wheel tracks159'128F99
-8f4e轎jiàogiu2sedan-chair, palanquin159'128F7F
-8f4f轏zhànzaan6sleeping cart159'1230E9E
-8f50轐búbuk6159'122B417
-8f51轑lǎorut159'1230E9B
-8f52轒fénfan4chariot159'122E777
-8f53轓fānfaan1159'1230E9C
-8f54轔línleon4rumbling of vehicles; threshold159'128F9A
-8f55轕gégot3great array of spears and chariots159'132E77A
-8f56轖sèsik1framework of lattice on cart159'1330E99
-8f57轗kǎnham2fail159'132B418
-8f58轘huánwaan4tear asunder between chariots159'132E779
-8f59轙yǐngai5rings on a yoke159'1330E75
-8f5a轚jígik1159'1330E9F
-8f5b轛zhuìdeoi3159'1430E83
-8f5c轜érji4hearse159'14
-8f5d轝yùjyu4envy; hate, dislike; resentment159'142C6FC
-8f5e轞jiànlaam6a vehicle for transporting prisoners159'1430E97
-8f5f轟hōnggwang1rumble, explosion, blast159'148F70
-8f60轠léileoi4159'152B419
-8f61轡pèibei3bridle of horse, reins159'158F94
-8f62轢lìlik1run over something with vehicle159'158F79
-8f63轣lìkyut3to gallop; a mule159'162B406
-8f64轤lúlou4pulley, windlass, capstan159'168F73
-8f65轥lìnleon6159'2030EA3
-8f66车chēce1cart, vehicle; carry in cart159'8ECA
-8f67轧yàaat3crush by weight; grind159'8ECB
-8f68轨guǐgwai2track, rut, path159'8ECC
-8f69轩xuānhin1carriage; high; wide; balcony159'8ED2
-8f6a轪dàidai6a hubcap; a wheel159'8ED1
-8f6b轫rènjan6a block that keeps a wheel from moving159'8ED4
-8f6c转zhuǎnzyun2shift, move, turn159'8F49
-8f6d轭èaak1yoke, collar159'8EDB
-8f6e轮lúnleon4wheel; revolve, turn; recur159'8F2A
-8f6f软ruǎnjyun5soft, flexible, pliable; weak159'8EDF
-8f70轰hōnggwang1rumble, explosion, blast159'8F5F
-8f71轱gūgu1wheel; to turn; to revolve159'8EF2
-8f72轲kēo1axle; personal name of Mencius159'8EFB
-8f73轳lúlou4pulley, windlass, capstan159'8F64
-8f74轴zhóuzuk6axle, axletree; pivot; axis159'8EF8
-8f75轵zhǐzi2end of axle; divergent159'8EF9
-8f76轶yìjat6rush forth; surpass, excel159'8EFC
-8f77轷hūfu1surname159'8EE4
-8f78轸zhěnzan2cross board at rear of carriage159'8EEB
-8f79轹lìlik1run over something with vehicle159'8F62
-8f7a轺yáojiu4small light carriage159'8EFA
-8f7b轻qīnghing1light; easy, simple; gentle159'8F15
-8f7c轼shìsik1horizontal wooden bar in front159'8EFE
-8f7d载zàizoi3load; carry; transport, convey159'8F09
-8f7e轾zhìzi3low rear portion of cart159'8F0A
-8f7f轿jiàogiu6sedan-chair, palanquin159'8F4E
-8f80辀zhōuzau1shaft159'8F08
-8f81辁quáncyun4cart wheel with no spokes159'8F07
-8f82辂lùlou6a chariot, carriage; a carriage pull-bar159'8F05
-8f83较jiàogaau3compare; comparatively, more159'8F03
-8f84辄zhézip3sides of chariot where weapons159'8F12
-8f85辅fǔfu6cheek bone; protective; assist159'8F14
-8f86辆liàngloeng6numerary adjunct for vehicles159'8F1B
-8f87辇niǎnlin5hand-cart; transport by carriage159'8F26
-8f88辈bèibui3generation, lifetime; class159'8F29
-8f89辉huīfai1brightness, luster, brilliance159'8F1D
-8f8a辊gǔngwan2turn round, revolve; roller159'8F25
-8f8b辋wǎngmong5exterior rim of wheel, felly159'8F1E
-8f8c辌liángloeng4a hearse; a carriage159'8F2C
-8f8d辍chuòzyut3stop, suspend, halt159'8F1F
-8f8e辎zīzi1a supply cart, covered wagon, dray159'8F1C
-8f8f辏còucau3hubs of wheel; converge around159'8F33
-8f90辐fúfuk1spokes of wheel159'8F3B
-8f91辑jícap1gather up, collect; edit, compile159'8F2F
-8f92辒wēnwan1hearse159'8F3C 8F40
-8f93输shūsyu1transport, carry, haul159'8F38
-8f94辔pèibei3bridle of horse, reins159'8F61
-8f95辕yuánjyun4axle; magistrate's office; surname159'8F45
-8f96辖xiáhat6linchpin of wheel; control159'8F44
-8f97辗zhǎnzin2turn over, roll159'8F3E
-8f98辘lùluk1windlass, pulley, capstan; wheel159'8F46
-8f99辙zhécit3wagon ruts, wheel tracks159'8F4D
-8f9a辚línleon4rumbling of vehicles; threshold159'8F54
-8f9b辛xīnsan1bitter; toilsome, laborious; 8th heavenly stem; Kangxi radical 160160'0
-8f9c辜gūgu1crime, criminal offense160'5
-8f9d辝cíci4160'5
-8f9e辞cíci4words, speech, expression, phrase160'68F9E8F9E 8FAD
-8f9f辟pìpik1law, rule; open up, develop160'68F9F8F9F 95E2
-8fa0辠zuìzeoi6crime, sin, vice; evil; hardship160'6
-8fa1辡biànbin6recrimination; wrangling160'7
-8fa2辢làlaat6bitter, pungent, acrid160'7
-8fa3辣làlaat6peppery, pungent, hot; cruel160'7
-8fa4辤cíci4words, speech; a sentence, an expression or phrase; a message160'8
-8fa5辥xuēsit3variety of marsh grass160'9
-8fa6辦bànbaan6manage, do, handle; deal with160'9529E
-8fa7辧biànbin6manage, do, handle; deal with160'9
-8fa8辨biànbin6distinguish, discriminate160'9
-8fa9辩biànbin6dispute, argue, debate, discuss160'98FAF
-8faa辪xuēsit3160'9
-8fab辫biànbin1braid; pigtail, plait, queue160'108FAE
-8fac辬bānbaan1160'11
-8fad辭cíci4words, speech, expression, phrase160'128F9E
-8fae辮biànbin1braid; pigtail, plait, queue160'138FAB
-8faf辯biànbin6dispute, argue, debate, discuss160'148FA9
-8fb0辰chénsan4early morning; fifth earthly branch; Kangxi radical 161161'0
-8fb1辱rǔjuk6humiliate, insult, abuse161'3
-8fb2農nóngnung4agriculture, farming; farmer161'6519C
-8fb3辳nóngnung4agriculture, farming; farmer161'8
-8fb4辴chǎncan2161'12
-8fb5辵chuòcoek3walk; walking; Kangxi radical 162162'0
-8fb6辶chuòcaang1walk; walking; Kangxi radical 162162'0
-8fb7辷yījat1smooth, slippery162'1
-8fb8辸réngjing4162'2
-8fb9边biānbin1edge, margin, side, border162'28FB98FB9 908A
-8fba辺biāndou6edge, margin, side, border162'2
-8fbb辻shísap6crossroads; street162'2
-8fbc込yūjyu1crowd into, go into162'2
-8fbd辽liáoliu4distant, far162'2907C
-8fbe达dádaat6arrive at, reach; intelligent; smooth, slippery162'39054
-8fbf辿chāncin4follow, pursue162'3
-8fc0迀gāngon1162'3
-8fc1迁qiāncin1move, shift, change; transfer; relocate a capital city162'38FC18FC1 9077
-8fc2迂yūjyu1doctrinaire, abstruse, unrealistic162'3
-8fc3迃yūjyu1162'3
-8fc4迄qìngat6extend, reach; until; till162'3
-8fc5迅xùnseon3quick, hasty, rapid, sudden162'3
-8fc6迆yíji5wind; walk out of straight path162'3
-8fc7过guògwo3pass, pass through, go across162'38FC78FC7 904E
-8fc8迈màimaai6take a big stride; pass by162'39081
-8fc9迉qī162'3
-8fca迊zājing4to go round, to make a circuit, to make a revolution, to turn round162'4
-8fcb迋wàngwong6travel, go to; deceive; scare162'4
-8fcc迌tùteot1162'4
-8fcd迍zhūnzeon1falter, hesitate162'4
-8fce迎yíngjing4receive, welcome, greet162'4
-8fcf迏dádai3162'4
-8fd0运yùnwan6luck, fortune; ship, transport162'4904B
-8fd1近jìngan6near, close; approach; intimate162'4
-8fd2迒hánghong4footprints of passing animals; a road162'4
-8fd3迓yàngaa6to go to meet, to receive, as a guest162'4
-8fd4返fǎnfaan2return, revert to, restore162'4
-8fd5迕wǔng6obstinate, perverse162'4
-8fd6迖dádai3162'4
-8fd7迗éngo4162'4
-8fd8还háiwaan4still, yet, also, besides162'48FD88FD8 9084
-8fd9这zhèze5this, the, here162'48FD98FD9 9019
-8fda迚dázung1very; somehow162'4
-8fdb进jìnzeon3advance, make progress, enter162'49032
-8fdc远yuǎnjyun5distant, remote, far; profound162'48FDC8FDC 9060
-8fdd违wéiwai4disobey, violate, defy; be apart from162'49055
-8fde连liánlin4join, connect; continuous; even162'49023
-8fdf迟chíci4late, tardy; slow; delay162'49072
-8fe0迠chègin3made162'5
-8fe1迡nìnai6162'5
-8fe2迢tiáotiu4far; distant162'5
-8fe3迣zhìlit6to leap over162'5
-8fe4迤yíji5wind; walk out of straight path162'5
-8fe5迥jiǒnggwing2distant, far; separated; different162'5
-8fe6迦jiāgaa1character for transliteration162'5
-8fe7迧chéncan4a Chinese family name arrange; display a column of troops162'5
-8fe8迨dàidoi6until, when; seize, arrest162'5
-8fe9迩ěrji5be near, be close; recently162'58FE98FE9 9087
-8fea迪dídik6enlighten, advance; progress162'5
-8feb迫pòbaak1coerce, force, compel; urgent162'5
-8fec迬zhùzyu3to walk along, to go162'4
-8fed迭diédit6repeatedly, frequently162'5
-8fee迮zézaak3to rise; contracted; cramped162'5
-8fef迯táotou4escape, flee; abscond, dodge162'5
-8ff0述shùseot6narrate, state, express162'5
-8ff1迱tuóto4162'5
-8ff2迲quheoi3162'5
-8ff3迳jìngging3pass by, approach; direct162'59015
-8ff4迴huíwui4revolve, rotate; curving, zigzag162'656DE
-8ff5迵dòngdung6162'6
-8ff6迶yòujau6162'6
-8ff7迷mímai4bewitch, charm, infatuate162'6
-8ff8迸bèngbing3gush out; burst forth; split162'6
-8ff9迹jìzik1traces, impressions, footprints162'68FF98DE1 8FF9
-8ffa迺nǎinaai5then, thereupon, only then162'6
-8ffb迻yíji4to shift; to transfer; to transform162'6
-8ffc迼jiékit3162'6
-8ffd追zhuīzeoi1pursue, chase after; expel162'6
-8ffe迾lièlit6(Cant.) row162'6
-8fff迿xùnseon6to be the first to begin a quarrel162'6
-9000退tuìteoi3step back, retreat, withdraw162'6
-9001送sòngsung3see off, send off; dispatch, give162'6
-9002适shì kuòsik1go, reach; appropriate, suitable162'690029002 9069
-9003逃táotou4escape, flee; abscond, dodge162'6
-9004逄pángpong4a surname162'6
-9005逅hòuhau6meet unexpectedly162'6
-9006逆nìjik6disobey, rebel; rebel, traitor162'6
-9007逇dùndeon6162'6
-9008逈jiǒnggwing2distant, far; separated; different162'6
-9009选xuǎnsyun2choose, select; elect; election162'690099009 9078
-900a逊xùnseon3humble, modest; yield162'6900A900A 905C
-900b逋būbou1flee, run away, leave debt unsettled162'7
-900c逌yōujau4please; smiling; complacent162'7
-900d逍xiāosiu1ramble, stroll, jaunt, loiter162'7
-900e逎qiúcau4strong, unyielding, forceful162'7
-900f透tòutau3penetrate, pass through162'7
-9010逐zhúzuk6chase, expel; one by one162'7
-9011逑qiúkau4collect, unite; match, pair162'7
-9012递dìdai6hand over, deliver; substitute162'790129012 905E
-9013逓dìdai6hand over, deliver; substitute162'7
-9014途tútou4way, road, path, journey; course162'7
-9015逕jìngging3pass by, approach; direct162'78FF3
-9016逖tìtik1far, distant; keep at distance162'7
-9017逗dòudau6tempt, allure, arouse, stir162'7
-9018逘yǐji4162'7
-9019這zhèze5this, the, here162'78FD9
-901a通tōngtung1pass through; common; communicate162'7
-901b逛guàngkwaang3ramble, stroll, roam, wander162'7
-901c逜wùng6162'7
-901d逝shìsai6pass away; die162'7
-901e逞chěngcing2indulge oneself; brag, show off162'7
-901f速sùcuk1quick, prompt, speedy162'7
-9020造zàozou6construct, build, make, begin; prepare162'7
-9021逡qūnseon1retreat, withdraw, fall back162'7
-9022逢féngfung4come upon, happen meet; flatter162'7
-9023連liánlin4join, connect; continuous; even162'78FDE
-9024逤suòso3162'7
-9025逥huíwui4return, turn around; a time162'7
-9026逦lǐlei5meandering, winding162'79090
-9027逧gǔguk1162'7
-9028逨láiloi4162'8
-9029逩bènban3to run quickly162'8
-902a逪cuòcok3162'8
-902b逫juézyut3162'8
-902c逬bèngbing3to scatter; to expel; to crack, to split; to jump162'8
-902d逭huànwun6to escape from; to flee, to avoid162'8
-902e逮dǎidai6seize, catch; reach, arrive162'8
-902f逯lùluk6leave without reason; surname162'8
-9030逰yóujau4wander, roam, travel162'8
-9031週zhōuzau1week; turn, cycle; anniversary162'8
-9032進jìnzeon3advance, make progress, enter162'88FDB
-9033逳yùjuk1(Cant.) to move, touch, hit162'8
-9034逴chuōcoek3argue, quarrel, squabble; far162'8
-9035逵kuíkwai4thoroughfare, crossroads162'8
-9036逶wēiwai1winding, curving; swagger162'8
-9037逷tìtik1distant, far away162'8
-9038逸yìjat6flee, escape, break loose162'8
-9039逹dádaat6arrive at, reach; intelligent162'8
-903a逺yuǎnjyun5distant, remote, far; profound162'8
-903b逻luólo4patrol; inspect; watch; patrol162'8903B903B 908F
-903c逼bībik1compel, pressure, force; bother162'9
-903d逽nuònoek6162'9
-903e逾yújyu4go over, pass over, exceed162'9
-903f逿dàngdong6a time; a row; to fall, miss162'930EB2
-9040遀suíceoi4162'9
-9041遁dùndeon6hide, conceal oneself; escape162'9
-9042遂suìseoi6comply with, follow along; thereupon162'9
-9043遃yǎnjin5162'9
-9044遄chuáncyun4to hurry; to go to and fro162'9
-9045遅chíci4late, tardy; slow; delay162'9
-9046遆títai4162'9
-9047遇yùjyu6meet, come across, encounter162'9
-9048遈shízik6162'9
-9049遉zhēnzing1spy, reconnoiter; detective162'9
-904a遊yóujau4wander, roam, travel162'9
-904b運yùnwan6luck, fortune; ship, transport162'98FD0
-904c遌èngok6162'9
-904d遍biànpin3everywhere, all over, throughout162'9
-904e過guògwo3pass, pass through, go across162'98FC7
-904f遏èaat3stop, suppress, curb, check; a bar162'9
-9050遐xiáhaa4afar, distant; old, advanced in162'9
-9051遑huángwong4leisure, leisurely; hurry about162'9
-9052遒qiúcau4strong, unyielding, forceful162'9
-9053道dàodou6path, road, street; method, way162'9
-9054達dádaat6arrive at, reach; intelligent162'98FBE
-9055違wéiwai4disobey, violate, defy; be apart from162'98FDD
-9056遖nánnaam4162'9
-9057遗yíwai4lose; articles lost; omit162'9907A
-9058遘gòugau3to meet; to come across162'10
-9059遙yáojiu4far away, distant, remote162'109065
-905a遚chòucau3162'10
-905b遛liùlau6take walk, stroll162'10
-905c遜xùnseon3humble, modest; yield162'10900A
-905d遝tàdaap6mixed, abundant, assorted162'10
-905e遞dìdai6hand over, deliver; substitute162'109012
-905f遟chíci4late, tardy; slow; delay162'10
-9060遠yuǎnjyun5distant, remote, far; profound162'108FDC
-9061遡sùsou3go upstream; trace source; formerly162'10
-9062遢tataap3careless, negligent, slipshod162'10
-9063遣qiǎnhin2send, dispatch; send off, exile162'10
-9064遤mǎmaa5162'10
-9065遥yáojiu4far away, distant, remote162'109059
-9066遦guàngwaan3162'11
-9067遧zhāngzoeng1162'11
-9068遨áongou4ramble, roam; travel for pleasure162'11
-9069適shìsik1match, comfortable; just162'119002
-906a遪càcaap3162'11
-906b遫chìcik1speed162'11
-906c遬sùcuk1162'11
-906d遭zāozou1come across, meet with, encounter162'11
-906e遮zhēze1cover, shield, protect162'11
-906f遯dùndeon6deceive, hide, conceal; flee; hexagram ䷠162'11
-9070遰dìdai6grunting sound of pigs; clash162'1130EC6
-9071遱lóulau4162'112B437
-9072遲chíci4late, tardy; slow; delay162'128FDF
-9073遳cuōco1162'11
-9074遴línleon4select, choose; surname162'12
-9075遵zūnzeon1obey, comply with, follow; honor162'12
-9076遶ràojiu2entwine; wind around; surround162'1230EB7
-9077遷qiāncin1move, shift, change; transfer162'128FC1
-9078選xuǎnsyun2choose, select; elect; election162'129009
-9079遹yùwat6comply with, obey; shun, avoid162'12
-907a遺yíwai4lose; articles lost; omit162'129057
-907b遻èng6meet162'12
-907c遼liáoliu4distant, far162'128FBD
-907d遽jùgeoi6suddenly, unexpectedly; at once162'13
-907e遾shìsai6162'13
-907f避bìbei6avoid; turn aside; escape; hide162'13
-9080邀yāojiu1invite, welcome; meet, intercept162'13
-9081邁màimaai6take a big stride; pass by162'138FC8
-9082邂xièhaai5unexpected meeting; encounter by162'13
-9083邃suìseoi6profound, detailed; deep162'13
-9084還háiwaan4still, yet, also, besides162'138FD8
-9085邅zhānzin1hesitant, faltering162'13
-9086邆téngtang4162'12
-9087邇ěrji5be near, be close; recently162'148FE9
-9088邈miǎomiu5far, distant, remote; slight162'14
-9089邉biānbin1edge, margin, side, border162'13
-908a邊biānbin1edge, margin, side, border162'158FB9
-908b邋lālaap6rags162'15
-908c邌lílai4to walk slowly; to parade162'15
-908d邍yuánjyun4162'16
-908e邎yáojau4162'17
-908f邏luólo4patrol; inspect; watch162'19903B
-9090邐lǐlei5meandering, winding162'199026
-9091邑yìjap1area; district; city; state; Kangxi radical 163163'0
-9092邒tíngting4163'2
-9093邓dèngdang6surname163'29127
-9094邔qǐ163'3
-9095邕yōngjung1former or literary name for Nanning (in Guangxi)163'3
-9096邖shānsaan1163'3
-9097邗hánhon4an ancient place in the state of Wu163'3
-9098邘yújyu1state in Henan province163'3
-9099邙mángmong4mountain in Henan province163'3
-909a邚rújyu4163'3
-909b邛qióngkung4in distress; a mound163'3
-909c邜xīzik6163'3
-909d邝kuàngkwong3surname163'3913A
-909e邞fūfu1163'4
-909f邟kàngkong3163'4
-90a0邠bīnban1county in Shaanxi province163'4
-90a1邡fāngfong1name of a district in Sichuan163'4
-90a2邢xíngjing4surname; state in today's Hebei163'4
-90a3那nànaa5that, that one, those163'4
-90a4邤xīnjan1163'4
-90a5邥shěnsam2163'4
-90a6邦bāngbong1nation, country, state163'4
-90a7邧yuánjyun4town in Shanxi province163'4
-90a8邨cūncyun1village, hamlet; rustic163'4
-90a9邩huǒfo2163'4
-90aa邪xiéce4wrong, evil, depraved, vicious, perverse, heterodox163'4
-90ab邫bāngbong1163'4
-90ac邬wūwu1various place names; surname163'49114
-90ad邭jùgeoi3163'5
-90ae邮yóujau4postal, mail; post office163'590F5
-90af邯hánhon4city in Hebei province163'5
-90b0邰táitoi4surname; state in modern Shanxi163'5
-90b1邱qiūjau1surname; hill; mound; grave163'5
-90b2邲bìbei3ancient name of a place in Henan163'5
-90b3邳pīpei4a department in the state of Lu, modern Shandong163'5
-90b4邴bǐngbing2name of a city in the ancient state of Song, in what is now Shandong; pleased163'5
-90b5邵shàosiu6surname; various place names163'5
-90b6邶bèibui3place in today's Henan province163'5
-90b7邷wǎngaa5163'5
-90b8邸dǐdai2official residence, residence of163'5
-90b9邹zōuzau1name of an ancient state; surname163'59112
-90ba邺yèjip6place in today's Henan province163'59134
-90bb邻línleon4neighbor; neighborhood163'59130
-90bc邼kuānghong1163'6
-90bd邽guīgwai1name of a place in Shaanxi province163'6
-90be邾zhūzyu1a feudal state which existed B.C.700-469; now in Shandong163'6
-90bf邿shīsi1a Zhou-dynasty state in modern Shandong province163'6
-90c0郀kūfu1163'6
-90c1郁yùjuk1sweet smelling, rich in aroma; (Cant.) to move, hit163'690C190C1 9B31
-90c2郂gāigoi1163'6
-90c3郃héhap6county in Shanxi province163'6
-90c4郄qiègwik1surname163'6
-90c5郅zhìzat6to go up to; flourishing; a superlative163'6
-90c6郆jígat1163'6
-90c7郇huánwan4an ancient feudal State in Shaanxi163'6
-90c8郈hòuhau6place in Shandong province163'6
-90c9郉xíngjing4surname; place name163'6
-90ca郊jiāogaau1suburbs; waste land, open spaces163'6
-90cb郋xíhai4163'6
-90cc郌guīgwai1name of an ancient county in modern Gansu/Shaanxi area.163'6
-90cd郍nuónaa5163'6
-90ce郎lánglong4gentleman, young man; husband163'6
-90cf郏jiágaap3county in Henan province; surname163'690DF
-90d0郐kuàikui2state in today's Henan province163'69136
-90d1郑zhèngzeng6state in today's Henan; surname163'690D190D1 912D
-90d2郒lánglong4163'7
-90d3郓yùnwan6surname; an ancient town's name163'69106
-90d4郔yánjin4place name in Shandong province163'7
-90d5郕chéngsing4state in Shandong province163'7
-90d6郖dòudau1163'7
-90d7郗xīci1surname163'7
-90d8郘lǚleoi5163'7
-90d9郙fǔfu2to be exiled; delay payment for163'7
-90da郚wúng4towns in Shandong province163'7
-90db郛fúfu1outer walls of city; suburbs163'7
-90dc郜gàogou3surname163'7
-90dd郝hǎokok3surname; place in modern Shanxi163'7
-90de郞lánglong4gentleman163'7
-90df郟jiágaap3county in Henan province; surname163'790CF
-90e0郠gěnggang2place in Shandong province163'7
-90e1郡jùngwan6administrative division163'7
-90e2郢yǐngjing5ancient city in Hubei163'7
-90e3郣bóbut6163'7
-90e4郤xìgwik1crack, opening; surname163'7
-90e5郥bèikwik1163'7
-90e6郦lìlik6place in today's Henan province163'79148
-90e7郧yúnwan4county in Hubei province163'79116
-90e8部bùbou6part, division, section163'8
-90e9郩xiáohaau4163'8
-90ea郪qīcai1name of a stream in Sichuan province163'8
-90eb郫pípei4a county in Sichuan163'8
-90ec郬qīngcing1163'8
-90ed郭guōgwok3outer part (of a city); surname163'8
-90ee郮zhōuzau1163'8
-90ef郯tántaam4a county in Shandong163'8
-90f0郰zōuzau1birthplace of Confucius, a place in Shandong163'8
-90f1郱píngping4163'8
-90f2郲láiloi4163'82CA7E
-90f3郳níngai4state in Shandong province163'8
-90f4郴chēnsam1county in Hunan province; surname163'8
-90f5郵yóujau4postal, mail; post office163'890AE
-90f6郶bùbou6163'8
-90f7郷xiānghoeng1country; rural; village163'8
-90f8郸dāndaan1county in Hebei province163'89132
-90f9郹júgwik1163'9
-90fa郺yōngjung1163'9
-90fb郻qiāohiu1163'9
-90fc郼yīji1163'9
-90fd都dōu dūdou1metropolis, capital; all, the whole; elegant, refined163'9
-90fe郾yǎnjin2county in Henan province163'9
-90ff郿méimei4county in Shaanxi province163'9
-9100鄀ruòjoek6state in Henan province163'9
-9101鄁bèibui3163'9
-9102鄂èngok6Hubei province; startled163'9
-9103鄃shūsyu1163'9
-9104鄄juàngyun3a county in Shandong163'9
-9105鄅yǔjyu5163'9
-9106鄆yùnwan6surname; an ancient town's name163'990D3
-9107鄇hóuhau6a name of a town in Henan province163'9
-9108鄈kuíkwai4slippers, sandals; dance shoes163'9
-9109鄉xiānghoeng1country; rural; village163'94E61
-910a鄊xiānghoeng1163'9
-910b鄋sōusau1a Chunqiu-era state in modern Shandong163'10
-910c鄌tángtong4a place in Shandong163'10
-910d鄍míngming4a town in Shandong province163'10
-910e鄎xīsik1a place in Henan province163'10
-910f鄏rǔjuk6place in Henan province163'10
-9110鄐chùcuk1town in Henan province163'10
-9111鄑zīzi1kick; place in Shandong province163'10
-9112鄒zōuzau1a Zhou-dynasty state in modern Shandong163'1090B9
-9113鄓yèjip3163'10
-9114鄔wūwu1various place names; surname; transliteration of Sanskrit 'u'163'1090AC
-9115鄕xiānghoeng1country; rural; village163'10
-9116鄖yúnwan4county in Hubei province163'1090E7
-9117鄗hàohou6county in Hebei province163'10
-9118鄘yōngjung4state in Henan province163'11
-9119鄙bǐpei2mean; low163'11
-911a鄚màomok6place in today's Hebei province163'11
-911b鄛cháocaau4163'11
-911c鄜fūfu1county in Shanxi province163'11
-911d鄝liǎoliu5163'11
-911e鄞yínngan4county in Zhejiang province163'11
-911f鄟zhuānzyun1163'112B458
-9120鄠hùwu6county in Shanxi province163'11
-9121鄡qiāohiu1163'1130EEE
-9122鄢yānjin1name of a district in Honan163'11
-9123鄣zhāngzoeng1name of an ancient city in N. Jiangsu, near Shandong163'11
-9124鄤mànmaan6place in Henan province163'11
-9125鄥qiāohiu1163'11
-9126鄦xǔheoi2163'1230EE1
-9127鄧dèngdang6a county in Henan; surname163'129093
-9128鄨bì163'12
-9129鄩xúncam4county in Shandong province163'122CA7D
-912a鄪bìbei3163'1230EF3
-912b鄫zēngcang4state in today's Shandong province163'12
-912c鄬wéiwai4place in Henan province163'1230EE6
-912d鄭zhèngzeng6state in today's Henan; surname163'1290D1
-912e鄮màomau6163'122CA8D
-912f鄯shànsin6district in Gansu during the Tang dynasty163'12
-9130鄰línleon4neighbor; neighborhood163'1290BB
-9131鄱pópo4county and lake in Jiangxi163'12
-9132鄲dāndaan1county in Hebei province163'1290F8
-9133鄳méngmaang4163'132B461
-9134鄴yèjip6ancient place in modern Hebei province163'1390BA
-9135鄵càocou3163'13
-9136鄶kuàikui2state in today's Henan province163'1390D0
-9137鄷fēngfung1163'13
-9138鄸méngmung4163'14
-9139鄹zōuzau1name of an ancient state in modern Shandong; surname163'14
-913a鄺kuàngkwong3surname163'15909D
-913b鄻liǎnlin5spoil, ruin163'15
-913c鄼zànzaan3163'15
-913d鄽cháncin4163'15
-913e鄾yōujau1place in Hubei province163'15
-913f鄿jīgei1county in Xinjiang province163'16
-9140酀yànjin3163'16
-9141酁cháncaam4163'17
-9142酂zànzaan3collect; small administration163'169147
-9143酃língling4a county in Hunan163'17
-9144酄huānfun1163'18
-9145酅xīkwai4raise feet; town in Shandong province163'18
-9146酆fēngfung1Zhou-era state in modern Sichuan163'18
-9147酇zànzaan3collect; small administration163'199142
-9148酈lìlik6place in today's Henan province; surname163'1990E6
-9149酉yǒujau5a wine vessel; tenth earthly branch; Kangxi radical 164164'0
-914a酊dīngding2drunk, intoxicated164'2
-914b酋qiújau4chief of tribe, chieftain164'2
-914c酌zhuózoek3serve wine; feast; deliberate164'3
-914d配pèipui3match, pair; equal; blend164'3
-914e酎zhòuzau6double-fermented wine, vintage wine164'3
-914f酏yǐji4millet wine164'3
-9150酐gāngon1anhydride164'3
-9151酑yújyu1164'3
-9152酒jiǔzau2wine, spirits, liquor, alcoholic beverage164'3
-9153酓yǎnjim2164'4
-9154酔zuìzeoi3intoxicated, drunk; addicted to164'4
-9155酕máomou4drunk164'4
-9156酖zhèndaam1wine with bird poison added164'4
-9157酗xùjyu3drunk, to become violent under the influence of alcohol164'4
-9158酘dòutau4164'4
-9159酙zhēnzam1164'4
-915a酚fēnfan1carbolic acid; phenol164'4
-915b酛yuánjyun4164'4
-915c酜fufu1164'4
-915d酝yùnwan5liquor, spirits, wine; ferment164'49196 919E
-915e酞tàitaai3phthalein164'4
-915f酟tiāntim1164'5
-9160酠qiǎkaa2164'5
-9161酡tuóto4flushed; rubicund164'5
-9162酢zuòzok6toast one's host with wine; to express juice by pressing164'5
-9163酣hānham4enjoy intoxicants164'5
-9164酤gūgu1to deal in spirits164'5
-9165酥sūsou1butter; flaky, crispy, light, fluffy164'5
-9166酦pōput3fermentation, brewing164'691B1
-9167酧chóucau4to pledge with wine164'6
-9168酨zàidoi6164'6
-9169酩mǐngming5drunk; intoxicated; tipsy164'6
-916a酪làolok3cream, cheese; koumiss164'6
-916b酫chuòcyut3164'6
-916c酬chóucau4toast; reward, recompense164'6
-916d酭yòujau6164'6
-916e酮tóngtung4ketones164'6
-916f酯zhǐzi2ester164'6
-9170酰xiānsin1acyl164'6
-9171酱jiàngzoeng3any jam-like or paste-like food164'691AC
-9172酲chéngcing4hangover; uncomfortable164'7
-9173酳yìnjan6164'7
-9174酴tútou4leaven, yeast; wine164'7
-9175酵jiàohaau1yeast, leaven164'7
-9176酶méimui4enzymes; (Cant.) soft164'7
-9177酷kùhuk6strong, stimulating; very164'7
-9178酸suānsyun1tart, sour; acid; stiff; spoiled164'7
-9179酹lèilyut3to pour out a libation; to sprinkle164'7
-917a酺púpou4drink with others; drink heavily164'7
-917b酻zuìzeoi1164'7
-917c酼hǎihoi2164'7
-917d酽yànjim6thick, strong (beverage)164'791C5
-917e酾shīsi1strain164'791C3
-917f酿niàngjoeng6brew, ferment164'791C0
-9180醀wéiwai4164'8
-9181醁lùluk6a kind of green-colored wine164'8
-9182醂lǎnlam5to remove astringency; to bleach in water164'8
-9183醃yānjim1marinate, pickle; salt164'8
-9184醄táotou4drunk164'8
-9185醅pēipui1unstrained spirits164'8
-9186醆zhǎnzaan2wine cup; muddy wine164'82CAA8
-9187醇chúnseon4rich, good as wine; pure, unmixed164'8
-9188醈tántaam4164'8
-9189醉zuìzeoi3intoxicated, drunk; addicted to164'8
-918a醊zhuìzyut3to pour wine in a libation164'8
-918b醋cùcou3vinegar; jealousy, envy164'8
-918c醌kūnkwan1quinone164'8
-918d醍títai4essential oil of butter164'9
-918e醎xiánhaam4164'9
-918f醏dūdou1164'9
-9190醐húwu4purest cream164'9
-9191醑xǔseoi2to strain spirits164'9
-9192醒xǐngsing2wake up; sober up; startle164'9
-9193醓tǎntaam2salted meat; brine from pickled mince164'9
-9194醔qiújau4164'9
-9195醕chúnseon4164'9
-9196醖yùnwan5liquor164'9915D
-9197醗pòput3to brew for the second time164'9
-9198醘kēhap1164'10
-9199醙sōusau1164'10
-919a醚mímai4ether164'10
-919b醛quáncyun4aldehyde164'10
-919c醜chǒucau2ugly looking, homely; disgraceful164'104E11
-919d醝cuōco4white wine164'10
-919e醞yùnwan5liquor, spirits, wine; ferment164'10915D
-919f醟yòngwing6164'10
-91a0醠àngong3164'10
-91a1醡zhàzaa3wine press164'10
-91a2醢hǎihoi2minced pickled meat; mince164'10
-91a3醣tángtong4carbohydrates164'10
-91a4醤jiàngzoeng3any jam-like or paste-like food164'10
-91a5醥piǎopiu2164'11
-91a6醦chěncam2164'112E833
-91a7醧yùjyu3164'112CAA7
-91a8醨lílei4dregs of wine164'11
-91a9醩zāozou1sediment, dregs; grains from a distillery; disordered, spoilt164'11
-91aa醪láolou4unclear wine, wine with dregs164'11
-91ab醫yīji1medicine; to cure, heal; physician164'11533B
-91ac醬jiàngzoeng3any jam-like or paste-like food164'119171
-91ad醭búbuk6molds on liquids; scum164'12
-91ae醮jiàoziu3religious service; Daoist or Buddhist ceremony164'12
-91af醯xīhei1vinegar; pickle; acid164'12
-91b0醰tántaam4bitter taste in wine; rich; full flavoured164'12
-91b1醱fā pòput3to brew for the second time164'129166
-91b2醲nóngnung4strong wine; dense, thick164'132CAA9
-91b3醳yìjik6164'1330F05
-91b4醴lǐlai5sweet wine; sweet spring164'13
-91b5醵jùgeoi6contribute for drinks; pool money164'13
-91b6醶yànjim6164'132B477
-91b7醷yìjik1164'13
-91b8醸niàngjoeng6brew, ferment164'13
-91b9醹rújyu4strong wine164'14
-91ba醺xūnfan1get drunk, be intoxicated164'14
-91bb醻chóucau4to pledge, thank164'14
-91bc醼yànjin3offer food and wine one's guests164'16
-91bd醽língling4kind of wine164'17
-91be醾mímei4a kind of liquor164'17
-91bf醿mímei4a kind of liquor164'17
-91c0釀niàngjoeng6brew, ferment164'17917F
-91c1釁xìnjan6smear with blood in sacrifice; rift, quarrel164'188845
-91c2釂jiàoziu3drain164'18
-91c3釃shāisi1strain164'19917E
-91c4釄mímei4wine brewed for a second time164'19
-91c5釅yànjim6thick, strong (beverage)164'20917D
-91c6釆biànbin6distinguish; Kangxi radical 165165'0
-91c7采cǎicoi2collect, gather; pick, pluck165'191C757F0 63A1 91C7
-91c8釈shìsik1interpret, elucidate; release165'4
-91c9釉yòujau6glaze165'5
-91ca释shìsik1interpret, elucidate; release165'591CB
-91cb釋shìsik1interpret, elucidate; release165'1391CA
-91cc里lǐlei5unit of distance; village; lane; Kangxi radical 166166'091CC88CF 88E1 91CC
-91cd重zhòngcung5heavy, weighty; double166'2
-91ce野yěje5open country, field; wilderness166'4
-91cf量liàngloeng4measure, quantity, capacity166'5
-91d0釐xī líhei1manage, control; thousandth part of tael166'115398
-91d1金jīngam1gold; metals in general; money; Kangxi radical 167167'0
-91d2釒jīngam1Kangxi radical 167167'09485
-91d3釓gágaa1gadolinium (element 64, Gd)167'19486
-91d4釔yǐjyut6yttrium (element 39, Y)167'19487
-91d5釕liǎoliu5ruthenium (element 44, Ru)167'2948C
-91d6釖dāodou1knife, sword167'2
-91d7釗zhāociu1endeavor, strive; encourage; cut167'2948A
-91d8釘dīngding1nail, spike; pursue closely167'29489
-91d9釙pòpok3polonium (element 84, Po)167'2948B
-91da釚qiúkau4167'22B7F2
-91db釛bābaat3167'230F56
-91dc釜fǔfu2cauldron, pot, kettle167'2
-91dd針zhēnzam1needle; pin; tack; acupuncture167'29488
-91de釞zhízap1167'2
-91df釟bābaat3167'22B4E5
-91e0釠luànlyun6167'2
-91e1釡fǔfu2cauldron, pot, kettle167'2
-91e2釢nǎinaai5167'2
-91e3釣diàodiu3fish; fishhook; tempt, lure167'39493
-91e4釤shànsaam1samarium (element 62, Sm); to swing a sickle to cut (grass or wheat)167'39490
-91e5釥qiǎociu2167'330F5B
-91e6釦kòukau3button; buckle, clasp; engrave167'32CB2A
-91e7釧chuàncyun3bracelet, armlet167'3948F
-91e8釨zǐzi2167'32B4E6
-91e9釩fǎnfaan4vanadium (element 23, V)167'39492
-91ea釪huáan alms bowl; a small bell167'330F57
-91eb釫huá167'32CB28
-91ec釬hànhon6weld, solder167'32CB27
-91ed釭gānggong1tire of wheel; band167'32E8F2
-91ee釮qícai4167'3
-91ef釯mángmong4point of sword; sharp point167'3
-91f0釰rìjat6167'3
-91f1釱dìdai6fetters; to fetter167'330F58
-91f2釲sìzi6167'32B7F3
-91f3釳xìhat1167'328C3F
-91f4釴yìjik6167'32CB29
-91f5釵chāicaai1ornamental hairpin167'39497
-91f6釶shīsi1167'3
-91f7釷tǔtou2thorium (Th)167'3948D
-91f8釸xīzik6167'3
-91f9釹nǚneoi5neodymium (Nd)167'39495
-91fa釺qiāncin1tool for boring holes167'3948E
-91fb釻qiújyun4167'3
-91fc釼jiànjat6sword, dagger, saber167'3
-91fd釽pìpik1a farmer's hoeing fork167'42CB32
-91fe釾yéngaa4obsolete name of einsteinium (Es)167'4497A
-91ff釿jīngan1hew, chop, smooth167'42CB31
-9200鈀bǎbaa2palladium (Pd)167'494AF
-9201鈁fāngfong1francium (Fr)167'494AB
-9202鈂chéncam4167'42CB35
-9203鈃xíngjing4ancient wine vessel167'49498
-9204鈄dǒudau2a wine flagon167'494AD
-9205鈅yuèjyut6167'4
-9206鈆qiānjyun4lead167'42B4EA
-9207鈇fūfu1an ax; a hatchet167'42B4E7
-9208鈈bùbat1plutonium (Pu)167'4949A
-9209鈉nànaap6sodium (Na); sharpen wood167'494A0
-920a鈊xīnsam1gadolinium (element 64, Gd)167'4
-920b鈋éngo4167'428C42
-920c鈌juékyut3to pierce, to stab; to take167'4
-920d鈍dùndeon6blunt, obtuse; dull; flat; dull-witted167'4949D
-920e鈎gōungau1hook, barb; sickle; stroke with167'494A9
-920f鈏yǐnjan6167'430F63
-9210鈐qiánkim4lock, latch; stamp, seal167'494A4
-9211鈑bǎnbaan2plate167'494A3
-9212鈒sàzaap6spear; (Cant.) to cut, slice; grass-shears167'49491
-9213鈓rénjam5167'42CB2F
-9214鈔chāocaau1paper money, bank notes; copy167'4949E
-9215鈕niǔnau2button, knob; surname167'494AE
-9216鈖fēnfan1167'42B7F4
-9217鈗yǔnwan5167'42B7F5
-9218鈘yǐngai5167'4
-9219鈙qínkam4167'4
-921a鈚pīpai1an ancient type of arrow167'42CB2B
-921b鈛guōgwo1167'42B4E8
-921c鈜hóngwang4167'42E8F3
-921d鈝yínjam4167'4
-921e鈞jūngwan1unit of measure equivalent to thirty catties167'494A7
-921f鈟diàodiu3167'4
-9220鈠yìjik6167'428C41
-9221鈡zhōngzung1167'4
-9222鈢xǐsaai2167'4
-9223鈣gàikoi3calcium (Ca)167'49499
-9224鈤rìjat6167'430F61
-9225鈥huǒfo2holmium (Ho)167'494AC
-9226鈦tàitaai3titanium (Ti)167'4949B
-9227鈧kàngkong3scandium (Sc)167'494AA
-9228鈨yuánjyun4167'42EDF8
-9229鈩lúlou4fireplace, stove, oven, furnace167'4
-922a鈪èaak3(Cant.) bracelet; bangle167'430F5E
-922b鈫qínman4167'4
-922c鈬duódok6bell; surname167'4
-922d鈭zīzi1167'5
-922e鈮nǐnei4niobium (Nb)167'594CC
-922f鈯túdat6167'528C44
-9230鈰shìsi5cerium (element 58, Ce)167'594C8
-9231鈱mínman4167'5
-9232鈲gūgu1167'528C43
-9233鈳kēko1a small cauldron; columbium (an older name for niobium)167'594B6
-9234鈴língling4bell167'594C3
-9235鈵bǐngbing3167'530F65
-9236鈶sìzi6167'52CB40
-9237鈷gǔgu2cobalt (Co)167'594B4
-9238鈸bóbat6cymbals167'594B9
-9239鈹pīpei4a needle used in Chinese medicine; a sword, large knife; beryllium (Be)167'594CD
-923a鈺yùjuk6rare treasure167'594B0
-923b鈻sìzi6167'5
-923c鈼zuózok6167'52CB3D
-923d鈽būbou1plutonium (element 94, Pu)167'594B8
-923e鈾yóujau4uranium (U)167'594C0
-923f鈿tiántin4hairpin; gold inlaid work, filigree167'594BF
-9240鉀jiǎgaap3potassium (K)167'594BE
-9241鉁zhēnzan1167'528C45
-9242鉂shǐsi2167'5
-9243鉃shìsi6167'5
-9244鉄zhítit3iron; strong, solid, firm167'5
-9245鉅jùgeoi6steel, iron; great167'5949C
-9246鉆chāncim1tweezers167'5
-9247鉇shīsi1167'5
-9248鉈shīto4a short spear; thallium (element 81, Tl)167'594CA
-9249鉉xuànjyun5device for carrying a tripod167'594C9
-924a鉊zhāoziu1167'52CB3F
-924b鉋bàopaau4carpenter's plane167'594C7
-924c鉌héwo4the bells on the cart in ancient China167'530F6C
-924d鉍bìbei3bismuth (Bi)167'594CB
-924e鉎shēngsang1(Cant.) to rust167'530F6B
-924f鉏chúco4hoe; eradicate, eliminate167'52CB3A
-9250鉐shísek6167'52CB37
-9251鉑bóbok6platinum (Pt); thin sheet of metal167'594C2
-9252鉒zhùzyu3167'530F6F
-9253鉓chìcik1167'5
-9254鉔zāzaap3167'52B4EC
-9255鉕pōpo2promethium (element 145, Pm)167'594B7
-9256鉖tóngtung4167'5
-9257鉗qiánkim4pincers, pliers, tongs167'594B3
-9258鉘fúfat6167'530F71
-9259鉙zhǎizaai2167'530F68
-925a鉚mǎomaau5rivet167'594C6
-925b鉛qiānjyun4lead (element 82, Pb)167'594C5
-925c鉜fúfau4167'530F6E
-925d鉝lìlaap6167'52B7F7
-925e鉞yuèjyut6broad-axe, a battle axe, halberd167'594BA
-925f鉟pīpei1167'530F67
-9260鉠yāngjoeng1167'52B4ED
-9261鉡bànbun6167'530F70
-9262鉢bōbut3earthenware basin; alms bowl (Sanskrit paatra)167'594B5
-9263鉣jiégip3167'5
-9264鉤gōungau1hook, barb; sickle; stroke with167'594A9 30F6D
-9265鉥shùseot6needle167'52CB38
-9266鉦zhēngzing1kind of gong used in ancient times by troops on the march167'594B2
-9267鉧mǔmou5167'52CB41
-9268鉨xǐnip6[nǐ] Nihonium (Nh); silk string; [niè] (same as 鑷) tweezers; [xǐ] (same as 鉩) a seal167'59FED
-9269鉩xǐsaai2167'5
-926a鉪dìdai6167'5
-926b鉫jiāgaa1167'5
-926c鉬mùmuk6molybdenum (element 42, Mo)167'594BC
-926d鉭tǎntaan2tantalum (element 73, Ta)167'594BD
-926e鉮huánsan4167'52CB39
-926f鉯yǐji5167'5
-9270鉰sīsi1167'5
-9271鉱kuàngkong3mine; mineral, ore167'5
-9272鉲kǎkaa1cadmium (element 48, Cd)167'530F69
-9273鉳běibak1167'5
-9274鉴jiàngaam3mirror, looking glass; reflect167'59452
-9275鉵tóngtung4167'630F76
-9276鉶xíngjing4sacrificial cauldron167'694CF
-9277鉷hónghung4trigger167'62B7F9
-9278鉸jiǎogaau2hinge; shears, scissors167'694F0
-9279鉹chǐci2167'630F79
-927a鉺èrji5erbium (element 68, Er)167'694D2
-927b鉻gègok3chromium (element 24, Cr)167'694EC
-927c鉼bǐngbeng2plate; (Cant.) a penny167'830F7C
-927d鉽shìsik1167'62B7F8
-927e鉾móumau4spear167'62B4F4
-927f鉿jiāhap6hafnium (element 72, Hf)167'694EA
-9280銀yínngan4silver (element 47, Ag); cash, money, wealth167'694F6
-9281銁jūngwan1a weight of thirty catties167'62B4F2
-9282銂zhōuzau1167'62B7FB
-9283銃chòngcung3ancient weapon, blunderbuss167'694F3
-9284銄xiǎnghoeng2167'6
-9285銅tóngtung4copper (element 29, Cu); brass, bronze167'694DC
-9286銆mòmak6167'6
-9287銇lèiloi6167'6
-9288銈jīgwai1167'62B4EF
-9289銉yùjyut6167'6
-928a銊xùseot1167'62B4F0
-928b銋rén167'630F7B
-928c銌zùnzyun6167'6
-928d銍zhìzat6a sickle167'694DA
-928e銎qióngkung4eyehole to hang an axe by167'6
-928f銏shànsaan3167'52B7F6
-9290銐chìcai3167'6
-9291銑xiǎnsin2mill167'694E3
-9292銒xíngjing4ancient wine vessel167'6
-9293銓quáncyun4weigh, measure; select officials167'694E8
-9294銔pīpei1167'62CB43
-9295銕tiětit3iron; strong, solid, firm167'6
-9296銖zhūzyu1unit of weight, one twenty-fourth of a Chinese ounce (liang)167'694E2
-9297銗xiàng167'62CB45
-9298銘míngming4inscribe, engrave; unforgettably167'694ED
-9299銙kuǎkwaa1167'630F74
-929a銚yáodiu6large hoe; surname; a spear167'694EB
-929b銛xiāncim1sharp, keen-edged; a kind of hoe167'694E6
-929c銜xiánhaam4bit; hold in mouth, bite; gag167'68854
-929d銝xiūjau1167'6
-929e銞jūngwan1167'6
-929f銟chācaa1167'6
-92a0銠lǎolou5rhodium (element 45, Rh)167'694D1
-92a1銡jígat1167'630F72
-92a2銢pǐpik1167'6
-92a3銣rújyu4rubidium (element 37, Rb)167'694F7
-92a4銤mǐmai5167'6
-92a5銥yīji1iridium (element 77, Ir)167'694F1
-92a6銦yīnjan1indium (element 49, In)167'694DF
-92a7銧guānggwong1point of a sword167'630F75
-92a8銨ǎnon1ammonium167'694F5
-92a9銩diūdiu1thulium (element 69, Tm)167'694E5
-92aa銪yǒujau5europium (element 63, Eu)167'694D5
-92ab銫sèsik1caesium/cesium (element 55, Cs)167'694EF
-92ac銬kàokaau3shackles, manacle167'694D0
-92ad銭qiáncin4money, currency, coins167'6
-92ae銮luánlyun4bells hung on horse; bells hung167'692AE92AE 947E
-92af銯sīmik6167'6
-92b0銰āingaai6167'6
-92b1銱diàodiu3hasp and staple167'694DE
-92b2銲hànhon6solder, weld; leg armor, greaves167'72CB4D
-92b3銳ruìjeoi6sharp, keen, acute, pointed167'79510
-92b4銴shìsai6167'7
-92b5銵kēnghang1167'7
-92b6銶qiúkau4chisel167'728C47
-92b7銷xiāosiu1melt, fuse; market, sell; to pass time, finish, cancel167'79500
-92b8銸zhézip3167'730F7F
-92b9銹xiùsau3rust, corrode167'79508
-92ba銺zàngzong6167'7
-92bb銻títai1antimony (element 51, Sb)167'79511
-92bc銼cuòco3carpenter's file, file smooth167'79509
-92bd銽guācim1167'7
-92be銾hònghung3mercury (element 80, Hg)167'730F81
-92bf銿zhōngzung1167'7
-92c0鋀tōutau1167'7
-92c1鋁lǚleoi5167'794DD
-92c2鋂méimui4bit cup167'730F84
-92c3鋃lánglong4lock167'79512
-92c4鋄wànfaan6167'7
-92c5鋅xīnsan1zinc (element 30, Zn)167'7950C
-92c6鋆yúnwan4gold; character used in personal name167'7
-92c7鋇bèibui3barium (element 56, Ba)167'794A1
-92c8鋈wùjuk1silver plating167'7
-92c9鋉sùsuk1167'728C48
-92ca鋊yùjuk6a poker; brass filings; to file167'730F86
-92cb鋋chánsin4short, iron-handled spear167'72E8F4
-92cc鋌dìngting4ingots, bars of metal; hurry167'794E4
-92cd鋍bóbut6167'730F80
-92ce鋎hànwaan5167'7
-92cf鋏jiágaap3tongs, pincers; dagger; sword167'794D7
-92d0鋐hóngwang4state in today's Hubei province167'72CB4E
-92d1鋑cuāncyun1to engrave or carve, as a block for printing167'72EE0F
-92d2鋒fēngfung1point of spear, sharp point167'7950B
-92d3鋓chāncim1167'72EE0A
-92d4鋔wǎnwaan5167'7
-92d5鋕zhìzi3engrave167'7
-92d6鋖sīsi1167'7
-92d7鋗xuānhyun1a small basin; rings on a cart of carriage167'72B4F6
-92d8鋘huásword167'72CB4C
-92d9鋙yǔjyu5misfit; discordant; musical instrument; hoe167'794FB
-92da鋚tiáotiu4iron; bronze decoration on bridle167'7
-92db鋛kuàngkong3167'7
-92dc鋜zhuózok6fetters, shackles167'730F83
-92dd鋝lüèlyut3ancient unit of measure equal to 6 taels (about 300 grams)167'7950A
-92de鋞xíngjing4167'7
-92df鋟qǐncim1carve167'79513
-92e0鋠shènsan6167'72B4F5
-92e1鋡hánham4167'730F85
-92e2鋢lüèlyut3167'7
-92e3鋣yéje4sword167'794D8
-92e4鋤chúco4hoe; eradicate167'79504
-92e5鋥zèngcaang3polish167'79503
-92e6鋦jūguk1curium (element 96, Cm)167'79514
-92e7鋧xiànjin6small chisel167'730F62
-92e8鋨éngo4an ancient name for iron; osmium (element 76, Os)167'79507
-92e9鋩mángmong4point of a sword; sharp point167'794D3
-92ea鋪pùpou1spread out, arrange; shop, store; place to sleep, bed167'794FA
-92eb鋫lílei4167'7
-92ec鋬pànpaan3the part of the utensil that is held by the hand167'7
-92ed鋭ruìjeoi6sharp167'79510
-92ee鋮chéngsing4person's name167'794D6
-92ef鋯gàogou3zirconium (element 40, Zr)167'79506
-92f0鋰lǐlei5lithium (element 3, Li)167'79502
-92f1鋱tètik1terbium (element 65, Tb)167'794FD
-92f2鋲bīngbing1rivet167'7
-92f3鋳zhùzyu3melt, cast; coin, mint167'7
-92f4鋴zhènhak1167'7
-92f5鋵tūtuk1167'7
-92f6鋶liǔlau5matte, a crude mixture of sulfides formed in smelting sulfide ores167'7950D
-92f7鋷zuìje4167'8
-92f8鋸jùgeoi3a saw; to saw; amputate167'8952F
-92f9鋹chǎngcong2sharp; a keen edge; sharp point167'82CB2E
-92fa鋺yuǎnjyun2a metal bowl167'8
-92fb鋻jiàngin3167'8
-92fc鋼gānggong3steel; hard, strong, tough167'894A2
-92fd鋽diàotiu3167'8
-92fe鋾táotou4167'830F8F
-92ff鋿chángsoeng4167'8
-9300錀lúnleon4167'82CB2D
-9301錁guǒgwo2ingot; acrobatic move167'8951E
-9302錂língling4167'828C4B
-9303錃pībei1167'8
-9304錄lùluk6copy, write down, record167'85F55
-9305錅lílei4167'8
-9306錆qiāngcoeng1the color of a mineral167'89516
-9307錇póupui4berkelium (element 97, Bk)167'8952B
-9308錈juǎngyun2to bend iron167'89529
-9309錉mínman4167'8
-930a錊zuìzeoi3167'8
-930b錋péngpaang4167'82CB56
-930c錌ànngon6167'8
-930d錍pīpai1167'830F8E
-930e錎xiànhaam6167'8
-930f錏yāaa1soft steel; ammonium167'894D4
-9310錐zhuīzeoi1gimlet, awl, drill, auger; bore167'89525
-9311錑lèileoi6167'82CB5C
-9312錒āaa3actinium (element 89, Ac)167'89515
-9313錓kōngkwang1167'8
-9314錔tàtaap3cap167'830F93
-9315錕kūnkwan1ancient treasured sword167'8951F
-9316錖dúduk1167'8
-9317錗nèineoi6167'82CB57
-9318錘chuíceoi4balance weight on scale; hammer167'89524
-9319錙zīzi1an ancient unit of weight (one-eighth of a tael)167'89531
-931a錚zhēngzang1clanging sound; small gong167'894EE
-931b錛bēnban1adz, adze167'8951B
-931c錜niènip6167'82B4FB
-931d錝zòngzung3167'82B4FD
-931e錞chúndeoi6instrument167'82CB5A
-931f錟tántaam4long spear167'8952C
-9320錠dìngding3spindle, slab, cake, tablet167'8952D
-9321錡qíkei4a kind of pen; a kind of chisel167'8951C
-9322錢qiáncin4money, currency, coins167'894B1
-9323錣zhuìzyut3armor neckplates167'82E8F5
-9324錤jīgei1hoe167'82B4F9
-9325錥yùjuk6167'82B4FE
-9326錦jǐngam2brocade, tapestry; embroidered167'89526
-9327錧guǎngun2167'830F92
-9328錨máonaau4anchor167'9951A
-9329錩chāngcoeng1vessel167'89520
-932a錪tiǎntin2167'82CB53
-932b錫xīsek3tin (element 50, Sn); bestow, confer167'89521
-932c錬liànlin6smelt metals167'8
-932d錭táodiu1167'82CB55
-932e錮gùgu3run metal into cracks; confine167'89522
-932f錯cuòco3error, blunder, mistake, wrong167'89519
-9330錰shùseot6167'8
-9331錱zhēnzan1167'8
-9332録lùluk6copy167'85F55
-9333錳měngmaang5manganese (element 25, Mn)167'89530
-9334錴lùluk6167'8
-9335錵huāwaa4167'8
-9336錶biǎobiu1a watch, clock167'88868 30F8D
-9337錷gáaat3167'8
-9338錸láiloi4rhenium (element 75, Re)167'894FC
-9339錹kěnhang2167'8
-933a錺fāngfong1metal jewelry167'82EE10
-933b錻wumou5a tin plate167'8
-933c錼nàinoi6neptunium (element 93, Np)167'8
-933d錽wànfaan6167'82B4F8
-933e錾zànzaam6engraving tool, chisel167'893E8
-933f錿hǔfu2167'8
-9340鍀dédak1technetium (element 43, Tc)167'8951D
-9341鍁xiānhim1shovel167'89528
-9342鍂piān167'830F91
-9343鍃huōa kind of tool167'8952A
-9344鍄liàngloeng6167'828C49
-9345鍅fǎfaat3167'8
-9346鍆ménmun4mendelevium (element 101, Md)167'89494
-9347鍇kǎikaai2high quality iron167'99534
-9348鍈yīngjoeng1167'89533
-9349鍉dīdik6spoon, key167'92B502
-934a鍊liànlin6smelt metals, forge; refine167'92B500
-934b鍋guōwo1cooking-pot, saucepan167'99505
-934c鍌xiǎnsin2167'9
-934d鍍dùdou6plate, coat, gild167'99540
-934e鍎túdat6167'9
-934f鍏wéiwai4167'92CB2C
-9350鍐zōngzung1a headstall, ornament on a bride167'930F9E
-9351鍑fùfuk1167'930F9F
-9352鍒róujau4167'92B504
-9353鍓jícip3167'9
-9354鍔èngok6high, lofty; edge of knife167'99537
-9355鍕jūngwan1167'92EE08
-9356鍖chěnzam1167'930F98
-9357鍗títai4167'9
-9358鍘zházaat3sickle for cutting grass or hay167'994E1
-9359鍙hùhuk1167'9
-935a鍚yángjoeng4frontlet167'99496
-935b鍛duàndyun3forge metal; temper, refine167'9953B
-935c鍜xiáhaa4to forge, work167'930FA4
-935d鍝yújyu4167'930F99
-935e鍞kēnghang1167'9
-935f鍟shēngseng3(Cant.) rust167'930F9D
-9360鍠huángwong4weapon167'9953D
-9361鍡wěiwui2167'930F9A
-9362鍢fùfuk1167'92EE15
-9363鍣zhāoziu1167'92CB61
-9364鍤chācaap3spade, shovel; marking pin167'99538
-9365鍥qièkit3sickle; cut, carve, engrave167'99532
-9366鍦shīse4167'930FA2
-9367鍧hōnggwang1167'930FA1
-9368鍨kuíkwai4167'930FA5
-9369鍩tiǎnnok6nobelium (element 102, No)167'99518
-936a鍪móumau4an iron pan; a metal cap167'9
-936b鍫qiāociu1shovel167'9
-936c鍬qiāociu1shovel167'99539
-936d鍭hóuhau4arrow167'92CB64
-936e鍮tōutau1brass167'928C4E
-936f鍯cōngcung1167'92CB65
-9370鍰huánwaan4measure; money, coins167'9953E
-9371鍱yèjip6thin plates of metal167'930F95
-9372鍲mínman4167'9
-9373鍳jiàngaam3167'9
-9374鍴duāndyun1167'930F9C
-9375鍵jiàngin6door bolt, lock bolt; key167'9952E
-9376鍶sōngsi1strontium (element 38, Sr); an iron utensil167'99536
-9377鍷kuífui1167'9
-9378鍸húwu4food, gruel167'9
-9379鍹xuānsyun1167'9
-937a鍺zhěze2germanium (element 32, Ge); metal flashing on the axle of a cart167'99517
-937b鍻jiégit3167'9
-937c鍼zhēnkim4needle, pin, tack; prick; inject167'930F97
-937d鍽biānbin1167'9
-937e鍾zhōngzung1cup, glass, goblet; surname167'9949F 953A
-937f鍿zīzi1167'9
-9380鎀xiūsau1167'9
-9381鎁yéje4167'9
-9382鎂měimei5magnesium (element 12, Mg)167'99541
-9383鎃pàipaai3167'9
-9384鎄āioi1einsteinium (element 99, Es)167'9953F
-9385鎅jiègaai3(Cant.) to saw; to cut167'930F9B
-9386鎆qianzin2167'9
-9387鎇méimei4americium (element 95, Am)167'99545
-9388鎈suǒso2167'102B7FF
-9389鎉dátaap3thallium (element 81, Tl)167'1030FAC
-938a鎊bàngbong6pound sterling; to scrape167'109551
-938b鎋xiáhat6the linch-pin of a wheel to govern or control the noise of a barrow167'102CB6A
-938c鎌liánlim4sickle167'1030FAE
-938d鎍suǒsok3chain; wire167'102B505
-938e鎎kàihei3167'10
-938f鎏liúlau4pure gold167'10
-9390鎐yáojiu4family name; wine cup167'10
-9391鎑yèjip6167'1030FA9
-9392鎒nòunau6to hoe; to weed167'102CB66
-9393鎓wēngjung1167'102CB69
-9394鎔róngjung4fuse, melt, smelt; mold167'109555
-9395鎕tángtong4167'1030FAF
-9396鎖suǒso2lock, padlock; shackles, chains167'109501
-9397鎗qiāngcoeng1rifle, small arms, hand gun167'102CB30
-9398鎘lìgaak3cadmium (element 48, Cd)167'109549
-9399鎙shuòsok3large spear; chess board167'102B508
-939a鎚chuíceoi4hammer, mallet; club167'102CB68
-939b鎛bóbok3large bell; hoe, spade167'109548
-939c鎜pánpun4167'10
-939d鎝dādaap3(TC) technetium (element 43, Tc); engrave; tilling implement167'1028C4F
-939e鎞bībai1plowshare; barb, lancet167'102B507
-939f鎟sǎngsong2167'10
-93a0鎠gānggong3167'10
-93a1鎡zīzi1hoe; mattock167'109543
-93a2鎢wūwu1tungsten (element 74, W)167'1094A8
-93a3鎣yíngjing4polish167'1084E5
-93a4鎤huàngfong2sound of a bell; small bell167'10
-93a5鎥tiáotiu4167'10
-93a6鎦liúlau4distil; (TC) lutetium (element 71, Lu); surname167'10954F
-93a7鎧kǎihoi2armor, chain mail167'1094E0
-93a8鎨sǔnseon2167'10
-93a9鎩shāsaat3to spear167'1194E9
-93aa鎪sōusau1to engrave (metal or wood)167'10953C
-93ab鎫wànfaan6ornament over the horse's head167'10
-93ac鎬hàohou6stove; bright167'109550
-93ad鎭zhènzan3town, market place; suppress167'10
-93ae鎮zhènzan3town, market place; suppress167'109547
-93af鎯lánglong4large hammer167'1028C4D
-93b0鎰yìjat6ancient of weight for gold, equal to 20 or 24 taels167'109552
-93b1鎱yuánjyun4167'10
-93b2鎲tǎngtong2ancient weapon resembling a pitchfork167'10954B
-93b3鎳niènip1nickel (element 28, Ni)167'10954D
-93b4鎴xísik1167'10
-93b5鎵jiāgaa1gallium (element 31, Ga)167'109553
-93b6鎶gēgo1copernicium (element 112, Cn)167'109FD4
-93b7鎷mǎmaa5167'1028C3E
-93b8鎸juānzyun1engraving tool; carve, engrave167'10954C
-93b9鎹sòngsung3a clamp167'10
-93ba鎺zǔzou2167'10
-93bb鎻suǒso2lock, padlock; shackles, chains167'10
-93bc鎼xiàlaa3167'10
-93bd鎽fēngfung1167'10
-93be鎾wēnwan1167'10
-93bf鎿nánaa4(HK) neptunium (element 93, Np)167'10954E
-93c0鏀lǔlou5167'11
-93c1鏁suǒso2a lock, padlock; shackles, chains167'112CB72
-93c2鏂ōuau1167'1130F5C
-93c3鏃zúzuk6arrowhead, barb; swift, quick167'11955E
-93c4鏄tuántyun4167'11
-93c5鏅xiūsau1167'11
-93c6鏆guàngun3167'1128C4C
-93c7鏇xuànsyun4lathe167'1165CB 955F
-93c8鏈liànlin6chain, wire, cable; chain, shack167'1194FE
-93c9鏉shòusau3167'1128C52
-93ca鏊àongou6a flat, iron cooking-plate for cakes167'11
-93cb鏋mǎnmun5167'11
-93cc鏌mòmok6sword167'119546
-93cd鏍luólo4167'119559
-93ce鏎bìbat1167'11
-93cf鏏wèiwai6167'112CB6C
-93d0鏐liúlau4pure gold167'119560
-93d1鏑dídik1dysprosium (element 66, Dy); the barb of an arrow; the head of a javelin167'11955D
-93d2鏒sǎnsaam2167'112CB5D
-93d3鏓zǒngcung1167'1130FB1
-93d4鏔yíji4167'112CB70
-93d5鏕lùluk6167'1130FB2
-93d6鏖áongou4to fight to the end, engage in a fierce battle167'11
-93d7鏗kēnghang1strike, beat, stroke; jingling167'1194FF
-93d8鏘qiāngcoeng1tinkle, clang, jingle167'119535
-93d9鏙cuīceoi1167'1130FB0
-93da鏚qīcik1axe167'112CB6D
-93db鏛chángsoeng4to polish; iron rim on a wagon wheel167'112EE1F
-93dc鏜tāngtong1boring tool167'119557
-93dd鏝mànmaan6trowel167'119558
-93de鏞yōngjung4a large bell used as a musical instrument167'11955B
-93df鏟chǎncaan2spade, shovel, trowel, scoop167'1194F2
-93e0鏠fēngfung1167'11
-93e1鏡jìnggeng3mirror; lens; glass; glasses167'11955C
-93e2鏢biāobiu1dart, spear, harpoon; escort167'119556
-93e3鏣shùsyu3167'11
-93e4鏤lòulau6carve, inlay, engrave, tattoo167'119542
-93e5鏥xiùsau3rust, corrosion167'112B50A
-93e6鏦cōngcung1a short spear167'112B4E9
-93e7鏧lónglung4167'11
-93e8鏨zànzaam6engraving tool, chisel167'11933E
-93e9鏩jiànzim6167'1130F8C
-93ea鏪cáocou4167'11
-93eb鏫lílei4167'11
-93ec鏬xiàlaa3167'11
-93ed鏭xīsik1167'11
-93ee鏮kānghong1167'11
-93ef鏯shuǎngsong2167'11
-93f0鏰bèngbang1coin, money167'11955A
-93f1鏱zhanggam2167'11
-93f2鏲qiancim1167'11
-93f3鏳chēngcaang4167'12
-93f4鏴lùlou6to plug a hole167'13
-93f5鏵huáwaa4spade, shovel, plowshare167'1294E7
-93f6鏶jícip3167'12
-93f7鏷púpok3protactinium (element 91, Pa)167'129564
-93f8鏸huìwai6167'1230FB6
-93f9鏹qiǎngkoeng5coins, money, wealth; (Cant.) 鏹水, sulfuric acid167'11956A
-93fa鏺pōput3to cut with a sickle167'12497D
-93fb鏻línleon4phosphonium167'122CB78
-93fc鏼sèsaak3167'12
-93fd鏽xiùsau3rust, corrode167'129508
-93fe鏾sǎnsin3the trigger of a crossbow; crossbow167'122B50C
-93ff鏿chēngcoeng1167'12
-9400鐀kuìgwai6a cupboard; a press; a wardrobe shop-counter167'122CB62
-9401鐁sīsi1167'1230FB4
-9402鐂liúlau4167'12
-9403鐃náonaau4cymbals; hand bell; disturb167'1294D9
-9404鐄huángwaang4bell167'1228C51
-9405鐅piěpit3167'12
-9406鐆suìseoi6a lens167'12
-9407鐇fánfaan4vanadium (element 23, V)167'122B50D
-9408鐈qiáokiu4167'122B4F1
-9409鐉quāncyun1167'1230FBC
-940a鐊yángjoeng4167'122CB4F
-940b鐋tāngtong1gong167'1294F4
-940c鐌xiàngzoeng6167'12
-940d鐍juékyut3hasp of a lock167'122B50E
-940e鐎jiāoziu1167'1228C53
-940f鐏zūnzeon1cap167'1228C54
-9410鐐liáoliu4fetters167'129563
-9411鐑qièkit3167'12
-9412鐒láolou4lawrencium (element 103, Lr)167'1294F9
-9413鐓duìdeoi6ferrule; castrate167'129566
-9414鐔xíntaam4dagger; small sword167'129561
-9415鐕zānzaam1167'1230FB7
-9416鐖jīgei1hook, barb, catch, spring167'1230F55
-9417鐗jiǎngaan2167'12
-9418鐘zhōngzung1clock; bell167'12949F
-9419鐙dèngdang3lamp; a kind of cooking vessel167'12956B
-941a鐚yāaa1soft steel; ammonium167'1230FAA
-941b鐛yǐngjing2167'12
-941c鐜duīdeoi6167'12
-941d鐝juékyut3a pick, a hoe167'129562
-941e鐞nòunau6167'12
-941f鐟zānzaam1167'12
-9420鐠pǔpou2praseodymium (element 59, Pr)167'129568
-9421鐡tiětit3iron; strong, solid, firm167'12
-9422鐢fánfaan4167'12
-9423鐣chēngzoeng2167'12
-9424鐤dǐngding2huge tripod of bronze with two ears; sacrificial vessel167'1230FB8
-9425鐥shànsin3to swing a sickle to cut (grass or wheat)167'124985
-9426鐦kāihoi1californium (element 98, Cf)167'12950E
-9427鐧jiāngaan2kind of rapier167'12950F
-9428鐨fèifai3fermium (element 100, Fm)167'129544
-9429鐩suìseoi6lens167'132CB7C
-942a鐪lǔlou5167'132B4FA
-942b鐫juānzyun1engraving tool; carve, engrave167'13954C 30FB9
-942c鐬huìwai3167'1330F77
-942d鐭yùou3167'13
-942e鐮liánlim4sickle167'139570
-942f鐯zhuózoek3to dig with a hoe; a large hoe167'134983
-9430鐰qiāociu1167'13
-9431鐱jiàngim3167'13
-9432鐲zhuózuk6bracelet, armband; small bell167'13956F
-9433鐳léileoi4radium (element 88, Ra)167'13956D
-9434鐴bìbik1167'132CB7D
-9435鐵tiětit3iron (element 26, Fe); strong, solid, firm167'1394C1
-9436鐶huánwaan4metal ring; measure of currency167'13956E
-9437鐷yèjip6167'13
-9438鐸duódok6bell; surname167'1394CE
-9439鐹guǒgwo2167'1330F7E
-943a鐺dāngdong1frying pan; warming vessel167'1394DB
-943b鐻jùgeoi6drumstick167'13
-943c鐼fénfan4167'132B501
-943d鐽dádaat6167'132B7FC
-943e鐾bèibik1to strop, to sharpen by rubbing against leather, stone, etc.167'13
-943f鐿yìji3ytterbium (element 70, Yb)167'139571
+8c40豀xīhai4to quarrel; mean and petty150'10
+8c41豁huōkut3open up, clear; exempt150'10
+8c42豂liáoliu4150'11
+8c43豃hǎnhaam2150'12
+8c44豄dúduk6150'1530D94
+8c45豅lónglung4150'1630D91
+8c46豆dòudau6beans, peas; bean-shaped; Kangxi radical 151151'0đậu
+8c47豇jiānggong1a small kidney bean151'3
+8c48豈qǐhei2how? what?151'35C82
+8c49豉chǐsi6fermented beans151'4xị
+8c4a豊lǐlai5abundant, lush, bountiful, plenty151'6
+8c4b豋dēngdang1ceremonial vessel151'6
+8c4c豌wānwun1peas151'8
+8c4d豍bībai1151'8
+8c4e豎shùsyu6vertical; perpendicular; upright151'87AD6
+8c4f豏xiànhaam5half-grown beans151'10
+8c50豐fēngfung1abundant, lush, bountiful, plenty; hexagram ䷶151'114E30phong
+8c51豑zhìdit6151'13
+8c52豒zhìdit6151'18
+8c53豓yànjim6beautiful, captivating, plump, voluptuous151'20
+8c54豔yànjim6plump, voluptuous, beautiful151'21
+8c55豕shǐci2a pig, boar; Kangxi radical 152152'0thỉ
+8c56豖chùcuk1a shackled pig152'1
+8c57豗huīfui1clamor152'3
+8c58豘túntyun4a small pig152'4
+8c59豙yìngai6152'4
+8c5a豚túntyun4small pig, suckling pig; shuffle one's feet152'4
+8c5b豛yìjik6152'4
+8c5c豜jiāngin1pig of 3 years152'4
+8c5d豝bābaa1sow (female pig)152'4
+8c5e豞hòukau3152'5
+8c5f豟èak1152'5
+8c60豠chúco4152'5
+8c61象xiàngzoeng6elephant; ivory; figure, image152'5tượng
+8c62豢huànwaan6domestic animals; feed, raise152'6
+8c63豣jiāngin1pig of 3 years152'6
+8c64豤kěnhan2152'6
+8c65豥gāigoi1152'6
+8c66豦jùgeoi3a wild boar; to fight152'6
+8c67豧fūfu1152'7
+8c68豨xīhei1pig, hog152'7
+8c69豩bīnban1152'7
+8c6a豪háohou4brave, heroic, chivalrous152'7hào
+8c6b豫yùjyu6relaxed, comfortable, at ease; hexagram ䷏152'9
+8c6c豬zhūzyu1pig, hog152'9732Atrư
+8c6d豭jiāgaa1boar, male pig152'9
+8c6e豮fénfan4castrated pig152'98C76
+8c6f豯xīhai4152'10
+8c70豰bóbok6152'10
+8c71豱wēnwan1152'10
+8c72豲huánjyun4152'10
+8c73豳bīnban1a Zhou-dynasty state152'10
+8c74豴dídik1a pig's hoof; to go, to send152'11
+8c75豵zōngzung1young pig152'112B386
+8c76豶fénfan4castrated pig152'138C6E
+8c77豷yìai3person's name152'12
+8c78豸zhìzi6legless insect-like animal, worm; Kangxi radical 153153'0trại
+8c79豹bàopaau3leopard, panther; surname153'3beo
+8c7a豺cháicaai4wolf; cruel, wicked, mean153'3sài
+8c7b豻ànngon6prison; a kind of wild dog153'3
+8c7c豼pípei4fox, leopard, panther153'4
+8c7d豽nàneot6153'4
+8c7e豾pīpei1153'5
+8c7f豿gǒugau2153'5
+8c80貀nàneot6153'5
+8c81貁yòujau6153'5
+8c82貂diāodiu1marten, sable, mink153'5
+8c83貃mòmak6153'5
+8c84貄sìsi3153'6
+8c85貅xiūjau1brave, fierce, courageous153'6hươu
+8c86貆huánwun4small badger; porcupine153'6
+8c87貇kūnhan2to root, gnaw153'6
+8c88貈héhok6153'6
+8c89貉háohok6badger; raccoon dog153'6
+8c8a貊mòmak6leopard; ancient tribe in northeastern China153'6
+8c8b貋ànngon6153'7
+8c8c貌màomaau6countenance, appearance153'7
+8c8d貍lílei4fox153'7
+8c8e貎nímaau6lion; wild beast; wild horse153'8
+8c8f貏bǐbei2153'8
+8c90貐yǔjyu5䝟貐 a legendary man-eating monster153'9
+8c91貑jiāgaa1153'9
+8c92貒tuānteon1153'9
+8c93貓māomaau1cat153'9732Bmèo
+8c94貔pípei4a legendary bear-like animal153'10
+8c95貕xīhai4153'10
+8c96貖yìjik1153'10
+8c97貗jùgeoi6153'112B38C
+8c98貘mòmak6tapir153'11
+8c99貙chūceoi1a kind of animal like a tiger; fierce wild beasts153'114759
+8c9a貚tántaan4153'12
+8c9b貛huānfun1badger153'18
+8c9c貜juéfok3ape153'20
+8c9d貝bèibui3sea shell; money, currency; Kangxi radical 154154'08D1Dbuổi
+8c9e貞zhēnzing1virtuous, chaste, pure; loyal154'28D1Etrinh
+8c9f貟yuánjyun4member; personnel, staff member154'28D20
+8ca0負fùfu6load, burden; carry, bear154'28D1Fphụ
+8ca1財cáicoi4wealth, valuables, riches154'38D22tài
+8ca2貢gònggung3offer tribute; tribute, gifts154'38D21cống
+8ca3貣tètik1to beg; to err, be mistaken154'330DDE
+8ca4貤yíji4steps, grade, strata; series154'330DE0
+8ca5貥hánghong4154'4
+8ca6貦wánwun6154'430DE1
+8ca7貧pínpan4poor, impoverished, needy154'48D2Bbần
+8ca8貨huòfo3goods, commodities, products154'48D27hoá
+8ca9販fànfaan3peddler, hawker, street merchant154'48D29
+8caa貪tāntaam1greedy, covet; covetous154'48D2Atham
+8cab貫guàngun3a string of 1000 coins; to go through154'48D2Fquan
+8cac責zézaak3one's responsibility, duty154'48D23trách
+8cad貭zhìzat1matter, material, substance154'4
+8cae貮èrji6number two154'4
+8caf貯zhùcyu5store, stockpile, hoard154'58D2Etrữ
+8cb0貰shìsai3borrow; pardon; loan154'58D33thởi
+8cb1貱bìbei3154'52C976
+8cb2貲zīzi1property; wealth; to count154'58D40
+8cb3貳èrji6accounting numeral for two154'58D30nhị
+8cb4貴guìgwai3expensive, costly, valuable154'58D35quý
+8cb5貵piǎnpin2154'5
+8cb6貶biǎnbin2decrease, lower; censure, criticize154'58D2Cbiếm
+8cb7買mǎimaai5buy, purchase; bribe, persuade154'54E70 27E52mãi
+8cb8貸dàitaai3lend; borrow; pardon154'58D37
+8cb9貹shèngsang3154'5
+8cba貺kuàngfong3give, grant, bestow; surname154'58D36
+8cbb費fèifai3expenses, expenditures, fee154'58D39phí
+8cbc貼tiētip3paste to, stick on; attached to154'58D34
+8cbd貽yíji4give to, hand down, bequeath154'58D3B
+8cbe貾chíci4154'530DE2
+8cbf貿màomau6trade, barter; mixed; rashly154'58D38
+8cc0賀hèho6congratulate; send present154'58D3Ahạ
+8cc1賁bìbei3forge ahead; energetic; surname; hexagram ䷕154'58D32
+8cc2賂lùlou6bribe; give present154'68D42lộ
+8cc3賃lìnjam6rent, hire; hired person154'68D41
+8cc4賄huìkui2bribe; riches, wealth154'68D3F
+8cc5賅gāigoi1prepared for; inclusive154'68D45
+8cc6賆piánpin4154'6
+8cc7資zīzi1property; wealth; capital154'68D44
+8cc8賈jiǎgaa2surname; merchant; buy, trade154'68D3E
+8cc9賉xùseot1to give alms154'6
+8cca賊zéicaak6thief, traitor154'68D3Ctặc
+8ccb賋jiǎogaau2154'6
+8ccc賌gāigoi1154'6
+8ccd賍zāngzong6booty, loot, stolen goods; bribe154'6
+8cce賎jiànzin6mean, low; cheap, worthless154'6
+8ccf賏yīngjing1pearls or shells strung together154'7
+8cd0賐xùnseon3154'7
+8cd1賑zhènzan3relieve, aid distressed; rich154'78D48
+8cd2賒shēse1buy and sell on credit; distant154'78D4A
+8cd3賓bīnban1guest, visitor; surname; submit154'75BBEtân
+8cd4賔bīnban1guest, visitor; surname; submit154'7
+8cd5賕qiúkau4bribe154'78D47
+8cd6賖shēse1154'7
+8cd7賗chuàncyun3154'72C978
+8cd8賘zāngzong1154'7
+8cd9賙zhōuzau1give for charity154'88D52
+8cda賚làiloi6give, present, confer; surname154'88D49
+8cdb賛zànzaan3help, support, assist, aid154'8
+8cdc賜cìci3give, bestow favors; appoint154'88D50
+8cdd賝chēncam1precious154'82B3A9
+8cde賞shǎngsoeng2reward, grant, bestow; appreciate154'88D4Fthưởng
+8cdf賟tiǎntin2154'827E56
+8ce0賠péipui4indemnify, suffer loss154'88D54
+8ce1賡gēnggang1continue154'88D53
+8ce2賢xiánjin4virtuous, worthy, good; able154'88D24hiền
+8ce3賣màimaai6sell; betray; show off154'85356mại
+8ce4賤jiànzin6mean, low; cheap, worthless154'88D31tiện
+8ce5賥suìseoi6154'830DE4đút
+8ce6賦fùfu3tax; give; endow; army; diffuse154'88D4Bphú
+8ce7賧tàndaam6fine154'88D55
+8ce8賨cóngcung4tribute paid in cloth by the tribes in Szechwan and Yunnan under the Han dynasty154'830DE5
+8ce9賩cóngcung4154'8
+8cea質zhìzat1matter, material, substance154'88D28chất
+8ceb賫jīzai1present154'88D4D
+8cec賬zhàngzoeng3accounts; bill, debt; credit154'88D26 27E54
+8ced賭dǔdou2bet, gamble, wager; compete154'98D4Cđổ
+8cee賮jìnzeon2farewell gift154'930DE7
+8cef賯xiōnghing1154'9
+8cf0賰chǔnseon2plentiful, wealthy or rich; handsome (pay, gifts, etc.)154'94790
+8cf1賱yǔnwan2154'9
+8cf2賲bǎobou2154'9
+8cf3賳zāizoi1154'9
+8cf4賴làilaai6rely, depend on; accuse falsely154'98D56
+8cf5賵fèngfung3gift154'98D57phúng
+8cf6賶càngcong3154'102C973
+8cf7賷jīzai1take in both hands and offer to; present154'10
+8cf8賸shèngsing6leftovers, residue, remains154'102C089
+8cf9賹yìjat6154'1030DEA
+8cfa賺zhuànzaan6make money, earn; gain, profit154'108D5A
+8cfb賻fùfu6gift of money to help pay for a funeral154'108D59
+8cfc購gòugau3buy, purchase; hire154'108D2D
+8cfd賽sàicoi3compete, contend; contest, race154'108D5B
+8cfe賾zézaak3abstruse, deep, profound154'118D5C
+8cff賿liáolaau4154'11
+8d00贀yìji3154'11
+8d01贁bàibaai6to defeat to spoil or be spoiled; to corrupt or be corrupted66'14
+8d02贂chěncam2154'11
+8d03贃wàntaan3to earn, to make a profit; (Cant.) to enjoy oneself154'1127E57
+8d04贄zhìzi3gift to a superior; gift given at first meeting154'118D3D
+8d05贅zhuìzeoi6unnecessary, superfluous154'118D58
+8d06贆biāobiu1154'1230DEB
+8d07贇yūnwan1affable, agreeable, pleasant154'128D5F
+8d08贈zèngzang6give present; bestow, confer154'128D60tặng
+8d09贉dàntaam5earnest money; silk label on books154'122B3AB
+8d0a贊zànzaan3help, support, assist, aid154'128D5E
+8d0b贋yànngaan6false; counterfeit; bogus; sham154'128D5D
+8d0c贌púduk6154'12
+8d0d贍shànsin6support, aid; to be sufficient; rich, elegant154'138D61thiệm
+8d0e贎wànmaan6154'13
+8d0f贏yíngjing4win; surplus, gain, profit154'138D62
+8d10贐jìnzeon2farewell present154'148D46
+8d11贑gàngam3Jiangxi province154'142B3AC
+8d12贒xiánjin4virtuous, worthy, good; able154'14
+8d13贓zāngzong1booty, loot, stolen goods; bribe154'148D43 30DEDtang
+8d14贔bìbai3strong154'148D51
+8d15贕dúduk6154'152B9FF
+8d16贖shúsuk6buy, redeem; ransom; atone for154'158D4Echuộc
+8d17贗yànngaan6counterfeit, false154'158D5D
+8d18贘shǎngsoeng2154'15
+8d19贙xuànjyun5154'1630DEE
+8d1a贚lònglung6154'162B3A6
+8d1b贛gàngam3Jiangxi province; places therein154'178D63
+8d1c贜zāngzong1booty, loot, stolen goods; bribe154'188D43 30DED
+8d1d贝bèibui3sea shell; money, currency154'8C9Dbuổi
+8d1e贞zhēnzing1virtuous, chaste, pure; loyal154'8C9Etrinh
+8d1f负fùfu6load, burden; carry, bear154'8CA0phụ
+8d20贠yuánjyun4member; personnel, staff member154'8C9F
+8d21贡gònggung3offer tribute; tribute, gifts154'8CA2cống
+8d22财cáicoi4wealth, valuables, riches154'8CA1tài
+8d23责zézaak3one's responsibility, duty154'8CACtrách
+8d24贤xiánjin4virtuous, worthy, good; able154'8CE2hiền
+8d25败bàibaai6be defeated, decline, fail154'6557bại
+8d26账zhàngzoeng3accounts; bill, debt; credit154'8CEC
+8d27货huòfo3goods, commodities, products154'8CA8hoá
+8d28质zhìzat1matter, material, substance154'8CEAchất
+8d29贩fànfaan3peddler, hawker, street merchant154'8CA9
+8d2a贪tāntaam1be greedy, covet; covetous154'8CAAtham
+8d2b贫pínpan4poor, impoverished, needy154'8CA7bần
+8d2c贬biǎnbin2decrease, lower; censure, criticize154'8CB6biếm
+8d2d购gòugau3buy, purchase; hire154'8CFC
+8d2e贮zhùcyu5store, stockpile, hoard154'8CAFtrữ
+8d2f贯guàngun3a string of 1000 coins; to go through154'8CABquan
+8d30贰èrji6number two154'8CB3nhị
+8d31贱jiànzin6mean, low; cheap, worthless154'8CE4tiện
+8d32贲bēnbei3forge ahead; energetic; surname154'8CC1
+8d33贳shìsai3borrow; pardon; loan154'8CB0thởi
+8d34贴tiētip3paste to, stick on; attached to154'8CBC
+8d35贵guìgwai3expensive, costly, valuable154'8CB4quý
+8d36贶kuàngfong3give, grant, bestow; surname154'8CBA
+8d37贷dàitaai3lend; borrow; pardon154'8CB8
+8d38贸màomau6trade, barter; mixed; rashly154'8CBF
+8d39费fèifai3expenses, expenditures, fee154'8CBBphí
+8d3a贺hèho6congratulate; send present154'8CC0hạ
+8d3b贻yíji4give to, hand down, bequeath154'8CBD
+8d3c贼zéicaak6thief, traitor; kill154'8CCAtặc
+8d3d贽zhìzi3gift superior; gift given154'8D04
+8d3e贾jiǎgaa2surname; merchant; buy, trade154'8CC8
+8d3f贿huìfui2bribe; bribes; riches, wealth154'8CC4
+8d40赀zīzi1property; wealth; to count154'8CB2
+8d41赁lìnjam6rent, hire; hired person154'8CC3
+8d42赂lùlou6bribe; give present154'8CC2lộ
+8d43赃zāngzong1booty, loot, stolen goods; bribe154'8D13 8D1Ctang
+8d44资zīzi1property; wealth; capital154'8CC7
+8d45赅gāigoi1prepared for; inclusive154'8CC5
+8d46赆jìnzeon2farewell present154'8D10
+8d47赇qiúkau4bribe154'8CD5
+8d48赈zhènzan3relieve, aid distressed; rich154'8CD1
+8d49赉làiloi6give, present, confer; surname154'8CDA
+8d4a赊shēse1buy and sell on credit, distant154'8CD2
+8d4b赋fùfu3tax; give; endow; army; diffuse154'8CE6phú
+8d4c赌dǔdou2bet, gamble, wager; compete154'8CEDđổ
+8d4d赍jīzai1present154'8CEB 9F4E
+8d4e赎shúsuk6buy, redeem; ransom; atone for154'8D16chuộc
+8d4f赏shǎngsoeng2reward, grant, bestow; appreciate154'8CDEthưởng
+8d50赐cìci3give, bestow favors; appoint154'8CDC
+8d51赑bìbai3strong154'8D14
+8d52赒zhōuzau1give for charity154'8CD9
+8d53赓gēnggang1continue154'8CE1
+8d54赔péipui4indemnify, suffer loss154'8CE0
+8d55赕dǎndaam6fine154'8CE7
+8d56赖làilaai6rely, depend on; accuse falsely154'8CF4
+8d57赗fèngfung3gift154'8CF5phúng
+8d58赘zhuìzeoi6unnecessary, superfluous154'8D05
+8d59赙fùfu6gift of money help pay funeral154'8CFB
+8d5a赚zhuànzaan6make money, earn; gain, profit154'8CFA
+8d5b赛sàicoi3compete, contend; contest, race154'8CFD
+8d5c赜zézaak3abstruse, deep, profound154'8CFE
+8d5d赝yànngaan6false; counterfeit; bogus; sham154'8D0B 8D17
+8d5e赞zànzaan3help, support, assist, aid154'8D0A
+8d5f赟yūnwan1affable, agreeable, pleasant154'8D07
+8d60赠zèngzang6give present; bestow, confer154'8D08tặng
+8d61赡shànsin6support, aid; rich, elegant154'8D0Dthiệm
+8d62赢yíngjing4win; surplus, gain, profit154'8D0F
+8d63赣gàngam3Jiangxi province; places therein154'8D1B
+8d64赤chìcek3red; bare; Kangxi radical 155155'0xích
+8d65赥xīhik1155'4
+8d66赦shèse3forgive, remit, pardon155'4xá
+8d67赧nǎnnaan5blush, turn red155'5nấn
+8d68赨tóngtung4155'6
+8d69赩xìsik1155'6
+8d6a赪chēngcing1deep red155'68D6C
+8d6b赫hèhaak1bright, radiant, glowing155'7hách
+8d6c赬chēngcing1deep red155'98D6A
+8d6d赭zhěze2reddish brown; hematite; ochre155'9
+8d6e赮xiáhaa4155'9
+8d6f赯tángtong4red, crimson155'10
+8d70走zǒuzau2walk, go on foot; run; leave; Kangxi radical 156156'0tẩu
+8d71赱zǒuzau2walk, go on foot; run; leave156'0
+8d72赲lìlik6156'2
+8d73赳jiūgau2grand, valiant156'2
+8d74赴fùfu6go to; attend, be present156'2phó
+8d75赵zhàoziu6surname; ancient state156'28D99
+8d76赶gǎngon2pursue, follow; expel, drive away156'38D768D76 8D95
+8d77起qǐhei2rise, stand up; go up; begin156'3khởi
+8d78赸shànsaan3abuse, slander; vilify; ridicule156'3
+8d79赹qióngking4156'4
+8d7a赺yǐnjam5156'4
+8d7b赻xiǎnsin2156'4
+8d7c赼zīzi1156'4
+8d7d赽juékyut3156'4
+8d7e赾qǐnjan2156'4
+8d7f赿chíci4late slow; dilatory; tardy to delay; dull; stupid156'4
+8d80趀cīzi1156'5
+8d81趁chèncan3take advantage of, avail oneself156'5sấn
+8d82趂chènji5to take advantage of; to avail oneself of. to follow; to go156'5
+8d83趃diédit6156'5
+8d84趄jūzeoi1weak, lame156'5
+8d85超chāociu1jump over, leap over; surpass156'5siêu
+8d86趆dīdai1156'5
+8d87趇xìsap1156'5
+8d88趈zhānzaam6156'5
+8d89趉juégwat6156'5
+8d8a越yuèjyut6exceed, go beyond; the more ...156'5việt
+8d8b趋qūceoi1hasten, hurry; be attracted to156'58D8B8D8B 8DA8
+8d8c趌jígat1(Cant.) to order someone to leave156'6
+8d8d趍chíceoi1156'6
+8d8e趎chúzyu1156'6
+8d8f趏guāgwaat3156'6
+8d90趐xuèhyut3156'6
+8d91趑zīzi1can't move; to falter156'6
+8d92趒tiáotiu4to jump, to climb over, to leap, to posture; a gangway156'6
+8d93趓duǒdo2156'6
+8d94趔lièlit6not progressing; to be checked156'6
+8d95趕gǎngon2pursue, follow; expel, drive away156'78D76
+8d96趖suōso1to walk, go156'7
+8d97趗cùcuk1156'7
+8d98趘xíhat6156'7
+8d99趙zhàoziu6surname; Warring States-era kingdom in modern Hebei and Shanxi156'78D75
+8d9a趚sùsuk1156'7
+8d9b趛yǐnjam5156'8
+8d9c趜júguk1(Cant.) to suffocate156'8
+8d9d趝jiàngim3to pursue; to follow up156'8
+8d9e趞quècoek3156'8
+8d9f趟tàngtong3time, occasion; take journey156'8
+8da0趠chuòcoek3156'8rượt
+8da1趡cuǐceoi2place156'8
+8da2趢lùluk6156'8
+8da3趣qùceoi3what attracts one's attention156'8thú
+8da4趤dàngdong6156'8
+8da5趥qiūcau1156'9
+8da6趦zīzi1unable to move; to falter156'9
+8da7趧títai4156'9
+8da8趨qūceoi1hasten, hurry; be attracted to156'108D8Bxu
+8da9趩chìcik1156'12
+8daa趪huángwong4156'12
+8dab趫qiáokiu4nimble156'1230DF6
+8dac趬qiāohiu1156'1230DF5
+8dad趭jiàoziu3156'12
+8dae趮zàocou3easily provoked, hasty; fierce, cruel156'13
+8daf趯tìtik1jump156'14
+8db0趰ěrji5156'14
+8db1趱zǎnzaan2go in hurry, hasten; urge156'168DB2
+8db2趲zǎnzaan2go in hurry, hasten; urge156'198DB1
+8db3足zúzuk1foot; attain, satisfy, enough; Kangxi radical 156157'0túc
+8db4趴pāpaa1lying prone, leaning over157'2
+8db5趵bàopaau3noise of tramping feet157'3
+8db6趶kùfu3157'3
+8db7趷kēgat6to jolt; (Cant.) to raise up; block157'3
+8db8趸dǔndan2sell or buy wholesale; store157'38E89
+8db9趹juékyut3kick with hoof; horse's gallop157'4
+8dba趺fūfu1sit cross-legged; back of the foo157'4
+8dbb趻chěncam2157'4
+8dbc趼jiǎngaan2callous skin on hands or feet; blisters157'6
+8dbd趽fàngfong3157'4
+8dbe趾zhǐzi2toe; tracks, footprints157'4nhảy
+8dbf趿tātaat3to tread on; slipshod157'4kịp
+8dc0跀yuèjyut6to cut off the feet, to stretch up157'4
+8dc1跁bàbaa6trample on, tread on; search for; (Cant.) to squat down157'4
+8dc2跂qíkei4creeping, crawling157'4
+8dc3跃yuèjoek6skip, jump, frolic157'48E8Ddược
+8dc4跄qiàngcoeng1walk rapidly157'48E4C
+8dc5跅tuòtok3careless, lax; dissolute157'5
+8dc6跆táitoi4trample157'5
+8dc7跇yìjai6157'5
+8dc8跈niǎnnin2157'5
+8dc9跉língling4157'5
+8dca跊mèimui6157'5
+8dcb跋bábat6go by foot; epilogue, colophon157'5
+8dcc跌diē diédit3stumble, slip, fall down; stamp157'5trặc
+8dcd跍kūfu1157'5
+8dce跎tuóto4slip, stumble, falter; vacillate157'5
+8dcf跏jiāgaa1sit cross-legged; squat157'5
+8dd0跐cīci2to trample, to step, to walk on the ball of the foot157'5
+8dd1跑pǎopaau2run, flee, leave in hurry157'5
+8dd2跒qiǎkaa2157'5
+8dd3跓zhùcyu5157'5
+8dd4跔jūkeoi1numb feet; to limp157'5
+8dd5跕diǎntip3shuffle, limp157'5chồm
+8dd6跖zhízik3sole (of the foot)157'5
+8dd7跗fūfu1the instep157'5
+8dd8跘pánpun4157'5
+8dd9跙jùzeoi2weak, lame157'5
+8dda跚shānsaan1stagger, limp157'5
+8ddb跛bǒbai1lame157'5
+8ddc跜nínei4157'5
+8ddd距jùkeoi5distance; bird's spur157'5cựa
+8dde跞lìlik1walk, move157'58E92
+8ddf跟gēngan1heel; to follow, accompany; with157'6ngấn
+8de0跠yíji4157'6
+8de1跡jīzik1search, track, trace157'68FF9tích
+8de2跢duòdo2157'6đá
+8de3跣xiǎnsin2bare footed157'6
+8de4跤jiāogaau1stumble, fall down; wrestle157'6
+8de5跥duòdo2stamp feet157'6
+8de6跦zhūzyu1hop157'6
+8de7跧quáncyun4crouch157'6
+8de8跨kuàkwaa3straddle, bestride, ride; carry157'6
+8de9跩zhuǎijai6to waddle, to limp157'6dậy
+8dea跪guìgwai6kneel157'6quỳ
+8deb跫qióngkung4sound of footsteps157'6
+8dec跬kuǐkwai2to step; a stride equal to half a pace157'6khoẻ
+8ded跭xiánghong4157'6
+8dee跮chìhasty walking157'6chọi
+8def路lùlou6road, path, street; journey157'6lộ
+8df0跰piánpin4157'6
+8df1跱zhìzi6stop157'6
+8df2跲jiágaap3hood, cowl, turban; stumble157'6
+8df3跳tiàotiu3jump, leap, vault, bounce; dance157'6khêu
+8df4跴cǎicaai2step on, tread on; search for157'6
+8df5践jiàncin5trample, tread upon, walk on157'58E10
+8df6跶dataat3stumble, slip157'68E82
+8df7跷qiāohiu1raise one's foot157'68E7Anghều
+8df8跸bìbat1clear way, make room for; clear street when emperor tours157'68E55
+8df9跹xiānsin1wander about, walk around; revolve157'68E9A
+8dfa跺duòdo2stamp feet, step157'6
+8dfb跻jīzai1ascend, go up, rise157'68E8B
+8dfc跼júguk6bent, stooped, crouched; contract157'7
+8dfd跽jìgei6to kneel for a long time, to go down on hands and knees157'7
+8dfe跾shūsuk1157'7
+8dff跿tútou4to jump about157'7
+8e00踀chùcuk1157'7
+8e01踁jìnghing5tinkling, obstinate157'7
+8e02踂niènip6157'7
+8e03踃xiāosiu1157'7
+8e04踄bùbok6157'7
+8e05踅xuécit3to walk around; turn back midway157'7
+8e06踆cūncyun4squat157'7
+8e07踇mǔmou5157'7
+8e08踈shūso1neglect; careless, lax157'7
+8e09踉liàngloeng6hop, jump; hurriedly, urgently157'7
+8e0a踊yǒngjung2leap, jump157'78E0A8E0A 8E34
+8e0b踋jiǎogoek3the foot or feet cast of a play157'7
+8e0c踌chóucau4hesitate, falter; smug, self-satisfied157'78E8Atrù
+8e0d踍qiāohaau1157'7
+8e0e踎móumau1(Cant.) to squat157'7
+8e0f踏tàdaap6step on, trample, tread on, walk157'8đạp
+8e10踐jiàncin5trample, tread upon, walk on157'88DF5
+8e11踑qí157'8
+8e12踒wōwo1to slip and sprain a limb157'8
+8e13踓wěiwai5157'8
+8e14踔chuōcoek3to get ahead; to stride; to excel157'8xợt
+8e15踕jiézit6157'8
+8e16踖jízik1trample on, tread on157'8tếch
+8e17踗niènip6157'8
+8e18踘jūguk1ball157'8guốc
+8e19踙niènip6157'8
+8e1a踚lúnleon4157'82C9A7
+8e1b踛lùluk6157'8
+8e1c踜lèngling6to stumble; to slip; to fall157'8
+8e1d踝huáiwaa5ankle157'8
+8e1e踞jùgeoi3crouch, squat; sit, occupy157'8
+8e1f踟chíci4hesitate, undecided; embarrassed157'8
+8e20踠wǎnjyun2to writhe, struggle, squirm, wriggle; to be impatient for157'8
+8e21踡quánkyun4curled, coiled157'8
+8e22踢tītek3kick157'8
+8e23踣bóbaak6to stumble and fall prone; stiff in death157'8vội
+8e24踤zúzeot1157'8nhót
+8e25踥qiècip3157'8
+8e26踦yǐji2the shin; to pierce; to touch157'8
+8e27踧cùcuk1level, as a road; appearance of uneasiness157'8
+8e28踨zōngzung1157'8
+8e29踩cǎicaai2step on157'8
+8e2a踪zōngzung1footprints, traces, tracks157'88E2A8E2A 8E64tông
+8e2b踫pèngpung3collide, bump into157'9
+8e2c踬zhìzi3stumble, totter; fail, be frustrated157'88E93
+8e2d踭zhēngzaang1(Cant.) heel, elbow157'8
+8e2e踮diǎndim3tiptoe157'8
+8e2f踯zhízaak6waver, hesitate, be irresolute157'88E91
+8e30踰yújyu4exceed, transgress; cross over157'9
+8e31踱duódok6stroll, pace, walk slowly157'9
+8e32踲dùndan6157'9
+8e33踳chuǎnceon2mixed; obstinate157'9
+8e34踴yǒngjung2leap, jump157'98E0A
+8e35踵zhǒngzung2heel; follow; visit, call on157'9
+8e36踶dìdai6paw157'9
+8e37踷zhǎzaa2157'9
+8e38踸chěncam2157'9chậm
+8e39踹chuàicyun2trample, tread on, kick; to crush157'9
+8e3a踺jiàngin6157'8
+8e3b踻guāgwaa1157'9
+8e3c踼tángtong4to fall flat; to fall on the face157'9
+8e3d踽jǔgeoi2to walk alone; self-reliant157'9
+8e3e踾fúfuk1157'9
+8e3f踿zúzuk1157'9
+8e40蹀diédip6to skip, to dance; to put the foot down157'9
+8e41蹁piánpin4to walk with a limp157'9
+8e42蹂róujau4trample under foot, tread on157'9
+8e43蹃nuònoek6157'9
+8e44蹄títai4hoof; horse157'9đế
+8e45蹅chǎcaa5to tread on, walk through157'9
+8e46蹆tuǐtan3(Cant.) to move in a straight line157'10thủi
+8e47蹇jiǎngin2lame, crippled; unlucky; hexagram ䷦157'10kiễng
+8e48蹈dǎodou6stamp feet; dance157'10dạo
+8e49蹉cuōco1error, mistake, slip; failure157'10tha
+8e4a蹊qīhai4footpath, trail; track157'10
+8e4b蹋tàdaap6step on, tread on; stumble, slip157'10
+8e4c蹌qiāngcoeng1walk rapidly157'108DC4
+8e4d蹍niǎnnin5upper millstone; to grind, roll, triturate157'10
+8e4e蹎diāndin1to stumble, trip157'10chân
+8e4f蹏títai4hoof; horse157'10
+8e50蹐jízik3take short steps157'10
+8e51蹑niènip6tread, step on; follow, track157'108EA1
+8e52蹒pánpun4to jump over; to limp157'108E63
+8e53蹓liūlau6stroll, take walk157'10
+8e54蹔zànzaam6temporary; fleeting; ephemeral157'112B3D0
+8e55蹕bìbat1clear way, make room for; clear street when emperor tours157'118DF8
+8e56蹖chōngzung1157'11
+8e57蹗lùluk6157'11
+8e58蹘liáolaau4(Cant.) to roost157'11
+8e59蹙cùcuk1urgent, suddenly; grieve, lament157'11
+8e5a蹚tāngtong3tread through mud and water157'11
+8e5b蹛dàizai6157'1130E1A
+8e5c蹜sùsuk1walk carefully157'11tốc
+8e5d蹝xǐsaai2sandal157'11
+8e5e蹞kuǐkwai2157'11
+8e5f蹟jīzik1trace, tracks; footprints157'11tích
+8e60蹠zhízik3step on, tread on; sole157'11
+8e61蹡qiāngcoeng1to limp; walking; in motion157'112C9C0
+8e62蹢dízaak6pig's hoof157'11nhích
+8e63蹣pán mánpun4to jump over; to limp157'118E52
+8e64蹤zōngzung1footprints, traces, tracks157'118E2A 27FDBtông
+8e65蹥liánlin4157'1130E14
+8e66蹦bèngbang1hop, leap, jump; bright157'11
+8e67蹧zāozou1to spoil; to ruin157'11
+8e68蹨niǎnnim3(Cant.) to stand on tiptoe157'12
+8e69蹩biébit6to limp157'12
+8e6a蹪tuíteoi4157'1230E1E
+8e6b蹫júgwat1157'12
+8e6c蹬dēng dèngdang1step on, tread on; lose energy157'12
+8e6d蹭cèngsang3to shuffle, procrastinate, dilly-dally157'12
+8e6e蹮xiānsin1to whirl, pirouette157'11
+8e6f蹯fánfaan4an animal's paws157'12
+8e70蹰chúcyu4hesitate, waver, falter157'128E708E70 8E95
+8e71蹱zhōngzung1to stagger along; to fall157'12
+8e72蹲dūncyun4squat, crouch; idle about157'12
+8e73蹳bōbut6157'122B3C6
+8e74蹴cùcuk1kick; tread on; leap; solemn157'12
+8e75蹵cùcuk1to tread on; to kick157'12
+8e76蹶juékyut3stumble, fall down; trample157'12
+8e77蹷juékyut3to kick back; to stumble, slip, fall157'12
+8e78蹸lìnleon6157'12
+8e79蹹tádaap6to tread on; to stamp; to walk157'12
+8e7a蹺qiāohiu1raise one's foot157'128DF7nghều
+8e7b蹻juēgiu2to raise the feet; to cross the legs; brave; sandals157'122B3CBkều
+8e7c蹼pǔbuk6webbed feet of waterfowl157'12
+8e7d蹽liāoliu1to run; to slip away quietly157'12trèo
+8e7e蹾dūndan3to squat; to crouch157'12
+8e7f蹿cuāncyun1leap; to jump; to spurt out157'128EA5
+8e80躀guàngwaan3(Cant.) to stumble over, to fall157'112C9BB
+8e81躁zàocou3tense, excited, irritable157'13tháo
+8e82躂dátaat3stumble, slip157'138DF6
+8e83躃bìbik1lame; a cripple157'13
+8e84躄bìbik1cripple, lame157'13
+8e85躅zhúzuk6walk carefully; hesitate, falter157'13sộc trọc trục xộc
+8e86躆jùgeoi3157'13
+8e87躇chúcyu4hesitate, falter, be undecided157'13chứa
+8e88躈qiàokiu3157'13
+8e89躉dǔndan2sell or buy wholesale; store157'138DB8
+8e8a躊chóucau4hesitate, falter; smug, self-satisfied157'148E0Ctrù
+8e8b躋jīzai1ascend, go up, rise157'148DFB
+8e8c躌wǔmou5157'14
+8e8d躍yuèjoek6skip, jump, frolic157'148DC3dược
+8e8e躎niǎnnin2(non-classical form of 跈), (same as 踐) to step upon; to tread upon; to trample, (same as 趁) to take advantage, hard to proceeding157'1447E2giẫy
+8e8f躏lìnleon6trample down, oppress, overrun157'148EAA
+8e90躐lièlip6to stride over; to step across157'15láp
+8e91躑zhízaak6waver, hesitate, be irresolute157'158E2F
+8e92躒lìlik1walk, move157'158DDE
+8e93躓zhìzi3stumble, totter; fail, be frustrated157'158E2C
+8e94躔cháncin4follow in, imitate; rut, path157'15
+8e95躕chúcyu4hesitate, waver, falter157'158E70
+8e96躖duànteon2157'15
+8e97躗wèiwai6exaggerate157'16
+8e98躘lónglung4to walk157'1628001ruông
+8e99躙lìnleon6trample down, oppress, overrun157'16
+8e9a躚xiānsin1wander about, walk around; revolve157'168DF9
+8e9b躛wèiwai6exaggerate157'16
+8e9c躜zuānzyun1to jump157'168EA6
+8e9d躝lánlaan1to pass; to step over; to creep; to twine round157'172816C
+8e9e躞xièsip3to walk157'17
+8e9f躟rángjoeng4157'17
+8ea0躠sǎsit3to limp157'17
+8ea1躡niènip6tread, step on; follow, track157'188E51
+8ea2躢tàdaap6157'18
+8ea3躣qúkeoi4157'18
+8ea4躤jízik6157'18
+8ea5躥cuāncyun1leap; to jump; to spurt out157'188E7F
+8ea6躦cuózyun1to jump157'198E9C
+8ea7躧xǐsaai2sandal157'1930E10
+8ea8躨kuíkwai4157'21
+8ea9躩juéfok3take quick, short steps157'20
+8eaa躪lìnleon6trample down, oppress, overrun157'208E8F
+8eab身shēnsan1body; trunk, hull; Kangxi radical 158158'0thân
+8eac躬gōnggung1body; personally, in person158'3cung
+8ead躭dāndaam1to delay; to loiter; to hinder158'4
+8eae躮fēnfan1158'4
+8eaf躯qūkeoi1body158'48EAF8EAF 8EC0
+8eb0躰tǐtai2body; group, class, body, unit158'5
+8eb1躱duǒdo2hide158'6
+8eb2躲duǒdo2hide, secrete; avoid, escape158'6
+8eb3躳gōnggung1body; self158'7
+8eb4躴lánglong4tall158'7
+8eb5躵rěnjan2158'7
+8eb6躶luǒlo2bare, nude; undress, strip158'8
+8eb7躷ǎiai2of short stature, low in height158'8
+8eb8躸jīgei1158'8
+8eb9躹júguk1158'8
+8eba躺tǎngtong2lie down, recline158'8thẳng
+8ebb躻kōnghung1158'8
+8ebc躼làolou6158'8
+8ebd躽yǎnjin2(Cant.) 躽胸凸肚, to push out one's chest and belly158'9
+8ebe躾měimei5to discipline, train, bring up; discipline, training158'9
+8ebf躿kānghong1tall158'10
+8ec0軀qūkeoi1body158'118EAFxo
+8ec1軁lóulau4158'11
+8ec2軂làolou6158'122C9E4
+8ec3軃duǒdo2to droop, hang down158'1230E40
+8ec4軄zhízik1to govern, to oversee, to manage, to direct official duty, office158'12
+8ec5軅yànngaan6158'12
+8ec6軆tǐtai2body; group, class, body, unit158'13
+8ec7軇dàodou6158'142E736
+8ec8軈yīngjing3soon after, soon; almost; no more than; after all158'17
+8ec9軉yùjuk6158'2028257
+8eca車chēce1cart, vehicle; carry in a cart; Kangxi radical 159159'08F66xa
+8ecb軋yàaat3crush by weight; grind159'18F67
+8ecc軌guǐgwai2track, rut, path159'28F68quẫy
+8ecd軍jūngwan1army, military; soldiers, troops159'2519Bquân
+8ece軎wèiwai6a brass parts for a cart in ancient China159'330E72
+8ecf軏yuèjyut6cross-bar at the end of the poles of a cart159'32B404ngột
+8ed0軐xìnseon3159'3
+8ed1軑dàidai6a hubcap; a wheel159'38F6A
+8ed2軒xuānhin1carriage; high; wide; balcony; surname of the Yellow Emperor159'38F69hiên
+8ed3軓fànfaan6159'330E74
+8ed4軔rènjan6a block that keeps a wheel from moving159'38F6B
+8ed5軕shānsim1159'32B405
+8ed6軖kuángkwong4159'430E76
+8ed7軗shūsyu4159'428405
+8ed8軘túntyun4war car159'430E78
+8ed9軙chéncan4a Chinese family name to arrange; to display wheel159'4
+8eda軚dàitaai5(Cant.) a steering wheel159'42EDD7
+8edb軛èaak1yoke, collar; to restrain159'48F6D
+8edc軜nànaap6reins159'42B407
+8edd軝qíkei4axle-tip159'42CA02
+8ede軞máomou4159'42CA01
+8edf軟ruǎnjyun5soft, flexible, pliable; weak159'48F6Fnhuyễn
+8ee0軠kuángkwong4159'4
+8ee1軡qiánkim4159'4
+8ee2転zhuǎnzyun2shift, move, turn159'4
+8ee3軣hōnggwang1rumble, explosion, blast159'4
+8ee4軤hūfu1surname159'58F77
+8ee5軥qúkeoi4yoke159'530E81
+8ee6軦kuàngfong3159'5
+8ee7軧dǐdai2159'530E80
+8ee8軨língling4wooden cross-piece on front inside of carriage box159'52B409
+8ee9軩dàitoi5159'5
+8eea軪āoau1159'5
+8eeb軫zhěnzan2cross-board at rear of a carriage; 28th lunar mansion, determinative star γ Corvi (Gienah)159'58F78
+8eec軬fànfaan6159'52B40A
+8eed軭kuāngwaang1(Cant.) to spoil, ruin159'6
+8eee軮yǎngong3159'52CA04
+8eef軯pēngpaang1surname159'530E7D
+8ef0軰bèibui3a row of carriages; a generation; a class, a series a kind; denotes the plural159'5
+8ef1軱gūgu1large bone159'52E774
+8ef2軲gūgu1a wheel; to revolve159'58F71
+8ef3軳páopou4159'530E82
+8ef4軴zhùzyu3159'5
+8ef5軵rǒngfu2159'530E7F
+8ef6軶èaak1yoke, collar; to restrain159'5
+8ef7軷bábat6sacrifice159'52B408
+8ef8軸zhóuzuk6axle, axletree; pivot; axis159'58F74trục
+8ef9軹zhǐzi2end of axle; divergent159'58F75
+8efa軺yáojiu4small light carriage159'58F7A
+8efb軻kēo1axle; personal name of Mencius159'58F72
+8efc軼yìjat6rush forth; surpass, excel159'58F76
+8efd軽zhìzi3light; easy, simple; gentle159'5
+8efe軾shìsik1horizontal wooden bar in front of a sedan chair159'68F7C
+8eff軿píngping4curtained carriage used by women159'62B40Cbánh
+8f00輀érji4hearse159'62E775
+8f01輁gǒnggung2159'630E84
+8f02輂júguk1159'630E85
+8f03較jiàogaau3compare; comparatively, more159'68F83
+8f04輄guānggwong1159'628408
+8f05輅lùlou6a chariot, carriage; a carriage pull-bar159'68F82
+8f06輆kǎihoi2159'62CA07
+8f07輇quáncyun4cart wheel with no spokes159'68F81
+8f08輈zhōuzau1shaft159'68F80
+8f09載zàizoi3load; carry; transport, convey159'68F7Dtải
+8f0a輊zhìzi3low rear portion of cart159'68F7E
+8f0b輋shēse4沙田禾輋, Hong Kong toponym159'62AA36
+8f0c輌liàngloeng6numerary adjunct for vehicles159'6
+8f0d輍yùjuk6159'7
+8f0e輎shāosaau1159'7
+8f0f輏yóujau4light; light carriage159'7
+8f10輐wànwun6159'730E87
+8f11輑yǐnwan5159'730E88
+8f12輒zhézip3then; each; rack on chariot for luggage or weapons159'78F84
+8f13輓wǎnwaan5mourn; pull; draw159'7633D 2CA08
+8f14輔fǔfu6cheek bone; protective; assist159'78F85
+8f15輕qīnghing1light; easy, simple; gentle159'78F7Bkhinh
+8f16輖zhōuzau1159'82B40F
+8f17輗níngai4the cross-bar at the end of a carriage pole; linchpin of a large carriage159'82B410
+8f18輘léngling4a car-rut; rumbling of a cart159'830E8A
+8f19輙zhézip3then; each; rack on chariot for luggage or weapons159'830E8B
+8f1a輚zhànzaan6159'830E7C
+8f1b輛liàngloeng6numerary adjunct for vehicles159'88F86
+8f1c輜zīzi1a supply cart, covered wagon, dray159'88F8E
+8f1d輝huīfai1brightness, luster, brilliance159'88F89huy
+8f1e輞wǎngmong5exterior rim of wheel, felly159'88F8Bvõng
+8f1f輟chuòzyut3stop, suspend, halt159'88F8D
+8f20輠guǒgwo2grease pot hung under axle of cart159'830E8D
+8f21輡kǎnham2(same as 轗) to fail; a difficulty, misfortune159'830E90
+8f22輢yǐji2159'82B40E
+8f23輣péngpaang4159'830E8F
+8f24輤qiànsin3a pall to cover a hearse159'830E89
+8f25輥gǔngwan2turn round, revolve; roller159'88F8A
+8f26輦niǎnlin5a handcart; capital city159'88F87
+8f27輧píngping4curtained carriage used by women159'8
+8f28輨guǎngun2159'82B411
+8f29輩bèibui3generation, lifetime; class159'88F88bối
+8f2a輪lúnleon4wheel; revolve, turn; recur159'88F6Eluân
+8f2b輫páipaai4159'830E8E
+8f2c輬liángloeng4a hearse; a carriage159'88F8C
+8f2d輭ruǎnjyun5flexible, pliable; weak, feeble159'9
+8f2e輮róujau4exterior rim of wheel, felly159'92B413
+8f2f輯jícap1gather up, collect; edit, compile159'98F91
+8f30輰yángjoeng4159'9
+8f31輱xiánhaam4159'9
+8f32輲chuáncyun4159'930E92
+8f33輳còucau3hubs of wheel; converge around159'98F8F
+8f34輴chūnceon1sled159'92E778
+8f35輵gégot3great array of spears and chariots159'92CA0D
+8f36輶yóujau4light carriage; trifling, light159'92CA0E
+8f37輷hōnggwang1159'92B412
+8f38輸shūsyu1transport, carry, haul159'98F93thâu
+8f39輹fùfuk1two pieces of wood underneath a cart159'930E93
+8f3a輺zīzi1159'9
+8f3b輻fúfuk1spokes of wheel159'98F90
+8f3c輼wēnwan1159'98F92
+8f3d輽bènban6vehicle159'10
+8f3e輾zhǎnzin2turn over, roll159'108F97
+8f3f輿yújyu4cart, palanquin; public opinion159'108206
+8f40轀wēnwan1hearse159'108F92
+8f41轁tāotou1159'102EDDD
+8f42轂gǔguk1hub of wheel159'106BC2
+8f43轃zhēnzeon1159'1030E96
+8f44轄xiáhat6linchpin of wheel; control159'108F96hạt
+8f45轅yuánjyun4axle; magistrate's office; surname159'108F95
+8f46轆lùluk1windlass, pulley, capstan; wheel159'118F98
+8f47轇jiāogaau1complicated, confused; dispute159'112B416
+8f48轈cháocaau4turret on a chariot159'112CA13
+8f49轉zhuǎnzyun2shift, move, turn159'118F6Cchuyển
+8f4a轊wèiwai6axle-tip159'112B415
+8f4b轋húnwan4159'11
+8f4c轌xuěsyut3sled159'11
+8f4d轍zhécit3wagon ruts, wheel tracks159'128F99
+8f4e轎jiàogiu2sedan-chair, palanquin159'128F7Fkiệu
+8f4f轏zhànzaan6sleeping cart159'1230E9E
+8f50轐búbuk6159'122B417
+8f51轑lǎorut159'1230E9B
+8f52轒fénfan4chariot159'122E777
+8f53轓fānfaan1159'1230E9C
+8f54轔línleon4rumbling of vehicles; threshold159'128F9A
+8f55轕gégot3great array of spears and chariots159'132E77A
+8f56轖sèsik1framework of lattice on cart159'1330E99
+8f57轗kǎnham2fail159'132B418
+8f58轘huánwaan4tear asunder between chariots159'132E779
+8f59轙yǐngai5rings on a yoke159'1330E75
+8f5a轚jígik1159'1330E9F
+8f5b轛zhuìdeoi3159'1430E83
+8f5c轜érji4hearse159'14
+8f5d轝yùjyu4envy; hate, dislike; resentment159'142C6FC
+8f5e轞jiànlaam6a vehicle for transporting prisoners159'1430E97
+8f5f轟hōnggwang1rumble, explosion, blast159'148F70huênh
+8f60轠léileoi4159'152B419
+8f61轡pèibei3bridle of horse, reins159'158F94
+8f62轢lìlik1run over something with vehicle159'158F79
+8f63轣lìkyut3to gallop; a mule159'162B406
+8f64轤lúlou4pulley, windlass, capstan159'168F73
+8f65轥lìnleon6159'2030EA3
+8f66车chēce1cart, vehicle; carry in cart159'8ECAxa
+8f67轧yàaat3crush by weight; grind159'8ECB
+8f68轨guǐgwai2track, rut, path159'8ECCquẫy
+8f69轩xuānhin1carriage; high; wide; balcony159'8ED2hiên
+8f6a轪dàidai6a hubcap; a wheel159'8ED1
+8f6b轫rènjan6a block that keeps a wheel from moving159'8ED4
+8f6c转zhuǎnzyun2shift, move, turn159'8F49chuyển
+8f6d轭èaak1yoke, collar159'8EDB
+8f6e轮lúnleon4wheel; revolve, turn; recur159'8F2Aluân
+8f6f软ruǎnjyun5soft, flexible, pliable; weak159'8EDFnhuyễn
+8f70轰hōnggwang1rumble, explosion, blast159'8F5Fhuênh
+8f71轱gūgu1wheel; to turn; to revolve159'8EF2
+8f72轲kēo1axle; personal name of Mencius159'8EFB
+8f73轳lúlou4pulley, windlass, capstan159'8F64
+8f74轴zhóuzuk6axle, axletree; pivot; axis159'8EF8trục
+8f75轵zhǐzi2end of axle; divergent159'8EF9
+8f76轶yìjat6rush forth; surpass, excel159'8EFC
+8f77轷hūfu1surname159'8EE4
+8f78轸zhěnzan2cross board at rear of carriage159'8EEB
+8f79轹lìlik1run over something with vehicle159'8F62
+8f7a轺yáojiu4small light carriage159'8EFA
+8f7b轻qīnghing1light; easy, simple; gentle159'8F15khinh
+8f7c轼shìsik1horizontal wooden bar in front159'8EFE
+8f7d载zàizoi3load; carry; transport, convey159'8F09tải
+8f7e轾zhìzi3low rear portion of cart159'8F0A
+8f7f轿jiàogiu6sedan-chair, palanquin159'8F4Ekiệu
+8f80辀zhōuzau1shaft159'8F08
+8f81辁quáncyun4cart wheel with no spokes159'8F07
+8f82辂lùlou6a chariot, carriage; a carriage pull-bar159'8F05
+8f83较jiàogaau3compare; comparatively, more159'8F03
+8f84辄zhézip3sides of chariot where weapons159'8F12
+8f85辅fǔfu6cheek bone; protective; assist159'8F14
+8f86辆liàngloeng6numerary adjunct for vehicles159'8F1B
+8f87辇niǎnlin5hand-cart; transport by carriage159'8F26
+8f88辈bèibui3generation, lifetime; class159'8F29bối
+8f89辉huīfai1brightness, luster, brilliance159'8F1Dhuy
+8f8a辊gǔngwan2turn round, revolve; roller159'8F25
+8f8b辋wǎngmong5exterior rim of wheel, felly159'8F1Evõng
+8f8c辌liángloeng4a hearse; a carriage159'8F2C
+8f8d辍chuòzyut3stop, suspend, halt159'8F1F
+8f8e辎zīzi1a supply cart, covered wagon, dray159'8F1C
+8f8f辏còucau3hubs of wheel; converge around159'8F33
+8f90辐fúfuk1spokes of wheel159'8F3B
+8f91辑jícap1gather up, collect; edit, compile159'8F2F
+8f92辒wēnwan1hearse159'8F3C 8F40
+8f93输shūsyu1transport, carry, haul159'8F38thâu
+8f94辔pèibei3bridle of horse, reins159'8F61
+8f95辕yuánjyun4axle; magistrate's office; surname159'8F45
+8f96辖xiáhat6linchpin of wheel; control159'8F44hạt
+8f97辗zhǎnzin2turn over, roll159'8F3E
+8f98辘lùluk1windlass, pulley, capstan; wheel159'8F46
+8f99辙zhécit3wagon ruts, wheel tracks159'8F4D
+8f9a辚línleon4rumbling of vehicles; threshold159'8F54
+8f9b辛xīnsan1bitter; toilsome, laborious; 8th heavenly stem; Kangxi radical 160160'0tân
+8f9c辜gūgu1crime, criminal offense160'5
+8f9d辝cíci4160'5
+8f9e辞cíci4words, speech, expression, phrase160'68F9E8F9E 8FADtừ
+8f9f辟pìpik1law, rule; open up, develop160'68F9F8F9F 95E2vếch
+8fa0辠zuìzeoi6crime, sin, vice; evil; hardship160'6
+8fa1辡biànbin6recrimination; wrangling160'7
+8fa2辢làlaat6bitter, pungent, acrid160'7
+8fa3辣làlaat6peppery, pungent, hot; cruel160'7lượt
+8fa4辤cíci4words, speech; a sentence, an expression or phrase; a message160'8
+8fa5辥xuēsit3variety of marsh grass160'9
+8fa6辦bànbaan6manage, do, handle; deal with160'9529E
+8fa7辧biànbin6manage, do, handle; deal with160'9
+8fa8辨biànbin6distinguish, discriminate160'9biện
+8fa9辩biànbin6dispute, argue, debate, discuss160'98FAF
+8faa辪xuēsit3160'9
+8fab辫biànbin1braid; pigtail, plait, queue160'108FAE
+8fac辬bānbaan1160'11
+8fad辭cíci4words, speech, expression, phrase160'128F9Etừ
+8fae辮biànbin1braid; pigtail, plait, queue160'138FAB
+8faf辯biànbin6dispute, argue, debate, discuss160'148FA9
+8fb0辰chénsan4early morning; fifth earthly branch; Kangxi radical 161161'0
+8fb1辱rǔjuk6humiliate, insult, abuse161'3nhọc
+8fb2農nóngnung4agriculture, farming; farmer161'6519Cnông
+8fb3辳nóngnung4agriculture, farming; farmer161'8
+8fb4辴chǎncan2161'12
+8fb5辵chuòcoek3walk; walking; Kangxi radical 162162'0
+8fb6辶chuòcaang1walk; walking; Kangxi radical 162162'0
+8fb7辷yījat1smooth, slippery162'1
+8fb8辸réngjing4162'2
+8fb9边biānbin1edge, margin, side, border162'28FB98FB9 908A
+8fba辺biāndou6edge, margin, side, border162'2
+8fbb辻shísap6crossroads; street162'2
+8fbc込yūjyu1crowd into, go into162'2
+8fbd辽liáoliu4distant, far162'2907C
+8fbe达dádaat6arrive at, reach; intelligent; smooth, slippery162'39054đạt
+8fbf辿chāncin4follow, pursue162'3
+8fc0迀gāngon1162'3
+8fc1迁qiāncin1move, shift, change; transfer; relocate a capital city162'38FC18FC1 9077
+8fc2迂yūjyu1doctrinaire, abstruse, unrealistic162'3vu
+8fc3迃yūjyu1162'3
+8fc4迄qìngat6extend, reach; until; till162'3hất
+8fc5迅xùnseon3quick, hasty, rapid, sudden162'3
+8fc6迆yíji5wind; walk out of straight path162'3
+8fc7过guògwo3pass, pass through, go across162'38FC78FC7 904Equá
+8fc8迈màimaai6take a big stride; pass by162'39081mại
+8fc9迉qī162'3
+8fca迊zājing4to go round, to make a circuit, to make a revolution, to turn round162'4
+8fcb迋wàngwong6travel, go to; deceive; scare162'4
+8fcc迌tùteot1162'4
+8fcd迍zhūnzeon1falter, hesitate162'4dọn đon đón đọn đốn trốn truân
+8fce迎yíngjing4receive, welcome, greet162'4nghênh
+8fcf迏dádai3162'4
+8fd0运yùnwan6luck, fortune; ship, transport162'4904Bvận
+8fd1近jìngan6near, close; approach; intimate162'4cận
+8fd2迒hánghong4footprints of passing animals; a road162'4
+8fd3迓yàngaa6to go to meet, to receive, as a guest162'4
+8fd4返fǎnfaan2return, revert to, restore162'4phản
+8fd5迕wǔng6obstinate, perverse162'4
+8fd6迖dádai3162'4
+8fd7迗éngo4162'4
+8fd8还háiwaan4still, yet, also, besides162'48FD88FD8 9084
+8fd9这zhèze5this, the, here162'48FD98FD9 9019
+8fda迚dázung1very; somehow162'4
+8fdb进jìnzeon3advance, make progress, enter162'49032tiến
+8fdc远yuǎnjyun5distant, remote, far; profound162'48FDC8FDC 9060viễn
+8fdd违wéiwai4disobey, violate, defy; be apart from162'49055vi
+8fde连liánlin4join, connect; continuous; even162'49023liên
+8fdf迟chíci4late, tardy; slow; delay162'49072trì
+8fe0迠chègin3made162'5
+8fe1迡nìnai6162'5chầy
+8fe2迢tiáotiu4far; distant162'5dìu
+8fe3迣zhìlit6to leap over162'5
+8fe4迤yíji5wind; walk out of straight path162'5
+8fe5迥jiǒnggwing2distant, far; separated; different162'5
+8fe6迦jiāgaa1character for transliteration162'5dà
+8fe7迧chéncan4a Chinese family name arrange; display a column of troops162'5
+8fe8迨dàidoi6until, when; seize, arrest162'5
+8fe9迩ěrji5be near, be close; recently162'58FE98FE9 9087
+8fea迪dídik6enlighten, advance; progress162'5
+8feb迫pòbaak1coerce, force, compel; urgent162'5bách
+8fec迬zhùzyu3to walk along, to go162'4
+8fed迭diédit6repeatedly, frequently162'5dật
+8fee迮zézaak3to rise; contracted; cramped162'5
+8fef迯táotou4escape, flee; abscond, dodge162'5
+8ff0述shùseot6narrate, state, express162'5thuật
+8ff1迱tuóto4162'5
+8ff2迲quheoi3162'5
+8ff3迳jìngging3pass by, approach; direct162'59015
+8ff4迴huíwui4revolve, rotate; curving, zigzag162'656DEhồi
+8ff5迵dòngdung6162'6
+8ff6迶yòujau6162'6
+8ff7迷mímai4bewitch, charm, infatuate162'6mê
+8ff8迸bèngbing3gush out; burst forth; split162'6
+8ff9迹jìzik1traces, impressions, footprints162'68FF98DE1 8FF9tích
+8ffa迺nǎinaai5then, thereupon, only then162'6
+8ffb迻yíji4to shift; to transfer; to transform162'6đi đưa đừa
+8ffc迼jiékit3162'6
+8ffd追zhuīzeoi1pursue, chase after; expel162'6truy
+8ffe迾lièlit6(Cant.) row162'6lướt
+8fff迿xùnseon6to be the first to begin a quarrel162'6
+9000退tuìteoi3step back, retreat, withdraw162'6thoái
+9001送sòngsung3see off, send off; dispatch, give162'6tống
+9002适shì kuòsik1go, reach; appropriate, suitable162'690029002 9069
+9003逃táotou4escape, flee; abscond, dodge162'6đào
+9004逄pángpong4a surname162'6
+9005逅hòuhau6meet unexpectedly162'6
+9006逆nìjik6disobey, rebel; rebel, traitor162'6nghịch
+9007逇dùndeon6162'6
+9008逈jiǒnggwing2distant, far; separated; different162'6
+9009选xuǎnsyun2choose, select; elect; election162'690099009 9078
+900a逊xùnseon3humble, modest; yield162'6900A900A 905C
+900b逋būbou1flee, run away, leave debt unsettled162'7bô
+900c逌yōujau4please; smiling; complacent162'7
+900d逍xiāosiu1ramble, stroll, jaunt, loiter162'7
+900e逎qiúcau4strong, unyielding, forceful162'7tùa
+900f透tòutau3penetrate, pass through162'7thấu
+9010逐zhúzuk6chase, expel; one by one162'7trục
+9011逑qiúkau4collect, unite; match, pair162'7
+9012递dìdai6hand over, deliver; substitute162'790129012 905E
+9013逓dìdai6hand over, deliver; substitute162'7
+9014途tútou4way, road, path, journey; course162'7đồ
+9015逕jìngging3pass by, approach; direct162'78FF3
+9016逖tìtik1far, distant; keep at distance162'7
+9017逗dòudau6tempt, allure, arouse, stir162'7
+9018逘yǐji4162'7
+9019這zhèze5this, the, here162'78FD9
+901a通tōngtung1pass through; common; communicate162'7thông
+901b逛guàngkwaang3ramble, stroll, roam, wander162'7
+901c逜wùng6162'7
+901d逝shìsai6pass away; die162'7
+901e逞chěngcing2indulge oneself; brag, show off162'7sính
+901f速sùcuk1quick, prompt, speedy162'7tốc
+9020造zàozou6construct, build, make, begin; prepare162'7tạo
+9021逡qūnseon1retreat, withdraw, fall back162'7
+9022逢féngfung4come upon, happen meet; flatter162'7phùng
+9023連liánlin4join, connect; continuous; even162'78FDEliên
+9024逤suòso3162'7
+9025逥huíwui4return, turn around; a time162'7
+9026逦lǐlei5meandering, winding162'79090
+9027逧gǔguk1162'7
+9028逨láiloi4162'8
+9029逩bènban3to run quickly162'8
+902a逪cuòcok3162'8
+902b逫juézyut3162'8
+902c逬bèngbing3to scatter; to expel; to crack, to split; to jump162'8
+902d逭huànwun6to escape from; to flee, to avoid162'8quần
+902e逮dǎidai6seize, catch; reach, arrive162'8
+902f逯lùluk6leave without reason; surname162'8
+9030逰yóujau4wander, roam, travel162'8
+9031週zhōuzau1week; turn, cycle; anniversary162'8chu
+9032進jìnzeon3advance, make progress, enter162'88FDBtiến
+9033逳yùjuk1(Cant.) to move, touch, hit162'8
+9034逴chuōcoek3argue, quarrel, squabble; far162'8rước
+9035逵kuíkwai4thoroughfare, crossroads162'8
+9036逶wēiwai1winding, curving; swagger162'8
+9037逷tìtik1distant, far away162'8
+9038逸yìjat6flee, escape, break loose162'8dật
+9039逹dádaat6arrive at, reach; intelligent162'8
+903a逺yuǎnjyun5distant, remote, far; profound162'8
+903b逻luólo4patrol; inspect; watch; patrol162'8903B903B 908F
+903c逼bībik1compel, pressure, force; bother162'9bức
+903d逽nuònoek6162'9
+903e逾yújyu4go over, pass over, exceed162'9du
+903f逿dàngdong6a time; a row; to fall, miss162'930EB2
+9040遀suíceoi4162'9
+9041遁dùndeon6hide, conceal oneself; escape162'9trốn
+9042遂suìseoi6comply with, follow along; thereupon162'9toại
+9043遃yǎnjin5162'9
+9044遄chuáncyun4to hurry; to go to and fro162'9
+9045遅chíci4late, tardy; slow; delay162'9
+9046遆títai4162'9
+9047遇yùjyu6meet, come across, encounter162'9ngộ
+9048遈shízik6162'9
+9049遉zhēnzing1spy, reconnoiter; detective162'9
+904a遊yóujau4wander, roam, travel162'9du
+904b運yùnwan6luck, fortune; ship, transport162'98FD0vận
+904c遌èngok6162'9
+904d遍biànpin3everywhere, all over, throughout162'9
+904e過guògwo3pass, pass through, go across162'98FC7quá
+904f遏èaat3stop, suppress, curb, check; a bar162'9át
+9050遐xiáhaa4afar, distant; old, advanced in162'9
+9051遑huángwong4leisure, leisurely; hurry about162'9
+9052遒qiúcau4strong, unyielding, forceful162'9
+9053道dàodou6path, road, street; method, way162'9đạo
+9054達dádaat6arrive at, reach; intelligent162'98FBEđạt
+9055違wéiwai4disobey, violate, defy; be apart from162'98FDDvi
+9056遖nánnaam4162'9
+9057遗yíwai4lose; articles lost; omit162'9907Adi
+9058遘gòugau3to meet; to come across162'10
+9059遙yáojiu4far away, distant, remote162'109065diêu
+905a遚chòucau3162'10
+905b遛liùlau6take walk, stroll162'10
+905c遜xùnseon3humble, modest; yield162'10900A
+905d遝tàdaap6mixed, abundant, assorted162'10
+905e遞dìdai6hand over, deliver; substitute162'109012đệ
+905f遟chíci4late, tardy; slow; delay162'10
+9060遠yuǎnjyun5distant, remote, far; profound162'108FDCviễn
+9061遡sùsou3go upstream; trace source; formerly162'10
+9062遢tataap3careless, negligent, slipshod162'10
+9063遣qiǎnhin2send, dispatch; send off, exile162'10khiến
+9064遤mǎmaa5162'10
+9065遥yáojiu4far away, distant, remote162'109059diêu
+9066遦guàngwaan3162'11
+9067遧zhāngzoeng1162'11
+9068遨áongou4ramble, roam; travel for pleasure162'11ngao
+9069適shìsik1match, comfortable; just162'119002thích
+906a遪càcaap3162'11
+906b遫chìcik1speed162'11
+906c遬sùcuk1162'11
+906d遭zāozou1come across, meet with, encounter162'11tao
+906e遮zhēze1cover, shield, protect162'11
+906f遯dùndeon6deceive, hide, conceal; flee; hexagram ䷠162'11rộn
+9070遰dìdai6grunting sound of pigs; clash162'1130EC6
+9071遱lóulau4162'112B437
+9072遲chíci4late, tardy; slow; delay162'128FDFtrì
+9073遳cuōco1162'11
+9074遴línleon4select, choose; surname162'12lận
+9075遵zūnzeon1obey, comply with, follow; honor162'12tuân
+9076遶ràojiu2entwine; wind around; surround162'1230EB7nháo
+9077遷qiāncin1move, shift, change; transfer162'128FC1thiên
+9078選xuǎnsyun2choose, select; elect; election162'129009tuyển
+9079遹yùwat6comply with, obey; shun, avoid162'12
+907a遺yíwai4lose; articles lost; omit162'129057di
+907b遻èng6meet162'12
+907c遼liáoliu4distant, far162'128FBD
+907d遽jùgeoi6suddenly, unexpectedly; at once162'13
+907e遾shìsai6162'13
+907f避bìbei6avoid; turn aside; escape; hide162'13tị
+9080邀yāojiu1invite, welcome; meet, intercept162'13
+9081邁màimaai6take a big stride; pass by162'138FC8mại
+9082邂xièhaai5unexpected meeting; encounter by162'13
+9083邃suìseoi6profound, detailed; deep162'13
+9084還háiwaan4still, yet, also, besides162'138FD8hoàn
+9085邅zhānzin1hesitant, faltering162'13chênh
+9086邆téngtang4162'12
+9087邇ěrji5be near, be close; recently162'148FE9
+9088邈miǎomiu5far, distant, remote; slight162'14
+9089邉biānbin1edge, margin, side, border162'13
+908a邊biānbin1edge, margin, side, border162'158FB9biên
+908b邋lālaap6rags162'15
+908c邌lílai4to walk slowly; to parade162'15
+908d邍yuánjyun4162'16
+908e邎yáojau4162'17
+908f邏luólo4patrol; inspect; watch162'19903Blạ
+9090邐lǐlei5meandering, winding162'199026
+9091邑yìjap1area; district; city; state; Kangxi radical 163163'0ấp
+9092邒tíngting4163'2
+9093邓dèngdang6surname163'29127đặng
+9094邔qǐ163'3
+9095邕yōngjung1former or literary name for Nanning (in Guangxi)163'3
+9096邖shānsaan1163'3
+9097邗hánhon4an ancient place in the state of Wu163'3
+9098邘yújyu1state in Henan province163'3
+9099邙mángmong4mountain in Henan province163'3mương
+909a邚rújyu4163'3
+909b邛qióngkung4in distress; a mound163'3
+909c邜xīzik6163'3
+909d邝kuàngkwong3surname163'3913A
+909e邞fūfu1163'4
+909f邟kàngkong3163'4
+90a0邠bīnban1county in Shaanxi province163'4
+90a1邡fāngfong1name of a district in Sichuan163'4
+90a2邢xíngjing4surname; state in today's Hebei163'4
+90a3那nànaa5that, that one, those163'4na
+90a4邤xīnjan1163'4
+90a5邥shěnsam2163'4
+90a6邦bāngbong1nation, country, state163'4vâng
+90a7邧yuánjyun4town in Shanxi province163'4
+90a8邨cūncyun1village, hamlet; rustic163'4
+90a9邩huǒfo2163'4
+90aa邪xiéce4wrong, evil, depraved, vicious, perverse, heterodox163'4tà
+90ab邫bāngbong1163'4
+90ac邬wūwu1various place names; surname163'49114
+90ad邭jùgeoi3163'5
+90ae邮yóujau4postal, mail; post office163'590F5
+90af邯hánhon4city in Hebei province163'5
+90b0邰táitoi4surname; state in modern Shanxi163'5
+90b1邱qiūjau1surname; hill; mound; grave163'5
+90b2邲bìbei3ancient name of a place in Henan163'5
+90b3邳pīpei4a department in the state of Lu, modern Shandong163'5
+90b4邴bǐngbing2name of a city in the ancient state of Song, in what is now Shandong; pleased163'5
+90b5邵shàosiu6surname; various place names163'5
+90b6邶bèibui3place in today's Henan province163'5
+90b7邷wǎngaa5163'5
+90b8邸dǐdai2official residence, residence of163'5
+90b9邹zōuzau1name of an ancient state; surname163'59112
+90ba邺yèjip6place in today's Henan province163'59134
+90bb邻línleon4neighbor; neighborhood163'59130lân
+90bc邼kuānghong1163'6
+90bd邽guīgwai1name of a place in Shaanxi province163'6
+90be邾zhūzyu1a feudal state which existed B.C.700-469; now in Shandong163'6chau
+90bf邿shīsi1a Zhou-dynasty state in modern Shandong province163'6
+90c0郀kūfu1163'6
+90c1郁yùjuk1sweet smelling, rich in aroma; (Cant.) to move, hit163'690C190C1 9B31
+90c2郂gāigoi1163'6
+90c3郃héhap6county in Shanxi province163'6
+90c4郄qiègwik1surname163'6
+90c5郅zhìzat6to go up to; flourishing; a superlative163'6
+90c6郆jígat1163'6
+90c7郇huánwan4an ancient feudal State in Shaanxi163'6
+90c8郈hòuhau6place in Shandong province163'6
+90c9郉xíngjing4surname; place name163'6
+90ca郊jiāogaau1suburbs; waste land, open spaces163'6
+90cb郋xíhai4163'6
+90cc郌guīgwai1name of an ancient county in modern Gansu/Shaanxi area.163'6
+90cd郍nuónaa5163'6
+90ce郎lánglong4gentleman, young man; husband163'6lang
+90cf郏jiágaap3county in Henan province; surname163'690DF
+90d0郐kuàikui2state in today's Henan province163'69136
+90d1郑zhèngzeng6state in today's Henan; surname163'690D190D1 912D
+90d2郒lánglong4163'7
+90d3郓yùnwan6surname; an ancient town's name163'69106
+90d4郔yánjin4place name in Shandong province163'7
+90d5郕chéngsing4state in Shandong province163'7
+90d6郖dòudau1163'7
+90d7郗xīci1surname163'7
+90d8郘lǚleoi5163'7
+90d9郙fǔfu2to be exiled; delay payment for163'7
+90da郚wúng4towns in Shandong province163'7
+90db郛fúfu1outer walls of city; suburbs163'7
+90dc郜gàogou3surname163'7
+90dd郝hǎokok3surname; place in modern Shanxi163'7
+90de郞lánglong4gentleman163'7
+90df郟jiágaap3county in Henan province; surname163'790CF
+90e0郠gěnggang2place in Shandong province163'7
+90e1郡jùngwan6administrative division163'7quận
+90e2郢yǐngjing5ancient city in Hubei163'7
+90e3郣bóbut6163'7
+90e4郤xìgwik1crack, opening; surname163'7
+90e5郥bèikwik1163'7
+90e6郦lìlik6place in today's Henan province163'79148
+90e7郧yúnwan4county in Hubei province163'79116
+90e8部bùbou6part, division, section163'8bộ
+90e9郩xiáohaau4163'8
+90ea郪qīcai1name of a stream in Sichuan province163'8
+90eb郫pípei4a county in Sichuan163'8
+90ec郬qīngcing1163'8
+90ed郭guōgwok3outer part (of a city); surname163'8quách
+90ee郮zhōuzau1163'8
+90ef郯tántaam4a county in Shandong163'8
+90f0郰zōuzau1birthplace of Confucius, a place in Shandong163'8
+90f1郱píngping4163'8
+90f2郲láiloi4163'82CA7E
+90f3郳níngai4state in Shandong province163'8
+90f4郴chēnsam1county in Hunan province; surname163'8
+90f5郵yóujau4postal, mail; post office163'890AE
+90f6郶bùbou6163'8
+90f7郷xiānghoeng1country; rural; village163'8
+90f8郸dāndaan1county in Hebei province163'89132
+90f9郹júgwik1163'9
+90fa郺yōngjung1163'9
+90fb郻qiāohiu1163'9
+90fc郼yīji1163'9
+90fd都dōu dūdou1metropolis, capital; all, the whole; elegant, refined163'9đô
+90fe郾yǎnjin2county in Henan province163'9
+90ff郿méimei4county in Shaanxi province163'9
+9100鄀ruòjoek6state in Henan province163'9
+9101鄁bèibui3163'9
+9102鄂èngok6Hubei province; startled163'9
+9103鄃shūsyu1163'9
+9104鄄juàngyun3a county in Shandong163'9
+9105鄅yǔjyu5163'9
+9106鄆yùnwan6surname; an ancient town's name163'990D3
+9107鄇hóuhau6a name of a town in Henan province163'9
+9108鄈kuíkwai4slippers, sandals; dance shoes163'9
+9109鄉xiānghoeng1country; rural; village163'94E61
+910a鄊xiānghoeng1163'9
+910b鄋sōusau1a Chunqiu-era state in modern Shandong163'10
+910c鄌tángtong4a place in Shandong163'10
+910d鄍míngming4a town in Shandong province163'10
+910e鄎xīsik1a place in Henan province163'10
+910f鄏rǔjuk6place in Henan province163'10
+9110鄐chùcuk1town in Henan province163'10
+9111鄑zīzi1kick; place in Shandong province163'10
+9112鄒zōuzau1a Zhou-dynasty state in modern Shandong163'1090B9
+9113鄓yèjip3163'10
+9114鄔wūwu1various place names; surname; transliteration of Sanskrit 'u'163'1090AC
+9115鄕xiānghoeng1country; rural; village163'10hương
+9116鄖yúnwan4county in Hubei province163'1090E7
+9117鄗hàohou6county in Hebei province163'10
+9118鄘yōngjung4state in Henan province163'11
+9119鄙bǐpei2mean; low163'11bẽ
+911a鄚màomok6place in today's Hebei province163'11
+911b鄛cháocaau4163'11
+911c鄜fūfu1county in Shanxi province163'11
+911d鄝liǎoliu5163'11
+911e鄞yínngan4county in Zhejiang province163'11
+911f鄟zhuānzyun1163'112B458
+9120鄠hùwu6county in Shanxi province163'11
+9121鄡qiāohiu1163'1130EEE
+9122鄢yānjin1name of a district in Honan163'11
+9123鄣zhāngzoeng1name of an ancient city in N. Jiangsu, near Shandong163'11
+9124鄤mànmaan6place in Henan province163'11
+9125鄥qiāohiu1163'11
+9126鄦xǔheoi2163'1230EE1
+9127鄧dèngdang6a county in Henan; surname163'129093đặng
+9128鄨bì163'12
+9129鄩xúncam4county in Shandong province163'122CA7D
+912a鄪bìbei3163'1230EF3
+912b鄫zēngcang4state in today's Shandong province163'12
+912c鄬wéiwai4place in Henan province163'1230EE6
+912d鄭zhèngzeng6state in today's Henan; surname163'1290D1trịnh
+912e鄮màomau6163'122CA8D
+912f鄯shànsin6district in Gansu during the Tang dynasty163'12
+9130鄰línleon4neighbor; neighborhood163'1290BBlân
+9131鄱pópo4county and lake in Jiangxi163'12
+9132鄲dāndaan1county in Hebei province163'1290F8
+9133鄳méngmaang4163'132B461
+9134鄴yèjip6ancient place in modern Hebei province163'1390BA
+9135鄵càocou3163'13
+9136鄶kuàikui2state in today's Henan province163'1390D0
+9137鄷fēngfung1163'13
+9138鄸méngmung4163'14
+9139鄹zōuzau1name of an ancient state in modern Shandong; surname163'14
+913a鄺kuàngkwong3surname163'15909D
+913b鄻liǎnlin5spoil, ruin163'15
+913c鄼zànzaan3163'15
+913d鄽cháncin4163'15
+913e鄾yōujau1place in Hubei province163'15
+913f鄿jīgei1county in Xinjiang province163'16
+9140酀yànjin3163'16
+9141酁cháncaam4163'17
+9142酂zànzaan3collect; small administration163'169147
+9143酃língling4a county in Hunan163'17
+9144酄huānfun1163'18
+9145酅xīkwai4raise feet; town in Shandong province163'18
+9146酆fēngfung1Zhou-era state in modern Sichuan163'18
+9147酇zànzaan3collect; small administration163'199142
+9148酈lìlik6place in today's Henan province; surname163'1990E6
+9149酉yǒujau5a wine vessel; tenth earthly branch; Kangxi radical 164164'0dấu
+914a酊dīngding2drunk, intoxicated164'2
+914b酋qiújau4chief of tribe, chieftain164'2
+914c酌zhuózoek3serve wine; feast; deliberate164'3chước
+914d配pèipui3match, pair; equal; blend164'3phối
+914e酎zhòuzau6double-fermented wine, vintage wine164'3
+914f酏yǐji4millet wine164'3
+9150酐gāngon1anhydride164'3
+9151酑yújyu1164'3
+9152酒jiǔzau2wine, spirits, liquor, alcoholic beverage164'3
+9153酓yǎnjim2164'4
+9154酔zuìzeoi3intoxicated, drunk; addicted to164'4
+9155酕máomou4drunk164'4
+9156酖zhèndaam1wine with bird poison added164'4đam
+9157酗xùjyu3drunk, to become violent under the influence of alcohol164'4
+9158酘dòutau4164'4
+9159酙zhēnzam1164'4
+915a酚fēnfan1carbolic acid; phenol164'4
+915b酛yuánjyun4164'4
+915c酜fufu1164'4
+915d酝yùnwan5liquor, spirits, wine; ferment164'49196 919E
+915e酞tàitaai3phthalein164'4
+915f酟tiāntim1164'5
+9160酠qiǎkaa2164'5
+9161酡tuóto4flushed; rubicund164'5
+9162酢zuòzok6toast one's host with wine; to express juice by pressing164'5
+9163酣hānham4enjoy intoxicants164'5
+9164酤gūgu1to deal in spirits164'5
+9165酥sūsou1butter; flaky, crispy, light, fluffy164'5
+9166酦pōput3fermentation, brewing164'691B1
+9167酧chóucau4to pledge with wine164'6
+9168酨zàidoi6164'6
+9169酩mǐngming5drunk; intoxicated; tipsy164'6mỉnh
+916a酪làolok3cream, cheese; koumiss164'6
+916b酫chuòcyut3164'6
+916c酬chóucau4toast; reward, recompense164'6thù
+916d酭yòujau6164'6
+916e酮tóngtung4ketones164'6
+916f酯zhǐzi2ester164'6
+9170酰xiānsin1acyl164'6
+9171酱jiàngzoeng3any jam-like or paste-like food164'691ACtương
+9172酲chéngcing4hangover; uncomfortable164'7xành
+9173酳yìnjan6164'7
+9174酴tútou4leaven, yeast; wine164'7
+9175酵jiàohaau1yeast, leaven164'7
+9176酶méimui4enzymes; (Cant.) soft164'7
+9177酷kùhuk6strong, stimulating; very164'7khốc
+9178酸suānsyun1tart, sour; acid; stiff; spoiled164'7
+9179酹lèilyut3to pour out a libation; to sprinkle164'7
+917a酺púpou4drink with others; drink heavily164'7
+917b酻zuìzeoi1164'7
+917c酼hǎihoi2164'7
+917d酽yànjim6thick, strong (beverage)164'791C5
+917e酾shīsi1strain164'791C3
+917f酿niàngjoeng6brew, ferment164'791C0
+9180醀wéiwai4164'8
+9181醁lùluk6a kind of green-colored wine164'8
+9182醂lǎnlam5to remove astringency; to bleach in water164'8
+9183醃yānjim1marinate, pickle; salt164'8
+9184醄táotou4drunk164'8
+9185醅pēipui1unstrained spirits164'8
+9186醆zhǎnzaan2wine cup; muddy wine164'82CAA8
+9187醇chúnseon4rich, good as wine; pure, unmixed164'8
+9188醈tántaam4164'8
+9189醉zuìzeoi3intoxicated, drunk; addicted to164'8
+918a醊zhuìzyut3to pour wine in a libation164'8
+918b醋cùcou3vinegar; jealousy, envy164'8
+918c醌kūnkwan1quinone164'8
+918d醍títai4essential oil of butter164'9
+918e醎xiánhaam4164'9
+918f醏dūdou1164'9
+9190醐húwu4purest cream164'9
+9191醑xǔseoi2to strain spirits164'9
+9192醒xǐngsing2wake up; sober up; startle164'9tỉnh
+9193醓tǎntaam2salted meat; brine from pickled mince164'9
+9194醔qiújau4164'9
+9195醕chúnseon4164'9
+9196醖yùnwan5liquor164'9915D
+9197醗pòput3to brew for the second time164'9
+9198醘kēhap1164'10
+9199醙sōusau1164'10
+919a醚mímai4ether164'10
+919b醛quáncyun4aldehyde164'10
+919c醜chǒucau2ugly looking, homely; disgraceful164'104E11xấu
+919d醝cuōco4white wine164'10say
+919e醞yùnwan5liquor, spirits, wine; ferment164'10915D
+919f醟yòngwing6164'10
+91a0醠àngong3164'10
+91a1醡zhàzaa3wine press164'10
+91a2醢hǎihoi2minced pickled meat; mince164'10
+91a3醣tángtong4carbohydrates164'10
+91a4醤jiàngzoeng3any jam-like or paste-like food164'10
+91a5醥piǎopiu2164'11
+91a6醦chěncam2164'112E833
+91a7醧yùjyu3164'112CAA7
+91a8醨lílei4dregs of wine164'11
+91a9醩zāozou1sediment, dregs; grains from a distillery; disordered, spoilt164'11
+91aa醪láolou4unclear wine, wine with dregs164'11
+91ab醫yīji1medicine; to cure, heal; physician164'11533By
+91ac醬jiàngzoeng3any jam-like or paste-like food164'119171tương
+91ad醭búbuk6molds on liquids; scum164'12
+91ae醮jiàoziu3religious service; Daoist or Buddhist ceremony164'12
+91af醯xīhei1vinegar; pickle; acid164'12
+91b0醰tántaam4bitter taste in wine; rich; full flavoured164'12
+91b1醱fā pòput3to brew for the second time164'129166
+91b2醲nóngnung4strong wine; dense, thick164'132CAA9
+91b3醳yìjik6164'1330F05
+91b4醴lǐlai5sweet wine; sweet spring164'13
+91b5醵jùgeoi6contribute for drinks; pool money164'13
+91b6醶yànjim6164'132B477
+91b7醷yìjik1164'13
+91b8醸niàngjoeng6brew, ferment164'13
+91b9醹rújyu4strong wine164'14
+91ba醺xūnfan1get drunk, be intoxicated164'14
+91bb醻chóucau4to pledge, thank164'14
+91bc醼yànjin3offer food and wine one's guests164'16
+91bd醽língling4kind of wine164'17
+91be醾mímei4a kind of liquor164'17
+91bf醿mímei4a kind of liquor164'17
+91c0釀niàngjoeng6brew, ferment164'17917F
+91c1釁xìnjan6smear with blood in sacrifice; rift, quarrel164'188845
+91c2釂jiàoziu3drain164'18
+91c3釃shāisi1strain164'19917E
+91c4釄mímei4wine brewed for a second time164'19
+91c5釅yànjim6thick, strong (beverage)164'20917D
+91c6釆biànbin6distinguish; Kangxi radical 165165'0
+91c7采cǎicoi2collect, gather; pick, pluck165'191C757F0 63A1 91C7
+91c8釈shìsik1interpret, elucidate; release165'4
+91c9釉yòujau6glaze165'5
+91ca释shìsik1interpret, elucidate; release165'591CBthích
+91cb釋shìsik1interpret, elucidate; release165'1391CAthích
+91cc里lǐlei5unit of distance; village; lane; Kangxi radical 166166'091CC88CF 88E1 91CClịa
+91cd重zhòngcung5heavy, weighty; double166'2trọng
+91ce野yěje5open country, field; wilderness166'4dã
+91cf量liàngloeng4measure, quantity, capacity166'5
+91d0釐xī líhei1manage, control; thousandth part of tael166'115398li
+91d1金jīngam1gold; metals in general; money; Kangxi radical 167167'0kim
+91d2釒jīngam1Kangxi radical 167167'09485
+91d3釓gágaa1gadolinium (element 64, Gd)167'19486
+91d4釔yǐjyut6yttrium (element 39, Y)167'19487
+91d5釕liǎoliu5ruthenium (element 44, Ru)167'2948Crẻo
+91d6釖dāodou1knife, sword167'2
+91d7釗zhāociu1endeavor, strive; encourage; cut167'2948A
+91d8釘dīngding1nail, spike; pursue closely167'29489đinh
+91d9釙pòpok3polonium (element 84, Po)167'2948B
+91da釚qiúkau4167'22B7F2
+91db釛bābaat3167'230F56
+91dc釜fǔfu2cauldron, pot, kettle167'2
+91dd針zhēnzam1needle; pin; tack; acupuncture167'29488châm
+91de釞zhízap1167'2
+91df釟bābaat3167'22B4E5bát díp
+91e0釠luànlyun6167'2
+91e1釡fǔfu2cauldron, pot, kettle167'2
+91e2釢nǎinaai5167'2
+91e3釣diàodiu3fish; fishhook; tempt, lure167'39493
+91e4釤shànsaam1samarium (element 62, Sm); to swing a sickle to cut (grass or wheat)167'39490
+91e5釥qiǎociu2167'330F5B
+91e6釦kòukau3button; buckle, clasp; engrave167'32CB2A
+91e7釧chuàncyun3bracelet, armlet167'3948Fxuyến
+91e8釨zǐzi2167'32B4E6
+91e9釩fǎnfaan4vanadium (element 23, V)167'39492
+91ea釪huáan alms bowl; a small bell167'330F57
+91eb釫huá167'32CB28
+91ec釬hànhon6weld, solder167'32CB27
+91ed釭gānggong1tire of wheel; band167'32E8F2cong
+91ee釮qícai4167'3
+91ef釯mángmong4point of sword; sharp point167'3
+91f0釰rìjat6167'3
+91f1釱dìdai6fetters; to fetter167'330F58
+91f2釲sìzi6167'32B7F3
+91f3釳xìhat1167'328C3F
+91f4釴yìjik6167'32CB29
+91f5釵chāicaai1ornamental hairpin167'39497thoa
+91f6釶shīsi1167'3
+91f7釷tǔtou2thorium (Th)167'3948D
+91f8釸xīzik6167'3
+91f9釹nǚneoi5neodymium (Nd)167'39495
+91fa釺qiāncin1tool for boring holes167'3948E
+91fb釻qiújyun4167'3
+91fc釼jiànjat6sword, dagger, saber167'3
+91fd釽pìpik1a farmer's hoeing fork167'42CB32
+91fe釾yéngaa4obsolete name of einsteinium (Es)167'4497A
+91ff釿jīngan1hew, chop, smooth167'42CB31
+9200鈀bǎbaa2palladium (Pd)167'494AF
+9201鈁fāngfong1francium (Fr)167'494AB
+9202鈂chéncam4167'42CB35đâm
+9203鈃xíngjing4ancient wine vessel167'49498
+9204鈄dǒudau2a wine flagon167'494AD
+9205鈅yuèjyut6167'4
+9206鈆qiānjyun4lead167'42B4EA
+9207鈇fūfu1an ax; a hatchet167'42B4E7
+9208鈈bùbat1plutonium (Pu)167'4949A
+9209鈉nànaap6sodium (Na); sharpen wood167'494A0
+920a鈊xīnsam1gadolinium (element 64, Gd)167'4
+920b鈋éngo4167'428C42
+920c鈌juékyut3to pierce, to stab; to take167'4khoét
+920d鈍dùndeon6blunt, obtuse; dull; flat; dull-witted167'4949Dnhọn
+920e鈎gōungau1hook, barb; sickle; stroke with167'494A9
+920f鈏yǐnjan6167'430F63
+9210鈐qiánkim4lock, latch; stamp, seal167'494A4kiềm
+9211鈑bǎnbaan2plate167'494A3
+9212鈒sàzaap6spear; (Cant.) to cut, slice; grass-shears167'49491
+9213鈓rénjam5167'42CB2F
+9214鈔chāocaau1paper money, bank notes; copy167'4949E
+9215鈕niǔnau2button, knob; surname167'494AEnạo
+9216鈖fēnfan1167'42B7F4
+9217鈗yǔnwan5167'42B7F5
+9218鈘yǐngai5167'4
+9219鈙qínkam4167'4chày
+921a鈚pīpai1an ancient type of arrow167'42CB2B
+921b鈛guōgwo1167'42B4E8
+921c鈜hóngwang4167'42E8F3
+921d鈝yínjam4167'4
+921e鈞jūngwan1unit of measure equivalent to thirty catties167'494A7
+921f鈟diàodiu3167'4
+9220鈠yìjik6167'428C41
+9221鈡zhōngzung1167'4
+9222鈢xǐsaai2167'4
+9223鈣gàikoi3calcium (Ca)167'49499
+9224鈤rìjat6167'430F61
+9225鈥huǒfo2holmium (Ho)167'494AC
+9226鈦tàitaai3titanium (Ti)167'4949B
+9227鈧kàngkong3scandium (Sc)167'494AA
+9228鈨yuánjyun4167'42EDF8
+9229鈩lúlou4fireplace, stove, oven, furnace167'4
+922a鈪èaak3(Cant.) bracelet; bangle167'430F5E
+922b鈫qínman4167'4
+922c鈬duódok6bell; surname167'4
+922d鈭zīzi1167'5
+922e鈮nǐnei4niobium (Nb)167'594CCni nỉa
+922f鈯túdat6167'528C44
+9230鈰shìsi5cerium (element 58, Ce)167'594C8
+9231鈱mínman4167'5
+9232鈲gūgu1167'528C43
+9233鈳kēko1a small cauldron; columbium (an older name for niobium)167'594B6
+9234鈴língling4bell167'594C3
+9235鈵bǐngbing3167'530F65
+9236鈶sìzi6167'52CB40
+9237鈷gǔgu2cobalt (Co)167'594B4
+9238鈸bóbat6cymbals167'594B9bạt
+9239鈹pīpei4a needle used in Chinese medicine; a sword, large knife; beryllium (Be)167'594CD
+923a鈺yùjuk6rare treasure167'594B0
+923b鈻sìzi6167'5
+923c鈼zuózok6167'52CB3Drựa
+923d鈽būbou1plutonium (element 94, Pu)167'594B8búa
+923e鈾yóujau4uranium (U)167'594C0
+923f鈿tiántin4hairpin; gold inlaid work, filigree167'594BF
+9240鉀jiǎgaap3potassium (K)167'594BE
+9241鉁zhēnzan1167'528C45
+9242鉂shǐsi2167'5
+9243鉃shìsi6167'5
+9244鉄zhítit3iron; strong, solid, firm167'5
+9245鉅jùgeoi6steel, iron; great167'5949C
+9246鉆chāncim1tweezers167'5
+9247鉇shīsi1167'5
+9248鉈shīto4a short spear; thallium (element 81, Tl)167'594CA
+9249鉉xuànjyun5device for carrying a tripod167'594C9
+924a鉊zhāoziu1167'52CB3Frìu
+924b鉋bàopaau4carpenter's plane167'594C7bào
+924c鉌héwo4the bells on the cart in ancient China167'530F6C
+924d鉍bìbei3bismuth (Bi)167'594CB
+924e鉎shēngsang1(Cant.) to rust167'530F6B
+924f鉏chúco4hoe; eradicate, eliminate167'52CB3A
+9250鉐shísek6167'52CB37
+9251鉑bóbok6platinum (Pt); thin sheet of metal167'594C2bạc
+9252鉒zhùzyu3167'530F6F
+9253鉓chìcik1167'5
+9254鉔zāzaap3167'52B4EC
+9255鉕pōpo2promethium (element 145, Pm)167'594B7
+9256鉖tóngtung4167'5
+9257鉗qiánkim4pincers, pliers, tongs167'594B3kiềm
+9258鉘fúfat6167'530F71
+9259鉙zhǎizaai2167'530F68
+925a鉚mǎomaau5rivet167'594C6
+925b鉛qiānjyun4lead (element 82, Pb)167'594C5duyên
+925c鉜fúfau4167'530F6E
+925d鉝lìlaap6167'52B7F7
+925e鉞yuèjyut6broad-axe, a battle axe, halberd167'594BAviệt
+925f鉟pīpei1167'530F67
+9260鉠yāngjoeng1167'52B4ED
+9261鉡bànbun6167'530F70
+9262鉢bōbut3earthenware basin; alms bowl (Sanskrit paatra)167'594B5
+9263鉣jiégip3167'5
+9264鉤gōungau1hook, barb; sickle; stroke with167'594A9 30F6Dcâu
+9265鉥shùseot6needle167'52CB38
+9266鉦zhēngzing1kind of gong used in ancient times by troops on the march167'594B2chiêng
+9267鉧mǔmou5167'52CB41
+9268鉨xǐnip6[nǐ] Nihonium (Nh); silk string; [niè] (same as 鑷) tweezers; [xǐ] (same as 鉩) a seal167'59FED
+9269鉩xǐsaai2167'5
+926a鉪dìdai6167'5
+926b鉫jiāgaa1167'5
+926c鉬mùmuk6molybdenum (element 42, Mo)167'594BC
+926d鉭tǎntaan2tantalum (element 73, Ta)167'594BD
+926e鉮huánsan4167'52CB39
+926f鉯yǐji5167'5
+9270鉰sīsi1167'5
+9271鉱kuàngkong3mine; mineral, ore167'5
+9272鉲kǎkaa1cadmium (element 48, Cd)167'530F69
+9273鉳běibak1167'5
+9274鉴jiàngaam3mirror, looking glass; reflect167'59452
+9275鉵tóngtung4167'630F76
+9276鉶xíngjing4sacrificial cauldron167'694CF
+9277鉷hónghung4trigger167'62B7F9
+9278鉸jiǎogaau2hinge; shears, scissors167'694F0
+9279鉹chǐci2167'630F79
+927a鉺èrji5erbium (element 68, Er)167'694D2
+927b鉻gègok3chromium (element 24, Cr)167'694EClạc
+927c鉼bǐngbeng2plate; (Cant.) a penny167'830F7C
+927d鉽shìsik1167'62B7F8
+927e鉾móumau4spear167'62B4F4
+927f鉿jiāhap6hafnium (element 72, Hf)167'694EA
+9280銀yínngan4silver (element 47, Ag); cash, money, wealth167'694F6ngân
+9281銁jūngwan1a weight of thirty catties167'62B4F2
+9282銂zhōuzau1167'62B7FB
+9283銃chòngcung3ancient weapon, blunderbuss167'694F3súng
+9284銄xiǎnghoeng2167'6
+9285銅tóngtung4copper (element 29, Cu); brass, bronze167'694DCđồng
+9286銆mòmak6167'6
+9287銇lèiloi6167'6
+9288銈jīgwai1167'62B4EF
+9289銉yùjyut6167'6
+928a銊xùseot1167'62B4F0nhong
+928b銋rén167'630F7B
+928c銌zùnzyun6167'6
+928d銍zhìzat6a sickle167'694DA
+928e銎qióngkung4eyehole to hang an axe by167'6
+928f銏shànsaan3167'52B7F6
+9290銐chìcai3167'6
+9291銑xiǎnsin2mill167'694E3ten
+9292銒xíngjing4ancient wine vessel167'6
+9293銓quáncyun4weigh, measure; select officials167'694E8
+9294銔pīpei1167'62CB43
+9295銕tiětit3iron; strong, solid, firm167'6
+9296銖zhūzyu1unit of weight, one twenty-fourth of a Chinese ounce (liang)167'694E2
+9297銗xiàng167'62CB45
+9298銘míngming4inscribe, engrave; unforgettably167'694ED
+9299銙kuǎkwaa1167'630F74khoá
+929a銚yáodiu6large hoe; surname; a spear167'694EB
+929b銛xiāncim1sharp, keen-edged; a kind of hoe167'694E6
+929c銜xiánhaam4bit; hold in mouth, bite; gag167'68854
+929d銝xiūjau1167'6
+929e銞jūngwan1167'6
+929f銟chācaa1167'6
+92a0銠lǎolou5rhodium (element 45, Rh)167'694D1
+92a1銡jígat1167'630F72
+92a2銢pǐpik1167'6
+92a3銣rújyu4rubidium (element 37, Rb)167'694F7
+92a4銤mǐmai5167'6
+92a5銥yīji1iridium (element 77, Ir)167'694F1
+92a6銦yīnjan1indium (element 49, In)167'694DF
+92a7銧guānggwong1point of a sword167'630F75
+92a8銨ǎnon1ammonium167'694F5
+92a9銩diūdiu1thulium (element 69, Tm)167'694E5
+92aa銪yǒujau5europium (element 63, Eu)167'694D5
+92ab銫sèsik1caesium/cesium (element 55, Cs)167'694EF
+92ac銬kàokaau3shackles, manacle167'694D0
+92ad銭qiáncin4money, currency, coins167'6
+92ae銮luánlyun4bells hung on horse; bells hung167'692AE92AE 947E
+92af銯sīmik6167'6
+92b0銰āingaai6167'6
+92b1銱diàodiu3hasp and staple167'694DE
+92b2銲hànhon6solder, weld; leg armor, greaves167'72CB4D
+92b3銳ruìjeoi6sharp, keen, acute, pointed167'79510
+92b4銴shìsai6167'7
+92b5銵kēnghang1167'7
+92b6銶qiúkau4chisel167'728C47
+92b7銷xiāosiu1melt, fuse; market, sell; to pass time, finish, cancel167'79500tiu
+92b8銸zhézip3167'730F7F
+92b9銹xiùsau3rust, corrode167'79508
+92ba銺zàngzong6167'7
+92bb銻títai1antimony (element 51, Sb)167'79511
+92bc銼cuòco3carpenter's file, file smooth167'79509
+92bd銽guācim1167'7
+92be銾hònghung3mercury (element 80, Hg)167'730F81
+92bf銿zhōngzung1167'7
+92c0鋀tōutau1167'7
+92c1鋁lǚleoi5167'794DD
+92c2鋂méimui4bit cup167'730F84mũi
+92c3鋃lánglong4lock167'79512
+92c4鋄wànfaan6167'7
+92c5鋅xīnsan1zinc (element 30, Zn)167'7950C
+92c6鋆yúnwan4gold; character used in personal name167'7
+92c7鋇bèibui3barium (element 56, Ba)167'794A1
+92c8鋈wùjuk1silver plating167'7
+92c9鋉sùsuk1167'728C48
+92ca鋊yùjuk6a poker; brass filings; to file167'730F86
+92cb鋋chánsin4short, iron-handled spear167'72E8F4
+92cc鋌dìngting4ingots, bars of metal; hurry167'794E4
+92cd鋍bóbut6167'730F80
+92ce鋎hànwaan5167'7
+92cf鋏jiágaap3tongs, pincers; dagger; sword167'794D7
+92d0鋐hóngwang4state in today's Hubei province167'72CB4E
+92d1鋑cuāncyun1to engrave or carve, as a block for printing167'72EE0F
+92d2鋒fēngfung1point of spear, sharp point167'7950B
+92d3鋓chāncim1167'72EE0A
+92d4鋔wǎnwaan5167'7
+92d5鋕zhìzi3engrave167'7
+92d6鋖sīsi1167'7
+92d7鋗xuānhyun1a small basin; rings on a cart of carriage167'72B4F6
+92d8鋘huásword167'72CB4C
+92d9鋙yǔjyu5misfit; discordant; musical instrument; hoe167'794FB
+92da鋚tiáotiu4iron; bronze decoration on bridle167'7
+92db鋛kuàngkong3167'7
+92dc鋜zhuózok6fetters, shackles167'730F83
+92dd鋝lüèlyut3ancient unit of measure equal to 6 taels (about 300 grams)167'7950A
+92de鋞xíngjing4167'7
+92df鋟qǐncim1carve167'79513xăm
+92e0鋠shènsan6167'72B4F5
+92e1鋡hánham4167'730F85
+92e2鋢lüèlyut3167'7
+92e3鋣yéje4sword167'794D8
+92e4鋤chúco4hoe; eradicate167'79504
+92e5鋥zèngcaang3polish167'79503rỉnh xiềng
+92e6鋦jūguk1curium (element 96, Cm)167'79514cuốc
+92e7鋧xiànjin6small chisel167'730F62
+92e8鋨éngo4an ancient name for iron; osmium (element 76, Os)167'79507
+92e9鋩mángmong4point of a sword; sharp point167'794D3
+92ea鋪pùpou1spread out, arrange; shop, store; place to sleep, bed167'794FAphố
+92eb鋫lílei4167'7
+92ec鋬pànpaan3the part of the utensil that is held by the hand167'7
+92ed鋭ruìjeoi6sharp167'79510nhọn
+92ee鋮chéngsing4person's name167'794D6
+92ef鋯gàogou3zirconium (element 40, Zr)167'79506cạo
+92f0鋰lǐlei5lithium (element 3, Li)167'79502
+92f1鋱tètik1terbium (element 65, Tb)167'794FD
+92f2鋲bīngbing1rivet167'7beng
+92f3鋳zhùzyu3melt, cast; coin, mint167'7
+92f4鋴zhènhak1167'7
+92f5鋵tūtuk1167'7
+92f6鋶liǔlau5matte, a crude mixture of sulfides formed in smelting sulfide ores167'7950D
+92f7鋷zuìje4167'8
+92f8鋸jùgeoi3a saw; to saw; amputate167'8952Fcưa
+92f9鋹chǎngcong2sharp; a keen edge; sharp point167'82CB2E
+92fa鋺yuǎnjyun2a metal bowl167'8
+92fb鋻jiàngin3167'8
+92fc鋼gānggong3steel; hard, strong, tough167'894A2gang
+92fd鋽diàotiu3167'8
+92fe鋾táotou4167'830F8F
+92ff鋿chángsoeng4167'8
+9300錀lúnleon4167'82CB2D
+9301錁guǒgwo2ingot; acrobatic move167'8951Ekhoá
+9302錂língling4167'828C4B
+9303錃pībei1167'8
+9304錄lùluk6copy, write down, record167'85F55
+9305錅lílei4167'8
+9306錆qiāngcoeng1the color of a mineral167'89516thanh
+9307錇póupui4berkelium (element 97, Bk)167'8952B
+9308錈juǎngyun2to bend iron167'89529
+9309錉mínman4167'8
+930a錊zuìzeoi3167'8
+930b錋péngpaang4167'82CB56
+930c錌ànngon6167'8
+930d錍pīpai1167'830F8E
+930e錎xiànhaam6167'8
+930f錏yāaa1soft steel; ammonium167'894D4
+9310錐zhuīzeoi1gimlet, awl, drill, auger; bore167'89525duì
+9311錑lèileoi6167'82CB5C
+9312錒āaa3actinium (element 89, Ac)167'89515
+9313錓kōngkwang1167'8
+9314錔tàtaap3cap167'830F93
+9315錕kūnkwan1ancient treasured sword167'8951F
+9316錖dúduk1167'8
+9317錗nèineoi6167'82CB57
+9318錘chuíceoi4balance weight on scale; hammer167'89524
+9319錙zīzi1an ancient unit of weight (one-eighth of a tael)167'89531
+931a錚zhēngzang1clanging sound; small gong167'894EEtrành
+931b錛bēnban1adz, adze167'8951B
+931c錜niènip6167'82B4FB
+931d錝zòngzung3167'82B4FD
+931e錞chúndeoi6instrument167'82CB5A
+931f錟tántaam4long spear167'8952C
+9320錠dìngding3spindle, slab, cake, tablet167'8952Dđĩnh
+9321錡qíkei4a kind of pen; a kind of chisel167'8951C
+9322錢qiáncin4money, currency, coins167'894B1tiền
+9323錣zhuìzyut3armor neckplates167'82E8F5
+9324錤jīgei1hoe167'82B4F9
+9325錥yùjuk6167'82B4FE
+9326錦jǐngam2brocade, tapestry; embroidered167'89526gấm
+9327錧guǎngun2167'830F92
+9328錨máonaau4anchor167'9951A
+9329錩chāngcoeng1vessel167'89520xuổng
+932a錪tiǎntin2167'82CB53
+932b錫xīsek3tin (element 50, Sn); bestow, confer167'89521thiếc
+932c錬liànlin6smelt metals167'8
+932d錭táodiu1167'82CB55
+932e錮gùgu3run metal into cracks; confine167'89522
+932f錯cuòco3error, blunder, mistake, wrong167'89519thó
+9330錰shùseot6167'8
+9331錱zhēnzan1167'8
+9332録lùluk6copy167'85F55
+9333錳měngmaang5manganese (element 25, Mn)167'89530
+9334錴lùluk6167'8
+9335錵huāwaa4167'8
+9336錶biǎobiu1a watch, clock167'88868 30F8Dbiểu
+9337錷gáaat3167'8
+9338錸láiloi4rhenium (element 75, Re)167'894FC
+9339錹kěnhang2167'8
+933a錺fāngfong1metal jewelry167'82EE10
+933b錻wumou5a tin plate167'8
+933c錼nàinoi6neptunium (element 93, Np)167'8
+933d錽wànfaan6167'82B4F8
+933e錾zànzaam6engraving tool, chisel167'893E8
+933f錿hǔfu2167'8
+9340鍀dédak1technetium (element 43, Tc)167'8951D
+9341鍁xiānhim1shovel167'89528
+9342鍂piān167'830F91
+9343鍃huōa kind of tool167'8952A
+9344鍄liàngloeng6167'828C49keng kiềng
+9345鍅fǎfaat3167'8
+9346鍆ménmun4mendelevium (element 101, Md)167'89494
+9347鍇kǎikaai2high quality iron167'99534
+9348鍈yīngjoeng1167'89533
+9349鍉dīdik6spoon, key167'92B502
+934a鍊liànlin6smelt metals, forge; refine167'92B500luyện
+934b鍋guōwo1cooking-pot, saucepan167'99505
+934c鍌xiǎnsin2167'9
+934d鍍dùdou6plate, coat, gild167'99540
+934e鍎túdat6167'9
+934f鍏wéiwai4167'92CB2C
+9350鍐zōngzung1a headstall, ornament on a bride167'930F9E
+9351鍑fùfuk1167'930F9F
+9352鍒róujau4167'92B504
+9353鍓jícip3167'9
+9354鍔èngok6high, lofty; edge of knife167'99537
+9355鍕jūngwan1167'92EE08
+9356鍖chěnzam1167'930F98
+9357鍗títai4167'9
+9358鍘zházaat3sickle for cutting grass or hay167'994E1
+9359鍙hùhuk1167'9
+935a鍚yángjoeng4frontlet167'99496
+935b鍛duàndyun3forge metal; temper, refine167'9953B
+935c鍜xiáhaa4to forge, work167'930FA4
+935d鍝yújyu4167'930F99
+935e鍞kēnghang1167'9
+935f鍟shēngseng3(Cant.) rust167'930F9D
+9360鍠huángwong4weapon167'9953D
+9361鍡wěiwui2167'930F9A
+9362鍢fùfuk1167'92EE15
+9363鍣zhāoziu1167'92CB61
+9364鍤chācaap3spade, shovel; marking pin167'99538
+9365鍥qièkit3sickle; cut, carve, engrave167'99532
+9366鍦shīse4167'930FA2
+9367鍧hōnggwang1167'930FA1
+9368鍨kuíkwai4167'930FA5
+9369鍩tiǎnnok6nobelium (element 102, No)167'99518
+936a鍪móumau4an iron pan; a metal cap167'9
+936b鍫qiāociu1shovel167'9
+936c鍬qiāociu1shovel167'99539
+936d鍭hóuhau4arrow167'92CB64
+936e鍮tōutau1brass167'928C4Ethau
+936f鍯cōngcung1167'92CB65
+9370鍰huánwaan4measure; money, coins167'9953E
+9371鍱yèjip6thin plates of metal167'930F95
+9372鍲mínman4167'9
+9373鍳jiàngaam3167'9
+9374鍴duāndyun1167'930F9C
+9375鍵jiàngin6door bolt, lock bolt; key167'9952E
+9376鍶sōngsi1strontium (element 38, Sr); an iron utensil167'99536
+9377鍷kuífui1167'9
+9378鍸húwu4food, gruel167'9
+9379鍹xuānsyun1167'9
+937a鍺zhěze2germanium (element 32, Ge); metal flashing on the axle of a cart167'99517chá
+937b鍻jiégit3167'9
+937c鍼zhēnkim4needle, pin, tack; prick; inject167'930F97châm
+937d鍽biānbin1167'9
+937e鍾zhōngzung1cup, glass, goblet; surname167'9949F 953Achung
+937f鍿zīzi1167'9
+9380鎀xiūsau1167'9
+9381鎁yéje4167'9
+9382鎂měimei5magnesium (element 12, Mg)167'99541
+9383鎃pàipaai3167'9
+9384鎄āioi1einsteinium (element 99, Es)167'9953F
+9385鎅jiègaai3(Cant.) to saw; to cut167'930F9B
+9386鎆qianzin2167'9
+9387鎇méimei4americium (element 95, Am)167'99545
+9388鎈suǒso2167'102B7FF
+9389鎉dátaap3thallium (element 81, Tl)167'1030FAC
+938a鎊bàngbong6pound sterling; to scrape167'109551
+938b鎋xiáhat6the linch-pin of a wheel to govern or control the noise of a barrow167'102CB6A
+938c鎌liánlim4sickle167'1030FAEgươm
+938d鎍suǒsok3chain; wire167'102B505
+938e鎎kàihei3167'10
+938f鎏liúlau4pure gold167'10
+9390鎐yáojiu4family name; wine cup167'10
+9391鎑yèjip6167'1030FA9
+9392鎒nòunau6to hoe; to weed167'102CB66
+9393鎓wēngjung1167'102CB69
+9394鎔róngjung4fuse, melt, smelt; mold167'109555
+9395鎕tángtong4167'1030FAF
+9396鎖suǒso2lock, padlock; shackles, chains167'109501toả
+9397鎗qiāngcoeng1rifle, small arms, hand gun167'102CB30thương
+9398鎘lìgaak3cadmium (element 48, Cd)167'109549
+9399鎙shuòsok3large spear; chess board167'102B508
+939a鎚chuíceoi4hammer, mallet; club167'102CB68
+939b鎛bóbok3large bell; hoe, spade167'109548
+939c鎜pánpun4167'10
+939d鎝dādaap3(TC) technetium (element 43, Tc); engrave; tilling implement167'1028C4F
+939e鎞bībai1plowshare; barb, lancet167'102B507
+939f鎟sǎngsong2167'10
+93a0鎠gānggong3167'10
+93a1鎡zīzi1hoe; mattock167'109543
+93a2鎢wūwu1tungsten (element 74, W)167'1094A8
+93a3鎣yíngjing4polish167'1084E5
+93a4鎤huàngfong2sound of a bell; small bell167'10
+93a5鎥tiáotiu4167'10
+93a6鎦liúlau4distil; (TC) lutetium (element 71, Lu); surname167'10954F
+93a7鎧kǎihoi2armor, chain mail167'1094E0
+93a8鎨sǔnseon2167'10
+93a9鎩shāsaat3to spear167'1194E9
+93aa鎪sōusau1to engrave (metal or wood)167'10953C
+93ab鎫wànfaan6ornament over the horse's head167'10
+93ac鎬hàohou6stove; bright167'109550cào cảo
+93ad鎭zhènzan3town, market place; suppress167'10
+93ae鎮zhènzan3town, market place; suppress167'109547trấn
+93af鎯lánglong4large hammer167'1028C4D
+93b0鎰yìjat6ancient of weight for gold, equal to 20 or 24 taels167'109552dát
+93b1鎱yuánjyun4167'10
+93b2鎲tǎngtong2ancient weapon resembling a pitchfork167'10954B
+93b3鎳niènip1nickel (element 28, Ni)167'10954D
+93b4鎴xísik1167'10
+93b5鎵jiāgaa1gallium (element 31, Ga)167'109553
+93b6鎶gēgo1copernicium (element 112, Cn)167'109FD4cà
+93b7鎷mǎmaa5167'1028C3E
+93b8鎸juānzyun1engraving tool; carve, engrave167'10954C
+93b9鎹sòngsung3a clamp167'10
+93ba鎺zǔzou2167'10
+93bb鎻suǒso2lock, padlock; shackles, chains167'10
+93bc鎼xiàlaa3167'10
+93bd鎽fēngfung1167'10
+93be鎾wēnwan1167'10
+93bf鎿nánaa4(HK) neptunium (element 93, Np)167'10954E
+93c0鏀lǔlou5167'11
+93c1鏁suǒso2a lock, padlock; shackles, chains167'112CB72
+93c2鏂ōuau1167'1130F5C
+93c3鏃zúzuk6arrowhead, barb; swift, quick167'11955E
+93c4鏄tuántyun4167'11
+93c5鏅xiūsau1167'11
+93c6鏆guàngun3167'1128C4C
+93c7鏇xuànsyun4lathe167'1165CB 955Ftoàn
+93c8鏈liànlin6chain, wire, cable; chain, shack167'1194FE
+93c9鏉shòusau3167'1128C52
+93ca鏊àongou6a flat, iron cooking-plate for cakes167'11
+93cb鏋mǎnmun5167'11
+93cc鏌mòmok6sword167'119546mác
+93cd鏍luólo4167'119559
+93ce鏎bìbat1167'11
+93cf鏏wèiwai6167'112CB6C
+93d0鏐liúlau4pure gold167'119560
+93d1鏑dídik1dysprosium (element 66, Dy); the barb of an arrow; the head of a javelin167'11955D
+93d2鏒sǎnsaam2167'112CB5D
+93d3鏓zǒngcung1167'1130FB1
+93d4鏔yíji4167'112CB70
+93d5鏕lùluk6167'1130FB2
+93d6鏖áongou4to fight to the end, engage in a fierce battle167'11
+93d7鏗kēnghang1strike, beat, stroke; jingling167'1194FFkeng khanh
+93d8鏘qiāngcoeng1tinkle, clang, jingle167'119535
+93d9鏙cuīceoi1167'1130FB0
+93da鏚qīcik1axe167'112CB6D
+93db鏛chángsoeng4to polish; iron rim on a wagon wheel167'112EE1F
+93dc鏜tāngtong1boring tool167'119557
+93dd鏝mànmaan6trowel167'119558
+93de鏞yōngjung4a large bell used as a musical instrument167'11955B
+93df鏟chǎncaan2spade, shovel, trowel, scoop167'1194F2
+93e0鏠fēngfung1167'11
+93e1鏡jìnggeng3mirror; lens; glass; glasses167'11955Ckẻng
+93e2鏢biāobiu1dart, spear, harpoon; escort167'119556tiu
+93e3鏣shùsyu3167'11
+93e4鏤lòulau6carve, inlay, engrave, tattoo167'119542
+93e5鏥xiùsau3rust, corrosion167'112B50A
+93e6鏦cōngcung1a short spear167'112B4E9
+93e7鏧lónglung4167'11
+93e8鏨zànzaam6engraving tool, chisel167'11933E
+93e9鏩jiànzim6167'1130F8C
+93ea鏪cáocou4167'11
+93eb鏫lílei4167'11
+93ec鏬xiàlaa3167'11
+93ed鏭xīsik1167'11
+93ee鏮kānghong1167'11
+93ef鏯shuǎngsong2167'11
+93f0鏰bèngbang1coin, money167'11955A
+93f1鏱zhanggam2167'11
+93f2鏲qiancim1167'11
+93f3鏳chēngcaang4167'12
+93f4鏴lùlou6to plug a hole167'13
+93f5鏵huáwaa4spade, shovel, plowshare167'1294E7
+93f6鏶jícip3167'12
+93f7鏷púpok3protactinium (element 91, Pa)167'129564
+93f8鏸huìwai6167'1230FB6
+93f9鏹qiǎngkoeng5coins, money, wealth; (Cant.) 鏹水, sulfuric acid167'11956A
+93fa鏺pōput3to cut with a sickle167'12497D
+93fb鏻línleon4phosphonium167'122CB78
+93fc鏼sèsaak3167'12
+93fd鏽xiùsau3rust, corrode167'129508
+93fe鏾sǎnsin3the trigger of a crossbow; crossbow167'122B50C
+93ff鏿chēngcoeng1167'12
+9400鐀kuìgwai6a cupboard; a press; a wardrobe shop-counter167'122CB62
+9401鐁sīsi1167'1230FB4
+9402鐂liúlau4167'12
+9403鐃náonaau4cymbals; hand bell; disturb167'1294D9
+9404鐄huángwaang4bell167'1228C51hoàng vàng
+9405鐅piěpit3167'12
+9406鐆suìseoi6a lens167'12
+9407鐇fánfaan4vanadium (element 23, V)167'122B50D
+9408鐈qiáokiu4167'122B4F1
+9409鐉quāncyun1167'1230FBC
+940a鐊yángjoeng4167'122CB4F
+940b鐋tāngtong1gong167'1294F4
+940c鐌xiàngzoeng6167'12
+940d鐍juékyut3hasp of a lock167'122B50E
+940e鐎jiāoziu1167'1228C53
+940f鐏zūnzeon1cap167'1228C54
+9410鐐liáoliu4fetters167'129563liêu rìu
+9411鐑qièkit3167'12
+9412鐒láolou4lawrencium (element 103, Lr)167'1294F9lao
+9413鐓duìdeoi6ferrule; castrate167'129566
+9414鐔xíntaam4dagger; small sword167'129561
+9415鐕zānzaam1167'1230FB7
+9416鐖jīgei1hook, barb, catch, spring167'1230F55
+9417鐗jiǎngaan2167'12
+9418鐘zhōngzung1clock; bell167'12949Fchuông
+9419鐙dèngdang3lamp; a kind of cooking vessel167'12956Bđâng
+941a鐚yāaa1soft steel; ammonium167'1230FAA
+941b鐛yǐngjing2167'12
+941c鐜duīdeoi6167'12
+941d鐝juékyut3a pick, a hoe167'129562
+941e鐞nòunau6167'12
+941f鐟zānzaam1167'12
+9420鐠pǔpou2praseodymium (element 59, Pr)167'129568
+9421鐡tiětit3iron; strong, solid, firm167'12
+9422鐢fánfaan4167'12
+9423鐣chēngzoeng2167'12
+9424鐤dǐngding2huge tripod of bronze with two ears; sacrificial vessel167'1230FB8
+9425鐥shànsin3to swing a sickle to cut (grass or wheat)167'124985
+9426鐦kāihoi1californium (element 98, Cf)167'12950E
+9427鐧jiāngaan2kind of rapier167'12950F
+9428鐨fèifai3fermium (element 100, Fm)167'129544
+9429鐩suìseoi6lens167'132CB7C
+942a鐪lǔlou5167'132B4FA
+942b鐫juānzyun1engraving tool; carve, engrave167'13954C 30FB9
+942c鐬huìwai3167'1330F77
+942d鐭yùou3167'13
+942e鐮liánlim4sickle167'139570liềm
+942f鐯zhuózoek3to dig with a hoe; a large hoe167'134983
+9430鐰qiāociu1167'13thao thau
+9431鐱jiàngim3167'13kẽm
+9432鐲zhuózuk6bracelet, armband; small bell167'13956Fđục
+9433鐳léileoi4radium (element 88, Ra)167'13956D
+9434鐴bìbik1167'132CB7D
+9435鐵tiětit3iron (element 26, Fe); strong, solid, firm167'1394C1thiết
+9436鐶huánwaan4metal ring; measure of currency167'13956E
+9437鐷yèjip6167'13
+9438鐸duódok6bell; surname167'1394CEđạc
+9439鐹guǒgwo2167'1330F7E
+943a鐺dāngdong1frying pan; warming vessel167'1394DB
+943b鐻jùgeoi6drumstick167'13cự cứa
+943c鐼fénfan4167'132B501
+943d鐽dádaat6167'132B7FC
+943e鐾bèibik1to strop, to sharpen by rubbing against leather, stone, etc.167'13
+943f鐿yìji3ytterbium (element 70, Yb)167'139571

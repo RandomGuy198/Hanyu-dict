@@ -16,10 +16,10 @@ export const SHARD_SIZES = {
 export const PACK_DEFS = {
   'dictionary-core': {
     kind: 'dictionary',
-    label: 'CC-CEDICT words',
+    label: 'CC-CEDICT & CVDICT words',
     source: 'cc-cedict',
     required: true,
-    languages: ['zh-Hans', 'zh-Hant', 'en'],
+    languages: ['zh-Hans', 'zh-Hant', 'vi', 'en'],
     coverageMode: 'sum-shards',
     shardGlob: '*.txt',
   },
@@ -28,7 +28,7 @@ export const PACK_DEFS = {
     label: 'Unihan character data',
     source: 'unicode-unihan',
     required: true,
-    languages: ['zh-Hans', 'zh-Hant'],
+    languages: ['zh-Hans', 'zh-Hant', 'vi'],
     coverageMode: 'sum-shards',
     shardGlob: '*.txt',
   },

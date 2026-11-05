@@ -124,7 +124,7 @@ function noticeDocument(reg) {
     'Three licence layers apply to a distribution of this app, and none of them overrides the others: the ' +
       '**application code** is MIT (the `LICENSE` file at the root of this repository); the **data packs** are the derived material described ' +
       'in this document, each under its own licence and share-alike duty; and the **bundled runtime libraries** - React, ' +
-      'React Router, Dexie, Zod, hanzi-writer, pdf.js, Tesseract and the Workbox service-worker runtime - are itemised with ' +
+      'React Router, Dexie, Zod, hanzi-writer and the Workbox service-worker runtime - are itemised with ' +
       'their licence texts and upstream notices in [`RUNTIME_NOTICES.md`](./RUNTIME_NOTICES.md). Publishing the source code ' +
       'under MIT grants no right to relicense the data or the libraries.'
   );
@@ -189,11 +189,11 @@ function noticeDocument(reg) {
   lines.push('');
   lines.push('## Obligations carried by this project');
   lines.push('');
-  lines.push('- CC BY-SA 4.0 (CC-CEDICT): attribution, licence link, indication of changes; the derived `dictionary-core` pack is distributed under CC BY-SA 4.0.');
+  lines.push('- CC BY-SA 4.0 (CC-CEDICT & CVDICT): attribution, licence link, indication of changes; the derived `dictionary-core` pack is distributed under CC BY-SA 4.0.');
   lines.push('- Unicode License v3: the copyright and permission notice accompanies the derived Unihan data, in full, at `Unicode-License-v3.txt`.');
   lines.push('- Arphic Public License (stroke graphics): the licence text is shipped unaltered and the change notices above state how and when the data was modified; derived stroke data remains under the Arphic terms.');
   lines.push('- CC BY 2.0 FR (Tatoeba): every sentence id is preserved in each `sourceRef` and the entry screen links it to the upstream sentence page, where the contributor is named; the pinned export itself publishes no usernames (see the known gap above).');
-  lines.push('- Apache-2.0 / MIT (bundled runtime code): tesseract.js, tesseract.js-core, Dexie, pdf.js, idb-keyval, React, React Router, Zod, hanzi-writer and the Workbox service-worker runtime each keep their own licence. Their version-by-version notices, including every upstream NOTICE file reproduced verbatim, are itemised in [`RUNTIME_NOTICES.md`](./RUNTIME_NOTICES.md), generated from the installed dependency tree.');
+  lines.push('- Apache-2.0 / MIT (bundled runtime code): Dexie, React, React Router, Zod, hanzi-writer and the Workbox service-worker runtime each keep their own licence. Their version-by-version notices, including every upstream NOTICE file reproduced verbatim, are itemised in [`RUNTIME_NOTICES.md`](./RUNTIME_NOTICES.md), generated from the installed dependency tree.');
   lines.push('- CC BY 4.0 (original content): authored for this project and credited as such in every content item.');
   lines.push('- MIT (application code): the repository root `LICENSE`. It covers the code only and changes nothing above.');
   lines.push('');

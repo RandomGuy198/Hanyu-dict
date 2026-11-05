@@ -244,20 +244,71 @@ export async function packFilePaths(packId: string): Promise<string[]> {
   return pack.files.map((file) => file.path);
 }
 
-/** Read one stored pack file by its manifest path. */
-export async function readPackFile(path: string): Promise<string | null> {
-  const row = await db.packFiles.get(path);
-  return row ? row.text : null;
+const inflightInstalls = new Map<string, Promise<PackInstallState>>();
+
+function installPackOnce(pack: PackDescriptor): Promise<PackInstallState> {
+  const existing = inflightInstalls.get(pack.id);
+  if (existing) return existing;
+  const promise = installPack(pack).finally(() => {
+    inflightInstalls.delete(pack.id);
+  });
+  inflightInstalls.set(pack.id, promise);
+  return promise;
 }
 
-/** Text of every installed file in a pack, in manifest order. */
+/** Ensure a pack is installed and all of its files exist in IndexedDB at the manifest version. */
+export async function ensurePackInstalled(packId: string): Promise<void> {
+  const manifest = (await cachedManifest()) ?? (await loadManifest());
+  const pack = packById(manifest, packId);
+  if (!pack) return;
+  const state = await db.packs.get(packId);
+  if (state && state.status === 'ready' && state.version === pack.version) {
+    const paths = pack.files.map((file) => file.path);
+    const rows = await db.packFiles.bulkGet(paths);
+    if (rows.length === paths.length && rows.every(Boolean)) {
+      return;
+    }
+  }
+  await installPackOnce(pack);
+}
+
+/** Read one stored pack file by its manifest path, auto-installing its owning pack if needed. */
+export async function readPackFile(path: string): Promise<string | null> {
+  const existing = await db.packFiles.get(path);
+  if (existing) return existing.text;
+
+  try {
+    const manifest = (await cachedManifest()) ?? (await loadManifest());
+    let owningPack = manifest.packs.find((pack) => pack.files.some((file) => file.path === path));
+    if (!owningPack) {
+      const match = /^packs\/([^/]+)\//.exec(path);
+      if (match) owningPack = packById(manifest, match[1]);
+    }
+    if (owningPack && owningPack.files.some((file) => file.path === path)) {
+      await ensurePackInstalled(owningPack.id);
+      const row = await db.packFiles.get(path);
+      return row ? row.text : null;
+    }
+  } catch {
+    // If manifest cannot be loaded, fall back to null.
+  }
+  return null;
+}
+
+/** Text of every file in a pack, in manifest order (auto-installing the pack if needed). */
 export async function packText(packId: string): Promise<string[]> {
+  try {
+    await ensurePackInstalled(packId);
+  } catch {
+    // Fall back to whatever is already stored if auto-install fails.
+  }
   const paths = await packFilePaths(packId);
   const rows = await db.packFiles.bulkGet(paths);
   return rows.filter((row): row is NonNullable<typeof row> => Boolean(row)).map((row) => row.text);
 }
 
 export async function clearAllData(): Promise<void> {
+  inflightInstalls.clear();
   await db.transaction('rw', db.tables, async () => {
     for (const table of db.tables) await table.clear();
   });

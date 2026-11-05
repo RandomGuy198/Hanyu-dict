@@ -2,24 +2,25 @@
  * build-characters.mjs - Unicode Unihan -> public/data/packs/characters/NNN.txt
  *
  * Record: codepointHex US char US mandarin US cantonese US definition US
- *         radical US strokeCount US simplifiedVariant US traditionalVariant
+ *         radical US strokeCount US simplifiedVariant US traditionalVariant US hanViet
  */
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { DATA_DIR, PACKS_DIR, clearDir, ensureDir, exists, formatBytes, resolveCacheDir, sha256File, table } from './lib/fs.mjs';
 import { RecordWriter } from './lib/record.mjs';
 import { SHARD_SIZES } from './lib/packs.mjs';
-import { VARIANT_CAP, codePointList, firstValue, loadUnihan, normalizeRadical } from './lib/unihan.mjs';
+import { VARIANT_CAP, buildCharToHanViet, codePointList, firstValue, loadUnihan, normalizeHanViet, normalizeRadical } from './lib/unihan.mjs';
 
 const PACK_ID = 'characters';
 const PACK_DIR = path.join(PACKS_DIR, PACK_ID);
-export const CHARACTER_FIELDS = 9;
+export const CHARACTER_FIELDS = 10;
 
 export async function build({ cacheDir, quiet = false } = {}) {
   const zip = path.join(cacheDir, 'Unihan.zip');
   if (!exists(zip)) throw new Error(`Missing cache file ${zip} - run scripts/content/fetch-sources.mjs first`);
 
   const { byCodePoint, header } = loadUnihan(zip);
+  const charToHanViet = buildCharToHanViet(byCodePoint);
   // Numeric code-point order, which is the invariant `DictionaryService.character()` binary-searches
   // against. `Number(a, 16)` is not a hex parse - Number() ignores the radix - so it read these
   // strings as decimal (`'26127'` -> 26127) or as scientific notation (`'257e3'` -> 257000) or as
@@ -42,8 +43,9 @@ export async function build({ cacheDir, quiet = false } = {}) {
     if (simpAll > VARIANT_CAP || tradAll > VARIANT_CAP) cappedVariants++;
     const simp = codePointList(rec.kSimplifiedVariant);
     const trad = codePointList(rec.kTraditionalVariant);
-    if (!mandarin && !cantonese && !definition && !radical && !strokeCount) emptyFieldRecords++;
-    rows.push([cp.toLowerCase(), rec.char, mandarin, cantonese, definition, radical, strokeCount, simp, trad]);
+    const hanViet = normalizeHanViet(rec.kVietnamese) || charToHanViet.get(rec.char) || '';
+    if (!mandarin && !cantonese && !definition && !radical && !strokeCount && !hanViet) emptyFieldRecords++;
+    rows.push([cp.toLowerCase(), rec.char, mandarin, cantonese, definition, radical, strokeCount, simp, trad, hanViet]);
   }
 
   let previousCodePoint = -1;

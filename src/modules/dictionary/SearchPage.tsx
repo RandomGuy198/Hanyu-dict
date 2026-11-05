@@ -2,7 +2,6 @@
  *  state, honest empty states, display-script/pinyin toggles and a capped search history. */
 
 import { useEffect, useRef, useState, type FormEvent } from 'react';
-import { Link } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import {
   EmptyState,
@@ -13,7 +12,7 @@ import {
 } from '../../components';
 import { useDebouncedValue, useQueryState } from '../../app/hooks';
 import { useDictionary, usePreferences } from '../../app/providers';
-import { IconDownload, IconSearch } from '../../app/icons';
+import { IconSearch } from '../../app/icons';
 import { bumpActivity, db, todayKey, type SearchHistoryRow } from '../../data/db';
 import type { SearchOutcome } from '../../data/dictionary';
 import { detectMode, normaliseQuery } from '../../domain/searchRanking';
@@ -43,7 +42,7 @@ function modeLabel(mode: SearchMode): string {
     case 'hans':
       return 'Chinese characters';
     case 'auto':
-      return 'pinyin or English';
+      return 'pinyin, Tiếng Việt / Hán-Việt or English';
     default:
       return mode;
   }
@@ -153,13 +152,15 @@ export default function SearchPage() {
         <PageHeader title="Search" subtitle="All lookups run locally against the installed index." />
         <div className="stack">
           <form className="field" role="search" onSubmit={submit}>
-            <label htmlFor="dict-search-input">Search — Hanzi, pinyin or English</label>
+            <label htmlFor="dict-search-input">
+              Tìm kiếm — Chữ Hán, Pinyin, Hán-Việt hoặc Tiếng Việt / Tiếng Anh
+            </label>
             <div className="searchbar">
               <input
                 id="dict-search-input"
                 type="search"
                 value={input}
-                placeholder="例子 · li zi · example"
+                placeholder="汉语 · han yu · hán ngữ · thư viện · example"
                 autoComplete="off"
                 onChange={(event) => setInput(event.target.value)}
               />
@@ -223,7 +224,7 @@ export default function SearchPage() {
             <EmptyState
               icon={<IconSearch className="dict-ic" />}
               title="Type a word to begin"
-              detail="Try Hanzi (中国), pinyin with or without tones (zhongguo, zhong1 guo2), or an English meaning."
+              detail="Try Hanzi (中国), pinyin (zhongguo, zhong1 guo2), Hán-Việt (hán ngữ), Tiếng Việt (thư viện, bận), or an English meaning."
               action={
                 history && history.length > 0 ? (
                   <ul className="dict-chiprow" aria-label="Recent searches">
@@ -256,38 +257,15 @@ export default function SearchPage() {
               </div>
             </div>
           ) : !busy && outcome && results.length === 0 ? (
-            outcome.coverage.partial ? (
-              <EmptyState
-                icon={<IconDownload className="dict-ic" />}
-                title="Only part of the dictionary is installed"
-                detail={
-                  <>
-                    This device currently holds {outcome.coverage.entries.toLocaleString()}{' '}
-                    entries, so “{term}” may simply not be included yet.
-                  </>
-                }
-                action={
-                  <Link className="btn btn-sm btn-primary" to="/offline-data">
-                    Install more data
-                  </Link>
-                }
-              />
-            ) : (
-              <EmptyState
-                title={`No entries match “${term}”`}
-                detail={
-                  <>
-                    The full installed index was searched. Try fewer characters, pinyin without
-                    tone marks, or a shorter English fragment — partial meaning matches count too.
-                  </>
-                }
-                action={
-                  <Link className="btn btn-sm" to="/offline-data">
-                    Check installed data packs
-                  </Link>
-                }
-              />
-            )
+            <EmptyState
+              title={`No entries match “${term}”`}
+              detail={
+                <>
+                  The full installed index was searched. Try fewer characters, pinyin without
+                  tone marks, or a shorter Vietnamese / English fragment — partial meaning matches count too.
+                </>
+              }
+            />
           ) : shown.length > 0 ? (
             <>
               <ul className="list">
@@ -295,7 +273,18 @@ export default function SearchPage() {
                   <EntryLine
                     key={result.entry.id}
                     entry={result.entry}
-                    matchLabel={matchLabel(result)}
+                    matchLabel={
+                      result.entry.hanViet
+                        ? `[HV: ${result.entry.hanViet}] · ${matchLabel(result)}`
+                        : matchLabel(result)
+                    }
+                    trailing={
+                      result.entry.definitionVi ? (
+                        <span className="text-sm muted" lang="vi">
+                          {result.entry.definitionVi.split('; ')[0]}
+                        </span>
+                      ) : null
+                    }
                   />
                 ))}
               </ul>

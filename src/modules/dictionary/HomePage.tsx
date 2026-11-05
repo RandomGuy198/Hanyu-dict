@@ -14,7 +14,7 @@ import {
 } from '../../components';
 import { useDebouncedValue } from '../../app/hooks';
 import { useDictionary, usePreferences } from '../../app/providers';
-import { IconDownload, IconSearch, IconSpark } from '../../app/icons';
+import { IconSearch, IconSpark } from '../../app/icons';
 import { db, todayKey, type SearchHistoryRow } from '../../data/db';
 import { inspectSpeech, onVoicesChanged } from '../../data/speech';
 import type { DictEntry } from '../../domain/types';
@@ -46,11 +46,6 @@ export default function HomePage() {
     () => db.searchHistory.orderBy('id').reverse().limit(6).toArray(),
     [],
     [],
-  );
-  const packRows = useLiveQuery(() => db.packs.toArray(), [], []);
-  const readyPacks = useMemo(
-    () => new Set((packRows ?? []).filter((row) => row.status === 'ready').map((row) => row.id)),
-    [packRows],
   );
   const dailyChar = useMemo(() => pickDaily(sampleChars), [sampleChars]);
 
@@ -158,13 +153,15 @@ export default function HomePage() {
         <div className="stack">
           <section className="card dict-hero" aria-label="Dictionary search">
             <form onSubmit={submit} className="field" role="search">
-              <label htmlFor="dict-home-search">Search — Hanzi, pinyin or English</label>
+              <label htmlFor="dict-home-search">
+                Tìm kiếm — Chữ Hán, Pinyin, Hán-Việt hoặc Tiếng Việt / Tiếng Anh
+              </label>
               <div className="searchbar">
                 <input
                   id="dict-home-search"
                   type="search"
                   value={input}
-                  placeholder="你好 · ni hao · to greet"
+                  placeholder="你好 · ni hao · hán ngữ · thư viện · to greet"
                   autoComplete="off"
                   aria-describedby="dict-home-search-help"
                   onChange={(event) => setInput(event.target.value)}
@@ -174,8 +171,8 @@ export default function HomePage() {
                 </button>
               </div>
               <span id="dict-home-search-help" className="help">
-                Type pinyin without tones (zhongguo), tones as digits (zhong3 guo2), or English
-                meanings. Press Enter to see all results.
+                Type Hanzi, pinyin with or without tones (zhongguo, zhong3 guo2), Hán-Việt, or
+                Vietnamese / English meanings. Press Enter to see all results.
               </span>
             </form>
             <p className="visually-hidden" role="status" aria-live="polite">
@@ -189,8 +186,11 @@ export default function HomePage() {
                       <span className="row">
                         <HanziText entry={entry} size="sm" />
                         <PinyinText entry={entry} />
+                        {entry.hanViet ? <span className="badge">[HV: {entry.hanViet}]</span> : null}
                       </span>
-                      <span className="dict-suggest-gloss text-sm faint">{entry.definition}</span>
+                      <span className="dict-suggest-gloss text-sm faint">
+                        {entry.definitionVi ? `${entry.definitionVi} · ${entry.definition}` : entry.definition}
+                      </span>
                     </button>
                   </li>
                 ))}
@@ -210,10 +210,10 @@ export default function HomePage() {
                   ? `${coverage.entries.toLocaleString()} entries ${coverage.partial ? '(partial)' : '(complete)'}`
                   : 'Checking installed entries…'}
               </span>
-              <PackChip id="characters" label="Character data" installed={readyPacks.has('characters')} />
-              <PackChip id="strokes" label="Stroke order" installed={readyPacks.has('strokes')} />
-              <PackChip id="examples" label="Example sentences" installed={readyPacks.has('examples')} />
-              <PackChip id="content" label="Learning content" installed={readyPacks.has('content')} />
+              <span className="chip" aria-disabled="true">Character data: ready</span>
+              <span className="chip" aria-disabled="true">Stroke order: auto-loaded</span>
+              <span className="chip" aria-disabled="true">Example sentences: auto-loaded</span>
+              <span className="chip" aria-disabled="true">Learning content: auto-loaded</span>
             </div>
           </section>
 
@@ -323,16 +323,5 @@ export default function HomePage() {
         </div>
       </LoadingGate>
     </div>
-  );
-}
-
-function PackChip({ id, label, installed }: { id: string; label: string; installed: boolean }) {
-  if (installed) {
-    return <span className="chip" aria-disabled="true">{label}: installed</span>;
-  }
-  return (
-    <Link className="chip" to="/offline-data" title={`Install the ${id} data pack`}>
-      <IconDownload className="dict-ic" /> {label}: install (optional)
-    </Link>
   );
 }

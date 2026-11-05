@@ -12,9 +12,19 @@ import {
   type ReactNode,
 } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { db, ensurePreferences, savePreferences } from '../data/db';
+import { db, ensurePreferences, notifyLocalMutation, recordTombstone, savePreferences } from '../data/db';
 import { createDictionary, type DictionaryApi, type LoadState } from '../data/dictionary';
+import { decodeBase64Utf8, hasGitHubPat, setGitHubConfig } from '../data/githubClient';
 import { ensureRequiredPacks, type InstallProgress } from '../data/packs';
+import {
+  getLastSyncCheckMs,
+  getSyncStatus,
+  pullSyncState,
+  setSyncStatus,
+  subscribeSyncStatus,
+  syncNow,
+  type SyncStatus,
+} from '../data/syncEngine';
 import type { DictEntry, Preferences, SavedWord } from '../domain/types';
 import { DEFAULT_PREFERENCES } from '../domain/types';
 
@@ -230,21 +240,94 @@ const SavedContext = createContext<SavedValue>({
 export function SavedWordsProvider({ children }: { children: ReactNode }) {
   const saved = useLiveQuery(() => db.savedWords.orderBy('addedAt').reverse().toArray(), [], []);
   const toast = useToast();
+  const [syncStatusState, setSyncStatusState] = useState<SyncStatus>(getSyncStatus);
+
+  useEffect(() => subscribeSyncStatus(setSyncStatusState), []);
+
+  useEffect(() => {
+    // 1. Check for self-connect QR payload in window.location.hash (?connect=<base64>)
+    try {
+      const hash = window.location.hash || '';
+      const qIndex = hash.indexOf('?');
+      if (qIndex !== -1) {
+        const routePart = hash.slice(0, qIndex);
+        const params = new URLSearchParams(hash.slice(qIndex + 1));
+        const connectPayload = params.get('connect');
+        if (connectPayload) {
+          params.delete('connect');
+          const remainingQuery = params.toString();
+          const cleanHash = remainingQuery ? `${routePart}?${remainingQuery}` : routePart;
+          window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}${cleanHash}`);
+          const decoded = JSON.parse(decodeBase64Utf8(connectPayload)) as {
+            owner?: string;
+            repo?: string;
+            branch?: string;
+            pat?: string;
+          };
+          if (decoded.pat) {
+            setGitHubConfig({
+              owner: decoded.owner,
+              repo: decoded.repo,
+              branch: decoded.branch,
+              pat: decoded.pat,
+            });
+            void syncNow().catch(() => {
+              // Status handled inside syncNow
+            });
+            return;
+          }
+        }
+      }
+    } catch {
+      // Ignore malformed connect hash
+    }
+
+    // 2. Normal boot sync check
+    if (hasGitHubPat()) {
+      setSyncStatus({ phase: 'idle' });
+      void pullSyncState().catch(() => {
+        // Status handled inside pullSyncState
+      });
+    } else {
+      setSyncStatus({ phase: 'disconnected' });
+    }
+
+    const onVisibilityChange = () => {
+      if (
+        document.visibilityState === 'visible' &&
+        hasGitHubPat() &&
+        Date.now() - getLastSyncCheckMs() > 60_000
+      ) {
+        void pullSyncState().catch(() => {
+          // Status handled inside pullSyncState
+        });
+      }
+    };
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+    };
+  }, []);
 
   const ids = useMemo(() => new Set(saved.map((row) => row.id)), [saved]);
 
   const save = useCallback(
     async (entry: DictEntry, listIds: string[] = []) => {
+      const now = new Date().toISOString();
       const row: SavedWord = {
         id: entry.id,
-        addedAt: new Date().toISOString(),
+        addedAt: now,
+        updatedAt: now,
         lists: listIds,
         simplified: entry.simplified,
         traditional: entry.traditional,
         pinyinMarked: entry.pinyinMarked,
         definition: entry.definition,
+        ...(entry.definitionVi ? { definitionVi: entry.definitionVi } : {}),
+        ...(entry.hanViet ? { hanViet: entry.hanViet } : {}),
       };
       await db.savedWords.put(row);
+      notifyLocalMutation();
       toast.push(`Saved ${entry.simplified}`);
     },
     [toast],
@@ -253,6 +336,7 @@ export function SavedWordsProvider({ children }: { children: ReactNode }) {
   const unsave = useCallback(
     async (entryId: string) => {
       await db.savedWords.delete(entryId);
+      await recordTombstone('savedWords', entryId);
       toast.push('Removed from saved words');
     },
     [toast],
@@ -262,6 +346,7 @@ export function SavedWordsProvider({ children }: { children: ReactNode }) {
     async (entry: DictEntry, listIds?: string[]) => {
       if (ids.has(entry.id)) {
         await db.savedWords.delete(entry.id);
+        await recordTombstone('savedWords', entry.id);
         toast.push('Removed from saved words');
         return false;
       }
@@ -275,7 +360,17 @@ export function SavedWordsProvider({ children }: { children: ReactNode }) {
     () => ({ saved, isSaved: (entryId: string) => ids.has(entryId), toggle, save, unsave }),
     [saved, ids, toggle, save, unsave],
   );
-  return <SavedContext.Provider value={value}>{children}</SavedContext.Provider>;
+  return (
+    <SyncStatusContext.Provider value={syncStatusState}>
+      <SavedContext.Provider value={value}>{children}</SavedContext.Provider>
+    </SyncStatusContext.Provider>
+  );
+}
+
+const SyncStatusContext = createContext<SyncStatus>({ phase: 'disconnected' });
+
+export function useSyncStatus(): SyncStatus {
+  return useContext(SyncStatusContext);
 }
 
 export function useSavedWords(): SavedValue {

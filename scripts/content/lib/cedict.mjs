@@ -42,11 +42,20 @@ export function parseLine(line) {
   };
 }
 
-export const DICTIONARY_FIELDS = 6;
+export const DICTIONARY_FIELDS = 8;
 
-/** Record order is fixed by docs/DATA_FORMAT.md. */
-export function toFields(entry, marked, plain) {
-  return [entry.simplified, entry.traditional, entry.pinyinNumbered, marked, plain, entry.definition];
+/** Record order is fixed by docs/DATA_FORMAT.md (v0.2: 8 fields). */
+export function toFields(entry, marked, plain, definitionVi = '', hanViet = '') {
+  return [
+    entry.simplified,
+    entry.traditional,
+    entry.pinyinNumbered,
+    marked,
+    plain,
+    entry.definition,
+    definitionVi,
+    hanViet,
+  ];
 }
 
 /** Iterates every data record of a decoded cedict buffer/string. */

@@ -100,6 +100,8 @@ const PRIMARY_KEYS: Record<UserStore, string> = {
   achievements: 'id',
   documents: 'id',
   photos: 'id',
+  courseProgress: 'lessonId',
+  bookBookmarks: 'bookId',
 };
 
 function isNewer(candidate: Record<string, unknown>, existing: Record<string, unknown>): boolean {

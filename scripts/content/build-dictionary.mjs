@@ -1,7 +1,7 @@
 /**
- * build-dictionary.mjs - CC-CEDICT -> public/data/packs/dictionary-core/NNN.txt
+ * build-dictionary.mjs - CC-CEDICT + CVDICT + Unihan kVietnamese -> public/data/packs/dictionary-core/NNN.txt
  *
- * Record: simplified US traditional US pinyinNumbered US pinyinMarked US pinyinPlain US definition
+ * Record: simplified US traditional US pinyinNumbered US pinyinMarked US pinyinPlain US definition US definitionVi US hanViet
  */
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
@@ -23,16 +23,61 @@ import { numberedToMarked, toPlain } from './lib/pinyin.mjs';
 import { DICTIONARY_FIELDS, cleanGloss } from './lib/cedict.mjs';
 import { SHARD_SIZES } from './lib/packs.mjs';
 import { loadProvenance } from './lib/provenance.mjs';
+import { buildCharToHanViet, loadUnihan, wordHanViet } from './lib/unihan.mjs';
 
 const PACK_ID = 'dictionary-core';
 const PACK_DIR = path.join(PACKS_DIR, PACK_ID);
 
+function loadCvdictIndex(cvdictFile, cvdictMeta) {
+  const text = readText(cvdictFile);
+  const dateLine = text.match(/^#! date=(\S+)$/m);
+  const headerDate = dateLine ? dateLine[1] : null;
+  if (headerDate && cvdictMeta?.upstreamDate && cvdictMeta.upstreamDate !== headerDate) {
+    throw new Error(
+      `Cache drift: cvdict.u8 header says date=${headerDate} but provenance.json pins ${cvdictMeta.upstreamDate}.`
+    );
+  }
+
+  const byFullKey = new Map();
+  const bySimpPinyin = new Map();
+  const bySimpOnly = new Map();
+  let parsed = 0;
+
+  for (const line of text.split(/\r?\n/)) {
+    if (!line || line.startsWith('#')) continue;
+    const m = line.match(/^(\S+) (\S+) \[([^\]]*)\] (\/.*\/)$/);
+    if (!m) continue;
+    const [, traditional, simplified, pinyinRaw, defRaw] = m;
+    const glosses = defRaw
+      .slice(1, -1)
+      .split('/')
+      .map((g) => g.trim().replace(/gi\u00e1o\s+tr\u00ecnh/gi, 'sách học'))
+      .filter((g) => g.length > 0);
+    if (glosses.length === 0) continue;
+    parsed++;
+    const definitionVi = glosses.join('; ');
+    const pinyinNumbered = pinyinRaw.trim().toLowerCase().replace(/\s+/g, ' ');
+    const fullKey = `${simplified}\u0000${traditional}\u0000${pinyinNumbered}`;
+    const simpPyKey = `${simplified}\u0000${pinyinNumbered}`;
+    if (!byFullKey.has(fullKey)) byFullKey.set(fullKey, definitionVi);
+    if (!bySimpPinyin.has(simpPyKey)) bySimpPinyin.set(simpPyKey, definitionVi);
+    if (!bySimpOnly.has(simplified)) bySimpOnly.set(simplified, definitionVi);
+  }
+
+  return { byFullKey, bySimpPinyin, bySimpOnly, parsed };
+}
+
 export async function build({ cacheDir, quiet = false } = {}) {
   const srcFile = path.join(cacheDir, 'cedict_ts.u8');
-  if (!exists(srcFile)) throw new Error(`Missing cache file ${srcFile} - run scripts/content/fetch-sources.mjs first`);
+  const cvdictFile = path.join(cacheDir, 'cvdict.u8');
+  const unihanZip = path.join(cacheDir, 'Unihan.zip');
+  for (const f of [srcFile, cvdictFile, unihanZip]) {
+    if (!exists(f)) throw new Error(`Missing cache file ${f} - run scripts/content/fetch-sources.mjs first`);
+  }
 
   const reg = loadProvenance();
   const cedict = reg.byId.get('cc-cedict');
+  const cvdictMeta = reg.byId.get('cvdict');
   const text = readText(srcFile);
 
   // Guard: the cache must be the release provenance.json pins.
@@ -46,9 +91,15 @@ export async function build({ cacheDir, quiet = false } = {}) {
     );
   }
 
+  const { byFullKey, bySimpPinyin, bySimpOnly, parsed: cvdictParsed } = loadCvdictIndex(cvdictFile, cvdictMeta);
+  const { byCodePoint } = loadUnihan(unihanZip);
+  const charToHanViet = buildCharToHanViet(byCodePoint);
+
   const rows = [];
   let boilerplateStripped = 0;
   let skipped = 0;
+  let withVi = 0;
+  let withHanViet = 0;
   for (const line of text.split(/\r?\n/)) {
     if (!line || line.startsWith('#')) continue;
     const m = line.match(/^(\S+) (\S+) \[([^\]]*)\] (\/.*\/)$/);
@@ -66,7 +117,22 @@ export async function build({ cacheDir, quiet = false } = {}) {
     const definition = cleaned.filter((g) => g.length > 0).join('; ');
     if (!definition) throw new Error(`Record with empty definition: ${line.slice(0, 100)}`);
     const pinyinNumbered = pinyinRaw.trim().toLowerCase().replace(/\s+/g, ' ');
-    rows.push([simplified, traditional, pinyinNumbered, numberedToMarked(pinyinNumbered), toPlain(pinyinNumbered), definition]);
+    const fullKey = `${simplified}\u0000${traditional}\u0000${pinyinNumbered}`;
+    const simpPyKey = `${simplified}\u0000${pinyinNumbered}`;
+    const definitionVi = byFullKey.get(fullKey) || bySimpPinyin.get(simpPyKey) || bySimpOnly.get(simplified) || '';
+    const hanViet = wordHanViet(simplified, traditional, charToHanViet);
+    if (definitionVi) withVi++;
+    if (hanViet) withHanViet++;
+    rows.push([
+      simplified,
+      traditional,
+      pinyinNumbered,
+      numberedToMarked(pinyinNumbered),
+      toPlain(pinyinNumbered),
+      definition,
+      definitionVi,
+      hanViet,
+    ]);
   }
 
   if (skipped > 0) throw new Error(`${skipped} CC-CEDICT data lines did not match the expected "TRAD SIMP [py] /def/" shape`);
@@ -131,7 +197,7 @@ export async function build({ cacheDir, quiet = false } = {}) {
     packId: PACK_ID,
     files,
     coverage: { records, languages: null },
-    stats: { parsed: rows.length, boilerplateStripped, shardSize, maxHeadwordChars },
+    stats: { parsed: rows.length, cvdictParsed, withVi, withHanViet, boilerplateStripped, shardSize, maxHeadwordChars },
   };
 }
 

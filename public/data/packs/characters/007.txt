@@ -1,2048 +1,2048 @@
-6c40汀tīngting1sandbar, beach, bank, shore85'2
-6c41汁zhīzap1juice, liquor, fluid, sap, gravy, sauce85'2
-6c42求qiúkau4seek; demand, request; beseech85'2
-6c43汃bīn85'2
-6c44汄zèzak185'2
-6c45汅miǎnmin585'2
-6c46汆cuāncyun1to parboil; hot water kettle; to boil85'2
-6c47汇huìwui6concourse; flow together, gather85'2532F 5F59
-6c48汈diāodiu1a lake in Húběi85'2
-6c49汉hànhon3Chinese people; Chinese language85'26F22
-6c4a汊chàcaa3a branching stream85'3
-6c4b汋zhuójoek6to pour85'3
-6c4c汌chuàncyun385'3
-6c4d汍wánjyun4weep85'3
-6c4e汎fànfaan4float, drift; afloat; careless85'3
-6c4f汏dàdaai685'3
-6c50汐xīzik6night tides, evening ebb tide85'3
-6c51汑tuōtok385'3
-6c52汒mángmong485'3
-6c53汓qiúcau485'3
-6c54汔qìngat6close, almost85'3
-6c55汕shànsaan3basket for catching fish; bamboo; Swatow (Shantou)85'3
-6c56汖pìnpan385'3
-6c57汗hànhon6perspiration, sweat85'3
-6c58汘qiāncim485'3
-6c59汙wūwaa1filthy, dirty, impure, polluted85'3
-6c5a汚wūwu1filthy, dirty, impure, polluted85'3
-6c5b汛xùnseon3high water, flood tides85'3
-6c5c汜sìci5a stream which leaves the main branch then later returns85'3
-6c5d汝rǔjyu5you85'3
-6c5e汞gǒnghung3mercury (element 80, Hg)85'3
-6c5f江jiānggong1large river; the Yangzi; surname85'3
-6c60池chíci4pool, pond; moat; cistern85'3
-6c61污wūwu1filthy, dirty, impure, polluted85'3
-6c62汢tutou285'3
-6c63汣jiǔgwai285'3
-6c64汤tāngtong1hot water; soup, gravy, broth85'36E6F
-6c65汥zhīzi185'4
-6c66汦zhǐzi285'4
-6c67汧qiānhin1name of a river in Shangdong; marsh; float85'4
-6c68汨mìmik6Mi(luo) river in Hunan province where Qu Yuan drowned himself; to sink; (used erroneously for 汩)85'4
-6c69汩gǔgwat1run swiftly85'4
-6c6a汪wāngwong1vast, extensive, deep; surname85'4
-6c6b汫jǐngzeng2a pit, trap; the appearance of a small, meandering stream85'4
-6c6c汬jǐngzing685'4
-6c6d汭ruìjeoi6confluence of two streams; bend85'4
-6c6e汮jūngwan185'4
-6c6f汯hóngwang485'4
-6c70汰tàitaai3excessive; scour, wash out85'4
-6c71汱quǎngyun285'4
-6c72汲jíkap1draw water from well; imbibe85'4
-6c73汳biànbin685'4
-6c74汴biànbin6name of a river in Henan; Henan85'4
-6c75汵gàngam385'4
-6c76汶wènman6a river in Shandong province85'4
-6c77汷zhōngzung185'3
-6c78汸fāngfong185'4
-6c79汹xiōnghung1turbulent; noisy, restless85'46C796C79 6D36
-6c7a決juékyut3decide, determine, judge85'451B3
-6c7b汻hǔwu285'4
-6c7c汼niúngau485'4
-6c7d汽qìhei3steam, vapor, gas85'4
-6c7e汾fénfan4river in Shanxi province85'4
-6c7f汿xùzeoi685'4
-6c80沀xùzeoi685'4
-6c81沁qìnsam3soak into, seep in, percolate85'4
-6c82沂yíji4river in southeast Shandong85'4
-6c83沃wòjuk1water, irrigate; fertile, rich85'4
-6c84沄yúnwan4billows85'46C846C84 6F90
-6c85沅yuánjyun4name of a river in western Hunan that flows into Dongting lake85'4
-6c86沆hànghong4a ferry; fog; flowing85'4
-6c87沇yǎnjin5flowing and engulfing; brimming85'4
-6c88沈shěn chénsam2sink, submerge; addicted to; surname85'46C886C88 700B
-6c89沉chéncam4sink, submerge; addicted to85'4
-6c8a沊dàndam2(Cant.) onomatopoetic85'4
-6c8b沋yóujau485'4
-6c8c沌dùndeon6chaotic, confused; turbid, murky85'4
-6c8d沍hùwu6freezing; stopped up, closed off85'4
-6c8e沎huòfo385'4
-6c8f沏qīcai3infuse85'4
-6c90沐mùmuk6bathe, cleanse, wash, shampoo85'4
-6c91沑nǜnuk685'4
-6c92沒méimut6not, have not, none; to drown, sink85'46CA1
-6c93沓dá tàdaap6connected, joined; repeated85'4
-6c94沔miǎnmin5flood; overflowing85'4
-6c95沕mìmat6deep; (Cant.) to dive85'4
-6c96沖chōngcung1pour, infuse, steep; wash away85'451B2
-6c97沗pāngtim185'4
-6c98沘bǐbei2name of a river85'4
-6c99沙shāsaa1sand, gravel, pebbles; granulated85'4
-6c9a沚zhǐzi2islet in stream; small sandbar85'4
-6c9b沛pèipui3abundant, full, copious; sudden85'4
-6c9c沜pànpun385'4
-6c9d沝zhuǐzeoi285'4
-6c9e沞zāzaap385'4
-6c9f沟gōukau1ditch, drain, narrow waterway85'46E9D
-6ca0沠liúpaai385'4
-6ca1没méimut6not, have not, none; drown, sink85'46CA16C92 6CA1
-6ca2沢zézaak6marsh, swamp; grace, brilliance85'4
-6ca3沣fēngfung1river in Shanxi province85'47043
-6ca4沤òuau3soak, steep; sodden or soaked85'46F1A
-6ca5沥lìlik6trickle, drip; strain; dregs85'4701D
-6ca6沦lúnleon4be lost; sink, be submerged85'46DEA
-6ca7沧cāngcong1blue, dark green; cold85'46EC4
-6ca8沨fēngfung1pleasant sound85'46E22
-6ca9沩wéigwai1name of a river in Hunan85'46E88 6F59
-6caa沪hùwu6Shanghai; river near Shanghai85'46CAA6CAA 6EEC
-6cab沫mòmut6froth, foam, bubbles, suds85'5
-6cac沬mèimui6dusk; Mei river; Zhou dynasty place-name; (Cant.) to go underwater, to dive85'5
-6cad沭shùseot6river in Shantung85'5
-6cae沮jǔzeoi1stop, prevent; defeated, dejected85'5
-6caf沯zázaat385'5
-6cb0沰tuōtok3to let drop85'5
-6cb1沱tuóto4rivers, streams, waterways; flow85'5
-6cb2沲tuóto4float85'5
-6cb3河hého4river; stream; the Yellow River85'5
-6cb4沴lìleoi6foul and poisonous in confusion; out of harmony85'5
-6cb5沵mǐmei585'5
-6cb6沶yíji485'5
-6cb7沷fāfaat3to remove evil; to cleanse; to wash away85'5
-6cb8沸fèifai3boil, bubble up, gush85'5
-6cb9油yóujau4oil, fat, grease, lard; paints85'5
-6cba沺tiántin4turbulent85'5
-6cbb治zhìzi6govern, regulate, administer85'5
-6cbc沼zhǎoziu2lake, fishpond, swamps85'5
-6cbd沽gūgu1buy and sell; inferior in quality85'5
-6cbe沾zhānzim1moisten, wet, soak; touch85'5
-6cbf沿yánjyun4follow a course, go along85'5
-6cc0泀sīsi185'5
-6cc1況kuàngfong3condition, situation; furthermore85'551B5
-6cc2泂jiǒnggwing2clear and deep (of water); wide85'5
-6cc3泃jūkeoi1river in Henan85'5
-6cc4泄xièsit3leak; vent; flow; reveal85'5
-6cc5泅qiúcau4swim, float, wade85'5
-6cc6泆yìjat6licentious, libertine, dissipated85'5
-6cc7泇jiāgaa185'5
-6cc8泈zhōngzung185'5
-6cc9泉quáncyun4spring, fountain; wealth, money85'5
-6cca泊pōbok6anchor vessel; lie at anchor85'5
-6ccb泋huìwai385'5
-6ccc泌mìbei3to seep out, excrete85'5
-6ccd泍bēnban185'5
-6cce泎zézaak685'5
-6ccf泏zhúzeot185'5
-6cd0泐lèlak6to write; to indite; veins in minerals85'5
-6cd1泑yōujau2the vitreous glaze on china, porcelain, etc.85'5
-6cd2泒gūgu1a river in Hubei province85'5
-6cd3泓hóngwang4clear, deep pool of water85'5
-6cd4泔gāngam1water from washing rice to boil thick, as gruel85'5
-6cd5法fǎfaat3law, rule, regulation, statute; France, French85'5
-6cd6泖mǎomaau5still waters; river in Jiangsu85'5
-6cd7泗sìsi3mucous; nasal flow; sniffle; river in Shandong85'5
-6cd8泘hūfu185'5
-6cd9泙píngpaang1roar85'5
-6cda泚cǐci2clear; bright and brilliant; sweat85'6
-6cdb泛fànfaan3to drift, float; careless, reckless85'5
-6cdc泜zhīa river in Hebei province85'5
-6cdd泝sùsou3go upstream; trace source; formerly85'5
-6cde泞nìngning6mud; miry, muddy, stagnant85'56FD8
-6cdf泟chēngzaa185'5
-6ce0泠língling4nice and cool, mild and comfortable85'5
-6ce1泡pàopou5bubbles, suds; blister; soak85'5
-6ce2波bōbo1waves, breakers; undulations85'5
-6ce3泣qìjap1cry, sob, weep85'5
-6ce4泤sìci585'5
-6ce5泥nínai4mud, mire; earth, clay; plaster85'5
-6ce6泦júguk185'5
-6ce7泧sàkut385'5
-6ce8注zhùzyu3concentrate, focus, direct85'56CE86CE8 8A3B
-6ce9泩shēngsang185'5
-6cea泪lèileoi6tears; weep, cry85'56CEA6CEA 6DDA
-6ceb泫xuànjyun5weep; cry; shine, glisten85'5
-6cec泬juékyut385'5
-6ced泭fúfu1a raft85'5
-6cee泮pànpun3Zhou dynasty school; disperse; fall apart85'5
-6cef泯mǐnman5destroy, eliminate; perish85'5
-6cf0泰tàitaai3great, exalted, superior; big; hexagram ䷊85'5
-6cf1泱yāngjoeng1great, expansive; agitated85'5
-6cf2泲jǐzai3kind of white wine; rivers in Hebei and Shandong85'5
-6cf3泳yǒngwing6dive; swim85'5
-6cf4泴guàngun385'5
-6cf5泵bèngbam1pump (English loan word)112'4
-6cf6泶xuéhok685'56FA9
-6cf7泷lónglung4raining; wet; soaked; a river in Guangdong85'57027
-6cf8泸lúlou4river in Jiangxi province85'57018
-6cf9泹dàndaan385'5
-6cfa泺luòlok6river in Shandong province85'56FFC
-6cfb泻xièse3drain off, leak; flow, pour down85'57009
-6cfc泼pōput3pour, splash, water, sprinkle85'56F51
-6cfd泽zézaak6marsh, swamp; grace, brilliance85'56FA4
-6cfe泾jīngging1name of a river85'56D87
-6cff泿yínngan485'6
-6d00洀pánzau185'6
-6d01洁jiégit3clean, purify, pure85'66F54
-6d02洂yèjik685'6
-6d03洃huīfui185'6
-6d04洄huíwui4a back-water; an eddy a whirlpool85'6
-6d05洅zàizoi385'6
-6d06洆chéngsing485'6
-6d07洇yīnjan1to soak paper, blot85'6
-6d08洈wéingai485'6
-6d09洉hòuhau685'6
-6d0a洊jiànzin3flowing water85'6
-6d0b洋yángjoeng4ocean, sea; foreign; western85'6
-6d0c洌lièlit6clear85'6
-6d0d洍sìci585'7
-6d0e洎jìgei3until; till; soup; to soak85'6
-6d0f洏érji4tears; tearful85'6
-6d10洐xínghang485'6
-6d11洑fúfuk6whirlpool, undercurrent85'6
-6d12洒sǎsaa2sprinkle; scatter; pour; to wipe away; to shiver85'66D126D12 7051
-6d13洓qì suǒsaak385'6
-6d14洔zhǐzi285'6
-6d15洕yìnjan585'6
-6d16洖wúng485'7
-6d17洗xǐsai2wash, rinse; clean, purify85'6
-6d18洘kǎohaau285'6
-6d19洙zhūzyu1name of a river in Shandong85'6
-6d1a洚jiànggong3a flood85'6
-6d1b洛luòlok3river in Shanxi province; city85'6
-6d1c洜luòlok385'6
-6d1d洝ànon385'6
-6d1e洞dòngdung6cave, grotto; ravine; hole85'6
-6d1f洟tìji4snivel, mucus from nose85'6
-6d20洠móumau485'6
-6d21洡lèileoi685'6
-6d22洢yīji185'6
-6d23洣mǐmai5Mi river in Hunan, tributary of Xiangjiang85'6
-6d24洤quáncyun4a fountain or spring85'6
-6d25津jīnzeon1ferry; saliva; ford85'6
-6d26洦pòpaak385'6
-6d27洧wěifui2name of a river in Honan85'6
-6d28洨xiáongaau4river in Hebei province85'6
-6d29洩xièjai6leak, drip; vent or release85'6
-6d2a洪hónghung4vast, immense; flood, deluge85'6
-6d2b洫xùgwik1to ditch; a moat85'6
-6d2c洬sùsuk185'6
-6d2d洭kuānghong1river in Guangdong85'6
-6d2e洮táotou4cleanse; river in Gansu province85'6
-6d2f洯qièkit385'6
-6d30洰jùkeoi485'6
-6d31洱ěrji5a lake in Yunnan85'6
-6d32洲zhōuzau1continent; island; islet85'6
-6d33洳rùjyu6damp, boggy, marshy85'6
-6d34洴píngping4sound85'6
-6d35洵xúnseon1true, real, truly, really85'6
-6d36洶xiōnghung1the rush of water; turbulent; noisy, restless85'66C79
-6d37洷zhìzat685'6
-6d38洸guānggwong1sparkle, glitter85'6
-6d39洹huánwun4river in Henan province85'6
-6d3a洺míngming4river in Hebei province85'6
-6d3b活huówut6live, exist, survive; lively85'6
-6d3c洼wāwaa1hollow; pit; depression; swamp85'66D3C6D3C 7AAA
-6d3d洽qiàhap1to blend with, be in harmony; to penetrate; to cover; a river in Shenxi85'6
-6d3e派pàipaai3school of thought, sect, branch85'6
-6d3f洿wūwu1stagnant water; impure, filthy85'6
-6d40浀qūkuk185'6
-6d41流liúlau4flow, circulate, drift; class85'6
-6d42浂yìgun385'6
-6d43浃jiāzip3saturate, drench; damp, wet85'66D79
-6d44浄jìngzing6pure, clean, unspoiled85'6
-6d45浅qiǎncin2shallow, not deep; superficial85'66D456D45 6DFA
-6d46浆jiāngzoeng1any thick fluid; starch; broth85'66F3F
-6d47浇jiāohiu1spray, water, sprinkle85'66F86
-6d48浈zhēnzing1river in Guangdong province85'66E5E
-6d49浉shīsi1river in Henan province85'66EAE
-6d4a浊zhuózuk6muddy, turbid, dirty, filthy85'66FC1
-6d4b测cècak1measure, estimate, conjecture85'66E2C
-6d4c浌fáfat685'6
-6d4d浍huìkui2irrigation ditch, trench; river85'66FAE
-6d4e济jìzai3help, aid, relieve; ferry, cross85'66FDF
-6d4f浏liúlau4clear; bright; whistling85'6700F
-6d50浐chǎncaan2a river in Shaanxi85'66EFB
-6d51浑húnwan4muddy, turbid; blend, merge, mix85'66E3E
-6d52浒hǔwu2riverbank, shore85'66EF8
-6d53浓nóngnung4thick, strong, concentrated85'66FC3
-6d54浔xúncam4steep bank by stream; jiujiang85'66F6F
-6d55浕jìnzeon6river in Hubei province85'66FDC
-6d56浖lièlyut6(Cant.) intensifier85'7
-6d57浗qiúkau485'7
-6d58浘wěimei585'7
-6d59浙zhèzit3Zhejiang province; river85'7
-6d5a浚jùnzeon3dredge85'7
-6d5b浛hánham4place in Yingde, Guangdong province85'7
-6d5c浜bāngbong1creek, stream; beach, sea coast85'7
-6d5d浝mángmong485'7
-6d5e浞zhuózuk1to soak, to steep in water85'7
-6d5f浟yóujau485'7
-6d60浠xīhei1a river in Húběi85'7
-6d61浡bóbut6burst forth; rise; vigorous85'7
-6d62浢dòudau685'7
-6d63浣huànwun5to wash, to rinse85'7
-6d64浤hóngwang4beating of ocean; surging of water85'7
-6d65浥yìjap1moist, wet, dampen85'7
-6d66浦pǔpou2bank of river, shore; surname85'7
-6d67浧yǐngjing585'7
-6d68浨lǎnlam585'7
-6d69浩hàohou6great, numerous, vast, abundant85'7
-6d6a浪lànglong6wave; wasteful, reckless85'7
-6d6b浫hǎnhon285'7
-6d6c浬lǐlei5nautical mile85'7
-6d6d浭gēnggang1river in Hebei province; (Cant.) a ford; to wade85'7
-6d6e浮fúfau4to float, drift, waft; to exceed; superfluous85'7
-6d6f浯wúng4name of a river in Shandong85'7
-6d70浰liànlin685'7
-6d71浱chúnseon485'7
-6d72浲féngfung485'7
-6d73浳yìjik685'7
-6d74浴yùjuk6bathe, wash; bath85'7
-6d75浵tóngtung485'7
-6d76浶láolou485'7
-6d77海hǎihoi2sea, ocean; maritime85'7
-6d78浸jìnzam3soak, immerse, dip, percolate85'7
-6d79浹jiāzip3saturate, drench; damp, wet85'76D43
-6d7a浺chōngcung185'7
-6d7b浻jiǒnggwing285'7
-6d7c浼měimui5to request; to ask a favour of; to pollute, contaminate85'7
-6d7d浽suīseoi185'7
-6d7e浾chēngzaa185'7
-6d7f浿pèibui385'72C1D9
-6d80涀xiànjin685'7
-6d81涁shènsam385'7
-6d82涂tútou4surname; name of certain rivers85'76D825857 6D82
-6d83涃kùnkwan385'7
-6d84涄pīngping185'7
-6d85涅niènip6blacken; black mud, slime85'7
-6d86涆hànhon685'7
-6d87涇jīngging1name of a river85'76CFE
-6d88消xiāosiu1vanish, die out; melt away85'7
-6d89涉shèsip3ford stream, wade across85'7
-6d8a涊niǎnnin5dirt85'7
-6d8b涋tūteot185'7
-6d8c涌yǒngcung1surge up, bubble up, gush forth85'7
-6d8d涍xiàohaau385'7
-6d8e涎xiánjin4saliva85'7
-6d8f涏tǐngting585'7
-6d90涐éngo485'7
-6d91涑sùcuk1river in Shansi province85'7
-6d92涒tūntan1meander85'7
-6d93涓juāngyun1brook, stream; select; pure85'7
-6d94涔cénsam4river in Shaanxi; murky torrent85'7
-6d95涕tìtai3tear; snivel, nasal mucus85'7
-6d96涖lìlei6river in Hebei province; creek85'7
-6d97涗shuìseoi385'7
-6d98涘sìzi6river bank; water's edge85'7
-6d99涙lèileoi6tears; weep85'8
-6d9a涚shuìseoi385'7
-6d9b涛tāotou4large waves85'76D9B6D9B 6FE4
-6d9c涜dúduk6ditch, sluice, gutter, drain85'7
-6d9d涝làolou6inundate, flood; torrent85'76F87
-6d9e涞láiloi4river in Hebei province; creek85'76DF6
-6d9f涟liánlin4flowing water; ripples; weeping85'76F23
-6da0涠wéiwai4still water85'76F7F
-6da1涡wōwo1swirl, whirlpool, eddy85'76E26
-6da2涢yúnwan4river in Hubei85'76EB3
-6da3涣huànwun6scatter; scattered85'76E19
-6da4涤dídik6wash, cleanse, purify; sweep85'76ECC
-6da5涥hēnghang185'7
-6da6润rùnjeon6soft, moist; sleek; freshen85'76F64
-6da7涧jiàngaan3brook, mountain stream85'76F97
-6da8涨zhǎngzoeng2rise in price85'76F32
-6da9涩sègip3astringent; harsh; uneven, rough85'76F80
-6daa涪fúfau4river in Sichuan province85'8
-6dab涫guàngun385'8
-6dac涬xìnghang6watery expanse85'8
-6dad涭shòusau685'8
-6dae涮shuànsaan3rinse; cook or boil in juice85'8
-6daf涯yángaai4shore, bank, water's edge85'8
-6db0涰chuòzyut385'8
-6db1涱zhàngzoeng285'8
-6db2液yèjik6sap, juice, liquid, fluid85'8
-6db3涳kōnghung185'8
-6db4涴wòwo3daub85'8
-6db5涵hánhaam4soak, wet; tolerate, be lenient85'8
-6db6涶tuōto1to spit; saliva85'8
-6db7涷dōngdung1rainstorm85'8306D2
-6db8涸hékok3dried up; exhausted, tired; dry85'8
-6db9涹wōwo185'8
-6dba涺jūgeoi185'8
-6dbb涻shèse385'8
-6dbc涼liángloeng4cool, cold; disheartened85'851C9
-6dbd涽hūnfan185'8
-6dbe涾tàtaap385'8
-6dbf涿zhuōdoek3drip, dribble, trickle85'8
-6dc0淀diàndin6shallow water, swamp; swampy85'86DC06DC0 6FB1
-6dc1淁qiècip385'8
-6dc2淂dédak185'8
-6dc3淃juàngyun685'8
-6dc4淄zīzi1river in Shandong province85'8
-6dc5淅xīsik1water used wash rice; to wash rice85'8
-6dc6淆xiáongaau4confused, in disarray, mixed up85'8
-6dc7淇qíkei4river in Henan province85'8
-6dc8淈gǔgwat185'8
-6dc9淉guǒgwo285'8
-6dca淊yānjim1to immerse (in water)85'8
-6dcb淋línlam4drip, soak, drench; perfectly85'8
-6dcc淌tǎngtong2trickle; flow down; drip85'8
-6dcd淍zhōuzau185'8
-6dce淎pěngfung285'8
-6dcf淏hàohou685'8
-6dd0淐chāngcoeng185'8
-6dd1淑shūsuk6good, pure, virtuous, charming85'8
-6dd2淒qīcai1bitter cold, miserable, dreary85'8
-6dd3淓fāngfong185'8
-6dd4淔zhízik685'8
-6dd5淕lùluk685'8
-6dd6淖nàonaau6slush; mud85'8
-6dd7淗júguk185'8
-6dd8淘táotou4wash in a sieve; weed out85'8
-6dd9淙cóngcung4gurgling sound of water85'8
-6dda淚lèileoi6tears; weep, cry85'86CEA
-6ddb淛zhèzit385'8
-6ddc淜péngpang4roar of dashing waves85'8
-6ddd淝féifei4name of an affluent of the Poyang Lake85'8
-6dde淞sōngsung1name of a river in Jiangsu85'8
-6ddf淟tiǎntin2turbid; muddy85'8
-6de0淠pìpei3name of a river in Anhui85'8
-6de1淡dàndaam6weak, watery; insipid, tasteless85'8
-6de2淢yùwik6ditch85'8
-6de3淣níngai485'8
-6de4淤yūjyu1mud, sediment; clog up, silt up85'8
-6de5淥lùluk6strain; (Cant.) to scald85'86E0C
-6de6淦gàngam3river in Jiangxi province; water leaking into a boat85'8
-6de7淧mìmat685'8
-6de8淨jìngzing6pure, clean, unspoiled85'8
-6de9淩língling4pass over, cross, traverse85'8
-6dea淪lúnleon4be lost; sink, be submerged85'86CA6
-6deb淫yínjam4obscene, licentious, lewd85'8
-6dec淬cuìceoi3temper; dye; soak; change, alter85'8
-6ded淭qúkeoi485'8
-6dee淮huáiwaai4river in Anhui province85'8
-6def淯yùjuk6name of river; old name of Baihe in Henan85'8
-6df0淰niǎnnaam5fish; still; (Cant.) thoroughly soaked; a deep sleep85'8
-6df1深shēnsam1deep; depth; far; very, extreme85'8
-6df2淲biāopiu485'8
-6df3淳chúnseon4honest, simple, unsophisticated; cyanogen; ethane dinitrile85'8
-6df4淴hūfat1to wash, bathe85'8
-6df5淵yuānjyun1gulf, abyss, deep85'86E0A
-6df6淶láiloi4river in Hebei province; creek85'86D9E
-6df7混hùnwan6to mix, blend, mingle; to bumble along85'8
-6df8淸qīngcing1clear85'8
-6df9淹yānjim1drown; cover with liquid, steep85'8
-6dfa淺qiǎncin2shallow, not deep; superficial85'86D45
-6dfb添tiāntim1append, add to; increase85'8
-6dfc淼miǎomiu5a wide expanse of water85'8
-6dfd淽zhǐzi285'8
-6dfe淾yǐnjam285'8
-6dff淿bóbok685'8
-6e00渀bènban685'8
-6e01渁yuānjyun185'8
-6e02渂wènman685'8
-6e03渃ruòjoek685'9
-6e04渄fēifei185'8
-6e05清qīngcing1clear, pure, clean; peaceful85'8
-6e06渆yuānjyun185'8
-6e07渇kěhot3thirsty85'8
-6e08済jìzai3help, aid, relieve; ferry, cross85'8
-6e09渉shèsip3ford stream85'8
-6e0a渊yuānjyun1surge up, bubble up, gush forth85'86E0A6DF5 6E0A
-6e0b渋sègip3astringent; harsh; uneven, rough85'8
-6e0c渌lùluk6strain85'86DE5
-6e0d渍zìzi3soak, steep; dye; stains; sodden85'86F2C
-6e0e渎dúduk6ditch, sluice, gutter, drain85'87006
-6e0f渏yīji185'8
-6e10渐jiànzim6gradually85'86F38
-6e11渑miǎnman5name of a river in Shandong85'86FA0
-6e12渒pàibei185'8
-6e13渓xīkai1mountain stream, creek85'8
-6e14渔yújyu4to fish; seize; pursue; surname85'86F01
-6e15渕yuānjyun1surge up, bubble up, gush forth85'8
-6e16渖shěnsam2juice; liquid; water; to leak, pour85'8700B
-6e17渗shènsam3soak through, infiltrate85'86EF2
-6e18渘róujau485'9
-6e19渙huànwun6scatter; scattered, dispersed; hexagram ䷺85'96DA3
-6e1a渚zhǔzyu2small sand bank, islet85'8
-6e1b減jiǎngaam2decrease, subtract, diminish85'951CF
-6e1c渜nuǎnnyun585'9
-6e1d渝yújyu4change; chongqing85'9
-6e1e渞qiúcau485'9
-6e1f渟tíngting4(of water) not flowing; clear85'9
-6e20渠qúkeoi4ditch, canal, channel, gutter85'9
-6e21渡dùdou6cross, ferry over; ferry85'9
-6e22渢fánfung1pleasant sound85'96CA8
-6e23渣zhāzaa1refuse, dregs, lees, sediment85'9
-6e24渤bóbut6swelling; (渤海) the Bohai Sea85'9
-6e25渥wòak1moisten, soak; great, deep; dye; to enrich85'9
-6e26渦wōwo1swirl, whirlpool, eddy85'96DA1
-6e27渧dìdai3to drop, as liquids; a drop85'9
-6e28渨wēiwui1a cove, a bay; a bend or nook in the hills; the curve of a bow85'9
-6e29温wēnwan1lukewarm85'96E296E29 6EAB
-6e2a渪rújyu485'9
-6e2b渫xièsit3beating of ocean; surging of water85'9
-6e2c測cècak1measure, estimate, conjecture85'96D4B
-6e2d渭wèiwai6name of a river in Shanxi85'9
-6e2e渮hégo1river in Shandong province85'9
-6e2f港gǎnggong2port, harbor; small stream; bay85'9
-6e30渰yǎnjim2(of cloud) forming or rising85'9
-6e31渱hónghung485'9
-6e32渲xuànhyun1add repeated washes of color85'9
-6e33渳mǐmai585'9
-6e34渴kěhot3thirsty, parched; yearn, pine85'9
-6e35渵máomaau485'9
-6e36渶yīngjing185'9
-6e37渷yǎnjin585'9
-6e38游yóujau4to swim; float, drift; wander, roam85'9
-6e39渹hōnggwang1roar, crash85'9
-6e3a渺miǎomiu5endlessly long, boundless, vast85'9
-6e3b渻shěngsaang285'9
-6e3c渼měimei5ripples85'9
-6e3d渽zāizoi185'9
-6e3e渾húnwan4muddy, turbid; blend, merge, mix85'96D51
-6e3f渿nàinoi685'9
-6e40湀guǐgwai285'9
-6e41湁chìcap185'9
-6e42湂èngok685'9
-6e43湃pàibaai3sound of waves; turbulent85'9
-6e44湄méimei4water's edge, shore, bank85'9
-6e45湅liànlin6boil silk85'9
-6e46湆qìjap1(Cant.) sticky, not smooth, slow85'9
-6e47湇qìjap185'9
-6e48湈méimui485'9
-6e49湉tiántim4gentle flow; tranquil85'9
-6e4a湊còucau3piece together, assemble85'951D1
-6e4b湋wéiwai4river in Shanxi province85'923C97
-6e4c湌cāncaan1to eat85'9
-6e4d湍tuānteon1rapid water current, rapids85'9
-6e4e湎miǎnmin5flushed with drink, drunk85'9
-6e4f湏huìmui6wash face; erroneously borrowed for DKW 43352 'necessary, must'85'9
-6e50湐mòpaak385'9
-6e51湑xūseoi2to strain spirits; river in Guangxi; abundant; bright85'9
-6e52湒jícap185'9
-6e53湓pénpun4a river in Jiangxi province85'9
-6e54湔jiānzin1wash, cleanse; purge85'9
-6e55湕jiǎngin285'9
-6e56湖húwu4a lake; Hubei, Hunan; bluish-green85'9
-6e57湗fèngfung685'9
-6e58湘xiāngsoeng1alternate name for Hunan85'9
-6e59湙yìjik685'9
-6e5a湚yìnjan685'9
-6e5b湛zhànzaam3deep; profound; clear; tranquil, placid85'9
-6e5c湜shízik6transparent, clear85'9
-6e5d湝jiēgaai1flow85'9
-6e5e湞chēngzing1river in Guangdong province85'96D48
-6e5f湟huángwong4river in Qinghai province85'9
-6e60湠tàntaan385'9
-6e61湡yújyu485'9
-6e62湢bìbik1bathroom; neat; orderly85'9
-6e63湣mǐnman5mixed, confused; pity85'9
-6e64湤shīsi185'9
-6e65湥tūteot185'9
-6e66湦shēngsang185'9
-6e67湧yǒngjung2well up; gush forth; rise85'9
-6e68湨júgwik1river in Henan85'9
-6e69湩dòngdung6muddy, turbid; milk85'9
-6e6a湪tuànteon385'9
-6e6b湫jiǎozau1a small pond; a damp and narrow place85'9
-6e6c湬jiǎozau185'9
-6e6d湭qiúcau485'9
-6e6e湮yānjin1bury, sink, block up; stain85'9
-6e6f湯tāngtong1hot water; soup, gravy, broth85'96C64
-6e70湰lónglung485'9
-6e71湱huòwaak6sound of water85'9
-6e72湲yuánjyun4flow85'9
-6e73湳nǎnnaam585'9
-6e74湴bànbaan6(Cant.) mud, mire85'8
-6e75湵yǒujau585'9
-6e76湶quáncyun485'9
-6e77湷zhuāngzong185'9
-6e78湸liàngloeng685'9
-6e79湹cháncin485'9
-6e7a湺xiánjin485'9
-6e7b湻chúnseon4pure, unmixed, genuine; honest85'9
-6e7c湼niènip6black mud; slime85'9
-6e7d湽zīzi185'9
-6e7e湾wānwaan1bay, cove, inlet, bend of stream85'96E7E6E7E 7063
-6e7f湿shīsap1wet, moist, humid, damp; illness85'96FD5
-6e80満mǎnmun5fullness, enough; pride85'9
-6e81溁yíngjing4a stream, eddy; to eddy85'106FDA
-6e82溂làlaat685'9
-6e83溃kuìkui2flooding river; militarily defeat85'96F70
-6e84溄féngfung485'9
-6e85溅jiànzin3sprinkle, spray; spill, splash85'96FFA
-6e86溆xùzeoi6river in Húnán85'96F35
-6e87溇lóulau4river in Hubei province85'96F0A
-6e88溈wéigwai1name of a river in Hunan85'96CA9
-6e89溉gàikoi3water, irrigate, flood; wash85'9
-6e8a溊bōbo185'9
-6e8b溋yíngjing485'9
-6e8c溌pōput3pour, splash, water, sprinkle85'9
-6e8d溍jìnzeon3water85'10
-6e8e溎yàngwai3river in Guangxi province85'10
-6e8f溏tángtong4pool; not hardened, semi-soft85'10
-6e90源yuánjyun4spring; source, head; surname85'10
-6e91溑suǒso285'10
-6e92溒yuánjyun485'10
-6e93溓liánlim5sticky; thin rice85'10
-6e94溔yǎojiu585'10
-6e95溕méngmung485'10
-6e96準zhǔnzeon2rule, guideline, standard85'1051C6
-6e97溗chéngsing485'10
-6e98溘kèhap6abruptly, suddenly, unexpectedly85'10
-6e99溙tàitaai385'10
-6e9a溚dátaap3(Cant.) to get wet by rain; to drip85'10
-6e9b溛wāwaa185'10
-6e9c溜liūlau6slide, glide, slip; slippery85'10
-6e9d溝gōukau1ditch, drain, narrow waterway85'106C9F
-6e9e溞sāosou185'10
-6e9f溟míngming4drizzling rain; dark, obscure85'10
-6ea0溠zhàzaa3river in Hubei province85'10
-6ea1溡shísi485'102AD84
-6ea2溢yìjat6overflow, brim over; full85'10
-6ea3溣lùnleon685'10
-6ea4溤mǎmaa585'10306CA
-6ea5溥pǔpou2big, great, vast, wide; widespread85'10
-6ea6溦wēimei4drizzle; (variant) valley; (variant) mold85'10
-6ea7溧lìleot6river in Anhui and Jiangsu provinces85'10
-6ea8溨zāizoi185'10
-6ea9溩wùwu285'10
-6eaa溪xīkai1mountain stream, creek85'10
-6eab溫wēnwan1lukewarm, warm; tepid, mild85'106E29
-6eac溬qiānggoeng185'10
-6ead溭zézik185'10
-6eae溮shīsi1river in Henan province85'106D49
-6eaf溯sùsou3go upstream, go against current; formerly85'10
-6eb0溰áiji485'10306E5
-6eb1溱qínzeon1river in Henan85'10
-6eb2溲sōusau1urinate; soak, drench85'10
-6eb3溳yúnwan4river in Hubei85'106DA2
-6eb4溴xiùcau3bromine (element 35, Br)85'10
-6eb5溵yīnjan1name of a place in Tianjin85'10
-6eb6溶róngjung4to melt, dissolve; overflowing with85'10
-6eb7溷hùnwan6privy, latrine; turbid, dirty85'10
-6eb8溸sùsou385'10
-6eb9溹suǒsok385'10
-6eba溺nìnik6drown; submerge in water; indulge85'10
-6ebb溻tātaap3wet85'10
-6ebc溼shīsap1damp, moist; dampness, moisture85'10
-6ebd溽rùjuk6moist, humid, muggy85'10
-6ebe溾āiaai185'10
-6ebf溿pànpun385'10
-6ec0滀chùcuk1a body of water85'10
-6ec1滁chúceoi4district in Anhui province85'10
-6ec2滂pāngpong4torrential; voluminous85'10
-6ec3滃wēngjung2swelling, rising, dispersing85'10
-6ec4滄cāngcong1blue, dark green; cold85'106CA7
-6ec5滅mièmit6extinguish; wipe out, exterminate85'10706D
-6ec6滆gégaak3a lake in Jiangxu85'10
-6ec7滇diāntin4Yunnan province85'10
-6ec8滈hàohou6downpour; river in Shaanxi85'10
-6ec9滉huàngfong2deep85'10
-6eca滊xìhei3a river name; a long rain85'10
-6ecb滋zīzi1grow, multiply, increase; thrive85'9
-6ecc滌dídik6wash, cleanse, purify; sweep85'116DA4
-6ecd滍zhìzi6place in Henan85'10
-6ece滎xíngjing4county in Henan; rising and dashing of waves85'108365
-6ecf滏fǔfu2river in Hebei85'10
-6ed0滐jiégit6(Cant.) dense, thick, viscous85'10
-6ed1滑huáwaat6slip, slide; slippery, polished85'10
-6ed2滒gēgo185'10
-6ed3滓zǐzi2sediment, lees, dregs85'10
-6ed4滔tāotou1overflow; rushing water, a torrent85'10
-6ed5滕téngtang4an ancient state in Shandong province; water bursting forth85'10
-6ed6滖suīseoi185'10
-6ed7滗bìbei3drain85'106F77
-6ed8滘jiàogaau3a branching river (used in place names)85'10
-6ed9滙huìwui6waters converging to one spot; whirling waters; to remit money85'10
-6eda滚gǔngwan2turn85'116EDA6EDA 6EFE
-6edb滛yínjam485'10
-6edc滜gāogou185'10
-6edd滝lónglung4onomatopoeic for the sound of falling rain; an ancient name for Wu Shui; a place in Guangdong85'10
-6ede滞zhìzai6block up, obstruct; stagnant85'96EEF
-6edf滟yànjim6overflowing, billowing; wavy85'107067
-6ee0滠shèsip3river in Hubei province85'107044
-6ee1满mǎnmun5fill; full, satisfied85'106EFF
-6ee2滢yíngjing4clear, pure water; lucid; glossy85'107005
-6ee3滣chúnseon485'10
-6ee4滤lǜleoi6strain out, filter85'106FFE
-6ee5滥lànlaam6flood, overflow; excessive85'106FEB
-6ee6滦luánlyun4river and county in Hebei province85'106EE66EE6 7064
-6ee7滧yáohaau685'10
-6ee8滨bīnban1beach, sea coast; river bank85'106EE86EE8 6FF1
-6ee9滩tāntaan1bank, a sandbar, shoal; rapids85'106EE96EE9 7058
-6eea滪yùjyu6place in Sichuan85'106FA6
-6eeb滫xiǔsau2water in which rice has been boiled85'11
-6eec滬hùwu6Shanghai; river near Shanghai85'116CAA
-6eed滭bìbat185'11306E1
-6eee滮biāobiu1flow; (Cant.) to ooze; to spurt85'11
-6eef滯zhìzai6block up, obstruct; stagnant85'116EDE
-6ef0滰jiàngkoeng585'11
-6ef1滱kòukau385'11
-6ef2滲shènsam3soak through, infiltrate85'116E17
-6ef3滳shāngsoeng185'11
-6ef4滴dīdik6drip; drop of water85'11
-6ef5滵mìmat685'11
-6ef6滶áongou485'11
-6ef7滷lǔlou5thick gravy, sauce, broth; brine85'115364 306EE
-6ef8滸hǔwu2riverbank, shore85'116D52
-6ef9滹hūfu1the bank of a steam85'11
-6efa滺yōujau4flow85'11
-6efb滻chǎncaan2a river in Shaanxi85'116D50
-6efc滼fànpaan385'11
-6efd滽yōngjung4strong or thick (liquid)85'11
-6efe滾gǔngwan2turn, roll, rotate; boil85'116EDA
-6eff滿mǎnmun5fill; full, satisfied85'116EE1
-6f00漀qǐnghing285'11
-6f01漁yújyu4to fish; seize; pursue; surname85'116E14
-6f02漂piàopiu1float, drift; tossed about85'11
-6f03漃jìzik685'11
-6f04漄yángaai485'11
-6f05漅cháoziu285'11
-6f06漆qīcat1varnish, lacquer, paint85'11
-6f07漇xǐsaai2(Cant.) waste85'11
-6f08漈jìzai3shore; waterside85'11
-6f09漉lùluk6filter, strain; wet, dripping85'11
-6f0a漊lóulau4river in Hubei province85'116E87
-6f0b漋lónglung485'12
-6f0c漌jǐngan285'11
-6f0d漍guógwok3a river85'112C1F9
-6f0e漎cóngcung4a place where small streams flow into a large one85'11306CF
-6f0f漏lòulau6leak, drip; funnel; hour glass85'11
-6f10漐zhízap685'11306E3
-6f11漑gàikoi3water85'11
-6f12漒qiángkoeng485'11
-6f13漓lílei4river in Guangxi province; water dripping85'106F136F13 7055
-6f14演yǎnjin2perform, put on; exercise85'11
-6f15漕cáocou4transport by water; canal transportation85'11
-6f16漖jiàogaau3(Cant.) a branching river (used in toponyms)85'11
-6f17漗cōngcung185'11
-6f18漘chúnseon4bank85'11
-6f19漙tuántyun4dewy85'112C1D8
-6f1a漚ōuau3soak, steep; sodden, soaked; rotten; foam, froth85'116CA4
-6f1b漛téngtang485'11
-6f1c漜yěje585'11
-6f1d漝xízaap685'11
-6f1e漞mìmik685'11
-6f1f漟tángtong485'11
-6f20漠mòmok6desert; aloof, indifferent, cool85'11
-6f21漡shāngtong185'11
-6f22漢hànhon3the Chinese people, Chinese language85'116C49
-6f23漣liánlin4flowing water; ripples; weeping85'116D9F
-6f24漤lǎnlaam5marinate in salt85'11
-6f25漥wāwaa1puddle, hollow, swamp85'11
-6f26漦chílei4saliva; spittle; flowing downstream85'11
-6f27漧gāngon185'11
-6f28漨féngfung485'11
-6f29漩xuánsyun4eddy, whirlpool85'11
-6f2a漪yīji1ripples on water; swirling85'11
-6f2b漫mànmaan6overflow of water; spreading85'11
-6f2c漬zìzi3soak, steep; dye; stains; sodden85'116E0D
-6f2d漭mǎngmong5vast; expansive85'11
-6f2e漮kānghong185'11
-6f2f漯luòtaap3river in northern Shandong85'11
-6f30漰pēngpaang1roar85'11
-6f31漱shùsau3gargle, rinse; wash, scour85'11
-6f32漲zhǎngzoeng2rise in price85'116DA8
-6f33漳zhāngzoeng1name of a river in Henan85'11
-6f34漴chóngzong685'11
-6f35漵xùzeoi6river in Húnán85'116E86
-6f36漶huànwaan6indecipherable85'11
-6f37漷huǒkwok3river in Hebei province85'11
-6f38漸jiànzim6gradually; hexagram ䷴85'116E10
-6f39漹yānjin485'11
-6f3a漺shuǎngsong285'11
-6f3b漻liáoliu485'11
-6f3c漼cuǐceoi2having the appearance of depth85'11
-6f3d漽títai485'12
-6f3e漾yàngjoeng6overflow; swirl, ripple; to be tossed by waves85'11
-6f3f漿jiāngzoeng1any thick fluid; starch; broth85'116D46
-6f40潀cóngcung4gather; flow into (water); sound of waters flowing together85'11
-6f41潁yǐngwing6river in Anhui85'11988D
-6f42潂hónghung485'11
-6f43潃xiǔsau185'11
-6f44潄shùsau385'11
-6f45潅guàngun3pour; water; irrigate, flood85'11
-6f46潆yíngjing4tiny stream; swirl around85'117020
-6f47潇xiāosiu1sound of beating wind and rain85'11701F
-6f48潈zongzung1confluence of a small river with a large one; the sound of flowing water85'11
-6f49潉kūnwan685'11
-6f4a潊xùzeoi685'11
-6f4b潋liànlim6waves, ripples; overflow85'117032
-6f4c潌zhìzat685'11
-6f4d潍wéiwai4county in Shandong province85'116FF0
-6f4e潎pìpit3rippling; pour85'12
-6f4f潏yùkyut3reclaimed land; dike, embankment85'12
-6f50潐jiàoziu385'12
-6f51潑pōput3pour, splash, water, sprinkle; violent, malignant85'126CFC
-6f52潒dàngdong685'12
-6f53潓huìwai685'12
-6f54潔jiégit3clean, purify, pure85'126D01
-6f55潕wǔmou5river in Hunan85'1223C98
-6f56潖pápaa4name of a place in Guangdong85'12
-6f57潗jícap1friendly; harmonious85'12
-6f58潘pānpun1surname; water in which rice has been rinsed; a river that flows into the Han85'12
-6f59潙wéigwai1river in Shanxi85'126CA9
-6f5a潚sùsuk1gay; deep85'123D0B
-6f5b潛qiáncim4hide; hidden, secret, latent85'126F5C
-6f5c潜qiáncim4hide; hidden, secret, latent85'126F5B
-6f5d潝xījap1agree85'12
-6f5e潞lùlou6a county in Yunnan85'12
-6f5f潟xìsik1land impregnated with salt from the tide85'12
-6f60潠xùnseon3to blow out; to puff out85'12
-6f61潡dùndan685'12
-6f62潢huángwong4expanse of water, lake, pond85'12
-6f63潣mǐnman5to pollute, contaminate85'122B797
-6f64潤rùnjeon6soft, moist; sleek; freshen85'126DA6
-6f65潥sùsuk185'12
-6f66潦liáolou5to flood; a puddle; without care85'12
-6f67潧zhēnzeon185'12
-6f68潨cóngzung1gather; flow into (water); sound of waters flowing together85'12
-6f69潩yìji685'12
-6f6a潪zhèzik685'12
-6f6b潫wānwaan185'12
-6f6c潬shàntaan1a rapid; a sand-bank; a foreshore85'122C201
-6f6d潭tántaam4deep pool, lake; deep, profound85'12
-6f6e潮cháociu4tide; moist, wet, damp; flow85'12
-6f6f潯xúncam4steep bank by stream; jiujiang85'126D54
-6f70潰kuìkui2flooding river; militarily defeat85'126E83
-6f71潱yējan185'12
-6f72潲shàosaau3driving rain; to sprinkle85'12
-6f73潳tútou485'12
-6f74潴zhūzyu1pond; a pool85'127026
-6f75潵sǎsaat3a place in Hebei85'12
-6f76潶hēihak185'12
-6f77潷bìbei3drain85'126ED7
-6f78潸shānsaan1weep; tears flowing85'12
-6f79潹chánsaan485'12
-6f7a潺chánsaan4sound of flowing water85'12
-6f7b潻shǔsyu285'12
-6f7c潼tóngtung4high, lofty; damp85'12
-6f7d潽pūpou185'12
-6f7e潾línleon4clear water85'12
-6f7f潿wéiwai4still water85'126DA0
-6f80澀sèsap1astringent; harsh; uneven, rough85'146DA9
-6f81澁sèsap1astringent; harsh; uneven, rough85'12
-6f82澂chéngcing4clear and still water85'12
-6f83澃jiǒnggwing385'12
-6f84澄chéngcing4purify water by allowing sediment to settle; clear, pure85'12
-6f85澅huàwaa685'1223DA9
-6f86澆jiāohiu1spray, water, sprinkle85'126D47
-6f87澇làolou6inundate, flood; torrent85'126D9D
-6f88澈chècit3thoroughly, completely85'12
-6f89澉gǎngam2to wash name of a place85'12
-6f8a澊cūncyun185'12
-6f8b澋hòngwang685'12
-6f8c澌sīsi1to exhaust; to drain dry85'12
-6f8d澍shùsyu6timely rain, life-giving rain85'12
-6f8e澎péngpaang4splatter85'12
-6f8f澏hánham485'12
-6f90澐yúnwan4billows85'126C84
-6f91澑liùlau6slide, glide, slip; slippery85'12
-6f92澒hònghung6vast85'122DC4A
-6f93澓fúfuk685'12
-6f94澔hàohou6radiance of gems85'12
-6f95澕héwo485'122ECC6
-6f96澖xiánhaan485'12306F5
-6f97澗jiàngaan3brook, mountain stream85'126DA7
-6f98澘shānsaan185'12
-6f99澙xìsik185'13
-6f9a澚yujyut685'12
-6f9b澛lǔlou585'127002
-6f9c澜lánlaan4overflowing; waves, ripples85'12703E
-6f9d澝nìngning6mud; miry, muddy, stagnant85'12
-6f9e澞yújyu485'13
-6f9f澟lǐnlam585'13
-6fa0澠miǎnman5name of a river in Shandong85'136E11
-6fa1澡zǎocou3wash, bathe85'13
-6fa2澢dāngdong185'132DC0E
-6fa3澣huànwun5cleanse, wash85'13
-6fa4澤zézaak6marsh, swamp; grace, brilliance; damp, moist; fertile85'136CFD
-6fa5澥xièhaai5a blocked stream; gulf85'13
-6fa6澦yùjyu6place in Sichuan85'136EEA
-6fa7澧lǐlai5river in northern Hunan province85'13
-6fa8澨shìsai6shore; river in Hubei85'13
-6fa9澩xuéhok685'136CF6
-6faa澪língling485'13
-6fab澫wànmaan685'132C1D5
-6fac澬zīzi185'132B79A
-6fad澭yōngjung185'13
-6fae澮huìkui2irrigation ditch, trench; river85'136D4D
-6faf澯càncaan385'13
-6fb0澰liànlim6overflowing85'13306F2
-6fb1澱diàndin6sediment, dregs, precipitate85'136DC0
-6fb2澲yèjip685'13
-6fb3澳àoou3inlet, bay; dock, bank85'13
-6fb4澴huánwaan4river in Hubei province85'13
-6fb5澵zhēnzeon185'13
-6fb6澶chánsin4still water, placid, tranquil85'13
-6fb7澷mànmaan6water overflowing diffused; spreading85'13
-6fb8澸dǎndam285'13
-6fb9澹dàndaam6calm, quiet, tranquil85'13
-6fba澺yìjik185'13
-6fbb澻suìseoi685'13
-6fbc澼pìpik1bleach; wash, clean85'13
-6fbd澽jùgeoi6a river in Shaanxi85'13
-6fbe澾tàtaat3slippery, smooth85'133CE0
-6fbf澿qínkam485'13
-6fc0激jīgik1arouse, excite, incite; quickly85'13
-6fc1濁zhuózuk6muddy, turbid, dirty, filthy85'136D4A
-6fc2濂liánlim4a waterfall; a river in Hunan85'13
-6fc3濃nóngnung4thick, strong, concentrated85'136D53
-6fc4濄guōwo1(simplified form of 濄) (same as 渦) name of a river, to whirl, an eddy85'133CE1
-6fc5濅jìnzam385'13
-6fc6濆fénfan4river bank; river in Henan province; gush85'1323E23
-6fc7濇sègip3astringent; harsh, rough; uneven85'132C227
-6fc8濈jícap1many85'13
-6fc9濉suīseoi1a river in Anui85'13
-6fca濊huìwai3vast, expansive, deep; dirty85'13306E6
-6fcb濋chǔco285'13
-6fcc濌tàtaap385'13
-6fcd濍sōngsung185'13
-6fce濎dǐngding285'13
-6fcf濏sèsat185'13
-6fd0濐zhǔzyu285'12
-6fd1濑làilaai6swift current; rapids85'137028
-6fd2濒bīnban1approach, be on verge of; near85'137015
-6fd3濓liánlim485'13
-6fd4濔mǐmei4many85'14
-6fd5濕shīsap1wet, moist, humid, damp; an illness85'146E7F
-6fd6濖shùsyu685'13
-6fd7濗mìmik685'14
-6fd8濘nìngning6mud; miry, muddy, stagnant85'146CDE
-6fd9濙yíngjing4to revolve; to curl in eddies, as rushing water85'14
-6fda濚yíngjing4a stream, eddy; to eddy85'146E81
-6fdb濛méngmung4drizzling, misty, raining85'148499
-6fdc濜jìnzeon6river in Hubei province85'146D55
-6fdd濝qíkei485'14
-6fde濞bìpai3a county in Yunnan; the sound made by turbulent water85'14
-6fdf濟jìzai3to help, aid, relieve; to ferry, cross85'146D4E
-6fe0濠háohou4moat, trench, ditch85'14
-6fe1濡rújyu4immerse, moisten; wet, damp85'14
-6fe2濢cuìceoi385'14
-6fe3濣wòwaat385'14
-6fe4濤tāotou4large waves85'146D9B
-6fe5濥yǐnjan585'14
-6fe6濦yǐn85'14
-6fe7濧duìdeoi6to soak or be soaked; to dip; to immerse85'143CD4
-6fe8濨cíci485'14
-6fe9濩huòwok6pour down, cascade down; look85'14
-6fea濪qìngcing385'14
-6feb濫lànlaam6flood, overflow; excessive85'146EE5
-6fec濬jùnzeon3dredge, dig; profound, deep85'14
-6fed濭ǎioi385'14
-6fee濮púbuk6county in Henan province85'14
-6fef濯zhuózok6wash out, rinse; cleanse85'14
-6ff0濰wéiwai4county in Shandong province85'146F4D
-6ff1濱bīnban1beach, sea coast; river bank85'146EE8
-6ff2濲gǔguk185'14
-6ff3濳qiáncim4hide, conceal, secrete; hidden85'16
-6ff4濴yíngjing485'142C21C
-6ff5濵bīnban1a bank, a brink. a shore, a beach85'14
-6ff6濶kuòfut3broad, ample, wide; be apart85'14
-6ff7濷fèifai385'14
-6ff8濸cāngcong185'14
-6ff9濹memak685'15
-6ffa濺jiànzin3sprinkle, spray; spill, splash85'156E85
-6ffb濻wěiwai585'15
-6ffc濼luòlok6river in Shandong province85'156CFA
-6ffd濽zànzaan385'15
-6ffe濾lǜleoi6strain out, filter85'156EE4
-6fff濿lìlai6cross on stepping-stones85'152AD71
-7000瀀yōujau185'15
-7001瀁yàngjoeng6waves, ripples, rapids; overflow85'153071D
-7002瀂lǔlou585'156F9B
-7003瀃sìci385'1523F77
-7004瀄zhìzit1(Cant.) to squeeze; to eject; to spray85'15306E4
-7005瀅yíngjing4clear, pure water; lucid; glossy85'156EE2
-7006瀆dúduk6ditch, sluice, gutter, drain85'156E0E
-7007瀇wǎngwong2extensive body of water; broad and deep of water; momentum of moving water deep and wide85'153CBF
-7008瀈huīfai185'153074D
-7009瀉xièse3drain off, leak; flow, pour down85'156CFB
-700a瀊pánpun485'15
-700b瀋shěnsam2juice; liquid; water; leak, pour85'156C88 6E16
-700c瀌biāobiu1plenty85'15
-700d瀍cháncin4river in Henan province85'15
-700e瀎mòmut385'15
-700f瀏liúlau4clear; bright; whistling85'156D4F
-7010瀐jiānzim185'15
-7011瀑pùbuk6waterfall, cascade; heavy rain85'15
-7012瀒sègip3coarse, rough; astringent85'15
-7013瀓chéngcing485'15
-7014瀔gǔguk1river name in Henan province85'15
-7015瀕bīnban1approach, be on verge of; near85'166FD2
-7016瀖huòfok385'16
-7017瀗xiànhin385'162ECCF
-7018瀘lúlou4river in Jiangxi province85'166CF8
-7019瀙qìncan385'163071C
-701a瀚hànhon6vast, wide, extensive85'16
-701b瀛yíngjing4sea, ocean85'16
-701c瀜róngjung485'16
-701d瀝lìlik6trickle, drip; strain; dregs85'166CA5
-701e瀞jìngzing6pool in a river85'16
-701f瀟xiāosiu1sound of beating wind and rain; light, ethereal85'166F47
-7020瀠yíngjing4tiny stream; swirl around; eddy85'166F46
-7021瀡suǐseoi5slippery, smooth85'16
-7022瀢wěiwai585'162C24B
-7023瀣xièhaai6sea mist; vapor85'16
-7024瀤huáiwaai485'16
-7025瀥xuèhou685'16
-7026瀦zhūzyu1pond; a pool85'166F74
-7027瀧lónglung4raining; wet; soaked; a river in Guangdong85'166CF7
-7028瀨làilaai6swift current; rapids85'166FD1
-7029瀩duìdeoi685'16
-702a瀪fánfaan685'16
-702b瀫húhuk685'16
-702c瀬làilaai6swift current; rapids85'16
-702d瀭shūsyu185'162ECD7
-702e瀮linglam485'16
-702f瀯yíngjing485'1730745
-7030瀰mínei4overflow85'173CFD 5F25
-7031瀱jìgai385'17
-7032瀲liànlim6waves, ripples; overflow85'176F4B
-7033瀳jiànzin685'1730728
-7034瀴yíngjing185'1730733
-7035瀵fènfan385'172C242
-7036瀶línlam485'17
-7037瀷yìjik685'17
-7038瀸jiānzim1moisten, soak85'17
-7039瀹yuèjoek6to boil; to wash, to cleanse, to soak85'17
-703a瀺cháncaam4sound85'17
-703b瀻dàidaai385'17
-703c瀼rángjoeng4river in Henan province; flowing85'17
-703d瀽jiǎnzin2splash (water); pour (liquid)85'17
-703e瀾lánlaan4overflowing; waves, ripples85'176F9C
-703f瀿fánfaan485'17
-7040灀shuàngsoeng385'17
-7041灁yuānjyun185'17
-7042灂zhuózok685'18
-7043灃fēngfung1river in Shanxi province85'186CA3
-7044灄shèsip3river in Hubei province85'186EE0
-7045灅lěileoi585'18
-7046灆lánlaam485'18
-7047灇cóngcung485'18
-7048灈qúkeoi485'18
-7049灉yōngjung1a river in Shandong province; a sluice85'18
-704a灊qiáncim485'18
-704b灋fǎfaat3law85'18
-704c灌guàngun3pour; water; irrigate, flood85'18
-704d灍juékyut385'182B79D
-704e灎yànjim6movement of water; overflowing, billowing; wavy85'23
-704f灏hàohou6vast, large, grand, expansive85'18705D
-7050灐yíngjing485'18
-7051灑sǎsaa2sprinkle, splash; scatter, throw85'196D12
-7052灒zànzaan3to spatter, to splash, to scatter85'192ADFD
-7053灓luánlyun485'19306EA
-7054灔yànjim6waves, billows85'19
-7055灕lílei4short name for Guangxi province85'196F13
-7056灖mǐmei585'19
-7057灗shànsin585'19
-7058灘tāntaan1bank, a sandbar, shoal; rapids85'196EE9
-7059灙dǎngdong285'2023EBC
-705a灚jiǎogaau285'20
-705b灛chǎncin285'20
-705c灜yíngjing485'20
-705d灝hàohou6vast, large, grand, expansive85'21704F
-705e灞bàbaa3river in Shanxi province85'21
-705f灟zhúzuk185'212DCAB
-7060灠lǎnlaam5marinate in salt85'2130710
-7061灡lánlaan485'213CD5 2C260
-7062灢nǎngnong5muddy; thick, muddy water85'22
-7063灣wānwaan1a bay, cove, inlet, bend of stream85'226E7E
-7064灤luánlyun4river and county in Hebei province85'236EE6
-7065灥xúnceon4a group of springs85'23
-7066灦xiǎnhin285'2330764
-7067灧yànjim6overflowing, billowing; wavy85'246EDF
-7068灨gàngam3the River Gan in Jiangxi85'24
-7069灩yànjim6overflowing, billowing; wavy85'28
-706a灪yùwat185'29
-706b火huǒfo2fire, flame; burn; anger, rage86'0
-706c灬biāobiu1fire; radical number 8686'0
-706d灭mièmit6extinguish; wipe out, exterminate86'16EC5
-706e灮guānggwong186'2
-706f灯dēngdang1lantern, lamp86'2706F706F 71C8
-7070灰huīfui1ashes; dust; lime, mortar86'2
-7071灱xiāohaau186'2
-7072灲xiāohaau186'2
-7073灳huīfai186'2
-7074灴hōnghung4to bake, to roast; to dry at a fire86'3
-7075灵língling4spirit, soul; spiritual world86'39748
-7076灶zàozou3kitchen stove, cooking stove86'370767076 7AC8
-7077灷zhuànzyun686'3
-7078灸jiǔgau3cauterize with moxa; moxibustion86'3
-7079灹zhàzaa386'3
-707a灺xièce5candle-end86'3
-707b灻chìcek386'3
-707c灼zhuócoek3burn; broil; cauterize; bright86'3
-707d災zāizoi1calamity, disaster, catastrophe86'3707E
-707e灾zāizoi1calamity, disaster, catastrophe86'3707E707D 707E
-707f灿càncaan3vivid, illuminating; bright86'371E6
-7080炀yángjoeng4roast; scorch; melt; flame86'3716C
-7081炁qìhei3breath, air, steam, gas. weather. used in Taoist charms86'4
-7082炂zhōngzung186'4
-7083炃fénfan486'4
-7084炄niǔnau586'4
-7085炅jiǒnggwing2brilliance86'4
-7086炆wénman1(Cant.) to simmer, cook over a slow fire86'4
-7087炇pūpok386'2
-7088炈yìjik686'4
-7089炉lúlou4fireplace, stove, oven, furnace86'470897089 7210
-708a炊chuīceoi1cook; meal86'4
-708b炋pīpui186'4
-708c炌kàikaai386'4
-708d炍pànpun386'4
-708e炎yánjim4flame, blaze; hot86'4
-708f炏kàikaai386'4
-7090炐pàngpong386'4
-7091炑mùmuk686'4
-7092炒chǎocaau2fry, saute, roast, boil, cook86'4
-7093炓liàoliu686'4
-7094炔quē guìkyut3an alkyne (e.g., acetylene)86'4
-7095炕kàngkong3the brick-bed in northern China86'4
-7096炖dùndan6heat with fire; stew86'4
-7097炗guānggwong186'4
-7098炘xīnjan1brilliant, shining, bright86'4
-7099炙zhìzek3roast, broil; toast; cauterize86'4
-709a炚guānggwong186'4
-709b炛guānggwong186'4
-709c炜wěiwai5brilliant red; glowing86'47152
-709d炝qiàngcoeng3stir-fry or boil in water or oil then cook with a sauce86'47197
-709e炞bianbin686'4
-709f炟dádaat386'5
-70a0炠xiásaap6(Cant.) to cook in boiling water86'5
-70a1炡zhēngzing186'5
-70a2炢zhúseot686'5
-70a3炣kěho286'5
-70a4炤zhàoziu3illumine, light up; reflect86'5
-70a5炥fúfat686'5
-70a6炦bábat686'5
-70a7炧xièse3ashes86'5
-70a8炨xièse386'5
-70a9炩lìngling686'5
-70aa炪zhuōdyut386'5
-70ab炫xuànjyun6shine, glitter; show off, flaunt86'5
-70ac炬jùgeoi6torch86'5
-70ad炭tàntaan3charcoal; coal; carbon86'5
-70ae炮pàopaau3large gun, cannon; artillery86'5
-70af炯jiǒnggwing2bright, brilliant, clear; hot86'5
-70b0炰páopaau4roast, broil; bake86'5
-70b1炱táitoi4soot86'5
-70b2炲táitoi486'5
-70b3炳bǐngbing2bright, luminous; glorious86'5
-70b4炴yǎngjoeng286'5
-70b5炵tōngtung186'5
-70b6炶shǎnsim286'5
-70b7炷zhùzyu3candle wick, lamp wick; stick of incense86'5
-70b8炸zhàzaa3to fry in oil; to scald; to explode86'5
-70b9点diǎndim2dot, speck, spot; point, degree86'570B970B9 9EDE
-70ba為wèiwai4do, handle, govern, act; be86'54E3A
-70bb炻shísek6a kind of china86'5
-70bc炼liànlin6smelt, refine; distill, condense86'57149
-70bd炽chìci3burning-hot, intense; to burn, blaze; splendid, illustrious86'571BE
-70be炾huǎngfong286'5
-70bf炿zhōuzau186'5
-70c0烀hūfu1simmer86'5
-70c1烁shuòsoek3shine, glitter, sparkle86'5720D
-70c2烂lànlaan6rotten, spoiled, decayed86'5721B
-70c3烃tīngting1hydrocarbon86'570F4
-70c4烄jiǎogaau286'6
-70c5烅xùgwik186'6
-70c6烆hénghang486'6
-70c7烇quǎncyun286'6
-70c8烈lièlit6fiery, violent, vehement, ardent86'6
-70c9烉huànwun6shining, brilliant, lustrous86'6
-70ca烊yángjoeng4to smelt; to melt86'6
-70cb烋xiūhaau1boast86'6
-70cc烌xiūjau186'6
-70cd烍xiǎnsin286'6
-70ce烎yíncim486'6
-70cf烏wūwu1crow, rook, raven; black, dark86'64E4C
-70d0烐zhōuzau186'6
-70d1烑yáojiu486'6
-70d2烒shìsik186'6
-70d3烓wēigwing1stove86'6
-70d4烔tóngtung4heat86'6
-70d5烕mièmit6to destroy; to exterminate to extinguish86'6
-70d6烖zāizoi1calamities from Heaven, as floods, famines, pestilence, etc.; misery86'6
-70d7烗kàikaai386'6
-70d8烘hōnghung3bake, roast; dry by fire86'6
-70d9烙làolok3brand, burn; branding iron86'6
-70da烚xiáhap6(Cant.) hot; to argue, wrangle, rail at (i.e., to flame)86'6
-70db烛zhúzuk1candle, taper; shine, illuminate86'670DB70DB 71ED
-70dc烜xuǎnhyun2light of the sun; to dry in the sun86'6
-70dd烝zhēngzing1rise, steam; many, numerous86'6
-70de烞pòpok386'6
-70df烟yānjin1smoke, soot; opium; tobacco, cigarettes86'670DF70DF 7159
-70e0烠huíwui486'6
-70e1烡guānggwong186'6
-70e2烢chècaak386'6
-70e3烣huīfui186'6
-70e4烤kǎohaau1bake, roast, toast, cook86'6
-70e5烥jùgeoi686'6
-70e6烦fánfaan4bother, vex, trouble; troublesome86'67169
-70e7烧shāosiu1burn; bake; heat; roast86'671D2
-70e8烨yèjip6bright, glorious, splendid, flame86'671C1
-70e9烩huìwui6ragout, cook, braise86'670E970E9 71F4
-70ea烪gwaan186'6
-70eb烫tàngtong3scald, heat; wash; iron clothes86'671D9
-70ec烬jìnzeon6cinders, ashes, embers; remnants86'670EC70EC 71FC
-70ed热rèjit6hot; heat; fever; restless; zeal86'670ED70ED 71B1
-70ee烮lièlit686'6
-70ef烯xīhei1alkene86'7
-70f0烰fúfau486'7
-70f1烱jiǒnggwing2bright, brilliant, clear; hot86'7
-70f2烲xièhit386'7
-70f3烳pǔpou286'7
-70f4烴tīngting1hydrocarbon86'770C3
-70f5烵zhuózoek386'7
-70f6烶tǐngting586'7
-70f7烷wánjyun4alkane86'7
-70f8烸hǎihoi286'7
-70f9烹pēngpaang1boil, cook; quick fry, stir fry86'7
-70fa烺lǎnglong5(said of fire) bright86'7
-70fb烻yànjin386'7
-70fc烼xùfat186'7
-70fd烽fēngfung1signal fire; signal tower86'7
-70fe烾chìcek386'7
-70ff烿róngjung486'7
-7100焀húhuk686'7
-7101焁xīhei186'7
-7102焂shūsuk186'7
-7103焃hèhaak186'7
-7104焄xūnfan1rising flames or fumes; aroma86'7
-7105焅kùguk6(Cant.) to roast, suffocate86'7
-7106焆juāngyun186'7
-7107焇xiāosiu186'7
-7108焈xīhei186'7
-7109焉yānjin1thereupon, then; how? why? where?86'7
-710a焊hànhon6weld, solder86'7
-710b焋zhuàngzong386'7
-710c焌jùnzeon3to light86'7
-710d焍dìdai686'7
-710e焎xièhit386'7
-710f焏jígik186'7
-7110焐wùng6to warm something cold by touching it with something hot86'7
-7111焑yānjin186'7
-7112焒lǚleoi586'7
-7113焓hánham4(Cant.) onomatopoetic, the sound of a fiercely-burning fire86'7
-7114焔yànjim6flame, blaze; glowing, blazing86'8
-7115焕huànwun6shining86'77165
-7116焖mènmun6simmer, cook over slow fire86'771DC
-7117焗júguk6(Cant.) to roast, bake; to suffocate, stuffy86'7
-7118焘tāotou4shine, illuminate; cover, envelope86'771FE
-7119焙bèibui6dry over slow fire; bake; roast86'8
-711a焚fénfan4burn86'8
-711b焛lìnleon686'82CB9F
-711c焜kūnkwan1fire, flames; bright, shining86'8
-711d焝hùnfan386'8
-711e焞tūnseon4dim86'8
-711f焟xīsik186'8
-7120焠cuìceoi3temper; burn86'8
-7121無wúmou4negative, no, not; lack, have no86'865E0
-7122焢hōnghung186'8
-7123焣chǎocaau286'8
-7124焤fǔfu686'8
-7125焥wòwaat386'8
-7126焦jiāoziu1burned, scorched; anxious, vexed86'8
-7127焧cōngcung186'8
-7128焨fèngfung386'8
-7129焩píngpang486'8
-712a焪qiónghung386'8
-712b焫ruònaat3(Cant.) hot; to scald, burn86'8
-712c焬xīsik186'8
-712d焭qióngking4orphan; alone, desolate86'8
-712e焮xìnjan1heat, radiate heat; broil; cauterize86'8
-712f焯chāozoek3boil vegetables for a very short time; scald86'8
-7130焰yànjim6flame, blaze; glowing, blazing86'8
-7131焱yànjim6flames86'8
-7132焲yìjik686'8
-7133焳juézoek386'8
-7134焴yùjuk1bright; flame86'8
-7135焵gànggong3to temper steel86'8
-7136然ránjin4yes, certainly; pledge, promise86'8
-7137焷pípei486'8
-7138焸xiònghing286'8
-7139焹gànggong386'8
-713a焺shēngsing186'8
-713b焻chàngcoeng3breath86'8
-713c焼shāosiu1burn; bake; heat; roast86'8
-713d焽xiǒngming486'8
-713e焾niǎnnam4(Cant.) soft86'8
-713f焿gēnggang1name of a place in northeastern Taiwan; a kind of thick soup86'8
-7140煀weiwat1(Cant.) to smoke; to fumigate86'8
-7141煁chénsam4hearth; (Cant.) soft, tender86'9
-7142煂hèhaak386'9
-7143煃kuǐkwai2remove, get rid of; scatter86'9
-7144煄zhǒngzung286'9
-7145煅duàndyun3forge metal; perfect one's skill86'9
-7146煆xiāhaa6raging fire; to forge, work86'9
-7147煇huīfai1weld, solder86'92AE29
-7148煈fèngfung386'92ECE0
-7149煉liànlin6smelt, refine; distill, condense86'970BC
-714a煊xuānhyun1warm86'9
-714b煋xīngsing186'9
-714c煌huángwong4bright, shining, luminous86'9
-714d煍jiǎoziu2to color by smoke86'9
-714e煎jiānzin1fry in fat or oil; boil in water86'9
-714f煏bìbik1dry by fire; iron86'9
-7150煐yīngjing186'9
-7151煑zhǔzyu2cook86'9
-7152煒wěiwai5brilliant red; glowing86'9709C
-7153煓tuāntyun186'9
-7154煔shǎnsim286'9
-7155煕xīhei1bright, splendid, glorious86'9
-7156煖nuǎnhyun1warm, genial86'9
-7157煗nuǎnnyun5warm86'9
-7158煘cháncim486'9
-7159煙yānjin1smoke, soot; opium; tobacco, cigarettes86'970DF
-715a煚jiǒnggwing2fire86'9
-715b煛jiǒnggwing286'10
-715c煜yùjuk1bright, shining, brilliant86'9
-715d煝mèimei6twisted paper for lighting cigarettes86'9
-715e煞shāsaat3malignant deity; baleful, noxious; strike dead86'9
-715f煟wèiwai6bright room86'9
-7160煠zházaa3to fry in fat or oil. to scald86'9
-7161煡jìnzeon686'9
-7162煢qióngking4alone; no friends or relatives86'98315
-7163煣róujau5to use a fire to bend wood86'9
-7164煤méimui4coal, coke, charcoal, carbon86'9
-7165煥huànwun6shining, brilliant, lustrous86'97115
-7166煦xùheoi2kind, gentle, gracious, genial86'9
-7167照zhàoziu3shine, illumine, reflect86'9
-7168煨wēiwui1to stew, simmer86'9
-7169煩fánfaan4bother, vex, trouble; troublesome86'970E6
-716a煪qiúcau486'9
-716b煫suìseoi686'9
-716c煬yángjoeng4roast; scorch; melt; flame86'97080
-716d煭lièlit686'9
-716e煮zhǔzyu2cook86'8
-716f煯jiēgaai186'9
-7170煰zàocou386'9
-7171煱guāwo1(Cant.) 火煱, to instant-boil thin slices of meat and vegetables in a chafing dish at the dining table86'93DBD
-7172煲bāobou1to heat; to boil a saucepan86'9
-7173煳húwu4be burned, to char (in cooking)86'9
-7174煴yūnwan1sultriness, stuffiness86'97185
-7175煵nǎnnaam486'9
-7176煶shìzik686'9
-7177煷liangfo286'9
-7178煸biānbin1to stir-fry before broiling or stewing86'9
-7179煹gòugau386'10
-717a煺tuìteoi3to scald meat in order to remove hair or feathers86'9
-717b煻tángtong4to warm; to toast86'10
-717c煼chǎocaau2to fry, sauté86'102C282
-717d煽shānsin3stir up, incite, agitate, provoke86'10
-717e煾ēnjan186'10
-717f煿bóbok386'10
-7180熀huǎngfong2the blaze of fire; dazzling86'10
-7181熁xiéhip386'10
-7182熂xìhei386'102AE15
-7183熃wùmou686'10
-7184熄xīsik1put out, extinguish, quash86'10
-7185熅yùnwan1smooth out, iron out86'107174
-7186熆héhap686'10
-7187熇hèhuk6bake86'10
-7188熈xīhei1bright, splendid, glorious86'10
-7189熉yúnjyun4yellow color86'1024236
-718a熊xiónghung4a bear; brilliant; bright; surname86'10
-718b熋náinoi486'10
-718c熌shǎnsim386'10241C4
-718d熍qiónghung386'10
-718e熎yàojiu386'10
-718f熏xūnfan1smoke, fog, vapor; smoke, cure86'10
-7190熐mìmik686'10
-7191熑liánlim486'10
-7192熒yíngjing4shine, shimmer; shining, dazzling86'108367
-7193熓wǔwat1to bank a fire; to smother, put out86'10241A1
-7194熔róngjung4melt, smelt, fuse; mold86'10
-7195熕gōnggung386'102C28E
-7196熖yànjim6(same as 燄) flame; blazing, brilliant86'10
-7197熗qiàngcoeng3stir-fry or boil in water or oil then cook with a sauce86'10709D
-7198熘liūlau6to steam86'10
-7199熙xīhei1bright, splendid, glorious86'10
-719a熚bìbat186'11
-719b熛biāobiu1blaze86'11
-719c熜cōngzung286'11
-719d熝lùluk6(Cant.) to scald with steam86'11
-719e熞jiāngin186'11307A4
-719f熟shúsuk6well-cooked; ripe; familiar with86'11
-71a0熠yìjap1bright and sparkling86'11
-71a1熡lóulau486'11242CF
-71a2熢péngpung486'11
-71a3熣suīseoi186'11
-71a4熤yì86'11
-71a5熥tēngtung1heat up by steaming86'11
-71a6熦juézoek386'10
-71a7熧zōngzung186'11
-71a8熨yùntong3iron, press86'11
-71a9熩hùwu686'11
-71aa熪yíji486'11
-71ab熫zhìzek386'11
-71ac熬áongou4cook down, to boil; endure86'11
-71ad熭wèiwai686'11
-71ae熮liǔlau586'11
-71af熯hànhon3by fire86'11
-71b0熰ōuau1great drought; heat86'112C27C
-71b1熱rèjit6hot; heat; fever; restless; zeal86'1170ED
-71b2熲jiǒnggwing2bright86'11988E
-71b3熳mànmaan6confused86'11
-71b4熴kūnkwan186'11
-71b5熵shāngsoeng1entropy86'11
-71b6熶cuàncyun386'12
-71b7熷zēngzang186'12
-71b8熸jiānzim1put out86'12
-71b9熹xīhei1dim light, glimmer; warm, bright86'12
-71ba熺xīhei1dim light, glimmer; warm86'12
-71bb熻xījap1to heat; to roast; to burn86'12
-71bc熼yìjik686'12
-71bd熽xiàosiu386'12
-71be熾chìci3burning-hot, intense; to burn, blaze; splendid, illustrious86'1270BD
-71bf熿huángwong486'12
-71c0燀chǎncin2to make a fire; blaze86'122C2A4
-71c1燁yèjip6bright, glorious, splendid, flame86'1270E8
-71c2燂tántaam4smoke, fumes; tobacco, opium; (Cant.) to singe86'12
-71c3燃ránjin4burn; light fire, ignite86'12
-71c4燄yànjim6flame; blazing, brilliant86'12
-71c5燅xúncam486'12
-71c6燆qiāohiu486'122ECE7
-71c7燇jùnzeon386'12
-71c8燈dēngdang1lantern, lamp86'12706F
-71c9燉dùndan6heat with fire; stew86'12
-71ca燊shēnsan1luxuriant86'12
-71cb燋jiāoziu1scorch, burn, scald; torch86'12
-71cc燌fénfan486'12307BB
-71cd燍sīsi186'12
-71ce燎liáoliu4to burn, set afire; to illuminate; a signal lamp86'12
-71cf燏yùwat6blaze86'12
-71d0燐línleon4phosphorus (element 15, P)86'12
-71d1燑tóngtung486'12
-71d2燒shāosiu1burn; bake; heat; roast86'1270E7
-71d3燓fénfan486'12
-71d4燔fánfaan4to roast; to burn86'12
-71d5燕yànjin3swallow (bird); comfort, enjoy86'12
-71d6燖xúncam4reheat food86'122C288
-71d7燗lànlaan6warming sake, to heat sake86'12
-71d8燘měimui5(Cant.) to suck or chew without using the teeth86'122C296
-71d9燙tàngtong3scald, heat; wash; iron clothes86'1270EB
-71da燚yìjik6used in people's names86'12
-71db燛jiǒnggwing286'12
-71dc燜mènmun6simmer, cook over slow fire86'127116
-71dd燝jingging286'12
-71de燞jiǎoziu386'12
-71df營yíngjing4encampment, barracks; manage86'138425
-71e0燠yùjuk1warm; warmth86'13
-71e1燡yìjik6bright86'1330787
-71e2燢xuéhok686'13
-71e3燣lánlaam4disappointed86'13
-71e4燤tàitaai386'13
-71e5燥zàocou3dry, parched, arid; quick-tempered86'13
-71e6燦càncaan3vivid, illuminating; bright86'13707F
-71e7燧suìseoi6flintstone; beacon, signal fire; torch86'13
-71e8燨xīhei186'13
-71e9燩quèkok386'13
-71ea燪zǒngzung286'13
-71eb燫liánlim486'13
-71ec燬huǐwai2burn down; blaze, fire86'13
-71ed燭zhúzuk1candle, taper; to shine, illuminate86'1370DB
-71ee燮xièsit3harmonize, blend; adjust86'13
-71ef燯língling486'13
-71f0燰wēiwui186'132C2BA
-71f1燱yìji386'13
-71f2燲xiéhip386'13
-71f3燳zhàoziu386'13
-71f4燴huìwui6ragout, cook, braise86'1370E9
-71f5燵dádaat6a foot-warmer86'132C289
-71f6燶nóngnung1(Cant.) to scorch, burn86'133DB6
-71f7燷lánlaam4disappointed86'13
-71f8燸rújyu486'14
-71f9燹xiǎnsin2fire; wild fires86'14
-71fa燺hèhuk6the dry at the fire to roast86'14
-71fb燻xūnfan1smoke, fog, vapor; smoke, cure86'14
-71fc燼jìnzeon6cinders, ashes, embers; remnants86'1470EC
-71fd燽chóucau486'142C28D
-71fe燾dàotou4shine, illuminate; cover, envelope86'147118
-71ff燿yàosoek3shine, dazzle; brilliant, radiant86'14
-7200爀hèhaak186'14
-7201爁lànlaam686'142C2B6
-7202爂biāobiu186'14
-7203爃róngwing486'142B7A1
-7204爄lìlai686'15241C3
-7205爅mòmak686'15
-7206爆bàobaau3crackle, pop, burst, explode86'15
-7207爇ruòjyut3burn86'15
-7208爈lǜleoi486'15
-7209爉làlaap686'15
-720a爊āoou1to stew, cook86'15
-720b爋xūnfan186'16
-720c爌kuàngkong386'15
-720d爍shuòsoek3shine, glitter, sparkle86'1570C1
-720e爎liáoliu486'15
-720f爏lìlik686'16
-7210爐lúlou4fireplace, stove, oven, furnace86'167089
-7211爑juézoek386'16
-7212爒liǎoliu586'16
-7213爓yànjim6flame; brilliant, blazing86'16307D8
-7214爔xīhei1sunlight, sunshine; early dawn86'16
-7215爕xièsit386'15
-7216爖lónglung4fire86'16241ED
-7217爗yèjip6bright, glorious, splendid; a flame86'162ECF4
-7218爘cāncaan186'16
-7219爙rǎngjoeng586'17
-721a爚yuèjoek6bright; fiery86'17
-721b爛lànlaan6rotten, spoiled, decayed86'1770C2
-721c爜cóngcung486'18
-721d爝juézoek3torch; to light86'18
-721e爞chóng86'18
-721f爟guàngun3fire86'18
-7220爠jukeoi486'18
-7221爡chècit386'19
-7222爢mímei486'19
-7223爣tǎngtong286'202C2B5
-7224爤lànlaan686'21
-7225爥zhúzuk1simmer, cook over slow fire86'212AE73
-7226爦lǎnlaam586'21
-7227爧língling486'242B7A0
-7228爨cuàncyun3oven, cooking stove; cook86'25
-7229爩yùwat1(Cant.) to smoke, fumigate; to bleach with burning sulfur86'29
-722a爪zhǎozaau2claw, nail, talon; animal feet87'0
-722b爫zhǎozaau2radical 8787'0
-722c爬pápaa4crawl, creep; climb; scramble87'4
-722d爭zhēngzaang1to dispute, fight, contend, strive87'44E89
-722e爮páopaau487'5
-722f爯chēngcing187'5
-7230爰yuánwun4lead on to; therefore, then87'5
-7231爱àioi3love, be fond of, like87'6611B
-7232爲wèiwai4do, handle, govern, act; be87'84E3A
-7233爳hanwai487'10
-7234爴juéfok387'11
-7235爵juézoek3feudal title or rank87'14
-7236父fùfu6father; Kangxi radical 8888'0
-7237爷yéje4father, grandfather88'2723A
-7238爸bàbaa1father, papa88'4
-7239爹diēde1father, daddy88'6
-723a爺yéje4father, grandfather88'97237
-723b爻yáongaau4diagrams for divination89'0
-723c爼zǔzo2a small table or tiered stand filled with meat offerings89'5
-723d爽shuǎngsong2happy, cheerful; refreshing89'7
-723e爾ěrji5you; that, those; final particle89'105C14
-723f爿pánbaan6half of tree trunk; Kangxi radical 9090'0
-7240牀chuángcong4bed, couch; bench; chassis90'4
-7241牁kēgo1mooring stake; painter, mooring90'5
-7242牂zāngzong1female sheep, ewe90'6
-7243牃diédip690'9
-7244牄qiāngcoeng1to walk rapidly90'10
-7245牅yōngjung490'11
-7246牆qiángcoeng4wall90'135899
-7247片piànpin3slice, splinter, strip; rad. 9191'0
-7248版bǎnbaan2printing blocks; edition91'4
-7249牉pànpun3to split something into two91'5
-724a牊cháociu491'5
-724b牋jiānzin1memorandum, official note91'83081B
-724c牌páipaai4signboard, placard91'8
-724d牍dúduk6writing tablet; documents, books91'87258
-724e牎chuāngcoeng1window91'9
-724f牏yújyu4privy hole91'9
-7250牐zházaap6sluice; flood gate, canal lock91'9
-7251牑biānbin191'9
-7252牒diédip6documents, records; dispatch91'9
-7253牓bǎngbong2tablet; public notice; register91'10
-7254牔bóbok3gable91'10
-7255牕chuāngcoeng1window91'11
-7256牖yǒujau5window; lead enlightenment91'11
-7257牗yǒujau591'11
-7258牘dúduk6writing tablet; documents, books91'15724D
-7259牙yángaa4tooth, molars, teeth; serrated92'0
-725a牚chèng chēngcaang192'8
-725b牛niúngau4cow, ox, bull; Kangxi radical 93; 9th lunar mansion, determinative star β Capricorni (Dabih)93'0
-725c牜niúngau4an ox, a cow Radical 9393'0
-725d牝pìnpan5female of species; deep gorge93'2
-725e牞jiūkau193'2
-725f牟móumau4make; seek, get; barley; low93'2
-7260牠tātaa1it; polled cattle93'3
-7261牡mǔmaau5male of animals; bolt of door93'3
-7262牢láolou4prison; stable, pen; secure93'3
-7263牣rènjan6fill, stuff; full93'3
-7264牤māngmong1a bull93'3
-7265牥fāngfong193'4
-7266牦máomou4tail; hair; yak93'46C02
-7267牧mùmuk6tend cattle, shepherd93'4
-7268牨gānggong193'4
-7269物wùmat6thing, substance, creature93'4
-726a牪yànjyun693'4
-726b牫gēgo193'4
-726c牬bèibui393'4
-726d牭sìsei393'5
-726e牮jiànzin3a prop, beam93'5
-726f牯gǔgu2cow; bull; ox93'5
-7270牰yòujau693'5
-7271牱gēo193'5
-7272牲shēngsang1sacrificial animal; animal93'5
-7273牳mǔmau593'5
-7274牴dǐdai2gore, butt; resist93'5
-7275牵qiānhin1drag, pull, lead by hand93'5727D
-7276牶quànhyun3a nose-ring for an animal93'6
-7277牷quáncyun4cow or ox of one color, perfect93'6
-7278牸zìzi6the female of certain animals; to bring forth young of animals93'6
-7279特tèdak6special, unique, distinguished93'6
-727a牺xīhei1sacrifice, give up; sacrificial93'672A7
-727b牻mángmong4cattle with a mixture of black and white hair93'7
-727c牼kēnghang1ox shank, person's name93'730832
-727d牽qiānhin1drag, pull, lead by hand93'77275
-727e牾wǔng5to oppose; to gore93'7
-727f牿gùguk1shed, pen93'7
-7280犀xīsai1rhinoceros; sharp, well-tempered93'8
-7281犁lílai4plow93'7
-7282犂lílai4plow93'8
-7283犃pǒubau693'8
-7284犄jīgei1animal horns93'8
-7285犅gānggong193'83082B
-7286犆zhídat6special93'8
-7287犇bēnban1run fast, flee; rush about; run93'8
-7288犈quánkyun493'8
-7289犉chúnseon4an ox with yellow hair and black lips93'8
-728a犊dúduk6calf; victim of sacrifice93'872A2
-728b犋jùgeoi6a unit of animal power; measure word for draft animals93'8
-728c犌jiāgaa193'9
-728d犍jiāngin1a bullock; a fabulous monster93'9
-728e犎fēngfung1the zebu, or humped-ox93'9
-728f犏piānpin1yak-ox93'9
-7290犐kēfo193'9
-7291犑júgwik193'9
-7292犒kàohou3entertain victorious soldiers93'10
-7293犓chúco193'102C31D
-7294犔xìhei393'10
-7295犕bèibei693'10
-7296犖luòlok3brindled ox; brindled in color93'108366
-7297犗jiègaai3castrated bull93'10
-7298犘mámaa493'11
-7299犙sānsaam193'11
-729a犚wèiwai393'11
-729b犛máomou4a black ox, a yak93'11
-729c犜dūndeon193'12
-729d犝tóngtung493'12
-729e犞qiáokiu493'122AEAD
-729f犟jiànggoeng6stubborn93'12
-72a0犠xīji6sacrifice, give up; sacrificial93'13
-72a1犡lìlai693'15
-72a2犢dúduk6calf; victim of sacrifice93'15728A
-72a3犣lièlip693'15
-72a4犤páibei193'1530839
-72a5犥piāopiu193'15
-72a6犦bóbok693'15
-72a7犧xīhei1sacrifice, give up; sacrificial93'16727A
-72a8犨chōucau4panting of cow; grunting of ox93'16
-72a9犩wéingai493'18
-72aa犪kuíkwai493'20
-72ab犫chōucau1protrude93'23
-72ac犬quǎnhyun2dog; radical number 9494'0
-72ad犭quǎnhyun2dog; radical number 9494'0
-72ae犮bábat6to pull up94'1
-72af犯fànfaan6commit crime, violate; criminal94'2
-72b0犰qiúkau4armadillo94'2
-72b1犱jǐgik194'3
-72b2犲cháicaai4wolf; cruel, wicked, mean94'3
-72b3犳zhuózoek394'3
-72b4犴ànngon6a wild dog, a not very large lock-up94'3
-72b5犵gēhat1resolute; a non-Han ethnic group in Guangxi, Hunan, and Guizhou94'3
-72b6状zhuàngzong6form; appearance; shape; official94'372C0
-72b7犷guǎnggwong2fierce, rude, uncivilized94'37377
-72b8犸mǎmaa5mammoth94'37341
-72b9犹yóujau4like, similar to, just like, as94'472B972B9 7336
-72ba犺kàngkong3animal94'4
-72bb犻bóbut694'4
-72bc犼hǒuhau3a fierce Mongolian wolf dragon's head on roofs94'4
-72bd犽yà94'4
-72be犾yínngan494'4
-72bf犿huānfun194'4
-72c0狀zhuàngzong6form; appearance; shape; official94'472B6
-72c1狁yǔnwan5a tribe of Scythian nomads94'4
-72c2狂kuángkong4insane, mad; violent; wild94'4
-72c3狃niǔnau2to covet; to be accustomed94'4
-72c4狄dídik6tribe from northern China; surname94'4
-72c5狅kuángkong494'4
-72c6狆zhòngzung1Pekinese dog, lap dog, pug; pup94'4
-72c7狇mùmuk694'4
-72c8狈bèibui3a legendary animal with short forelegs which rode a wolf94'472FD
-72c9狉pīpei1fox-cub94'5
-72ca狊júgwik194'5
-72cb狋yí94'5
-72cc狌shēngsing1livestock94'5
-72cd狍páopaau4species of deer found in north China94'5
-72ce狎xiáhaap6be familiar with; disrespect94'5
-72cf狏tuóto494'5
-72d0狐húwu4fox94'5
-72d1狑língling494'5
-72d2狒fèifai3baboon94'5
-72d3狓pípei194'5
-72d4狔nǐnei594'5
-72d5狕yǎomaa194'5
-72d6狖yòujau6a gibbon with a long tail and prominent nose94'5
-72d7狗gǒugau2dog, Canis familiaris94'5
-72d8狘xuèhyut3jump94'5
-72d9狙jūzeoi1an ape, monkey; to spy, watch for; to lie94'5
-72da狚dàndaan394'5
-72db狛bóbaak3lion-dog shrine guardians94'5
-72dc狜kǔgu2mother cattle94'5
-72dd狝xiǎnsin2hunt; autumn hunting; to capture with a fine net94'5736E
-72de狞níngning4ferocious appearance; hideous94'57370
-72df狟huánwun494'6
-72e0狠hěnhan2vicious, cruel; severely, extreme94'6
-72e1狡jiǎogaau2cunning, deceitful, treacherous94'6
-72e2狢héhok6animal name94'6
-72e3狣zhàoziu694'6
-72e4狤jígat194'6
-72e5狥xùnseon1follow94'6
-72e6狦shānsaan194'6
-72e7狧tàdaat394'6
-72e8狨róngjung4monkey with gold-colored hair; golden lion tamarin94'6
-72e9狩shòusau3winter hunting; imperial tour94'6
-72ea狪tóngtung494'6
-72eb狫lǎolou594'6
-72ec独dúduk6alone, single, solitary, only94'672EC72EC 7368
-72ed狭xiáhaap6narrow, limited; narrow-minded94'672F9
-72ee狮shīsi1lion94'67345
-72ef狯kuàikui2sly, cunning, crafty94'672EF72EF 736A
-72f0狰zhēngzang1fierce-looking, ferocious94'67319
-72f1狱yùjuk6prison, jail; case; lawsuit94'67344
-72f2狲sūnsyun1monkey94'6733B
-72f3狳yújyu4armadillo94'7
-72f4狴bìbai6a kind of tapir; a fierce beast depicted on the door of prisons94'7
-72f5狵mángmong4blend; variegated; striped94'7
-72f6狶xīhei194'7
-72f7狷juàngyun3rash, impetuous, impulsive94'7
-72f8狸lílei4fox94'7
-72f9狹xiáhaap6narrow, limited; narrow-minded; to pinch94'772ED
-72fa狺yínngan4the snarling of dogs94'7
-72fb狻suānsyun1a fabulous beast94'7
-72fc狼lánglong4wolf94'7
-72fd狽bèibui3a legendary animal with short forelegs which rode a wolf94'772C8
-72fe狾zhìzai394'7
-72ff狿yánjin494'7
-7300猀shāsaa194'7
-7301猁lìlei6a kind of monkey94'7
-7302猂hànhon594'7
-7303猃xiǎnhim2dog94'7736B
-7304猄jīnggeng1a kind of deer94'8
-7305猅páipaai494'8
-7306猆fēifei194'8
-7307猇xiāohaau1the scream or roar of a tiger; to intimidate; to scare94'8
-7308猈bàibaa694'8
-7309猉qíkei494'8
-730a猊níngai4lion; wild beast; wild horse94'8
-730b猋biāobiu1wind; storm; gale; dog moving; (Cant.) running quickly94'8
-730c猌yìnngan694'82AEBD
-730d猍láiloi494'83084E
-730e猎lièlip6hunt; field sports94'87375
-730f猏jiāngin194'8
-7310猐qiānggoeng194'8
-7311猑kūnkwan194'8
-7312猒yànjim394'8
-7313猓guǒgwo2monkey94'8
-7314猔zòngzung3name of an ancient tribe94'8
-7315猕mímei4macacus monkey94'873157315 737C
-7316猖chāngcoeng1mad, wild, reckless, unruly94'8
-7317猗yīji1exclamation of admiration94'8
-7318猘zhìzai3fierce dog; furious, frenzied94'8
-7319猙zhēngzang1fierce-looking, ferocious94'872F0
-731a猚yángaai494'8
-731b猛měngmaang5violent, savage, cruel; bold94'8
-731c猜cāicaai1guess, conjecture, suppose; feel94'8
-731d猝cùcyut3abruptly, suddenly; abrupt94'8
-731e猞shēse3a wild cat; 猞猁, a lynx94'8
-731f猟lièlip6hunt; field sports94'8
-7320猠diǎndin294'8
-7321猡luólo4pig; Lolo aboriginal tribe94'87380
-7322猢húwu4a kind of monkey found in western China94'9
-7323猣zōngzung194'9
-7324猤guìgwai394'9
-7325猥wěiwai2vulgar, low, cheap; wanton; obscene94'9
-7326猦fēngfung194'9
-7327猧wōwo194'93084F
-7328猨yuánjyun4ape94'9
-7329猩xīngsing1species of orangutan94'9
-732a猪zhūzyu1pig, hog, wild boar94'8732A732A 8C6C
-732b猫māomaau1cat94'9732B732B 8C93
-732c猬wèiwai6vulgar; wanton; low; many; varied; a hedgehog, porcupine94'9732C732C 875F
-732d猭chuāncyun194'9
-732e献xiànhin3offer, present; show, display94'9732E732E 737B
-732f猯tuānteon194'9
-7330猰yàaat3a legendary man-eating animal94'9
-7331猱náonaau4a monkey with yellow hair, macaque94'9
-7332猲xiēhit3smoke or flames from fire; roast94'9
-7333猳jiāgaa194'9
-7334猴hóuhau4monkey, ape; monkey-like94'9
-7335猵biānbin194'9
-7336猶yóujau4like, similar to, just like, as94'972B9
-7337猷yóujau4plan, scheme; plan, plot; way94'9
-7338猸méimei4a ferret-badger (genus Melogale)94'9
-7339猹cházaa1wild animal mentioned in short story by Lu Xun94'9
-733a猺yáojiu4jackal; name of a tribe94'10
-733b猻sūnsyun1monkey94'1072F2
-733c猼bóbok394'10
-733d猽míngming494'10
-733e猾huáwaat6crafty, cunning, shrewd; deceitful94'10
-733f猿yuánjyun4ape94'10
-7340獀sōusau1to gather; to hunt or search for94'10
-7341獁màmaa5mammoth94'972B8
-7342獂yuánwun494'10
-7343獃dāingoi4dull; dull-minded, simple, stupid94'10
-7344獄yùjuk6prison, jail; case; lawsuit94'1172F1
-7345獅shīsi1lion94'1072EE
-7346獆háohou494'10
-7347獇qiānggoeng194'10
-7348獈yìjik694'10
-7349獉zhēnzeon1jungle94'10
-734a獊cāngcong194'102AEB7
-734b獋háohou4roar; cry94'12
-734c獌mànmaan694'11
-734d獍jìngging3a mythical animal that eats its mother when it is born; Manchurian tiger94'11
-734e獎jiǎngzoeng2prize, reward; give award to94'115956
-734f獏mòmok6the panther; the tapir94'11
-7350獐zhāngzoeng1roebuck, hornless river deer94'11
-7351獑cháncaam494'1130854
-7352獒áongou4mastiff, large fierce dog94'11
-7353獓áongou494'11
-7354獔háohou494'11
-7355獕cuīceoi194'11
-7356獖bènban694'123085E
-7357獗juékyut3unruly, wild, violent, lawless94'12
-7358獘bìbai6collapse94'12
-7359獙bìbai694'12
-735a獚huángwong494'12
-735b獛púbuk194'12
-735c獜línleon494'12
-735d獝xùwat6devil94'12
-735e獞tóngtung4name of a variety of dog; wild tribes in South China94'12
-735f獟yàohiu194'122C32E
-7360獠liáoliu4to hunt at night by torches94'12
-7361獡shuòsoek394'12
-7362獢xiāohiu1dog94'123084A
-7363獣shòusau3beast, animal; bestial94'12
-7364獤dūndeon194'12
-7365獥jiàogiu394'13
-7366獦gégot394'13
-7367獧juàngyun3rash; honest and straightforward94'13
-7368獨dúduk6alone, single, solitary, only94'1372EC
-7369獩huìwai394'1324783
-736a獪kuàikui2sly, cunning, crafty94'1372EF
-736b獫xiǎnhim2dog94'137303
-736c獬xièhaai5a fabulous monster94'13
-736d獭tǎcaat3otter94'13737A
-736e獮xiǎnsin2hunt; autumn hunting; to capture with a fine net94'1472DD
-736f獯xūnfan1a tribe of Scythians which invaded China during the Xia dynasty94'14
-7370獰níngning4ferocious appearance; hideous94'1472DE
-7371獱biānban1a kind of otter94'143E8D
-7372獲huòwok6obtain, get, receive; seize94'1483B7
-7373獳nòunau6looking like a fierce dog; angry94'14
-7374獴měngmung4mongoose94'14
-7375獵lièlip6hunt; field sports94'15730E
-7376獶nǎo94'15
-7377獷guǎnggwong2fierce, rude, uncivilized94'1572B7
-7378獸shòusau3beast, animal; bestial94'15517D
-7379獹lúlou4a hound94'1630844
-737a獺tǎcaat3otter94'16736D
-737b獻xiànhin3offer, present; show, display94'16732E
-737c獼mímei4macacus monkey94'177315
-737d獽rángjoeng494'17
-737e獾huānfun1the badger94'18
-737f獿nǎonaau494'18
-7380玀luólo4pig; Lolo aboriginal tribe94'197321
-7381玁xiǎnhim2a dog with a long snout or muzzle94'20247A4
-7382玂qíkei494'2030869
-7383玃juéfok3a large ape found in western China94'20
-7384玄xuánjyun4deep, profound, abstruse; Kangxi radical 9595'0
-7385玅miàomiu6mysterious, subtle; exquisite95'4
-7386玆zīzi1now, here; this; time, year95'5
-7387率lǜseot1to lead; ratio; rate; limit95'6
-7388玈lúlou4black95'6
-7389玉yùjuk6jade, precious stone, gem96'0
-738a玊sùsuk196'1
-738b王wángwong4king, ruler; royal; surname96'
-738c玌qiúkau496'1
-738d玍gǎgaa2ill tempered; naughty96'1
-738e玎dīngding1jingling, tinkling96'2
-738f玏lèlak696'2
-7390玐bābaat396'2
-7391玑jīgei1pearl that is not quite round96'274A3
-7392玒hónggung196'3
-7393玓dìdik1pearly96'3
-7394玔chuàncyun3green jade96'3
-7395玕gāngon1inferior variety of gem96'3
-7396玖jiǔgau2black-colored jade96'3
-7397玗yújyu1a jade-like stone96'3
-7398玘qǐhei2court-dress jewels96'3
-7399玙yújyu4beautiful jade96'374B5
-739a玚yángdong6a kind of jade96'37452
-739b玛mǎmaa5agate; cornelian96'3746A
-739c玜hónggung196'4
-739d玝wǔng596'4
-739e玞fūfu1an inferior agate96'4
-739f玟wénman4streaks in jade; gem96'4
-73a0玠jiègaai3large jade tablet used by officials at court to indicate their ranks96'4
-73a1玡yáje4name of a mountain in Shandong96'4
-73a2玢bīnban1(archaic) a kind of jade96'4
-73a3玣biànbin696'4
-73a4玤bàngbung2a kind of gem inferior to jade96'4
-73a5玥yuèjyut6mysterious gem; pearl96'4
-73a6玦juékyut3broken piece of jade96'4
-73a7玧ménmun4reddish96'4
-73a8玨juégok3two pieces of jade joined together96'4
-73a9玩wánwun6play with, joke, enjoy96'4
-73aa玪jiāngaam196'4
-73ab玫méimui4rose96'4
-73ac玬dǎntaan296'4
-73ad玭pínpan4a pearl96'4
-73ae玮wěiwai5type of jade; rare, valuable96'4744B
-73af环huánwaan4jade ring or bracelet; ring96'473AF73AF 74B0
-73b0现xiànjin6appear, manifest, become visible96'473FE
-73b1玱qiāngcoeng1tinkling sound tinkling of pendant gems96'47472
-73b2玲língling4tinkling of jade96'5
-73b3玳dàidoi6tortoise shell96'5
-73b4玴yìjai696'5
-73b5玵ánngam496'5
-73b6玶píngping4name of one kind of jade96'5
-73b7玷diàndim3flaw in gem; flaw in character96'5
-73b8玸fúfu496'5
-73b9玹xuánjyun4jadelike precious stone; jade-colored96'5
-73ba玺xǐsaai2imperial signet, royal signet96'574BD
-73bb玻bōbo1glass96'5
-73bc玼cǐci1beautiful color of gem; flaw in96'5
-73bd玽gǒugau296'5
-73be玾jiǎgaap396'5
-73bf玿sháosiu496'5
-73c0珀pòpaak3amber96'5
-73c1珁cíci496'5
-73c2珂kēo1inferior kind of jade96'5
-73c3珃rǎnjim596'5
-73c4珄shēngsang196'5
-73c5珅shēnsan1a kind of jade96'5
-73c6珆yíji496'5
-73c7珇zǔzou296'5
-73c8珈jiāgaa1an ornament attached to a woman's hairpin96'5
-73c9珉mínman4stone resembling jade96'5
-73ca珊shānsaan1coral96'5
-73cb珋liǔlau596'5
-73cc珌bìbit1ornament96'5
-73cd珍zhēnzan1precious, valuable, rare96'5
-73ce珎zhēnzan1precious, valuable, rare96'5
-73cf珏juégok3two pieces of jade joined together96'5
-73d0珐fàfaat3enamel, cloisonné96'573D073D0 743A
-73d1珑lónglung4a gem cut like dragon96'574CF
-73d2珒jīnzeon196'6
-73d3珓jiàogaau3two hemispherical objects used in divination96'6
-73d4珔jiànzin696'6
-73d5珕lìlai696'6
-73d6珖guānggwong1carat96'6
-73d7珗xiānsin196'6
-73d8珘zhōuzau196'6
-73d9珙gǒnggung2precious stone; county in Sichuan96'6
-73da珚yānjin196'6
-73db珛xiùjau396'6
-73dc珜yángjoeng496'6
-73dd珝xǔheoi296'6
-73de珞luòlok3kind of necklace96'6
-73df珟sùsuk196'6
-73e0珠zhūzyu1precious stone, gem, jewel, pearl96'6
-73e1珡qínkam4(variant of 琴) guqin or zither96'6
-73e2珢yínngan4precious stone96'6
-73e3珣xúnseon1name of a kind of jade96'6
-73e4珤bǎobou2treasure, jewel; precious, rare96'6
-73e5珥ěrji5ear ornament; stick, insert96'6
-73e6珦xiànghoeng3a kind of jade96'6
-73e7珧yáojiu4mother-of-pearl96'6
-73e8珨xiáhap696'6
-73e9珩hénghang4the top gem of a pendant96'6
-73ea珪guīgwai1a jade table conferred upon feudal princes by the emperor as a symbol of dignity and authority96'6
-73eb珫chōngcung196'6
-73ec珬xùseot196'6
-73ed班bānbaan1class, group, grade; squad; job96'6
-73ee珮pèipui3jade ornament96'6
-73ef珯lǎolou596'6
-73f0珰dāngdong1pendant ornaments, earrings96'674AB
-73f1珱yīngjing1a necklace made of precious stones96'6
-73f2珲húnwan4bright, glorious, splendid96'6743F
-73f3珳wénman496'7
-73f4珴éngo496'7
-73f5珵chéngcing496'7
-73f6珶dìdai696'7
-73f7珷wǔmou5an inferior gem96'8
-73f8珸wúng496'7
-73f9珹chéngsing4type of jade; pearl96'7
-73fa珺jùngwan6beautiful jade96'7
-73fb珻méimui496'7
-73fc珼bèibui396'72B7A5
-73fd珽tǐngting5jade tablet96'7
-73fe現xiànjin6appear, manifest, become visible96'773B0
-73ff珿chùcuk196'7
-7400琀hánham3gems of pearls formerly put into the mouth of a corpse96'7
-7401琁xuánsyun4beautiful jade; star96'7
-7402琂yánjin496'7
-7403球qiúkau4ball, sphere, globe; round96'7
-7404琄xuànjyun5scabbard; traces, reins96'7
-7405琅lánglong4a variety of white carnelian; pure96'7
-7406理lǐlei5reason, logic; manage96'7
-7407琇xiùsau3coarse variety of jasper or jade96'7
-7408琈fúfau496'7
-7409琉liúlau4sparkling stone; glazed, opaque96'6
-740a琊yáje4a place in eastern Shandong96'7
-740b琋xīhei196'7
-740c琌língling496'7
-740d琍lílei496'7
-740e琎jìnzeon3a stone that looks like jade96'774A1
-740f琏liǎnlin5vessel used to hold grain offerings96'77489
-7410琐suǒso2trifling, petty; troublesome96'77463
-7411琑suǒciu396'7
-7412琒fēngfung196'7
-7413琓wánjyun496'7
-7414琔diàndin696'8
-7415琕pínpan4type of pearl; scabbard96'8
-7416琖zhǎnzaan2carved jade wine cup96'82C359
-7417琗sèceoi396'8
-7418琘mínman496'8
-7419琙yùwik696'8
-741a琚jūgeoi1girdle ornaments96'8
-741b琛chēnsam1treasure, valuables96'8
-741c琜láiloi496'8
-741d琝mínman496'8
-741e琞shèngsing396'9
-741f琟wéiwai496'8
-7420琠tiǎntin2a gem used as ear plug; a jade earring96'8
-7421琡chùcuk196'8
-7422琢zuódoek3polish jade; cut jade96'8
-7423琣běngbung296'8
-7424琤chēngzang1jade of jade being; tinkle96'8
-7425琥hǔfu2jewel in shape of tiger; amber96'8
-7426琦qíkei4gem, precious stone, jade96'8
-7427琧èok396'8
-7428琨kūnkwan1beautiful jade, precious stones96'8
-7429琩chāngcoeng196'8
-742a琪qíkei4type of jade96'8
-742b琫běngbung2ornament96'8
-742c琬wǎnjyun2the virtue of a gentleman; jade96'8
-742d琭lùluk6jade like stone96'8
-742e琮cóngcung4octagonal piece of jade with hole in middle96'8
-742f琯guǎngun2a jade tube used as an instrument96'8
-7430琰yǎnjim5jewel, gem; glitter of gems96'8
-7431琱diāodiu1engrave, inlay, carve; exhaust96'8
-7432琲bèipui3necklace96'8
-7433琳línlam4beautiful jade, gem96'8
-7434琴qínkam4Chinese lute or guitar96'8
-7435琵pípei4guitar-like instrument96'8
-7436琶pápaa4guitar-like instrument96'8
-7437琷què96'8
-7438琸zhuózoek396'8
-7439琹qínkam496'8
-743a琺fàfaat3enamel, cloisonné96'873D0
-743b琻jīncyun496'8
-743c琼qióngking4jade; rare, precious; elegant; (Cant.) to coagulate96'8743C743C 74CA
-743d琽dǔdou296'9
-743e琾jiègaai396'9
-743f琿húnwan4bright, glorious, splendid96'973F2
+6c40汀tīngting1sandbar, beach, bank, shore85'2đênh
+6c41汁zhīzap1juice, liquor, fluid, sap, gravy, sauce85'2chấp
+6c42求qiúkau4seek; demand, request; beseech85'2cầu
+6c43汃bīn85'2
+6c44汄zèzak185'2
+6c45汅miǎnmin585'2
+6c46汆cuāncyun1to parboil; hot water kettle; to boil85'2
+6c47汇huìwui6concourse; flow together, gather85'2532F 5F59
+6c48汈diāodiu1a lake in Húběi85'2
+6c49汉hànhon3Chinese people; Chinese language85'26F22hán
+6c4a汊chàcaa3a branching stream85'3xoà
+6c4b汋zhuójoek6to pour85'3
+6c4c汌chuàncyun385'3
+6c4d汍wánjyun4weep85'3
+6c4e汎fànfaan4float, drift; afloat; careless85'3
+6c4f汏dàdaai685'3
+6c50汐xīzik6night tides, evening ebb tide85'3tách tịch
+6c51汑tuōtok385'3
+6c52汒mángmong485'3
+6c53汓qiúcau485'3tở
+6c54汔qìngat6close, almost85'3
+6c55汕shànsaan3basket for catching fish; bamboo; Swatow (Shantou)85'3sán sớn sươn
+6c56汖pìnpan385'3
+6c57汗hànhon6perspiration, sweat85'3
+6c58汘qiāncim485'3
+6c59汙wūwaa1filthy, dirty, impure, polluted85'3
+6c5a汚wūwu1filthy, dirty, impure, polluted85'3
+6c5b汛xùnseon3high water, flood tides85'3vàm
+6c5c汜sìci5a stream which leaves the main branch then later returns85'3dẫy
+6c5d汝rǔjyu5you85'3nhớ
+6c5e汞gǒnghung3mercury (element 80, Hg)85'3
+6c5f江jiānggong1large river; the Yangzi; surname85'3giang
+6c60池chíci4pool, pond; moat; cistern85'3trì
+6c61污wūwu1filthy, dirty, impure, polluted85'3ô
+6c62汢tutou285'3
+6c63汣jiǔgwai285'3
+6c64汤tāngtong1hot water; soup, gravy, broth85'36E6Fthang
+6c65汥zhīzi185'4
+6c66汦zhǐzi285'4
+6c67汧qiānhin1name of a river in Shangdong; marsh; float85'4
+6c68汨mìmik6Mi(luo) river in Hunan province where Qu Yuan drowned himself; to sink; (used erroneously for 汩)85'4nhặt
+6c69汩gǔgwat1run swiftly85'4
+6c6a汪wāngwong1vast, extensive, deep; surname85'4
+6c6b汫jǐngzeng2a pit, trap; the appearance of a small, meandering stream85'4giếng
+6c6c汬jǐngzing685'4
+6c6d汭ruìjeoi6confluence of two streams; bend85'4
+6c6e汮jūngwan185'4
+6c6f汯hóngwang485'4
+6c70汰tàitaai3excessive; scour, wash out85'4sưởi thải thãi thảy thẩy
+6c71汱quǎngyun285'4
+6c72汲jíkap1draw water from well; imbibe85'4bập cấp ngập
+6c73汳biànbin685'4
+6c74汴biànbin6name of a river in Henan; Henan85'4
+6c75汵gàngam385'4ngấm
+6c76汶wènman6a river in Shandong province85'4
+6c77汷zhōngzung185'3
+6c78汸fāngfong185'4
+6c79汹xiōnghung1turbulent; noisy, restless85'46C796C79 6D36
+6c7a決juékyut3decide, determine, judge85'451B3quyết
+6c7b汻hǔwu285'4
+6c7c汼niúngau485'4
+6c7d汽qìhei3steam, vapor, gas85'4
+6c7e汾fénfan4river in Shanxi province85'4
+6c7f汿xùzeoi685'4dơ
+6c80沀xùzeoi685'4
+6c81沁qìnsam3soak into, seep in, percolate85'4tắm
+6c82沂yíji4river in southeast Shandong85'4
+6c83沃wòjuk1water, irrigate; fertile, rich85'4óc
+6c84沄yúnwan4billows85'46C846C84 6F90
+6c85沅yuánjyun4name of a river in western Hunan that flows into Dongting lake85'4
+6c86沆hànghong4a ferry; fog; flowing85'4
+6c87沇yǎnjin5flowing and engulfing; brimming85'4
+6c88沈shěn chénsam2sink, submerge; addicted to; surname85'46C886C88 700Bđắm
+6c89沉chéncam4sink, submerge; addicted to85'4tròm
+6c8a沊dàndam2(Cant.) onomatopoetic85'4
+6c8b沋yóujau485'4
+6c8c沌dùndeon6chaotic, confused; turbid, murky85'4xộn
+6c8d沍hùwu6freezing; stopped up, closed off85'4
+6c8e沎huòfo385'4
+6c8f沏qīcai3infuse85'4
+6c90沐mùmuk6bathe, cleanse, wash, shampoo85'4múc
+6c91沑nǜnuk685'4
+6c92沒méimut6not, have not, none; to drown, sink85'46CA1mốt một
+6c93沓dá tàdaap6connected, joined; repeated85'4đạp
+6c94沔miǎnmin5flood; overflowing85'4miền
+6c95沕mìmat6deep; (Cant.) to dive85'4vắt
+6c96沖chōngcung1pour, infuse, steep; wash away85'451B2trong trùng xung
+6c97沗pāngtim185'4
+6c98沘bǐbei2name of a river85'4
+6c99沙shāsaa1sand, gravel, pebbles; granulated85'4nhểu sa sà xa xoà
+6c9a沚zhǐzi2islet in stream; small sandbar85'4chảy
+6c9b沛pèipui3abundant, full, copious; sudden85'4phải
+6c9c沜pànpun385'4
+6c9d沝zhuǐzeoi285'4
+6c9e沞zāzaap385'4
+6c9f沟gōukau1ditch, drain, narrow waterway85'46E9D
+6ca0沠liúpaai385'4
+6ca1没méimut6not, have not, none; drown, sink85'46CA16C92 6CA1mốt
+6ca2沢zézaak6marsh, swamp; grace, brilliance85'4
+6ca3沣fēngfung1river in Shanxi province85'47043
+6ca4沤òuau3soak, steep; sodden or soaked85'46F1A
+6ca5沥lìlik6trickle, drip; strain; dregs85'4701Dlạch
+6ca6沦lúnleon4be lost; sink, be submerged85'46DEAlún
+6ca7沧cāngcong1blue, dark green; cold85'46EC4
+6ca8沨fēngfung1pleasant sound85'46E22
+6ca9沩wéigwai1name of a river in Hunan85'46E88 6F59
+6caa沪hùwu6Shanghai; river near Shanghai85'46CAA6CAA 6EEC
+6cab沫mòmut6froth, foam, bubbles, suds85'5mượt
+6cac沬mèimui6dusk; Mei river; Zhou dynasty place-name; (Cant.) to go underwater, to dive85'5
+6cad沭shùseot6river in Shantung85'5
+6cae沮jǔzeoi1stop, prevent; defeated, dejected85'5
+6caf沯zázaat385'5
+6cb0沰tuōtok3to let drop85'5
+6cb1沱tuóto4rivers, streams, waterways; flow85'5đà đờ đừ
+6cb2沲tuóto4float85'5
+6cb3河hého4river; stream; the Yellow River85'5hà
+6cb4沴lìleoi6foul and poisonous in confusion; out of harmony85'5
+6cb5沵mǐmei585'5
+6cb6沶yíji485'5
+6cb7沷fāfaat3to remove evil; to cleanse; to wash away85'5
+6cb8沸fèifai3boil, bubble up, gush85'5phí
+6cb9油yóujau4oil, fat, grease, lard; paints85'5dầu
+6cba沺tiántin4turbulent85'5
+6cbb治zhìzi6govern, regulate, administer85'5trị
+6cbc沼zhǎoziu2lake, fishpond, swamps85'5trẻo
+6cbd沽gūgu1buy and sell; inferior in quality85'5
+6cbe沾zhānzim1moisten, wet, soak; touch85'5chăm
+6cbf沿yánjyun4follow a course, go along85'5duyên
+6cc0泀sīsi185'5
+6cc1況kuàngfong3condition, situation; furthermore85'551B5huống
+6cc2泂jiǒnggwing2clear and deep (of water); wide85'5
+6cc3泃jūkeoi1river in Henan85'5
+6cc4泄xièsit3leak; vent; flow; reveal85'5tướt
+6cc5泅qiúcau4swim, float, wade85'5tù
+6cc6泆yìjat6licentious, libertine, dissipated85'5dật
+6cc7泇jiāgaa185'5
+6cc8泈zhōngzung185'5
+6cc9泉quáncyun4spring, fountain; wealth, money85'5tuyền
+6cca泊pōbok6anchor vessel; lie at anchor85'5bạc
+6ccb泋huìwai385'5
+6ccc泌mìbei3to seep out, excrete85'5
+6ccd泍bēnban185'5bẩn
+6cce泎zézaak685'5
+6ccf泏zhúzeot185'5
+6cd0泐lèlak6to write; to indite; veins in minerals85'5
+6cd1泑yōujau2the vitreous glaze on china, porcelain, etc.85'5ao
+6cd2泒gūgu1a river in Hubei province85'5
+6cd3泓hóngwang4clear, deep pool of water85'5
+6cd4泔gāngam1water from washing rice to boil thick, as gruel85'5
+6cd5法fǎfaat3law, rule, regulation, statute; France, French85'5pháp
+6cd6泖mǎomaau5still waters; river in Jiangsu85'5
+6cd7泗sìsi3mucous; nasal flow; sniffle; river in Shandong85'5tứa
+6cd8泘hūfu185'5
+6cd9泙píngpaang1roar85'5bềnh
+6cda泚cǐci2clear; bright and brilliant; sweat85'6
+6cdb泛fànfaan3to drift, float; careless, reckless85'5phiếm
+6cdc泜zhīa river in Hebei province85'5dề
+6cdd泝sùsou3go upstream; trace source; formerly85'5
+6cde泞nìngning6mud; miry, muddy, stagnant85'56FD8
+6cdf泟chēngzaa185'5
+6ce0泠língling4nice and cool, mild and comfortable85'5lênh
+6ce1泡pàopou5bubbles, suds; blister; soak85'5bàu
+6ce2波bōbo1waves, breakers; undulations85'5ba
+6ce3泣qìjap1cry, sob, weep85'5khắp
+6ce4泤sìci585'5
+6ce5泥nínai4mud, mire; earth, clay; plaster85'5lầy ne nè né nê nề nể nễ nệ nơi
+6ce6泦júguk185'5
+6ce7泧sàkut385'5
+6ce8注zhùzyu3concentrate, focus, direct85'56CE86CE8 8A3Bchú
+6ce9泩shēngsang185'5
+6cea泪lèileoi6tears; weep, cry85'56CEA6CEA 6DDAlệ
+6ceb泫xuànjyun5weep; cry; shine, glisten85'5
+6cec泬juékyut385'5
+6ced泭fúfu1a raft85'5
+6cee泮pànpun3Zhou dynasty school; disperse; fall apart85'5bợn
+6cef泯mǐnman5destroy, eliminate; perish85'5
+6cf0泰tàitaai3great, exalted, superior; big; hexagram ䷊85'5thái
+6cf1泱yāngjoeng1great, expansive; agitated85'5
+6cf2泲jǐzai3kind of white wine; rivers in Hebei and Shandong85'5
+6cf3泳yǒngwing6dive; swim85'5
+6cf4泴guàngun385'5
+6cf5泵bèngbam1pump (English loan word)112'4
+6cf6泶xuéhok685'56FA9
+6cf7泷lónglung4raining; wet; soaked; a river in Guangdong85'57027rông
+6cf8泸lúlou4river in Jiangxi province85'57018lư
+6cf9泹dàndaan385'5
+6cfa泺luòlok6river in Shandong province85'56FFCnhợt
+6cfb泻xièse3drain off, leak; flow, pour down85'57009tả
+6cfc泼pōput3pour, splash, water, sprinkle85'56F51
+6cfd泽zézaak6marsh, swamp; grace, brilliance85'56FA4rạch
+6cfe泾jīngging1name of a river85'56D87kinh
+6cff泿yínngan485'6
+6d00洀pánzau185'6
+6d01洁jiégit3clean, purify, pure85'66F54cát khiết
+6d02洂yèjik685'6
+6d03洃huīfui185'6hôi
+6d04洄huíwui4a back-water; an eddy a whirlpool85'6hói
+6d05洅zàizoi385'6tưới
+6d06洆chéngsing485'6
+6d07洇yīnjan1to soak paper, blot85'6
+6d08洈wéingai485'6
+6d09洉hòuhau685'6
+6d0a洊jiànzin3flowing water85'6tuồn
+6d0b洋yángjoeng4ocean, sea; foreign; western85'6dương
+6d0c洌lièlit6clear85'6rét
+6d0d洍sìci585'7
+6d0e洎jìgei3until; till; soup; to soak85'6
+6d0f洏érji4tears; tearful85'6nhỉ
+6d10洐xínghang485'6
+6d11洑fúfuk6whirlpool, undercurrent85'6
+6d12洒sǎsaa2sprinkle; scatter; pour; to wipe away; to shiver85'66D126D12 7051sái
+6d13洓qì suǒsaak385'6
+6d14洔zhǐzi285'6
+6d15洕yìnjan585'6
+6d16洖wúng485'7
+6d17洗xǐsai2wash, rinse; clean, purify85'6tẩy
+6d18洘kǎohaau285'6
+6d19洙zhūzyu1name of a river in Shandong85'6chua
+6d1a洚jiànggong3a flood85'6
+6d1b洛luòlok3river in Shanxi province; city85'6rặc
+6d1c洜luòlok385'6
+6d1d洝ànon385'6
+6d1e洞dòngdung6cave, grotto; ravine; hole85'6đọng
+6d1f洟tìji4snivel, mucus from nose85'6dề
+6d20洠móumau485'6
+6d21洡lèileoi685'6giội
+6d22洢yīji185'6
+6d23洣mǐmai5Mi river in Hunan, tributary of Xiangjiang85'6
+6d24洤quáncyun4a fountain or spring85'6
+6d25津jīnzeon1ferry; saliva; ford85'6
+6d26洦pòpaak385'6
+6d27洧wěifui2name of a river in Honan85'6
+6d28洨xiáongaau4river in Hebei province85'6
+6d29洩xièjai6leak, drip; vent or release85'6dáy
+6d2a洪hónghung4vast, immense; flood, deluge85'6hòng hồng
+6d2b洫xùgwik1to ditch; a moat85'6
+6d2c洬sùsuk185'6
+6d2d洭kuānghong1river in Guangdong85'6
+6d2e洮táotou4cleanse; river in Gansu province85'6rệu
+6d2f洯qièkit385'6
+6d30洰jùkeoi485'6
+6d31洱ěrji5a lake in Yunnan85'6
+6d32洲zhōuzau1continent; island; islet85'6chao châu
+6d33洳rùjyu6damp, boggy, marshy85'6nhơ
+6d34洴píngping4sound85'6
+6d35洵xúnseon1true, real, truly, really85'6
+6d36洶xiōnghung1the rush of water; turbulent; noisy, restless85'66C79
+6d37洷zhìzat685'6xối
+6d38洸guānggwong1sparkle, glitter85'6
+6d39洹huánwun4river in Henan province85'6
+6d3a洺míngming4river in Hebei province85'6
+6d3b活huówut6live, exist, survive; lively85'6hoạt
+6d3c洼wāwaa1hollow; pit; depression; swamp85'66D3C6D3C 7AAA
+6d3d洽qiàhap1to blend with, be in harmony; to penetrate; to cover; a river in Shenxi85'6
+6d3e派pàipaai3school of thought, sect, branch85'6phái
+6d3f洿wūwu1stagnant water; impure, filthy85'6
+6d40浀qūkuk185'6
+6d41流liúlau4flow, circulate, drift; class85'6lưu
+6d42浂yìgun385'6
+6d43浃jiāzip3saturate, drench; damp, wet85'66D79
+6d44浄jìngzing6pure, clean, unspoiled85'6
+6d45浅qiǎncin2shallow, not deep; superficial85'66D456D45 6DFA
+6d46浆jiāngzoeng1any thick fluid; starch; broth85'66F3F
+6d47浇jiāohiu1spray, water, sprinkle85'66F86kiêu
+6d48浈zhēnzing1river in Guangdong province85'66E5E
+6d49浉shīsi1river in Henan province85'66EAE
+6d4a浊zhuózuk6muddy, turbid, dirty, filthy85'66FC1trọc
+6d4b测cècak1measure, estimate, conjecture85'66E2Ctrắc
+6d4c浌fáfat685'6
+6d4d浍huìkui2irrigation ditch, trench; river85'66FAEgội
+6d4e济jìzai3help, aid, relieve; ferry, cross85'66FDF
+6d4f浏liúlau4clear; bright; whistling85'6700F
+6d50浐chǎncaan2a river in Shaanxi85'66EFB
+6d51浑húnwan4muddy, turbid; blend, merge, mix85'66E3E
+6d52浒hǔwu2riverbank, shore85'66EF8
+6d53浓nóngnung4thick, strong, concentrated85'66FC3nống
+6d54浔xúncam4steep bank by stream; jiujiang85'66F6Ftầm
+6d55浕jìnzeon6river in Hubei province85'66FDC
+6d56浖lièlyut6(Cant.) intensifier85'7
+6d57浗qiúkau485'7gàu
+6d58浘wěimei585'7vã
+6d59浙zhèzit3Zhejiang province; river85'7
+6d5a浚jùnzeon3dredge85'7
+6d5b浛hánham4place in Yingde, Guangdong province85'7
+6d5c浜bāngbong1creek, stream; beach, sea coast85'7
+6d5d浝mángmong485'7
+6d5e浞zhuózuk1to soak, to steep in water85'7
+6d5f浟yóujau485'7
+6d60浠xīhei1a river in Húběi85'7hơ
+6d61浡bóbut6burst forth; rise; vigorous85'7bọt
+6d62浢dòudau685'7
+6d63浣huànwun5to wash, to rinse85'7
+6d64浤hóngwang4beating of ocean; surging of water85'7
+6d65浥yìjap1moist, wet, dampen85'7ướp
+6d66浦pǔpou2bank of river, shore; surname85'7
+6d67浧yǐngjing585'7sình
+6d68浨lǎnlam585'7
+6d69浩hàohou6great, numerous, vast, abundant85'7
+6d6a浪lànglong6wave; wasteful, reckless85'7
+6d6b浫hǎnhon285'7
+6d6c浬lǐlei5nautical mile85'7rí
+6d6d浭gēnggang1river in Hebei province; (Cant.) a ford; to wade85'7
+6d6e浮fúfau4to float, drift, waft; to exceed; superfluous85'7phù
+6d6f浯wúng4name of a river in Shandong85'7
+6d70浰liànlin685'7rời
+6d71浱chúnseon485'7
+6d72浲féngfung485'7
+6d73浳yìjik685'7
+6d74浴yùjuk6bathe, wash; bath85'7
+6d75浵tóngtung485'7
+6d76浶láolou485'7
+6d77海hǎihoi2sea, ocean; maritime85'7hải
+6d78浸jìnzam3soak, immerse, dip, percolate85'7tắm
+6d79浹jiāzip3saturate, drench; damp, wet85'76D43
+6d7a浺chōngcung185'7
+6d7b浻jiǒnggwing285'7
+6d7c浼měimui5to request; to ask a favour of; to pollute, contaminate85'7
+6d7d浽suīseoi185'7nổi
+6d7e浾chēngzaa185'7
+6d7f浿pèibui385'72C1D9
+6d80涀xiànjin685'7
+6d81涁shènsam385'7
+6d82涂tútou4surname; name of certain rivers85'76D825857 6D82dơ
+6d83涃kùnkwan385'7
+6d84涄pīngping185'7
+6d85涅niènip6blacken; black mud, slime85'7nết
+6d86涆hànhon685'7
+6d87涇jīngging1name of a river85'76CFEkinh
+6d88消xiāosiu1vanish, die out; melt away85'7tiêu
+6d89涉shèsip3ford stream, wade across85'7thiệp
+6d8a涊niǎnnin5dirt85'7
+6d8b涋tūteot185'7
+6d8c涌yǒngcung1surge up, bubble up, gush forth85'7
+6d8d涍xiàohaau385'7
+6d8e涎xiánjin4saliva85'7
+6d8f涏tǐngting585'7
+6d90涐éngo485'7
+6d91涑sùcuk1river in Shansi province85'7
+6d92涒tūntan1meander85'7
+6d93涓juāngyun1brook, stream; select; pure85'7quen
+6d94涔cénsam4river in Shaanxi; murky torrent85'7
+6d95涕tìtai3tear; snivel, nasal mucus85'7
+6d96涖lìlei6river in Hebei province; creek85'7lị rỉ rị
+6d97涗shuìseoi385'7đuối
+6d98涘sìzi6river bank; water's edge85'7
+6d99涙lèileoi6tears; weep85'8
+6d9a涚shuìseoi385'7
+6d9b涛tāotou4large waves85'76D9B6D9B 6FE4
+6d9c涜dúduk6ditch, sluice, gutter, drain85'7
+6d9d涝làolou6inundate, flood; torrent85'76F87
+6d9e涞láiloi4river in Hebei province; creek85'76DF6thui
+6d9f涟liánlin4flowing water; ripples; weeping85'76F23lăn
+6da0涠wéiwai4still water85'76F7F
+6da1涡wōwo1swirl, whirlpool, eddy85'76E26
+6da2涢yúnwan4river in Hubei85'76EB3vờn
+6da3涣huànwun6scatter; scattered85'76E19
+6da4涤dídik6wash, cleanse, purify; sweep85'76ECCsạch
+6da5涥hēnghang185'7
+6da6润rùnjeon6soft, moist; sleek; freshen85'76F64nhuần
+6da7涧jiàngaan3brook, mountain stream85'76F97
+6da8涨zhǎngzoeng2rise in price85'76F32trướng
+6da9涩sègip3astringent; harsh; uneven, rough85'76F80
+6daa涪fúfau4river in Sichuan province85'8
+6dab涫guàngun385'8
+6dac涬xìnghang6watery expanse85'8
+6dad涭shòusau685'8
+6dae涮shuànsaan3rinse; cook or boil in juice85'8
+6daf涯yángaai4shore, bank, water's edge85'8rượi
+6db0涰chuòzyut385'8
+6db1涱zhàngzoeng285'8
+6db2液yèjik6sap, juice, liquid, fluid85'8giá
+6db3涳kōnghung185'8
+6db4涴wòwo3daub85'8
+6db5涵hánhaam4soak, wet; tolerate, be lenient85'8
+6db6涶tuōto1to spit; saliva85'8
+6db7涷dōngdung1rainstorm85'8306D2
+6db8涸hékok3dried up; exhausted, tired; dry85'8hạt
+6db9涹wōwo185'8
+6dba涺jūgeoi185'8
+6dbb涻shèse385'8
+6dbc涼liángloeng4cool, cold; disheartened85'851C9lương
+6dbd涽hūnfan185'8
+6dbe涾tàtaap385'8
+6dbf涿zhuōdoek3drip, dribble, trickle85'8
+6dc0淀diàndin6shallow water, swamp; swampy85'86DC06DC0 6FB1
+6dc1淁qiècip385'8thiếp
+6dc2淂dédak185'8
+6dc3淃juàngyun685'8
+6dc4淄zīzi1river in Shandong province85'8
+6dc5淅xīsik1water used wash rice; to wash rice85'8
+6dc6淆xiáongaau4confused, in disarray, mixed up85'8
+6dc7淇qíkei4river in Henan province85'8
+6dc8淈gǔgwat185'8
+6dc9淉guǒgwo285'8
+6dca淊yānjim1to immerse (in water)85'8
+6dcb淋línlam4drip, soak, drench; perfectly85'8lấm
+6dcc淌tǎngtong2trickle; flow down; drip85'8
+6dcd淍zhōuzau185'8
+6dce淎pěngfung285'8vũng
+6dcf淏hàohou685'8
+6dd0淐chāngcoeng185'8
+6dd1淑shūsuk6good, pure, virtuous, charming85'8
+6dd2淒qīcai1bitter cold, miserable, dreary85'8thê
+6dd3淓fāngfong185'8
+6dd4淔zhízik685'8
+6dd5淕lùluk685'8
+6dd6淖nàonaau6slush; mud85'8
+6dd7淗júguk185'8
+6dd8淘táotou4wash in a sieve; weed out85'8đào
+6dd9淙cóngcung4gurgling sound of water85'8
+6dda淚lèileoi6tears; weep, cry85'86CEAlệ
+6ddb淛zhèzit385'8
+6ddc淜péngpang4roar of dashing waves85'8
+6ddd淝féifei4name of an affluent of the Poyang Lake85'8
+6dde淞sōngsung1name of a river in Jiangsu85'8
+6ddf淟tiǎntin2turbid; muddy85'8đén
+6de0淠pìpei3name of a river in Anhui85'8
+6de1淡dàndaam6weak, watery; insipid, tasteless85'8đạm
+6de2淢yùwik6ditch85'8vặc vực
+6de3淣níngai485'8
+6de4淤yūjyu1mud, sediment; clog up, silt up85'8ứa
+6de5淥lùluk6strain; (Cant.) to scald85'86E0Clóc
+6de6淦gàngam3river in Jiangxi province; water leaking into a boat85'8
+6de7淧mìmat685'8
+6de8淨jìngzing6pure, clean, unspoiled85'8
+6de9淩língling4pass over, cross, traverse85'8lâng
+6dea淪lúnleon4be lost; sink, be submerged85'86CA6lún
+6deb淫yínjam4obscene, licentious, lewd85'8dâm
+6dec淬cuìceoi3temper; dye; soak; change, alter85'8rót
+6ded淭qúkeoi485'8
+6dee淮huáiwaai4river in Anhui province85'8hoài
+6def淯yùjuk6name of river; old name of Baihe in Henan85'8rộc
+6df0淰niǎnnaam5fish; still; (Cant.) thoroughly soaked; a deep sleep85'8
+6df1深shēnsam1deep; depth; far; very, extreme85'8thâm
+6df2淲biāopiu485'8
+6df3淳chúnseon4honest, simple, unsophisticated; cyanogen; ethane dinitrile85'8choang
+6df4淴hūfat1to wash, bathe85'8
+6df5淵yuānjyun1gulf, abyss, deep85'86E0Auyên
+6df6淶láiloi4river in Hebei province; creek85'86D9Elai
+6df7混hùnwan6to mix, blend, mingle; to bumble along85'8hổn
+6df8淸qīngcing1clear85'8
+6df9淹yānjim1drown; cover with liquid, steep85'8êm
+6dfa淺qiǎncin2shallow, not deep; superficial85'86D45thiển
+6dfb添tiāntim1append, add to; increase85'8thiêm thêm
+6dfc淼miǎomiu5a wide expanse of water85'8
+6dfd淽zhǐzi285'8
+6dfe淾yǐnjam285'8
+6dff淿bóbok685'8
+6e00渀bènban685'8
+6e01渁yuānjyun185'8
+6e02渂wènman685'8
+6e03渃ruòjoek685'9nước
+6e04渄fēifei185'8
+6e05清qīngcing1clear, pure, clean; peaceful85'8thanh
+6e06渆yuānjyun185'8
+6e07渇kěhot3thirsty85'8
+6e08済jìzai3help, aid, relieve; ferry, cross85'8
+6e09渉shèsip3ford stream85'8
+6e0a渊yuānjyun1surge up, bubble up, gush forth85'86E0A6DF5 6E0Auyên
+6e0b渋sègip3astringent; harsh; uneven, rough85'8
+6e0c渌lùluk6strain85'86DE5lóc
+6e0d渍zìzi3soak, steep; dye; stains; sodden85'86F2C
+6e0e渎dúduk6ditch, sluice, gutter, drain85'87006
+6e0f渏yīji185'8
+6e10渐jiànzim6gradually85'86F38tiệm
+6e11渑miǎnman5name of a river in Shandong85'86FA0
+6e12渒pàibei185'8
+6e13渓xīkai1mountain stream, creek85'8
+6e14渔yújyu4to fish; seize; pursue; surname85'86F01ngư
+6e15渕yuānjyun1surge up, bubble up, gush forth85'8
+6e16渖shěnsam2juice; liquid; water; to leak, pour85'8700Bthẳm
+6e17渗shènsam3soak through, infiltrate85'86EF2rướm
+6e18渘róujau485'9
+6e19渙huànwun6scatter; scattered, dispersed; hexagram ䷺85'96DA3
+6e1a渚zhǔzyu2small sand bank, islet85'8chã
+6e1b減jiǎngaam2decrease, subtract, diminish85'951CFgiảm
+6e1c渜nuǎnnyun585'9
+6e1d渝yújyu4change; chongqing85'9
+6e1e渞qiúcau485'9
+6e1f渟tíngting4(of water) not flowing; clear85'9
+6e20渠qúkeoi4ditch, canal, channel, gutter85'9cừ
+6e21渡dùdou6cross, ferry over; ferry85'9đò
+6e22渢fánfung1pleasant sound85'96CA8
+6e23渣zhāzaa1refuse, dregs, lees, sediment85'9
+6e24渤bóbut6swelling; (渤海) the Bohai Sea85'9bọt
+6e25渥wòak1moisten, soak; great, deep; dye; to enrich85'9ốc
+6e26渦wōwo1swirl, whirlpool, eddy85'96DA1
+6e27渧dìdai3to drop, as liquids; a drop85'9
+6e28渨wēiwui1a cove, a bay; a bend or nook in the hills; the curve of a bow85'9hoáy
+6e29温wēnwan1lukewarm85'96E296E29 6EABồn
+6e2a渪rújyu485'9
+6e2b渫xièsit3beating of ocean; surging of water85'9
+6e2c測cècak1measure, estimate, conjecture85'96D4Btrắc
+6e2d渭wèiwai6name of a river in Shanxi85'9vấy vĩ vị vời vợi
+6e2e渮hégo1river in Shandong province85'9
+6e2f港gǎnggong2port, harbor; small stream; bay85'9cảng
+6e30渰yǎnjim2(of cloud) forming or rising85'9
+6e31渱hónghung485'9
+6e32渲xuànhyun1add repeated washes of color85'9
+6e33渳mǐmai585'9
+6e34渴kěhot3thirsty, parched; yearn, pine85'9khát
+6e35渵máomaau485'9
+6e36渶yīngjing185'9
+6e37渷yǎnjin585'9
+6e38游yóujau4to swim; float, drift; wander, roam85'9
+6e39渹hōnggwang1roar, crash85'9
+6e3a渺miǎomiu5endlessly long, boundless, vast85'9
+6e3b渻shěngsaang285'9
+6e3c渼měimei5ripples85'9mẻ
+6e3d渽zāizoi185'9
+6e3e渾húnwan4muddy, turbid; blend, merge, mix85'96D51
+6e3f渿nàinoi685'9
+6e40湀guǐgwai285'9
+6e41湁chìcap185'9
+6e42湂èngok685'9
+6e43湃pàibaai3sound of waves; turbulent85'9
+6e44湄méimei4water's edge, shore, bank85'9mưa
+6e45湅liànlin6boil silk85'9rịn
+6e46湆qìjap1(Cant.) sticky, not smooth, slow85'9ùm
+6e47湇qìjap185'9
+6e48湈méimui485'9mủ
+6e49湉tiántim4gentle flow; tranquil85'9
+6e4a湊còucau3piece together, assemble85'951D1
+6e4b湋wéiwai4river in Shanxi province85'923C97
+6e4c湌cāncaan1to eat85'9
+6e4d湍tuānteon1rapid water current, rapids85'9
+6e4e湎miǎnmin5flushed with drink, drunk85'9giờn
+6e4f湏huìmui6wash face; erroneously borrowed for DKW 43352 'necessary, must'85'9
+6e50湐mòpaak385'9
+6e51湑xūseoi2to strain spirits; river in Guangxi; abundant; bright85'9
+6e52湒jícap185'9
+6e53湓pénpun4a river in Jiangxi province85'9bùn
+6e54湔jiānzin1wash, cleanse; purge85'9
+6e55湕jiǎngin285'9
+6e56湖húwu4a lake; Hubei, Hunan; bluish-green85'9hồ
+6e57湗fèngfung685'9
+6e58湘xiāngsoeng1alternate name for Hunan85'9tương
+6e59湙yìjik685'9
+6e5a湚yìnjan685'9
+6e5b湛zhànzaam3deep; profound; clear; tranquil, placid85'9đậm
+6e5c湜shízik6transparent, clear85'9
+6e5d湝jiēgaai1flow85'9
+6e5e湞chēngzing1river in Guangdong province85'96D48
+6e5f湟huángwong4river in Qinghai province85'9
+6e60湠tàntaan385'9
+6e61湡yújyu485'9
+6e62湢bìbik1bathroom; neat; orderly85'9
+6e63湣mǐnman5mixed, confused; pity85'9
+6e64湤shīsi185'9
+6e65湥tūteot185'9dột
+6e66湦shēngsang185'9
+6e67湧yǒngjung2well up; gush forth; rise85'9rụng
+6e68湨júgwik1river in Henan85'9xố
+6e69湩dòngdung6muddy, turbid; milk85'9
+6e6a湪tuànteon385'9
+6e6b湫jiǎozau1a small pond; a damp and narrow place85'9
+6e6c湬jiǎozau185'9
+6e6d湭qiúcau485'9
+6e6e湮yānjin1bury, sink, block up; stain85'9
+6e6f湯tāngtong1hot water; soup, gravy, broth85'96C64thang
+6e70湰lónglung485'9
+6e71湱huòwaak6sound of water85'9
+6e72湲yuánjyun4flow85'9bợn
+6e73湳nǎnnaam585'9nươm
+6e74湴bànbaan6(Cant.) mud, mire85'8
+6e75湵yǒujau585'9
+6e76湶quáncyun485'9
+6e77湷zhuāngzong185'9
+6e78湸liàngloeng685'9
+6e79湹cháncin485'9
+6e7a湺xiánjin485'9
+6e7b湻chúnseon4pure, unmixed, genuine; honest85'9
+6e7c湼niènip6black mud; slime85'9
+6e7d湽zīzi185'9
+6e7e湾wānwaan1bay, cove, inlet, bend of stream85'96E7E6E7E 7063
+6e7f湿shīsap1wet, moist, humid, damp; illness85'96FD5dấp
+6e80満mǎnmun5fullness, enough; pride85'9
+6e81溁yíngjing4a stream, eddy; to eddy85'106FDA
+6e82溂làlaat685'9
+6e83溃kuìkui2flooding river; militarily defeat85'96F70hói
+6e84溄féngfung485'9
+6e85溅jiànzin3sprinkle, spray; spill, splash85'96FFA
+6e86溆xùzeoi6river in Húnán85'96F35
+6e87溇lóulau4river in Hubei province85'96F0Asâu
+6e88溈wéigwai1name of a river in Hunan85'96CA9
+6e89溉gàikoi3water, irrigate, flood; wash85'9
+6e8a溊bōbo185'9
+6e8b溋yíngjing485'9duềnh
+6e8c溌pōput3pour, splash, water, sprinkle85'9
+6e8d溍jìnzeon3water85'10
+6e8e溎yàngwai3river in Guangxi province85'10
+6e8f溏tángtong4pool; not hardened, semi-soft85'10
+6e90源yuánjyun4spring; source, head; surname85'10nguồn
+6e91溑suǒso285'10
+6e92溒yuánjyun485'10
+6e93溓liánlim5sticky; thin rice85'10
+6e94溔yǎojiu585'10
+6e95溕méngmung485'10trùng trụng
+6e96準zhǔnzeon2rule, guideline, standard85'1051C6chuẩn
+6e97溗chéngsing485'10
+6e98溘kèhap6abruptly, suddenly, unexpectedly85'10hụp
+6e99溙tàitaai385'10
+6e9a溚dátaap3(Cant.) to get wet by rain; to drip85'10
+6e9b溛wāwaa185'10
+6e9c溜liūlau6slide, glide, slip; slippery85'10
+6e9d溝gōukau1ditch, drain, narrow waterway85'106C9F
+6e9e溞sāosou185'10
+6e9f溟míngming4drizzling rain; dark, obscure85'10
+6ea0溠zhàzaa3river in Hubei province85'10
+6ea1溡shísi485'102AD84
+6ea2溢yìjat6overflow, brim over; full85'10
+6ea3溣lùnleon685'10
+6ea4溤mǎmaa585'10306CA
+6ea5溥pǔpou2big, great, vast, wide; widespread85'10
+6ea6溦wēimei4drizzle; (variant) valley; (variant) mold85'10
+6ea7溧lìleot6river in Anhui and Jiangsu provinces85'10rớt
+6ea8溨zāizoi185'10
+6ea9溩wùwu285'10
+6eaa溪xīkai1mountain stream, creek85'10khe
+6eab溫wēnwan1lukewarm, warm; tepid, mild85'106E29ồn
+6eac溬qiānggoeng185'10
+6ead溭zézik185'10
+6eae溮shīsi1river in Henan province85'106D49
+6eaf溯sùsou3go upstream, go against current; formerly85'10
+6eb0溰áiji485'10306E5
+6eb1溱qínzeon1river in Henan85'10
+6eb2溲sōusau1urinate; soak, drench85'10
+6eb3溳yúnwan4river in Hubei85'106DA2vờn
+6eb4溴xiùcau3bromine (element 35, Br)85'10
+6eb5溵yīnjan1name of a place in Tianjin85'10
+6eb6溶róngjung4to melt, dissolve; overflowing with85'10ròng
+6eb7溷hùnwan6privy, latrine; turbid, dirty85'10
+6eb8溸sùsou385'10
+6eb9溹suǒsok385'10
+6eba溺nìnik6drown; submerge in water; indulge85'10
+6ebb溻tātaap3wet85'10
+6ebc溼shīsap1damp, moist; dampness, moisture85'10
+6ebd溽rùjuk6moist, humid, muggy85'10
+6ebe溾āiaai185'10
+6ebf溿pànpun385'10
+6ec0滀chùcuk1a body of water85'10sốc
+6ec1滁chúceoi4district in Anhui province85'10
+6ec2滂pāngpong4torrential; voluminous85'10bẵng
+6ec3滃wēngjung2swelling, rising, dispersing85'10
+6ec4滄cāngcong1blue, dark green; cold85'106CA7
+6ec5滅mièmit6extinguish; wipe out, exterminate85'10706Ddiệt
+6ec6滆gégaak3a lake in Jiangxu85'10
+6ec7滇diāntin4Yunnan province85'10chan
+6ec8滈hàohou6downpour; river in Shaanxi85'10hao
+6ec9滉huàngfong2deep85'10
+6eca滊xìhei3a river name; a long rain85'10
+6ecb滋zīzi1grow, multiply, increase; thrive85'9
+6ecc滌dídik6wash, cleanse, purify; sweep85'116DA4sạch
+6ecd滍zhìzi6place in Henan85'10
+6ece滎xíngjing4county in Henan; rising and dashing of waves85'108365
+6ecf滏fǔfu2river in Hebei85'10
+6ed0滐jiégit6(Cant.) dense, thick, viscous85'10
+6ed1滑huáwaat6slip, slide; slippery, polished85'10gột
+6ed2滒gēgo185'10
+6ed3滓zǐzi2sediment, lees, dregs85'10
+6ed4滔tāotou1overflow; rushing water, a torrent85'10thao
+6ed5滕téngtang4an ancient state in Shandong province; water bursting forth85'10
+6ed6滖suīseoi185'10
+6ed7滗bìbei3drain85'106F77vuốt
+6ed8滘jiàogaau3a branching river (used in place names)85'10
+6ed9滙huìwui6waters converging to one spot; whirling waters; to remit money85'10
+6eda滚gǔngwan2turn85'116EDA6EDA 6EFE
+6edb滛yínjam485'10
+6edc滜gāogou185'10
+6edd滝lónglung4onomatopoeic for the sound of falling rain; an ancient name for Wu Shui; a place in Guangdong85'10sông
+6ede滞zhìzai6block up, obstruct; stagnant85'96EEFsệ
+6edf滟yànjim6overflowing, billowing; wavy85'107067
+6ee0滠shèsip3river in Hubei province85'107044
+6ee1满mǎnmun5fill; full, satisfied85'106EFFmãn
+6ee2滢yíngjing4clear, pure water; lucid; glossy85'107005
+6ee3滣chúnseon485'10
+6ee4滤lǜleoi6strain out, filter85'106FFE
+6ee5滥lànlaam6flood, overflow; excessive85'106FEBlạm
+6ee6滦luánlyun4river and county in Hebei province85'106EE66EE6 7064
+6ee7滧yáohaau685'10
+6ee8滨bīnban1beach, sea coast; river bank85'106EE86EE8 6FF1
+6ee9滩tāntaan1bank, a sandbar, shoal; rapids85'106EE96EE9 7058
+6eea滪yùjyu6place in Sichuan85'106FA6
+6eeb滫xiǔsau2water in which rice has been boiled85'11
+6eec滬hùwu6Shanghai; river near Shanghai85'116CAA
+6eed滭bìbat185'11306E1
+6eee滮biāobiu1flow; (Cant.) to ooze; to spurt85'11
+6eef滯zhìzai6block up, obstruct; stagnant85'116EDEsệ
+6ef0滰jiàngkoeng585'11
+6ef1滱kòukau385'11
+6ef2滲shènsam3soak through, infiltrate85'116E17rướm
+6ef3滳shāngsoeng185'11
+6ef4滴dīdik6drip; drop of water85'11nhích
+6ef5滵mìmat685'11
+6ef6滶áongou485'11
+6ef7滷lǔlou5thick gravy, sauce, broth; brine85'115364 306EE
+6ef8滸hǔwu2riverbank, shore85'116D52
+6ef9滹hūfu1the bank of a steam85'11
+6efa滺yōujau4flow85'11
+6efb滻chǎncaan2a river in Shaanxi85'116D50
+6efc滼fànpaan385'11
+6efd滽yōngjung4strong or thick (liquid)85'11
+6efe滾gǔngwan2turn, roll, rotate; boil85'116EDAcủn
+6eff滿mǎnmun5fill; full, satisfied85'116EE1mãn
+6f00漀qǐnghing285'11
+6f01漁yújyu4to fish; seize; pursue; surname85'116E14ngư
+6f02漂piàopiu1float, drift; tossed about85'11phều
+6f03漃jìzik685'11
+6f04漄yángaai485'11
+6f05漅cháoziu285'11
+6f06漆qīcat1varnish, lacquer, paint85'11
+6f07漇xǐsaai2(Cant.) waste85'11
+6f08漈jìzai3shore; waterside85'11
+6f09漉lùluk6filter, strain; wet, dripping85'11lộc
+6f0a漊lóulau4river in Hubei province85'116E87sâu
+6f0b漋lónglung485'12
+6f0c漌jǐngan285'11
+6f0d漍guógwok3a river85'112C1F9
+6f0e漎cóngcung4a place where small streams flow into a large one85'11306CF
+6f0f漏lòulau6leak, drip; funnel; hour glass85'11lậu
+6f10漐zhízap685'11306E3
+6f11漑gàikoi3water85'11ngấy
+6f12漒qiángkoeng485'11
+6f13漓lílei4river in Guangxi province; water dripping85'106F136F13 7055lầy
+6f14演yǎnjin2perform, put on; exercise85'11diễn
+6f15漕cáocou4transport by water; canal transportation85'11
+6f16漖jiàogaau3(Cant.) a branching river (used in toponyms)85'11
+6f17漗cōngcung185'11
+6f18漘chúnseon4bank85'11
+6f19漙tuántyun4dewy85'112C1D8
+6f1a漚ōuau3soak, steep; sodden, soaked; rotten; foam, froth85'116CA4
+6f1b漛téngtang485'11
+6f1c漜yěje585'11
+6f1d漝xízaap685'11
+6f1e漞mìmik685'11
+6f1f漟tángtong485'11
+6f20漠mòmok6desert; aloof, indifferent, cool85'11mạc
+6f21漡shāngtong185'11
+6f22漢hànhon3the Chinese people, Chinese language85'116C49hán
+6f23漣liánlin4flowing water; ripples; weeping85'116D9Flăn
+6f24漤lǎnlaam5marinate in salt85'11
+6f25漥wāwaa1puddle, hollow, swamp85'11
+6f26漦chílei4saliva; spittle; flowing downstream85'11
+6f27漧gāngon185'11
+6f28漨féngfung485'11vùng
+6f29漩xuánsyun4eddy, whirlpool85'11
+6f2a漪yīji1ripples on water; swirling85'11
+6f2b漫mànmaan6overflow of water; spreading85'11man
+6f2c漬zìzi3soak, steep; dye; stains; sodden85'116E0D
+6f2d漭mǎngmong5vast; expansive85'11
+6f2e漮kānghong185'11
+6f2f漯luòtaap3river in northern Shandong85'11
+6f30漰pēngpaang1roar85'11
+6f31漱shùsau3gargle, rinse; wash, scour85'11
+6f32漲zhǎngzoeng2rise in price85'116DA8trướng
+6f33漳zhāngzoeng1name of a river in Henan85'11
+6f34漴chóngzong685'11sòng
+6f35漵xùzeoi6river in Húnán85'116E86
+6f36漶huànwaan6indecipherable85'11
+6f37漷huǒkwok3river in Hebei province85'11
+6f38漸jiànzim6gradually; hexagram ䷴85'116E10tiệm
+6f39漹yānjin485'11
+6f3a漺shuǎngsong285'11
+6f3b漻liáoliu485'11
+6f3c漼cuǐceoi2having the appearance of depth85'11dồi
+6f3d漽títai485'12
+6f3e漾yàngjoeng6overflow; swirl, ripple; to be tossed by waves85'11
+6f3f漿jiāngzoeng1any thick fluid; starch; broth85'116D46
+6f40潀cóngcung4gather; flow into (water); sound of waters flowing together85'11
+6f41潁yǐngwing6river in Anhui85'11988D
+6f42潂hónghung485'11
+6f43潃xiǔsau185'11
+6f44潄shùsau385'11
+6f45潅guàngun3pour; water; irrigate, flood85'11
+6f46潆yíngjing4tiny stream; swirl around85'117020
+6f47潇xiāosiu1sound of beating wind and rain85'11701F
+6f48潈zongzung1confluence of a small river with a large one; the sound of flowing water85'11
+6f49潉kūnwan685'11
+6f4a潊xùzeoi685'11
+6f4b潋liànlim6waves, ripples; overflow85'117032
+6f4c潌zhìzat685'11
+6f4d潍wéiwai4county in Shandong province85'116FF0
+6f4e潎pìpit3rippling; pour85'12
+6f4f潏yùkyut3reclaimed land; dike, embankment85'12
+6f50潐jiàoziu385'12tèo
+6f51潑pōput3pour, splash, water, sprinkle; violent, malignant85'126CFC
+6f52潒dàngdong685'12
+6f53潓huìwai685'12
+6f54潔jiégit3clean, purify, pure85'126D01khiết
+6f55潕wǔmou5river in Hunan85'1223C98
+6f56潖pápaa4name of a place in Guangdong85'12
+6f57潗jícap1friendly; harmonious85'12bập
+6f58潘pānpun1surname; water in which rice has been rinsed; a river that flows into the Han85'12
+6f59潙wéigwai1river in Shanxi85'126CA9vơi
+6f5a潚sùsuk1gay; deep85'123D0B
+6f5b潛qiáncim4hide; hidden, secret, latent85'126F5Ctiềm
+6f5c潜qiáncim4hide; hidden, secret, latent85'126F5Btiềm
+6f5d潝xījap1agree85'12
+6f5e潞lùlou6a county in Yunnan85'12
+6f5f潟xìsik1land impregnated with salt from the tide85'12
+6f60潠xùnseon3to blow out; to puff out85'12lún
+6f61潡dùndan685'12
+6f62潢huángwong4expanse of water, lake, pond85'12
+6f63潣mǐnman5to pollute, contaminate85'122B797
+6f64潤rùnjeon6soft, moist; sleek; freshen85'126DA6nhuần
+6f65潥sùsuk185'12
+6f66潦liáolou5to flood; a puddle; without care85'12lẻo
+6f67潧zhēnzeon185'12
+6f68潨cóngzung1gather; flow into (water); sound of waters flowing together85'12
+6f69潩yìji685'12
+6f6a潪zhèzik685'12
+6f6b潫wānwaan185'12
+6f6c潬shàntaan1a rapid; a sand-bank; a foreshore85'122C201
+6f6d潭tántaam4deep pool, lake; deep, profound85'12đằm
+6f6e潮cháociu4tide; moist, wet, damp; flow85'12triều
+6f6f潯xúncam4steep bank by stream; jiujiang85'126D54tầm
+6f70潰kuìkui2flooding river; militarily defeat85'126E83hói
+6f71潱yējan185'12
+6f72潲shàosaau3driving rain; to sprinkle85'12
+6f73潳tútou485'12
+6f74潴zhūzyu1pond; a pool85'127026
+6f75潵sǎsaat3a place in Hebei85'12
+6f76潶hēihak185'12
+6f77潷bìbei3drain85'126ED7vuốt
+6f78潸shānsaan1weep; tears flowing85'12
+6f79潹chánsaan485'12
+6f7a潺chánsaan4sound of flowing water85'12sờn
+6f7b潻shǔsyu285'12
+6f7c潼tóngtung4high, lofty; damp85'12
+6f7d潽pūpou185'12
+6f7e潾línleon4clear water85'12
+6f7f潿wéiwai4still water85'126DA0
+6f80澀sèsap1astringent; harsh; uneven, rough85'146DA9
+6f81澁sèsap1astringent; harsh; uneven, rough85'12
+6f82澂chéngcing4clear and still water85'12
+6f83澃jiǒnggwing385'12
+6f84澄chéngcing4purify water by allowing sediment to settle; clear, pure85'12chừng
+6f85澅huàwaa685'1223DA9
+6f86澆jiāohiu1spray, water, sprinkle85'126D47kiêu nhão nhau nhiều
+6f87澇làolou6inundate, flood; torrent85'126D9D
+6f88澈chècit3thoroughly, completely85'12
+6f89澉gǎngam2to wash name of a place85'12
+6f8a澊cūncyun185'12
+6f8b澋hòngwang685'12
+6f8c澌sīsi1to exhaust; to drain dry85'12
+6f8d澍shùsyu6timely rain, life-giving rain85'12
+6f8e澎péngpaang4splatter85'12bành bềnh
+6f8f澏hánham485'12
+6f90澐yúnwan4billows85'126C84
+6f91澑liùlau6slide, glide, slip; slippery85'12
+6f92澒hònghung6vast85'122DC4A
+6f93澓fúfuk685'12
+6f94澔hàohou6radiance of gems85'12
+6f95澕héwo485'122ECC6
+6f96澖xiánhaan485'12306F5
+6f97澗jiàngaan3brook, mountain stream85'126DA7
+6f98澘shānsaan185'12
+6f99澙xìsik185'13
+6f9a澚yujyut685'12
+6f9b澛lǔlou585'127002rỏ
+6f9c澜lánlaan4overflowing; waves, ripples85'12703Elan
+6f9d澝nìngning6mud; miry, muddy, stagnant85'12
+6f9e澞yújyu485'13
+6f9f澟lǐnlam585'13
+6fa0澠miǎnman5name of a river in Shandong85'136E11
+6fa1澡zǎocou3wash, bathe85'13
+6fa2澢dāngdong185'132DC0E
+6fa3澣huànwun5cleanse, wash85'13
+6fa4澤zézaak6marsh, swamp; grace, brilliance; damp, moist; fertile85'136CFDrạch
+6fa5澥xièhaai5a blocked stream; gulf85'13
+6fa6澦yùjyu6place in Sichuan85'136EEA
+6fa7澧lǐlai5river in northern Hunan province85'13
+6fa8澨shìsai6shore; river in Hubei85'13
+6fa9澩xuéhok685'136CF6
+6faa澪língling485'13
+6fab澫wànmaan685'132C1D5
+6fac澬zīzi185'132B79A
+6fad澭yōngjung185'13
+6fae澮huìkui2irrigation ditch, trench; river85'136D4Dgội
+6faf澯càncaan385'13
+6fb0澰liànlim6overflowing85'13306F2
+6fb1澱diàndin6sediment, dregs, precipitate85'136DC0
+6fb2澲yèjip685'13
+6fb3澳àoou3inlet, bay; dock, bank85'13
+6fb4澴huánwaan4river in Hubei province85'13
+6fb5澵zhēnzeon185'13
+6fb6澶chánsin4still water, placid, tranquil85'13
+6fb7澷mànmaan6water overflowing diffused; spreading85'13
+6fb8澸dǎndam285'13
+6fb9澹dàndaam6calm, quiet, tranquil85'13
+6fba澺yìjik185'13
+6fbb澻suìseoi685'13
+6fbc澼pìpik1bleach; wash, clean85'13
+6fbd澽jùgeoi6a river in Shaanxi85'13
+6fbe澾tàtaat3slippery, smooth85'133CE0dạt
+6fbf澿qínkam485'13
+6fc0激jīgik1arouse, excite, incite; quickly85'13khích kích
+6fc1濁zhuózuk6muddy, turbid, dirty, filthy85'136D4Atrọc
+6fc2濂liánlim4a waterfall; a river in Hunan85'13
+6fc3濃nóngnung4thick, strong, concentrated85'136D53nống
+6fc4濄guōwo1(simplified form of 濄) (same as 渦) name of a river, to whirl, an eddy85'133CE1
+6fc5濅jìnzam385'13
+6fc6濆fénfan4river bank; river in Henan province; gush85'1323E23
+6fc7濇sègip3astringent; harsh, rough; uneven85'132C227
+6fc8濈jícap1many85'13xắp
+6fc9濉suīseoi1a river in Anui85'13
+6fca濊huìwai3vast, expansive, deep; dirty85'13306E6
+6fcb濋chǔco285'13
+6fcc濌tàtaap385'13
+6fcd濍sōngsung185'13
+6fce濎dǐngding285'13
+6fcf濏sèsat185'13
+6fd0濐zhǔzyu285'12
+6fd1濑làilaai6swift current; rapids85'137028
+6fd2濒bīnban1approach, be on verge of; near85'137015
+6fd3濓liánlim485'13nhèm
+6fd4濔mǐmei4many85'14nhễ
+6fd5濕shīsap1wet, moist, humid, damp; an illness85'146E7Fdấp nhấp thấm thấp
+6fd6濖shùsyu685'13
+6fd7濗mìmik685'14
+6fd8濘nìngning6mud; miry, muddy, stagnant85'146CDE
+6fd9濙yíngjing4to revolve; to curl in eddies, as rushing water85'14
+6fda濚yíngjing4a stream, eddy; to eddy85'146E81
+6fdb濛méngmung4drizzling, misty, raining85'148499mông
+6fdc濜jìnzeon6river in Hubei province85'146D55
+6fdd濝qíkei485'14
+6fde濞bìpai3a county in Yunnan; the sound made by turbulent water85'14tia
+6fdf濟jìzai3to help, aid, relieve; to ferry, cross85'146D4E
+6fe0濠háohou4moat, trench, ditch85'14
+6fe1濡rújyu4immerse, moisten; wet, damp85'14nhụa
+6fe2濢cuìceoi385'14
+6fe3濣wòwaat385'14
+6fe4濤tāotou4large waves85'146D9Bđào
+6fe5濥yǐnjan585'14
+6fe6濦yǐn85'14
+6fe7濧duìdeoi6to soak or be soaked; to dip; to immerse85'143CD4đuối
+6fe8濨cíci485'14
+6fe9濩huòwok6pour down, cascade down; look85'14
+6fea濪qìngcing385'14
+6feb濫lànlaam6flood, overflow; excessive85'146EE5lạm
+6fec濬jùnzeon3dredge, dig; profound, deep85'14
+6fed濭ǎioi385'14
+6fee濮púbuk6county in Henan province85'14
+6fef濯zhuózok6wash out, rinse; cleanse85'14
+6ff0濰wéiwai4county in Shandong province85'146F4D
+6ff1濱bīnban1beach, sea coast; river bank85'146EE8
+6ff2濲gǔguk185'14
+6ff3濳qiáncim4hide, conceal, secrete; hidden85'16
+6ff4濴yíngjing485'142C21C
+6ff5濵bīnban1a bank, a brink. a shore, a beach85'14
+6ff6濶kuòfut3broad, ample, wide; be apart85'14
+6ff7濷fèifai385'14
+6ff8濸cāngcong185'14
+6ff9濹memak685'15
+6ffa濺jiànzin3sprinkle, spray; spill, splash85'156E85
+6ffb濻wěiwai585'15
+6ffc濼luòlok6river in Shandong province85'156CFAnhợt
+6ffd濽zànzaan385'15
+6ffe濾lǜleoi6strain out, filter85'156EE4
+6fff濿lìlai6cross on stepping-stones85'152AD71
+7000瀀yōujau185'15
+7001瀁yàngjoeng6waves, ripples, rapids; overflow85'153071D
+7002瀂lǔlou585'156F9Brỏ
+7003瀃sìci385'1523F77
+7004瀄zhìzit1(Cant.) to squeeze; to eject; to spray85'15306E4
+7005瀅yíngjing4clear, pure water; lucid; glossy85'156EE2
+7006瀆dúduk6ditch, sluice, gutter, drain85'156E0E
+7007瀇wǎngwong2extensive body of water; broad and deep of water; momentum of moving water deep and wide85'153CBF
+7008瀈huīfai185'153074D
+7009瀉xièse3drain off, leak; flow, pour down85'156CFBtả
+700a瀊pánpun485'15
+700b瀋shěnsam2juice; liquid; water; leak, pour85'156C88 6E16thẳm
+700c瀌biāobiu1plenty85'15
+700d瀍cháncin4river in Henan province85'15
+700e瀎mòmut385'15
+700f瀏liúlau4clear; bright; whistling85'156D4F
+7010瀐jiānzim185'15tươm
+7011瀑pùbuk6waterfall, cascade; heavy rain85'15
+7012瀒sègip3coarse, rough; astringent85'15
+7013瀓chéngcing485'15
+7014瀔gǔguk1river name in Henan province85'15
+7015瀕bīnban1approach, be on verge of; near85'166FD2
+7016瀖huòfok385'16
+7017瀗xiànhin385'162ECCF
+7018瀘lúlou4river in Jiangxi province85'166CF8lư
+7019瀙qìncan385'163071C
+701a瀚hànhon6vast, wide, extensive85'16
+701b瀛yíngjing4sea, ocean85'16
+701c瀜róngjung485'16
+701d瀝lìlik6trickle, drip; strain; dregs85'166CA5lạch
+701e瀞jìngzing6pool in a river85'16
+701f瀟xiāosiu1sound of beating wind and rain; light, ethereal85'166F47
+7020瀠yíngjing4tiny stream; swirl around; eddy85'166F46
+7021瀡suǐseoi5slippery, smooth85'16
+7022瀢wěiwai585'162C24B
+7023瀣xièhaai6sea mist; vapor85'16
+7024瀤huáiwaai485'16
+7025瀥xuèhou685'16
+7026瀦zhūzyu1pond; a pool85'166F74
+7027瀧lónglung4raining; wet; soaked; a river in Guangdong85'166CF7rông
+7028瀨làilaai6swift current; rapids85'166FD1
+7029瀩duìdeoi685'16
+702a瀪fánfaan685'16
+702b瀫húhuk685'16
+702c瀬làilaai6swift current; rapids85'16
+702d瀭shūsyu185'162ECD7
+702e瀮linglam485'16
+702f瀯yíngjing485'1730745
+7030瀰mínei4overflow85'173CFD 5F25
+7031瀱jìgai385'17
+7032瀲liànlim6waves, ripples; overflow85'176F4B
+7033瀳jiànzin685'1730728
+7034瀴yíngjing185'1730733
+7035瀵fènfan385'172C242
+7036瀶línlam485'17
+7037瀷yìjik685'17
+7038瀸jiānzim1moisten, soak85'17
+7039瀹yuèjoek6to boil; to wash, to cleanse, to soak85'17
+703a瀺cháncaam4sound85'17
+703b瀻dàidaai385'17
+703c瀼rángjoeng4river in Henan province; flowing85'17
+703d瀽jiǎnzin2splash (water); pour (liquid)85'17
+703e瀾lánlaan4overflowing; waves, ripples85'176F9Clan làn lượn ràn tràn trơn
+703f瀿fánfaan485'17
+7040灀shuàngsoeng385'17
+7041灁yuānjyun185'17
+7042灂zhuózok685'18
+7043灃fēngfung1river in Shanxi province85'186CA3
+7044灄shèsip3river in Hubei province85'186EE0
+7045灅lěileoi585'18
+7046灆lánlaam485'18
+7047灇cóngcung485'18
+7048灈qúkeoi485'18
+7049灉yōngjung1a river in Shandong province; a sluice85'18
+704a灊qiáncim485'18
+704b灋fǎfaat3law85'18
+704c灌guàngun3pour; water; irrigate, flood85'18
+704d灍juékyut385'182B79D
+704e灎yànjim6movement of water; overflowing, billowing; wavy85'23
+704f灏hàohou6vast, large, grand, expansive85'18705D
+7050灐yíngjing485'18
+7051灑sǎsaa2sprinkle, splash; scatter, throw85'196D12rạy rởi rợi rưới sái sợi
+7052灒zànzaan3to spatter, to splash, to scatter85'192ADFD
+7053灓luánlyun485'19306EA
+7054灔yànjim6waves, billows85'19
+7055灕lílei4short name for Guangxi province85'196F13lầy
+7056灖mǐmei585'19
+7057灗shànsin585'19
+7058灘tāntaan1bank, a sandbar, shoal; rapids85'196EE9
+7059灙dǎngdong285'2023EBCđoảng
+705a灚jiǎogaau285'20
+705b灛chǎncin285'20
+705c灜yíngjing485'20
+705d灝hàohou6vast, large, grand, expansive85'21704F
+705e灞bàbaa3river in Shanxi province85'21
+705f灟zhúzuk185'212DCABluộc
+7060灠lǎnlaam5marinate in salt85'2130710
+7061灡lánlaan485'213CD5 2C260làn
+7062灢nǎngnong5muddy; thick, muddy water85'22
+7063灣wānwaan1a bay, cove, inlet, bend of stream85'226E7E
+7064灤luánlyun4river and county in Hebei province85'236EE6
+7065灥xúnceon4a group of springs85'23
+7066灦xiǎnhin285'2330764
+7067灧yànjim6overflowing, billowing; wavy85'246EDF
+7068灨gàngam3the River Gan in Jiangxi85'24
+7069灩yànjim6overflowing, billowing; wavy85'28
+706a灪yùwat185'29
+706b火huǒfo2fire, flame; burn; anger, rage86'0hoả
+706c灬biāobiu1fire; radical number 8686'0
+706d灭mièmit6extinguish; wipe out, exterminate86'16EC5diệt
+706e灮guānggwong186'2
+706f灯dēngdang1lantern, lamp86'2706F706F 71C8đăng
+7070灰huīfui1ashes; dust; lime, mortar86'2hôi
+7071灱xiāohaau186'2
+7072灲xiāohaau186'2
+7073灳huīfai186'2
+7074灴hōnghung4to bake, to roast; to dry at a fire86'3
+7075灵língling4spirit, soul; spiritual world86'39748linh
+7076灶zàozou3kitchen stove, cooking stove86'370767076 7AC8táo
+7077灷zhuànzyun686'3
+7078灸jiǔgau3cauterize with moxa; moxibustion86'3cứu
+7079灹zhàzaa386'3
+707a灺xièce5candle-end86'3
+707b灻chìcek386'3
+707c灼zhuócoek3burn; broil; cauterize; bright86'3chước
+707d災zāizoi1calamity, disaster, catastrophe86'3707Etai
+707e灾zāizoi1calamity, disaster, catastrophe86'3707E707D 707Etai
+707f灿càncaan3vivid, illuminating; bright86'371E6xán
+7080炀yángjoeng4roast; scorch; melt; flame86'3716C
+7081炁qìhei3breath, air, steam, gas. weather. used in Taoist charms86'4
+7082炂zhōngzung186'4
+7083炃fénfan486'4
+7084炄niǔnau586'4
+7085炅jiǒnggwing2brilliance86'4
+7086炆wénman1(Cant.) to simmer, cook over a slow fire86'4
+7087炇pūpok386'2
+7088炈yìjik686'4
+7089炉lúlou4fireplace, stove, oven, furnace86'470897089 7210
+708a炊chuīceoi1cook; meal86'4sôi xôi xuy xuý
+708b炋pīpui186'4
+708c炌kàikaai386'4
+708d炍pànpun386'4
+708e炎yánjim4flame, blaze; hot86'4viêm
+708f炏kàikaai386'4
+7090炐pàngpong386'4phừng
+7091炑mùmuk686'4
+7092炒chǎocaau2fry, saute, roast, boil, cook86'4sao
+7093炓liàoliu686'4
+7094炔quē guìkyut3an alkyne (e.g., acetylene)86'4
+7095炕kàngkong3the brick-bed in northern China86'4
+7096炖dùndan6heat with fire; stew86'4don đôn đùn
+7097炗guānggwong186'4
+7098炘xīnjan1brilliant, shining, bright86'4
+7099炙zhìzek3roast, broil; toast; cauterize86'4
+709a炚guānggwong186'4
+709b炛guānggwong186'4
+709c炜wěiwai5brilliant red; glowing86'47152
+709d炝qiàngcoeng3stir-fry or boil in water or oil then cook with a sauce86'47197
+709e炞bianbin686'4
+709f炟dádaat386'5rán
+70a0炠xiásaap6(Cant.) to cook in boiling water86'5
+70a1炡zhēngzing186'5
+70a2炢zhúseot686'5
+70a3炣kěho286'5
+70a4炤zhàoziu3illumine, light up; reflect86'5chiếu
+70a5炥fúfat686'5phụt
+70a6炦bábat686'5
+70a7炧xièse3ashes86'5
+70a8炨xièse386'5
+70a9炩lìngling686'5rạnh
+70aa炪zhuōdyut386'5đốt
+70ab炫xuànjyun6shine, glitter; show off, flaunt86'5
+70ac炬jùgeoi6torch86'5
+70ad炭tàntaan3charcoal; coal; carbon86'5than
+70ae炮pàopaau3large gun, cannon; artillery86'5pháo
+70af炯jiǒnggwing2bright, brilliant, clear; hot86'5
+70b0炰páopaau4roast, broil; bake86'5
+70b1炱táitoi4soot86'5
+70b2炲táitoi486'5
+70b3炳bǐngbing2bright, luminous; glorious86'5bảnh bính
+70b4炴yǎngjoeng286'5
+70b5炵tōngtung186'5
+70b6炶shǎnsim286'5trèm
+70b7炷zhùzyu3candle wick, lamp wick; stick of incense86'5
+70b8炸zhàzaa3to fry in oil; to scald; to explode86'5
+70b9点diǎndim2dot, speck, spot; point, degree86'570B970B9 9EDEđiểm
+70ba為wèiwai4do, handle, govern, act; be86'54E3A
+70bb炻shísek6a kind of china86'5
+70bc炼liànlin6smelt, refine; distill, condense86'57149luyện
+70bd炽chìci3burning-hot, intense; to burn, blaze; splendid, illustrious86'571BExé
+70be炾huǎngfong286'5
+70bf炿zhōuzau186'5
+70c0烀hūfu1simmer86'5
+70c1烁shuòsoek3shine, glitter, sparkle86'5720D
+70c2烂lànlaan6rotten, spoiled, decayed86'5721Blạn
+70c3烃tīngting1hydrocarbon86'570F4
+70c4烄jiǎogaau286'6
+70c5烅xùgwik186'6
+70c6烆hénghang486'6
+70c7烇quǎncyun286'6
+70c8烈lièlit6fiery, violent, vehement, ardent86'6liệt
+70c9烉huànwun6shining, brilliant, lustrous86'6
+70ca烊yángjoeng4to smelt; to melt86'6rang
+70cb烋xiūhaau1boast86'6
+70cc烌xiūjau186'6
+70cd烍xiǎnsin286'6
+70ce烎yíncim486'6
+70cf烏wūwu1crow, rook, raven; black, dark86'64E4Cô
+70d0烐zhōuzau186'6
+70d1烑yáojiu486'6
+70d2烒shìsik186'6
+70d3烓wēigwing1stove86'6
+70d4烔tóngtung4heat86'6
+70d5烕mièmit6to destroy; to exterminate to extinguish86'6
+70d6烖zāizoi1calamities from Heaven, as floods, famines, pestilence, etc.; misery86'6
+70d7烗kàikaai386'6
+70d8烘hōnghung3bake, roast; dry by fire86'6hong
+70d9烙làolok3brand, burn; branding iron86'6
+70da烚xiáhap6(Cant.) hot; to argue, wrangle, rail at (i.e., to flame)86'6
+70db烛zhúzuk1candle, taper; shine, illuminate86'670DB70DB 71EDchúc
+70dc烜xuǎnhyun2light of the sun; to dry in the sun86'6
+70dd烝zhēngzing1rise, steam; many, numerous86'6chưng
+70de烞pòpok386'6
+70df烟yānjin1smoke, soot; opium; tobacco, cigarettes86'670DF70DF 7159
+70e0烠huíwui486'6
+70e1烡guānggwong186'6
+70e2烢chècaak386'6
+70e3烣huīfui186'6tro
+70e4烤kǎohaau1bake, roast, toast, cook86'6khảo
+70e5烥jùgeoi686'6
+70e6烦fánfaan4bother, vex, trouble; troublesome86'67169phiền
+70e7烧shāosiu1burn; bake; heat; roast86'671D2thiêu
+70e8烨yèjip6bright, glorious, splendid, flame86'671C1
+70e9烩huìwui6ragout, cook, braise86'670E970E9 71F4
+70ea烪gwaan186'6
+70eb烫tàngtong3scald, heat; wash; iron clothes86'671D9
+70ec烬jìnzeon6cinders, ashes, embers; remnants86'670EC70EC 71FC
+70ed热rèjit6hot; heat; fever; restless; zeal86'670ED70ED 71B1
+70ee烮lièlit686'6
+70ef烯xīhei1alkene86'7
+70f0烰fúfau486'7
+70f1烱jiǒnggwing2bright, brilliant, clear; hot86'7
+70f2烲xièhit386'7
+70f3烳pǔpou286'7
+70f4烴tīngting1hydrocarbon86'770C3
+70f5烵zhuózoek386'7
+70f6烶tǐngting586'7
+70f7烷wánjyun4alkane86'7
+70f8烸hǎihoi286'7mồi
+70f9烹pēngpaang1boil, cook; quick fry, stir fry86'7phanh
+70fa烺lǎnglong5(said of fire) bright86'7
+70fb烻yànjin386'7
+70fc烼xùfat186'7
+70fd烽fēngfung1signal fire; signal tower86'7
+70fe烾chìcek386'7
+70ff烿róngjung486'7
+7100焀húhuk686'7
+7101焁xīhei186'7
+7102焂shūsuk186'7
+7103焃hèhaak186'7
+7104焄xūnfan1rising flames or fumes; aroma86'7
+7105焅kùguk6(Cant.) to roast, suffocate86'7
+7106焆juāngyun186'7
+7107焇xiāosiu186'7
+7108焈xīhei186'7
+7109焉yānjin1thereupon, then; how? why? where?86'7vờn
+710a焊hànhon6weld, solder86'7
+710b焋zhuàngzong386'7
+710c焌jùnzeon3to light86'7
+710d焍dìdai686'7
+710e焎xièhit386'7
+710f焏jígik186'7
+7110焐wùng6to warm something cold by touching it with something hot86'7
+7111焑yānjin186'7
+7112焒lǚleoi586'7lửa
+7113焓hánham4(Cant.) onomatopoetic, the sound of a fiercely-burning fire86'7hầm
+7114焔yànjim6flame, blaze; glowing, blazing86'8
+7115焕huànwun6shining86'77165
+7116焖mènmun6simmer, cook over slow fire86'771DC
+7117焗júguk6(Cant.) to roast, bake; to suffocate, stuffy86'7
+7118焘tāotou4shine, illuminate; cover, envelope86'771FE
+7119焙bèibui6dry over slow fire; bake; roast86'8vùi
+711a焚fénfan4burn86'8
+711b焛lìnleon686'82CB9F
+711c焜kūnkwan1fire, flames; bright, shining86'8
+711d焝hùnfan386'8hun
+711e焞tūnseon4dim86'8hửng
+711f焟xīsik186'8
+7120焠cuìceoi3temper; burn86'8sốt
+7121無wúmou4negative, no, not; lack, have no86'865E0vô
+7122焢hōnghung186'8
+7123焣chǎocaau286'8
+7124焤fǔfu686'8
+7125焥wòwaat386'8
+7126焦jiāoziu1burned, scorched; anxious, vexed86'8
+7127焧cōngcung186'8
+7128焨fèngfung386'8
+7129焩píngpang486'8vằng
+712a焪qiónghung386'8
+712b焫ruònaat3(Cant.) hot; to scald, burn86'8
+712c焬xīsik186'8
+712d焭qióngking4orphan; alone, desolate86'8
+712e焮xìnjan1heat, radiate heat; broil; cauterize86'8
+712f焯chāozoek3boil vegetables for a very short time; scald86'8
+7130焰yànjim6flame, blaze; glowing, blazing86'8diễm
+7131焱yànjim6flames86'8
+7132焲yìjik686'8
+7133焳juézoek386'8
+7134焴yùjuk1bright; flame86'8
+7135焵gànggong3to temper steel86'8
+7136然ránjin4yes, certainly; pledge, promise86'8nhiên
+7137焷pípei486'8
+7138焸xiònghing286'8
+7139焹gànggong386'8
+713a焺shēngsing186'8
+713b焻chàngcoeng3breath86'8
+713c焼shāosiu1burn; bake; heat; roast86'8
+713d焽xiǒngming486'8
+713e焾niǎnnam4(Cant.) soft86'8nám
+713f焿gēnggang1name of a place in northeastern Taiwan; a kind of thick soup86'8
+7140煀weiwat1(Cant.) to smoke; to fumigate86'8
+7141煁chénsam4hearth; (Cant.) soft, tender86'9
+7142煂hèhaak386'9
+7143煃kuǐkwai2remove, get rid of; scatter86'9
+7144煄zhǒngzung286'9
+7145煅duàndyun3forge metal; perfect one's skill86'9
+7146煆xiāhaa6raging fire; to forge, work86'9
+7147煇huīfai1weld, solder86'92AE29
+7148煈fèngfung386'92ECE0
+7149煉liànlin6smelt, refine; distill, condense86'970BCluyện
+714a煊xuānhyun1warm86'9
+714b煋xīngsing186'9
+714c煌huángwong4bright, shining, luminous86'9
+714d煍jiǎoziu2to color by smoke86'9
+714e煎jiānzin1fry in fat or oil; boil in water86'9
+714f煏bìbik1dry by fire; iron86'9bức
+7150煐yīngjing186'9
+7151煑zhǔzyu2cook86'9
+7152煒wěiwai5brilliant red; glowing86'9709C
+7153煓tuāntyun186'9
+7154煔shǎnsim286'9
+7155煕xīhei1bright, splendid, glorious86'9
+7156煖nuǎnhyun1warm, genial86'9
+7157煗nuǎnnyun5warm86'9
+7158煘cháncim486'9
+7159煙yānjin1smoke, soot; opium; tobacco, cigarettes86'970DF
+715a煚jiǒnggwing2fire86'9
+715b煛jiǒnggwing286'10
+715c煜yùjuk1bright, shining, brilliant86'9
+715d煝mèimei6twisted paper for lighting cigarettes86'9
+715e煞shāsaat3malignant deity; baleful, noxious; strike dead86'9
+715f煟wèiwai6bright room86'9
+7160煠zházaa3to fry in fat or oil. to scald86'9
+7161煡jìnzeon686'9
+7162煢qióngking4alone; no friends or relatives86'98315
+7163煣róujau5to use a fire to bend wood86'9
+7164煤méimui4coal, coke, charcoal, carbon86'9muồi
+7165煥huànwun6shining, brilliant, lustrous86'97115
+7166煦xùheoi2kind, gentle, gracious, genial86'9
+7167照zhàoziu3shine, illumine, reflect86'9chiếu
+7168煨wēiwui1to stew, simmer86'9oi
+7169煩fánfaan4bother, vex, trouble; troublesome86'970E6phiền
+716a煪qiúcau486'9
+716b煫suìseoi686'9
+716c煬yángjoeng4roast; scorch; melt; flame86'97080
+716d煭lièlit686'9
+716e煮zhǔzyu2cook86'8
+716f煯jiēgaai186'9
+7170煰zàocou386'9
+7171煱guāwo1(Cant.) 火煱, to instant-boil thin slices of meat and vegetables in a chafing dish at the dining table86'93DBD
+7172煲bāobou1to heat; to boil a saucepan86'9
+7173煳húwu4be burned, to char (in cooking)86'9
+7174煴yūnwan1sultriness, stuffiness86'97185un
+7175煵nǎnnaam486'9
+7176煶shìzik686'9
+7177煷liangfo286'9
+7178煸biānbin1to stir-fry before broiling or stewing86'9
+7179煹gòugau386'10
+717a煺tuìteoi3to scald meat in order to remove hair or feathers86'9
+717b煻tángtong4to warm; to toast86'10
+717c煼chǎocaau2to fry, sauté86'102C282
+717d煽shānsin3stir up, incite, agitate, provoke86'10phiến
+717e煾ēnjan186'10
+717f煿bóbok386'10
+7180熀huǎngfong2the blaze of fire; dazzling86'10
+7181熁xiéhip386'10
+7182熂xìhei386'102AE15
+7183熃wùmou686'10
+7184熄xīsik1put out, extinguish, quash86'10tắt
+7185熅yùnwan1smooth out, iron out86'107174un ùn
+7186熆héhap686'10
+7187熇hèhuk6bake86'10
+7188熈xīhei1bright, splendid, glorious86'10
+7189熉yúnjyun4yellow color86'1024236
+718a熊xiónghung4a bear; brilliant; bright; surname86'10hùng
+718b熋náinoi486'10
+718c熌shǎnsim386'10241C4
+718d熍qiónghung386'10
+718e熎yàojiu386'10
+718f熏xūnfan1smoke, fog, vapor; smoke, cure86'10
+7190熐mìmik686'10
+7191熑liánlim486'10rim
+7192熒yíngjing4shine, shimmer; shining, dazzling86'108367
+7193熓wǔwat1to bank a fire; to smother, put out86'10241A1
+7194熔róngjung4melt, smelt, fuse; mold86'10
+7195熕gōnggung386'102C28E
+7196熖yànjim6(same as 燄) flame; blazing, brilliant86'10
+7197熗qiàngcoeng3stir-fry or boil in water or oil then cook with a sauce86'10709D
+7198熘liūlau6to steam86'10
+7199熙xīhei1bright, splendid, glorious86'10hây
+719a熚bìbat186'11
+719b熛biāobiu1blaze86'11
+719c熜cōngzung286'11
+719d熝lùluk6(Cant.) to scald with steam86'11
+719e熞jiāngin186'11307A4
+719f熟shúsuk6well-cooked; ripe; familiar with86'11thục
+71a0熠yìjap1bright and sparkling86'11
+71a1熡lóulau486'11242CF
+71a2熢péngpung486'11
+71a3熣suīseoi186'11thui
+71a4熤yì86'11
+71a5熥tēngtung1heat up by steaming86'11
+71a6熦juézoek386'10
+71a7熧zōngzung186'11
+71a8熨yùntong3iron, press86'11ủi
+71a9熩hùwu686'11
+71aa熪yíji486'11
+71ab熫zhìzek386'11
+71ac熬áongou4cook down, to boil; endure86'11
+71ad熭wèiwai686'11
+71ae熮liǔlau586'11
+71af熯hànhon3by fire86'11
+71b0熰ōuau1great drought; heat86'112C27C
+71b1熱rèjit6hot; heat; fever; restless; zeal86'1170EDnhiệt
+71b2熲jiǒnggwing2bright86'11988E
+71b3熳mànmaan6confused86'11
+71b4熴kūnkwan186'11
+71b5熵shāngsoeng1entropy86'11
+71b6熶cuàncyun386'12chói
+71b7熷zēngzang186'12tưng
+71b8熸jiānzim1put out86'12
+71b9熹xīhei1dim light, glimmer; warm, bright86'12
+71ba熺xīhei1dim light, glimmer; warm86'12
+71bb熻xījap1to heat; to roast; to burn86'12
+71bc熼yìjik686'12
+71bd熽xiàosiu386'12
+71be熾chìci3burning-hot, intense; to burn, blaze; splendid, illustrious86'1270BDxé
+71bf熿huángwong486'12
+71c0燀chǎncin2to make a fire; blaze86'122C2A4
+71c1燁yèjip6bright, glorious, splendid, flame86'1270E8
+71c2燂tántaam4smoke, fumes; tobacco, opium; (Cant.) to singe86'12
+71c3燃ránjin4burn; light fire, ignite86'12nhen
+71c4燄yànjim6flame; blazing, brilliant86'12
+71c5燅xúncam486'12
+71c6燆qiāohiu486'122ECE7
+71c7燇jùnzeon386'12
+71c8燈dēngdang1lantern, lamp86'12706Fđăng
+71c9燉dùndan6heat with fire; stew86'12đun
+71ca燊shēnsan1luxuriant86'12
+71cb燋jiāoziu1scorch, burn, scald; torch86'12
+71cc燌fénfan486'12307BB
+71cd燍sīsi186'12
+71ce燎liáoliu4to burn, set afire; to illuminate; a signal lamp86'12leo liệu riu
+71cf燏yùwat6blaze86'12
+71d0燐línleon4phosphorus (element 15, P)86'12lân
+71d1燑tóngtung486'12
+71d2燒shāosiu1burn; bake; heat; roast86'1270E7thiêu
+71d3燓fénfan486'12
+71d4燔fánfaan4to roast; to burn86'12
+71d5燕yànjin3swallow (bird); comfort, enjoy86'12én
+71d6燖xúncam4reheat food86'122C288
+71d7燗lànlaan6warming sake, to heat sake86'12
+71d8燘měimui5(Cant.) to suck or chew without using the teeth86'122C296
+71d9燙tàngtong3scald, heat; wash; iron clothes86'1270EB
+71da燚yìjik6used in people's names86'12
+71db燛jiǒnggwing286'12
+71dc燜mènmun6simmer, cook over slow fire86'127116
+71dd燝jingging286'12
+71de燞jiǎoziu386'12
+71df營yíngjing4encampment, barracks; manage86'138425
+71e0燠yùjuk1warm; warmth86'13
+71e1燡yìjik6bright86'1330787
+71e2燢xuéhok686'13
+71e3燣lánlaam4disappointed86'13
+71e4燤tàitaai386'13
+71e5燥zàocou3dry, parched, arid; quick-tempered86'13táo
+71e6燦càncaan3vivid, illuminating; bright86'13707Fxán
+71e7燧suìseoi6flintstone; beacon, signal fire; torch86'13
+71e8燨xīhei186'13
+71e9燩quèkok386'13
+71ea燪zǒngzung286'13
+71eb燫liánlim486'13
+71ec燬huǐwai2burn down; blaze, fire86'13
+71ed燭zhúzuk1candle, taper; to shine, illuminate86'1370DBđuốc
+71ee燮xièsit3harmonize, blend; adjust86'13
+71ef燯língling486'13
+71f0燰wēiwui186'132C2BAáy
+71f1燱yìji386'13
+71f2燲xiéhip386'13
+71f3燳zhàoziu386'13
+71f4燴huìwui6ragout, cook, braise86'1370E9
+71f5燵dádaat6a foot-warmer86'132C289
+71f6燶nóngnung1(Cant.) to scorch, burn86'133DB6nóng
+71f7燷lánlaam4disappointed86'13
+71f8燸rújyu486'14
+71f9燹xiǎnsin2fire; wild fires86'14
+71fa燺hèhuk6the dry at the fire to roast86'14
+71fb燻xūnfan1smoke, fog, vapor; smoke, cure86'14hun
+71fc燼jìnzeon6cinders, ashes, embers; remnants86'1470ECtần
+71fd燽chóucau486'142C28D
+71fe燾dàotou4shine, illuminate; cover, envelope86'147118
+71ff燿yàosoek3shine, dazzle; brilliant, radiant86'14
+7200爀hèhaak186'14
+7201爁lànlaam686'142C2B6rám
+7202爂biāobiu186'14
+7203爃róngwing486'142B7A1
+7204爄lìlai686'15241C3
+7205爅mòmak686'15
+7206爆bàobaau3crackle, pop, burst, explode86'15
+7207爇ruòjyut3burn86'15
+7208爈lǜleoi486'15
+7209爉làlaap686'15dộp
+720a爊āoou1to stew, cook86'15
+720b爋xūnfan186'16
+720c爌kuàngkong386'15quáng
+720d爍shuòsoek3shine, glitter, sparkle86'1570C1
+720e爎liáoliu486'15
+720f爏lìlik686'16
+7210爐lúlou4fireplace, stove, oven, furnace86'167089lò lô lư tro
+7211爑juézoek386'16
+7212爒liǎoliu586'16
+7213爓yànjim6flame; brilliant, blazing86'16307D8
+7214爔xīhei1sunlight, sunshine; early dawn86'16
+7215爕xièsit386'15
+7216爖lónglung4fire86'16241ED
+7217爗yèjip6bright, glorious, splendid; a flame86'162ECF4
+7218爘cāncaan186'16
+7219爙rǎngjoeng586'17nháng
+721a爚yuèjoek6bright; fiery86'17
+721b爛lànlaan6rotten, spoiled, decayed86'1770C2lạn
+721c爜cóngcung486'18
+721d爝juézoek3torch; to light86'18
+721e爞chóng86'18
+721f爟guàngun3fire86'18
+7220爠jukeoi486'18
+7221爡chècit386'19
+7222爢mímei486'19
+7223爣tǎngtong286'202C2B5
+7224爤lànlaan686'21
+7225爥zhúzuk1simmer, cook over slow fire86'212AE73
+7226爦lǎnlaam586'21
+7227爧língling486'242B7A0
+7228爨cuàncyun3oven, cooking stove; cook86'25
+7229爩yùwat1(Cant.) to smoke, fumigate; to bleach with burning sulfur86'29
+722a爪zhǎozaau2claw, nail, talon; animal feet87'0trảo
+722b爫zhǎozaau2radical 8787'0trảo
+722c爬pápaa4crawl, creep; climb; scramble87'4bò
+722d爭zhēngzaang1to dispute, fight, contend, strive87'44E89tranh
+722e爮páopaau487'5
+722f爯chēngcing187'5
+7230爰yuánwun4lead on to; therefore, then87'5vươn
+7231爱àioi3love, be fond of, like87'6611B
+7232爲wèiwai4do, handle, govern, act; be87'84E3Avay
+7233爳hanwai487'10
+7234爴juéfok387'11
+7235爵juézoek3feudal title or rank87'14tước
+7236父fùfu6father; Kangxi radical 8888'0
+7237爷yéje4father, grandfather88'2723A
+7238爸bàbaa1father, papa88'4
+7239爹diēde1father, daddy88'6
+723a爺yéje4father, grandfather88'97237
+723b爻yáongaau4diagrams for divination89'0
+723c爼zǔzo2a small table or tiered stand filled with meat offerings89'5
+723d爽shuǎngsong2happy, cheerful; refreshing89'7sửng
+723e爾ěrji5you; that, those; final particle89'105C14nhãi
+723f爿pánbaan6half of tree trunk; Kangxi radical 9090'0
+7240牀chuángcong4bed, couch; bench; chassis90'4giường
+7241牁kēgo1mooring stake; painter, mooring90'5
+7242牂zāngzong1female sheep, ewe90'6
+7243牃diédip690'9
+7244牄qiāngcoeng1to walk rapidly90'10
+7245牅yōngjung490'11
+7246牆qiángcoeng4wall90'135899tường
+7247片piànpin3slice, splinter, strip; rad. 9191'0phiến
+7248版bǎnbaan2printing blocks; edition91'4bản
+7249牉pànpun3to split something into two91'5
+724a牊cháociu491'5
+724b牋jiānzin1memorandum, official note91'83081Btiên
+724c牌páipaai4signboard, placard91'8bài
+724d牍dúduk6writing tablet; documents, books91'87258
+724e牎chuāngcoeng1window91'9
+724f牏yújyu4privy hole91'9
+7250牐zházaap6sluice; flood gate, canal lock91'9
+7251牑biānbin191'9
+7252牒diédip6documents, records; dispatch91'9điệp
+7253牓bǎngbong2tablet; public notice; register91'10
+7254牔bóbok3gable91'10
+7255牕chuāngcoeng1window91'11
+7256牖yǒujau5window; lead enlightenment91'11
+7257牗yǒujau591'11
+7258牘dúduk6writing tablet; documents, books91'15724D
+7259牙yángaa4tooth, molars, teeth; serrated92'0nha
+725a牚chèng chēngcaang192'8
+725b牛niúngau4cow, ox, bull; Kangxi radical 93; 9th lunar mansion, determinative star β Capricorni (Dabih)93'0ngưu
+725c牜niúngau4an ox, a cow Radical 9393'0
+725d牝pìnpan5female of species; deep gorge93'2
+725e牞jiūkau193'2
+725f牟móumau4make; seek, get; barley; low93'2mào mau màu mâu mầu mồ mưu
+7260牠tātaa1it; polled cattle93'3
+7261牡mǔmaau5male of animals; bolt of door93'3
+7262牢láolou4prison; stable, pen; secure93'3lao
+7263牣rènjan6fill, stuff; full93'3nhẳn
+7264牤māngmong1a bull93'3
+7265牥fāngfong193'4
+7266牦máomou4tail; hair; yak93'46C02li
+7267牧mùmuk6tend cattle, shepherd93'4
+7268牨gānggong193'4
+7269物wùmat6thing, substance, creature93'4vật
+726a牪yànjyun693'4
+726b牫gēgo193'4
+726c牬bèibui393'4
+726d牭sìsei393'5
+726e牮jiànzin3a prop, beam93'5
+726f牯gǔgu2cow; bull; ox93'5
+7270牰yòujau693'5
+7271牱gēo193'5
+7272牲shēngsang1sacrificial animal; animal93'5sinh
+7273牳mǔmau593'5
+7274牴dǐdai2gore, butt; resist93'5
+7275牵qiānhin1drag, pull, lead by hand93'5727D
+7276牶quànhyun3a nose-ring for an animal93'6
+7277牷quáncyun4cow or ox of one color, perfect93'6
+7278牸zìzi6the female of certain animals; to bring forth young of animals93'6
+7279特tèdak6special, unique, distinguished93'6đặc
+727a牺xīhei1sacrifice, give up; sacrificial93'672A7
+727b牻mángmong4cattle with a mixture of black and white hair93'7
+727c牼kēnghang1ox shank, person's name93'730832
+727d牽qiānhin1drag, pull, lead by hand93'77275
+727e牾wǔng5to oppose; to gore93'7
+727f牿gùguk1shed, pen93'7
+7280犀xīsai1rhinoceros; sharp, well-tempered93'8tê
+7281犁lílai4plow93'7
+7282犂lílai4plow93'8
+7283犃pǒubau693'8
+7284犄jīgei1animal horns93'8
+7285犅gānggong193'83082B
+7286犆zhídat6special93'8
+7287犇bēnban1run fast, flee; rush about; run93'8
+7288犈quánkyun493'8
+7289犉chúnseon4an ox with yellow hair and black lips93'8
+728a犊dúduk6calf; victim of sacrifice93'872A2
+728b犋jùgeoi6a unit of animal power; measure word for draft animals93'8
+728c犌jiāgaa193'9
+728d犍jiāngin1a bullock; a fabulous monster93'9
+728e犎fēngfung1the zebu, or humped-ox93'9
+728f犏piānpin1yak-ox93'9
+7290犐kēfo193'9
+7291犑júgwik193'9
+7292犒kàohou3entertain victorious soldiers93'10
+7293犓chúco193'102C31D
+7294犔xìhei393'10
+7295犕bèibei693'10
+7296犖luòlok3brindled ox; brindled in color93'108366
+7297犗jiègaai3castrated bull93'10
+7298犘mámaa493'11
+7299犙sānsaam193'11
+729a犚wèiwai393'11
+729b犛máomou4a black ox, a yak93'11
+729c犜dūndeon193'12
+729d犝tóngtung493'12
+729e犞qiáokiu493'122AEAD
+729f犟jiànggoeng6stubborn93'12
+72a0犠xīji6sacrifice, give up; sacrificial93'13nghé
+72a1犡lìlai693'15
+72a2犢dúduk6calf; victim of sacrifice93'15728A
+72a3犣lièlip693'15
+72a4犤páibei193'1530839
+72a5犥piāopiu193'15
+72a6犦bóbok693'15
+72a7犧xīhei1sacrifice, give up; sacrificial93'16727A
+72a8犨chōucau4panting of cow; grunting of ox93'16
+72a9犩wéingai493'18
+72aa犪kuíkwai493'20
+72ab犫chōucau1protrude93'23
+72ac犬quǎnhyun2dog; radical number 9494'0
+72ad犭quǎnhyun2dog; radical number 9494'0
+72ae犮bábat6to pull up94'1
+72af犯fànfaan6commit crime, violate; criminal94'2phạm
+72b0犰qiúkau4armadillo94'2
+72b1犱jǐgik194'3
+72b2犲cháicaai4wolf; cruel, wicked, mean94'3
+72b3犳zhuózoek394'3
+72b4犴ànngon6a wild dog, a not very large lock-up94'3
+72b5犵gēhat1resolute; a non-Han ethnic group in Guangxi, Hunan, and Guizhou94'3
+72b6状zhuàngzong6form; appearance; shape; official94'372C0trạng
+72b7犷guǎnggwong2fierce, rude, uncivilized94'37377
+72b8犸mǎmaa5mammoth94'37341
+72b9犹yóujau4like, similar to, just like, as94'472B972B9 7336
+72ba犺kàngkong3animal94'4
+72bb犻bóbut694'4
+72bc犼hǒuhau3a fierce Mongolian wolf dragon's head on roofs94'4
+72bd犽yà94'4
+72be犾yínngan494'4
+72bf犿huānfun194'4
+72c0狀zhuàngzong6form; appearance; shape; official94'472B6trạng
+72c1狁yǔnwan5a tribe of Scythian nomads94'4
+72c2狂kuángkong4insane, mad; violent; wild94'4cuồng
+72c3狃niǔnau2to covet; to be accustomed94'4nữu
+72c4狄dídik6tribe from northern China; surname94'4địch
+72c5狅kuángkong494'4
+72c6狆zhòngzung1Pekinese dog, lap dog, pug; pup94'4
+72c7狇mùmuk694'4
+72c8狈bèibui3a legendary animal with short forelegs which rode a wolf94'472FD
+72c9狉pīpei1fox-cub94'5
+72ca狊júgwik194'5
+72cb狋yí94'5
+72cc狌shēngsing1livestock94'5
+72cd狍páopaau4species of deer found in north China94'5
+72ce狎xiáhaap6be familiar with; disrespect94'5
+72cf狏tuóto494'5
+72d0狐húwu4fox94'5hồ
+72d1狑língling494'5
+72d2狒fèifai3baboon94'5
+72d3狓pípei194'5
+72d4狔nǐnei594'5nai
+72d5狕yǎomaa194'5
+72d6狖yòujau6a gibbon with a long tail and prominent nose94'5
+72d7狗gǒugau2dog, Canis familiaris94'5cẩu
+72d8狘xuèhyut3jump94'5
+72d9狙jūzeoi1an ape, monkey; to spy, watch for; to lie94'5
+72da狚dàndaan394'5
+72db狛bóbaak3lion-dog shrine guardians94'5
+72dc狜kǔgu2mother cattle94'5
+72dd狝xiǎnsin2hunt; autumn hunting; to capture with a fine net94'5736E
+72de狞níngning4ferocious appearance; hideous94'57370nanh
+72df狟huánwun494'6
+72e0狠hěnhan2vicious, cruel; severely, extreme94'6
+72e1狡jiǎogaau2cunning, deceitful, treacherous94'6giảo
+72e2狢héhok6animal name94'6
+72e3狣zhàoziu694'6
+72e4狤jígat194'6
+72e5狥xùnseon1follow94'6
+72e6狦shānsaan194'6
+72e7狧tàdaat394'6
+72e8狨róngjung4monkey with gold-colored hair; golden lion tamarin94'6
+72e9狩shòusau3winter hunting; imperial tour94'6
+72ea狪tóngtung494'6
+72eb狫lǎolou594'6
+72ec独dúduk6alone, single, solitary, only94'672EC72EC 7368
+72ed狭xiáhaap6narrow, limited; narrow-minded94'672F9hẹp
+72ee狮shīsi1lion94'67345sư
+72ef狯kuàikui2sly, cunning, crafty94'672EF72EF 736A
+72f0狰zhēngzang1fierce-looking, ferocious94'67319
+72f1狱yùjuk6prison, jail; case; lawsuit94'67344ngục
+72f2狲sūnsyun1monkey94'6733B
+72f3狳yújyu4armadillo94'7
+72f4狴bìbai6a kind of tapir; a fierce beast depicted on the door of prisons94'7
+72f5狵mángmong4blend; variegated; striped94'7
+72f6狶xīhei194'7
+72f7狷juàngyun3rash, impetuous, impulsive94'7
+72f8狸lílei4fox94'7
+72f9狹xiáhaap6narrow, limited; narrow-minded; to pinch94'772EDhẹp
+72fa狺yínngan4the snarling of dogs94'7
+72fb狻suānsyun1a fabulous beast94'7
+72fc狼lánglong4wolf94'7lang
+72fd狽bèibui3a legendary animal with short forelegs which rode a wolf94'772C8
+72fe狾zhìzai394'7
+72ff狿yánjin494'7
+7300猀shāsaa194'7
+7301猁lìlei6a kind of monkey94'7
+7302猂hànhon594'7
+7303猃xiǎnhim2dog94'7736B
+7304猄jīnggeng1a kind of deer94'8
+7305猅páipaai494'8
+7306猆fēifei194'8
+7307猇xiāohaau1the scream or roar of a tiger; to intimidate; to scare94'8
+7308猈bàibaa694'8
+7309猉qíkei494'8cầy
+730a猊níngai4lion; wild beast; wild horse94'8nghê
+730b猋biāobiu1wind; storm; gale; dog moving; (Cant.) running quickly94'8
+730c猌yìnngan694'82AEBD
+730d猍láiloi494'83084E
+730e猎lièlip6hunt; field sports94'87375lốp
+730f猏jiāngin194'8
+7310猐qiānggoeng194'8
+7311猑kūnkwan194'8
+7312猒yànjim394'8
+7313猓guǒgwo2monkey94'8
+7314猔zòngzung3name of an ancient tribe94'8
+7315猕mímei4macacus monkey94'873157315 737C
+7316猖chāngcoeng1mad, wild, reckless, unruly94'8
+7317猗yīji1exclamation of admiration94'8
+7318猘zhìzai3fierce dog; furious, frenzied94'8
+7319猙zhēngzang1fierce-looking, ferocious94'872F0
+731a猚yángaai494'8
+731b猛měngmaang5violent, savage, cruel; bold94'8mãnh
+731c猜cāicaai1guess, conjecture, suppose; feel94'8
+731d猝cùcyut3abruptly, suddenly; abrupt94'8
+731e猞shēse3a wild cat; 猞猁, a lynx94'8
+731f猟lièlip6hunt; field sports94'8
+7320猠diǎndin294'8
+7321猡luólo4pig; Lolo aboriginal tribe94'87380
+7322猢húwu4a kind of monkey found in western China94'9hồ
+7323猣zōngzung194'9
+7324猤guìgwai394'9
+7325猥wěiwai2vulgar, low, cheap; wanton; obscene94'9
+7326猦fēngfung194'9
+7327猧wōwo194'93084F
+7328猨yuánjyun4ape94'9
+7329猩xīngsing1species of orangutan94'9
+732a猪zhūzyu1pig, hog, wild boar94'8732A732A 8C6C
+732b猫māomaau1cat94'9732B732B 8C93
+732c猬wèiwai6vulgar; wanton; low; many; varied; a hedgehog, porcupine94'9732C732C 875F
+732d猭chuāncyun194'9
+732e献xiànhin3offer, present; show, display94'9732E732E 737Bhiến
+732f猯tuānteon194'9
+7330猰yàaat3a legendary man-eating animal94'9
+7331猱náonaau4a monkey with yellow hair, macaque94'9
+7332猲xiēhit3smoke or flames from fire; roast94'9
+7333猳jiāgaa194'9
+7334猴hóuhau4monkey, ape; monkey-like94'9hầu
+7335猵biānbin194'9
+7336猶yóujau4like, similar to, just like, as94'972B9
+7337猷yóujau4plan, scheme; plan, plot; way94'9
+7338猸méimei4a ferret-badger (genus Melogale)94'9
+7339猹cházaa1wild animal mentioned in short story by Lu Xun94'9
+733a猺yáojiu4jackal; name of a tribe94'10
+733b猻sūnsyun1monkey94'1072F2
+733c猼bóbok394'10
+733d猽míngming494'10
+733e猾huáwaat6crafty, cunning, shrewd; deceitful94'10
+733f猿yuánjyun4ape94'10viên vượn
+7340獀sōusau1to gather; to hunt or search for94'10
+7341獁màmaa5mammoth94'972B8
+7342獂yuánwun494'10
+7343獃dāingoi4dull; dull-minded, simple, stupid94'10
+7344獄yùjuk6prison, jail; case; lawsuit94'1172F1ngục
+7345獅shīsi1lion94'1072EEsư
+7346獆háohou494'10
+7347獇qiānggoeng194'10
+7348獈yìjik694'10
+7349獉zhēnzeon1jungle94'10
+734a獊cāngcong194'102AEB7
+734b獋háohou4roar; cry94'12
+734c獌mànmaan694'11
+734d獍jìngging3a mythical animal that eats its mother when it is born; Manchurian tiger94'11
+734e獎jiǎngzoeng2prize, reward; give award to94'115956tưởng
+734f獏mòmok6the panther; the tapir94'11
+7350獐zhāngzoeng1roebuck, hornless river deer94'11
+7351獑cháncaam494'1130854
+7352獒áongou4mastiff, large fierce dog94'11ngao
+7353獓áongou494'11ngao ngáo
+7354獔háohou494'11
+7355獕cuīceoi194'11
+7356獖bènban694'123085E
+7357獗juékyut3unruly, wild, violent, lawless94'12
+7358獘bìbai6collapse94'12
+7359獙bìbai694'12
+735a獚huángwong494'12
+735b獛púbuk194'12
+735c獜línleon494'12
+735d獝xùwat6devil94'12
+735e獞tóngtung4name of a variety of dog; wild tribes in South China94'12
+735f獟yàohiu194'122C32E
+7360獠liáoliu4to hunt at night by torches94'12
+7361獡shuòsoek394'12
+7362獢xiāohiu1dog94'123084A
+7363獣shòusau3beast, animal; bestial94'12
+7364獤dūndeon194'12
+7365獥jiàogiu394'13
+7366獦gégot394'13
+7367獧juàngyun3rash; honest and straightforward94'13
+7368獨dúduk6alone, single, solitary, only94'1372ECđộc
+7369獩huìwai394'1324783
+736a獪kuàikui2sly, cunning, crafty94'1372EF
+736b獫xiǎnhim2dog94'137303
+736c獬xièhaai5a fabulous monster94'13giải
+736d獭tǎcaat3otter94'13737Arái
+736e獮xiǎnsin2hunt; autumn hunting; to capture with a fine net94'1472DD
+736f獯xūnfan1a tribe of Scythians which invaded China during the Xia dynasty94'14
+7370獰níngning4ferocious appearance; hideous94'1472DEnanh
+7371獱biānban1a kind of otter94'143E8D
+7372獲huòwok6obtain, get, receive; seize94'1483B7hoạch
+7373獳nòunau6looking like a fierce dog; angry94'14
+7374獴měngmung4mongoose94'14
+7375獵lièlip6hunt; field sports94'15730Elốp
+7376獶nǎo94'15
+7377獷guǎnggwong2fierce, rude, uncivilized94'1572B7
+7378獸shòusau3beast, animal; bestial94'15517Dthú
+7379獹lúlou4a hound94'1630844
+737a獺tǎcaat3otter94'16736Drái
+737b獻xiànhin3offer, present; show, display94'16732Ehiến
+737c獼mímei4macacus monkey94'177315
+737d獽rángjoeng494'17
+737e獾huānfun1the badger94'18
+737f獿nǎonaau494'18
+7380玀luólo4pig; Lolo aboriginal tribe94'197321
+7381玁xiǎnhim2a dog with a long snout or muzzle94'20247A4
+7382玂qíkei494'2030869
+7383玃juéfok3a large ape found in western China94'20
+7384玄xuánjyun4deep, profound, abstruse; Kangxi radical 9595'0huyền
+7385玅miàomiu6mysterious, subtle; exquisite95'4
+7386玆zīzi1now, here; this; time, year95'5
+7387率lǜseot1to lead; ratio; rate; limit95'6
+7388玈lúlou4black95'6
+7389玉yùjuk6jade, precious stone, gem96'0ngọc
+738a玊sùsuk196'1
+738b王wángwong4king, ruler; royal; surname96'vương
+738c玌qiúkau496'1
+738d玍gǎgaa2ill tempered; naughty96'1
+738e玎dīngding1jingling, tinkling96'2
+738f玏lèlak696'2
+7390玐bābaat396'2
+7391玑jīgei1pearl that is not quite round96'274A3
+7392玒hónggung196'3
+7393玓dìdik1pearly96'3
+7394玔chuàncyun3green jade96'3
+7395玕gāngon1inferior variety of gem96'3
+7396玖jiǔgau2black-colored jade96'3
+7397玗yújyu1a jade-like stone96'3
+7398玘qǐhei2court-dress jewels96'3
+7399玙yújyu4beautiful jade96'374B5
+739a玚yángdong6a kind of jade96'37452
+739b玛mǎmaa5agate; cornelian96'3746Amã
+739c玜hónggung196'4
+739d玝wǔng596'4
+739e玞fūfu1an inferior agate96'4
+739f玟wénman4streaks in jade; gem96'4
+73a0玠jiègaai3large jade tablet used by officials at court to indicate their ranks96'4
+73a1玡yáje4name of a mountain in Shandong96'4ngà
+73a2玢bīnban1(archaic) a kind of jade96'4
+73a3玣biànbin696'4
+73a4玤bàngbung2a kind of gem inferior to jade96'4
+73a5玥yuèjyut6mysterious gem; pearl96'4
+73a6玦juékyut3broken piece of jade96'4
+73a7玧ménmun4reddish96'4
+73a8玨juégok3two pieces of jade joined together96'4
+73a9玩wánwun6play with, joke, enjoy96'4ngoạn
+73aa玪jiāngaam196'4
+73ab玫méimui4rose96'4
+73ac玬dǎntaan296'4
+73ad玭pínpan4a pearl96'4
+73ae玮wěiwai5type of jade; rare, valuable96'4744B
+73af环huánwaan4jade ring or bracelet; ring96'473AF73AF 74B0
+73b0现xiànjin6appear, manifest, become visible96'473FEhiện
+73b1玱qiāngcoeng1tinkling sound tinkling of pendant gems96'47472
+73b2玲língling4tinkling of jade96'5liếng
+73b3玳dàidoi6tortoise shell96'5đại đồi
+73b4玴yìjai696'5
+73b5玵ánngam496'5
+73b6玶píngping4name of one kind of jade96'5
+73b7玷diàndim3flaw in gem; flaw in character96'5đém điếm
+73b8玸fúfu496'5
+73b9玹xuánjyun4jadelike precious stone; jade-colored96'5
+73ba玺xǐsaai2imperial signet, royal signet96'574BDtỉ
+73bb玻bōbo1glass96'5
+73bc玼cǐci1beautiful color of gem; flaw in96'5
+73bd玽gǒugau296'5
+73be玾jiǎgaap396'5
+73bf玿sháosiu496'5
+73c0珀pòpaak3amber96'5phách
+73c1珁cíci496'5
+73c2珂kēo1inferior kind of jade96'5
+73c3珃rǎnjim596'5
+73c4珄shēngsang196'5
+73c5珅shēnsan1a kind of jade96'5
+73c6珆yíji496'5
+73c7珇zǔzou296'5
+73c8珈jiāgaa1an ornament attached to a woman's hairpin96'5
+73c9珉mínman4stone resembling jade96'5
+73ca珊shānsaan1coral96'5san
+73cb珋liǔlau596'5
+73cc珌bìbit1ornament96'5
+73cd珍zhēnzan1precious, valuable, rare96'5trân
+73ce珎zhēnzan1precious, valuable, rare96'5
+73cf珏juégok3two pieces of jade joined together96'5
+73d0珐fàfaat3enamel, cloisonné96'573D073D0 743A
+73d1珑lónglung4a gem cut like dragon96'574CF
+73d2珒jīnzeon196'6
+73d3珓jiàogaau3two hemispherical objects used in divination96'6
+73d4珔jiànzin696'6
+73d5珕lìlai696'6
+73d6珖guānggwong1carat96'6
+73d7珗xiānsin196'6
+73d8珘zhōuzau196'6
+73d9珙gǒnggung2precious stone; county in Sichuan96'6
+73da珚yānjin196'6
+73db珛xiùjau396'6
+73dc珜yángjoeng496'6
+73dd珝xǔheoi296'6
+73de珞luòlok3kind of necklace96'6
+73df珟sùsuk196'6
+73e0珠zhūzyu1precious stone, gem, jewel, pearl96'6châu
+73e1珡qínkam4(variant of 琴) guqin or zither96'6
+73e2珢yínngan4precious stone96'6
+73e3珣xúnseon1name of a kind of jade96'6
+73e4珤bǎobou2treasure, jewel; precious, rare96'6
+73e5珥ěrji5ear ornament; stick, insert96'6lẹ nhẹ nhĩ nhị
+73e6珦xiànghoeng3a kind of jade96'6
+73e7珧yáojiu4mother-of-pearl96'6
+73e8珨xiáhap696'6
+73e9珩hénghang4the top gem of a pendant96'6
+73ea珪guīgwai1a jade table conferred upon feudal princes by the emperor as a symbol of dignity and authority96'6
+73eb珫chōngcung196'6
+73ec珬xùseot196'6
+73ed班bānbaan1class, group, grade; squad; job96'6ban
+73ee珮pèipui3jade ornament96'6
+73ef珯lǎolou596'6
+73f0珰dāngdong1pendant ornaments, earrings96'674AB
+73f1珱yīngjing1a necklace made of precious stones96'6
+73f2珲húnwan4bright, glorious, splendid96'6743F
+73f3珳wénman496'7
+73f4珴éngo496'7
+73f5珵chéngcing496'7
+73f6珶dìdai696'7
+73f7珷wǔmou5an inferior gem96'8
+73f8珸wúng496'7
+73f9珹chéngsing4type of jade; pearl96'7
+73fa珺jùngwan6beautiful jade96'7
+73fb珻méimui496'7
+73fc珼bèibui396'72B7A5
+73fd珽tǐngting5jade tablet96'7
+73fe現xiànjin6appear, manifest, become visible96'773B0hiện
+73ff珿chùcuk196'7
+7400琀hánham3gems of pearls formerly put into the mouth of a corpse96'7
+7401琁xuánsyun4beautiful jade; star96'7
+7402琂yánjin496'7
+7403球qiúkau4ball, sphere, globe; round96'7cầu
+7404琄xuànjyun5scabbard; traces, reins96'7
+7405琅lánglong4a variety of white carnelian; pure96'7
+7406理lǐlei5reason, logic; manage96'7lí
+7407琇xiùsau3coarse variety of jasper or jade96'7
+7408琈fúfau496'7
+7409琉liúlau4sparkling stone; glazed, opaque96'6lưu
+740a琊yáje4a place in eastern Shandong96'7
+740b琋xīhei196'7
+740c琌língling496'7
+740d琍lílei496'7
+740e琎jìnzeon3a stone that looks like jade96'774A1
+740f琏liǎnlin5vessel used to hold grain offerings96'77489
+7410琐suǒso2trifling, petty; troublesome96'77463
+7411琑suǒciu396'7
+7412琒fēngfung196'7
+7413琓wánjyun496'7
+7414琔diàndin696'8
+7415琕pínpan4type of pearl; scabbard96'8
+7416琖zhǎnzaan2carved jade wine cup96'82C359
+7417琗sèceoi396'8
+7418琘mínman496'8
+7419琙yùwik696'8
+741a琚jūgeoi1girdle ornaments96'8
+741b琛chēnsam1treasure, valuables96'8
+741c琜láiloi496'8trai
+741d琝mínman496'8
+741e琞shèngsing396'9
+741f琟wéiwai496'8
+7420琠tiǎntin2a gem used as ear plug; a jade earring96'8
+7421琡chùcuk196'8
+7422琢zuódoek3polish jade; cut jade96'8chác
+7423琣běngbung296'8
+7424琤chēngzang1jade of jade being; tinkle96'8
+7425琥hǔfu2jewel in shape of tiger; amber96'8
+7426琦qíkei4gem, precious stone, jade96'8
+7427琧èok396'8
+7428琨kūnkwan1beautiful jade, precious stones96'8
+7429琩chāngcoeng196'8
+742a琪qíkei4type of jade96'8
+742b琫běngbung2ornament96'8
+742c琬wǎnjyun2the virtue of a gentleman; jade96'8
+742d琭lùluk6jade like stone96'8
+742e琮cóngcung4octagonal piece of jade with hole in middle96'8
+742f琯guǎngun2a jade tube used as an instrument96'8
+7430琰yǎnjim5jewel, gem; glitter of gems96'8
+7431琱diāodiu1engrave, inlay, carve; exhaust96'8
+7432琲bèipui3necklace96'8
+7433琳línlam4beautiful jade, gem96'8
+7434琴qínkam4Chinese lute or guitar96'8cầm
+7435琵pípei4guitar-like instrument96'8tì
+7436琶pápaa4guitar-like instrument96'8bà
+7437琷què96'8
+7438琸zhuózoek396'8
+7439琹qínkam496'8
+743a琺fàfaat3enamel, cloisonné96'873D0
+743b琻jīncyun496'8
+743c琼qióngking4jade; rare, precious; elegant; (Cant.) to coagulate96'8743C743C 74CA
+743d琽dǔdou296'9
+743e琾jiègaai396'9
+743f琿húnwan4bright, glorious, splendid96'973F2

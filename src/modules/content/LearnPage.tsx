@@ -1,23 +1,19 @@
 /** `/learn` — the index of the reading content that ships in this project's content packs.
  *
- *  Items come from installed packs only (see contentSource.ts); when a pack is missing the
- *  screen says so and offers the real download instead of showing invented text. */
+ *  Items come from the content packs (see contentSource.ts), which are automatically fetched,
+ *  checksum-verified, and cached in IndexedDB on demand. */
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import {
   EmptyState,
   LoadingGate,
   PageHeader,
-  ProgressBar,
   Segmented,
 } from '../../components';
-import { IconAlert, IconBook, IconCheck, IconDownload } from '../../app/icons';
-import { formatBytes, useDebouncedValue, useQueryState } from '../../app/hooks';
-import { useToast } from '../../app/providers';
-import { installPack, type InstallProgress } from '../../data/packs';
-import type { PackDescriptor } from '../../domain/types';
+import { IconBook, IconCheck } from '../../app/icons';
+import { useDebouncedValue, useQueryState } from '../../app/hooks';
 import {
   CONTENT_KINDS,
   CONTENT_LEVELS,
@@ -26,7 +22,6 @@ import {
   useReadMarks,
   type ContentLevel,
   type ContentKind,
-  type ContentPackStatus,
 } from './contentSource';
 import './content.css';
 
@@ -52,7 +47,6 @@ function matchesQuery(text: string, needle: string): boolean {
 }
 
 export default function LearnPage({ compact = false }: { compact?: boolean } = {}) {
-  const toast = useToast();
   const catalog = useLiveQuery(() => loadContentCatalog(), []);
   const { marks, toggle: toggleRead } = useReadMarks();
 
@@ -62,9 +56,6 @@ export default function LearnPage({ compact = false }: { compact?: boolean } = {
   const [kind, setKind] = useState<KindFilter>('all');
   const [level, setLevel] = useState<LevelFilter>('all');
   const [unreadOnly, setUnreadOnly] = useState(false);
-  const [busyPack, setBusyPack] = useState<string | null>(null);
-  const [progress, setProgress] = useState<InstallProgress | null>(null);
-  const [packError, setPackError] = useState<string | null>(null);
 
   useEffect(() => {
     if (debouncedQuery !== q) setQ(debouncedQuery);
@@ -100,29 +91,6 @@ export default function LearnPage({ compact = false }: { compact?: boolean } = {
     return map;
   }, [items]);
 
-  const missingPacks: ContentPackStatus[] = (catalog?.packs ?? []).filter((pack) => !pack.installed);
-  const installedCount = (catalog?.packs ?? []).length - missingPacks.length;
-
-  const install = useCallback(
-    async (pack: PackDescriptor) => {
-      setBusyPack(pack.id);
-      setPackError(null);
-      setProgress(null);
-      try {
-        await installPack(pack, (next) => setProgress(next));
-        toast.push({ message: `${pack.label} is installed`, tone: 'info' });
-      } catch (error) {
-        const reason = error instanceof Error ? error.message : String(error);
-        setPackError(`${pack.label}: ${reason}`);
-        toast.push({ message: `${pack.label} could not be downloaded`, tone: 'danger' });
-      } finally {
-        setBusyPack(null);
-        setProgress(null);
-      }
-    },
-    [toast],
-  );
-
   const body = (
     <div className="stack">
       {compact ? (
@@ -138,7 +106,7 @@ export default function LearnPage({ compact = false }: { compact?: boolean } = {
           title="Learn"
           subtitle={
             catalog
-              ? `${visible.length} of ${items.length} items shown · ${installedCount} of ${catalog.packs.length} content packs on this device`
+              ? `${visible.length} of ${items.length} items shown`
               : 'Reading content from this project’s own packs'
           }
           actions={
@@ -167,67 +135,8 @@ export default function LearnPage({ compact = false }: { compact?: boolean } = {
           <div>
             <strong>The pack registry could not be read</strong>
             <p className="text-sm">{catalog.registryError}</p>
-            <Link to="/offline-data" className="btn btn-sm">
-              Open offline data
-            </Link>
           </div>
         </div>
-      ) : null}
-
-      {missingPacks.length > 0 ? (
-        <section className="card" aria-labelledby="learn-packs">
-          <h2 id="learn-packs" className="learn-block-title">
-            Content not on this device yet
-          </h2>
-          <p className="text-sm muted">
-            Reading text only comes from an installed pack. Downloaded once, checksum-verified, then
-            stored on this device.
-          </p>
-          {missingPacks.map((pack) => (
-            <div className="learn-pack-row" key={pack.id}>
-              <span className="badge badge-warn">
-                {pack.state?.status === 'error' ? 'Failed' : 'Not installed'}
-              </span>
-              <span className="spacer" />
-              <strong>{pack.label}</strong>
-              <span className="text-sm faint">
-                {formatBytes(pack.bytes)} · v{pack.version} · {pack.license}
-              </span>
-              <button
-                type="button"
-                className="btn btn-sm btn-primary"
-                disabled={busyPack !== null}
-                onClick={() => void install(pack.descriptor)}
-              >
-                <IconDownload />
-                {busyPack === pack.id ? 'Downloading…' : pack.state?.status === 'error' ? 'Retry download' : 'Download'}
-              </button>
-            </div>
-          ))}
-          {busyPack && progress ? (
-            <div className="stack" role="status" aria-live="polite">
-              <ProgressBar
-                value={progress.bytes}
-                total={progress.totalBytes}
-                label={`Downloading ${busyPack}`}
-              />
-              <p className="text-sm faint">
-                File {progress.file} of {progress.files} ({formatBytes(progress.bytes)} of{' '}
-                {formatBytes(progress.totalBytes)}) — {progress.phase}
-              </p>
-            </div>
-          ) : null}
-          {packError ? (
-            <p className="notice notice-danger text-sm" role="alert">
-              <IconAlert /> {packError}
-            </p>
-          ) : null}
-          {missingPacks.some((pack) => pack.state?.status === 'error' && pack.state.error) ? (
-            <p className="text-sm faint">
-              Last error recorded: {missingPacks.map((pack) => pack.state?.error).filter(Boolean).join(' · ')}
-            </p>
-          ) : null}
-        </section>
       ) : null}
 
       <div className="learn-filters">
@@ -319,8 +228,7 @@ export default function LearnPage({ compact = false }: { compact?: boolean } = {
               ))}
             </ul>
             <p className="text-sm faint">
-              Those items are hidden rather than guessed at. Reinstall the pack from{' '}
-              <Link to="/offline-data">offline data</Link>.
+              Those items are hidden rather than guessed at.
             </p>
           </div>
         </div>
@@ -336,21 +244,8 @@ export default function LearnPage({ compact = false }: { compact?: boolean } = {
         items.length === 0 ? (
           <EmptyState
             icon={<IconBook />}
-            title={
-              catalog.packs.length === 0
-                ? 'This build lists no content packs'
-                : 'No reading content is installed yet'
-            }
-            detail={
-              catalog.packs.length === 0
-                ? 'The manifest on this site contains no pack of kind “content”. Nothing was invented to fill the gap.'
-                : 'Download the packs above to read the lessons, stories and tips written for this app.'
-            }
-            action={
-              <Link to="/offline-data" className="btn btn-sm">
-                Manage downloaded data
-              </Link>
-            }
+            title="This build lists no content packs"
+            detail="The manifest on this site contains no pack of kind “content”. Nothing was invented to fill the gap."
           />
         ) : (
           <EmptyState

@@ -9,6 +9,7 @@ import { createHash } from 'node:crypto';
 import {
   cachedManifest,
   dataUrl,
+  ensurePackInstalled,
   ensureRequiredPacks,
   installPack,
   installedPackIds,
@@ -293,6 +294,75 @@ describe('installPack: failure keeps the previous version readable', () => {
     await expect(installPack(pack.pack)).rejects.toThrowError(/checksum mismatch/);
     expect(await db.packFiles.count()).toBe(0);
     expect(await readPackFile('packs/examples/000.txt')).toBeNull();
+  });
+});
+
+describe('self-healing packs (D-05)', () => {
+  it('calling packText when IndexedDB is empty automatically fetches, verifies SHA-256, stores in IndexedDB and returns text', async () => {
+    const core = makePack('dictionary-core', '1', {
+      'packs/dictionary-core/000.txt': '中国\x1f中國\x1fzhong1 guo2\x1fzhōngguó\x1fzhongguo\x1fChina\x1fTrung Quốc\x1ftrung quốc\n',
+      'packs/dictionary-core/001.txt': '书\x1f書\x1fshu1\x1fshū\x1fshu\x1fbook\x1fsách\x1fthư\n',
+    });
+    stubFetch(routesFor([core]), manifest([core.pack]));
+
+    expect(await db.packs.count()).toBe(0);
+    expect(await db.packFiles.count()).toBe(0);
+
+    const texts = await packText('dictionary-core');
+    expect(texts).toHaveLength(2);
+    expect(texts[0]).toContain('中国');
+    expect(texts[1]).toContain('书');
+
+    const state = await db.packs.get('dictionary-core');
+    expect(state?.status).toBe('ready');
+    expect(await db.packFiles.count()).toBe(2);
+  });
+
+  it('calling readPackFile for an uninstalled pack automatically installs its owning pack and returns the file text', async () => {
+    const strokes = makePack(
+      'strokes',
+      '1',
+      {
+        'packs/strokes/index.txt': '中\x1f000.jsonl\n',
+        'packs/strokes/000.jsonl': '{"c":"中","s":["M 0 0 L 1 1"],"m":[[0,0,1,1]]}\n',
+      },
+      { kind: 'strokes', required: false },
+    );
+    stubFetch(routesFor([strokes]), manifest([strokes.pack]));
+
+    expect(await db.packFiles.count()).toBe(0);
+    const indexText = await readPackFile('packs/strokes/index.txt');
+    expect(indexText).toBe('中\x1f000.jsonl\n');
+    expect((await db.packs.get('strokes'))?.status).toBe('ready');
+    expect(await db.packFiles.count()).toBe(2);
+  });
+
+  it('concurrent calls for the same uninstalled pack trigger only 1 fetch per file', async () => {
+    const core = makePack('dictionary-core', '1', {
+      'packs/dictionary-core/000.txt': '汉语\x1f漢語\x1fhan4 yu3\x1fHànyǔ\x1fhanyu\x1fChinese language\x1ftiếng Hán\x1fhán ngữ\n',
+      'packs/dictionary-core/001.txt': '忙\x1f忙\x1fmang2\x1fmáng\x1fmang\x1fbusy\x1fbận\x1fmang\n',
+    });
+    stubFetch(routesFor([core]), manifest([core.pack]));
+    await loadManifest();
+
+    const fetchMock = vi.mocked(fetch);
+    fetchMock.mockClear();
+
+    const results = await Promise.all([
+      packText('dictionary-core'),
+      packText('dictionary-core'),
+      readPackFile('packs/dictionary-core/000.txt'),
+      readPackFile('packs/dictionary-core/001.txt'),
+      ensurePackInstalled('dictionary-core'),
+    ]);
+
+    expect(results[0]).toHaveLength(2);
+    expect(results[1]).toHaveLength(2);
+    expect(results[2]).toContain('汉语');
+    expect(results[3]).toContain('忙');
+
+    const packFileCalls = fetchMock.mock.calls.filter((call) => String(call[0]).includes('/packs/dictionary-core/'));
+    expect(packFileCalls).toHaveLength(2); // 1 fetch for 000.txt and 1 fetch for 001.txt
   });
 });
 

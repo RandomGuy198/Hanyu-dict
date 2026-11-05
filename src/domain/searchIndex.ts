@@ -7,6 +7,7 @@ import {
   detectMode,
   editDistance,
   entryId,
+  foldVietnamese,
   initialsKey,
   lengthPenalty,
   normaliseQuery,
@@ -31,6 +32,8 @@ export class DictionaryIndex {
   private pk: string[] = [];
   private ini: string[] = [];
   private def: string[] = [];
+  private defVi: string[] = [];
+  private hv: string[] = [];
   private len: number[] = [];
   private byId = new Map<string, number>();
 
@@ -66,6 +69,8 @@ export class DictionaryIndex {
     this.pk = [];
     this.ini = [];
     this.def = [];
+    this.defVi = [];
+    this.hv = [];
     this.len = [];
     this.byId = new Map();
     this.tokenKeys = [];
@@ -97,6 +102,8 @@ export class DictionaryIndex {
       this.pk.push(pinyinKey(parts[4] || numbered));
       this.ini.push(initialsKey(numbered));
       this.def.push(definition);
+      this.defVi.push(parts[6] ?? '');
+      this.hv.push(parts[7] ?? '');
       this.len.push([...simplified].length);
     }
   }
@@ -128,6 +135,9 @@ export class DictionaryIndex {
   }
 
   entryAt(i: number): DictEntry {
+    const defVi = this.defVi[i];
+    const hv = this.hv[i];
+    const defsVi = defVi ? defVi.split('; ').filter(Boolean) : undefined;
     return {
       id: entryId(this.s[i], this.pn[i]),
       simplified: this.s[i],
@@ -136,6 +146,9 @@ export class DictionaryIndex {
       pinyinMarked: this.pm[i],
       pinyinPlain: this.pk[i],
       definition: this.def[i],
+      ...(defVi ? { definitionVi: defVi } : {}),
+      ...(defsVi && defsVi.length > 0 ? { definitionsVi: defsVi } : {}),
+      ...(hv ? { hanViet: hv } : {}),
       length: this.len[i],
     };
   }
@@ -291,12 +304,18 @@ export class DictionaryIndex {
     keep: (i: number, score: number, match: MatchKind, via: SearchResult['via']) => void,
     text: string,
   ): void {
-    const tokens = tokeniseDefinition(text).filter((t) => t.length > 1 || /[a-z]/.test(t));
-    if (tokens.length === 0) return;
+    const rawTokens = (text.toLowerCase().match(/[\p{Script=Latin}\p{N}]+/gu) ?? []).filter(
+      (t) => t.length > 1 || /[\p{Script=Latin}]/u.test(t),
+    );
+    if (rawTokens.length === 0) return;
     this.ensureDefinitionIndex();
-    const postings = tokens.map((token) => this.postingsFor(token));
-    const exactPhrase = this.phrasePostings(tokens);
-    for (const i of exactPhrase) keep(i, SCORE.definitionPhrase, 'contains', 'definition');
+    const postings = rawTokens.map((token) => this.postingsFor(token));
+    const queryLower = rawTokens.join(' ');
+    const queryFolded = foldVietnamese(queryLower);
+    const exactPhrase = this.phrasePostings(rawTokens, queryLower, queryFolded);
+    for (const [i, phraseScore] of exactPhrase) {
+      keep(i, phraseScore, 'contains', 'definition');
+    }
     // tokens present in every result
     let shared: Set<number> | null = null;
     for (const list of postings) {
@@ -306,10 +325,23 @@ export class DictionaryIndex {
     if (shared) {
       for (const i of shared) {
         if (exactPhrase.has(i)) continue;
-        keep(i, SCORE.definitionAll, 'definition', 'definition');
+        let score: number = SCORE.definitionAll;
+        const hvLower = this.hv[i].toLowerCase();
+        if (hvLower && (hvLower === queryLower || foldVietnamese(hvLower) === queryFolded)) {
+          score = SCORE.definitionPhrase + 40;
+        } else {
+          const defViLower = this.defVi[i].toLowerCase();
+          if (defViLower) {
+            const glosses = defViLower.split(';').map((g) => g.trim());
+            if (glosses.some((g) => g === queryLower || foldVietnamese(g) === queryFolded)) {
+              score = SCORE.definitionPhrase + 20;
+            }
+          }
+        }
+        keep(i, score, 'definition', 'definition');
       }
     }
-    if (tokens.length > 1 && shared && shared.size === 0) {
+    if (rawTokens.length > 1 && shared && shared.size === 0) {
       for (const list of postings) {
         const capped = list.slice(0, 120);
         for (const i of capped) keep(i, SCORE.definitionAny, 'definition', 'definition');
@@ -320,12 +352,21 @@ export class DictionaryIndex {
   private ensureDefinitionIndex(): void {
     if (this.defReady) return;
     const buckets = new Map<string, number[]>();
-    for (let i = 0; i < this.def.length; i++) {
-      for (const token of tokeniseDefinition(this.def[i])) {
+    const addTokens = (i: number, text: string, seen: Set<string>) => {
+      if (!text) return;
+      for (const token of tokeniseDefinition(text)) {
+        if (seen.has(token)) continue;
+        seen.add(token);
         const list = buckets.get(token);
         if (list) list.push(i);
         else buckets.set(token, [i]);
       }
+    };
+    for (let i = 0; i < this.def.length; i++) {
+      const seen = new Set<string>();
+      addTokens(i, this.def[i], seen);
+      addTokens(i, this.defVi[i], seen);
+      addTokens(i, this.hv[i], seen);
     }
     const keys = [...buckets.keys()].sort();
     this.tokenKeys = keys;
@@ -353,13 +394,31 @@ export class DictionaryIndex {
     return Uint32Array.from(merged);
   }
 
-  private phrasePostings(tokens: string[]): Set<number> {
-    if (tokens.length < 2) return new Set();
-    const phrase = tokens.join(' ');
-    const out = new Set<number>();
+  private phrasePostings(tokens: string[], phraseLower: string, phraseFolded: string): Map<number, number> {
+    if (tokens.length < 2) return new Map();
+    const out = new Map<number, number>();
     const probe = this.postingsFor(tokens[0]).slice(0, 1500);
     for (const i of probe) {
-      if (this.def[i].toLowerCase().includes(phrase)) out.add(i);
+      const hvLower = this.hv[i].toLowerCase();
+      if (hvLower && (hvLower === phraseLower || foldVietnamese(hvLower) === phraseFolded)) {
+        out.set(i, SCORE.definitionPhrase + 40);
+        continue;
+      }
+      const defViLower = this.defVi[i].toLowerCase();
+      if (defViLower) {
+        const glosses = defViLower.split(';').map((g) => g.trim());
+        if (glosses.some((g) => g === phraseLower || foldVietnamese(g) === phraseFolded)) {
+          out.set(i, SCORE.definitionPhrase + 20);
+          continue;
+        }
+        if (defViLower.includes(phraseLower) || foldVietnamese(defViLower).includes(phraseFolded)) {
+          out.set(i, SCORE.definitionPhrase);
+          continue;
+        }
+      }
+      if (this.def[i].toLowerCase().includes(phraseLower)) {
+        out.set(i, SCORE.definitionPhrase);
+      }
     }
     return out;
   }

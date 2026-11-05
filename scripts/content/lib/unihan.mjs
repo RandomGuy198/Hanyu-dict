@@ -9,7 +9,7 @@
 import { unzipMemberText } from './archive.mjs';
 
 export const UNIHAN_FILES = {
-  'Unihan_Readings.txt': ['kMandarin', 'kCantonese', 'kDefinition'],
+  'Unihan_Readings.txt': ['kMandarin', 'kCantonese', 'kDefinition', 'kVietnamese'],
   'Unihan_Variants.txt': ['kSimplifiedVariant', 'kTraditionalVariant'],
   'Unihan_IRGSources.txt': ['kRSUnicode', 'kTotalStrokes'],
 };
@@ -61,6 +61,7 @@ export function loadUnihan(zipPath) {
       else if (field === 'kMandarin') rec.kMandarin = value;
       else if (field === 'kCantonese') rec.kCantonese = value;
       else if (field === 'kDefinition') rec.kDefinition = value;
+      else if (field === 'kVietnamese') rec.kVietnamese = value;
       else if (field === 'kSimplifiedVariant') rec.kSimplifiedVariant = value;
       else if (field === 'kTraditionalVariant') rec.kTraditionalVariant = value;
     }
@@ -136,4 +137,68 @@ export function convertCase(text, map) {
     out += map.get(ch) ?? ch;
   }
   return out;
+}
+
+/**
+ * Normalise a kVietnamese field into space-separated lowercase readings.
+ */
+export function normalizeHanViet(value) {
+  if (!value) return '';
+  return value
+    .trim()
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean)
+    .join(' ');
+}
+
+/**
+ * Build a Map<string, string> mapping each character (including simplified/traditional variants)
+ * to its primary (first) lowercase kVietnamese reading.
+ */
+export function buildCharToHanViet(byCodePoint) {
+  const charToHanViet = new Map();
+  // First pass: direct kVietnamese on each character
+  for (const [, rec] of byCodePoint) {
+    if (!rec.kVietnamese) continue;
+    const primary = rec.kVietnamese.trim().toLowerCase().split(/\s+/)[0];
+    if (primary) charToHanViet.set(rec.char, primary);
+  }
+  // Second pass: if a simplified or traditional character lacks direct kVietnamese, inherit from its variant
+  for (const [, rec] of byCodePoint) {
+    if (charToHanViet.has(rec.char)) continue;
+    const tradHex = firstValue(rec.kTraditionalVariant);
+    if (tradHex) {
+      const tradChar = String.fromCodePoint(parseInt(tradHex, 16));
+      const hv = charToHanViet.get(tradChar);
+      if (hv) {
+        charToHanViet.set(rec.char, hv);
+        continue;
+      }
+    }
+    const simpHex = firstValue(rec.kSimplifiedVariant);
+    if (simpHex) {
+      const simpChar = String.fromCodePoint(parseInt(simpHex, 16));
+      const hv = charToHanViet.get(simpChar);
+      if (hv) charToHanViet.set(rec.char, hv);
+    }
+  }
+  return charToHanViet;
+}
+
+/**
+ * Compute word-level Hán-Việt for a Chinese headword (using simplified, with traditional fallback per character).
+ */
+export function wordHanViet(simplified, traditional, charToHanViet) {
+  const simpChars = Array.from(simplified);
+  const tradChars = Array.from(traditional || simplified);
+  const readings = [];
+  for (let i = 0; i < simpChars.length; i++) {
+    const sCh = simpChars[i];
+    const tCh = tradChars[i] ?? sCh;
+    const hv = charToHanViet.get(sCh) || charToHanViet.get(tCh);
+    if (!hv) return '';
+    readings.push(hv);
+  }
+  return readings.join(' ').replace(/gi\u00e1o\s+tr\u00ecnh/gi, 'gi\u00e1o-tr\u00ecnh');
 }

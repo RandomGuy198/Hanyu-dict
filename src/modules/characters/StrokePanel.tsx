@@ -1,19 +1,16 @@
 /** StrokePanel: the shared animation + practice feature for the character page and the
- *  writing desk. Geometry comes from the locally installed `strokes` pack through
- *  `api.strokes(char)` and is handed to Hanzi Writer via `charDataLoader`, so the library's
- *  default CDN loader is never used and this panel makes no network request. The optional
- *  ~29 MB pack downloads only when the user presses the download button — with progress, an
- *  honest cancel path and the real error text on failure. */
+ *  writing desk. Geometry comes from the `strokes` pack through `api.strokes(char)` (which
+ *  auto-installs and caches the pack on demand) and is handed to Hanzi Writer via
+ *  `charDataLoader`. */
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
 import HanziWriter, { type CharDataLoaderFn, type CharacterJson } from 'hanzi-writer';
-import { AttributionNote, EmptyState, ProgressBar, Segmented } from '../../components';
-import { IconAlert, IconDownload } from '../../app/icons';
-import { formatBytes, sleep } from '../../app/hooks';
-import { useDictionary, usePreferences, useToast } from '../../app/providers';
-import { installPack, packOverview, uninstallPack } from '../../data/packs';
-import type { InstallProgress, PackOverview } from '../../data/packs';
+import { AttributionNote, EmptyState, Segmented } from '../../components';
+import { IconAlert } from '../../app/icons';
+import { sleep } from '../../app/hooks';
+import { useDictionary, usePreferences } from '../../app/providers';
+import { packOverview } from '../../data/packs';
+import type { PackOverview } from '../../data/packs';
 import type { StrokeData } from '../../domain/types';
 
 /* ------------------------------------------------------------------ data mapping */
@@ -54,9 +51,7 @@ function cssColor(token: string, fallback: string): string {
 
 type PanelMode = 'animation' | 'quiz' | 'static';
 type AnimSpeed = 'slow' | 'normal' | 'fast';
-type Phase =
-  | 'checking' | 'manifest-error' | 'no-pack' | 'missing'
-  | 'loading' | 'no-geometry' | 'incomplete' | 'ready';
+type Phase = 'loading' | 'no-geometry' | 'incomplete' | 'ready';
 
 const SPEEDS: Record<AnimSpeed, number> = { slow: 0.5, normal: 1, fast: 2.5 };
 const MODE_OPTIONS: { value: PanelMode; label: string }[] = [
@@ -71,18 +66,11 @@ const SPEED_OPTIONS: { value: AnimSpeed; label: string }[] = [
 ];
 
 export function StrokePanel({ char }: { char: string }) {
-  const { api, reload } = useDictionary();
+  const { api } = useDictionary();
   const { prefs } = usePreferences();
-  const toast = useToast();
 
   const [packRows, setPackRows] = useState<PackOverview[] | null>(null);
-  const [packError, setPackError] = useState<string | null>(null);
-  const [checkNonce, setCheckNonce] = useState(0);
   const [sd, setSd] = useState<StrokeData | null | undefined>(undefined);
-  const [installPhase, setInstallPhase] = useState<'idle' | 'running' | 'finishing' | 'failed'>('idle');
-  const [installProgress, setInstallProgress] = useState<InstallProgress | null>(null);
-  const [installError, setInstallError] = useState<string | null>(null);
-  const cancelledRef = useRef(false);
   const [mode, setMode] = useState<PanelMode>(prefs.reduceMotion ? 'static' : 'animation');
   const [speed, setSpeed] = useState<AnimSpeed>('normal');
   const [status, setStatus] = useState('');
@@ -95,40 +83,30 @@ export function StrokePanel({ char }: { char: string }) {
 
   const strokePack = packRows ? packRows.find((row) => row.pack.id === 'strokes') ?? null : null;
   const json = useMemo(() => toCharacterJson(sd), [sd]);
-  const phase: Phase = packError
-    ? 'manifest-error'
-    : !packRows
-      ? 'checking'
-      : !strokePack
-        ? 'no-pack'
-        : !strokePack.installed
-          ? 'missing'
-          : !api || sd === undefined
-            ? 'loading'
-            : !sd
-              ? 'no-geometry'
-              : !json
-                ? 'incomplete'
-                : 'ready';
+  const phase: Phase =
+    !api || sd === undefined
+      ? 'loading'
+      : !sd
+        ? 'no-geometry'
+        : !json
+          ? 'incomplete'
+          : 'ready';
 
-  /* Pack state of this device: read manifest + registry; never auto-download. */
   useEffect(() => {
     let alive = true;
-    setPackError(null);
     packOverview()
       .then((rows) => alive && setPackRows(rows))
-      .catch((error: unknown) => {
-        console.error('[characters] pack overview failed', error);
-        if (alive) setPackError(error instanceof Error ? error.message : String(error));
+      .catch(() => {
+        if (alive) setPackRows([]);
       });
     return () => {
       alive = false;
     };
-  }, [checkNonce]);
+  }, [sd]);
 
-  /* This character's geometry, via the dictionary API (the shard cache sits behind it). */
+  /* This character's geometry, via the dictionary API (auto-installs strokes pack if needed). */
   useEffect(() => {
-    if (!api || !strokePack?.installed) return;
+    if (!api) return;
     let alive = true;
     setSd(undefined);
     api
@@ -141,37 +119,7 @@ export function StrokePanel({ char }: { char: string }) {
     return () => {
       alive = false;
     };
-  }, [api, char, strokePack?.installed]);
-
-  function startInstall(): void {
-    if (!strokePack) return;
-    const pack = strokePack.pack;
-    cancelledRef.current = false;
-    setInstallPhase('running');
-    setInstallError(null);
-    setInstallProgress(null);
-    installPack(pack, (progress) => !cancelledRef.current && setInstallProgress(progress))
-      .then(async () => {
-        if (cancelledRef.current) {
-          // Installs commit atomically; discarding the finished pack is the honest cancel.
-          await uninstallPack(pack.id);
-          toast.push({ message: 'Download cancelled — no stroke data was kept' });
-        } else {
-          toast.push({ message: `Stroke data installed (${formatBytes(pack.bytes)})` });
-          setSd(undefined);
-          // The running index cached the empty stroke-shard map; rebuild so shards are read.
-          void reload();
-        }
-        setInstallPhase('idle');
-        setPackRows(null);
-        setCheckNonce((n) => n + 1);
-      })
-      .catch((error: unknown) => {
-        console.error('[characters] stroke pack install failed', error);
-        setInstallError(error instanceof Error ? error.message : String(error));
-        setInstallPhase('failed');
-      });
-  }
+  }, [api, char]);
 
   async function runAnimation(): Promise<void> {
     const writer = writerRef.current;
@@ -283,11 +231,11 @@ export function StrokePanel({ char }: { char: string }) {
     return () => observer.disconnect();
   }, [phase, mode]);
 
-  if (phase === 'checking' || phase === 'loading') {
+  if (phase === 'loading') {
     return (
       <section className="char-panel card" aria-label="Stroke order">
         <p className="muted text-sm" role="status" aria-live="polite">
-          Checking the stroke data on this device…
+          Loading stroke data…
         </p>
         <div className="skeleton" style={{ height: 180 }} />
       </section>
@@ -302,99 +250,11 @@ export function StrokePanel({ char }: { char: string }) {
         {sd ? <span className="badge">{sd.strokes.length} strokes</span> : null}
       </div>
 
-      {phase === 'manifest-error' ? (
-        <div className="notice notice-danger" role="alert">
-          <IconAlert />
-          <div>
-            <strong>Stroke pack status could not be read</strong>
-            <p className="text-sm">{packError}</p>
-            <div className="row">
-              <button type="button" className="btn btn-sm" onClick={() => { setPackRows(null); setCheckNonce((n) => n + 1); }}>
-                Check again
-              </button>
-              <Link className="btn btn-ghost btn-sm" to="/offline-data">Manage downloaded data</Link>
-            </div>
-          </div>
-        </div>
-      ) : null}
-
-      {phase === 'no-pack' ? (
-        <div className="notice">
-          <IconAlert />
-          <div>This dictionary build does not offer stroke geometry, so there is nothing to
-            animate or grade here. Readings and definitions are unaffected.</div>
-        </div>
-      ) : null}
-
       {phase === 'no-geometry' ? (
         <EmptyState
           title={`No stroke data for ${char}`}
-          detail="The installed stroke pack does not contain this character, so no animation is shown. Nothing is invented to fill the gap."
-          action={<Link className="btn btn-sm" to="/offline-data">Manage downloaded data</Link>}
+          detail="The stroke pack does not contain this character, so no animation is shown. Nothing is invented to fill the gap."
         />
-      ) : null}
-
-      {phase === 'missing' ? (
-        <div className="char-install">
-          <div className="notice notice-info">
-            <IconDownload />
-            <div>
-              <strong>Optional stroke data is not installed</strong>
-              <p>
-                Animating and grading the writing needs the strokes pack —{' '}
-                {strokePack ? formatBytes(strokePack.pack.bytes) : 'about 29 MB'} of outline and
-                median paths, downloaded once and then usable with no connection. Nothing is
-                fetched until you press the button.
-              </p>
-            </div>
-          </div>
-          {installPhase === 'idle' ? (
-            <div className="char-controls">
-              <button type="button" className="btn btn-primary" onClick={startInstall}>
-                <IconDownload /> Download stroke data (
-                {strokePack ? formatBytes(strokePack.pack.bytes) : '29 MB'}, keeps working offline)
-              </button>
-              <Link className="btn btn-ghost btn-sm" to="/offline-data">Manage downloaded data</Link>
-            </div>
-          ) : (
-            <div className="char-install-status" role="status" aria-live="polite">
-              <ProgressBar
-                value={installProgress?.bytes ?? 0}
-                total={installProgress?.totalBytes ?? strokePack?.pack.bytes ?? 1}
-                label="Stroke pack download progress"
-              />
-              <p className="text-sm">
-                {installProgress
-                  ? `File ${installProgress.file} of ${installProgress.files} — ${formatBytes(installProgress.bytes)} of ${formatBytes(installProgress.totalBytes)} (${installProgress.phase})`
-                  : 'Preparing the download…'}
-              </p>
-              {installPhase === 'running' ? (
-                <button type="button" className="btn btn-sm" onClick={() => { cancelledRef.current = true; setInstallPhase('finishing'); }}>
-                  Cancel
-                </button>
-              ) : null}
-              {installPhase === 'finishing' ? (
-                <p className="text-sm faint">
-                  Cancel requested. A download cannot be interrupted mid-file, so the finished
-                  data is discarded automatically.
-                </p>
-              ) : null}
-              {installPhase === 'failed' ? (
-                <div className="notice notice-danger">
-                  <IconAlert />
-                  <div>
-                    <strong>The download failed</strong>
-                    <p className="text-sm">{installError}</p>
-                    <div className="row">
-                      <button type="button" className="btn btn-sm" onClick={startInstall}>Try again</button>
-                      <button type="button" className="btn btn-ghost btn-sm" onClick={() => setInstallPhase('idle')}>Dismiss</button>
-                    </div>
-                  </div>
-                </div>
-              ) : null}
-            </div>
-          )}
-        </div>
       ) : null}
 
       {phase === 'incomplete' ? (
@@ -441,7 +301,7 @@ export function StrokePanel({ char }: { char: string }) {
         </>
       ) : null}
 
-      {strokePack?.installed ? (
+      {strokePack ? (
         <AttributionNote
           attribution={strokePack.pack.attribution}
           license={strokePack.pack.license}

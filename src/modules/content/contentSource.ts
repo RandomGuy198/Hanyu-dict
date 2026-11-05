@@ -138,12 +138,12 @@ export async function loadContentCatalog(): Promise<ContentCatalog> {
   const problems: string[] = [];
   const seen = new Set<string>();
   for (const pack of packs) {
-    if (!pack.installed) continue;
     const texts = await packText(pack.id);
     if (texts.length === 0) {
-      problems.push(`${pack.id} is marked ready but holds no files on this device — reinstall it.`);
+      problems.push(`${pack.id} holds no files on this device.`);
       continue;
     }
+    pack.installed = true;
     for (const text of texts) {
       const item = parseItem(text, pack.id, problems);
       if (!item) continue;
@@ -170,8 +170,9 @@ export async function loadContentItem(id: string): Promise<ContentItemResult> {
   const { packs, registryError } = await contentPacks();
   const problems: string[] = [];
   for (const pack of packs) {
-    if (!pack.installed) continue;
-    for (const text of await packText(pack.id)) {
+    const texts = await packText(pack.id);
+    if (texts.length > 0) pack.installed = true;
+    for (const text of texts) {
       const item = parseItem(text, pack.id, problems);
       if (item && item.id === id) return { item, packs, problems, registryError };
     }

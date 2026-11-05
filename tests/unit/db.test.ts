@@ -51,8 +51,8 @@ beforeAll(async () => {
 
 describe('current schema', () => {
   it('opens with the declared version and every documented table', async () => {
-    expect(SCHEMA_VERSION).toBe(2);
-    expect(db.verno).toBe(2);
+    expect(SCHEMA_VERSION).toBe(3);
+    expect(db.verno).toBe(3);
     const names = db.tables.map((table) => table.name);
     for (const expected of [
       'meta',
@@ -75,10 +75,13 @@ describe('current schema', () => {
       'documentBlobs',
       'photos',
       'photoImages',
+      'remoteCache',
+      'courseProgress',
+      'bookBookmarks',
     ]) {
       expect(names).toContain(expected);
     }
-    expect(names).toHaveLength(20);
+    expect(names).toHaveLength(23);
   });
 
   it('indexes the secondary keys the queries rely on', () => {

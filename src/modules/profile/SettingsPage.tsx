@@ -13,7 +13,18 @@ import {
   Segmented,
 } from '../../components';
 import { IconDownload, IconGear } from '../../app/icons';
-import { usePreferences, useToast } from '../../app/providers';
+import { usePreferences, useSyncStatus, useToast } from '../../app/providers';
+import {
+  clearGitHubConfig,
+  encodeBase64Utf8,
+  getGitHubConfig,
+  maskPat,
+  setGitHubConfig,
+  verifyConnection,
+  type VerifyConnectionResult,
+} from '../../data/githubClient';
+import { clearPrivateCache } from '../../data/privateData';
+import { setSyncStatus, syncNow } from '../../data/syncEngine';
 import type { Preferences } from '../../domain/types';
 import './profile.css';
 
@@ -60,12 +71,107 @@ function SwitchRow({
 
 export default function SettingsPage() {
   const { prefs, ready, update, reset } = usePreferences();
+  const syncStatus = useSyncStatus();
   const toast = useToast();
+
+  const initialGh = useMemo(() => getGitHubConfig(), []);
+  const [ghOwner, setGhOwner] = useState(initialGh.owner);
+  const [ghRepo, setGhRepo] = useState(initialGh.repo);
+  const [ghBranch, setGhBranch] = useState(initialGh.branch);
+  const [ghPatInput, setGhPatInput] = useState('');
+  const [savedPatMask, setSavedPatMask] = useState(() => maskPat(initialGh.pat));
+  const [ghBusy, setGhBusy] = useState(false);
+  const [ghVerifyInfo, setGhVerifyInfo] = useState<VerifyConnectionResult | null>(null);
+  const [qrLink, setQrLink] = useState<string | null>(null);
 
   const [resetOpen, setResetOpen] = useState(false);
   const [installEvent, setInstallEvent] = useState<BeforeInstallPromptEvent | null>(null);
   const [installed, setInstalled] = useState(false);
   const [installNote, setInstallNote] = useState('');
+
+  const handleVerifyAndConnect = useCallback(async () => {
+    setGhBusy(true);
+    setQrLink(null);
+    try {
+      const current = getGitHubConfig();
+      const patToSave = ghPatInput.trim() || current.pat;
+      const updated = setGitHubConfig({
+        owner: ghOwner,
+        repo: ghRepo,
+        branch: ghBranch,
+        pat: patToSave,
+      });
+      setSavedPatMask(maskPat(updated.pat));
+      setGhPatInput('');
+
+      const verified = await verifyConnection();
+      setGhVerifyInfo(verified);
+      if (!verified.ok) {
+        setSyncStatus({ phase: 'error', message: verified.reason });
+        toast.push({ message: verified.reason ?? 'Kết nối GitHub thất bại', tone: 'danger' });
+        return;
+      }
+      await syncNow();
+      toast.push({ message: `Đã kết nối và đồng bộ ${verified.fullName}`, tone: 'info' });
+    } catch (error) {
+      const msg = error instanceof Error ? error.message : String(error);
+      toast.push({ message: msg, tone: 'danger' });
+    } finally {
+      setGhBusy(false);
+    }
+  }, [ghBranch, ghOwner, ghPatInput, ghRepo, toast]);
+
+  const handleSyncNow = useCallback(async () => {
+    setGhBusy(true);
+    try {
+      await syncNow();
+      toast.push({ message: 'Đã đồng bộ dữ liệu học tập', tone: 'info' });
+    } catch (error) {
+      const msg = error instanceof Error ? error.message : String(error);
+      toast.push({ message: msg, tone: 'danger' });
+    } finally {
+      setGhBusy(false);
+    }
+  }, [toast]);
+
+  const handleGenerateQr = useCallback(() => {
+    const cfg = getGitHubConfig();
+    const activePat = ghPatInput.trim() || cfg.pat;
+    if (!activePat) {
+      toast.push({ message: 'Hãy lưu Fine-Grained PAT trước khi tạo mã kết nối.', tone: 'warn' });
+      return;
+    }
+    const payload = encodeBase64Utf8(
+      JSON.stringify({
+        owner: ghOwner.trim() || cfg.owner,
+        repo: ghRepo.trim() || cfg.repo,
+        branch: ghBranch.trim() || cfg.branch,
+        pat: activePat,
+      }),
+    );
+    const base = `${window.location.origin}${window.location.pathname}${window.location.search}`;
+    setQrLink(`${base}#/settings?connect=${encodeURIComponent(payload)}`);
+  }, [ghBranch, ghOwner, ghPatInput, ghRepo, toast]);
+
+  const handleForgetToken = useCallback(async () => {
+    setGhBusy(true);
+    try {
+      clearGitHubConfig();
+      await clearPrivateCache();
+      const fresh = getGitHubConfig();
+      setGhOwner(fresh.owner);
+      setGhRepo(fresh.repo);
+      setGhBranch(fresh.branch);
+      setGhPatInput('');
+      setSavedPatMask('');
+      setGhVerifyInfo(null);
+      setQrLink(null);
+      setSyncStatus({ phase: 'disconnected', message: undefined });
+      toast.push({ message: 'Đã quên token và xóa bộ nhớ đệm riêng tư.', tone: 'info' });
+    } finally {
+      setGhBusy(false);
+    }
+  }, [toast]);
 
   useEffect(() => {
     const standaloneMedia = window.matchMedia('(display-mode: standalone)');
@@ -156,6 +262,158 @@ export default function SettingsPage() {
           </button>
         }
       />
+
+      <section className="card prof-section" id="settings-github" aria-labelledby="prof-github">
+        <div className="prof-section-head">
+          <h2 id="prof-github">Kết nối GitHub (<code>Hanyu-data</code>)</h2>
+          <span className="spacer" />
+          <span className={`badge ${syncStatus.phase === 'synced' ? 'badge-ok' : syncStatus.phase === 'error' ? 'badge-danger' : ''}`}>
+            {syncStatus.phase === 'synced'
+              ? 'Đã đồng bộ'
+              : syncStatus.phase === 'syncing'
+                ? 'Đang đồng bộ…'
+                : syncStatus.phase === 'error'
+                  ? 'Lỗi kết nối'
+                  : savedPatMask
+                    ? 'Đã lưu token'
+                    : 'Chưa kết nối'}
+          </span>
+        </div>
+        <p className="prof-help">
+          Kết nối trực tiếp tới kho riêng tư <code>RandomGuy198/Hanyu-data</code> qua GitHub REST API để tải trang sách, bài học, âm thanh và đồng bộ tiến độ giữa các thiết bị.
+        </p>
+        <div className="field">
+          <label htmlFor="gh-pat">
+            Fine-Grained PAT {savedPatMask ? `(Đang lưu: ${savedPatMask})` : '(Chưa lưu)'}
+          </label>
+          <input
+            id="gh-pat"
+            className="input"
+            type="password"
+            autoComplete="off"
+            spellCheck={false}
+            placeholder={savedPatMask ? 'Nhập token mới để thay thế…' : 'Dán Fine-Grained Personal Access Token…'}
+            value={ghPatInput}
+            onChange={(event) => setGhPatInput(event.target.value)}
+          />
+          <span className="help">
+            Chỉ cấp quyền <code>Contents: Read and write</code> cho kho <code>Hanyu-data</code>. Token chỉ lưu cục bộ trên trình duyệt này.
+          </span>
+        </div>
+        <div className="row-wrap">
+          <div className="field" style={{ flex: 1, minWidth: 160 }}>
+            <label htmlFor="gh-owner">Chủ sở hữu (Owner)</label>
+            <input
+              id="gh-owner"
+              className="input"
+              type="text"
+              value={ghOwner}
+              onChange={(event) => setGhOwner(event.target.value)}
+            />
+          </div>
+          <div className="field" style={{ flex: 1, minWidth: 160 }}>
+            <label htmlFor="gh-repo">Kho dữ liệu (Repo)</label>
+            <input
+              id="gh-repo"
+              className="input"
+              type="text"
+              value={ghRepo}
+              onChange={(event) => setGhRepo(event.target.value)}
+            />
+          </div>
+          <div className="field" style={{ width: 120 }}>
+            <label htmlFor="gh-branch">Nhánh (Branch)</label>
+            <input
+              id="gh-branch"
+              className="input"
+              type="text"
+              value={ghBranch}
+              onChange={(event) => setGhBranch(event.target.value)}
+            />
+          </div>
+        </div>
+        {ghVerifyInfo ? (
+          <p className="prof-status" role="status" aria-live="polite">
+            {ghVerifyInfo.ok
+              ? `Đã xác thực ${ghVerifyInfo.fullName} (${ghVerifyInfo.private ? 'Private' : 'Public'}, quyền ghi: ${ghVerifyInfo.canPush ? 'Có' : 'Không'}${ghVerifyInfo.rateLimitRemaining !== undefined ? `, hạn mức API còn: ${ghVerifyInfo.rateLimitRemaining}` : ''}).`
+              : `Lỗi: ${ghVerifyInfo.reason ?? 'Không thể kết nối'}`}
+          </p>
+        ) : null}
+        {syncStatus.lastSyncedAt ? (
+          <p className="text-sm faint">
+            Đồng bộ gần nhất: {new Date(syncStatus.lastSyncedAt).toLocaleString('vi-VN')}
+          </p>
+        ) : null}
+        <div className="row-wrap">
+          <button
+            type="button"
+            className="btn btn-primary btn-sm"
+            disabled={ghBusy}
+            onClick={() => void handleVerifyAndConnect()}
+          >
+            Kiểm tra &amp; Kết nối
+          </button>
+          <button
+            type="button"
+            className="btn btn-sm"
+            disabled={ghBusy || (!savedPatMask && !ghPatInput.trim())}
+            onClick={() => void handleSyncNow()}
+          >
+            Đồng bộ ngay
+          </button>
+          <button
+            type="button"
+            className="btn btn-sm"
+            disabled={ghBusy || (!savedPatMask && !ghPatInput.trim())}
+            onClick={handleGenerateQr}
+          >
+            Tạo mã QR tự đăng nhập thiết bị khác
+          </button>
+          <button
+            type="button"
+            className="btn btn-danger btn-sm"
+            disabled={ghBusy}
+            onClick={() => void handleForgetToken()}
+          >
+            Quên token &amp; xóa bộ nhớ đệm riêng tư
+          </button>
+        </div>
+        {qrLink ? (
+          <div className="card stack" style={{ marginTop: '0.75rem', padding: '0.75rem' }}>
+            <strong>Liên kết tự kết nối thiết bị cá nhân (chỉ dùng cho máy của bạn)</strong>
+            <p className="text-sm muted">
+              Mở liên kết dưới đây trên điện thoại của bạn; ứng dụng sẽ tự lưu cấu hình và xóa ngay tham số khỏi thanh địa chỉ:
+            </p>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 24 24"
+              role="img"
+              aria-label="QR kết nối thiết bị cá nhân"
+              style={{ background: '#fff', padding: 8, borderRadius: 6 }}
+            >
+              <rect x="1" y="1" width="7" height="7" fill="none" stroke="#000" strokeWidth="2" />
+              <rect x="3" y="3" width="3" height="3" fill="#000" />
+              <rect x="16" y="1" width="7" height="7" fill="none" stroke="#000" strokeWidth="2" />
+              <rect x="18" y="3" width="3" height="3" fill="#000" />
+              <rect x="1" y="16" width="7" height="7" fill="none" stroke="#000" strokeWidth="2" />
+              <rect x="3" y="18" width="3" height="3" fill="#000" />
+              <rect x="10" y="10" width="4" height="4" fill="#000" />
+              <rect x="15" y="15" width="3" height="3" fill="#000" />
+              <rect x="10" y="4" width="2" height="4" fill="#000" />
+              <rect x="4" y="10" width="4" height="2" fill="#000" />
+            </svg>
+            <input
+              type="text"
+              className="input"
+              readOnly
+              value={qrLink}
+              onFocus={(e) => e.currentTarget.select()}
+              aria-label="Liên kết tự đăng nhập thiết bị khác"
+            />
+          </div>
+        ) : null}
+      </section>
 
       <section className="card prof-section" aria-labelledby="prof-appearance">
         <div className="prof-section-head">

@@ -13,13 +13,10 @@ import {
   EntryLine,
   LoadingGate,
   PageHeader,
-  ProgressBar,
 } from '../../components';
-import { IconAlert, IconCheck, IconDownload } from '../../app/icons';
-import { formatBytes } from '../../app/hooks';
+import { IconAlert, IconCheck } from '../../app/icons';
 import { useDictionary, usePreferences, useSavedWords, useToast } from '../../app/providers';
 import { db, bumpActivity, todayKey } from '../../data/db';
-import { installPack, type InstallProgress } from '../../data/packs';
 import { inspectSpeech, onVoicesChanged, type SpeechSupport } from '../../data/speech';
 import type { DictEntry } from '../../domain/types';
 import { BlockView, type WordTap } from './ContentBlocks';
@@ -28,7 +25,6 @@ import {
   itemStats,
   loadContentItem,
   useReadMarks,
-  type ContentPackStatus,
 } from './contentSource';
 import './content.css';
 
@@ -55,8 +51,6 @@ export default function ContentPage() {
   const [candidates, setCandidates] = useState<DictEntry[] | null>(null);
   const [scanning, setScanning] = useState(false);
   const [speech, setSpeech] = useState<SpeechSupport>(() => inspectSpeech(prefs.ttsLang));
-  const [busyPack, setBusyPack] = useState<string | null>(null);
-  const [progress, setProgress] = useState<InstallProgress | null>(null);
 
   const item = result?.item;
 
@@ -130,24 +124,6 @@ export default function ContentPage() {
     [item, marks, toggleMark],
   );
 
-  const install = useCallback(
-    async (pack: ContentPackStatus) => {
-      setBusyPack(pack.id);
-      setProgress(null);
-      try {
-        await installPack(pack.descriptor, (next) => setProgress(next));
-        toast.push({ message: `${pack.label} is installed`, tone: 'info' });
-      } catch (error) {
-        const reason = error instanceof Error ? error.message : String(error);
-        toast.push({ message: `${pack.label} could not be downloaded: ${reason}`, tone: 'danger' });
-      } finally {
-        setBusyPack(null);
-        setProgress(null);
-      }
-    },
-    [toast],
-  );
-
   const pinyinHiddenByStyle = prefs.pinyinStyle === 'none';
   const showPinyin = prefs.showPinyin && !pinyinHiddenByStyle;
 
@@ -162,7 +138,7 @@ export default function ContentPage() {
       <PageHeader
         title="This item is not on this device"
         back={{ label: 'Back to Learn', to: '/learn' }}
-        subtitle={`Nothing in the installed content packs has the id “${id}”.`}
+        subtitle={`Nothing in the content packs has the id “${id}”.`}
       />
       <EmptyState
         icon={<IconAlert />}
@@ -170,7 +146,7 @@ export default function ContentPage() {
         detail={
           result.registryError
             ? `The pack registry could not be read: ${result.registryError}`
-            : 'This app only shows lessons written for it, straight out of an installed pack. It will not substitute text it does not have, so an unknown or uninstalled item is simply missing.'
+            : 'This app only shows lessons written for it, straight out of a verified content pack. It will not substitute text it does not have.'
         }
         action={
           <Link to="/learn" className="btn btn-sm btn-primary">
@@ -178,42 +154,6 @@ export default function ContentPage() {
           </Link>
         }
       />
-      {result.packs.filter((pack) => !pack.installed).length > 0 ? (
-        <section className="card">
-          <h2>Content packs missing on this device</h2>
-          <p className="text-sm muted">
-            Installing one of these may be what brings this item back.
-          </p>
-          {result.packs
-            .filter((pack) => !pack.installed)
-            .map((pack) => (
-              <div className="learn-pack-row" key={pack.id}>
-                <strong>{pack.label}</strong>
-                <span className="text-sm faint">
-                  {formatBytes(pack.bytes)} · v{pack.version}
-                </span>
-                <span className="spacer" />
-                <button
-                  type="button"
-                  className="btn btn-sm btn-primary"
-                  disabled={busyPack !== null}
-                  onClick={() => void install(pack)}
-                >
-                  <IconDownload /> {busyPack === pack.id ? 'Downloading…' : 'Download'}
-                </button>
-              </div>
-            ))}
-          {busyPack && progress ? (
-            <div role="status" aria-live="polite">
-              <ProgressBar value={progress.bytes} total={progress.totalBytes} label="Downloading pack" />
-              <p className="text-sm faint">
-                File {progress.file} of {progress.files} ({formatBytes(progress.bytes)} of{' '}
-                {formatBytes(progress.totalBytes)})
-              </p>
-            </div>
-          ) : null}
-        </section>
-      ) : null}
       {result.problems.length > 0 ? (
         <p className="notice notice-warn text-sm" role="alert">
           <IconAlert /> {result.problems.join(' · ')}

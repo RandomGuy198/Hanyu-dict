@@ -1,2048 +1,2048 @@
-5c40局júguk6bureau, office; circumstance44'4
-5c41屁pìpei3break wind; fart; buttocks44'4
-5c42层céngcang4story, layer, floor, stratum44'45C64
-5c43屃xìai3gigantic strength; hercules44'45C53
-5c44屄bībei1the vagina44'5
-5c45居jūgeoi1live, dwell, reside, sit44'5
-5c46屆jiègaai3numerary adjunct for time, term44'55C4A
-5c47屇tiántin4cave; hole44'5
-5c48屈qūwat1bend, flex; bent, crooked; crouch44'5
-5c49屉tìtai3drawer; tray; pad; screen44'55C5C
-5c4a届jiègaai3numerary adjunct for time, term44'55C4A5C46 5C4A
-5c4b屋wūuk1house; room; building, shelter44'6
-5c4c屌diǎodiu2(Cant.) obscene exclamation44'6
-5c4d屍shīsi1corpse, carcass44'65C38
-5c4e屎shǐsi2excrement, shit, dung44'6
-5c4f屏píngping4folding screen, shield44'6
-5c50屐jīkek6wooden shoes, clogs44'7
-5c51屑xièsit3bits, scraps, crumbs, fragments44'7
-5c52屒zhěnzan244'7
-5c53屓xièai3gigantic strength; hercules44'75C43
-5c54屔nínai444'7
-5c55展zhǎnzin2open, unfold; stretch, extend44'7
-5c56屖xīsai144'7
-5c57屗wěicyun344'7
-5c58屘mǎnmei1the youngest44'7
-5c59屙ēo1to ease nature44'8
-5c5a屚lòulau644'8
-5c5b屛píngbing2folding screen44'8
-5c5c屜tìtai3drawer; tray; pad; screen44'85C49
-5c5d屝fèifei2straw shoes; straw door44'8
-5c5e属shǔsuk6class, category, type; belong to44'95C5E5C5E 5C6C
-5c5f屟xièsit3wooden shoes, clogs44'9
-5c60屠tútou4butcher, slaughter, massacre44'9
-5c61屡lǚleoi5frequently, often, again and again44'95C615C61 5C62
-5c62屢lǚleoi5frequently, often, again and again44'115C61
-5c63屣xǐsaai2straw sandals or slippers that have no heel-backs44'11
-5c64層céngcang4story, layer, floor, stratum44'125C42
-5c65履lǚlei5footwear, shoes; walk on, tread; hexagram ䷉44'12
-5c66屦jùgeoi3straw sandals; tread on44'125C68
-5c67屧xièsit3wooden shoes, clogs44'12
-5c68屨jùgeoi3straw sandals; tread on44'145C66
-5c69屩juēgoek3straw sandals44'152AA17
-5c6a屪liáoliu4penis44'15
-5c6b屫juégoek344'16
-5c6c屬shǔsuk6class, category, type; to belong to44'185C5E
-5c6d屭xìai3gigantic strength44'21
-5c6e屮chècit3sprout; Kangxi radical 4545'0
-5c6f屯túntyun4village, hamlet; camp; station; hexagram ䷂45'1
-5c70屰nìjik6disobedient45'3
-5c71山shānsaan1mountain, hill, peak46'0
-5c72屲wāsaan146'1
-5c73屳xiānsin146'2
-5c74屴lìlik6lofty46'2
-5c75屵èngaat646'2
-5c76屶huìwui6lofty46'2
-5c77屷huìwui646'2
-5c78屸lónglung446'3
-5c79屹yìngat6to rise high; to stand erect46'3
-5c7a屺qǐhei2a hill with trees or grass-- some give the opposite meaning46'3
-5c7b屻rènjan6(Cant.) sharp46'3
-5c7c屼wùngat6mountain; a bare hill46'3
-5c7d屽hànhon646'3
-5c7e屾shēnsan146'3
-5c7f屿yǔzeoi6island46'35DBC
-5c80岀chūceot1go out46'3
-5c81岁suìseoi3year; age; harvest46'35C815C81 6B72
-5c82岂qǐhei2how? what?46'38C48
-5c83岃rènjan646'3
-5c84岄yuèjyut646'4
-5c85岅bǎnbaan2mountain slope46'4
-5c86岆yǎojiu246'4
-5c87岇ángngong446'4
-5c88岈yángaa4嵖岈山, a mountain in Suìpíng county, Hénán46'4
-5c89岉wùmat646'4
-5c8a岊jiézit3foothill46'4
-5c8b岋èngap646'4
-5c8c岌jíkap1perilous, hazardous; high, steep46'4
-5c8d岍qiānhin1a mountain in Shaanxi46'6
-5c8e岎fénfan446'4
-5c8f岏wánjyun446'4
-5c90岐qíkei4high; majestic; fork in road46'4
-5c91岑cénsam4steep, precipitous; peak46'4
-5c92岒qiánkim446'4
-5c93岓qíkei446'4
-5c94岔chàcaa3diverge, branch off; fork in road46'4
-5c95岕jiègaai346'4
-5c96岖qūkeoi1steep, sheer; rugged, rough46'45D87
-5c97岗gǎnggong1post; position46'45D17
-5c98岘xiànjin6steep hill; mountain in Hubei46'45CF4
-5c99岙àoou3island46'45DB4
-5c9a岚lánlaam4mountain mist, mountain haze46'45D50
-5c9b岛dǎodou2island46'45CF6
-5c9c岜bābaa1rock mountain46'4
-5c9d岝zuòzok3name of a mountain in Shandong46'5
-5c9e岞zuòzok3a mountain in Chāngyì county, Shāndōng46'5
-5c9f岟yǎngjoeng246'5
-5ca0岠jùgeoi646'5
-5ca1岡gānggong1ridge or crest of hill46'55188
-5ca2岢kěho2a county in Shānxī46'5
-5ca3岣gǒugau2a hill in Hunan46'5
-5ca4岤xuéjyut646'5
-5ca5岥pō46'5
-5ca6岦lìlaap646'5
-5ca7岧tiáotiu4peak; cliff; precipice46'5
-5ca8岨qūzeoi1uneven46'5
-5ca9岩yánngaam4cliff; rocks; mountain46'5
-5caa岪fúfat646'5
-5cab岫xiùzau6mountain peak; cave, cavern46'5
-5cac岬jiǎgaap3cape; promontory, headland46'5
-5cad岭lǐngling5mountain ridge, mountain peak46'55DBA
-5cae岮tuóto446'5
-5caf岯pípei446'5
-5cb0岰àoau346'5
-5cb1岱dàidoi6Daishan, one of the Five Sacred Mountains in China46'5
-5cb2岲kuàngfong346'5
-5cb3岳yuèngok6mountain peak; surname46'5
-5cb4岴qūkeoi146'5
-5cb5岵hùwu6hill46'5
-5cb6岶pòpaak346'5
-5cb7岷mínman4Minshan mountain range in northern Sichuan and southern Gansu, Min River46'5
-5cb8岸ànngon6bank, shore; beach, coast46'5
-5cb9岹tiáotiu4peak; cliff, precipice46'5
-5cba岺língling4mountain ridge, mountain peak46'5
-5cbb岻chíci446'5
-5cbc岼píngping446'5
-5cbd岽dōngdung1place name in Guangxi province46'55D2C
-5cbe岾hànzim1mountain pass (Korean)46'5
-5cbf岿kuīkwai1grand, stately; secure, lasting46'55DCB
-5cc0峀xiùbong1mountain peak; cave, cavern46'5
-5cc1峁mǎomaau5yellow dirt mount46'5
-5cc2峂tóngtung4name of a place in Běijīng's Shìhǎidiàn district46'5
-5cc3峃xuéhok6big rocky mountain46'55DA8
-5cc4峄yìjik6a range of peaks in Shandong and Jiangsu; the name of a mountain46'55DA7
-5cc5峅biànbin646'5
-5cc6峆héhap646'6
-5cc7峇bābaa1cave, cavern46'6
-5cc8峈luòlok646'6
-5cc9峉èngaak646'6
-5cca峊fùfau646'6
-5ccb峋xúnseon1ranges of hills stretching on beyond another irregular peaks46'6
-5ccc峌diédit646'6
-5ccd峍lùleot646'6
-5cce峎ěnjan246'6
-5ccf峏érji446'6
-5cd0峐gāigoi146'6
-5cd1峑quāncyun146'6
-5cd2峒dòngtung4mountain in Gansu province46'6
-5cd3峓yíji446'6
-5cd4峔mǔmou546'6
-5cd5峕shísi446'6
-5cd6峖ānon146'6
-5cd7峗wéingai446'6
-5cd8峘huánwun446'6
-5cd9峙zhìzi6stand erect, stand up; pile up46'6
-5cda峚mìmat646'6
-5cdb峛liè lǐlei546'6
-5cdc峜jìgai346'6
-5cdd峝tóngtung4Mountain in Gansu province46'6
-5cde峞wéingai4high and uneven46'6
-5cdf峟yòujau646'6
-5ce0峠qiǎkaa1mountain pass; crisis, climax46'6
-5ce1峡xiáhaap6gorge, strait, ravine; isthmus46'65CFD
-5ce2峢lǐlit646'6
-5ce3峣yáojiu4high or tall46'65DA2
-5ce4峤jiàogiu6high pointed mountain46'65DA0
-5ce5峥zhēngzang1high, lofty, noble; steep, perilous46'65D22
-5ce6峦luánlyun4mountain range; pointed mountain46'65CE65CE6 5DD2
-5ce7峧jiāogaau1used in place names46'6
-5ce8峨éngo4lofty46'7
-5ce9峩éngo4lofty46'7
-5cea峪yùjuk6valley, ravine46'7
-5ceb峫xiéje4mountain in Shandong province46'7
-5cec峬būbou146'7
-5ced峭qiàociu3steep, precipitous, rugged46'7
-5cee峮qūnkwan146'7
-5cef峯fēngfung1peak, summit; hump of camel46'7
-5cf0峰fēngfung1peak, summit; hump of camel46'7
-5cf1峱náonaau4name of a mountain in Shāndōng46'7
-5cf2峲lǐlei546'7
-5cf3峳yóujau446'7
-5cf4峴xiànjin6steep hill; mountain in Hubei46'75C98
-5cf5峵róngwing446'7
-5cf6島dǎodou2island46'75C9B
-5cf7峷shēnsan146'7
-5cf8峸chéngsing446'7
-5cf9峹tútou446'7
-5cfa峺gěnggang246'7
-5cfb峻jùnzeon3high, steep, towering; stern46'7
-5cfc峼gàokuk146'7
-5cfd峽xiáhaap6gorge, strait, ravine; isthmus46'75CE1
-5cfe峾yínngan446'7
-5cff峿wújyu5mountain46'7
-5d00崀lànglong6place name in Hunan province46'7
-5d01崁kànham3a place in Taiwan Tainan46'7
-5d02崂láolou4Laoshan, mountain in Shandong46'75D97
-5d03崃láiloi4mountain in Sichuan province46'75D0D
-5d04崄xiǎnhim2high, steep, precipitous46'75DAE
-5d05崅quègok346'7
-5d06崆kōnghung1Kongtong mountain46'8
-5d07崇chóngsung4esteem, honor, revere, venerate46'8
-5d08崈chóngsung4esteem, honor, revere, venerate46'8
-5d09崉tàdaap646'8
-5d0a崊línlam446'8
-5d0b崋huàwaa4flowery; illustrious; Chinese46'8
-5d0c崌jūgeoi1mountain name46'8
-5d0d崍láiloi4mountain in Sichuan province46'85D03
-5d0e崎qíkei1rough, uneven, jagged, rugged46'8
-5d0f崏mínman446'8
-5d10崐kūnkwan1Kunlun mountains in Jiangsu46'8
-5d11崑kūnkwan1Kunlun mountains in Jiangsu province.46'8
-5d12崒zúzyut6rocky peaks; lofty and dangerous46'8
-5d13崓gùgu346'8
-5d14崔cuīceoi1high, lofty, towering; surname46'8
-5d15崕yángaai4cliff, precipice; precipitous46'8
-5d16崖yángaai4cliff, precipice; precipitous46'8
-5d17崗gǎnggong1post; position46'85C97
-5d18崘lúnleon4Kunlun mountains in Jiangsu46'8
-5d19崙lúnleon4Kunlun mountains in Jiangsu46'82AA27
-5d1a崚léngling4hilly, steep, rugged46'8
-5d1b崛juégwat6towering, eminent; rise abruptly46'8
-5d1c崜duōdo146'8
-5d1d崝zhēngzang146'8
-5d1e崞guōgwok3mountain in Shanxi46'8
-5d1f崟yínjam4cliffs46'8
-5d20崠dōngdung3place name in Guangxi province46'83038F
-5d21崡hánhaam446'8
-5d22崢zhēngzang1high, lofty, noble; steep, perilous46'85CE5
-5d23崣wěiwai246'8
-5d24崤xiáongaau4mountain in Henan46'8
-5d25崥pípei446'8
-5d26崦yānjim1a mountain in Kansu, where there is a cave into which the sun is said to sink at night46'8
-5d27崧sōngsung1high mountain; lofty, eminent46'8
-5d28崨jiézip646'8
-5d29崩bēngbang1rupture, split apart, collapse46'8
-5d2a崪zúzyut6rocky peaks; lofty and dangerous46'8
-5d2b崫kūfat1high and lofty (mountains)46'8
-5d2c崬dōngdung1place name in Guangxi province46'85CBD
-5d2d崭zhǎnzaam2high, steep, precipitous; new46'85D84
-5d2e崮gùgu3a mesa, hill with flat top and steep sides46'8
-5d2f崯yínjam4cliffs46'8
-5d30崰zīzi146'8
-5d31崱zèzak1lofty46'930396
-5d32崲huángwong446'9
-5d33崳yújyu4county in Shandong province46'9
-5d34崴wǎiwai1high, lofty; precipitous46'9
-5d35崵yángjoeng446'92BD75
-5d36崶fēngfung146'9
-5d37崷qiúcau446'9
-5d38崸yángngong446'9
-5d39崹títai446'9
-5d3a崺yǐji546'9
-5d3b崻zhìzi646'9
-5d3c崼shìsi646'9
-5d3d崽zǎizai2a child, a servant; a diminutive46'9
-5d3e崾yào yǎojiu5place name in Shanxi province46'9
-5d3f崿èngok6cliffs46'9
-5d40嵀zhùcyu546'9
-5d41嵁kānham1rugged46'9
-5d42嵂lǜleot6lofty46'9
-5d43嵃yǎnjin546'9
-5d44嵄měimei546'9
-5d45嵅hánhaam446'9
-5d46嵆jīkai1mountain in Henan; surname46'9
-5d47嵇jīkai1mountain in Henan; surname46'9
-5d48嵈huànwun646'9
-5d49嵉tíngting446'9
-5d4a嵊shèngsing6district in Shaohsing, Chekiang46'10
-5d4b嵋méimei4Omei mountain in Sichuan46'9
-5d4c嵌qiànham3inlay, set in; fall into; rugged46'9
-5d4d嵍wùmou646'9
-5d4e嵎yújyu4mountain recess; canyon46'9
-5d4f嵏zōngzung1a mountain in Shenxi46'9
-5d50嵐lánlaam4mountain mist, mountain haze46'95C9A
-5d51嵑kěhot346'9
-5d52嵒yánngaam4cliff; soar46'9
-5d53嵓yánngaam446'9
-5d54嵔wěiwai346'9
-5d55嵕zōngzung146'9
-5d56嵖chácaa4name of a mountain; (Cant.) to obstruct46'9
-5d57嵗suìseoi3year; age; harvest46'9
-5d58嵘róngwing4high, steep; lofty, towering46'95DB8
-5d59嵙kēfo1place name46'9
-5d5a嵚qīnjam1lofty, towering46'95D94
-5d5b嵛yújyu4county in Shandong province46'9
-5d5c嵜qíkei1rough, uneven, jagged, rugged46'9
-5d5d嵝lǒulau5Goulou mountain peak in Hunan46'95D81
-5d5e嵞tútou446'10
-5d5f嵟duīdeoi146'10
-5d60嵠xīkai1a valley with a stream in it; a gorge46'10
-5d61嵡wěngjung246'10
-5d62嵢cāngcong146'10
-5d63嵣dàngdong646'10
-5d64嵤róngwing446'10
-5d65嵥jiégit646'10
-5d66嵦kǎihoi2a raised site; pleasant46'10
-5d67嵧liúlau446'10
-5d68嵨wùwu246'10
-5d69嵩sōngsung1high, lofty; one of the 5 peaks, situated in Hunan46'10
-5d6a嵪qiāohiu146'10
-5d6b嵫zīzi1a hill in Shantung46'10
-5d6c嵬wéingai4high; rugged, rocky, precipitous46'10
-5d6d嵭bēngbang146'10
-5d6e嵮diāndin146'10
-5d6f嵯cuóco1high, towering; irregular, rugged46'10
-5d70嵰qiǎnhim246'10
-5d71嵱yǒng46'10
-5d72嵲nièjit6towering mountain46'10
-5d73嵳cuóco1high, towering; irregular, rugged46'10
-5d74嵴jǐzek3mountain ridge46'10
-5d75嵵shízi646'10
-5d76嵶ruòjoek6low part of a mountain46'10
-5d77嵷sǒngsung246'113038C
-5d78嵸zōngzung146'1121D5D
-5d79嵹jiàngkoeng446'11
-5d7a嵺liáoliu446'11
-5d7b嵻kānghong146'11
-5d7c嵼chǎncaan246'1121DB4
-5d7d嵽diédit6towering; a tall mountain46'112BD87
-5d7e嵾cēncam1uneven46'1137E5
-5d7f嵿dǐngding246'11
-5d80嶀tūtou146'11
-5d81嶁lǒulau5Goulou mountain peak in Hunan46'115D5D
-5d82嶂zhàngzoeng3cliff; mountain barrier46'11
-5d83嶃zhǎnzaam2a cliff, a peak46'11
-5d84嶄zhǎnzaam2high, steep, precipitous; new46'115D2D
-5d85嶅áongou4numerous small rocks on a mountain; used in mountain and place names46'11
-5d86嶆cáocou446'11
-5d87嶇qūkeoi1steep, sheer; rugged, rough46'115C96
-5d88嶈qiāngcoeng146'1121E83
-5d89嶉cuīceoi146'11
-5d8a嶊zuǐzeoi246'11
-5d8b嶋dǎodou2island46'11
-5d8c嶌dǎodou2island46'11
-5d8d嶍xízaap6a mountain in Yúnnán46'11
-5d8e嶎yùwai3luxuriant, elegant46'11
-5d8f嶏pèipui346'12
-5d90嶐lónglung446'12
-5d91嶑xiàngzoeng646'12
-5d92嶒céngcang4towering, lofty, steep46'12
-5d93嶓bōbo1Boshan, mountain in Shaanxi46'12
-5d94嶔qīnjam1lofty, towering46'125D5A
-5d95嶕jiāociu446'12
-5d96嶖yānjim146'12
-5d97嶗láolou4Laoshan, mountain in Shandong46'125D02
-5d98嶘zhànzaan646'12
-5d99嶙línleon4precipitous46'12
-5d9a嶚liáoliu446'12
-5d9b嶛liáoliu446'12
-5d9c嶜jīnzam146'12
-5d9d嶝dèngdang3path leading up a mountain46'12
-5d9e嶞duòdo6ridge46'12
-5d9f嶟zūnzeon146'12
-5da0嶠jiàogiu6high pointed mountain46'125CE4
-5da1嶡guìgwai3table46'12
-5da2嶢yáojiu4high or tall46'125CE3
-5da3嶣jiāociu446'12
-5da4嶤yáojiu446'1230394
-5da5嶥juégwai346'12
-5da6嶦shàn zhānzim146'13
-5da7嶧yìjik6a range of peaks in Shandong and Jiangsu; the name of a mountain46'135CC4
-5da8嶨xuéhok6big rocky mountain46'135CC3
-5da9嶩náonaau4a mountain in Shāndōng46'133039E
-5daa嶪yèjip646'1330391
-5dab嶫yèjip646'13
-5dac嶬yíngai446'13
-5dad嶭nièjit6elevated, lofty46'13
-5dae嶮xiǎnhim2high, steep, precipitous46'135D04
-5daf嶯jícap146'13
-5db0嶰xièhaai5gorge46'13
-5db1嶱kěgot346'13
-5db2嶲xīkwai1a name of an old town in Sichuan; cuckoo; revolution of a wheel46'13
-5db3嶳dìdei646'13
-5db4嶴àoou3island46'135C99
-5db5嶵zuǐzeoi246'13
-5db6嶶wēimei446'13
-5db7嶷yíji4a range of mountains in Hunan province46'14
-5db8嶸róngwing4high, steep; lofty, towering46'145D58
-5db9嶹dǎodou246'142B775
-5dba嶺lǐngling5mountain ridge, mountain peak46'145CAD
-5dbb嶻jiézit346'16
-5dbc嶼yǔzeoi6island; (Cant.) 大嶼山 daai6jyu4saan1 Lantau Island46'145C7F
-5dbd嶽yuèngok6mountain peak, summit46'14303AB
-5dbe嶾yǐnjan246'14
-5dbf嶿ruseoi146'14
-5dc0巀jiézit346'15
-5dc1巁lìlai646'15
-5dc2巂guīkwai1place name46'15
-5dc3巃lónglung4lofty46'163038E
-5dc4巄lónglung446'16
-5dc5巅diāndin1summit of mountain, mountain top46'165DD4
-5dc6巆róngwing446'172BD95
-5dc7巇xīhei1a crack; hazardous46'17
-5dc8巈júguk146'17
-5dc9巉cháncaam4steep, rugged, jagged, precipitous46'17
-5dca巊yǐngjing246'172AA4E
-5dcb巋kuīkwai1grand, stately; secure, lasting46'175CBF
-5dcc巌yánngaam4cliff, precipice; cave, grotto46'17
-5dcd巍wēingai4high, lofty, majestic, eminent46'18
-5dce巎náonaau4used in personal names46'19
-5dcf巏quánkyun446'18
-5dd0巐chǎociu246'18
-5dd1巑cuáncyun446'19303C1
-5dd2巒luánlyun4mountain range; pointed mountain46'195CE6
-5dd3巓diāndin1summit of mountain46'19
-5dd4巔diāndin1summit of mountain, mountain top46'195DC5
-5dd5巕nièjit646'19
-5dd6巖yánngaam4cliff, precipice; cave, grotto46'20303A0
-5dd7巗yánngaam4cliff, precipice; cave, grotto46'192AA37
-5dd8巘yǎnjin2summit, peak46'202AA58
-5dd9巙kuínaau446'20
-5dda巚yǎnjin246'20303B9
-5ddb巛chuāncyun1river; Kangxi radical 4747'0
-5ddc巜kuàikui247'
-5ddd川chuāncyun1stream, river; flow; boil47'0
-5dde州zhōuzau1administrative division, state47'3
-5ddf巟huāngfong1a watery waste; to reach47'3
-5de0巠jīngging1streams running underground; flowing water47'422016
-5de1巡xúnceon4patrol, go on circuit, cruise162'3
-5de2巢cháocaau4nest, living quarter in tree47'8
-5de3巣cháocaau4nest, living quarter in tree47'8
-5de4巤lièlip6a mane; bristles, as on a hog; dorsal fins47'12
-5de5工gōnggung1labor, work; worker, laborer48'0
-5de6左zuǒzo2left; east; unorthodox, improper48'2
-5de7巧qiǎohaau2skillful, ingenious, clever48'2
-5de8巨jùgeoi6large, great, enormous; chief48'2
-5de9巩gǒnggung2bind; firm, secure, strong48'3978F
-5dea巪jùgeoi6person's name48'3
-5deb巫wūmou4wizard, sorcerer, witch, shaman48'4
-5dec巬pugei148'6
-5ded巭pugung1study48'6
-5dee差chà chācaa1to differ; different, wrong; nearly, almost; an officer48'7
-5def巯qiúkau4an atom group48'95DF0
-5df0巰qiúkau4an atom group48'105DEF
-5df1己jǐgei2self, oneself; personal, private; 6th heavenly stem49'0
-5df2已yǐji5already; finished; stop49'0
-5df3巳sìzi6sixth earthly branch49'0
-5df4巴bābaa1greatly desire, anxiously hope49'1
-5df5巵zhīzi1measuring cup; wine container49'4
-5df6巶zhāociu149'5
-5df7巷xiànghong6alley, lane49'6
-5df8巸yíji449'6
-5df9巹jǐngan249'6
-5dfa巺xùnseon35th of the 8 trigrams; South-east; mild, modest, obedient49'6
-5dfb巻juàngyun2scroll; curl; make a comeback49'6
-5dfc巼bābaa1place name49'7
-5dfd巽xùnseon3south-east; mild, modest, obedient; trigram ☴; hexagram ䷸49'9
-5dfe巾jīngan1kerchief; towel; turban; Kangxi radical 5050'0
-5dff巿fúfat1revolve, make circuit, turn50'1
-5e00帀zāzaap3to go round, to make a circuit, to make a revolution, to turn round50'1
-5e01币bìbai6currency, coins, legal tender50'15E63
-5e02市shìsi5market, fair; city, town; trade50'2
-5e03布bùbou3cotton cloth, textiles, linen50'2
-5e04帄dīngding150'2
-5e05帅shuàiseoi3commander, commander-in-chief50'25E25
-5e06帆fān fánfaan4sail; boat50'3
-5e07帇niènip650'3
-5e08师shīsi1teacher, master, specialist50'35E085E08 5E2B
-5e09帉fēnfan150'4
-5e0a帊pàpaa3napkin, kerchief50'4
-5e0b帋zhǐzi2paper; stationary; document50'4
-5e0c希xīhei1rare; hope, expect, strive for50'4
-5e0d帍hùwu650'4
-5e0e帎dàndaam3(Cant.) a way of playing snooker with the stick on top of one's thumb50'4
-5e0f帏wéiwai4curtain that forms wall50'45E43
-5e10帐zhàngzoeng3tent; screen, mosquito net50'45E33
-5e11帑tǎngtong2a treasury; public funds50'5
-5e12帒dàidoi6a bag, a sack; a case; a pocket, a pouch50'5
-5e13帓mòmat650'5
-5e14帔pèipei3a skirt; long robe for women, having no sleeves and fasten down the front50'5
-5e15帕pàpaak3turban, kerchief, veil; wrap50'5
-5e16帖tiētip3invitation card; notice50'5
-5e17帗bōfat1a multicolored prop used in dancing50'5
-5e18帘liánlim4flag-sign of a tavern50'55E185E18 7C3E
-5e19帙zhìdit6book cover; satchel or bag50'5
-5e1a帚zhǒuzau2broom, broomstick50'5
-5e1b帛bóbaak6silks, fabrics; wealth, property50'5
-5e1c帜zhìci3flag, pennant; sign; fasten50'55E5F
-5e1d帝dìdai3supreme ruler, emperor; god50'6
-5e1e帞mòmak650'6
-5e1f帟yìjik6tent50'6
-5e20帠yìjit650'6
-5e21帡píngping4shelter, screen, awning50'6
-5e22帢qiàhap1a silk hat worn by ancient scholars50'6
-5e23帣juǎngyun3bag50'6
-5e24帤rújyu450'6
-5e25帥shuàiseoi3commander, commander-in-chief50'65E05
-5e26带dàidaai3belt, girdle, band, strap, zone50'65E36
-5e27帧zhēnzing3picture, scroll; one of pair of50'65E40
-5e28帨shuìseoi3handkerchief, kerchief, shawl50'7
-5e29帩qiàociu350'7
-5e2a帪zhēnzan150'7
-5e2b師shīsi1teacher, master, specialist; multitude, troops; hexagram ䷆50'75E08
-5e2c帬qúnkwan4the skirt of a lady's dress; petticoat50'7
-5e2d席xízik6seat; mat; take seat; banquet50'7
-5e2e帮bāngbong1help, assist; defend; shoe upper50'75E2E5E2E 5E6B
-5e2f帯dàidaai3belt50'7
-5e30帰guīgwai1return; return to, revert to50'7
-5e31帱chóucau4cover up; curtain50'75E6C
-5e32帲píngping4shelter50'8
-5e33帳zhàngzoeng3tent; screen, mosquito net50'85E10
-5e34帴sànzin250'8303D5
-5e35帵wānwun1remnants, tailor's cutting50'8
-5e36帶dàidaai3belt, girdle, band, strap, zone50'85E26
-5e37帷wéiwai4tent; curtain, screen50'8
-5e38常chángsoeng4common, normal, frequent, regular50'8
-5e39帹shàsaap350'8
-5e3a帺qíkei450'8
-5e3b帻zézik1turban; conical cap50'85E58
-5e3c帼guógwok3women's headgear; mourning cap50'85E57
-5e3d帽màomou6hat, cap; cap-like tops50'9
-5e3e帾dǔdou250'9
-5e3f帿hóuhau4marquis, lord; target in archery50'9
-5e40幀zhèngzing3picture, scroll; one of pair of50'95E27
-5e41幁xūseoi150'9
-5e42幂mìmik6cover-cloth, cover with cloth50'95E4251AA 5E42
-5e43幃wéiwai4curtain that forms wall50'95E0F
-5e44幄wòak1tent; mosquito net50'9
-5e45幅fúfuk1piece, strip, breadth of, hem50'9
-5e46幆yìai350'9
-5e47幇bāngbong1help, assist; defend; shoe upper50'9
-5e48幈píngping4a folding screen50'11
-5e49幉diéjip650'9
-5e4a幊gōnggung150'10
-5e4b幋pánpun4belt50'10
-5e4c幌huǎngfong2curtain, cloth screen50'10
-5e4d幍tāotou150'10
-5e4e幎mìmik6cover-cloth, cover with cloth50'10
-5e4f幏jiàgaa350'10
-5e50幐téngtang4130'9
-5e51幑huīfai1(same as 徽 揮) mark; sign; indication; flags; pennants, streamers, etc., to prance, to brandish, to shake; to rattle, name of a flag50'11
-5e52幒zhōngzung150'11
-5e53幓shānsaam1(simplified form of 幓; same as 縿) the long bands or ribbons attached to flags and banners (same as 襂) the feather decorated carriages or dresses; flapping and dangling, headdress used by man in ancient times50'11384E
-5e54幔mànmaan6curtain, screen, tent50'11
-5e55幕mùmok6curtain, screen, tent50'11
-5e56幖biāobiu150'11
-5e57幗guógwok3women's headgear; mourning cap50'115E3C
-5e58幘zézik1turban; conical cap50'115E3B
-5e59幙mùmok6a curtain, a screen50'11
-5e5a幚bāngbong1help, assist; defend; shoe upper50'12
-5e5b幛zhàngzoeng3scroll of silk or cloth bearing a congratulatory message50'11
-5e5c幜jǐngging250'12
-5e5d幝chǎncin250'12
-5e5e幞fúfuk6turban50'12
-5e5f幟zhìci3flag, pennant; sign; fasten50'125E1C
-5e60幠hūfu1cover50'122D613
-5e61幡fānfaan1pennant, banner, streamer, flag50'12
-5e62幢chuángcong4carriage curtain; sun screen50'12
-5e63幣bìbai6currency, coins, legal tender50'125E01
-5e64幤bìbai6evil, wrong, bad; criminal50'12
-5e65幥zhǎngzoeng250'12
-5e66幦mìmik6cover50'13
-5e67幧qiāociu150'13
-5e68幨chāncim1curtain50'13
-5e69幩fénfan4trappings50'132AA78
-5e6a幪méngmung4cover, shelter, screen; protect50'14
-5e6b幫bāngbong1to help, assist; to defend; shoe upper50'145E2E
-5e6c幬chóucau4cover up; curtain50'145E31
-5e6d幭mièmit6cover50'15
-5e6e幮chúcyu4a screen used to make a temporary kitchen50'15
-5e6f幯jiézit350'15
-5e70幰xiǎnhin2curtain at front of carriage50'162BDC9
-5e71幱lánlaan4official dress50'17303DF
-5e72干gàngon1oppose, offend; invade; dried51'05E724E7E 5E72 5E79
-5e73平píngping4flat, level, even; peaceful51'2
-5e74年niánnin4year; new-years; person's age51'3
-5e75幵jiānhin1even level. to raise in both hands51'3
-5e76并bìngbing6combine, annex; also, what's more51'55E764E26 4F75 5E76
-5e77幷bìngbing6combine51'5
-5e78幸xìnghang6luck(ily), favor, fortunately51'5
-5e79幹gàngon3trunk of tree or of human body51'105E72
-5e7a幺yāojiu1one; tiny, small52'04E48
-5e7b幻huànwaan6illusion, fantasy, mirage52'1
-5e7c幼yòujau3infant, young child; immature52'2
-5e7d幽yōujau1quiet, secluded, tranquil; dark52'6
-5e7e幾jǐgei2how many? how much?; a few, some52'951E0
-5e7f广guǎnggwong2wide, extensive, broad; rad. 5353'05E7F5E7F 5EE3
-5e80庀pǐpei2to prepare; to regulate to hand up53'2
-5e81庁tīngting1hall, central room53'2
-5e82庂zèzak153'2
-5e83広guǎnggwong2broad, wide, extensive53'2
-5e84庄zhuāngzong1village, hamlet; villa, manor53'35E845E84 838A
-5e85庅mómo1an interrogative particle53'3
-5e86庆qìnghing3congratulate, celebrate53'36176
-5e87庇bìbei3cover, shield, shelter, protect53'4
-5e88庈qínkam4used in person's names53'4
-5e89庉dùna village; to dwell together53'4
-5e8a床chuángcong4bed, couch; framework, chassis53'4
-5e8b庋guǐgwai2a cupboard or pantry to store53'4
-5e8c庌yǎngaa553'4
-5e8d庍bàibaai353'4
-5e8e庎jiègaai353'4
-5e8f序xùzeoi6series, serial order, sequence53'4
-5e90庐lúlou4hut, cottage; name of a mountain53'45E905E90 5EEC
-5e91庑wǔmou5corridor, hallway; luxuriant53'45EE1
-5e92庒zhuāngzong153'4
-5e93库kùfu3armory, treasury, storehouse53'45EAB
-5e94应yīngjing3should, ought to, must53'45E945E94 61C9
-5e95底dǐdai2bottom, underneath, underside53'5
-5e96庖páopaau4kitchen; cooking, cuisine53'5
-5e97店diàndim3shop, store; inn, hotel53'5
-5e98庘yāaap353'4
-5e99庙miàomiu6temple, shrine; imperial court53'55E995E99 5EDF
-5e9a庚gēnggang17th heavenly stem53'5
-5e9b庛cìci353'5
-5e9c府fǔfu2prefecture; prefect; government53'5
-5e9d庝tóngtung453'5
-5e9e庞pángpong4disorderly, messy; huge, big53'59F90
-5e9f废fèifai3abrogate, terminate, discard53'55EE2
-5ea0庠xiángcoeng4village school; teach53'6
-5ea1庡yǐji253'6
-5ea2庢zhìzat653'6
-5ea3庣tiāotiu153'6
-5ea4庤zhìzi6prepare53'6
-5ea5庥xiūjau1shade; shelter, protection53'6
-5ea6度dùdou6degree, system; manner; to consider53'6
-5ea7座zuòzo6seat; stand, base53'7
-5ea8庨xiāohaau153'7
-5ea9庩tútou453'7
-5eaa庪guǐgwai253'7
-5eab庫kùfu3armory, treasury, storehouse53'75E93
-5eac庬mángpong4abundant; mixed53'7
-5ead庭tíngting4courtyard; spacious hall or yard53'7
-5eae庮yǒujau553'7
-5eaf庯būbou153'7
-5eb0庰bìngbing653'8
-5eb1庱chěngcing253'8
-5eb2庲láiloi453'82BDEC
-5eb3庳bìbei1a low-built house53'8
-5eb4庴jízik653'8
-5eb5庵ānam1Buddhist monastery or nunnery53'8
-5eb6庶shùsyu3numerous, various; multitude53'8
-5eb7康kānghong1peaceful, quiet; happy, healthy53'8
-5eb8庸yōngjung4usual, common, ordinary, mediocre53'8
-5eb9庹tuǒtok3the length of one's two outstretched arms53'8
-5eba庺sōngcung453'8
-5ebb庻shùsyu3numerous, various; multitude53'8
-5ebc庼qǐngking2room53'85ECE
-5ebd庽yùjyu6residence; lodge53'9
-5ebe庾yǔjyu4granary; storehouse53'9
-5ebf庿miàomiu6temple, shrine53'9
-5ec0廀sōusau1to conceal; to search into53'9
-5ec1廁cèci3toilet, lavatory; mingle with53'95395
-5ec2廂xiāngsoeng1side-room, wing; theatre box53'953A2
-5ec3廃fèifai3abrogate, terminate, discard53'9
-5ec4廄jiùgau3stable; barnyard53'1153A9
-5ec5廅èap153'10
-5ec6廆wěigwai1a room; the wall of a house a man's name53'10
-5ec7廇liùlau653'10
-5ec8廈shàhaa6big building, mansion53'1053A6
-5ec9廉liánlim4upright, honorable, honest53'10
-5eca廊lánglong4corridor, porch, veranda53'9
-5ecb廋sōusau1conceal, hide; search for, seek53'10
-5ecc廌zhìzi6unicorn53'10
-5ecd廍bùbou653'11
-5ece廎qǐngking2room53'115EBC
-5ecf廏jiùgau3stable; barnyard53'11
-5ed0廐jiùgau3stable; barnyard53'11
-5ed1廑jǐnkan4a hut; careful53'11
-5ed2廒áongou4a granary53'11
-5ed3廓kuògwok3broad, wide, open, empty; to expand53'11
-5ed4廔lóulau4building of two or more stories53'112BDF9
-5ed5廕yìnjam3shade; protect, shade, cover53'112BDEE
-5ed6廖liàoliu6surname; name of an ancient state53'11
-5ed7廗dàidaai353'11303FC
-5ed8廘lùluk653'11
-5ed9廙yìji6respectful53'12
-5eda廚chúcyu4kitchen; closet; cupboard53'1253A8
-5edb廛cháncin4a store, shop; ground allotted to a retainer53'12
-5edc廜tútou453'12
-5edd廝sīsi1servant53'1253AE
-5ede廞xīnjam1to prepare horses and chariots for battle53'122BDF7
-5edf廟miàomiu6temple, shrine; imperial court53'125E99
-5ee0廠chǎngcong2factory, plant, workshop, mill53'125382
-5ee1廡wǔmou5corridor, hallway; luxuriant53'125E91
-5ee2廢fèifai3abrogate, terminate, discard53'125E9F
-5ee3廣guǎnggwong2broad, wide, extensive53'125E7F
-5ee4廤kùfu3to place53'12
-5ee5廥kuàikui253'13303F6
-5ee6廦bìbik153'13
-5ee7廧qiángcoeng4wall53'132AA9E
-5ee8廨xièhaai6government office, public office53'13
-5ee9廩lǐnlam5granary; stockpile, store53'135EEA
-5eea廪lǐnlam5granary; stockpile53'135EE9
-5eeb廫liáoliu453'15
-5eec廬lúlou4hut, cottage; name of a mountain53'165E90
-5eed廭jìzik153'16
-5eee廮yǐngjing253'172BDFE
-5eef廯xiān53'17
-5ef0廰tīngteng1hall, central room53'17
-5ef1廱yōngjung1harmonious; pool; hall53'18
-5ef2廲lílai453'19
-5ef3廳tīngteng1hall, central room53'225385
-5ef4廴yǐnjan5go; Kangxi radical 5454'0
-5ef5廵xúnceon4to go on circuit; to cruise to patrol54'3
-5ef6延yánjin4delay, postpone, defer54'4
-5ef7廷tíngting4court54'4
-5ef8廸dídik6enlighten, advance; progress54'5
-5ef9廹pǎibaak1to persecute; to oppress in difficulties; embarrassed54'5
-5efa建jiàngin3build, establish, erect, found54'6
-5efb廻huíwui4circle around; return; curving54'6
-5efc廼nǎinaai5then, thereupon, only then54'6
-5efd廽huíwui4return, turn around; a time54'7
-5efe廾gǒnggung2two hands; Kangxi radical 5555'0
-5eff廿niànnim6twenty, twentieth55'1
-5f00开kāihoi1open; initiate, begin, start55'15F005F00 958B
-5f01弁biànbin6conical cap worn during Zhou dynasty55'2
-5f02异yìji6different, unusual, strange55'37570
-5f03弃qìhei3reject, abandon, discard55'45F035F03 68C4
-5f04弄nònglung6do, play or fiddle with; alley55'4
-5f05弅fènfan555'4
-5f06弆jǔgeoi2to collect55'5
-5f07弇yǎnjim2cover over, hide; narrow-necked55'6
-5f08弈yìjik6Chinese chess55'6
-5f09弉zàngzong6large, powerful, stout, thick55'7
-5f0a弊bìbai6evil, wrong, bad; criminal55'12
-5f0b弋yìjik6catch, arrest; shoot with bow56'0
-5f0c弌yījat1number one56'1
-5f0d弍èrji6number two56'2
-5f0e弎sānsaam1three56'3
-5f0f式shìsik1style, system, formula, rule56'3
-5f10弐èrji6number two56'3
-5f11弑shìsi3to kill one's superior56'95F12
-5f12弒shìsi3to kill one's superior56'105F11
-5f13弓gōnggung1bow; curved, arched; Kangxi radical 5757'0
-5f14弔diàodiu3condole, mourn, pity; hang57'1
-5f15引yǐnjan5to pull, draw out, attract; to stretch57'1
-5f16弖hùgung1phonetic for 'te' (Japanese)57'1
-5f17弗fúfat1not, negative57'2
-5f18弘hóngwang4enlarge, expand; liberal, great57'2
-5f19弙wūwu157'3
-5f1a弚tuídai657'3
-5f1b弛chíci4loosen, relax, unstring a bow57'3
-5f1c弜jiàngkoeng557'3
-5f1d弝bàbaa3the part of a bow grasped when shooting57'4
-5f1e弞shěncan257'4
-5f1f弟dìdai6young brother; junior; I, me57'4
-5f20张zhāngzoeng1stretch, extend, expand; sheet57'45F35
-5f21弡juégwat657'5
-5f22弢tāotou1bow case; scabbard; sheathe57'5
-5f23弣fǔfu2middle57'5
-5f24弤dǐdai2bow57'5
-5f25弥mínei4extensive, full; fill; complete57'55F4C 7030
-5f26弦xiánjin4string; hypotenuse, crescent57'5
-5f27弧húwu4wooden bow; arc, crescent57'5
-5f28弨chāociu1bow57'5
-5f29弩nǔnou5cross-bow, bow; downward stroke57'5
-5f2a弪jìngging3circular measure57'55F33
-5f2b弫zhěncan257'6
-5f2c弬yíji457'6
-5f2d弭mǐmai5stop, desist, end, quell57'6
-5f2e弮quānhyun1a crossbow which discharged several bolts in succession57'6
-5f2f弯wānwaan1bend, curve57'65F2F5F2F 5F4E
-5f30弰shāosaau1ends of bow57'7
-5f31弱ruòjoek6weak; fragile, delicate57'7
-5f32弲xuānhyun157'7
-5f33弳jìngging3circular measure57'75F2A
-5f34弴diāodiu1red lacquer bow57'8
-5f35張zhāngzoeng1stretch, extend, expand; sheet; 26th lunar mansion, determinative star υ¹ Hydrae57'85F20
-5f36弶jiàngkoeng6a snare57'8
-5f37強qiángkoeng4strong, powerful, energetic57'85F3A
-5f38弸péngpaang4a bow stretched to the full; tensely drawn57'8
-5f39弹dàndaan6pellet, bullet, shot, shell57'85F395F39 5F48
-5f3a强qiángkoeng4strong, powerful, energetic57'95F3A5F37 5F3A
-5f3b弻bìbat657'9
-5f3c弼bìbat6aid, assist, help; correct57'9
-5f3d弽shèsip357'9
-5f3e弾dàndaan6(variant of 彈) a pellet, bullet, shot, shell57'9
-5f3f弿jiǎngin257'10
-5f40彀gòugau3enough, adequate fully, quite57'10
-5f41彁gēgo157'10
-5f42彂fāfaat3issue, dispatch, send out, emit57'10
-5f43彃bìbat1to shoot57'11
-5f44彄kōukau1nock at end of bow; stretch57'112BE29
-5f45彅jiǎnzin257'11
-5f46彆bièbit3awkward57'12522B
-5f47彇xiāosiu157'12
-5f48彈dàndaan6pellet, bullet, shot, shell57'125F39
-5f49彉guōkwok357'12
-5f4a彊jiànggoeng1stubborn, uncompromising57'13
-5f4b彋hóngwang457'13
-5f4c彌mínei4extensive, full; fill; complete57'145F25
-5f4d彍guōkwok3to draw a bow to the full57'152D6A6
-5f4e彎wānwaan1bend, curve57'195F2F
-5f4f彏juéfok357'20
-5f50彐jìgai3snout; Kangxi radical 5858'0
-5f51彑jìgai3snout; Kangxi radical 5858'0
-5f52归guīgwai1return; return to, revert to58'25F525F52 6B78
-5f53当dāngdong1bear, accept, undertake; just58'35F535679 5F53 7576
-5f54彔lùluk6to carve wood58'5
-5f55录lùluk6copy, write down, record58'59304 9332
-5f56彖tuànteon3a hog; a hedgehog; a porcupine58'6
-5f57彗huìwai6broomstick; comet58'8
-5f58彘zhìzi6swine58'9
-5f59彙huìwai6collect, compile, assemble; hedgehog58'106C47
-5f5a彚huìwai6collect, compile, assemble; hedgehog58'10
-5f5b彛yíji4Yi (nationality); tripod, wine vessel; rule58'13
-5f5c彜yíji4Yi (nationality); tripod, wine vessel; rule58'13
-5f5d彝yíji4Yi (nationality); tripod, wine vessel; rule58'155F5E
-5f5e彞yíji4yi; tripod58'155F5D
-5f5f彟yuēwok6scale, standard58'165F60
-5f60彠yuēwok6scale, standard58'235F5F
-5f61彡shānsaam1hair; Kangxi radical 5959'0
-5f62形xíngjing4form, shape, appearance59'4
-5f63彣wénman459'4
-5f64彤tóngtung4red, vermilion59'4
-5f65彥yànjin6elegant, handsome; learned59'65F66
-5f66彦yànjin6elegant59'65F665F65 5F66
-5f67彧yùjuk1refined, cultured, polished59'7
-5f68彨chīci1yellow dragon59'75F72
-5f69彩cǎicoi2hue, color; variegated colors59'8
-5f6a彪biāobiu1tiger; tiger stripes; tiger-like141'5
-5f6b彫diāodiu1carve, decorate; emaciated59'8
-5f6c彬bīnban1cultivated, well-bred59'8
-5f6d彭péngpaang4name of ancient country; surname59'9
-5f6e彮yǒngjung559'10
-5f6f彯piāopiu159'11
-5f70彰zhāngzoeng1clear, manifest, obvious59'11
-5f71影yǐngjing2shadow; image, reflection; photograph59'12
-5f72彲chīci1yellow dragon59'195F68
-5f73彳chìcik1step with left foot; rad. no 6060'0
-5f74彴zhuózoek3bridge60'3
-5f75彵tuǒto560'3
-5f76彶jígap160'4
-5f77彷páng fǎngpong4like, resembling; resemble60'4
-5f78彸zhōngzung1restless, agitated60'4
-5f79役yìjik6service; a servant, laborer; to serve60'4
-5f7a彺wángwong460'4
-5f7b彻chècit3penetrate, pervade; penetrating60'45FB9
-5f7c彼bǐbei2that, there, those60'5
-5f7d彽dī(variant of 低) low; to lower, hang, bend, bow60'5
-5f7e彾língling460'5
-5f7f彿fúfat1resembling, like, as if60'5
-5f80往wǎngwong5go, depart; past, formerly60'5
-5f81征zhēngzing1invade, attack, conquer60'55F815F81 5FB5
-5f82徂cúcou4go, advance; to; die60'5
-5f83徃wǎngwong5go, depart; past, formerly60'5
-5f84径jìngging3narrow path; diameter; direct60'55F91
-5f85待dàidoi6treat, entertain, receive; wait60'6
-5f86徆xīsai160'6
-5f87徇xùnseon1comply with, follow; display60'6
-5f88很hěnhan2very, quite, much60'6
-5f89徉yángjoeng4wonder, rove, stray; hesitating60'6
-5f8a徊huáiwui4linger, walk to and fro, hesitate60'6
-5f8b律lǜleot6statute, principle, regulation60'6
-5f8c後hòuhau6behind, rear, after; descendents60'6540E
-5f8d徍wǎngwong560'6
-5f8e徎chěngcing260'7
-5f8f徏zhìzik160'7
-5f90徐xúceoi4slowly, quietly, calmly; composed, dignified60'7
-5f91徑jìngging3narrow path; diameter; direct60'75F84
-5f92徒tútou4disciple, follower; go on foot60'7
-5f93従cóngcung4from, by, since, whence, through60'7
-5f94徔zhizi160'6
-5f95徕láiloi4induce, encourage to come60'75FA0
-5f96徖cóngcung460'8
-5f97得dédak1obtain, get, gain, acquire60'8
-5f98徘páipui4walk back and forth, hesitate60'8
-5f99徙xǐsaai2move one's abode, shift, migrate60'8
-5f9a徚dōnggaan260'9
-5f9b徛jìgei6to cross over60'8
-5f9c徜chángsoeng4walking and fro; lingering60'8
-5f9d徝zhìzi360'8
-5f9e從cóngcung4from, by, since, whence, through60'84ECE
-5f9f徟zhōuzau160'8
-5fa0徠láiloi4induce, encourage to come60'85F95
-5fa1御yùjyu6drive, ride; chariot; manage60'85FA15FA1 79A6
-5fa2徢xièsip360'8
-5fa3徣jièze360'8
-5fa4徤jiàngin6strong, robust; to strengthen60'9
-5fa5徥shìsi660'9
-5fa6徦jiǎgaa260'9
-5fa7徧biànpin3everywhere, all over, all around60'9
-5fa8徨huángwong4doubtful, irresolute, vacillating60'9
-5fa9復fùfuk6return; repeat; repeatedly; hexagram ䷗60'9590D 5FA95FA9
-5faa循xúnceon4obey, comply with, follow60'9
-5fab徫wěiwai560'9
-5fac徬pángpong4to wander about, walk along side of; to be next to60'10
-5fad徭yáojiu4conscript labor, compulsory labor60'10
-5fae微wēimei4small, prefix micro-, trifling60'10
-5faf徯xīhai4wait for, await, expect, hope60'10
-5fb0徰zhēngzing160'10
-5fb1徱piàopiu360'11
-5fb2徲títai460'12
-5fb3徳dédak1virtue; ethics60'11
-5fb4徴zhēngzing1summon60'11
-5fb5徵zhǐ zhēngzi2summon, recruit; musical note60'125F81 5FB55FB5
-5fb6徶bié60'12
-5fb7德dédak1ethics, morality, virtue60'12
-5fb8徸chōngcung160'12
-5fb9徹chècit3penetrate, pervade; penetrating60'125F7B
-5fba徺jiǎohiu160'12
-5fbb徻huìwai3a wide room60'13
-5fbc徼jiàohiu1frontier, border; inspect, patrol60'13
-5fbd徽huīfai1a badge, insignia60'14
-5fbe徾méimei460'14
-5fbf徿lònglung660'162AACC
-5fc0忀xiāngsoeng1to stroll; to ramble60'17
-5fc1忁bàobou360'17
-5fc2忂qúkeoi460'18
-5fc3心xīnsam1heart; mind, intelligence; soul; 5th lunar mansion, determinative star α Scorpii (Antares)61'0
-5fc4忄xinsyu6heart; radical number 6161'0
-5fc5必bìbit1surely, most certainly; must61'1
-5fc6忆yìjik1remember, reflect upon; memory61'161B6
-5fc7忇lèlak661'2
-5fc8忈rénjan461'2
-5fc9忉dāodou1grieved; distressed in mind61'2
-5fca忊dìngding661'2
-5fcb忋gǎigoi2to rely on; look up to61'3
-5fcc忌jìgei6jealous, envious; fear61'3
-5fcd忍rěnjan2endure, bear, suffer; forbear61'3
-5fce忎rénjan461'3
-5fcf忏chàncaam3regret, repent; confess sins61'361FA
-5fd0忐tǎntaan2timorous; nervous61'3
-5fd1忑tètik1fearful; nervous; timid61'3
-5fd2忒tètik1excessive; too; very-usually of objectionable things; to err; to mistake; changeable61'3
-5fd3忓gāngon1concerned about61'3
-5fd4忔qì61'3
-5fd5忕shìsai661'3
-5fd6忖cǔncyun2guess, suppose, conjecture61'3
-5fd7志zhìzi3purpose, will, determination; annals61'35FD75FD7 8A8C
-5fd8忘wàngmong4forget; neglect; miss, omit61'3
-5fd9忙mángmong4busy, pressed for time; hustling61'3
-5fda忚xīhei161'3
-5fdb忛fānfaan461'3
-5fdc応yīngjing3should, ought to, must61'3
-5fdd忝tiǎntim2disgraced; ashamed; self-deprecating61'4
-5fde忞mínman461'4
-5fdf忟wěnman4(Cant.) impatient, restless61'4
-5fe0忠zhōngzung1loyalty, devotion, fidelity61'4
-5fe1忡chōngcung1a sad, uneasy countenance61'4
-5fe2忢wùng661'4
-5fe3忣jígap161'4
-5fe4忤wǔng5insubordinate, stubborn; wrong61'4
-5fe5忥xìhei361'4
-5fe6忦jiágit361'4
-5fe7忧yōujau1sad, grieved; grief, melancholy61'46182
-5fe8忨wànwun661'4
-5fe9忩cōngcung1(same as 怱) hastily, in haste, hurriedly61'4
-5fea忪sōngzung1quiet, calm, tranquil, peaceful61'4
-5feb快kuàifaai3rapid, quick, speedy, fast; soon61'4
-5fec忬yùjyu661'4
-5fed忭biànbin6delighted; pleased61'4
-5fee忮zhìzi3stubborn; perverse; aggressive61'4
-5fef忯qíkei461'4
-5ff0忰cuìseoi6suffer, become emaciated, haggard61'4
-5ff1忱chénsam4truth, sincerity; sincere61'4
-5ff2忲tàitaai3extravagant61'4
-5ff3忳túntyun461'4
-5ff4忴qiánkim461'4
-5ff5念niànnim6think of, recall, study61'4
-5ff6忶húnwan461'4
-5ff7忷xiōnghung1(variant of 恟) scared, nervous61'4
-5ff8忸niǔnau2blush, be bashful, be ashamed61'4
-5ff9忹kuángkong461'4
-5ffa忺xiānhim1happy61'4
-5ffb忻xīnjan1delightful, joyful, pleasant61'4
-5ffc忼kāngkong2ardent; generous, magnanimous61'4
-5ffd忽hūfat1suddenly, abruptly; neglect61'4
-5ffe忾kàikoi3anger, wrath, hatred, enmity61'4613E
-5fff忿fènfan5get angry; fury, exasperation61'4
-6000怀huáiwaai4bosom, breast; carry in bosom61'460006000 61F7
-6001态tàitaai3manner, bearing, attitude61'4614B
-6002怂sǒngsung2instigate, arouse, incite61'4616B
-6003怃wǔmou5regretful, disappointed61'461AE
-6004怄òuau3annoyed61'4616A
-6005怅chàngcoeng3disappointed, dissatisfied61'460B5
-6006怆chuàngcong3sad, broken-hearted, disconsolate61'46134
-6007怇jùgeoi661'5
-6008怈yìjai661'5
-6009怉bǎobaau261'5
-600a怊chāociu1sad, disappointed61'5
-600b怋mínman461'5
-600c怌pēipei1bosom; to carry in the bosom; to cherish61'5
-600d怍zuòzok6to be ashamed61'5
-600e怎zěnzam2what? why? how?61'5
-600f怏yàngjoeng2discontented, dispirited, sad61'5
-6010怐jùkau3(Cant.) 怐豆 to stare61'5
-6011怑bànbun661'5
-6012怒nùnou6anger, rage, passion; angry61'5
-6013怓náonaau4confusion; a braggart61'5
-6014怔zhēngzing1a disease resembling neurosis61'5
-6015怕pàpaa3to fear, be afraid of; apprehensive61'5
-6016怖bùbou3terror, fear; frighten; terrified61'5
-6017怗tiētip3observant; peaceful; submissive61'5
-6018怘hùgu361'5
-6019怙hùwu6rely on, presume on; persist in61'5
-601a怚jùzeoi6dull, stupid, suspicious61'5
-601b怛dádaat3grieved, saddened; worried61'5
-601c怜liánlin4pity, sympathize61'5601C601C 6190
-601d思sīsi1think, consider, ponder; final particle61'5
-601e怞chóuto grieve; sorrowful61'5
-601f怟dìdai361'5
-6020怠dàitoi5idle, remiss, negligent; neglect61'5
-6021怡yíji4harmony; pleasure, joy; be glad61'5
-6022怢tūdat661'5
-6023怣yóujau461'5
-6024怤fūfu161'5
-6025急jígap1quick, quickly; urgent, pressing61'5
-6026怦pēngping1eager, ardent, impulsive; anxious61'5
-6027性xìngsing3nature, character, sex61'5
-6028怨yuànjyun3hatred, enmity, resentment61'5
-6029怩nínei4shy, timid, bashful; look ashamed61'5
-602a怪guàigwaai3strange, unusual, peculiar61'5
-602b怫fúfat6sorry, anxious; depressed61'5
-602c怬xìhei361'5
-602d怭bìbit1rude61'5
-602e怮yōujau161'5
-602f怯qièhip3lacking in courage, afraid61'5
-6030怰xuànjyun661'5
-6031怱cōngcung1hastily, in haste, hurriedly61'5
-6032怲bǐngbing2be anxious, be grieved, be sad61'5
-6033怳huǎngfong2wild, mad; flurried61'5
-6034怴xùwat161'5
-6035怵chùzeot1fear, be afraid; shy, timid61'5
-6036怶bìbei3(Cant.) to have no zeal at all61'5
-6037怷shùsik161'5
-6038怸xīsik1to be familiar with; a kind of medicine61'5
-6039怹tāntaa1a polite version of he61'5
-603a怺yǒngwing5to endure61'5
-603b总zǒngzung2collect; overall, altogether61'57E3D
-603c怼duìdeoi6hate, abhor; hatred, resentment61'561DF
-603d怽momei661'5
-603e怾zhǐsik1mountain name61'5
-603f怿yìjik6enjoy, be glad, be pleased61'561CC
-6040恀shìci2trust61'6
-6041恁nènjam6that, like this, thus, so, such61'6
-6042恂xúnseon1careful, sincere, honest; trust61'6
-6043恃shìci5rely on, presume on, trust to61'6
-6044恄xìhat161'6
-6045恅lǎolou561'6
-6046恆hénghang4constant, regular, persistent; hexagram ䷟61'66052
-6047恇kuānghong1fear61'6
-6048恈móumau461'6
-6049恉zhǐzi2meaning, purport, drift61'6
-604a恊xiéhip3be united; cooperate61'6
-604b恋liànlyun2love; long for, yearn for; love61'6604B604B 6200
-604c恌tiāotiu1to worry; frivolous61'6
-604d恍huǎngfong2seemingly; absent-minded61'6
-604e恎diédit661'6
-604f恏hàohou261'6
-6050恐kǒnghung2fear; fearful, apprehensive61'6
-6051恑guǐgwai2to change; to alter; to accommodate oneself to61'6
-6052恒hénghang4constant, regular, persistent61'660526046 6052
-6053恓xīsai1vexed61'6
-6054恔jiǎohaau6cheerful; bright, sagacious61'6
-6055恕shùsyu3forgive, excuse, show mercy61'6
-6056恖sīsi161'6
-6057恗hūfu161'6
-6058恘qiūjau161'6
-6059恙yàngjoeng6illness, sickness; indisposition61'6
-605a恚huìwai6anger, rage61'6
-605b恛huíwui4disordered; indistinct doubtful; blurred61'6
-605c恜chìcik161'6
-605d恝jiágaat3carefree; indifferent manner; without sorrow61'6
-605e恞yíji461'6
-605f恟xiōnghung1scared, nervous61'6
-6060恠guàigwaai3strange, unusual, peculiar61'6
-6061恡lìnleon6stingy, sparing of; close-fisted61'6
-6062恢huīfui1restore; big, great, immense, vast61'6
-6063恣zìzi3indulge oneself, unrestrained61'6
-6064恤xùseot1show pity; relieve, help61'6
-6065恥chǐci2shame, humiliation; ashamed61'6803B
-6066恦shàngsoeng361'6
-6067恧nǜnuk6ashamed61'6
-6068恨hènhan6hatred, dislike; resent, hate61'6
-6069恩ēnjan1kindness, mercy, charity61'6
-606a恪kèkok3respectful, reverent61'6
-606b恫dòngdung6in pain, sorrowful61'6
-606c恬tiántim4quiet, calm, tranquil, peaceful61'6
-606d恭gōnggung1respectful, polite, reverent61'6
-606e恮quāncyun461'6
-606f息xīsik1rest, put stop to, end, cease61'6
-6070恰qiàhap1just, exactly, precisely; proper61'6
-6071恱yuèjyut661'6
-6072恲pēngpaang161'6
-6073恳kěnhan2sincere, earnest, cordial61'661C7
-6074恴dédak161'6
-6075恵huìwai6favor, benefit, confer kindness61'6
-6076恶èok3evil, wicked, bad, foul61'65641 60E1
-6077恷xiaojau161'6
-6078恸tòngdung6sadness, grief; mourn; be moved61'6615F
-6079恹yānjim1feeble, sickly; tranquil, calm61'661E8
-607a恺kǎihoi2enjoy, be contented, joyful61'66137
-607b恻cècak1feel anguish, feel compassion61'660FB
-607c恼nǎonou5angered, filled with hate61'6607C607C 60F1
-607d恽yùnwan6devise, plan, deliberate; consult61'660F2
-607e恾mángmong461'7
-607f恿yǒngjung2instigate, incite; to alarm61'7
-6080悀yǒngjung561'7
-6081悁yuāngyun3irritable, nervous, impatient61'7
-6082悂pīpei161'7
-6083悃kǔnkwan2sincere, genuine, honest, loyal61'7
-6084悄qiāociu2silent, quiet, still; anxious61'7
-6085悅yuèjyut6pleased61'760A6
-6086悆yùjyu6happy61'7
-6087悇tútou461'7
-6088悈jiègaai3to enjoin upon; urgent61'7
-6089悉xīsik1know, learn about, comprehend61'7
-608a悊zhézit3wise. to know intuitively61'7
-608b悋lìnleon6stingy, sparing of; closefisted61'7
-608c悌tìdai6brotherly, respectful61'7
-608d悍hànhon6courageous, brave; violent61'7
-608e悎hàohou661'7
-608f悏qièhip361'72BE82
-6090悐tìtik1respect, regard; to stand in awe of, to be alarmed61'7
-6091悑bùbou361'7
-6092悒yìjap1sorrowful, depressed, unhappy61'7
-6093悓qiànjin561'72EC81
-6094悔huǐfui3repent, show remorse, regret61'7
-6095悕xīhei161'7
-6096悖bèibui6be contradictory to, go counter61'7
-6097悗mánmun561'7
-6098悘yīji161'7
-6099悙hēnghang161'7
-609a悚sǒngsung2afraid, scared, frightened61'7
-609b悛quānsyun1repent, reform61'7
-609c悜chěngcing2obscure61'7
-609d悝kuīfui1to laugh at to pity; afflicted, sad61'7
-609e悞wùng6impede; neglect, delay61'760AE
-609f悟wùng6to apprehend, realize, become aware61'7
-60a0悠yōujau4long, far, remote, distant; leisurely61'7
-60a1悡lílei461'7
-60a2悢liàngloeng661'7
-60a3患huànwaan6suffer, worry about; suffering61'7
-60a4悤cōngcung1agitated, restless, hurried61'7
-60a5悥yìji361'7
-60a6悦yuèjyut6pleased, contented, gratified61'76085
-60a7悧lìlei4smooth; active; clever, sharp61'7
-60a8您nínnei5honorific for 'you'61'7
-60a9悩nǎonou5angered, filled with hate61'7
-60aa悪èok3evil, wicked, bad, foul61'7
-60ab悫quèkok3sincerity, honesty; modest61'76128 6164
-60ac悬xuánjyun4hang, suspend, hoist; be hung61'761F8
-60ad悭qiānhaan1miserly, parsimonious, stingy61'76173
-60ae悮wùng6impede; neglect, delay61'7609E
-60af悯mǐnman5pity, sympathize with, grieve for61'761AB
-60b0悰cóngcung4enjoy, amuse, please; joy61'8
-60b1悱fěifei2to be desirous of speaking61'8
-60b2悲bēibei1sorrow, grief; sorry, sad61'8
-60b3悳dédak1ethics, morality, virtue61'8
-60b4悴cuìseoi6suffer, become emaciated, haggard61'8
-60b5悵chàngcoeng3disappointed, dissatisfied61'86005
-60b6悶mènmun6gloomy, depressed, melancholy61'895F7
-60b7悷lìlai661'8
-60b8悸jìgwai3fearful, apprehensive, perturbed61'8
-60b9悹guàngun361'8
-60ba悺guàngun361'8
-60bb悻xìnghang6anger, vexation; angry, indignant61'8
-60bc悼dàodou6grieve, mourn, lament; grieved61'8
-60bd悽qīcai1sorrowful, grieved, melancholy61'8
-60be悾kōnghung1naive, guileless, simple-minded61'8
-60bf悿tiǎntim261'8
-60c0惀lúnleon461'830444
-60c1惁xīsik161'8
-60c2惂kǎnham261'8
-60c3惃gǔngwan261'8
-60c4惄nìnik6long for; hungry61'8
-60c5情qíngcing4feeling, sentiment, emotion61'8
-60c6惆chóucau4distressed, regretful, sad61'8
-60c7惇dūndeon1be kind, cordial, sincere61'8
-60c8惈guǒgwo261'8
-60c9惉zhānzim161'8
-60ca惊jīngging1frighten, surprise, startle61'89A5A
-60cb惋wǎnwun2regret, be sorry; alarmed61'8
-60cc惌yuānjyun1to bear a grudge against61'8
-60cd惍jīngam161'8
-60ce惎jìgei6injure, harm, murder61'8
-60cf惏lánlam4avaricious; greedy cold61'8
-60d0惐yùwik661'8
-60d1惑huòwaak6confuse, mislead, baffle; doubt61'8
-60d2惒héwo461'8
-60d3惓quánkyun4careful, sincere, candid61'8
-60d4惔tántaam4cheerful61'8
-60d5惕tìtik1be cautious, careful, alert61'8
-60d6惖tìtik1respect; fear61'8
-60d7惗niènam2(Cant.) to think, consider61'8
-60d8惘wǎngmong5disconcerted, dejected, discouraged61'8
-60d9惙chuòzyut3sad, melancholy, grieving, mournful61'8
-60da惚hūfat1absent-minded, confused61'8
-60db惛hūnfan1confused, stupid, dull, senile61'8
-60dc惜xīsik1pity, regret, rue, begrudge61'8
-60dd惝chǎngcong2alarmed, agitated61'8
-60de惞xīnjan161'8
-60df惟wéiwai4but, however, nevertheless; only61'8
-60e0惠huìwai6favor, benefit, confer kindness61'8
-60e1惡èok3evil, wicked, bad, foul61'86076
-60e2惢suǒso261'8
-60e3惣zǒngzung2overall [questionable variant]61'8
-60e4惤jiāngin161'8
-60e5惥yǒngjung261'8
-60e6惦diàndim3think of, remember, miss61'8
-60e7惧jùgeoi6fear, be afraid of, dread61'860E760E7 61FC
-60e8惨cǎncaam2sad, pitiful, wretched; cruel61'86158
-60e9惩chéngcing4punish, reprimand; warn61'860E960E9 61F2
-60ea惪dédak1ethics61'8
-60eb惫bèibei6tired, weary, fatigued61'8618A
-60ec惬qièhip3be satisfied, be comfortable61'8611C
-60ed惭cáncaam4ashamed, humiliated; shameful61'8615A
-60ee惮dàndaan6dread, shrink from, shirk, fear61'8619A
-60ef惯guàngwaan3habit, custom; habitually, usual61'86163
-60f0惰duòdo6indolent, careless, lazy, idle61'9
-60f1惱nǎonou5angered, filled with hate61'9607C
-60f2惲yùnwan6devise, plan, deliberate; consult61'9607D
-60f3想xiǎngsoeng2think, speculate, plan, consider61'9
-60f4惴zhuìzeoi3afraid, apprehensive, nervous61'9
-60f5惵diédip661'9
-60f6惶huángwong4fearful, afraid, anxious, nervous61'9
-60f7惷chǔnceon2wriggle; stupid; silly; fat61'9
-60f8惸qióngking4troubled, worried, distressed61'9
-60f9惹rěje5irritate, vex, offend, incite61'9
-60fa惺xīngsing1intelligent, clever, astute61'9
-60fb惻cècak1feel anguish, feel compassion61'9607B
-60fc惼biǎnbin2narrow-minded61'9
-60fd惽mǐnfan1confused61'9
-60fe惾zōngzung161'9
-60ff惿títai461'9
-6100愀qiǎociu2to change one's countenance, be anxious; to blush61'9
-6101愁chóusau4anxiety; to worry about, be anxious61'9
-6102愂bèibui661'9
-6103愃xuānsyun1relax61'9
-6104愄wēiwui161'9
-6105愅gégaak361'9
-6106愆qiānhin1a fault, mistake, error, transgression61'9
-6107愇wěiwai561'92BE74
-6108愈yùjyu6more and more, even more61'9
-6109愉yújyu4pleasant, delightful; please61'9
-610a愊bìbik1sincere, honest; depressed61'9
-610b愋xuānhyun161'9
-610c愌huànwun661'9
-610d愍mǐnman5pity, sympathize with61'9
-610e愎bìbik1obstinate, stubborn, headstrong61'9
-610f意yìji3thought, idea, opinion; think61'9
-6110愐miǎnmin5bashful; to consider61'9
-6111愑yǒngjung561'9
-6112愒kàikoi3rest, stop61'9
-6113愓dàngdong6profligate61'9
-6114愔yīnjam1comfortable, contented, peaceful61'9
-6115愕èngok6startled, alarmed, astonished61'9
-6116愖chénsam4to hesitate61'9
-6117愗màomau661'9
-6118愘qiàkok361'9
-6119愙kèkok3respectful, reverent61'9
-611a愚yújyu4stupid, doltish, foolish61'9
-611b愛àioi3love, be fond of, like61'97231
-611c愜qièhip3be satisfied, be comfortable61'960EC
-611d愝yǎnjin261'9
-611e愞nuòno6timid, apprehensive61'9
-611f感gǎngam2feel, perceive, emotion61'9
-6120愠yùnwan3angry61'961206120 614D
-6121愡zǒngzung2absent-minded, confused61'9
-6122愢sāisoi1hesitant; modest61'9
-6123愣lèngling6be in a daze61'9
-6124愤fènfan5resent, hate; indignant61'961A4
-6125愥yīngjing161'9
-6126愦kuìkui2confused, troubled, muddle-headed61'96192
-6127愧kuìkwai5ashamed, conscience-stricken61'10
-6128愨quèkok3sincerity, honesty; cautious61'1060AB
-6129愩gōnggung161'102BE8C
-612a愪yúnwan4to be grieved, sad61'10
-612b愫sùsou3guileless, sincere, honest61'10
-612c愬sùsaak3accuse; sue; inform; narrate61'10
-612d愭qíkei461'10
-612e愮yáojiu4distressed, agitated61'10
-612f愯sǒngsung261'10
-6130愰huàngfong2clearness of mind; doubtful; uncertain61'10
-6131愱jízat661'10
-6132愲gǔgwat161'10
-6133愳jùgeoi661'10
-6134愴chuàngcong3sad, broken-hearted, disconsolate61'106006
-6135愵nìnik661'10
-6136愶xiéhip361'10
-6137愷kǎihoi2enjoy, be contented, joyful61'10607A
-6138愸zhěngzing261'10
-6139愹yǒngjung561'10
-613a愺cǎocou261'10
-613b愻xùnseon3to yield, accord; humble, modest61'10
-613c愼shènsan6act with care, be cautious61'10
-613d愽bóbok3gamble, play games; wide, broad61'10
-613e愾kàikoi3anger, wrath, hatred, enmity61'105FFE
-613f愿yuànjyun6sincere, honest, virtuous61'10613F613F 9858
-6140慀xìhai661'10
-6141慁hùnwan6dishonor, disobey; insult61'10
-6142慂yǒngjung2urge, incite, egg-on61'10
-6143慃yǎngong261'10
-6144慄lìleot6shiver, shudder, tremble; tremble61'106817
-6145慅sāocou2agitated61'10
-6146慆tāotou1excessive, dissolute; delighted61'10
-6147慇yīnjan1careful, anxious, attentive61'10
-6148慈cíci4kind, charitable, benevolent61'10
-6149慉xùcuk1to bring up; to raise61'10
-614a慊qiànhim3to resent; contended; satisfied61'10
-614b態tàitaai3manner, bearing, attitude61'106001
-614c慌huāngfong1nervous, panicky, frantic61'10
-614d慍yùnwan3angry, indignant, resentful61'106120
-614e慎shènsan6act with care, be cautious61'10
-614f慏mǐngming561'10
-6150慐gonggung161'103045F
-6151慑shèsip3afraid, scared, fearful61'1061FE
-6152慒cóngcung461'11
-6153慓piāopiu5nimble61'11
-6154慔mùmou661'11
-6155慕mùmou6long for, desire; admire61'11
-6156慖guógwok361'112EC87
-6157慗chìcik161'11
-6158慘cǎncaam2sad, pitiful, wretched; cruel61'1160E8
-6159慙cáncaam4ashamed, humiliated; shameful61'1130467
-615a慚cáncaam4ashamed, humiliated; shameful61'1160ED
-615b慛cuīceoi461'11
-615c慜mǐnman5name of a monk in Tang dynasty61'11
-615d慝tètik1do evil in secret; evil, vice61'11
-615e慞zhāngzoeng1terrified, alarmed61'11
-615f慟tòngdung6sadness, grief; mourn; be moved61'116078
-6160慠àongou661'11
-6161慡shuǎngsong261'11
-6162慢mànmaan6slow(ly), leisurely, sluggish61'11
-6163慣guàngwaan3habit, custom; habitually, usually61'1160EF
-6164慤quèkok3sincerity, honesty; modest61'1160AB
-6165慥zàozou6sincere, earnest61'11
-6166慦jiùgau361'11
-6167慧huìwai6bright, intelligent; intelligence61'11
-6168慨kǎikoi3sigh, regret; generous61'9
-6169慩liánlin461'11
-616a慪òuau3annoyed61'116004
-616b慫sǒngsung2to alarm; to instigate, arouse, incite61'116002
-616c慬qínkan4brave; cautious; sad61'11
-616d慭yìnjan6cautious; willing; but61'116196
-616e慮lǜleoi6be concerned, worry about61'118651
-616f慯shāngsoeng161'112BE7D
-6170慰wèiwai3comfort, console, calm61'11
-6171慱tuántyun4sad61'1130441
-6172慲mánmun461'1130486
-6173慳qiānhaan1miserly, parsimonious, stingy61'1160AD
-6174慴shèsip3fear; terrified, fearful; fear61'11
-6175慵yōngjung4indolent, easy-going, lazy61'11
-6176慶qìnghing3congratulate, celebrate61'115E86
-6177慷kāngkong2ardent; generous, magnanimous61'11
-6178慸dìdai361'1130475
-6179慹zhízap161'1130454
-617a慺lóulau4(simplified form of 慺) diligent; industrious; sedulous, to encourage; to make efforts61'11396A
-617b慻juàngyun361'11
-617c慼qīcik1sorrowful, mournful; sorrow61'11
-617d慽qīcik1sorrowful, mournful; sorrow61'11
-617e慾yùjuk6lust, desire, passion; appetite61'11
-617f慿píngpang461'11
-6180憀liáoliu4to rely on61'11
-6181憁còngzung261'11
-6182憂yōujau1sad, grieved; grief, melancholy61'115FE7
-6183憃chōngcung1foolish, stupid, dull, silly61'11
-6184憄zhìzi361'11
-6185憅tòngdung661'112EC84
-6186憆chēngcaang161'11
-6187憇qìhei3rest, take rest61'11
-6188憈qūkeoi161'11
-6189憉péngpaang461'12
-618a憊bèibei6tired, weary, fatigued61'1260EB
-618b憋biēbit3to suppress inner feelings; hasty61'12
-618c憌qióngking461'12
-618d憍jiāogiu1be haughty, proud, arrogant61'12392D
-618e憎zēngzang1hate, detest, abhor; hatred61'12
-618f憏chìcai361'12
-6190憐liánlin4pity, sympathize61'12601C
-6191憑píngpang4lean on, depend on, rely on61'1251ED
-6192憒kuìkui2confused, troubled, muddle-headed61'126126
-6193憓huìwai6benefit, favor; follow, obey61'12
-6194憔qiáociu4be worn-out, emaciated, haggard61'12
-6195憕chéngcing461'12
-6196憖yìnjan6cautious; willing; but, moreover61'12616D
-6197憗yìnjan661'12
-6198憘xǐhei2like, love, enjoy; joyful thing61'12
-6199憙xǐhei2like, love, enjoy; joyful thing61'12
-619a憚dàndaan6dread, shrink from, shirk, fear61'1260EE
-619b憛tántaam461'12
-619c憜duòdo661'12
-619d憝duìdeoi6to dislike, to abhor, to hate61'12
-619e憞duìdeoi661'12
-619f憟sùsuk161'12
-61a0憠juékyut361'12
-61a1憡cècaak361'12
-61a2憢xiāohiu161'1222652
-61a3憣fānfaan161'12
-61a4憤fènfan5resent, hate; indignant61'126124
-61a5憥láolou461'12
-61a6憦làolou6regret61'122BE98
-61a7憧chōngcung1irresolute, indecisive; yearn for61'12
-61a8憨hānham1foolish, silly, coquettish61'12
-61a9憩qìhei3rest, take rest61'12
-61aa憪xiánhaan4composed, contented61'1230465
-61ab憫mǐnman5pity, sympathize with, grieve for61'1260AF
-61ac憬jǐngging2rouse, awaken; become conscious61'12
-61ad憭liǎoliu5clear; intelligible; severe; cold61'12
-61ae憮wǔmou5regretful, disappointed61'126003
-61af憯cǎncaam2sorrowful, sad; already, nevertheless61'12
-61b0憰juékyut3wily, time-serving; to feign, to act the hypocrite61'12
-61b1憱cùcuk161'12
-61b2憲xiànhin3constitution, statute, law61'125BAA
-61b3憳tǎntaam261'12
-61b4憴shéngsing461'133046A
-61b5憵pīpik1(Cant.) to rush61'13
-61b6憶yìjik1remember, reflect upon; memory61'135FC6
-61b7憷chùco2painful; suffering; privation61'13
-61b8憸xiāncim1to flatter; crafty, having a specious tongue61'132AAFA
-61b9憹náonou4upset; to regret61'1322650
-61ba憺dàndaam6peace61'13
-61bb憻tǎntaan261'14
-61bc憼jǐngging261'13
-61bd憽sōngsung161'13
-61be憾hànham6to regret, remorse; dissatisfied61'13
-61bf憿jiǎogiu161'13
-61c0懀wèiwai361'1322653
-61c1懁xuānhyun1anxious, distressed61'13
-61c2懂dǒngdung2understand, comprehend61'13
-61c3懃qínkan4courteous, cordial; zealous61'13
-61c4懄qínkan4grief61'13
-61c5懅jùkeoi4bashful; ashamed61'13
-61c6懆cǎocou2anxious, apprehensive61'13
-61c7懇kěnhan2sincere, earnest, cordial61'136073
-61c8懈xièhaai6idle, relaxed, remiss61'13
-61c9應yīngjing3should, ought to, must61'135E94
-61ca懊àoou3vexed, worried, nervous; regret61'13
-61cb懋màomau6splendid, grand, majestic61'13
-61cc懌yìjik6enjoy, be glad, be pleased61'13603F
-61cd懍lǐnlam5be afraid of, be awed by, be in awe61'1361D4
-61ce懎sèsik161'13
-61cf懏jùnzeon361'13
-61d0懐huáiwaai4bosom, breast; carry in bosom61'13
-61d1懑mènmun6be sick at heart, sorrowful, sad61'1361E3
-61d2懒lǎnlaan5lazy, languid, listless61'1361F6
-61d3懓àioi361'132D784
-61d4懔lǐnlam5be afraid of, to be in awe of61'1361CD
-61d5懕yānjim1satiated; contented61'1430455
-61d6懖kuòkut361'14
-61d7懗xiàhaa361'14
-61d8懘chìcit361'1430492
-61d9懙yǔjyu561'142BE6E
-61da懚yìnjan361'14
-61db懛dāidaai1alarmed, scared; stupid61'14
-61dc懜měngmung1dull, stupid, doltish61'14227FC
-61dd懝àingoi661'14
-61de懞méngmung4(variant of 蒙)61'148499
-61df懟duìdeoi6hate, abhor; hatred, resentment61'14603C
-61e0懠qícai4angry61'142BE8A
-61e1懡mǒmo561'14
-61e2懢lánlaam461'14
-61e3懣mènmun6be sick at heart, sorrowful, sad61'1461D1
-61e4懤chóucau4grieved, pained61'14393D
-61e5懥zhìzi3angry, enraged, resentful; hate61'14
-61e6懦nuòno6weak, timid, cowardly61'14
-61e7懧nuòno6to have wisdom; intelligent61'143916
-61e8懨yānjim1feeble, sickly; tranquil, calm61'146079
-61e9懩yǎngjoeng561'152BEAA
-61ea懪bóbok661'15
-61eb懫zhìzi3enraged; resentful.to hate. to desist61'153046C
-61ec懬kuàngkwong361'15
-61ed懭kuǎngkong361'153043E
-61ee懮yǒujau1calm, leisurely; procrastinating61'15
-61ef懯fūfu161'15
-61f0懰liúlau4be glad, pleased, delighted61'1530459
-61f1懱mièmit661'15
-61f2懲chéngcing4punish, reprimand; warn61'1560E9
-61f3懳huiwai661'15
-61f4懴chàncaam3regret, repent; confess sins61'15
-61f5懵měngmung2stupid, ignorant, dull61'16
-61f6懶lǎnlaan5lazy, languid, listless61'1661D2
-61f7懷huáiwaai4bosom, breast; carry in bosom61'166000
-61f8懸xuánjyun4hang, suspend, hoist; be hung61'1660AC
-61f9懹ràngjoeng661'17
-61fa懺chàncaam3regret, repent; confess sins61'175FCF
-61fb懻jìgei3overbearing, crafty61'17
-61fc懼jùgeoi6fear, be afraid of, dread61'1860E7
-61fd懽huānfun1happy, pleased, glad, joyous61'18
-61fe懾shèsip3afraid, scared, fearful61'186151
-61ff懿yìji3virtuous, admirable, esteemed61'18
-6200戀liànlyun2love; long for, yearn for; love61'19604B
-6201戁nǎnnaan5fear61'192BEB7
-6202戂mímei461'19
-6203戃tǎngtong261'203047F
-6204戄juéfok3to be in awe of; to fear61'20
-6205戅gàngngong6stupid, simple, foolish61'21
-6206戆gàngzong3stupid, simple, simple-minded61'216207
-6207戇zhuàngzong3stupid, simple, simple-minded61'246206
-6208戈gēgwo1halberd, spear, lance; rad. 6262'0
-6209戉yuèjyut6a battle-axe, a halberd62'1
-620a戊wùmou65th heavenly stem62'1
-620b戋jiānzin1small, narrow, tiny, little62'16214
-620c戌xūseot1eleventh earthly branch62'2
-620d戍shùsyu3defend borders, guard frontiers62'2
-620e戎róngjung4arms, armaments; military affair62'2
-620f戏xìhei3theatrical play, show62'2620F620F 6232
-6210成chéngsing4completed, finished, fixed62'2
-6211我wǒngo5our, us, i, me, my, we62'3
-6212戒jiègaai3warn, caution, admonish62'3
-6213戓gēgap362'3
-6214戔jiānzin1small, narrow, tiny, little62'4620B
-6215戕qiāngcoeng4kill, slay; wound, injure, hurt62'4
-6216或huòwaak6or, either, else; perhaps, maybe62'4
-6217戗qiāngcoeng1support62'46227
-6218战zhànzin3war, fighting, battle62'562186218 6230
-6219戙dòngdung6(Cant.) to trap; upright; a pile62'6
-621a戚qīcik1relative; be related to; sad62'7
-621b戛jiágaat3lance; tap or strike lightly62'7
-621c戜diédit6to scrape; advantageous62'7
-621d戝zéipirate, thief62'7
-621e戞jiágaat3lance; tap or strike lightly62'8
-621f戟jǐgik1halberd with crescent blade62'8
-6220戠zhīzik1a sword; potter's clay; to gather62'953EA 62206220
-6221戡kānham1subjugate, subdue, quell; kill62'9
-6222戢jícap1to put away; to cease; store up62'9
-6223戣kuíkwai4lance62'9
-6224戤gàikoi3to infringe a trade-mark to pledge an article62'9
-6225戥děngdang2a small steelyard for weighing money, etc.62'9
-6226戦zhànzin3war, fighting, battle62'8
-6227戧qiāngcoeng1support62'106217
-6228戨gēgo162'10
-6229戩jiǎnzin2exterminate, destroy; blessing62'10622C
-622a截jiézit6cut off, stop, obstruct, intersect62'10
-622b戫yùjuk162'10
-622c戬jiǎnzin2exterminate, destroy; blessing62'106229
-622d戭yǎnjan5spear62'11
-622e戮lùluk6kill, massacre; oppress62'11
-622f戯hūhei3theatrical play, show62'116231
-6230戰zhànzin3war, fighting, battle62'126218 229D0
-6231戱xìhei3theatrical play62'11622F
-6232戲xìhei3theatrical play, show62'13620F
-6233戳chuōcoek3prick, stab; stamp, seal, chop62'14
-6234戴dàidaai3wear on top; support62'13
-6235戵qúkeoi4a halberd62'18
-6236戶hùwu6door; family, household63'06237
-6237户hùwu6door; family63'062376236 6237
-6238戸hùwu6door; family63'0
-6239戹èak1In difficulty, distressed63'1
-623a戺shìsi6stone boarder; steps63'3
-623b戻tìdai6perverse63'3
-623c戼mǎomaau5fourth earthly branch63'3
-623d戽hùfu3to bale out water63'4
-623e戾lìleoi6perverse, recalcitrant, rebellious63'4
-623f房fángfong4house, building; room; 4th lunar mansion, determinative star π Scorpii63'4
-6240所suǒso2place, location; numerary adjunct63'4
-6241扁biǎnbin2flat; tablet, signboard63'5
-6242扂diàndim363'5
-6243扃jiōnggwing1a door bar placed outside a door63'5
-6244扄shǎngsoeng2large ring on a front door used as a knocker63'6
-6245扅yíji4gate bar, bolt63'6
-6246扆yǐji2screen63'6
-6247扇shànsin3fan; door panel63'6
-6248扈hùwu6escort, retinue; insolent63'7
-6249扉fēifei1door panel63'8
-624a扊yǎnjim5upright bar for fastening door63'8
-624b手shǒusau2hand64'0
-624c扌shousau2hand; radical number 6464'0
-624d才cáicoi4talent, ability; just, only64'0624D624D 7E94
-624e扎zhāzaat3pull up; pierce; struggle free64'1
-624f扏qiúkau464'3
-6250扐lèlak6divine64'2
-6251扑pūpok3pound, beat, strike; attack64'262516251 64B2
-6252扒bāpaa4scratch; dig up; crawl; crouch64'2
-6253打dǎdaa2strike, hit, beat; fight; attack64'2
-6254扔rēngwing1throw, hurl; throw away, cast64'2
-6255払fǎnfaan2shake off, brush away; dust64'2
-6256扖rùjap664'2
-6257扗zàizoi664'3
-6258托tuōtok3to hold up with palm; to support, rely on64'3
-6259扙zhàngzoeng664'3
-625a扚diǎotiu264'3
-625b扛kánggong1carry on shoulders; lift64'3
-625c扜yūjyu164'3
-625d扝kūfu164'3
-625e扞hànhon6ward off, withstand, resist64'3
-625f扟shēnsan164'4
-6260扠chācaa1pick up with fork or pincers64'3
-6261扡tuōci2drag along64'3
-6262扢gǔgwat1caper64'3
-6263扣kòukau3knock, strike, rap, tap; button64'3
-6264扤wùngaat6to thrust; to move64'3
-6265扥dèndan364'3
-6266扦qiāncin1probe, poke, prick, pierce64'3
-6267执zhízap1hold in hand; keep; carry out64'3626757F7 6267
-6268扨rènjan6pick up with fork or pincers64'3
-6269扩kuòkwong3expand, enlarge, stretch64'364F4
-626a扪ménmun4stoke, pat, feel by hand, grope64'3636B
-626b扫sǎosou3sweep, clear away; exterminate64'36383
-626c扬yángjoeng4scatter, spread; praise64'363DA
-626d扭niǔnau2turn, twist, wrench; seize, grasp64'4
-626e扮bànbaan6dress up; dress up as64'4
-626f扯chěce2rip up, tear down; raise; haul64'4
-6270扰rǎojiu2disturb, annoy, agitate64'464FE
-6271扱xīkap1collect, draw in, gather; receive64'4
-6272扲qiánngam4(Cant.) to pull out64'4
-6273扳bānpaan1pull; drag; right itself64'4
-6274扴jiágit364'4
-6275扵yújyu1in, on, at, by, from; than; with reference to; compared with64'4
-6276扶fúfu4support, help; protect; hold on64'4
-6277扷àoou364'4
-6278扸xīsik164'5
-6279批pīpai1comment, criticize; wholesale64'4
-627a扺zhǐzi2to strike one's palm with one's fist64'4
-627b扻zhìham2to strike; to run against to throw, as a stone64'4
-627c扼èak1grasp, clutch; choke, strangle64'4
-627d扽dèndan3to move, to shake64'4
-627e找zhǎozaau2search, seek, look for; find64'4
-627f承chéngsing4inherit, receive; succeed64'4
-6280技jìgei6skill, ability, talent, ingenuity64'4
-6281抁yǎnjin564'4
-6282抂kuángkwong464'4
-6283抃biànbin6to clap hands; to cheer64'4
-6284抄chāocaau1copy, confiscate, seize64'4
-6285抅jūkeoi1to collect; to join together64'4
-6286抆wěnman5wipe, rub off64'4
-6287抇húwat664'4
-6288抈yuèjyut6to bend64'4
-6289抉juékyut3choose, select; gouge, pluck out64'4
-628a把bǎbaa2hold, take; guard; regard as64'4
-628b抋qìncam364'4
-628c抌dǎndam2to bale out water, to dip64'4
-628d抍zhěngsing1to lift up; to rescue, save64'4
-628e抎yǔnwan564'4
-628f抏wán64'4
-6290抐nèneot664'4
-6291抑yìjik1press down, repress; curb, hinder64'4
-6292抒shūsyu1express; eliminate; relieve64'4
-6293抓zhuāzaau2scratch; clutch, seize, grab64'4
-6294抔póupau4take or hold up in both hands64'4
-6295投tóutau4throw, cast, fling, pitch; jump64'4
-6296抖dǒudau2tremble, shake, rouse; give shake64'4
-6297抗kàngkong3resist, oppose, defy, reject64'4
-6298折zhézit3break off, snap; bend64'462986298 647A
-6299抙póupau464'4
-629a抚fǔfu2pat, console, comfort; pacify64'464AB
-629b抛pāopaau1throw (away)64'4629B629B 62CB
-629c抜bábat6uproot, pull out64'4
-629d抝ǎoaau2to bend, break; to argue64'4
-629e択zézaak6select, choose, pick out64'4
-629f抟tuántyun4roll around with hand; model64'46476
-62a0抠kōukau1raise, lift up; tight-fisted64'46473
-62a1抡lūnleon4swing, brandish, flourish64'46384
-62a2抢qiǎngcoeng2plunder, rob, take by force64'46436
-62a3抣yungwan164'4
-62a4护hùwu6protect, guard, defend, shelter64'48B77
-62a5报bàobou3report, tell, announce64'462A55831 62A5
-62a6抦bǐngbing2(Cant.) to beat64'5
-62a7抧zhǐzi264'5
-62a8抨pēngping1impeach, censure; attack64'5
-62a9抩nánnaam464'5
-62aa抪bùbo3to scatter, spread64'5
-62ab披pīpei1wear; split; crack64'5
-62ac抬táitoi4lift, carry64'5
-62ad抭yǎojiu564'5
-62ae抮zhěnzan2to revolve, rotate64'5
-62af抯zhāzaa1(Cant.) to grasp, hold64'5
-62b0抰yāngjoeng2to shake (clothes, etc.)64'5
-62b1抱bàopou5embrace, hold in arms, enfold64'5
-62b2抲hēho164'5
-62b3抳nǐnei5(Cant.) to crush, mash, grind64'5
-62b4抴yèjit6to drag; to join64'5
-62b5抵dǐdai2resist, oppose; deny; off-set64'5
-62b6抶chìcik1beat64'5
-62b7抷pīpei164'5
-62b8抸jiāhip364'5
-62b9抹mǒmut3smear, apply, wipe off, erase64'5
-62ba抺mèimui664'5
-62bb抻chēncan2pull64'5
-62bc押yāaat3mortgage, pledge; deposit; to pawn; to arrest, detain, guard64'5
-62bd抽chōucau1draw out, pull out; sprout64'5
-62be抾qū64'5
-62bf抿mǐnman5pucker up lips in smile; press64'5
-62c0拀chùzuk164'5
-62c1拁jiāke264'5
-62c2拂fúfat1shake off, brush away; dust64'5
-62c3拃zhǎzaa3grope, press, span64'5
-62c4拄zhǔzyu2lean on; post; prod; ridicule64'5
-62c5担dāndaam1carry, bear, undertake64'562C562C5 64D4
-62c6拆chāicaak3to break up, split apart, rip open; to destroy64'5
-62c7拇mǔmou5thumb; big toe64'5
-62c8拈niānnim1pick up with fingers; draw lots64'5
-62c9拉lālaai1pull, drag; seize, hold; lengthen64'5
-62ca拊fǔfu2slap; pat; tap; handle of a vessel64'5
-62cb拋pāopaau1throw (away), abandon, reject64'5629B
-62cc拌bànbun6mix64'5
-62cd拍pāipaak3clap, tap, beat; beat or rhythm64'5
-62ce拎līnling1to haul; to lift; to take64'5
-62cf拏nánaa4take; bring; grasp, hold; arrest64'5
-62d0拐guǎigwaai2kidnap, abduct; turn64'5
-62d1拑qiánkim4to clamp, tie down or pin down64'5
-62d2拒jùkeoi5ward off with hand, defend64'5
-62d3拓tàtok3expand; open up; support or push64'5
-62d4拔bábat6uproot, pull out64'5
-62d5拕tuōto1to drag after, to drag out, from which comes:to involve, to delay, to implicate64'5
-62d6拖tuōto1drag, tow, haul; delay, prolong64'5
-62d7拗àoaau2to pull, drag, break off, to pluck (a flower); bent, warped; perverse, obstinate64'5
-62d8拘jūkeoi1restrain, seize, detain64'5
-62d9拙zhuōzyut3stupid, clumsy, crude; convention64'5
-62da拚pànpun3risk, disregard; go all out for64'5
-62db招zhāoziu1beckon, summon; recruit, levy64'5
-62dc拜bàibaai3do obeisance, bow, kowtow64'5
-62dd拝bàibaai3do obeisance, bow, kowtow64'5
-62de拞dǐdai264'5
-62df拟nǐji5draft; intend, plan, propose64'564EC
-62e0拠jùgeoi3to occupy, take possession of; a base, position64'5
-62e1拡kuòkwok3expand, enlarge, stretch64'5
-62e2拢lǒnglung5collect, bring together64'5650F
-62e3拣jiǎngaan2choose; select; pick up; gather64'563C0
-62e4拤qiákaa164'5
-62e5拥yōngjung2embrace, hug, squeeze; crowd64'564C1
-62e6拦lánlaan4obstruct, impede, bar, hinder64'56514
-62e7拧níngning6pinch; twist, wring; determined64'564F0
-62e8拨bōbut6move; dispel; distribute64'564A5
-62e9择zézaak6select, choose, pick out64'564C7
-62ea拪qiāncin164'6
-62eb拫hénhang4to pull; to drag; to stop; (Cant.) to turn fast64'6
-62ec括kuòkut3include, embrace, enclose64'6
-62ed拭shìsik1wipe away stains with cloth64'6
-62ee拮jiégit3laboring hard, occupied; pursue64'6
-62ef拯zhěngcing2help, save, aid; lift, raise64'6
-62f0拰nǐnnam564'6
-62f1拱gǒnggung2fold hands on breast; bow, salute64'6
-62f2拲gǒnggung264'6
-62f3拳quánkyun4fist; various forms of boxing64'6
-62f4拴shuānsaan1bind with rope, fasten64'6
-62f5拵cúncyun4to make, prepare, manufacture; workmanship; an arrangement64'6
-62f6拶zāzaat3press, squeeze hard; force64'6
-62f7拷kǎohaau2torture and interrogate; hit64'6
-62f8拸yíji464'6
-62f9拹xiéhip364'6
-62fa拺cècaak364'6
-62fb拻huīfui164'6
-62fc拼pīnping1join together, link, incorporate64'6
-62fd拽zhuàijai6drag, tow; throw; twist64'6
-62fe拾shísap6pick up, collect, tidy up; accounting form of the numeral ten64'6
-62ff拿nánaa4take, hold, grasp; bring; with64'6
-6300挀bāibaak364'6
-6301持chíci4sustain, support; hold, grasp64'6
-6302挂guàgwaa3hang, suspend; suspense64'663026302 639B
-6303挃zhìzat6(Cant.) to beat64'6
-6304挄kuòkwok364'6
-6305挅duǒdo264'6
-6306挆duǒdo264'6
-6307指zhǐzi2finger, toe; point, indicate64'6
-6308挈qièkit3assist, help, lead by hand64'6
-6309按ànon3put hand on, press down with hand64'6
-630a挊nònglung664'6
-630b挋zhènzan364'6
-630c挌gégaak3fight64'6
-630d挍jiàohaau6collate; (Cant.) to scratch64'6
-630e挎kuàkwaa3carry64'6
-630f挏dòngdung6(Cant.) to dredge or poke with a pole or stick64'6
-6310挐nádrag64'6
-6311挑tiāotiu1a load carried on the shoulders; to carry64'6
-6312挒lièlit664'6
-6313挓zhāzaa1to open out; to expand64'6
-6314挔lǚleoi564'6
-6315挕diédip364'6
-6316挖wāwaat3dig, dig out, gouge out, scoop64'6
-6317挗juékyut364'6
-6318挘liělyut3to pluck, pick, tear; (Cant.) rubbing action64'6
-6319挙jǔgeoi2raise, lift up; recommend64'622E01
-631a挚zhìzi3sincere, warm, cordial; surname64'6646F
-631b挛luánlyun4tangled; entwined; crooked64'6631B631B 6523
-631c挜yàaa3take; hold; give forcefully64'66397
-631d挝wōzaa1to beat; to strike64'664BE
-631e挞tàtaat3flog, whip; chastise64'664BB
-631f挟xiéhip3clasp under arm; hold to bosom64'6631F631F 633E
-6320挠náonaau5scratch; disturb, bother; submit64'66493
-6321挡dǎngdong2obstruct, impede; stop; resist64'663216321 64CB
-6322挢jiǎogiu2correct64'6649F
-6323挣zhēngzang1strive, endeavor, struggle64'66399
-6324挤jǐzai1crowd, squeeze, push against64'664E0
-6325挥huīfai1direct; wipe away; squander64'663EE
-6326挦xiáncam4pull out, pluck; take hold of64'6648F
-6327挧yǔjyu564'6
-6328挨āiaai1near, close by, next to, towards, against; to wait; to lean on64'7
-6329挩tuōtyut364'7635D
-632a挪nuóno4move, shift on one side64'7
-632b挫cuòco3push down; chop down; grind64'7
-632c挬bóbut664'7
-632d挭gěnggaang3fish-bones, things that stick in the throat; unyielding, blunt of speech; (Cant.) to stir, mix, agitate; to wade64'7
-632e挮tǐtai264'7
-632f振zhènzan3raise, excite, arouse action64'7
-6330挰chéngcaang464'7
-6331挱sāso1to feel or fondle with the fingers64'7
-6332挲sāso1to feel or fondle with the fingers64'7
-6333挳kēnghang164'7
-6334挴měimui564'7
-6335挵nònglung6to play with, handle things64'7
-6336挶jūguk6hold in hands64'7
-6337挷péngpong3to propel a boat; to beat64'7
-6338挸jiǎngin264'7
-6339挹yìjap1to bale out; to decant liquids64'7
-633a挺tǐngting5to stand upright, straighten; rigid64'7
-633b挻shānsaan164'7
-633c挼ruáno4rub, stroke with hands; crumple64'7
-633d挽wǎnwaan5pull; pull back, draw back64'7633D633D 8F13
-633e挾xiéhip3clasp under arm; hold to bosom64'7631F
-633f挿chācaap3insert, stick into; plant64'7
-6340捀féngfung464'7
-6341捁jiǎogaau264'7
-6342捂wǔwu2resist64'7
-6343捃jùnkwan2to pick up, collect64'7
-6344捄jiùkau4long and curved64'7
-6345捅tǒngtung2jab64'7
-6346捆kǔnkwan2tie up; bind, truss up; bundle64'7
-6347捇huòwaak664'7
-6348捈tútou464'7
-6349捉zhuōzuk1grasp, clutch; catch, seize64'7
-634a捊póupau464'7
-634b捋lǚlyut3to pluck; to gather in the fingers; to rub; to scrape off64'7
-634c捌bābaat3break open, split open; an accounting version of the numeral eight64'7
-634d捍hànhon6ward off, guard against, defend64'7
-634e捎shāosaau1to select; to take; to carry64'7
-634f捏niēnip6pick with fingers; knead; mold64'7
-6350捐juāngyun1contribute; give up, renounce64'7
-6351捑zèzik664'7
-6352捒shùcuk164'7
-6353捓yéje4strive, endeavor64'7
-6354捔juégok3to gore, stab64'7
-6355捕bǔbou6arrest, catch, seize64'7
-6356捖wángwaat364'7
-6357捗bùbou6make progress64'7
-6358捘zùnzyun3push64'7
-6359捙yèjai664'7
-635a捚zhāizaai164'7
-635b捛lǚleoi564'7
-635c捜sōusau1search, seek; investigate64'7
-635d捝tuōtyut364'76329
-635e捞lāolaau4scoop out of water; dredge, fish64'76488
-635f损sǔnsyun2diminish; impair; injure64'7640D
-6360捠bāngbang164'7
-6361捡jiǎngim2to pick up64'764BF
-6362换huànwun6change64'763DB
-6363捣dǎodou2hull; thresh; beat, attack64'76417
-6364捤wěimei564'7
-6365捥wànwun2to bend the wrist64'8
-6366捦qínkam4to seize; to clutch; to arrest; to capture; (Cant.) to climb64'8
-6367捧pěngpung2hold up in two hands64'8
-6368捨shěse2discard, give up willingly; give alms64'8820D
-6369捩lièlit6twist with hands; snap, tear64'8
-636a捪mínman464'8
-636b捫ménmun4stoke, pat, feel by hand, grope64'8626A
-636c捬fǔfu2press down heavily with hands64'8
-636d捭bǎibaai2to open; to spread out64'8
-636e据jùgeoi3to occupy, take possession of; a base, position64'8636E636E 64DA
-636f捯dáodou3pull back continuously on a rope or line with both hands64'8
-6370捰wǒwo264'8
-6371捱áingaai4put off, procrastinate; endure64'8
-6372捲juǎngyun2curl, roll up; curly, rolled up64'85377
-6373捳yuèngok664'8
-6374捴zǒngzung264'8
-6375捵chēntin2(Cant.) to hold between the fingers and thumb64'8
-6376捶chuíceoi4strike with stick, lash, beat64'8
-6377捷jiézit6win, victory, triumph64'8
-6378捸tūteot164'8
-6379捹bènban3to fumble things over, mix up; (Cant.) to swing, fling; to flick off, throw off; to jerk64'8
-637a捺nànaat6to press down heavily with the fingers64'8
-637b捻niǎnnip6to twist or nip with the fingers64'8
-637c捼ruóno4to rub; to crumple64'8
-637d捽zuózeot1clutch, grasp; pull up; contradict64'8
-637e捾wòwut664'8
-637f捿qīcai1perch; roost; stay64'8
-6380掀xiānhin1lift, raise; stir64'8
-6381掁chéngcaang464'8304C4
-6382掂diāndim1heft, hold or weigh in palm64'8
-6383掃sǎosou3sweep, clear away; exterminate64'8626B
-6384掄lūnleon4swing, brandish, flourish64'862A1
-6385掅qìngcing3(Cant.) to lift up; to seize, grab64'8
-6386掆gānggong1(a simplified form of 掆) to carry on the shoulders of two or more men, to raise64'839CF
-6387掇duōzyut3collect, gather up, pick up64'8
-6388授shòusau6give to, transmit; confer64'8
-6389掉diàodiu6turn, move; shake, wag; drop down64'8
-638a掊póupau2to extract; injure64'8
-638b掋dǐdai264'8
-638c掌zhǎngzoeng2palm of hand, sole of foot, paw64'8
-638d掍hùnwan664'8
-638e掎jǐgei2drag aside, pull; drag one foot64'8
-638f掏tāotou4take out; pull out; clean out64'8
-6390掐qiāhaap3hold; gather with hand; choke64'8
-6391掑qíkei464'8
-6392排páipaai4row, rank, line64'8
-6393掓shūsuk164'8
-6394掔qiānhaan1sturdy64'8
-6395掕língling464'8
-6396掖yējik6support with the arms; stick in, tuck in; fold up64'8
-6397掗yàaa3take; hold; give forcefully64'8631C
-6398掘juégwat6dig, excavate; excavate cave64'8
-6399掙zhēngzang1to strive, endeavor, struggle; to earn; to pierce; to wedge in64'86323
-639a掚liǎngloeng564'82AB75
-639b掛guàgwaa3hang, suspend; suspense64'86302
-639c掜yìngai564'8
-639d掝huòwaak664'8
-639e掞yànsim3easy, smooth; quiet; suave64'8
-639f掟zhěngdeng3law, commandments, regulations; (Cant.) to throw64'8
-63a0掠lüèloek6rob, ransack, plunder; pass by64'8
-63a1採cǎicoi2gather, collect; pick, select64'891C7
-63a2探tàntaam3find, locate; search, grope for64'8
-63a3掣chèzai3drag, pull; hinder by pulling back64'8
-63a4掤bīngbing1quiver; (Cant.) to pull on something64'8
-63a5接jiēzip3receive; continue; catch; connect64'8
-63a6掦tìtik1to take up; to put by64'8
-63a7控kònghung3accuse, charge; control64'8
-63a8推tuīteoi1push, expel; push forward64'8
-63a9掩yǎnjim2to cover (with the hand); shut, conceal; ambush64'8
-63aa措cuòcou3place; collect, arrange; employ64'8
-63ab掫zhōuzau1be on night watch; grasp64'8
-63ac掬jūguk1to grasp or hold with both hands64'8
-63ad掭tiàntim5to manipulate; a pricker for a lamp-wick64'8
-63ae掮qiánkin4to bear on the shoulders64'8
-63af掯kènkang3oppress, extort, take by force64'8
-63b0掰bāimaak3(Cant.) to tear, to rip64'8
-63b1掱pápaa4pickpocket64'8
-63b2掲jiēkit3to set (a table); to install, equip; to lay (a foundation)64'9
-63b3掳lǔlou5capture, seize64'864C4
-63b4掴guāigwaak3box one's ears, slap64'86451
-63b5掵mingming664'8
-63b6掶jiézit664'8
-63b7掷zhìzaak6throw, hurl, cast, fling64'863B763B7 64F2
-63b8掸dǎndaan6to dust; a duster64'864A3
-63b9掹mengmang1(Cant.) to pluck, to pull64'8
-63ba掺chāncaam1mix, blend, adulterate64'8647B
-63bb掻sāosou1scratch lightly64'8
-63bc掼guàngwaan3throw ground; know, be familiar64'8645C
-63bd掽pèngpung3collide; meet unexpectedly64'8
-63be掾yuànjyun6a general designation of officials64'9
-63bf掿nuònok664'9
-63c0揀jiǎngaan2choose; select; pick up; gather64'962E3
-63c1揁zhēngzing1sound of setting up a koto64'9
-63c2揂jiūzau164'9
-63c3揃jiǎnzin2shear; (Cant.) to skin an animal64'9
-63c4揄yújyu4lift, raise; praise; hang; flap64'9
-63c5揅yánjin4grind, rub; study, research; (Cant.) to play a stringed instrument64'11
-63c6揆kuíkwai4prime minister; to guess, estimate64'9
-63c7揇nǎnnaam4(Cant.) to measure a distance with the extended thumb and forefinger or middle finger64'9
-63c8揈hōngfang4to expel64'9
-63c9揉róujau4rub, massage; crush by hand64'9
-63ca揊pìbik164'9
-63cb揋wēiwui164'9
-63cc揌sāisak1to shake64'9
-63cd揍zòuzau3hit, beat; smash, break64'9
-63ce揎xuānsyun1to pull up the sleeves and stretch out the arms; to strike with bare fists64'9
-63cf描miáomiu4copy, trace, sketch; depict64'9
-63d0提títai4hold in hand; lift in hand64'9
-63d1揑niēnip6to fabricate; to trump up64'9
-63d2插chācaap3insert, stick into; plant64'9
-63d3揓shìci364'9
-63d4揔zǒngzung2collect; overall, altogether64'9
-63d5揕zhènzam3roll up the sleeves; fight bare-fisted; strike, stab64'9
-63d6揖yījap1salute, bow; defer to, yield64'9
-63d7揗xúntan4strike, hit with hand; tap; (Cant.) to be frightened; to move to and fro64'9
-63d8揘yóngwing464'9
-63d9揙biānbin164'9
-63da揚yángjoeng4scatter, spread; praise64'9626C
-63db換huànwun6change, exchange; substitute64'96362
-63dc揜yǎnjim2cover up; take by force, shut64'9
-63dd揝zǎnzaan2to hold in the hand, to grasp; to wring64'9
-63de揞ǎnam2to cover (with the hand)64'9
-63df揟xūseoi164'9
-63e0揠yàaat3to pull up, to eradicate64'9
-63e1握wòak1grasp, hold fast, take by hand64'9
-63e2揢kékak1to seize; (Cant.) to block, obstruct64'9
-63e3揣chuāiceoi2put things under clothes64'9
-63e4揤jízat164'9
-63e5揥tìdai3scratcher64'9
-63e6揦lálaa2to clutch; to grab at; to rub or scrape; to tear; (Cant.) to scratch; to feel around with the hand64'9
-63e7揧làlaat664'9
-63e8揨chéncaang464'9
-63e9揩kāihaai1rub and wipe, dust, clean64'9
-63ea揪jiūzau1grasp with hand, pinch64'9
-63eb揫jiūzau1grasp with hand, pinch64'9
-63ec揬túdat6(Cant.) lay up; sit64'9
-63ed揭jiēkit3raise, lift up; surname64'9
-63ee揮huīfai1direct; wipe away; squander64'96325
-63ef揯gèngang1(Cant.) tight, distended64'9
-63f0揰chòngcung3to push in or poke out; a punch; (Cant.) to collide64'9
-63f1揱xiāosiu164'9
-63f2揲diésit3to sort out the stalks used in divination; to fold64'9
-63f3揳xiēsit3wipe; estimate64'9
-63f4援yuánwun4aid, assist; lead; cite64'9
-63f5揵qiánkin4carry64'9
-63f6揶yéje4make fun of, ridicule64'9
-63f7揷chācaap3insert64'9
-63f8揸zhāzaa1handful; to grasp, seize, pick up with fingers; (Cant.) to take, carry64'9
-63f9揹bēibui3carry things on one's back64'9
-63fa揺yáojiu4wag, swing, wave; shake; scull64'9
-63fb揻wēiwai164'9
-63fc揼bengdam2(Cant.) to delay, waste time; to throw down, beat; to hang down64'9
-63fd揽lǎnlaam5grasp, take hold of; monopolize64'9652C
-63fe揾wènwan2wipe off; press down with knuckle64'963FE63FE 6435
-63ff揿qìngam6press64'964B3
-6400搀chāncaam1give helping hand64'96519
-6401搁gēgok3place, put, lay down; delay64'964F1
-6402搂lǒulau1hug, embrace; drag, pull64'9645F
-6403搃zǒngzung2all, general; to summarize; the chief; to manage64'9
-6404搄gèngang164'9
-6405搅jiǎogaau2disturb, agitate, stir up64'9652A
-6406搆gòukau3pull, drag; reach; implicate64'10
-6407搇qìnkam2to press down with the hand; to lead on; (Cant.) to cover, close up64'10
-6408搈róngjung464'10
-6409搉quèkok3knock; pick out; ridicule64'10
-640a搊chōucau1pluck64'102BF1D
-640b搋chuāicaai1to thump64'10
-640c搌zhǎnzin2to wipe tears; to bind64'10
-640d損sǔnsyun2diminish; impair; injure; hexagram ䷨64'10635F
-640e搎sūnsyun1to rub with the hand; to stroke64'10304E7
-640f搏bóbok3seize; spring upon; strike64'10
-6410搐chùcuk1cramp, spasm, convulsion; twitch64'10
-6411搑róngjung464'10
-6412搒bàngpong3pole; beat64'10
-6413搓cuōco1to rub or roll between the hands64'10
-6414搔sāosou1to scratch64'10
-6415搕kēhap6to strike; to take in the hand64'10
-6416搖yáojiu4wag, swing, wave; shake; scull64'106447
-6417搗dǎodou2hull; thresh; beat, attack64'106363
-6418搘zhīzi1prop64'10
-6419搙nùnuk6to handle; to play with64'10
-641a搚lālap664'10
-641b搛jiāngim1to pick up with chopsticks64'10
-641c搜sōusau1search, seek; investigate64'9
-641d搝qiǔhau264'10
-641e搞gǎogaau2to clear, clarify64'10
-641f搟xiǎnhin264'10
-6420搠shuòsok3to daub; to thrust64'10
-6421搡sǎngsong2to push over or push back64'10
-6422搢jìnzeon3to stick into; to shake64'10
-6423搣mièmit1(Cant.) to tear, peel, twist with the fingers64'10
-6424搤èak1seize64'10
-6425搥chuíceoi4beat, pound, strike, throw; shampoo64'10
-6426搦nuònik1grasp, seize, take in hand64'10
-6427搧shānsin3fan; strike on face; stir up64'10
-6428搨tàtaap3rub, make rubbings of inscription64'10
-6429搩zhǎgit664'10
-642a搪tángtong4ward off, evade; parry; block64'10
-642b搫pánpun4to move, remove, transport64'10
-642c搬bānbun1transfer, move, remove, shift64'10
-642d搭dādaap3join together, attach to; add to64'10
-642e搮lìleot664'10
-642f搯tāotou1take out, pull out64'10
-6430搰húwat6dig; turbid; exert; (Cant.) to shake64'10
-6431搱zhìzi664'12
-6432搲wāwaa2to seize, to grasp64'10
-6433搳huáwaak6boxing; a finger-guessing game64'10
-6434搴qiānhin1extract; seize; pluck up64'10
-6435搵wènwan2wipe off; press down with knuckle; to immerse; (Cant.) to search, look for64'1063FE
-6436搶qiǎngcoeng2plunder, rob, take by force64'1062A2
-6437搷tiántin4to beat; to winnow64'10
-6438搸zhēnzeon164'10
-6439搹èngak164'10
-643a携xiékwai4lead by hand, take with; carry64'10643A643A 651C
-643b搻nuò64'10
-643c搼quánkyun464'10
-643d搽chácaa4smear; rub, wipe; anoint64'10
-643e搾zhàzaa3to crush with the hand, press, squeeze, extract64'10
-643f搿gégaap364'10
+5c40局júguk6bureau, office; circumstance44'4cục
+5c41屁pìpei3break wind; fart; buttocks44'4
+5c42层céngcang4story, layer, floor, stratum44'45C64tầng
+5c43屃xìai3gigantic strength; hercules44'45C53
+5c44屄bībei1the vagina44'5
+5c45居jūgeoi1live, dwell, reside, sit44'5cư
+5c46屆jiègaai3numerary adjunct for time, term44'55C4A
+5c47屇tiántin4cave; hole44'5
+5c48屈qūwat1bend, flex; bent, crooked; crouch44'5khuất
+5c49屉tìtai3drawer; tray; pad; screen44'55C5C
+5c4a届jiègaai3numerary adjunct for time, term44'55C4A5C46 5C4A
+5c4b屋wūuk1house; room; building, shelter44'6ốc
+5c4c屌diǎodiu2(Cant.) obscene exclamation44'6
+5c4d屍shīsi1corpse, carcass44'65C38thi
+5c4e屎shǐsi2excrement, shit, dung44'6
+5c4f屏píngping4folding screen, shield44'6bình
+5c50屐jīkek6wooden shoes, clogs44'7
+5c51屑xièsit3bits, scraps, crumbs, fragments44'7
+5c52屒zhěnzan244'7
+5c53屓xièai3gigantic strength; hercules44'75C43
+5c54屔nínai444'7
+5c55展zhǎnzin2open, unfold; stretch, extend44'7triển
+5c56屖xīsai144'7
+5c57屗wěicyun344'7
+5c58屘mǎnmei1the youngest44'7
+5c59屙ēo1to ease nature44'8
+5c5a屚lòulau644'8
+5c5b屛píngbing2folding screen44'8
+5c5c屜tìtai3drawer; tray; pad; screen44'85C49
+5c5d屝fèifei2straw shoes; straw door44'8
+5c5e属shǔsuk6class, category, type; belong to44'95C5E5C5E 5C6C
+5c5f屟xièsit3wooden shoes, clogs44'9
+5c60屠tútou4butcher, slaughter, massacre44'9đồ
+5c61屡lǚleoi5frequently, often, again and again44'95C615C61 5C62
+5c62屢lǚleoi5frequently, often, again and again44'115C61lũ
+5c63屣xǐsaai2straw sandals or slippers that have no heel-backs44'11
+5c64層céngcang4story, layer, floor, stratum44'125C42tầng
+5c65履lǚlei5footwear, shoes; walk on, tread; hexagram ䷉44'12
+5c66屦jùgeoi3straw sandals; tread on44'125C68
+5c67屧xièsit3wooden shoes, clogs44'12
+5c68屨jùgeoi3straw sandals; tread on44'145C66
+5c69屩juēgoek3straw sandals44'152AA17
+5c6a屪liáoliu4penis44'15
+5c6b屫juégoek344'16
+5c6c屬shǔsuk6class, category, type; to belong to44'185C5Ethuộc
+5c6d屭xìai3gigantic strength44'21
+5c6e屮chècit3sprout; Kangxi radical 4545'0
+5c6f屯túntyun4village, hamlet; camp; station; hexagram ䷂45'1truân
+5c70屰nìjik6disobedient45'3
+5c71山shānsaan1mountain, hill, peak46'0sơn
+5c72屲wāsaan146'1
+5c73屳xiānsin146'2
+5c74屴lìlik6lofty46'2
+5c75屵èngaat646'2
+5c76屶huìwui6lofty46'2
+5c77屷huìwui646'2
+5c78屸lónglung446'3
+5c79屹yìngat6to rise high; to stand erect46'3ngật
+5c7a屺qǐhei2a hill with trees or grass-- some give the opposite meaning46'3
+5c7b屻rènjan6(Cant.) sharp46'3
+5c7c屼wùngat6mountain; a bare hill46'3
+5c7d屽hànhon646'3
+5c7e屾shēnsan146'3
+5c7f屿yǔzeoi6island46'35DBC
+5c80岀chūceot1go out46'3
+5c81岁suìseoi3year; age; harvest46'35C815C81 6B72
+5c82岂qǐhei2how? what?46'38C48
+5c83岃rènjan646'3
+5c84岄yuèjyut646'4
+5c85岅bǎnbaan2mountain slope46'4
+5c86岆yǎojiu246'4
+5c87岇ángngong446'4
+5c88岈yángaa4嵖岈山, a mountain in Suìpíng county, Hénán46'4
+5c89岉wùmat646'4
+5c8a岊jiézit3foothill46'4
+5c8b岋èngap646'4
+5c8c岌jíkap1perilous, hazardous; high, steep46'4ngập
+5c8d岍qiānhin1a mountain in Shaanxi46'6
+5c8e岎fénfan446'4
+5c8f岏wánjyun446'4
+5c90岐qíkei4high; majestic; fork in road46'4
+5c91岑cénsam4steep, precipitous; peak46'4sầm
+5c92岒qiánkim446'4
+5c93岓qíkei446'4
+5c94岔chàcaa3diverge, branch off; fork in road46'4
+5c95岕jiègaai346'4
+5c96岖qūkeoi1steep, sheer; rugged, rough46'45D87
+5c97岗gǎnggong1post; position46'45D17
+5c98岘xiànjin6steep hill; mountain in Hubei46'45CF4
+5c99岙àoou3island46'45DB4
+5c9a岚lánlaam4mountain mist, mountain haze46'45D50
+5c9b岛dǎodou2island46'45CF6đảo
+5c9c岜bābaa1rock mountain46'4
+5c9d岝zuòzok3name of a mountain in Shandong46'5
+5c9e岞zuòzok3a mountain in Chāngyì county, Shāndōng46'5
+5c9f岟yǎngjoeng246'5
+5ca0岠jùgeoi646'5
+5ca1岡gānggong1ridge or crest of hill46'55188
+5ca2岢kěho2a county in Shānxī46'5
+5ca3岣gǒugau2a hill in Hunan46'5
+5ca4岤xuéjyut646'5
+5ca5岥pō46'5
+5ca6岦lìlaap646'5
+5ca7岧tiáotiu4peak; cliff; precipice46'5đèo
+5ca8岨qūzeoi1uneven46'5
+5ca9岩yánngaam4cliff; rocks; mountain46'5nham
+5caa岪fúfat646'5
+5cab岫xiùzau6mountain peak; cave, cavern46'5
+5cac岬jiǎgaap3cape; promontory, headland46'5
+5cad岭lǐngling5mountain ridge, mountain peak46'55DBA
+5cae岮tuóto446'5
+5caf岯pípei446'5
+5cb0岰àoau346'5
+5cb1岱dàidoi6Daishan, one of the Five Sacred Mountains in China46'5đồi
+5cb2岲kuàngfong346'5
+5cb3岳yuèngok6mountain peak; surname46'5
+5cb4岴qūkeoi146'5
+5cb5岵hùwu6hill46'5hô
+5cb6岶pòpaak346'5
+5cb7岷mínman4Minshan mountain range in northern Sichuan and southern Gansu, Min River46'5
+5cb8岸ànngon6bank, shore; beach, coast46'5ngàn
+5cb9岹tiáotiu4peak; cliff, precipice46'5
+5cba岺língling4mountain ridge, mountain peak46'5
+5cbb岻chíci446'5
+5cbc岼píngping446'5
+5cbd岽dōngdung1place name in Guangxi province46'55D2C
+5cbe岾hànzim1mountain pass (Korean)46'5
+5cbf岿kuīkwai1grand, stately; secure, lasting46'55DCB
+5cc0峀xiùbong1mountain peak; cave, cavern46'5
+5cc1峁mǎomaau5yellow dirt mount46'5
+5cc2峂tóngtung4name of a place in Běijīng's Shìhǎidiàn district46'5
+5cc3峃xuéhok6big rocky mountain46'55DA8
+5cc4峄yìjik6a range of peaks in Shandong and Jiangsu; the name of a mountain46'55DA7
+5cc5峅biànbin646'5
+5cc6峆héhap646'6
+5cc7峇bābaa1cave, cavern46'6
+5cc8峈luòlok646'6
+5cc9峉èngaak646'6
+5cca峊fùfau646'6
+5ccb峋xúnseon1ranges of hills stretching on beyond another irregular peaks46'6
+5ccc峌diédit646'6
+5ccd峍lùleot646'6
+5cce峎ěnjan246'6
+5ccf峏érji446'6
+5cd0峐gāigoi146'6
+5cd1峑quāncyun146'6
+5cd2峒dòngtung4mountain in Gansu province46'6
+5cd3峓yíji446'6
+5cd4峔mǔmou546'6
+5cd5峕shísi446'6
+5cd6峖ānon146'6
+5cd7峗wéingai446'6
+5cd8峘huánwun446'6
+5cd9峙zhìzi6stand erect, stand up; pile up46'6
+5cda峚mìmat646'6
+5cdb峛liè lǐlei546'6
+5cdc峜jìgai346'6
+5cdd峝tóngtung4Mountain in Gansu province46'6
+5cde峞wéingai4high and uneven46'6
+5cdf峟yòujau646'6
+5ce0峠qiǎkaa1mountain pass; crisis, climax46'6
+5ce1峡xiáhaap6gorge, strait, ravine; isthmus46'65CFDgiáp
+5ce2峢lǐlit646'6
+5ce3峣yáojiu4high or tall46'65DA2nghèo
+5ce4峤jiàogiu6high pointed mountain46'65DA0
+5ce5峥zhēngzang1high, lofty, noble; steep, perilous46'65D22
+5ce6峦luánlyun4mountain range; pointed mountain46'65CE65CE6 5DD2
+5ce7峧jiāogaau1used in place names46'6
+5ce8峨éngo4lofty46'7
+5ce9峩éngo4lofty46'7
+5cea峪yùjuk6valley, ravine46'7
+5ceb峫xiéje4mountain in Shandong province46'7
+5cec峬būbou146'7
+5ced峭qiàociu3steep, precipitous, rugged46'7
+5cee峮qūnkwan146'7
+5cef峯fēngfung1peak, summit; hump of camel46'7
+5cf0峰fēngfung1peak, summit; hump of camel46'7
+5cf1峱náonaau4name of a mountain in Shāndōng46'7
+5cf2峲lǐlei546'7
+5cf3峳yóujau446'7
+5cf4峴xiànjin6steep hill; mountain in Hubei46'75C98
+5cf5峵róngwing446'7
+5cf6島dǎodou2island46'75C9Bđảo
+5cf7峷shēnsan146'7
+5cf8峸chéngsing446'7
+5cf9峹tútou446'7
+5cfa峺gěnggang246'7
+5cfb峻jùnzeon3high, steep, towering; stern46'7
+5cfc峼gàokuk146'7
+5cfd峽xiáhaap6gorge, strait, ravine; isthmus46'75CE1giáp
+5cfe峾yínngan446'7
+5cff峿wújyu5mountain46'7
+5d00崀lànglong6place name in Hunan province46'7
+5d01崁kànham3a place in Taiwan Tainan46'7
+5d02崂láolou4Laoshan, mountain in Shandong46'75D97lao
+5d03崃láiloi4mountain in Sichuan province46'75D0D
+5d04崄xiǎnhim2high, steep, precipitous46'75DAE
+5d05崅quègok346'7
+5d06崆kōnghung1Kongtong mountain46'8
+5d07崇chóngsung4esteem, honor, revere, venerate46'8sùng
+5d08崈chóngsung4esteem, honor, revere, venerate46'8
+5d09崉tàdaap646'8
+5d0a崊línlam446'8lờm
+5d0b崋huàwaa4flowery; illustrious; Chinese46'8
+5d0c崌jūgeoi1mountain name46'8
+5d0d崍láiloi4mountain in Sichuan province46'85D03
+5d0e崎qíkei1rough, uneven, jagged, rugged46'8
+5d0f崏mínman446'8
+5d10崐kūnkwan1Kunlun mountains in Jiangsu46'8
+5d11崑kūnkwan1Kunlun mountains in Jiangsu province.46'8côn
+5d12崒zúzyut6rocky peaks; lofty and dangerous46'8chót
+5d13崓gùgu346'8
+5d14崔cuīceoi1high, lofty, towering; surname46'8thôi
+5d15崕yángaai4cliff, precipice; precipitous46'8
+5d16崖yángaai4cliff, precipice; precipitous46'8day
+5d17崗gǎnggong1post; position46'85C97
+5d18崘lúnleon4Kunlun mountains in Jiangsu46'8
+5d19崙lúnleon4Kunlun mountains in Jiangsu46'82AA27son
+5d1a崚léngling4hilly, steep, rugged46'8
+5d1b崛juégwat6towering, eminent; rise abruptly46'8
+5d1c崜duōdo146'8
+5d1d崝zhēngzang146'8
+5d1e崞guōgwok3mountain in Shanxi46'8
+5d1f崟yínjam4cliffs46'8
+5d20崠dōngdung3place name in Guangxi province46'83038F
+5d21崡hánhaam446'8
+5d22崢zhēngzang1high, lofty, noble; steep, perilous46'85CE5
+5d23崣wěiwai246'8
+5d24崤xiáongaau4mountain in Henan46'8
+5d25崥pípei446'8
+5d26崦yānjim1a mountain in Kansu, where there is a cave into which the sun is said to sink at night46'8
+5d27崧sōngsung1high mountain; lofty, eminent46'8
+5d28崨jiézip646'8
+5d29崩bēngbang1rupture, split apart, collapse46'8
+5d2a崪zúzyut6rocky peaks; lofty and dangerous46'8
+5d2b崫kūfat1high and lofty (mountains)46'8
+5d2c崬dōngdung1place name in Guangxi province46'85CBD
+5d2d崭zhǎnzaam2high, steep, precipitous; new46'85D84chởm
+5d2e崮gùgu3a mesa, hill with flat top and steep sides46'8
+5d2f崯yínjam4cliffs46'8
+5d30崰zīzi146'8
+5d31崱zèzak1lofty46'930396
+5d32崲huángwong446'9
+5d33崳yújyu4county in Shandong province46'9
+5d34崴wǎiwai1high, lofty; precipitous46'9
+5d35崵yángjoeng446'92BD75
+5d36崶fēngfung146'9
+5d37崷qiúcau446'9
+5d38崸yángngong446'9
+5d39崹títai446'9
+5d3a崺yǐji546'9
+5d3b崻zhìzi646'9
+5d3c崼shìsi646'9
+5d3d崽zǎizai2a child, a servant; a diminutive46'9
+5d3e崾yào yǎojiu5place name in Shanxi province46'9
+5d3f崿èngok6cliffs46'9
+5d40嵀zhùcyu546'9
+5d41嵁kānham1rugged46'9kham
+5d42嵂lǜleot6lofty46'9
+5d43嵃yǎnjin546'9
+5d44嵄měimei546'9
+5d45嵅hánhaam446'9
+5d46嵆jīkai1mountain in Henan; surname46'9
+5d47嵇jīkai1mountain in Henan; surname46'9
+5d48嵈huànwun646'9
+5d49嵉tíngting446'9
+5d4a嵊shèngsing6district in Shaohsing, Chekiang46'10
+5d4b嵋méimei4Omei mountain in Sichuan46'9mi
+5d4c嵌qiànham3inlay, set in; fall into; rugged46'9
+5d4d嵍wùmou646'9
+5d4e嵎yújyu4mountain recess; canyon46'9giủng
+5d4f嵏zōngzung1a mountain in Shenxi46'9
+5d50嵐lánlaam4mountain mist, mountain haze46'95C9A
+5d51嵑kěhot346'9
+5d52嵒yánngaam4cliff; soar46'9
+5d53嵓yánngaam446'9
+5d54嵔wěiwai346'9
+5d55嵕zōngzung146'9
+5d56嵖chácaa4name of a mountain; (Cant.) to obstruct46'9
+5d57嵗suìseoi3year; age; harvest46'9
+5d58嵘róngwing4high, steep; lofty, towering46'95DB8
+5d59嵙kēfo1place name46'9
+5d5a嵚qīnjam1lofty, towering46'95D94
+5d5b嵛yújyu4county in Shandong province46'9
+5d5c嵜qíkei1rough, uneven, jagged, rugged46'9
+5d5d嵝lǒulau5Goulou mountain peak in Hunan46'95D81
+5d5e嵞tútou446'10
+5d5f嵟duīdeoi146'10
+5d60嵠xīkai1a valley with a stream in it; a gorge46'10
+5d61嵡wěngjung246'10
+5d62嵢cāngcong146'10
+5d63嵣dàngdong646'10
+5d64嵤róngwing446'10
+5d65嵥jiégit646'10
+5d66嵦kǎihoi2a raised site; pleasant46'10
+5d67嵧liúlau446'10
+5d68嵨wùwu246'10
+5d69嵩sōngsung1high, lofty; one of the 5 peaks, situated in Hunan46'10tung
+5d6a嵪qiāohiu146'10
+5d6b嵫zīzi1a hill in Shantung46'10
+5d6c嵬wéingai4high; rugged, rocky, precipitous46'10ngôi
+5d6d嵭bēngbang146'10
+5d6e嵮diāndin146'10
+5d6f嵯cuóco1high, towering; irregular, rugged46'10
+5d70嵰qiǎnhim246'10
+5d71嵱yǒng46'10
+5d72嵲nièjit6towering mountain46'10
+5d73嵳cuóco1high, towering; irregular, rugged46'10
+5d74嵴jǐzek3mountain ridge46'10
+5d75嵵shízi646'10
+5d76嵶ruòjoek6low part of a mountain46'10
+5d77嵷sǒngsung246'113038C
+5d78嵸zōngzung146'1121D5D
+5d79嵹jiàngkoeng446'11
+5d7a嵺liáoliu446'11
+5d7b嵻kānghong146'11
+5d7c嵼chǎncaan246'1121DB4
+5d7d嵽diédit6towering; a tall mountain46'112BD87
+5d7e嵾cēncam1uneven46'1137E5
+5d7f嵿dǐngding246'11
+5d80嶀tūtou146'11
+5d81嶁lǒulau5Goulou mountain peak in Hunan46'115D5D
+5d82嶂zhàngzoeng3cliff; mountain barrier46'11
+5d83嶃zhǎnzaam2a cliff, a peak46'11
+5d84嶄zhǎnzaam2high, steep, precipitous; new46'115D2Dchởm
+5d85嶅áongou4numerous small rocks on a mountain; used in mountain and place names46'11
+5d86嶆cáocou446'11
+5d87嶇qūkeoi1steep, sheer; rugged, rough46'115C96
+5d88嶈qiāngcoeng146'1121E83
+5d89嶉cuīceoi146'11
+5d8a嶊zuǐzeoi246'11
+5d8b嶋dǎodou2island46'11
+5d8c嶌dǎodou2island46'11
+5d8d嶍xízaap6a mountain in Yúnnán46'11
+5d8e嶎yùwai3luxuriant, elegant46'11
+5d8f嶏pèipui346'12
+5d90嶐lónglung446'12
+5d91嶑xiàngzoeng646'12
+5d92嶒céngcang4towering, lofty, steep46'12
+5d93嶓bōbo1Boshan, mountain in Shaanxi46'12
+5d94嶔qīnjam1lofty, towering46'125D5A
+5d95嶕jiāociu446'12
+5d96嶖yānjim146'12
+5d97嶗láolou4Laoshan, mountain in Shandong46'125D02lao
+5d98嶘zhànzaan646'12
+5d99嶙línleon4precipitous46'12
+5d9a嶚liáoliu446'12
+5d9b嶛liáoliu446'12
+5d9c嶜jīnzam146'12
+5d9d嶝dèngdang3path leading up a mountain46'12
+5d9e嶞duòdo6ridge46'12
+5d9f嶟zūnzeon146'12
+5da0嶠jiàogiu6high pointed mountain46'125CE4
+5da1嶡guìgwai3table46'12
+5da2嶢yáojiu4high or tall46'125CE3nghèo
+5da3嶣jiāociu446'12
+5da4嶤yáojiu446'1230394
+5da5嶥juégwai346'12
+5da6嶦shàn zhānzim146'13
+5da7嶧yìjik6a range of peaks in Shandong and Jiangsu; the name of a mountain46'135CC4
+5da8嶨xuéhok6big rocky mountain46'135CC3
+5da9嶩náonaau4a mountain in Shāndōng46'133039E
+5daa嶪yèjip646'1330391
+5dab嶫yèjip646'13
+5dac嶬yíngai446'13
+5dad嶭nièjit6elevated, lofty46'13
+5dae嶮xiǎnhim2high, steep, precipitous46'135D04
+5daf嶯jícap146'13
+5db0嶰xièhaai5gorge46'13
+5db1嶱kěgot346'13
+5db2嶲xīkwai1a name of an old town in Sichuan; cuckoo; revolution of a wheel46'13
+5db3嶳dìdei646'13
+5db4嶴àoou3island46'135C99
+5db5嶵zuǐzeoi246'13
+5db6嶶wēimei446'13
+5db7嶷yíji4a range of mountains in Hunan province46'14
+5db8嶸róngwing4high, steep; lofty, towering46'145D58
+5db9嶹dǎodou246'142B775
+5dba嶺lǐngling5mountain ridge, mountain peak46'145CAD
+5dbb嶻jiézit346'16
+5dbc嶼yǔzeoi6island; (Cant.) 大嶼山 daai6jyu4saan1 Lantau Island46'145C7F
+5dbd嶽yuèngok6mountain peak, summit46'14303AB
+5dbe嶾yǐnjan246'14
+5dbf嶿ruseoi146'14
+5dc0巀jiézit346'15
+5dc1巁lìlai646'15
+5dc2巂guīkwai1place name46'15
+5dc3巃lónglung4lofty46'163038E
+5dc4巄lónglung446'16
+5dc5巅diāndin1summit of mountain, mountain top46'165DD4
+5dc6巆róngwing446'172BD95
+5dc7巇xīhei1a crack; hazardous46'17
+5dc8巈júguk146'17
+5dc9巉cháncaam4steep, rugged, jagged, precipitous46'17
+5dca巊yǐngjing246'172AA4E
+5dcb巋kuīkwai1grand, stately; secure, lasting46'175CBF
+5dcc巌yánngaam4cliff, precipice; cave, grotto46'17
+5dcd巍wēingai4high, lofty, majestic, eminent46'18nguy
+5dce巎náonaau4used in personal names46'19
+5dcf巏quánkyun446'18
+5dd0巐chǎociu246'18
+5dd1巑cuáncyun446'19303C1
+5dd2巒luánlyun4mountain range; pointed mountain46'195CE6
+5dd3巓diāndin1summit of mountain46'19
+5dd4巔diāndin1summit of mountain, mountain top46'195DC5
+5dd5巕nièjit646'19
+5dd6巖yánngaam4cliff, precipice; cave, grotto46'20303A0nham
+5dd7巗yánngaam4cliff, precipice; cave, grotto46'192AA37
+5dd8巘yǎnjin2summit, peak46'202AA58
+5dd9巙kuínaau446'20
+5dda巚yǎnjin246'20303B9
+5ddb巛chuāncyun1river; Kangxi radical 4747'0
+5ddc巜kuàikui247'
+5ddd川chuāncyun1stream, river; flow; boil47'0xuyên
+5dde州zhōuzau1administrative division, state47'3châu
+5ddf巟huāngfong1a watery waste; to reach47'3
+5de0巠jīngging1streams running underground; flowing water47'422016
+5de1巡xúnceon4patrol, go on circuit, cruise162'3tuần
+5de2巢cháocaau4nest, living quarter in tree47'8sào
+5de3巣cháocaau4nest, living quarter in tree47'8
+5de4巤lièlip6a mane; bristles, as on a hog; dorsal fins47'12
+5de5工gōnggung1labor, work; worker, laborer48'0công
+5de6左zuǒzo2left; east; unorthodox, improper48'2tả
+5de7巧qiǎohaau2skillful, ingenious, clever48'2xảo
+5de8巨jùgeoi6large, great, enormous; chief48'2
+5de9巩gǒnggung2bind; firm, secure, strong48'3978Fcủng
+5dea巪jùgeoi6person's name48'3
+5deb巫wūmou4wizard, sorcerer, witch, shaman48'4
+5dec巬pugei148'6
+5ded巭pugung1study48'6
+5dee差chà chācaa1to differ; different, wrong; nearly, almost; an officer48'7sai
+5def巯qiúkau4an atom group48'95DF0
+5df0巰qiúkau4an atom group48'105DEF
+5df1己jǐgei2self, oneself; personal, private; 6th heavenly stem49'0kỉ
+5df2已yǐji5already; finished; stop49'0dĩ
+5df3巳sìzi6sixth earthly branch49'0tị
+5df4巴bābaa1greatly desire, anxiously hope49'1ba
+5df5巵zhīzi1measuring cup; wine container49'4
+5df6巶zhāociu149'5
+5df7巷xiànghong6alley, lane49'6
+5df8巸yíji449'6
+5df9巹jǐngan249'6
+5dfa巺xùnseon35th of the 8 trigrams; South-east; mild, modest, obedient49'6
+5dfb巻juàngyun2scroll; curl; make a comeback49'6
+5dfc巼bābaa1place name49'7
+5dfd巽xùnseon3south-east; mild, modest, obedient; trigram ☴; hexagram ䷸49'9rốn
+5dfe巾jīngan1kerchief; towel; turban; Kangxi radical 5050'0cân
+5dff巿fúfat1revolve, make circuit, turn50'1
+5e00帀zāzaap3to go round, to make a circuit, to make a revolution, to turn round50'1táp
+5e01币bìbai6currency, coins, legal tender50'15E63giẻ
+5e02市shìsi5market, fair; city, town; trade50'2thị
+5e03布bùbou3cotton cloth, textiles, linen50'2bố
+5e04帄dīngding150'2
+5e05帅shuàiseoi3commander, commander-in-chief50'25E25soái
+5e06帆fān fánfaan4sail; boat50'3
+5e07帇niènip650'3
+5e08师shīsi1teacher, master, specialist50'35E085E08 5E2B
+5e09帉fēnfan150'4
+5e0a帊pàpaa3napkin, kerchief50'4
+5e0b帋zhǐzi2paper; stationary; document50'4
+5e0c希xīhei1rare; hope, expect, strive for50'4hơi
+5e0d帍hùwu650'4
+5e0e帎dàndaam3(Cant.) a way of playing snooker with the stick on top of one's thumb50'4
+5e0f帏wéiwai4curtain that forms wall50'45E43
+5e10帐zhàngzoeng3tent; screen, mosquito net50'45E33trướng
+5e11帑tǎngtong2a treasury; public funds50'5nô
+5e12帒dàidoi6a bag, a sack; a case; a pocket, a pouch50'5đẫy
+5e13帓mòmat650'5
+5e14帔pèipei3a skirt; long robe for women, having no sleeves and fasten down the front50'5
+5e15帕pàpaak3turban, kerchief, veil; wrap50'5
+5e16帖tiētip3invitation card; notice50'5thiếp
+5e17帗bōfat1a multicolored prop used in dancing50'5
+5e18帘liánlim4flag-sign of a tavern50'55E185E18 7C3E
+5e19帙zhìdit6book cover; satchel or bag50'5
+5e1a帚zhǒuzau2broom, broomstick50'5
+5e1b帛bóbaak6silks, fabrics; wealth, property50'5
+5e1c帜zhìci3flag, pennant; sign; fasten50'55E5Fxí
+5e1d帝dìdai3supreme ruler, emperor; god50'6đấy
+5e1e帞mòmak650'6
+5e1f帟yìjik6tent50'6
+5e20帠yìjit650'6
+5e21帡píngping4shelter, screen, awning50'6
+5e22帢qiàhap1a silk hat worn by ancient scholars50'6
+5e23帣juǎngyun3bag50'6
+5e24帤rújyu450'6
+5e25帥shuàiseoi3commander, commander-in-chief50'65E05soái
+5e26带dàidaai3belt, girdle, band, strap, zone50'65E36đai
+5e27帧zhēnzing3picture, scroll; one of pair of50'65E40tranh
+5e28帨shuìseoi3handkerchief, kerchief, shawl50'7
+5e29帩qiàociu350'7
+5e2a帪zhēnzan150'7
+5e2b師shīsi1teacher, master, specialist; multitude, troops; hexagram ䷆50'75E08sư
+5e2c帬qúnkwan4the skirt of a lady's dress; petticoat50'7
+5e2d席xízik6seat; mat; take seat; banquet50'7
+5e2e帮bāngbong1help, assist; defend; shoe upper50'75E2E5E2E 5E6B
+5e2f帯dàidaai3belt50'7
+5e30帰guīgwai1return; return to, revert to50'7
+5e31帱chóucau4cover up; curtain50'75E6C
+5e32帲píngping4shelter50'8
+5e33帳zhàngzoeng3tent; screen, mosquito net50'85E10trướng
+5e34帴sànzin250'8303D5
+5e35帵wānwun1remnants, tailor's cutting50'8
+5e36帶dàidaai3belt, girdle, band, strap, zone50'85E26đai
+5e37帷wéiwai4tent; curtain, screen50'8
+5e38常chángsoeng4common, normal, frequent, regular50'8thường
+5e39帹shàsaap350'8
+5e3a帺qíkei450'8
+5e3b帻zézik1turban; conical cap50'85E58
+5e3c帼guógwok3women's headgear; mourning cap50'85E57
+5e3d帽màomou6hat, cap; cap-like tops50'9mão
+5e3e帾dǔdou250'9
+5e3f帿hóuhau4marquis, lord; target in archery50'9
+5e40幀zhèngzing3picture, scroll; one of pair of50'95E27tranh
+5e41幁xūseoi150'9
+5e42幂mìmik6cover-cloth, cover with cloth50'95E4251AA 5E42
+5e43幃wéiwai4curtain that forms wall50'95E0F
+5e44幄wòak1tent; mosquito net50'9
+5e45幅fúfuk1piece, strip, breadth of, hem50'9bức
+5e46幆yìai350'9
+5e47幇bāngbong1help, assist; defend; shoe upper50'9
+5e48幈píngping4a folding screen50'11
+5e49幉diéjip650'9
+5e4a幊gōnggung150'10
+5e4b幋pánpun4belt50'10
+5e4c幌huǎngfong2curtain, cloth screen50'10
+5e4d幍tāotou150'10thao
+5e4e幎mìmik6cover-cloth, cover with cloth50'10
+5e4f幏jiàgaa350'10
+5e50幐téngtang4130'9
+5e51幑huīfai1(same as 徽 揮) mark; sign; indication; flags; pennants, streamers, etc., to prance, to brandish, to shake; to rattle, name of a flag50'11
+5e52幒zhōngzung150'11
+5e53幓shānsaam1(simplified form of 幓; same as 縿) the long bands or ribbons attached to flags and banners (same as 襂) the feather decorated carriages or dresses; flapping and dangling, headdress used by man in ancient times50'11384E
+5e54幔mànmaan6curtain, screen, tent50'11màn
+5e55幕mùmok6curtain, screen, tent50'11
+5e56幖biāobiu150'11
+5e57幗guógwok3women's headgear; mourning cap50'115E3C
+5e58幘zézik1turban; conical cap50'115E3B
+5e59幙mùmok6a curtain, a screen50'11
+5e5a幚bāngbong1help, assist; defend; shoe upper50'12
+5e5b幛zhàngzoeng3scroll of silk or cloth bearing a congratulatory message50'11trướng
+5e5c幜jǐngging250'12
+5e5d幝chǎncin250'12
+5e5e幞fúfuk6turban50'12
+5e5f幟zhìci3flag, pennant; sign; fasten50'125E1Cxí
+5e60幠hūfu1cover50'122D613
+5e61幡fānfaan1pennant, banner, streamer, flag50'12phan
+5e62幢chuángcong4carriage curtain; sun screen50'12choàng
+5e63幣bìbai6currency, coins, legal tender50'125E01giẻ
+5e64幤bìbai6evil, wrong, bad; criminal50'12
+5e65幥zhǎngzoeng250'12
+5e66幦mìmik6cover50'13
+5e67幧qiāociu150'13
+5e68幨chāncim1curtain50'13
+5e69幩fénfan4trappings50'132AA78
+5e6a幪méngmung4cover, shelter, screen; protect50'14
+5e6b幫bāngbong1to help, assist; to defend; shoe upper50'145E2E
+5e6c幬chóucau4cover up; curtain50'145E31
+5e6d幭mièmit6cover50'15
+5e6e幮chúcyu4a screen used to make a temporary kitchen50'15
+5e6f幯jiézit350'15
+5e70幰xiǎnhin2curtain at front of carriage50'162BDC9
+5e71幱lánlaan4official dress50'17303DF
+5e72干gàngon1oppose, offend; invade; dried51'05E724E7E 5E72 5E79can
+5e73平píngping4flat, level, even; peaceful51'2bình
+5e74年niánnin4year; new-years; person's age51'3nên
+5e75幵jiānhin1even level. to raise in both hands51'3
+5e76并bìngbing6combine, annex; also, what's more51'55E764E26 4F75 5E76
+5e77幷bìngbing6combine51'5
+5e78幸xìnghang6luck(ily), favor, fortunately51'5
+5e79幹gàngon3trunk of tree or of human body51'105E72can
+5e7a幺yāojiu1one; tiny, small52'04E48
+5e7b幻huànwaan6illusion, fantasy, mirage52'1ảo
+5e7c幼yòujau3infant, young child; immature52'2ấu
+5e7d幽yōujau1quiet, secluded, tranquil; dark52'6
+5e7e幾jǐgei2how many? how much?; a few, some52'951E0kỉ
+5e7f广guǎnggwong2wide, extensive, broad; rad. 5353'05E7F5E7F 5EE3
+5e80庀pǐpei2to prepare; to regulate to hand up53'2
+5e81庁tīngting1hall, central room53'2
+5e82庂zèzak153'2
+5e83広guǎnggwong2broad, wide, extensive53'2
+5e84庄zhuāngzong1village, hamlet; villa, manor53'35E845E84 838Achăng
+5e85庅mómo1an interrogative particle53'3
+5e86庆qìnghing3congratulate, celebrate53'36176khánh
+5e87庇bìbei3cover, shield, shelter, protect53'4
+5e88庈qínkam4used in person's names53'4
+5e89庉dùna village; to dwell together53'4
+5e8a床chuángcong4bed, couch; framework, chassis53'4sàng
+5e8b庋guǐgwai2a cupboard or pantry to store53'4
+5e8c庌yǎngaa553'4
+5e8d庍bàibaai353'4
+5e8e庎jiègaai353'4
+5e8f序xùzeoi6series, serial order, sequence53'4tựa
+5e90庐lúlou4hut, cottage; name of a mountain53'45E905E90 5EEC
+5e91庑wǔmou5corridor, hallway; luxuriant53'45EE1vu
+5e92庒zhuāngzong153'4
+5e93库kùfu3armory, treasury, storehouse53'45EABkho
+5e94应yīngjing3should, ought to, must53'45E945E94 61C9
+5e95底dǐdai2bottom, underneath, underside53'5để
+5e96庖páopaau4kitchen; cooking, cuisine53'5
+5e97店diàndim3shop, store; inn, hotel53'5điếm
+5e98庘yāaap353'4
+5e99庙miàomiu6temple, shrine; imperial court53'55E995E99 5EDFmiếu
+5e9a庚gēnggang17th heavenly stem53'5canh
+5e9b庛cìci353'5
+5e9c府fǔfu2prefecture; prefect; government53'5phủ
+5e9d庝tóngtung453'5
+5e9e庞pángpong4disorderly, messy; huge, big53'59F90
+5e9f废fèifai3abrogate, terminate, discard53'55EE2phế
+5ea0庠xiángcoeng4village school; teach53'6
+5ea1庡yǐji253'6
+5ea2庢zhìzat653'6
+5ea3庣tiāotiu153'6
+5ea4庤zhìzi6prepare53'6
+5ea5庥xiūjau1shade; shelter, protection53'6
+5ea6度dùdou6degree, system; manner; to consider53'6độ
+5ea7座zuòzo6seat; stand, base53'7toà
+5ea8庨xiāohaau153'7
+5ea9庩tútou453'7
+5eaa庪guǐgwai253'7
+5eab庫kùfu3armory, treasury, storehouse53'75E93kho
+5eac庬mángpong4abundant; mixed53'7
+5ead庭tíngting4courtyard; spacious hall or yard53'7đình
+5eae庮yǒujau553'7
+5eaf庯būbou153'7
+5eb0庰bìngbing653'8
+5eb1庱chěngcing253'8
+5eb2庲láiloi453'82BDEC
+5eb3庳bìbei1a low-built house53'8
+5eb4庴jízik653'8
+5eb5庵ānam1Buddhist monastery or nunnery53'8am
+5eb6庶shùsyu3numerous, various; multitude53'8thứ
+5eb7康kānghong1peaceful, quiet; happy, healthy53'8khang
+5eb8庸yōngjung4usual, common, ordinary, mediocre53'8
+5eb9庹tuǒtok3the length of one's two outstretched arms53'8
+5eba庺sōngcung453'8
+5ebb庻shùsyu3numerous, various; multitude53'8
+5ebc庼qǐngking2room53'85ECE
+5ebd庽yùjyu6residence; lodge53'9
+5ebe庾yǔjyu4granary; storehouse53'9
+5ebf庿miàomiu6temple, shrine53'9
+5ec0廀sōusau1to conceal; to search into53'9
+5ec1廁cèci3toilet, lavatory; mingle with53'95395xí
+5ec2廂xiāngsoeng1side-room, wing; theatre box53'953A2rương
+5ec3廃fèifai3abrogate, terminate, discard53'9
+5ec4廄jiùgau3stable; barnyard53'1153A9
+5ec5廅èap153'10
+5ec6廆wěigwai1a room; the wall of a house a man's name53'10
+5ec7廇liùlau653'10
+5ec8廈shàhaa6big building, mansion53'1053A6hè
+5ec9廉liánlim4upright, honorable, honest53'10liêm
+5eca廊lánglong4corridor, porch, veranda53'9lang
+5ecb廋sōusau1conceal, hide; search for, seek53'10
+5ecc廌zhìzi6unicorn53'10
+5ecd廍bùbou653'11
+5ece廎qǐngking2room53'115EBC
+5ecf廏jiùgau3stable; barnyard53'11
+5ed0廐jiùgau3stable; barnyard53'11
+5ed1廑jǐnkan4a hut; careful53'11
+5ed2廒áongou4a granary53'11
+5ed3廓kuògwok3broad, wide, open, empty; to expand53'11quách
+5ed4廔lóulau4building of two or more stories53'112BDF9
+5ed5廕yìnjam3shade; protect, shade, cover53'112BDEEấm
+5ed6廖liàoliu6surname; name of an ancient state53'11
+5ed7廗dàidaai353'11303FC
+5ed8廘lùluk653'11
+5ed9廙yìji6respectful53'12
+5eda廚chúcyu4kitchen; closet; cupboard53'1253A8chù
+5edb廛cháncin4a store, shop; ground allotted to a retainer53'12chờn
+5edc廜tútou453'12
+5edd廝sīsi1servant53'1253AE
+5ede廞xīnjam1to prepare horses and chariots for battle53'122BDF7
+5edf廟miàomiu6temple, shrine; imperial court53'125E99miếu
+5ee0廠chǎngcong2factory, plant, workshop, mill53'125382xưởng
+5ee1廡wǔmou5corridor, hallway; luxuriant53'125E91vu
+5ee2廢fèifai3abrogate, terminate, discard53'125E9Fphế
+5ee3廣guǎnggwong2broad, wide, extensive53'125E7Fquảng
+5ee4廤kùfu3to place53'12
+5ee5廥kuàikui253'13303F6
+5ee6廦bìbik153'13
+5ee7廧qiángcoeng4wall53'132AA9E
+5ee8廨xièhaai6government office, public office53'13
+5ee9廩lǐnlam5granary; stockpile, store53'135EEAlẫm
+5eea廪lǐnlam5granary; stockpile53'135EE9lẫm
+5eeb廫liáoliu453'15
+5eec廬lúlou4hut, cottage; name of a mountain53'165E90
+5eed廭jìzik153'16
+5eee廮yǐngjing253'172BDFE
+5eef廯xiān53'17
+5ef0廰tīngteng1hall, central room53'17
+5ef1廱yōngjung1harmonious; pool; hall53'18
+5ef2廲lílai453'19
+5ef3廳tīngteng1hall, central room53'225385
+5ef4廴yǐnjan5go; Kangxi radical 5454'0
+5ef5廵xúnceon4to go on circuit; to cruise to patrol54'3
+5ef6延yánjin4delay, postpone, defer54'4dang
+5ef7廷tíngting4court54'4đình
+5ef8廸dídik6enlighten, advance; progress54'5
+5ef9廹pǎibaak1to persecute; to oppress in difficulties; embarrassed54'5
+5efa建jiàngin3build, establish, erect, found54'6kiến
+5efb廻huíwui4circle around; return; curving54'6
+5efc廼nǎinaai5then, thereupon, only then54'6
+5efd廽huíwui4return, turn around; a time54'7
+5efe廾gǒnggung2two hands; Kangxi radical 5555'0trấp
+5eff廿niànnim6twenty, twentieth55'1
+5f00开kāihoi1open; initiate, begin, start55'15F005F00 958B
+5f01弁biànbin6conical cap worn during Zhou dynasty55'2
+5f02异yìji6different, unusual, strange55'37570
+5f03弃qìhei3reject, abandon, discard55'45F035F03 68C4
+5f04弄nònglung6do, play or fiddle with; alley55'4lộng
+5f05弅fènfan555'4
+5f06弆jǔgeoi2to collect55'5
+5f07弇yǎnjim2cover over, hide; narrow-necked55'6
+5f08弈yìjik6Chinese chess55'6
+5f09弉zàngzong6large, powerful, stout, thick55'7
+5f0a弊bìbai6evil, wrong, bad; criminal55'12tệ
+5f0b弋yìjik6catch, arrest; shoot with bow56'0dặc
+5f0c弌yījat1number one56'1
+5f0d弍èrji6number two56'2nhị
+5f0e弎sānsaam1three56'3
+5f0f式shìsik1style, system, formula, rule56'3thức
+5f10弐èrji6number two56'3
+5f11弑shìsi3to kill one's superior56'95F12thí
+5f12弒shìsi3to kill one's superior56'105F11thí
+5f13弓gōnggung1bow; curved, arched; Kangxi radical 5757'0cung
+5f14弔diàodiu3condole, mourn, pity; hang57'1điếu
+5f15引yǐnjan5to pull, draw out, attract; to stretch57'1dẫn
+5f16弖hùgung1phonetic for 'te' (Japanese)57'1
+5f17弗fúfat1not, negative57'2phất
+5f18弘hóngwang4enlarge, expand; liberal, great57'2
+5f19弙wūwu157'3
+5f1a弚tuídai657'3
+5f1b弛chíci4loosen, relax, unstring a bow57'3
+5f1c弜jiàngkoeng557'3
+5f1d弝bàbaa3the part of a bow grasped when shooting57'4
+5f1e弞shěncan257'4
+5f1f弟dìdai6young brother; junior; I, me57'4đệ
+5f20张zhāngzoeng1stretch, extend, expand; sheet57'45F35trương
+5f21弡juégwat657'5
+5f22弢tāotou1bow case; scabbard; sheathe57'5
+5f23弣fǔfu2middle57'5
+5f24弤dǐdai2bow57'5
+5f25弥mínei4extensive, full; fill; complete57'55F4C 7030
+5f26弦xiánjin4string; hypotenuse, crescent57'5
+5f27弧húwu4wooden bow; arc, crescent57'5
+5f28弨chāociu1bow57'5
+5f29弩nǔnou5cross-bow, bow; downward stroke57'5nỏ
+5f2a弪jìngging3circular measure57'55F33
+5f2b弫zhěncan257'6
+5f2c弬yíji457'6
+5f2d弭mǐmai5stop, desist, end, quell57'6
+5f2e弮quānhyun1a crossbow which discharged several bolts in succession57'6
+5f2f弯wānwaan1bend, curve57'65F2F5F2F 5F4E
+5f30弰shāosaau1ends of bow57'7
+5f31弱ruòjoek6weak; fragile, delicate57'7nhược
+5f32弲xuānhyun157'7
+5f33弳jìngging3circular measure57'75F2A
+5f34弴diāodiu1red lacquer bow57'8
+5f35張zhāngzoeng1stretch, extend, expand; sheet; 26th lunar mansion, determinative star υ¹ Hydrae57'85F20trương
+5f36弶jiàngkoeng6a snare57'8
+5f37強qiángkoeng4strong, powerful, energetic57'85F3Acàng
+5f38弸péngpaang4a bow stretched to the full; tensely drawn57'8
+5f39弹dàndaan6pellet, bullet, shot, shell57'85F395F39 5F48
+5f3a强qiángkoeng4strong, powerful, energetic57'95F3A5F37 5F3Acàng
+5f3b弻bìbat657'9
+5f3c弼bìbat6aid, assist, help; correct57'9bặt
+5f3d弽shèsip357'9
+5f3e弾dàndaan6(variant of 彈) a pellet, bullet, shot, shell57'9
+5f3f弿jiǎngin257'10
+5f40彀gòugau3enough, adequate fully, quite57'10
+5f41彁gēgo157'10
+5f42彂fāfaat3issue, dispatch, send out, emit57'10
+5f43彃bìbat1to shoot57'11
+5f44彄kōukau1nock at end of bow; stretch57'112BE29
+5f45彅jiǎnzin257'11
+5f46彆bièbit3awkward57'12522Bbiết
+5f47彇xiāosiu157'12
+5f48彈dàndaan6pellet, bullet, shot, shell57'125F39đàn
+5f49彉guōkwok357'12
+5f4a彊jiànggoeng1stubborn, uncompromising57'13cương
+5f4b彋hóngwang457'13
+5f4c彌mínei4extensive, full; fill; complete57'145F25
+5f4d彍guōkwok3to draw a bow to the full57'152D6A6
+5f4e彎wānwaan1bend, curve57'195F2F
+5f4f彏juéfok357'20
+5f50彐jìgai3snout; Kangxi radical 5858'0kẹ kệ kí mự
+5f51彑jìgai3snout; Kangxi radical 5858'0
+5f52归guīgwai1return; return to, revert to58'25F525F52 6B78
+5f53当dāngdong1bear, accept, undertake; just58'35F535679 5F53 7576
+5f54彔lùluk6to carve wood58'5
+5f55录lùluk6copy, write down, record58'59304 9332
+5f56彖tuànteon3a hog; a hedgehog; a porcupine58'6
+5f57彗huìwai6broomstick; comet58'8
+5f58彘zhìzi6swine58'9
+5f59彙huìwai6collect, compile, assemble; hedgehog58'106C47
+5f5a彚huìwai6collect, compile, assemble; hedgehog58'10
+5f5b彛yíji4Yi (nationality); tripod, wine vessel; rule58'13
+5f5c彜yíji4Yi (nationality); tripod, wine vessel; rule58'13
+5f5d彝yíji4Yi (nationality); tripod, wine vessel; rule58'155F5E
+5f5e彞yíji4yi; tripod58'155F5D
+5f5f彟yuēwok6scale, standard58'165F60
+5f60彠yuēwok6scale, standard58'235F5F
+5f61彡shānsaam1hair; Kangxi radical 5959'0
+5f62形xíngjing4form, shape, appearance59'4hình
+5f63彣wénman459'4
+5f64彤tóngtung4red, vermilion59'4
+5f65彥yànjin6elegant, handsome; learned59'65F66
+5f66彦yànjin6elegant59'65F665F65 5F66
+5f67彧yùjuk1refined, cultured, polished59'7
+5f68彨chīci1yellow dragon59'75F72
+5f69彩cǎicoi2hue, color; variegated colors59'8thái
+5f6a彪biāobiu1tiger; tiger stripes; tiger-like141'5
+5f6b彫diāodiu1carve, decorate; emaciated59'8điêu
+5f6c彬bīnban1cultivated, well-bred59'8băn
+5f6d彭péngpaang4name of ancient country; surname59'9bành
+5f6e彮yǒngjung559'10
+5f6f彯piāopiu159'11
+5f70彰zhāngzoeng1clear, manifest, obvious59'11
+5f71影yǐngjing2shadow; image, reflection; photograph59'12ảnh
+5f72彲chīci1yellow dragon59'195F68
+5f73彳chìcik1step with left foot; rad. no 6060'0
+5f74彴zhuózoek3bridge60'3
+5f75彵tuǒto560'3
+5f76彶jígap160'4
+5f77彷páng fǎngpong4like, resembling; resemble60'4phảng
+5f78彸zhōngzung1restless, agitated60'4
+5f79役yìjik6service; a servant, laborer; to serve60'4dịch
+5f7a彺wángwong460'4
+5f7b彻chècit3penetrate, pervade; penetrating60'45FB9triệt
+5f7c彼bǐbei2that, there, those60'5bỉ
+5f7d彽dī(variant of 低) low; to lower, hang, bend, bow60'5
+5f7e彾língling460'5lĩnh
+5f7f彿fúfat1resembling, like, as if60'5phớt
+5f80往wǎngwong5go, depart; past, formerly60'5vãng
+5f81征zhēngzing1invade, attack, conquer60'55F815F81 5FB5chinh
+5f82徂cúcou4go, advance; to; die60'5tò
+5f83徃wǎngwong5go, depart; past, formerly60'5
+5f84径jìngging3narrow path; diameter; direct60'55F91
+5f85待dàidoi6treat, entertain, receive; wait60'6đãi
+5f86徆xīsai160'6
+5f87徇xùnseon1comply with, follow; display60'6
+5f88很hěnhan2very, quite, much60'6
+5f89徉yángjoeng4wonder, rove, stray; hesitating60'6
+5f8a徊huáiwui4linger, walk to and fro, hesitate60'6hồi
+5f8b律lǜleot6statute, principle, regulation60'6luật
+5f8c後hòuhau6behind, rear, after; descendents60'6540Ehậu
+5f8d徍wǎngwong560'6
+5f8e徎chěngcing260'7
+5f8f徏zhìzik160'7
+5f90徐xúceoi4slowly, quietly, calmly; composed, dignified60'7chờ
+5f91徑jìngging3narrow path; diameter; direct60'75F84
+5f92徒tútou4disciple, follower; go on foot60'7đồ
+5f93従cóngcung4from, by, since, whence, through60'7
+5f94徔zhizi160'6
+5f95徕láiloi4induce, encourage to come60'75FA0lại
+5f96徖cóngcung460'8
+5f97得dédak1obtain, get, gain, acquire60'8đắc
+5f98徘páipui4walk back and forth, hesitate60'8bồi
+5f99徙xǐsaai2move one's abode, shift, migrate60'8
+5f9a徚dōnggaan260'9
+5f9b徛jìgei6to cross over60'8
+5f9c徜chángsoeng4walking and fro; lingering60'8
+5f9d徝zhìzi360'8
+5f9e從cóngcung4from, by, since, whence, through60'84ECEtòng
+5f9f徟zhōuzau160'8
+5fa0徠láiloi4induce, encourage to come60'85F95lại
+5fa1御yùjyu6drive, ride; chariot; manage60'85FA15FA1 79A6ngự
+5fa2徢xièsip360'8
+5fa3徣jièze360'8
+5fa4徤jiàngin6strong, robust; to strengthen60'9
+5fa5徥shìsi660'9
+5fa6徦jiǎgaa260'9
+5fa7徧biànpin3everywhere, all over, all around60'9
+5fa8徨huángwong4doubtful, irresolute, vacillating60'9
+5fa9復fùfuk6return; repeat; repeatedly; hexagram ䷗60'9590D 5FA95FA9hạ
+5faa循xúnceon4obey, comply with, follow60'9
+5fab徫wěiwai560'9
+5fac徬pángpong4to wander about, walk along side of; to be next to60'10bàng
+5fad徭yáojiu4conscript labor, compulsory labor60'10
+5fae微wēimei4small, prefix micro-, trifling60'10vi
+5faf徯xīhai4wait for, await, expect, hope60'10
+5fb0徰zhēngzing160'10
+5fb1徱piàopiu360'11
+5fb2徲títai460'12
+5fb3徳dédak1virtue; ethics60'11
+5fb4徴zhēngzing1summon60'11
+5fb5徵zhǐ zhēngzi2summon, recruit; musical note60'125F81 5FB55FB5trưng
+5fb6徶bié60'12
+5fb7德dédak1ethics, morality, virtue60'12đức
+5fb8徸chōngcung160'12
+5fb9徹chècit3penetrate, pervade; penetrating60'125F7Btriệt
+5fba徺jiǎohiu160'12
+5fbb徻huìwai3a wide room60'13
+5fbc徼jiàohiu1frontier, border; inspect, patrol60'13
+5fbd徽huīfai1a badge, insignia60'14
+5fbe徾méimei460'14
+5fbf徿lònglung660'162AACC
+5fc0忀xiāngsoeng1to stroll; to ramble60'17
+5fc1忁bàobou360'17
+5fc2忂qúkeoi460'18
+5fc3心xīnsam1heart; mind, intelligence; soul; 5th lunar mansion, determinative star α Scorpii (Antares)61'0tâm
+5fc4忄xinsyu6heart; radical number 6161'0
+5fc5必bìbit1surely, most certainly; must61'1tất
+5fc6忆yìjik1remember, reflect upon; memory61'161B6hắt
+5fc7忇lèlak661'2sực
+5fc8忈rénjan461'2
+5fc9忉dāodou1grieved; distressed in mind61'2đau
+5fca忊dìngding661'2
+5fcb忋gǎigoi2to rely on; look up to61'3
+5fcc忌jìgei6jealous, envious; fear61'3kị
+5fcd忍rěnjan2endure, bear, suffer; forbear61'3nhẫn
+5fce忎rénjan461'3
+5fcf忏chàncaam3regret, repent; confess sins61'361FAthin
+5fd0忐tǎntaan2timorous; nervous61'3
+5fd1忑tètik1fearful; nervous; timid61'3thắc
+5fd2忒tètik1excessive; too; very-usually of objectionable things; to err; to mistake; changeable61'3thắc
+5fd3忓gāngon1concerned about61'3
+5fd4忔qì61'3
+5fd5忕shìsai661'3
+5fd6忖cǔncyun2guess, suppose, conjecture61'3thổn
+5fd7志zhìzi3purpose, will, determination; annals61'35FD75FD7 8A8Cchí
+5fd8忘wàngmong4forget; neglect; miss, omit61'3vong
+5fd9忙mángmong4busy, pressed for time; hustling61'3mang
+5fda忚xīhei161'3
+5fdb忛fānfaan461'3
+5fdc応yīngjing3should, ought to, must61'3
+5fdd忝tiǎntim2disgraced; ashamed; self-deprecating61'4thỏm
+5fde忞mínman461'4
+5fdf忟wěnman4(Cant.) impatient, restless61'4
+5fe0忠zhōngzung1loyalty, devotion, fidelity61'4trung
+5fe1忡chōngcung1a sad, uneasy countenance61'4
+5fe2忢wùng661'4
+5fe3忣jígap161'4
+5fe4忤wǔng5insubordinate, stubborn; wrong61'4ngỗ
+5fe5忥xìhei361'4
+5fe6忦jiágit361'4
+5fe7忧yōujau1sad, grieved; grief, melancholy61'46182ưu
+5fe8忨wànwun661'4
+5fe9忩cōngcung1(same as 怱) hastily, in haste, hurriedly61'4
+5fea忪sōngzung1quiet, calm, tranquil, peaceful61'4
+5feb快kuàifaai3rapid, quick, speedy, fast; soon61'4khoái
+5fec忬yùjyu661'4
+5fed忭biànbin6delighted; pleased61'4
+5fee忮zhìzi3stubborn; perverse; aggressive61'4
+5fef忯qíkei461'4
+5ff0忰cuìseoi6suffer, become emaciated, haggard61'4
+5ff1忱chénsam4truth, sincerity; sincere61'4thầm
+5ff2忲tàitaai3extravagant61'4
+5ff3忳túntyun461'4
+5ff4忴qiánkim461'4
+5ff5念niànnim6think of, recall, study61'4niệm
+5ff6忶húnwan461'4
+5ff7忷xiōnghung1(variant of 恟) scared, nervous61'4
+5ff8忸niǔnau2blush, be bashful, be ashamed61'4
+5ff9忹kuángkong461'4
+5ffa忺xiānhim1happy61'4
+5ffb忻xīnjan1delightful, joyful, pleasant61'4
+5ffc忼kāngkong2ardent; generous, magnanimous61'4
+5ffd忽hūfat1suddenly, abruptly; neglect61'4hốt
+5ffe忾kàikoi3anger, wrath, hatred, enmity61'4613E
+5fff忿fènfan5get angry; fury, exasperation61'4phẫn
+6000怀huáiwaai4bosom, breast; carry in bosom61'460006000 61F7
+6001态tàitaai3manner, bearing, attitude61'4614Bthái
+6002怂sǒngsung2instigate, arouse, incite61'4616Btúng
+6003怃wǔmou5regretful, disappointed61'461AE
+6004怄òuau3annoyed61'4616A
+6005怅chàngcoeng3disappointed, dissatisfied61'460B5
+6006怆chuàngcong3sad, broken-hearted, disconsolate61'46134
+6007怇jùgeoi661'5
+6008怈yìjai661'5
+6009怉bǎobaau261'5
+600a怊chāociu1sad, disappointed61'5
+600b怋mínman461'5
+600c怌pēipei1bosom; to carry in the bosom; to cherish61'5
+600d怍zuòzok6to be ashamed61'5tạc
+600e怎zěnzam2what? why? how?61'5chẩn
+600f怏yàngjoeng2discontented, dispirited, sad61'5
+6010怐jùkau3(Cant.) 怐豆 to stare61'5
+6011怑bànbun661'5bẳn
+6012怒nùnou6anger, rage, passion; angry61'5nộ
+6013怓náonaau4confusion; a braggart61'5
+6014怔zhēngzing1a disease resembling neurosis61'5
+6015怕pàpaa3to fear, be afraid of; apprehensive61'5
+6016怖bùbou3terror, fear; frighten; terrified61'5bố
+6017怗tiētip3observant; peaceful; submissive61'5
+6018怘hùgu361'5
+6019怙hùwu6rely on, presume on; persist in61'5
+601a怚jùzeoi6dull, stupid, suspicious61'5
+601b怛dádaat3grieved, saddened; worried61'5đắn
+601c怜liánlin4pity, sympathize61'5601C601C 6190lanh
+601d思sīsi1think, consider, ponder; final particle61'5tư
+601e怞chóuto grieve; sorrowful61'5
+601f怟dìdai361'5
+6020怠dàitoi5idle, remiss, negligent; neglect61'5
+6021怡yíji4harmony; pleasure, joy; be glad61'5
+6022怢tūdat661'5
+6023怣yóujau461'5
+6024怤fūfu161'5
+6025急jígap1quick, quickly; urgent, pressing61'5cấp
+6026怦pēngping1eager, ardent, impulsive; anxious61'5bừng
+6027性xìngsing3nature, character, sex61'5tính
+6028怨yuànjyun3hatred, enmity, resentment61'5oán
+6029怩nínei4shy, timid, bashful; look ashamed61'5náy
+602a怪guàigwaai3strange, unusual, peculiar61'5
+602b怫fúfat6sorry, anxious; depressed61'5phật
+602c怬xìhei361'5
+602d怭bìbit1rude61'5
+602e怮yōujau161'5
+602f怯qièhip3lacking in courage, afraid61'5khiếp
+6030怰xuànjyun661'5
+6031怱cōngcung1hastily, in haste, hurriedly61'5
+6032怲bǐngbing2be anxious, be grieved, be sad61'5biếng
+6033怳huǎngfong2wild, mad; flurried61'5hoảng
+6034怴xùwat161'5
+6035怵chùzeot1fear, be afraid; shy, timid61'5truột
+6036怶bìbei3(Cant.) to have no zeal at all61'5
+6037怷shùsik161'5
+6038怸xīsik1to be familiar with; a kind of medicine61'5
+6039怹tāntaa1a polite version of he61'5
+603a怺yǒngwing5to endure61'5
+603b总zǒngzung2collect; overall, altogether61'57E3Dtổng
+603c怼duìdeoi6hate, abhor; hatred, resentment61'561DF
+603d怽momei661'5
+603e怾zhǐsik1mountain name61'5
+603f怿yìjik6enjoy, be glad, be pleased61'561CC
+6040恀shìci2trust61'6
+6041恁nènjam6that, like this, thus, so, such61'6
+6042恂xúnseon1careful, sincere, honest; trust61'6
+6043恃shìci5rely on, presume on, trust to61'6
+6044恄xìhat161'6ghét
+6045恅lǎolou561'6làu
+6046恆hénghang4constant, regular, persistent; hexagram ䷟61'66052
+6047恇kuānghong1fear61'6
+6048恈móumau461'6
+6049恉zhǐzi2meaning, purport, drift61'6
+604a恊xiéhip3be united; cooperate61'6
+604b恋liànlyun2love; long for, yearn for; love61'6604B604B 6200luyến
+604c恌tiāotiu1to worry; frivolous61'6
+604d恍huǎngfong2seemingly; absent-minded61'6hoảng
+604e恎diédit661'6
+604f恏hàohou261'6
+6050恐kǒnghung2fear; fearful, apprehensive61'6khủng
+6051恑guǐgwai2to change; to alter; to accommodate oneself to61'6nguây
+6052恒hénghang4constant, regular, persistent61'660526046 6052
+6053恓xīsai1vexed61'6
+6054恔jiǎohaau6cheerful; bright, sagacious61'6
+6055恕shùsyu3forgive, excuse, show mercy61'6thứ
+6056恖sīsi161'6
+6057恗hūfu161'6
+6058恘qiūjau161'6
+6059恙yàngjoeng6illness, sickness; indisposition61'6
+605a恚huìwai6anger, rage61'6
+605b恛huíwui4disordered; indistinct doubtful; blurred61'6
+605c恜chìcik161'6thức
+605d恝jiágaat3carefree; indifferent manner; without sorrow61'6
+605e恞yíji461'6
+605f恟xiōnghung1scared, nervous61'6hung
+6060恠guàigwaai3strange, unusual, peculiar61'6
+6061恡lìnleon6stingy, sparing of; close-fisted61'6
+6062恢huīfui1restore; big, great, immense, vast61'6
+6063恣zìzi3indulge oneself, unrestrained61'6
+6064恤xùseot1show pity; relieve, help61'6
+6065恥chǐci2shame, humiliation; ashamed61'6803B
+6066恦shàngsoeng361'6
+6067恧nǜnuk6ashamed61'6
+6068恨hènhan6hatred, dislike; resent, hate61'6hận
+6069恩ēnjan1kindness, mercy, charity61'6ân
+606a恪kèkok3respectful, reverent61'6khác
+606b恫dòngdung6in pain, sorrowful61'6
+606c恬tiántim4quiet, calm, tranquil, peaceful61'6điềm
+606d恭gōnggung1respectful, polite, reverent61'6cung
+606e恮quāncyun461'6
+606f息xīsik1rest, put stop to, end, cease61'6tức
+6070恰qiàhap1just, exactly, precisely; proper61'6
+6071恱yuèjyut661'6
+6072恲pēngpaang161'6
+6073恳kěnhan2sincere, earnest, cordial61'661C7khấn
+6074恴dédak161'6
+6075恵huìwai6favor, benefit, confer kindness61'6
+6076恶èok3evil, wicked, bad, foul61'65641 60E1ạc
+6077恷xiaojau161'6
+6078恸tòngdung6sadness, grief; mourn; be moved61'6615Fđỏng
+6079恹yānjim1feeble, sickly; tranquil, calm61'661E8
+607a恺kǎihoi2enjoy, be contented, joyful61'66137
+607b恻cècak1feel anguish, feel compassion61'660FB
+607c恼nǎonou5angered, filled with hate61'6607C607C 60F1
+607d恽yùnwan6devise, plan, deliberate; consult61'660F2
+607e恾mángmong461'7
+607f恿yǒngjung2instigate, incite; to alarm61'7
+6080悀yǒngjung561'7
+6081悁yuāngyun3irritable, nervous, impatient61'7quyên
+6082悂pīpei161'7
+6083悃kǔnkwan2sincere, genuine, honest, loyal61'7
+6084悄qiāociu2silent, quiet, still; anxious61'7
+6085悅yuèjyut6pleased61'760A6dột
+6086悆yùjyu6happy61'7
+6087悇tútou461'7dơ
+6088悈jiègaai3to enjoin upon; urgent61'7
+6089悉xīsik1know, learn about, comprehend61'7tạt
+608a悊zhézit3wise. to know intuitively61'7
+608b悋lìnleon6stingy, sparing of; closefisted61'7lẫn
+608c悌tìdai6brotherly, respectful61'7đễ
+608d悍hànhon6courageous, brave; violent61'7hãn
+608e悎hàohou661'7
+608f悏qièhip361'72BE82
+6090悐tìtik1respect, regard; to stand in awe of, to be alarmed61'7
+6091悑bùbou361'7bỏ
+6092悒yìjap1sorrowful, depressed, unhappy61'7
+6093悓qiànjin561'72EC81
+6094悔huǐfui3repent, show remorse, regret61'7hối
+6095悕xīhei161'7
+6096悖bèibui6be contradictory to, go counter61'7
+6097悗mánmun561'7mến
+6098悘yīji161'7
+6099悙hēnghang161'7
+609a悚sǒngsung2afraid, scared, frightened61'7
+609b悛quānsyun1repent, reform61'7thoăn
+609c悜chěngcing2obscure61'7chường
+609d悝kuīfui1to laugh at to pity; afflicted, sad61'7
+609e悞wùng6impede; neglect, delay61'760AE
+609f悟wùng6to apprehend, realize, become aware61'7
+60a0悠yōujau4long, far, remote, distant; leisurely61'7
+60a1悡lílei461'7
+60a2悢liàngloeng661'7
+60a3患huànwaan6suffer, worry about; suffering61'7hoạn
+60a4悤cōngcung1agitated, restless, hurried61'7
+60a5悥yìji361'7
+60a6悦yuèjyut6pleased, contented, gratified61'76085dột
+60a7悧lìlei4smooth; active; clever, sharp61'7rượi
+60a8您nínnei5honorific for 'you'61'7
+60a9悩nǎonou5angered, filled with hate61'7
+60aa悪èok3evil, wicked, bad, foul61'7
+60ab悫quèkok3sincerity, honesty; modest61'76128 6164
+60ac悬xuánjyun4hang, suspend, hoist; be hung61'761F8
+60ad悭qiānhaan1miserly, parsimonious, stingy61'76173ghen
+60ae悮wùng6impede; neglect, delay61'7609E
+60af悯mǐnman5pity, sympathize with, grieve for61'761ABmẫn
+60b0悰cóngcung4enjoy, amuse, please; joy61'8
+60b1悱fěifei2to be desirous of speaking61'8
+60b2悲bēibei1sorrow, grief; sorry, sad61'8bi
+60b3悳dédak1ethics, morality, virtue61'8
+60b4悴cuìseoi6suffer, become emaciated, haggard61'8xót
+60b5悵chàngcoeng3disappointed, dissatisfied61'86005
+60b6悶mènmun6gloomy, depressed, melancholy61'895F7muốn
+60b7悷lìlai661'8
+60b8悸jìgwai3fearful, apprehensive, perturbed61'8
+60b9悹guàngun361'8
+60ba悺guàngun361'8
+60bb悻xìnghang6anger, vexation; angry, indignant61'8
+60bc悼dàodou6grieve, mourn, lament; grieved61'8điệu
+60bd悽qīcai1sorrowful, grieved, melancholy61'8thê
+60be悾kōnghung1naive, guileless, simple-minded61'8
+60bf悿tiǎntim261'8
+60c0惀lúnleon461'830444luẩn
+60c1惁xīsik161'8
+60c2惂kǎnham261'8
+60c3惃gǔngwan261'8
+60c4惄nìnik6long for; hungry61'8
+60c5情qíngcing4feeling, sentiment, emotion61'8tình
+60c6惆chóucau4distressed, regretful, sad61'8
+60c7惇dūndeon1be kind, cordial, sincere61'8run
+60c8惈guǒgwo261'8
+60c9惉zhānzim161'8
+60ca惊jīngging1frighten, surprise, startle61'89A5Akinh
+60cb惋wǎnwun2regret, be sorry; alarmed61'8
+60cc惌yuānjyun1to bear a grudge against61'8
+60cd惍jīngam161'8căm
+60ce惎jìgei6injure, harm, murder61'8
+60cf惏lánlam4avaricious; greedy cold61'8lầm
+60d0惐yùwik661'8
+60d1惑huòwaak6confuse, mislead, baffle; doubt61'8hoặc
+60d2惒héwo461'8
+60d3惓quánkyun4careful, sincere, candid61'8
+60d4惔tántaam4cheerful61'8
+60d5惕tìtik1be cautious, careful, alert61'8thích
+60d6惖tìtik1respect; fear61'8
+60d7惗niènam2(Cant.) to think, consider61'8
+60d8惘wǎngmong5disconcerted, dejected, discouraged61'8
+60d9惙chuòzyut3sad, melancholy, grieving, mournful61'8
+60da惚hūfat1absent-minded, confused61'8hốt
+60db惛hūnfan1confused, stupid, dull, senile61'8hôn
+60dc惜xīsik1pity, regret, rue, begrudge61'8tiếc
+60dd惝chǎngcong2alarmed, agitated61'8sượng
+60de惞xīnjan161'8
+60df惟wéiwai4but, however, nevertheless; only61'8
+60e0惠huìwai6favor, benefit, confer kindness61'8huệ
+60e1惡èok3evil, wicked, bad, foul61'86076ác
+60e2惢suǒso261'8
+60e3惣zǒngzung2overall [questionable variant]61'8
+60e4惤jiāngin161'8
+60e5惥yǒngjung261'8
+60e6惦diàndim3think of, remember, miss61'8điếm
+60e7惧jùgeoi6fear, be afraid of, dread61'860E760E7 61FC
+60e8惨cǎncaam2sad, pitiful, wretched; cruel61'86158thảm
+60e9惩chéngcing4punish, reprimand; warn61'860E960E9 61F2
+60ea惪dédak1ethics61'8
+60eb惫bèibei6tired, weary, fatigued61'8618A
+60ec惬qièhip3be satisfied, be comfortable61'8611C
+60ed惭cáncaam4ashamed, humiliated; shameful61'8615Atuồm
+60ee惮dàndaan6dread, shrink from, shirk, fear61'8619Adạn
+60ef惯guàngwaan3habit, custom; habitually, usual61'86163quen
+60f0惰duòdo6indolent, careless, lazy, idle61'9
+60f1惱nǎonou5angered, filled with hate61'9607Cnão
+60f2惲yùnwan6devise, plan, deliberate; consult61'9607D
+60f3想xiǎngsoeng2think, speculate, plan, consider61'9tưởng
+60f4惴zhuìzeoi3afraid, apprehensive, nervous61'9nhoai
+60f5惵diédip661'9
+60f6惶huángwong4fearful, afraid, anxious, nervous61'9hoàng
+60f7惷chǔnceon2wriggle; stupid; silly; fat61'9xuẩn
+60f8惸qióngking4troubled, worried, distressed61'9
+60f9惹rěje5irritate, vex, offend, incite61'9
+60fa惺xīngsing1intelligent, clever, astute61'9
+60fb惻cècak1feel anguish, feel compassion61'9607B
+60fc惼biǎnbin2narrow-minded61'9bẽn
+60fd惽mǐnfan1confused61'9
+60fe惾zōngzung161'9
+60ff惿títai461'9
+6100愀qiǎociu2to change one's countenance, be anxious; to blush61'9xỉu
+6101愁chóusau4anxiety; to worry about, be anxious61'9sầu
+6102愂bèibui661'9
+6103愃xuānsyun1relax61'9
+6104愄wēiwui161'9
+6105愅gégaak361'9
+6106愆qiānhin1a fault, mistake, error, transgression61'9khiền
+6107愇wěiwai561'92BE74
+6108愈yùjyu6more and more, even more61'9rủ
+6109愉yújyu4pleasant, delightful; please61'9
+610a愊bìbik1sincere, honest; depressed61'9bực
+610b愋xuānhyun161'9
+610c愌huànwun661'9
+610d愍mǐnman5pity, sympathize with61'9mẫn
+610e愎bìbik1obstinate, stubborn, headstrong61'9
+610f意yìji3thought, idea, opinion; think61'9ý
+6110愐miǎnmin5bashful; to consider61'9giợn
+6111愑yǒngjung561'9
+6112愒kàikoi3rest, stop61'9
+6113愓dàngdong6profligate61'9
+6114愔yīnjam1comfortable, contented, peaceful61'9
+6115愕èngok6startled, alarmed, astonished61'9ngạc
+6116愖chénsam4to hesitate61'9
+6117愗màomau661'9
+6118愘qiàkok361'9
+6119愙kèkok3respectful, reverent61'9
+611a愚yújyu4stupid, doltish, foolish61'9ngu
+611b愛àioi3love, be fond of, like61'97231
+611c愜qièhip3be satisfied, be comfortable61'960EC
+611d愝yǎnjin261'9
+611e愞nuòno6timid, apprehensive61'9
+611f感gǎngam2feel, perceive, emotion61'9cảm
+6120愠yùnwan3angry61'961206120 614D
+6121愡zǒngzung2absent-minded, confused61'9
+6122愢sāisoi1hesitant; modest61'9
+6123愣lèngling6be in a daze61'9
+6124愤fènfan5resent, hate; indignant61'961A4phẫn
+6125愥yīngjing161'9
+6126愦kuìkui2confused, troubled, muddle-headed61'96192
+6127愧kuìkwai5ashamed, conscience-stricken61'10
+6128愨quèkok3sincerity, honesty; cautious61'1060AB
+6129愩gōnggung161'102BE8C
+612a愪yúnwan4to be grieved, sad61'10
+612b愫sùsou3guileless, sincere, honest61'10
+612c愬sùsaak3accuse; sue; inform; narrate61'10
+612d愭qíkei461'10
+612e愮yáojiu4distressed, agitated61'10
+612f愯sǒngsung261'10
+6130愰huàngfong2clearness of mind; doubtful; uncertain61'10
+6131愱jízat661'10
+6132愲gǔgwat161'10
+6133愳jùgeoi661'10
+6134愴chuàngcong3sad, broken-hearted, disconsolate61'106006
+6135愵nìnik661'10
+6136愶xiéhip361'10
+6137愷kǎihoi2enjoy, be contented, joyful61'10607A
+6138愸zhěngzing261'10
+6139愹yǒngjung561'10
+613a愺cǎocou261'10
+613b愻xùnseon3to yield, accord; humble, modest61'10
+613c愼shènsan6act with care, be cautious61'10
+613d愽bóbok3gamble, play games; wide, broad61'10
+613e愾kàikoi3anger, wrath, hatred, enmity61'105FFE
+613f愿yuànjyun6sincere, honest, virtuous61'10613F613F 9858nguyện
+6140慀xìhai661'10
+6141慁hùnwan6dishonor, disobey; insult61'10
+6142慂yǒngjung2urge, incite, egg-on61'10
+6143慃yǎngong261'10õng
+6144慄lìleot6shiver, shudder, tremble; tremble61'106817lật
+6145慅sāocou2agitated61'10
+6146慆tāotou1excessive, dissolute; delighted61'10
+6147慇yīnjan1careful, anxious, attentive61'10ân
+6148慈cíci4kind, charitable, benevolent61'10từ
+6149慉xùcuk1to bring up; to raise61'10
+614a慊qiànhim3to resent; contended; satisfied61'10
+614b態tàitaai3manner, bearing, attitude61'106001thái
+614c慌huāngfong1nervous, panicky, frantic61'10hoảng
+614d慍yùnwan3angry, indignant, resentful61'106120
+614e慎shènsan6act with care, be cautious61'10thận
+614f慏mǐngming561'10
+6150慐gonggung161'103045F
+6151慑shèsip3afraid, scared, fearful61'1061FE
+6152慒cóngcung461'11
+6153慓piāopiu5nimble61'11
+6154慔mùmou661'11
+6155慕mùmou6long for, desire; admire61'11mộ
+6156慖guógwok361'112EC87
+6157慗chìcik161'11
+6158慘cǎncaam2sad, pitiful, wretched; cruel61'1160E8thảm
+6159慙cáncaam4ashamed, humiliated; shameful61'1130467
+615a慚cáncaam4ashamed, humiliated; shameful61'1160EDtuồm
+615b慛cuīceoi461'11thôi
+615c慜mǐnman5name of a monk in Tang dynasty61'11
+615d慝tètik1do evil in secret; evil, vice61'11
+615e慞zhāngzoeng1terrified, alarmed61'11
+615f慟tòngdung6sadness, grief; mourn; be moved61'116078đỏng
+6160慠àongou661'11
+6161慡shuǎngsong261'11
+6162慢mànmaan6slow(ly), leisurely, sluggish61'11mạn
+6163慣guàngwaan3habit, custom; habitually, usually61'1160EFquen
+6164慤quèkok3sincerity, honesty; modest61'1160ABxác
+6165慥zàozou6sincere, earnest61'11
+6166慦jiùgau361'11
+6167慧huìwai6bright, intelligent; intelligence61'11
+6168慨kǎikoi3sigh, regret; generous61'9khái
+6169慩liánlin461'11
+616a慪òuau3annoyed61'116004
+616b慫sǒngsung2to alarm; to instigate, arouse, incite61'116002túng
+616c慬qínkan4brave; cautious; sad61'11cỡn
+616d慭yìnjan6cautious; willing; but61'116196
+616e慮lǜleoi6be concerned, worry about61'118651lự
+616f慯shāngsoeng161'112BE7D
+6170慰wèiwai3comfort, console, calm61'11uý
+6171慱tuántyun4sad61'1130441
+6172慲mánmun461'1130486
+6173慳qiānhaan1miserly, parsimonious, stingy61'1160ADghen
+6174慴shèsip3fear; terrified, fearful; fear61'11tiệp điệp
+6175慵yōngjung4indolent, easy-going, lazy61'11thuồng
+6176慶qìnghing3congratulate, celebrate61'115E86khánh
+6177慷kāngkong2ardent; generous, magnanimous61'11khảng
+6178慸dìdai361'1130475
+6179慹zhízap161'1130454
+617a慺lóulau4(simplified form of 慺) diligent; industrious; sedulous, to encourage; to make efforts61'11396A
+617b慻juàngyun361'11
+617c慼qīcik1sorrowful, mournful; sorrow61'11thích
+617d慽qīcik1sorrowful, mournful; sorrow61'11
+617e慾yùjuk6lust, desire, passion; appetite61'11dục
+617f慿píngpang461'11
+6180憀liáoliu4to rely on61'11
+6181憁còngzung261'11
+6182憂yōujau1sad, grieved; grief, melancholy61'115FE7ưu
+6183憃chōngcung1foolish, stupid, dull, silly61'11
+6184憄zhìzi361'11
+6185憅tòngdung661'112EC84
+6186憆chēngcaang161'11
+6187憇qìhei3rest, take rest61'11
+6188憈qūkeoi161'11
+6189憉péngpaang461'12
+618a憊bèibei6tired, weary, fatigued61'1260EB
+618b憋biēbit3to suppress inner feelings; hasty61'12
+618c憌qióngking461'12
+618d憍jiāogiu1be haughty, proud, arrogant61'12392D
+618e憎zēngzang1hate, detest, abhor; hatred61'12
+618f憏chìcai361'12
+6190憐liánlin4pity, sympathize61'12601Clanh
+6191憑píngpang4lean on, depend on, rely on61'1251EDbằng
+6192憒kuìkui2confused, troubled, muddle-headed61'126126
+6193憓huìwai6benefit, favor; follow, obey61'12
+6194憔qiáociu4be worn-out, emaciated, haggard61'12tiều
+6195憕chéngcing461'12
+6196憖yìnjan6cautious; willing; but, moreover61'12616D
+6197憗yìnjan661'12
+6198憘xǐhei2like, love, enjoy; joyful thing61'12
+6199憙xǐhei2like, love, enjoy; joyful thing61'12
+619a憚dàndaan6dread, shrink from, shirk, fear61'1260EEdạn
+619b憛tántaam461'12
+619c憜duòdo661'12
+619d憝duìdeoi6to dislike, to abhor, to hate61'12
+619e憞duìdeoi661'12
+619f憟sùsuk161'12
+61a0憠juékyut361'12
+61a1憡cècaak361'12
+61a2憢xiāohiu161'1222652
+61a3憣fānfaan161'12
+61a4憤fènfan5resent, hate; indignant61'126124phẫn
+61a5憥láolou461'12
+61a6憦làolou6regret61'122BE98
+61a7憧chōngcung1irresolute, indecisive; yearn for61'12
+61a8憨hānham1foolish, silly, coquettish61'12hám
+61a9憩qìhei3rest, take rest61'12
+61aa憪xiánhaan4composed, contented61'1230465
+61ab憫mǐnman5pity, sympathize with, grieve for61'1260AFmẫn
+61ac憬jǐngging2rouse, awaken; become conscious61'12
+61ad憭liǎoliu5clear; intelligible; severe; cold61'12trêu
+61ae憮wǔmou5regretful, disappointed61'126003
+61af憯cǎncaam2sorrowful, sad; already, nevertheless61'12
+61b0憰juékyut3wily, time-serving; to feign, to act the hypocrite61'12
+61b1憱cùcuk161'12
+61b2憲xiànhin3constitution, statute, law61'125BAAhiến
+61b3憳tǎntaam261'12
+61b4憴shéngsing461'133046A
+61b5憵pīpik1(Cant.) to rush61'13
+61b6憶yìjik1remember, reflect upon; memory61'135FC6ức
+61b7憷chùco2painful; suffering; privation61'13
+61b8憸xiāncim1to flatter; crafty, having a specious tongue61'132AAFA
+61b9憹náonou4upset; to regret61'1322650
+61ba憺dàndaam6peace61'13
+61bb憻tǎntaan261'14
+61bc憼jǐngging261'13
+61bd憽sōngsung161'13
+61be憾hànham6to regret, remorse; dissatisfied61'13hám
+61bf憿jiǎogiu161'13
+61c0懀wèiwai361'1322653
+61c1懁xuānhyun1anxious, distressed61'13
+61c2懂dǒngdung2understand, comprehend61'13
+61c3懃qínkan4courteous, cordial; zealous61'13cần
+61c4懄qínkan4grief61'13
+61c5懅jùkeoi4bashful; ashamed61'13
+61c6懆cǎocou2anxious, apprehensive61'13
+61c7懇kěnhan2sincere, earnest, cordial61'136073khấn
+61c8懈xièhaai6idle, relaxed, remiss61'13
+61c9應yīngjing3should, ought to, must61'135E94ứng
+61ca懊àoou3vexed, worried, nervous; regret61'13ảo
+61cb懋màomau6splendid, grand, majestic61'13
+61cc懌yìjik6enjoy, be glad, be pleased61'13603F
+61cd懍lǐnlam5be afraid of, be awed by, be in awe61'1361D4
+61ce懎sèsik161'13
+61cf懏jùnzeon361'13
+61d0懐huáiwaai4bosom, breast; carry in bosom61'13
+61d1懑mènmun6be sick at heart, sorrowful, sad61'1361E3
+61d2懒lǎnlaan5lazy, languid, listless61'1361F6
+61d3懓àioi361'132D784áy
+61d4懔lǐnlam5be afraid of, to be in awe of61'1361CD
+61d5懕yānjim1satiated; contented61'1430455
+61d6懖kuòkut361'14
+61d7懗xiàhaa361'14
+61d8懘chìcit361'1430492
+61d9懙yǔjyu561'142BE6E
+61da懚yìnjan361'14
+61db懛dāidaai1alarmed, scared; stupid61'14
+61dc懜měngmung1dull, stupid, doltish61'14227FC
+61dd懝àingoi661'14
+61de懞méngmung4(variant of 蒙)61'148499mong
+61df懟duìdeoi6hate, abhor; hatred, resentment61'14603C
+61e0懠qícai4angry61'142BE8A
+61e1懡mǒmo561'14
+61e2懢lánlaam461'14nhàm
+61e3懣mènmun6be sick at heart, sorrowful, sad61'1461D1
+61e4懤chóucau4grieved, pained61'14393D
+61e5懥zhìzi3angry, enraged, resentful; hate61'14
+61e6懦nuòno6weak, timid, cowardly61'14nhụa
+61e7懧nuòno6to have wisdom; intelligent61'143916nạnh
+61e8懨yānjim1feeble, sickly; tranquil, calm61'146079
+61e9懩yǎngjoeng561'152BEAA
+61ea懪bóbok661'15
+61eb懫zhìzi3enraged; resentful.to hate. to desist61'153046C
+61ec懬kuàngkwong361'15
+61ed懭kuǎngkong361'153043E
+61ee懮yǒujau1calm, leisurely; procrastinating61'15
+61ef懯fūfu161'15
+61f0懰liúlau4be glad, pleased, delighted61'1530459
+61f1懱mièmit661'15
+61f2懲chéngcing4punish, reprimand; warn61'1560E9trừng
+61f3懳huiwai661'15
+61f4懴chàncaam3regret, repent; confess sins61'15
+61f5懵měngmung2stupid, ignorant, dull61'16
+61f6懶lǎnlaan5lazy, languid, listless61'1661D2
+61f7懷huáiwaai4bosom, breast; carry in bosom61'166000hoài
+61f8懸xuánjyun4hang, suspend, hoist; be hung61'1660AC
+61f9懹ràngjoeng661'17
+61fa懺chàncaam3regret, repent; confess sins61'175FCFsám
+61fb懻jìgei3overbearing, crafty61'17
+61fc懼jùgeoi6fear, be afraid of, dread61'1860E7
+61fd懽huānfun1happy, pleased, glad, joyous61'18
+61fe懾shèsip3afraid, scared, fearful61'186151
+61ff懿yìji3virtuous, admirable, esteemed61'18
+6200戀liànlyun2love; long for, yearn for; love61'19604Bluyến
+6201戁nǎnnaan5fear61'192BEB7
+6202戂mímei461'19
+6203戃tǎngtong261'203047F
+6204戄juéfok3to be in awe of; to fear61'20
+6205戅gàngngong6stupid, simple, foolish61'21
+6206戆gàngzong3stupid, simple, simple-minded61'216207
+6207戇zhuàngzong3stupid, simple, simple-minded61'246206
+6208戈gēgwo1halberd, spear, lance; rad. 6262'0qua
+6209戉yuèjyut6a battle-axe, a halberd62'1
+620a戊wùmou65th heavenly stem62'1mậu
+620b戋jiānzin1small, narrow, tiny, little62'16214
+620c戌xūseot1eleventh earthly branch62'2tuất
+620d戍shùsyu3defend borders, guard frontiers62'2thú
+620e戎róngjung4arms, armaments; military affair62'2nhung
+620f戏xìhei3theatrical play, show62'2620F620F 6232
+6210成chéngsing4completed, finished, fixed62'2thành
+6211我wǒngo5our, us, i, me, my, we62'3ngã
+6212戒jiègaai3warn, caution, admonish62'3giới
+6213戓gēgap362'3
+6214戔jiānzin1small, narrow, tiny, little62'4620B
+6215戕qiāngcoeng4kill, slay; wound, injure, hurt62'4
+6216或huòwaak6or, either, else; perhaps, maybe62'4hoặc
+6217戗qiāngcoeng1support62'46227
+6218战zhànzin3war, fighting, battle62'562186218 6230
+6219戙dòngdung6(Cant.) to trap; upright; a pile62'6
+621a戚qīcik1relative; be related to; sad62'7thích
+621b戛jiágaat3lance; tap or strike lightly62'7giát
+621c戜diédit6to scrape; advantageous62'7
+621d戝zéipirate, thief62'7
+621e戞jiágaat3lance; tap or strike lightly62'8
+621f戟jǐgik1halberd with crescent blade62'8kích
+6220戠zhīzik1a sword; potter's clay; to gather62'953EA 62206220chỉ
+6221戡kānham1subjugate, subdue, quell; kill62'9
+6222戢jícap1to put away; to cease; store up62'9
+6223戣kuíkwai4lance62'9
+6224戤gàikoi3to infringe a trade-mark to pledge an article62'9
+6225戥děngdang2a small steelyard for weighing money, etc.62'9
+6226戦zhànzin3war, fighting, battle62'8
+6227戧qiāngcoeng1support62'106217
+6228戨gēgo162'10
+6229戩jiǎnzin2exterminate, destroy; blessing62'10622C
+622a截jiézit6cut off, stop, obstruct, intersect62'10tiệt
+622b戫yùjuk162'10
+622c戬jiǎnzin2exterminate, destroy; blessing62'106229
+622d戭yǎnjan5spear62'11
+622e戮lùluk6kill, massacre; oppress62'11
+622f戯hūhei3theatrical play, show62'116231
+6230戰zhànzin3war, fighting, battle62'126218 229D0chiến
+6231戱xìhei3theatrical play62'11622F
+6232戲xìhei3theatrical play, show62'13620Fhí
+6233戳chuōcoek3prick, stab; stamp, seal, chop62'14
+6234戴dàidaai3wear on top; support62'13
+6235戵qúkeoi4a halberd62'18
+6236戶hùwu6door; family, household63'06237hộ
+6237户hùwu6door; family63'062376236 6237hộ
+6238戸hùwu6door; family63'0
+6239戹èak1In difficulty, distressed63'1
+623a戺shìsi6stone boarder; steps63'3
+623b戻tìdai6perverse63'3
+623c戼mǎomaau5fourth earthly branch63'3
+623d戽hùfu3to bale out water63'4
+623e戾lìleoi6perverse, recalcitrant, rebellious63'4lệ
+623f房fángfong4house, building; room; 4th lunar mansion, determinative star π Scorpii63'4phòng
+6240所suǒso2place, location; numerary adjunct63'4sỡ
+6241扁biǎnbin2flat; tablet, signboard63'5biển
+6242扂diàndim363'5
+6243扃jiōnggwing1a door bar placed outside a door63'5
+6244扄shǎngsoeng2large ring on a front door used as a knocker63'6
+6245扅yíji4gate bar, bolt63'6
+6246扆yǐji2screen63'6
+6247扇shànsin3fan; door panel63'6phiến
+6248扈hùwu6escort, retinue; insolent63'7
+6249扉fēifei1door panel63'8
+624a扊yǎnjim5upright bar for fastening door63'8
+624b手shǒusau2hand64'0thủ
+624c扌shousau2hand; radical number 6464'0
+624d才cáicoi4talent, ability; just, only64'0624D624D 7E94tài
+624e扎zhāzaat3pull up; pierce; struggle free64'1trát
+624f扏qiúkau464'3
+6250扐lèlak6divine64'2
+6251扑pūpok3pound, beat, strike; attack64'262516251 64B2bốc
+6252扒bāpaa4scratch; dig up; crawl; crouch64'2bắt
+6253打dǎdaa2strike, hit, beat; fight; attack64'2đả
+6254扔rēngwing1throw, hurl; throw away, cast64'2nẫy
+6255払fǎnfaan2shake off, brush away; dust64'2chàng
+6256扖rùjap664'2
+6257扗zàizoi664'3nhổ
+6258托tuōtok3to hold up with palm; to support, rely on64'3thác thách thốc thước thướt
+6259扙zhàngzoeng664'3rượn
+625a扚diǎotiu264'3
+625b扛kánggong1carry on shoulders; lift64'3giăng
+625c扜yūjyu164'3vo
+625d扝kūfu164'3
+625e扞hànhon6ward off, withstand, resist64'3
+625f扟shēnsan164'4
+6260扠chācaa1pick up with fork or pincers64'3xoa
+6261扡tuōci2drag along64'3
+6262扢gǔgwat1caper64'3ngắt
+6263扣kòukau3knock, strike, rap, tap; button64'3khấu
+6264扤wùngaat6to thrust; to move64'3
+6265扥dèndan364'3
+6266扦qiāncin1probe, poke, prick, pierce64'3xiên
+6267执zhízap1hold in hand; keep; carry out64'3626757F7 6267chấp
+6268扨rènjan6pick up with fork or pincers64'3nhấn
+6269扩kuòkwong3expand, enlarge, stretch64'364F4quẳng
+626a扪ménmun4stoke, pat, feel by hand, grope64'3636B
+626b扫sǎosou3sweep, clear away; exterminate64'36383tảo
+626c扬yángjoeng4scatter, spread; praise64'363DAdương
+626d扭niǔnau2turn, twist, wrench; seize, grasp64'4
+626e扮bànbaan6dress up; dress up as64'4
+626f扯chěce2rip up, tear down; raise; haul64'4chải
+6270扰rǎojiu2disturb, annoy, agitate64'464FEnhiễu
+6271扱xīkap1collect, draw in, gather; receive64'4gắp
+6272扲qiánngam4(Cant.) to pull out64'4cầm
+6273扳bānpaan1pull; drag; right itself64'4bẳn
+6274扴jiágit364'4
+6275扵yújyu1in, on, at, by, from; than; with reference to; compared with64'4
+6276扶fúfu4support, help; protect; hold on64'4phù
+6277扷àoou364'4
+6278扸xīsik164'5
+6279批pīpai1comment, criticize; wholesale64'4phê
+627a扺zhǐzi2to strike one's palm with one's fist64'4chỉ
+627b扻zhìham2to strike; to run against to throw, as a stone64'4
+627c扼èak1grasp, clutch; choke, strangle64'4ách
+627d扽dèndan3to move, to shake64'4đùn
+627e找zhǎozaau2search, seek, look for; find64'4quơ
+627f承chéngsing4inherit, receive; succeed64'4thừa
+6280技jìgei6skill, ability, talent, ingenuity64'4kĩ
+6281抁yǎnjin564'4
+6282抂kuángkwong464'4
+6283抃biànbin6to clap hands; to cheer64'4bện
+6284抄chāocaau1copy, confiscate, seize64'4sao
+6285抅jūkeoi1to collect; to join together64'4
+6286抆wěnman5wipe, rub off64'4vặn
+6287抇húwat664'4nhặt
+6288抈yuèjyut6to bend64'4ngoắt
+6289抉juékyut3choose, select; gouge, pluck out64'4khoét
+628a把bǎbaa2hold, take; guard; regard as64'4bã
+628b抋qìncam364'4
+628c抌dǎndam2to bale out water, to dip64'4
+628d抍zhěngsing1to lift up; to rescue, save64'4
+628e抎yǔnwan564'4
+628f抏wán64'4
+6290抐nèneot664'4
+6291抑yìjik1press down, repress; curb, hinder64'4ức
+6292抒shūsyu1express; eliminate; relieve64'4trữ
+6293抓zhuāzaau2scratch; clutch, seize, grab64'4co
+6294抔póupau4take or hold up in both hands64'4bồi
+6295投tóutau4throw, cast, fling, pitch; jump64'4đầu
+6296抖dǒudau2tremble, shake, rouse; give shake64'4
+6297抗kàngkong3resist, oppose, defy, reject64'4kháng
+6298折zhézit3break off, snap; bend64'462986298 647Achiết
+6299抙póupau464'4
+629a抚fǔfu2pat, console, comfort; pacify64'464ABvỗ
+629b抛pāopaau1throw (away)64'4629B629B 62CBphao
+629c抜bábat6uproot, pull out64'4
+629d抝ǎoaau2to bend, break; to argue64'4
+629e択zézaak6select, choose, pick out64'4
+629f抟tuántyun4roll around with hand; model64'46476
+62a0抠kōukau1raise, lift up; tight-fisted64'46473khua
+62a1抡lūnleon4swing, brandish, flourish64'46384
+62a2抢qiǎngcoeng2plunder, rob, take by force64'46436
+62a3抣yungwan164'4
+62a4护hùwu6protect, guard, defend, shelter64'48B77hộ
+62a5报bàobou3report, tell, announce64'462A55831 62A5báo
+62a6抦bǐngbing2(Cant.) to beat64'5
+62a7抧zhǐzi264'5
+62a8抨pēngping1impeach, censure; attack64'5banh
+62a9抩nánnaam464'5nhóm
+62aa抪bùbo3to scatter, spread64'5bó
+62ab披pīpei1wear; split; crack64'5phơ
+62ac抬táitoi4lift, carry64'5
+62ad抭yǎojiu564'5
+62ae抮zhěnzan2to revolve, rotate64'5
+62af抯zhāzaa1(Cant.) to grasp, hold64'5vả
+62b0抰yāngjoeng2to shake (clothes, etc.)64'5
+62b1抱bàopou5embrace, hold in arms, enfold64'5bão
+62b2抲hēho164'5
+62b3抳nǐnei5(Cant.) to crush, mash, grind64'5nai
+62b4抴yèjit6to drag; to join64'5
+62b5抵dǐdai2resist, oppose; deny; off-set64'5
+62b6抶chìcik1beat64'5thắt
+62b7抷pīpei164'5phơ
+62b8抸jiāhip364'5bẹp
+62b9抹mǒmut3smear, apply, wipe off, erase64'5
+62ba抺mèimui664'5vầy
+62bb抻chēncan2pull64'5
+62bc押yāaat3mortgage, pledge; deposit; to pawn; to arrest, detain, guard64'5áp
+62bd抽chōucau1draw out, pull out; sprout64'5trừu
+62be抾qū64'5khứa
+62bf抿mǐnman5pucker up lips in smile; press64'5
+62c0拀chùzuk164'5
+62c1拁jiāke264'5giơ
+62c2拂fúfat1shake off, brush away; dust64'5phất
+62c3拃zhǎzaa3grope, press, span64'5
+62c4拄zhǔzyu2lean on; post; prod; ridicule64'5chủ
+62c5担dāndaam1carry, bear, undertake64'562C562C5 64D4dứt đam đảm đán đẵm đắn đẵn đét tạ
+62c6拆chāicaak3to break up, split apart, rip open; to destroy64'5sách
+62c7拇mǔmou5thumb; big toe64'5
+62c8拈niānnim1pick up with fingers; draw lots64'5chêm
+62c9拉lālaai1pull, drag; seize, hold; lengthen64'5lấp
+62ca拊fǔfu2slap; pat; tap; handle of a vessel64'5
+62cb拋pāopaau1throw (away), abandon, reject64'5629Bphao
+62cc拌bànbun6mix64'5bắn
+62cd拍pāipaak3clap, tap, beat; beat or rhythm64'5phếch
+62ce拎līnling1to haul; to lift; to take64'5
+62cf拏nánaa4take; bring; grasp, hold; arrest64'5
+62d0拐guǎigwaai2kidnap, abduct; turn64'5quảy quái quải quầy
+62d1拑qiánkim4to clamp, tie down or pin down64'5kiềm cùm
+62d2拒jùkeoi5ward off with hand, defend64'5cự
+62d3拓tàtok3expand; open up; support or push64'5
+62d4拔bábat6uproot, pull out64'5bạt
+62d5拕tuōto1to drag after, to drag out, from which comes:to involve, to delay, to implicate64'5
+62d6拖tuōto1drag, tow, haul; delay, prolong64'5đà
+62d7拗àoaau2to pull, drag, break off, to pluck (a flower); bent, warped; perverse, obstinate64'5húc
+62d8拘jūkeoi1restrain, seize, detain64'5câu
+62d9拙zhuōzyut3stupid, clumsy, crude; convention64'5chút
+62da拚pànpun3risk, disregard; go all out for64'5
+62db招zhāoziu1beckon, summon; recruit, levy64'5chiêu
+62dc拜bàibaai3do obeisance, bow, kowtow64'5bái
+62dd拝bàibaai3do obeisance, bow, kowtow64'5
+62de拞dǐdai264'5khêu khua
+62df拟nǐji5draft; intend, plan, propose64'564ECnghĩ
+62e0拠jùgeoi3to occupy, take possession of; a base, position64'5
+62e1拡kuòkwok3expand, enlarge, stretch64'5
+62e2拢lǒnglung5collect, bring together64'5650Flong
+62e3拣jiǎngaan2choose; select; pick up; gather64'563C0gióng
+62e4拤qiákaa164'5
+62e5拥yōngjung2embrace, hug, squeeze; crowd64'564C1dùng
+62e6拦lánlaan4obstruct, impede, bar, hinder64'56514dan
+62e7拧níngning6pinch; twist, wring; determined64'564F0
+62e8拨bōbut6move; dispel; distribute64'564A5
+62e9择zézaak6select, choose, pick out64'564C7trạch
+62ea拪qiāncin164'6tay
+62eb拫hénhang4to pull; to drag; to stop; (Cant.) to turn fast64'6gắn
+62ec括kuòkut3include, embrace, enclose64'6quát
+62ed拭shìsik1wipe away stains with cloth64'6rị
+62ee拮jiégit3laboring hard, occupied; pursue64'6cất
+62ef拯zhěngcing2help, save, aid; lift, raise64'6chửng
+62f0拰nǐnnam564'6nhúm
+62f1拱gǒnggung2fold hands on breast; bow, salute64'6cõng
+62f2拲gǒnggung264'6
+62f3拳quánkyun4fist; various forms of boxing64'6quyền
+62f4拴shuānsaan1bind with rope, fasten64'6
+62f5拵cúncyun4to make, prepare, manufacture; workmanship; an arrangement64'6dồn
+62f6拶zāzaat3press, squeeze hard; force64'6
+62f7拷kǎohaau2torture and interrogate; hit64'6khỉu
+62f8拸yíji464'6
+62f9拹xiéhip364'6
+62fa拺cècaak364'6
+62fb拻huīfui164'6
+62fc拼pīnping1join together, link, incorporate64'6phanh
+62fd拽zhuàijai6drag, tow; throw; twist64'6dìa
+62fe拾shísap6pick up, collect, tidy up; accounting form of the numeral ten64'6thập
+62ff拿nánaa4take, hold, grasp; bring; with64'6nã
+6300挀bāibaak364'6
+6301持chíci4sustain, support; hold, grasp64'6trì
+6302挂guàgwaa3hang, suspend; suspense64'663026302 639Bquẩy
+6303挃zhìzat6(Cant.) to beat64'6chọi
+6304挄kuòkwok364'6quăng
+6305挅duǒdo264'6xoá
+6306挆duǒdo264'6
+6307指zhǐzi2finger, toe; point, indicate64'6chỉ
+6308挈qièkit3assist, help, lead by hand64'6
+6309按ànon3put hand on, press down with hand64'6án
+630a挊nònglung664'6
+630b挋zhènzan364'6
+630c挌gégaak3fight64'6cách rắc gác
+630d挍jiàohaau6collate; (Cant.) to scratch64'6gieo
+630e挎kuàkwaa3carry64'6
+630f挏dòngdung6(Cant.) to dredge or poke with a pole or stick64'6rùng
+6310挐nádrag64'6
+6311挑tiāotiu1a load carried on the shoulders; to carry64'6vẹo
+6312挒lièlit664'6trét
+6313挓zhāzaa1to open out; to expand64'6
+6314挔lǚleoi564'6
+6315挕diédip364'6nhẹ
+6316挖wāwaat3dig, dig out, gouge out, scoop64'6
+6317挗juékyut364'6dí
+6318挘liělyut3to pluck, pick, tear; (Cant.) rubbing action64'6
+6319挙jǔgeoi2raise, lift up; recommend64'622E01
+631a挚zhìzi3sincere, warm, cordial; surname64'6646F
+631b挛luánlyun4tangled; entwined; crooked64'6631B631B 6523
+631c挜yàaa3take; hold; give forcefully64'66397
+631d挝wōzaa1to beat; to strike64'664BE
+631e挞tàtaat3flog, whip; chastise64'664BB
+631f挟xiéhip3clasp under arm; hold to bosom64'6631F631F 633E
+6320挠náonaau5scratch; disturb, bother; submit64'66493nhéo
+6321挡dǎngdong2obstruct, impede; stop; resist64'663216321 64CB
+6322挢jiǎogiu2correct64'6649Fkéo
+6323挣zhēngzang1strive, endeavor, struggle64'66399tránh
+6324挤jǐzai1crowd, squeeze, push against64'664E0
+6325挥huīfai1direct; wipe away; squander64'663EEhuy
+6326挦xiáncam4pull out, pluck; take hold of64'6648F
+6327挧yǔjyu564'6
+6328挨āiaai1near, close by, next to, towards, against; to wait; to lean on64'7
+6329挩tuōtyut364'7635D
+632a挪nuóno4move, shift on one side64'7ná
+632b挫cuòco3push down; chop down; grind64'7doạ
+632c挬bóbut664'7vọt
+632d挭gěnggaang3fish-bones, things that stick in the throat; unyielding, blunt of speech; (Cant.) to stir, mix, agitate; to wade64'7gánh
+632e挮tǐtai264'7
+632f振zhènzan3raise, excite, arouse action64'7chấn
+6330挰chéngcaang464'7dềnh
+6331挱sāso1to feel or fondle with the fingers64'7
+6332挲sāso1to feel or fondle with the fingers64'7
+6333挳kēnghang164'7
+6334挴měimui564'7mói
+6335挵nònglung6to play with, handle things64'7lỏng
+6336挶jūguk6hold in hands64'7
+6337挷péngpong3to propel a boat; to beat64'7văng
+6338挸jiǎngin264'7kén
+6339挹yìjap1to bale out; to decant liquids64'7úp
+633a挺tǐngting5to stand upright, straighten; rigid64'7
+633b挻shānsaan164'7
+633c挼ruáno4rub, stroke with hands; crumple64'7nhôi noa noi nôi nối nổi nỗi nuôi
+633d挽wǎnwaan5pull; pull back, draw back64'7633D633D 8F13
+633e挾xiéhip3clasp under arm; hold to bosom64'7631Fxáp
+633f挿chācaap3insert, stick into; plant64'7thọc
+6340捀féngfung464'7
+6341捁jiǎogaau264'7kéo
+6342捂wǔwu2resist64'7
+6343捃jùnkwan2to pick up, collect64'7khuân
+6344捄jiùkau4long and curved64'7
+6345捅tǒngtung2jab64'7thòng
+6346捆kǔnkwan2tie up; bind, truss up; bundle64'7
+6347捇huòwaak664'7xách
+6348捈tútou464'7giơ
+6349捉zhuōzuk1grasp, clutch; catch, seize64'7tróc
+634a捊póupau464'7
+634b捋lǚlyut3to pluck; to gather in the fingers; to rub; to scrape off64'7
+634c捌bābaat3break open, split open; an accounting version of the numeral eight64'7bịt
+634d捍hànhon6ward off, guard against, defend64'7cản
+634e捎shāosaau1to select; to take; to carry64'7
+634f捏niēnip6pick with fingers; knead; mold64'7
+6350捐juāngyun1contribute; give up, renounce64'7quyên quen quên
+6351捑zèzik664'7
+6352捒shùcuk164'7
+6353捓yéje4strive, endeavor64'7
+6354捔juégok3to gore, stab64'7
+6355捕bǔbou6arrest, catch, seize64'7bõ
+6356捖wángwaat364'7
+6357捗bùbou6make progress64'7
+6358捘zùnzyun3push64'7thoa
+6359捙yèjai664'7
+635a捚zhāizaai164'7
+635b捛lǚleoi564'7trã
+635c捜sōusau1search, seek; investigate64'7
+635d捝tuōtyut364'76329
+635e捞lāolaau4scoop out of water; dredge, fish64'76488lau
+635f损sǔnsyun2diminish; impair; injure64'7640Dtốn
+6360捠bāngbang164'7banh
+6361捡jiǎngim2to pick up64'764BF
+6362换huànwun6change64'763DB
+6363捣dǎodou2hull; thresh; beat, attack64'76417đẽo
+6364捤wěimei564'7vãi
+6365捥wànwun2to bend the wrist64'8uốn
+6366捦qínkam4to seize; to clutch; to arrest; to capture; (Cant.) to climb64'8
+6367捧pěngpung2hold up in two hands64'8bổng
+6368捨shěse2discard, give up willingly; give alms64'8820Dxả
+6369捩lièlit6twist with hands; snap, tear64'8
+636a捪mínman464'8
+636b捫ménmun4stoke, pat, feel by hand, grope64'8626A
+636c捬fǔfu2press down heavily with hands64'8
+636d捭bǎibaai2to open; to spread out64'8
+636e据jùgeoi3to occupy, take possession of; a base, position64'8636E636E 64DAcứ
+636f捯dáodou3pull back continuously on a rope or line with both hands64'8
+6370捰wǒwo264'8
+6371捱áingaai4put off, procrastinate; endure64'8nhay
+6372捲juǎngyun2curl, roll up; curly, rolled up64'85377cuốn
+6373捳yuèngok664'8
+6374捴zǒngzung264'8
+6375捵chēntin2(Cant.) to hold between the fingers and thumb64'8
+6376捶chuíceoi4strike with stick, lash, beat64'8
+6377捷jiézit6win, victory, triumph64'8tiệp
+6378捸tūteot164'8
+6379捹bènban3to fumble things over, mix up; (Cant.) to swing, fling; to flick off, throw off; to jerk64'8
+637a捺nànaat6to press down heavily with the fingers64'8nài
+637b捻niǎnnip6to twist or nip with the fingers64'8nạm
+637c捼ruóno4to rub; to crumple64'8
+637d捽zuózeot1clutch, grasp; pull up; contradict64'8lót
+637e捾wòwut664'8
+637f捿qīcai1perch; roost; stay64'8
+6380掀xiānhin1lift, raise; stir64'8
+6381掁chéngcaang464'8304C4
+6382掂diāndim1heft, hold or weigh in palm64'8giếm
+6383掃sǎosou3sweep, clear away; exterminate64'8626Btảo
+6384掄lūnleon4swing, brandish, flourish64'862A1
+6385掅qìngcing3(Cant.) to lift up; to seize, grab64'8
+6386掆gānggong1(a simplified form of 掆) to carry on the shoulders of two or more men, to raise64'839CF
+6387掇duōzyut3collect, gather up, pick up64'8suốt
+6388授shòusau6give to, transmit; confer64'8thụ
+6389掉diàodiu6turn, move; shake, wag; drop down64'8trao
+638a掊póupau2to extract; injure64'8
+638b掋dǐdai264'8
+638c掌zhǎngzoeng2palm of hand, sole of foot, paw64'8
+638d掍hùnwan664'8
+638e掎jǐgei2drag aside, pull; drag one foot64'8
+638f掏tāotou4take out; pull out; clean out64'8đào
+6390掐qiāhaap3hold; gather with hand; choke64'8
+6391掑qíkei464'8cài
+6392排páipaai4row, rank, line64'8bài
+6393掓shūsuk164'8
+6394掔qiānhaan1sturdy64'8
+6395掕língling464'8
+6396掖yējik6support with the arms; stick in, tuck in; fold up64'8
+6397掗yàaa3take; hold; give forcefully64'8631C
+6398掘juégwat6dig, excavate; excavate cave64'8quật
+6399掙zhēngzang1to strive, endeavor, struggle; to earn; to pierce; to wedge in64'86323tránh
+639a掚liǎngloeng564'82AB75
+639b掛guàgwaa3hang, suspend; suspense64'86302quẩy
+639c掜yìngai564'8
+639d掝huòwaak664'8
+639e掞yànsim3easy, smooth; quiet; suave64'8
+639f掟zhěngdeng3law, commandments, regulations; (Cant.) to throw64'8
+63a0掠lüèloek6rob, ransack, plunder; pass by64'8lướt
+63a1採cǎicoi2gather, collect; pick, select64'891C7thái
+63a2探tàntaam3find, locate; search, grope for64'8thám
+63a3掣chèzai3drag, pull; hinder by pulling back64'8xiết
+63a4掤bīngbing1quiver; (Cant.) to pull on something64'8
+63a5接jiēzip3receive; continue; catch; connect64'8tiếp
+63a6掦tìtik1to take up; to put by64'8
+63a7控kònghung3accuse, charge; control64'8khống
+63a8推tuīteoi1push, expel; push forward64'8suy
+63a9掩yǎnjim2to cover (with the hand); shut, conceal; ambush64'8ém
+63aa措cuòcou3place; collect, arrange; employ64'8thố
+63ab掫zhōuzau1be on night watch; grasp64'8
+63ac掬jūguk1to grasp or hold with both hands64'8cúc
+63ad掭tiàntim5to manipulate; a pricker for a lamp-wick64'8
+63ae掮qiánkin4to bear on the shoulders64'8khiêng
+63af掯kènkang3oppress, extort, take by force64'8
+63b0掰bāimaak3(Cant.) to tear, to rip64'8
+63b1掱pápaa4pickpocket64'8
+63b2掲jiēkit3to set (a table); to install, equip; to lay (a foundation)64'9
+63b3掳lǔlou5capture, seize64'864C4
+63b4掴guāigwaak3box one's ears, slap64'86451
+63b5掵mingming664'8
+63b6掶jiézit664'8
+63b7掷zhìzaak6throw, hurl, cast, fling64'863B763B7 64F2
+63b8掸dǎndaan6to dust; a duster64'864A3
+63b9掹mengmang1(Cant.) to pluck, to pull64'8
+63ba掺chāncaam1mix, blend, adulterate64'8647B
+63bb掻sāosou1scratch lightly64'8
+63bc掼guàngwaan3throw ground; know, be familiar64'8645C
+63bd掽pèngpung3collide; meet unexpectedly64'8
+63be掾yuànjyun6a general designation of officials64'9
+63bf掿nuònok664'9nhắc
+63c0揀jiǎngaan2choose; select; pick up; gather64'962E3gióng
+63c1揁zhēngzing1sound of setting up a koto64'9rinh
+63c2揂jiūzau164'9dùa
+63c3揃jiǎnzin2shear; (Cant.) to skin an animal64'9
+63c4揄yújyu4lift, raise; praise; hang; flap64'9
+63c5揅yánjin4grind, rub; study, research; (Cant.) to play a stringed instrument64'11
+63c6揆kuíkwai4prime minister; to guess, estimate64'9quẫy
+63c7揇nǎnnaam4(Cant.) to measure a distance with the extended thumb and forefinger or middle finger64'9
+63c8揈hōngfang4to expel64'9
+63c9揉róujau4rub, massage; crush by hand64'9
+63ca揊pìbik164'9
+63cb揋wēiwui164'9
+63cc揌sāisak1to shake64'9
+63cd揍zòuzau3hit, beat; smash, break64'9
+63ce揎xuānsyun1to pull up the sleeves and stretch out the arms; to strike with bare fists64'9
+63cf描miáomiu4copy, trace, sketch; depict64'9miêu
+63d0提títai4hold in hand; lift in hand64'9đề
+63d1揑niēnip6to fabricate; to trump up64'9
+63d2插chācaap3insert, stick into; plant64'9chắp
+63d3揓shìci364'9
+63d4揔zǒngzung2collect; overall, altogether64'9
+63d5揕zhènzam3roll up the sleeves; fight bare-fisted; strike, stab64'9chạm
+63d6揖yījap1salute, bow; defer to, yield64'9ập
+63d7揗xúntan4strike, hit with hand; tap; (Cant.) to be frightened; to move to and fro64'9
+63d8揘yóngwing464'9
+63d9揙biānbin164'9
+63da揚yángjoeng4scatter, spread; praise64'9626Cdương
+63db換huànwun6change, exchange; substitute64'96362
+63dc揜yǎnjim2cover up; take by force, shut64'9
+63dd揝zǎnzaan2to hold in the hand, to grasp; to wring64'9
+63de揞ǎnam2to cover (with the hand)64'9ẵm
+63df揟xūseoi164'9
+63e0揠yàaat3to pull up, to eradicate64'9
+63e1握wòak1grasp, hold fast, take by hand64'9
+63e2揢kékak1to seize; (Cant.) to block, obstruct64'9
+63e3揣chuāiceoi2put things under clothes64'9
+63e4揤jízat164'9
+63e5揥tìdai3scratcher64'9
+63e6揦lálaa2to clutch; to grab at; to rub or scrape; to tear; (Cant.) to scratch; to feel around with the hand64'9
+63e7揧làlaat664'9
+63e8揨chéncaang464'9
+63e9揩kāihaai1rub and wipe, dust, clean64'9
+63ea揪jiūzau1grasp with hand, pinch64'9
+63eb揫jiūzau1grasp with hand, pinch64'9
+63ec揬túdat6(Cant.) lay up; sit64'9dụt
+63ed揭jiēkit3raise, lift up; surname64'9yết
+63ee揮huīfai1direct; wipe away; squander64'96325huy
+63ef揯gèngang1(Cant.) tight, distended64'9
+63f0揰chòngcung3to push in or poke out; a punch; (Cant.) to collide64'9
+63f1揱xiāosiu164'9
+63f2揲diésit3to sort out the stalks used in divination; to fold64'9
+63f3揳xiēsit3wipe; estimate64'9khế
+63f4援yuánwun4aid, assist; lead; cite64'9viện
+63f5揵qiánkin4carry64'9
+63f6揶yéje4make fun of, ridicule64'9
+63f7揷chācaap3insert64'9
+63f8揸zhāzaa1handful; to grasp, seize, pick up with fingers; (Cant.) to take, carry64'9
+63f9揹bēibui3carry things on one's back64'9
+63fa揺yáojiu4wag, swing, wave; shake; scull64'9
+63fb揻wēiwai164'9
+63fc揼bengdam2(Cant.) to delay, waste time; to throw down, beat; to hang down64'9
+63fd揽lǎnlaam5grasp, take hold of; monopolize64'9652Clãm
+63fe揾wènwan2wipe off; press down with knuckle64'963FE63FE 6435ùn
+63ff揿qìngam6press64'964B3
+6400搀chāncaam1give helping hand64'96519sọm
+6401搁gēgok3place, put, lay down; delay64'964F1gác
+6402搂lǒulau1hug, embrace; drag, pull64'9645Flùa
+6403搃zǒngzung2all, general; to summarize; the chief; to manage64'9
+6404搄gèngang164'9
+6405搅jiǎogaau2disturb, agitate, stir up64'9652A
+6406搆gòukau3pull, drag; reach; implicate64'10cấu
+6407搇qìnkam2to press down with the hand; to lead on; (Cant.) to cover, close up64'10
+6408搈róngjung464'10dong
+6409搉quèkok3knock; pick out; ridicule64'10
+640a搊chōucau1pluck64'102BF1Dso
+640b搋chuāicaai1to thump64'10
+640c搌zhǎnzin2to wipe tears; to bind64'10
+640d損sǔnsyun2diminish; impair; injure; hexagram ䷨64'10635Ftốn
+640e搎sūnsyun1to rub with the hand; to stroke64'10304E7dun
+640f搏bóbok3seize; spring upon; strike64'10vác
+6410搐chùcuk1cramp, spasm, convulsion; twitch64'10
+6411搑róngjung464'10
+6412搒bàngpong3pole; beat64'10
+6413搓cuōco1to rub or roll between the hands64'10sai
+6414搔sāosou1to scratch64'10trao
+6415搕kēhap6to strike; to take in the hand64'10
+6416搖yáojiu4wag, swing, wave; shake; scull64'106447gieo
+6417搗dǎodou2hull; thresh; beat, attack64'106363đẽo
+6418搘zhīzi1prop64'10
+6419搙nùnuk6to handle; to play with64'10
+641a搚lālap664'10
+641b搛jiāngim1to pick up with chopsticks64'10gom
+641c搜sōusau1search, seek; investigate64'9sưu
+641d搝qiǔhau264'10xỏ
+641e搞gǎogaau2to clear, clarify64'10cào
+641f搟xiǎnhin264'10
+6420搠shuòsok3to daub; to thrust64'10
+6421搡sǎngsong2to push over or push back64'10
+6422搢jìnzeon3to stick into; to shake64'10
+6423搣mièmit1(Cant.) to tear, peel, twist with the fingers64'10
+6424搤èak1seize64'10
+6425搥chuíceoi4beat, pound, strike, throw; shampoo64'10
+6426搦nuònik1grasp, seize, take in hand64'10
+6427搧shānsin3fan; strike on face; stir up64'10
+6428搨tàtaap3rub, make rubbings of inscription64'10
+6429搩zhǎgit664'10
+642a搪tángtong4ward off, evade; parry; block64'10
+642b搫pánpun4to move, remove, transport64'10
+642c搬bānbun1transfer, move, remove, shift64'10bưng
+642d搭dādaap3join together, attach to; add to64'10đắp
+642e搮lìleot664'10lắt
+642f搯tāotou1take out, pull out64'10
+6430搰húwat6dig; turbid; exert; (Cant.) to shake64'10
+6431搱zhìzi664'12
+6432搲wāwaa2to seize, to grasp64'10
+6433搳huáwaak6boxing; a finger-guessing game64'10
+6434搴qiānhin1extract; seize; pluck up64'10
+6435搵wènwan2wipe off; press down with knuckle; to immerse; (Cant.) to search, look for64'1063FEùn
+6436搶qiǎngcoeng2plunder, rob, take by force64'1062A2
+6437搷tiántin4to beat; to winnow64'10
+6438搸zhēnzeon164'10
+6439搹èngak164'10
+643a携xiékwai4lead by hand, take with; carry64'10643A643A 651C
+643b搻nuò64'10
+643c搼quánkyun464'10
+643d搽chácaa4smear; rub, wipe; anoint64'10
+643e搾zhàzaa3to crush with the hand, press, squeeze, extract64'10
+643f搿gégaap364'10

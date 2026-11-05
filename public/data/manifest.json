@@ -1,122 +1,123 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T03:59:10.964Z",
+  "generatedAt": "2026-11-05T09:31:52.550Z",
   "minAppVersion": "1.0.0",
   "packs": [
     {
       "id": "dictionary-core",
       "kind": "dictionary",
-      "label": "CC-CEDICT words",
-      "version": "1.0-89235be9",
+      "label": "CC-CEDICT & CVDICT words",
+      "version": "1.0-b854414d",
       "required": true,
       "license": "CC-BY-SA-4.0",
       "sourceUrl": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.zip",
-      "attribution": "CC-CEDICT community maintenance project (CC-CEDICT.org) and contributors.",
-      "modifications": "Re-keyed into the canonical U+001F record schema (simplified, traditional, pinyinNumbered, pinyinMarked, pinyinPlain, definition). Pinyin normalised to lowercase with single spaces; merged source syllables such as `bai3ke4` are split into `bai3 ke4`. pinyinMarked and pinyinPlain precomputed locally by scripts/content/lib/pinyin.mjs (no upstream audio or third-party transliteration used). Glosses joined with `; `; a leading `(also ...)`/`(variant of ...)` note is stripped only when the gloss still has content after it (8 of 125365 records in the pinned release), otherwise kept verbatim. Sorted by simplified code-point order, then pinyinNumbered; sharded at 8192 records per file. Header/comment lines and the `#!` metadata block are not carried into the pack.",
+      "attribution": "CC-CEDICT community maintenance project (CC-CEDICT.org) and CVDICT by Phong Phan (github.com/ph0ngp/CVDICT), licensed under CC BY-SA 4.0.",
+      "modifications": "Re-keyed into the canonical U+001F record schema (simplified, traditional, pinyinNumbered, pinyinMarked, pinyinPlain, definition, definitionVi, hanViet). Pinyin normalised to lowercase with single spaces; merged source syllables such as `bai3ke4` are split into `bai3 ke4`. pinyinMarked and pinyinPlain precomputed locally by scripts/content/lib/pinyin.mjs (no upstream audio or third-party transliteration used). Glosses joined with `; `; a leading `(also ...)`/`(variant of ...)` note is stripped only when the gloss still has content after it (8 of 125365 records in the pinned release), otherwise kept verbatim. Merged with Vietnamese definitions from CVDICT (CC BY-SA 4.0) by (simplified, traditional, pinyinNumbered) and enriched with Sino-Vietnamese readings from Unicode Unihan kVietnamese. Sorted by simplified code-point order, then pinyinNumbered; sharded at 8192 records per file. Header/comment lines and the `#!` metadata block are not carried into the pack.",
       "coverage": {
         "records": 125365,
         "languages": [
           "zh-Hans",
           "zh-Hant",
+          "vi",
           "en"
         ]
       },
-      "bytes": 12075381,
+      "bytes": 19606756,
       "files": [
         {
           "path": "packs/dictionary-core/000.txt",
-          "sha256": "301b7a4c388607dac2ab5fb7a30d47efada3fabc0f25f511d89862550d77d020",
-          "bytes": 912563,
+          "sha256": "0e0020caaa842bc07635a2b39170e4431a0d439e83c784bc2570dad31ae1cfaf",
+          "bytes": 1487008,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/001.txt",
-          "sha256": "78480fae306b311db6c1a3d646ff5ee93b495116ba978c33495f6e915ad88ef5",
-          "bytes": 791169,
+          "sha256": "99a8555c6d56490ac5df9ba3afbf34f85f02b25330be919c2675ceab04092032",
+          "bytes": 1283959,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/002.txt",
-          "sha256": "48fd824fa2b63aed991c652f285013f7bc21ff5c33a4ea629119aa4130a108bf",
-          "bytes": 816744,
+          "sha256": "fd5ecda2ba37a4026c915fd22711d0e629c747e3fa02e2b41460526fb63939f1",
+          "bytes": 1326374,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/003.txt",
-          "sha256": "08f3bcab6e9b0531a2f8d1d79cf1b85712796990368a32ed87e953dbe5581198",
-          "bytes": 801309,
+          "sha256": "5329d150ace064a66279303fa9a1105fb3e2af84ad18dab39a27fa29067696de",
+          "bytes": 1317072,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/004.txt",
-          "sha256": "6d27abf8214ecb6f9485fba672d1217310e129101908244d51b379aba5828a4f",
-          "bytes": 808135,
+          "sha256": "363f3fecfa79b3cedfa88fbadd628f176c94a3a2e93057de236d29d8ef088e1d",
+          "bytes": 1332516,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/005.txt",
-          "sha256": "bd2a42174d93484032f081a904b7a59e5c4555f51fbc5559a068965743e75fad",
-          "bytes": 790801,
+          "sha256": "7b4bc024ac5a2847bbf059f6374dec2c26bf24002ab9c959236940748d4f9972",
+          "bytes": 1291207,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/006.txt",
-          "sha256": "97425e1fa494527c4a4520992d32af4590dadcbafed4131a417cc607b1b7afe3",
-          "bytes": 777688,
+          "sha256": "443b4d59f6829460e1c8ccef13632222f583147988c08b61a996983b0d2c2c44",
+          "bytes": 1260467,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/007.txt",
-          "sha256": "f5f12876ccfe92f3df74af758f43b9d6b6c9792cfdb94ffef0a6b00c18079be6",
-          "bytes": 807800,
+          "sha256": "1cc372c997ed08be63086d64d82e1a8a42fb5ba398ba88971894e82a2096842e",
+          "bytes": 1322566,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/008.txt",
-          "sha256": "b8222d9b0ce63d9365661885910d781d7b65c1c8e86f7d79d99418f5fc8683a8",
-          "bytes": 773110,
+          "sha256": "31a6ed87ac7b96590205a18edb70f69ef6009a11402c4905a0f4f112d0ecf517",
+          "bytes": 1261449,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/009.txt",
-          "sha256": "ea5676c3088b3684c94a5f3ab88bc458893995734a45ac96d8c7308a2791d7da",
-          "bytes": 757607,
+          "sha256": "42823090baa3ab416e278bb566c1e1548049be26bb3e8c527bdba8c02812ba7f",
+          "bytes": 1215484,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/010.txt",
-          "sha256": "36f31224c280ee3cad99301c141491059e0dd43399a4c68b944842c4535b2341",
-          "bytes": 761327,
+          "sha256": "32c9967ac06aaa6ff6c46a8ca283dae80057e5920b8b9267552b0169520b8ed3",
+          "bytes": 1224722,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/011.txt",
-          "sha256": "eed0d65dab9008777a8e621388dde449fc33eb10ac1632211e62c7866669e4dc",
-          "bytes": 755995,
+          "sha256": "86b67ed1ba2ad2d2e61c4ecc3624ebe791190bf7b42e555d8b44f571636d796f",
+          "bytes": 1202829,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/012.txt",
-          "sha256": "a4ee76f0d3a4376d8be08bb0d2a3ac1f4f98e76a0f51f787b981e83c6342b069",
-          "bytes": 736808,
+          "sha256": "695a1283d1a92f52282e99adf658cdbf7ff81a69f27d5f9d1f26fa7f2b8dd12a",
+          "bytes": 1190453,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/013.txt",
-          "sha256": "60e5299675dd108029a9c19067410ce284230e643366f15779ff4bd94ca0b9f9",
-          "bytes": 775271,
+          "sha256": "8287ae84fe1a3b2b9e81512e5414e2e96864ddb63613da5df46d0e030fceb04c",
+          "bytes": 1262690,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/014.txt",
-          "sha256": "9dc12ccff638c89f00c91b1726eee265b602ca26dacde0016e165f33bdef7453",
-          "bytes": 776493,
+          "sha256": "b79746015ecd028db34f4d21a1a7483e66400b5e509583244532d9859550897f",
+          "bytes": 1252261,
           "records": 8192
         },
         {
           "path": "packs/dictionary-core/015.txt",
-          "sha256": "d5a8f0123a67c2d947ca2204367c9bcaee0f9f76e38ba2c33a848989ea331e18",
-          "bytes": 232561,
+          "sha256": "0d3581d1a90843b009dc6abc34bce7b0cc07a2b32161d84d1d7db37083739ca3",
+          "bytes": 375699,
           "records": 2485
         }
       ]
@@ -125,313 +126,314 @@
       "id": "characters",
       "kind": "characters",
       "label": "Unihan character data",
-      "version": "16.0.0-7e31647c",
+      "version": "16.0.0-0aca9da8",
       "required": true,
       "license": "Unicode-License-3.0",
       "sourceUrl": "https://www.unicode.org/Public/16.0.0/ucd/Unihan.zip",
       "attribution": "Unicode (https://www.unicode.org) - Unicode™ and the Unicode logo are registered trademarks of Unicode, Inc. in the United States and other countries; Unihan data is used under the Unicode License v3.",
-      "modifications": "Only the fields named by docs/DATA_FORMAT.md are read: kMandarin, kCantonese, kDefinition, kSimplifiedVariant, kTraditionalVariant, kRSUnicode, kTotalStrokes. kRSUnicode is normalised to `<radicalNumber>'<restrokes>'` using the first value only (Unihan 16.0.0 stores the pair dot-separated, e.g. `1.0`). kTotalStrokes uses the first value only. Simplified/traditional variant lists are capped at 6 codepoints per record. Codepoints are written as lowercase hex; records sorted by code point, 2048 per shard.",
+      "modifications": "Only the fields named by docs/DATA_FORMAT.md are read: kMandarin, kCantonese, kDefinition, kVietnamese, kSimplifiedVariant, kTraditionalVariant, kRSUnicode, kTotalStrokes. kRSUnicode is normalised to `<radicalNumber>'<restrokes>'` using the first value only (Unihan 16.0.0 stores the pair dot-separated, e.g. `1.0`). kTotalStrokes uses the first value only. kVietnamese readings are normalised to lowercase space-separated tokens and included on character records and word-level dictionary records. Simplified/traditional variant lists are capped at 6 codepoints per record. Codepoints are written as lowercase hex; records sorted by code point, 2048 per shard.",
       "coverage": {
         "records": 98682,
         "languages": [
           "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "vi"
         ]
       },
-      "bytes": 3357858,
+      "bytes": 3504786,
       "files": [
         {
           "path": "packs/characters/000.txt",
-          "sha256": "90db7ff5d708f7e31f32ff66e0397b944560367dacfb903b32949eb1003a7374",
-          "bytes": 168222,
+          "sha256": "5b8229416707e8a1b4fce55d8e4a94b2825bc4ef9c4b4cc4d2577b1ef14c8396",
+          "bytes": 170599,
           "records": 2048
         },
         {
           "path": "packs/characters/001.txt",
-          "sha256": "cf4beea07a1909e02d8d7bc6b73e57bd74d3b4118a30a868092d99d80dc4b22e",
-          "bytes": 170355,
+          "sha256": "1a3f2f7e8acb5a489d7227972dbbebe4d5bca94ac22a34ed990d6696218e280c",
+          "bytes": 172625,
           "records": 2048
         },
         {
           "path": "packs/characters/002.txt",
-          "sha256": "b4225950d9f7139c41d961e8c2a35b014aaedbfc68dbac12bd8369e54cd28128",
-          "bytes": 164281,
+          "sha256": "74fccd145389d245e97a4033b57b1e12d1491ddd0b1c4ccfaea90865fd76007a",
+          "bytes": 166432,
           "records": 2048
         },
         {
           "path": "packs/characters/003.txt",
-          "sha256": "e43654b2204468a6647aa04f114a941389df5037333f30407c32e86fbb974d08",
-          "bytes": 114785,
+          "sha256": "ec2c694d4ee97e84725a44e3b70209b1d2e25c19627c06bd6559a0c3b64d1402",
+          "bytes": 119575,
           "records": 2048
         },
         {
           "path": "packs/characters/004.txt",
-          "sha256": "047a16cb3dbf1a7c7c6efb4da35ef47b3133ae6229f9bc2a45988fc3711ccf86",
-          "bytes": 98214,
+          "sha256": "002569f5bb052791b9b5c224d1e0e964e6dc2e908b7df68e3081edbb9d71b287",
+          "bytes": 103151,
           "records": 2048
         },
         {
           "path": "packs/characters/005.txt",
-          "sha256": "42e640beaae90a1034944386fe996dd381ce0ca8935e38fa516b8c2e4436b116",
-          "bytes": 100303,
+          "sha256": "4fd0728b7e9df88dfc46eb3f544b96230947beee82650e0a430b549e77110048",
+          "bytes": 105626,
           "records": 2048
         },
         {
           "path": "packs/characters/006.txt",
-          "sha256": "158b81ce9713f1b43212ef4041447b6be31a220efe364f3c180fbfc15e5aa743",
-          "bytes": 97400,
+          "sha256": "d93e64375e5bcfaa0c9766ab9655e8dbc5768219718cb8b439140822cc245c44",
+          "bytes": 102358,
           "records": 2048
         },
         {
           "path": "packs/characters/007.txt",
-          "sha256": "f5dd201cbc589f8270da4a3fda89f4c84991749efb350cbac3fa16c12c9b31ed",
-          "bytes": 94408,
+          "sha256": "61246a740edf3be7ca2dbd86ca7f4547a2c0c7e01bc949e76a7abfb90139e1f1",
+          "bytes": 99313,
           "records": 2048
         },
         {
           "path": "packs/characters/008.txt",
-          "sha256": "bab88ff545759249072520cdcb2a102a78451e6eb61042ee4fa8ff417e37ec90",
-          "bytes": 96910,
+          "sha256": "453aa434c0cb3f090ad1dff7b96120daec4f76a19eed54fe380691f9d9a72d0e",
+          "bytes": 101306,
           "records": 2048
         },
         {
           "path": "packs/characters/009.txt",
-          "sha256": "5cdc028afa9c7c264cce31d6abb7a39de9968550eec8bc6440e72d1764788be9",
-          "bytes": 100440,
+          "sha256": "a6be78340e19f928fb298b13b8c16b2a52ec94a2ade9f2eb2b7ed9fd816ca924",
+          "bytes": 104805,
           "records": 2048
         },
         {
           "path": "packs/characters/010.txt",
-          "sha256": "932784dfaa6bd23e6303d73d3bb2a9c9b0aaf7f1c310ef9a13ce8d3cd08f2523",
-          "bytes": 96464,
+          "sha256": "75b44121c01923424294dae6f8cc3b168d313ec77336904cd17076ad5ec8d5e8",
+          "bytes": 100436,
           "records": 2048
         },
         {
           "path": "packs/characters/011.txt",
-          "sha256": "238b34194a72f36fbcea2e94ddddf487728d326948102456c66df1457ccc095b",
-          "bytes": 101696,
+          "sha256": "ae02d79ed928a6af1922b15814b9696a9dee24f3a6d37cec023b36355694694b",
+          "bytes": 105854,
           "records": 2048
         },
         {
           "path": "packs/characters/012.txt",
-          "sha256": "1dee5dbecca12e1d4c39b26e73a0c27ead2868e14e13dd6632163004ed2397d0",
-          "bytes": 102334,
+          "sha256": "eca00d89ada694860b0265fd9cc2c1fadff1224c23e3f70eeae85cd1fb17bbbd",
+          "bytes": 106296,
           "records": 2048
         },
         {
           "path": "packs/characters/013.txt",
-          "sha256": "4d0f5de9ec4e30af510bc76531846636662b11c9dbd0ca0ed2948044dcd5c81d",
-          "bytes": 75275,
+          "sha256": "22d89ef5e41b428e9d15a87c58b50a70106623376324ff68e46dbed55eb925b2",
+          "bytes": 78080,
           "records": 2048
         },
         {
           "path": "packs/characters/014.txt",
-          "sha256": "1e5ec27c1f5f6a6816c66e732c9de9bfc380809380166be4d8d269565eaca88b",
-          "bytes": 49434,
+          "sha256": "cfc3c0246aa19ad1cada41aedc6fdeaf19a72dbaedbb92adf4a39e426eaf388a",
+          "bytes": 52315,
           "records": 2048
         },
         {
           "path": "packs/characters/015.txt",
-          "sha256": "b17d7c56997d61e15191ee6dfecaf4d596eca0920b00e1ce30cd104c553e115c",
-          "bytes": 54189,
+          "sha256": "86104c33b89b49548266b0969265cf9d1659a3e91c76f4e535f9465d47861b3e",
+          "bytes": 58750,
           "records": 2048
         },
         {
           "path": "packs/characters/016.txt",
-          "sha256": "49a93852ef1328b9c12938b9709b8f62a232a95811983bc9bbc354315b450442",
-          "bytes": 49863,
+          "sha256": "d4614d9529fa42e583b6e58e06280af7f178f94eeea141704391364a5544798a",
+          "bytes": 52858,
           "records": 2048
         },
         {
           "path": "packs/characters/017.txt",
-          "sha256": "51d9f86f045120467a62e85110c73b00501921b0176c9f0eb8627675dea886a4",
-          "bytes": 50019,
+          "sha256": "3db19bcd50ecb10bd6d15dc8796013bdd2ea6e2fae8aa73eeaf7167779e42675",
+          "bytes": 52885,
           "records": 2048
         },
         {
           "path": "packs/characters/018.txt",
-          "sha256": "c1f90fcf5540f833afa2e8bad6c3053a3ff65a1ac1f8b48e9b35c0fcadb295cf",
-          "bytes": 50209,
+          "sha256": "51647171461e78bbcc8dca61a7efc45669aca8502a9ed4e924d3a35025675d78",
+          "bytes": 53136,
           "records": 2048
         },
         {
           "path": "packs/characters/019.txt",
-          "sha256": "81c2a7af51dea5705bd29fc4ffe70dd0a51b112b75d6fe27cb5d15e8f9d91248",
-          "bytes": 51292,
+          "sha256": "d4bd467d67081ca4767be28633abc632e30d7ce098c4d7cda5c9a5d8c9988772",
+          "bytes": 55052,
           "records": 2048
         },
         {
           "path": "packs/characters/020.txt",
-          "sha256": "7ef408d109ddf1bd2780b0df88ee231894b4e26de766624317b6fb277b832242",
-          "bytes": 50368,
+          "sha256": "1991919ab9737e4502890c01b4c5a85058db5c8ecb7937669fc822ee5489f81c",
+          "bytes": 53640,
           "records": 2048
         },
         {
           "path": "packs/characters/021.txt",
-          "sha256": "5c41d586b6cf4a6a40ca64379c66665a2f23422043c9385af97a6c71d59134fa",
-          "bytes": 50012,
+          "sha256": "1e57a0b5ffe300071de009f9e42cb6c7fcb15e3f0329b85b873d3f8e433ad6bb",
+          "bytes": 53132,
           "records": 2048
         },
         {
           "path": "packs/characters/022.txt",
-          "sha256": "7623352685cb2924b4c4d9b6ba8724846b66c97224cc44d47bb255314a64c463",
-          "bytes": 50328,
+          "sha256": "e72bdfd362190d948a76c232fa75c1eb448910c169255814dbdc9faf86ec3bba",
+          "bytes": 53308,
           "records": 2048
         },
         {
           "path": "packs/characters/023.txt",
-          "sha256": "9dc2985e8117b2a8ee86f3c42d2d4bc78bfc418a75d3d455fd954b1d81d513c7",
-          "bytes": 52850,
+          "sha256": "625b055946369657c5d52afac88f4a0007d49265cb43411bf45f52b59403ef22",
+          "bytes": 56021,
           "records": 2048
         },
         {
           "path": "packs/characters/024.txt",
-          "sha256": "beed4847017cc4ced0ed07306e3d8af2d5ea831f0df0eb87b2c60a251cb1395f",
-          "bytes": 52436,
+          "sha256": "027177f72577a36244315e5f874b2bef3f8bc22d0effbc3b11bb7765ed2e9c08",
+          "bytes": 55470,
           "records": 2048
         },
         {
           "path": "packs/characters/025.txt",
-          "sha256": "bee8bf51c43500b169d6e58f4b51b79fe1f685d9523dfb06544c2f69dd98f9d6",
-          "bytes": 53406,
+          "sha256": "ad77083e8c669cf8aa91581fce8e48cfc6caf1265869f5ba50cc46da0e77564f",
+          "bytes": 56772,
           "records": 2048
         },
         {
           "path": "packs/characters/026.txt",
-          "sha256": "ef8a1b42a9ccefd9364b4c628ed744c0d1f31b5ca080f53082abed1e614eee20",
-          "bytes": 52320,
+          "sha256": "7a4184425037dba4e151e0793e36855b50658c0a2ddec1f0ef357cbf79e7edf6",
+          "bytes": 55285,
           "records": 2048
         },
         {
           "path": "packs/characters/027.txt",
-          "sha256": "9685286239b905379b522297ab68a26cd49306827be3514c3d729f0c0febad31",
-          "bytes": 52033,
+          "sha256": "4d2a3c521ccad69e6dd0cfb5efd7de7becb8414b70343809f0f9f2f44a2336d5",
+          "bytes": 54656,
           "records": 2048
         },
         {
           "path": "packs/characters/028.txt",
-          "sha256": "99487110ad1c6a8c3e2cf8bf4640878ba53706c12bd000fb01d157d804421d09",
-          "bytes": 52750,
+          "sha256": "f655e4dc6b65246ee3785d7f0d62e28a38caa59f2a9be282dba8b54119e2be44",
+          "bytes": 55670,
           "records": 2048
         },
         {
           "path": "packs/characters/029.txt",
-          "sha256": "18deb5af0276071423fa5009672da7520539512c5355af126d1a215d6cbd6f46",
-          "bytes": 53755,
+          "sha256": "9be17ec04d3e5f01a8baa51dfc13b9855d53c29260ceaa10f2ace4a746eea867",
+          "bytes": 56976,
           "records": 2048
         },
         {
           "path": "packs/characters/030.txt",
-          "sha256": "04da0467147a624ead3018daf1695f4ecb8a6ab9a07c88e34503ef713d3a43f7",
-          "bytes": 52487,
+          "sha256": "302703c2d08b601ef91e4a20bb200131ed01526614be31447eeacdfcd107b736",
+          "bytes": 55119,
           "records": 2048
         },
         {
           "path": "packs/characters/031.txt",
-          "sha256": "ef254968dc7d8ceb586a4b777d8ec3e574981db42d2e3d8b18b50ad2f633d0f2",
-          "bytes": 53301,
+          "sha256": "949c2db50edf452f546df2dfadc975a96d55ec0362babbeba5e77cfe35df3e89",
+          "bytes": 56024,
           "records": 2048
         },
         {
           "path": "packs/characters/032.txt",
-          "sha256": "94a50b95e9099e7b2299305336f11251decfe49f94dc9794ac3c914de7e6f213",
-          "bytes": 55277,
+          "sha256": "24a3e167041c94599056f1af2af509f7f213a117a36b46a2656d15ee96dc9619",
+          "bytes": 57682,
           "records": 2048
         },
         {
           "path": "packs/characters/033.txt",
-          "sha256": "c461971d831751abc1462eb532668e90dbd6caf506d5ffc6f1a3823e2db3368c",
-          "bytes": 53184,
+          "sha256": "7d56e72e542da7af5b68c39ce3f94f741b90200ac90b4f72f5999fe5e68496f4",
+          "bytes": 56185,
           "records": 2048
         },
         {
           "path": "packs/characters/034.txt",
-          "sha256": "fa2ddd1f5dd53b855bf01be100d49c1af9c66a310ac4b0fc96b8e3464d593e08",
-          "bytes": 51321,
+          "sha256": "3533166705323b0bdadaa866f06c60c1b4006a33e49a64364f7df4f201a96c10",
+          "bytes": 53571,
           "records": 2048
         },
         {
           "path": "packs/characters/035.txt",
-          "sha256": "00db0363c8b24a90a544b949c606497b5ccb672324a0d9d20c858956d94058dd",
-          "bytes": 50967,
+          "sha256": "8551381d12b519069091594b92e3be8771dbb07edce3675fd8c1bf57b4622e6e",
+          "bytes": 53079,
           "records": 2048
         },
         {
           "path": "packs/characters/036.txt",
-          "sha256": "bd0994b6d4dce45d7136153873d26781ecdeeb46abcc6a7792fafa6a28930a79",
-          "bytes": 57218,
+          "sha256": "a305c1e3e5f4a15a76e16fe58243e11f2ff196f309b27ed0ce5ea4b9f5a5ef3f",
+          "bytes": 59401,
           "records": 2048
         },
         {
           "path": "packs/characters/037.txt",
-          "sha256": "61ee8074b4b209fadbe2640a9c4ca7079173b821c54a07a9afcd67b44f17362a",
-          "bytes": 51367,
+          "sha256": "57cccced228d6ae6ab9ecedba08ce2feca97a39c7b8f40a1390819c8b0519bd0",
+          "bytes": 53538,
           "records": 2048
         },
         {
           "path": "packs/characters/038.txt",
-          "sha256": "a03fc53903f3871f4921ec5ae5526c62796535fdd8c35a579b5f244e644d3d55",
-          "bytes": 56543,
+          "sha256": "997f25956ba5b7e714fcdfc7d83ccf4bf875b083260f387caac37e3b231efcdf",
+          "bytes": 58664,
           "records": 2048
         },
         {
           "path": "packs/characters/039.txt",
-          "sha256": "c216277362065d453fe7d07e9ad08a3732c4f6bf087b4fafdd26a89a624b73aa",
-          "bytes": 55044,
+          "sha256": "9b8e3e04b1ba5bea9e05ffef06e5b703da7d5ab23f0fb742915c5009963d9ef8",
+          "bytes": 57176,
           "records": 2048
         },
         {
           "path": "packs/characters/040.txt",
-          "sha256": "44a4cdc81fd0261e9a705e2340a561c261edc9870e731db70922953b1de0bb0d",
-          "bytes": 46655,
+          "sha256": "d6edceeb9d5363a159e0e95329f5b6de4fbae270be42c6725443df10341a4b45",
+          "bytes": 48720,
           "records": 2048
         },
         {
           "path": "packs/characters/041.txt",
-          "sha256": "e253c8ce56a6260de436c699d7cceb5c8a018551bb2b374560226b9de2283074",
-          "bytes": 48057,
+          "sha256": "9631d5932ea6ea074f7ed116bd4c8898f428e3a1a5808f3181e8edca10926340",
+          "bytes": 50131,
           "records": 2048
         },
         {
           "path": "packs/characters/042.txt",
-          "sha256": "7d1b366bd51a5b5a05c3d3ab3cf7d6b01c0417b4e689f0defda3ec83d65ac23b",
-          "bytes": 48941,
+          "sha256": "bdfd204c2f477ff31afa5b324609dbcb94818936ff818d895bd9468e10a997d0",
+          "bytes": 51004,
           "records": 2048
         },
         {
           "path": "packs/characters/043.txt",
-          "sha256": "a50bb40bfbca0856eb14404ed65b6d0b8811839b28f9ac6e8e53752709869b93",
-          "bytes": 49428,
+          "sha256": "24366d0da33d9db1a92188fdefeefbc89fad55ec426c2ee2fc6ab0c2a54b1a57",
+          "bytes": 51546,
           "records": 2048
         },
         {
           "path": "packs/characters/044.txt",
-          "sha256": "d504c43d92b837e0f9077f1e19f8d20dd43222f9408f83e5c2a6ae7217a8a82e",
-          "bytes": 51803,
+          "sha256": "fd644672f4192097dcb9226acfaa7239a92e9295c21bb0c1d53da60411850979",
+          "bytes": 53915,
           "records": 2048
         },
         {
           "path": "packs/characters/045.txt",
-          "sha256": "ec0f72c035528706bb05a005149249caadedaa7a3583b37f3ee7aa1f94040a2a",
-          "bytes": 63332,
+          "sha256": "2c42fb7c49c13a2567197c3f48bf8c7c25d32ad0e388e018ae4ad4ea5e5672a9",
+          "bytes": 65561,
           "records": 2048
         },
         {
           "path": "packs/characters/046.txt",
-          "sha256": "9629754fa17bf425b804c151e7c1dbf0319c11a3880cbe3662d7afcca1d916eb",
-          "bytes": 49959,
+          "sha256": "2cabea890df98d3b19b8b89cce465eed97bfaefefd327320754aa7fb2bba514e",
+          "bytes": 52039,
           "records": 2048
         },
         {
           "path": "packs/characters/047.txt",
-          "sha256": "cccc153f840a57c590c0273207479facab6dd9f404c6c29f8d62a391e4ccc833",
-          "bytes": 47818,
+          "sha256": "c872a31e97cca7de58cb610eb21338075fdea5f1fac4ca439c9cdc8faff1e38b",
+          "bytes": 49866,
           "records": 2048
         },
         {
           "path": "packs/characters/048.txt",
-          "sha256": "8cb5b62083388b316f35a537fcc34590aeca6145deb905efdca8b34d3c540add",
-          "bytes": 8805,
+          "sha256": "9b2a26e052e6c3b27148ffdff241d25fdbba085744337ac439fe8f1da2e45fb6",
+          "bytes": 9183,
           "records": 378
         }
       ]

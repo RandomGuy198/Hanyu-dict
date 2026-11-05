@@ -52,8 +52,6 @@ export default function EntryPage() {
 
   const entry = status === 'ready' ? entries[index] : undefined;
   const wordLists = useLiveQuery(() => db.wordLists.orderBy('name').toArray(), [], []);
-  const examplesPack = useLiveQuery(() => db.packs.get('examples'), []);
-  const examplesInstalled = examplesPack?.status === 'ready';
 
   /* resolve the route key: full entry id first, raw headword as fallback */
   useEffect(() => {
@@ -207,7 +205,9 @@ export default function EntryPage() {
   const pinyin = prefs.showPinyin ? preferredPinyin(entry, prefs) : '';
 
   const copy = async () => {
-    const text = `${headword}${pinyin ? ` ${pinyin}` : ''}\n${entry.definition}`;
+    const hvLine = entry.hanViet ? ` [Hán Việt: ${entry.hanViet}]` : '';
+    const viLine = entry.definitionVi ? `\nTiếng Việt: ${entry.definitionVi}` : '';
+    const text = `${headword}${pinyin ? ` ${pinyin}` : ''}${hvLine}${viLine}\nEnglish: ${entry.definition}`;
     if (!navigator.clipboard) {
       toast.push({ message: 'This browser blocks clipboard access.', tone: 'warn' });
       return;
@@ -226,7 +226,8 @@ export default function EntryPage() {
       return;
     }
     try {
-      await navigator.share({ title: headword, text: `${headword} ${pinyin} — ${entry.definition}` });
+      const meaning = entry.definitionVi ? `${entry.definitionVi} / ${entry.definition}` : entry.definition;
+      await navigator.share({ title: headword, text: `${headword} ${pinyin} — ${meaning}` });
     } catch {
       // a cancelled system share sheet is normal; nothing to report
     }
@@ -243,10 +244,12 @@ export default function EntryPage() {
     }
   };
 
+  const glossesVi = entry.definitionsVi ?? (entry.definitionVi ? entry.definitionVi.split('; ').filter(Boolean) : []);
+
   return (
     <div className="dict-page stack">
       <LoadingGate>
-        <PageHeader title={headword} subtitle="Dictionary entry · local data only" back={{ label: 'Dictionary', to: '/' }} />
+        <PageHeader title={headword} subtitle="Dictionary entry · Tiếng Việt & English" back={{ label: 'Dictionary', to: '/' }} />
         <p className="visually-hidden" role="status" aria-live="polite">
           Entry loaded: {headword}
         </p>
@@ -271,8 +274,28 @@ export default function EntryPage() {
           <div className="dict-entry-head">
             <HanziText entry={entry} size="xl" />
             {pinyin ? <span className="pinyin dict-pinyin-lg">{pinyin}</span> : null}
+            {entry.hanViet ? (
+              <span className="badge" lang="vi">
+                [Hán Việt: {entry.hanViet}]
+              </span>
+            ) : null}
           </div>
-          <div className="definition dict-glosses">
+          {glossesVi.length > 0 ? (
+            <div className="definition dict-glosses" lang="vi" style={{ marginBottom: 'var(--sp-3)' }}>
+              <strong className="text-sm muted">Tiếng Việt: </strong>
+              {glossesVi.length > 2 ? (
+                <ol className="gloss-list">
+                  {glossesVi.map((gloss, idx) => (
+                    <li key={`vi-${idx}-${gloss.slice(0, 12)}`}>{gloss}</li>
+                  ))}
+                </ol>
+              ) : (
+                <span>{glossesVi.join('; ')}</span>
+              )}
+            </div>
+          ) : null}
+          <div className="definition dict-glosses" lang="en">
+            {glossesVi.length > 0 ? <strong className="text-sm muted">English: </strong> : null}
             <DefinitionText entry={entry} />
           </div>
           <div className="row-wrap" style={{ marginTop: 'var(--sp-4)' }}>
@@ -342,23 +365,10 @@ export default function EntryPage() {
                 ))}
                 <AttributionNote attribution="Tatoeba community sentences" license="under CC BY 2.0 FR" />
               </div>
-            ) : examplesInstalled ? (
-              <p className="text-sm muted">
-                No example sentences are installed for “{entry.simplified}” yet.
-              </p>
             ) : (
-              <div className="notice notice-info">
-                <div>
-                  <strong>Example sentences are an optional download</strong>
-                  <p>
-                    This device has the word, but no examples pack is installed — nothing is
-                    invented here.
-                  </p>
-                  <Link className="btn btn-sm" to="/offline-data">
-                    Install the examples pack
-                  </Link>
-                </div>
-              </div>
+              <p className="text-sm muted">
+                No example sentences are recorded for “{entry.simplified}”.
+              </p>
             )}
           </section>
         ) : null}
@@ -379,7 +389,7 @@ export default function EntryPage() {
           </section>
         ) : null}
 
-        <AttributionNote attribution="CC-CEDICT dictionary data" license="under CC BY-SA 4.0" />
+        <AttributionNote attribution="CC-CEDICT & CVDICT dictionary data" license="under CC BY-SA 4.0" />
       </LoadingGate>
     </div>
   );

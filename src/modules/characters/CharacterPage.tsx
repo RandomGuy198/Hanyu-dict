@@ -200,25 +200,10 @@ export default function CharacterPage() {
           </>
         ) : rec === null ? (
           <div className="stack">
-            {charPack && !charPack.installed ? (
-              <div className="notice notice-warn" role="alert">
-                <IconAlert />
-                <div>
-                  <strong>The characters pack is not installed on this device</strong>
-                  <p className="text-sm">
-                    Without it there are no recorded readings, radical or stroke count for {char}.
-                  </p>
-                  <Link className="btn btn-sm" to="/offline-data">
-                    Download data packs
-                  </Link>
-                </div>
-              </div>
-            ) : (
-              <EmptyState
-                title={`No data for ${char} in this dictionary`}
-                detail="This character is not recorded in the installed characters pack. Nothing here invents a reading or a stroke count; the codepoint below is simply a fact about the input."
-              />
-            )}
+            <EmptyState
+              title={`No data for ${char} in this dictionary`}
+              detail="This character is not recorded in the installed characters pack. Nothing here invents a reading or a stroke count; the codepoint below is simply a fact about the input."
+            />
             <p className="char-codepoint">{codepointLabel(char.codePointAt(0) ?? 0)}</p>
             <div className="char-links">
               <Link className="btn btn-sm" to={`/search?q=${encodeURIComponent(char)}`}>
@@ -250,6 +235,12 @@ export default function CharacterPage() {
                           ))}
                         </span>
                       </dd>
+                    </>
+                  ) : null}
+                  {rec.hanViet && rec.hanViet.length > 0 ? (
+                    <>
+                      <dt>Hán-Việt</dt>
+                      <dd lang="vi">{rec.hanViet.join(', ')}</dd>
                     </>
                   ) : null}
                   {rec.cantonese ? (
@@ -325,11 +316,6 @@ export default function CharacterPage() {
                     </div>
                   ))}
                 </div>
-              ) : examplesPack && !examplesPack.installed ? (
-                <p className="muted text-sm">
-                  The example-sentence pack is not installed —{' '}
-                  <Link to="/offline-data">download data packs</Link>.
-                </p>
               ) : examplesPack ? (
                 <p className="muted text-sm">
                   No example sentences are recorded for words built on {char}.

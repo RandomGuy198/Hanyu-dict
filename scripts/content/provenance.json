@@ -13,10 +13,10 @@
       "license": "CC-BY-SA-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "licenseFile": "public/licenses/CC-BY-SA-4.0.txt",
-      "attribution": "CC-CEDICT community maintenance project (CC-CEDICT.org) and contributors.",
+      "attribution": "CC-CEDICT community maintenance project (CC-CEDICT.org) and CVDICT by Phong Phan (github.com/ph0ngp/CVDICT), licensed under CC BY-SA 4.0.",
       "attributionNote": "Also credits CEDICT - Copyright (C) 1997, 1998 Paul Andrew Denisowski, as stated in the CC-CEDICT file header.",
       "shareAlike": true,
-      "shareAlikeNote": "dictionary-core is an adaptation of CC-CEDICT and is distributed under CC BY-SA 4.0.",
+      "shareAlikeNote": "dictionary-core is an adaptation of CC-CEDICT and CVDICT and is distributed under CC BY-SA 4.0.",
       "downloads": [
         {
           "cacheFile": "cedict_ts.u8",
@@ -32,16 +32,48 @@
         }
       ],
       "transformations": [
-        "Re-keyed into the canonical U+001F record schema (simplified, traditional, pinyinNumbered, pinyinMarked, pinyinPlain, definition).",
+        "Re-keyed into the canonical U+001F record schema (simplified, traditional, pinyinNumbered, pinyinMarked, pinyinPlain, definition, definitionVi, hanViet).",
         "Pinyin normalised to lowercase with single spaces; merged source syllables such as `bai3ke4` are split into `bai3 ke4`.",
         "pinyinMarked and pinyinPlain precomputed locally by scripts/content/lib/pinyin.mjs (no upstream audio or third-party transliteration used).",
         "Glosses joined with `; `; a leading `(also ...)`/`(variant of ...)` note is stripped only when the gloss still has content after it (8 of 125365 records in the pinned release), otherwise kept verbatim.",
+        "Merged with Vietnamese definitions from CVDICT (CC BY-SA 4.0) by (simplified, traditional, pinyinNumbered) and enriched with Sino-Vietnamese readings from Unicode Unihan kVietnamese.",
         "Sorted by simplified code-point order, then pinyinNumbered; sharded at 8192 records per file.",
         "Header/comment lines and the `#!` metadata block are not carried into the pack."
       ],
       "packs": [
         "dictionary-core"
       ]
+    },
+    {
+      "id": "cvdict",
+      "upstreamProject": "CVDICT — Chinese-Vietnamese Dictionary (Phong Phan)",
+      "sourceUrl": "https://raw.githubusercontent.com/ph0ngp/CVDICT/c379d909e308343a247e51619f7839a2060a271c/CVDICT.u8",
+      "projectUrl": "https://github.com/ph0ngp/CVDICT",
+      "upstreamVersion": "1.0.1 (commit c379d909e308)",
+      "upstreamDate": "2024-12-02T17:46:19Z",
+      "pinnedBy": "commit SHA in raw URL plus sha256 of cvdict.u8",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseFile": "public/licenses/CC-BY-SA-4.0.txt",
+      "attribution": "CVDICT Chinese-Vietnamese dictionary by Phong Phan (https://github.com/ph0ngp/CVDICT), based on CC-CEDICT, licensed under CC BY-SA 4.0.",
+      "shareAlike": true,
+      "shareAlikeNote": "Vietnamese definitions from CVDICT are merged into dictionary-core, which is distributed under CC BY-SA 4.0.",
+      "downloads": [
+        {
+          "cacheFile": "cvdict.u8",
+          "bytes": 10803314,
+          "sha256": "4dde4b204193efa9c192d7f7daeab1bb579c8ccd7c41ed90d1b6caee22ba0948",
+          "fetch": {
+            "kind": "url",
+            "url": "https://raw.githubusercontent.com/ph0ngp/CVDICT/c379d909e308343a247e51619f7839a2060a271c/CVDICT.u8"
+          }
+        }
+      ],
+      "transformations": [
+        "Parsed from CEDICT-compatible `TRAD SIMP [pinyin] /glossVi1/glossVi2/` lines.",
+        "Vietnamese glosses joined with `; ` and merged into dictionary-core records by `(simplified, traditional, pinyinNumbered)` key (with fallback to `(simplified, pinyinNumbered)`)."
+      ],
+      "packs": []
     },
     {
       "id": "unicode-unihan",
@@ -69,9 +101,10 @@
         }
       ],
       "transformations": [
-        "Only the fields named by docs/DATA_FORMAT.md are read: kMandarin, kCantonese, kDefinition, kSimplifiedVariant, kTraditionalVariant, kRSUnicode, kTotalStrokes.",
+        "Only the fields named by docs/DATA_FORMAT.md are read: kMandarin, kCantonese, kDefinition, kVietnamese, kSimplifiedVariant, kTraditionalVariant, kRSUnicode, kTotalStrokes.",
         "kRSUnicode is normalised to `<radicalNumber>'<restrokes>'` using the first value only (Unihan 16.0.0 stores the pair dot-separated, e.g. `1.0`).",
         "kTotalStrokes uses the first value only.",
+        "kVietnamese readings are normalised to lowercase space-separated tokens and included on character records and word-level dictionary records.",
         "Simplified/traditional variant lists are capped at 6 codepoints per record.",
         "Codepoints are written as lowercase hex; records sorted by code point, 2048 per shard."
       ],
