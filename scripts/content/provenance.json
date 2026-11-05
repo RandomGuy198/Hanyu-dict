@@ -172,9 +172,9 @@
       "license": "CC-BY-2.0-FR",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
       "licenseFile": "public/licenses/CC-BY-2.0-FR.txt",
-      "attribution": "Sentences and translations from the Tatoeba project (https://tatoeba.org), licensed CC BY 2.0 FR; original sentence ids and translations are preserved.",
+      "attribution": "Sentences and translations from the Tatoeba project (https://tatoeba.org), licensed CC BY 2.0 FR. Every example the app shows carries its Tatoeba sentence id as a link to https://tatoeba.org/en/sentences/show/<id>, which is the page where the contributor is named.",
       "shareAlike": false,
-      "attributionGap": "The pinned per-language exports carry only `id`, `lang`, `text`. Contributor usernames are NOT present in them (they live in sentences_detailed/contributions dumps of 1.4 GB and 594 MB, deliberately not vendored). The <author> segment of every sourceRef is therefore the literal `unknown`; sentence ids are preserved so attribution can be resolved against tatoeba.org.",
+      "attributionGap": "The pinned per-language exports carry only `id`, `lang`, `text`. Contributor usernames are NOT present in them (they live in sentences_detailed/contributions dumps of 1.4 GB and 594 MB, deliberately not vendored), so the <author> segment of every sourceRef is the literal `unknown` and this offline build cannot name the author itself. Attribution is instead carried by the preserved sentence id: the entry screen links each example to its tatoeba.org page, and this document records the same link pattern, so the credit resolves to the named contributor on demand.",
       "downloads": [
         {
           "cacheFile": "cmn_sentences.tsv.bz2",

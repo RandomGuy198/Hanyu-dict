@@ -1,0 +1,29 @@
+# Line endings are fixed here, not left to each clone's core.autocrlf.
+#
+# Why it matters for this repository: `npm run data:check` re-derives public/data/manifest.json,
+# public/licenses/THIRD_PARTY_NOTICES.md and public/licenses/RUNTIME_NOTICES.md and compares them
+# byte for byte with the committed copies. The generators emit LF. On a Windows clone with
+# core.autocrlf=true every one of those files would arrive as CRLF and the check would fail for a
+# reason that has nothing to do with the content.
+* text=auto eol=lf
+
+# Never run text conversion, diffing or merge heuristics over binary payloads: the OCR models, the
+# wasm runtime, the fonts and the generated icons are shipped byte for byte and hash-verified.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.wasm binary
+*.gz binary
+*.zip binary
+*.apk binary
+*.pdf binary
+
+# Generated artifacts: review the generator, not the diff.
+public/data/** linguist-generated=true
+public/licenses/*.txt linguist-generated=true
+public/licenses/*.md linguist-generated=true
+site/** linguist-generated=true

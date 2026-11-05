@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T15:16:37.914Z",
+  "generatedAt": "2026-11-05T03:59:10.964Z",
   "minAppVersion": "1.0.0",
   "packs": [
     {
@@ -615,7 +615,7 @@
       "required": false,
       "license": "CC-BY-2.0-FR",
       "sourceUrl": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2",
-      "attribution": "Sentences and translations from the Tatoeba project (https://tatoeba.org), licensed CC BY 2.0 FR; original sentence ids and translations are preserved.",
+      "attribution": "Sentences and translations from the Tatoeba project (https://tatoeba.org), licensed CC BY 2.0 FR. Every example the app shows carries its Tatoeba sentence id as a link to https://tatoeba.org/en/sentences/show/<id>, which is the page where the contributor is named.",
       "modifications": "Mandarin sentences joined to their English translations through cmn-eng_links.tsv.bz2; only cmn->eng linked pairs are used. Up to 3 sentences attached per CC-CEDICT headword of length >= 2 that occurs as a substring of the sentence. Quality guard: sentences with fewer than 4 or more than 60 Hanzi characters are skipped. Each sentence is converted to simplified and traditional with the Unihan kSimplifiedVariant/kTraditionalVariant maps; characters without a mapping are left unchanged (documented Unihan gap). sourceRefs keep the form `tatoeba:<id>:<author>` joined by `+` (one item for the Chinese sentence, one for its English translation). Sharded at 8192 records per file.",
       "coverage": {
         "records": 39806,

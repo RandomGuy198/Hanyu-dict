@@ -5,9 +5,29 @@
   "type": "module",
   "description": "Free, offline-capable Chinese dictionary and learning PWA built from open-licensed data.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandomGuy198/Hanyu-dict.git"
+  },
+  "homepage": "https://randomguy198.github.io/Hanyu-dict/",
+  "bugs": {
+    "url": "https://github.com/RandomGuy198/Hanyu-dict/issues"
+  },
+  "keywords": [
+    "chinese",
+    "mandarin",
+    "dictionary",
+    "cedict",
+    "unihan",
+    "pinyin",
+    "stroke-order",
+    "pwa",
+    "offline",
+    "github-pages"
+  ],
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/content/check-provenance.mjs && tsc -p tsconfig.json --noEmit && vitest run && vite build",
+    "build": "node scripts/content/check-provenance.mjs && node scripts/legal/check-public-tree.mjs && tsc -p tsconfig.json --noEmit && vitest run && vite build && node scripts/legal/check-public-tree.mjs",
     "build:only": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json --noEmit",
@@ -20,7 +40,9 @@
     "data:fetch": "node scripts/content/fetch-sources.mjs",
     "data:build": "node scripts/content/build-all.mjs",
     "data:check": "node scripts/content/check-provenance.mjs",
-    "pages:sync": "node scripts/sync-pages.mjs",
+    "licenses:runtime": "node scripts/collect-runtime-licenses.mjs",
+    "licenses:runtime:check": "node scripts/collect-runtime-licenses.mjs --check",
+    "legal:check": "node scripts/legal/check-public-tree.mjs",
     "icons": "node scripts/make-icons.mjs"
   },
   "dependencies": {

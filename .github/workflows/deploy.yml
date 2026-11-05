@@ -1,78 +1,33 @@
-# Publishes the app to GitHub Pages.
+# Publishes the app to GitHub Pages from a freshly built `dist/`.
 #
-# THREE SUPPORTED SHAPES - pick one, in Settings, once. Nothing in this workflow reads a secret and
-# no token is stored: the only credential used is the run's own GITHUB_TOKEN, for the Pages
-# deployment, and `actions/checkout` runs with persist-credentials: false.
+# v0.2 deployment shape: GitHub Actions is the *only* deployment mechanism (D-03). The duplicate
+# committed `site/` folder and the `npm run pages:sync` script were retired so the repository is
+# half its former size; there is no committed build output to go stale.
 #
-#   SHAPE (a) - BUILD FROM SOURCE, deploy the `dist/` artifact.  DEFAULT; runs on every push to the
-#   default branch and on a manual run with pages_source = build-from-source.
-#   Requires Settings -> Pages -> Build and deployment -> Source: **GitHub Actions**.
-#   `dist/` is in .gitignore, so nothing about the build is committed; every deployment re-runs the
-#   provenance/licence gate and the artifact completeness gate below. Use this unless you have a
-#   specific reason not to - it is the only shape that cannot publish a stale build.
+# Gates run in this order, each of which can stop the publication:
+#   1. npm ci
+#   2. npm run data:check      - committed packs match public/data/manifest.json + provenance.json
+#   3. npm run legal:check     - no book material, secrets, CDNs or forbidden identifiers in the tree
+#   4. npm run typecheck
+#   5. npm test
+#   6. npm run build:only      - production bundle with the build-time CSP
+#   7. npm run legal:check     - again, over dist/
+#   8. artifact completeness gate (PWA members, relative asset URLs, parseable JSON)
 #
-#   SHAPE (b) - PUBLISH A COMMITTED STATIC FOLDER, without rebuilding (manual run, pages_source =
-#   committed-folder). The project's own folder for this is `site/`, produced by
-#   `npm run pages:sync` (scripts/sync-pages.mjs copies dist/ -> site/, adds .nojekyll, and refuses
-#   to publish an incomplete site). `docs/` is deliberately NOT the Pages folder: it holds this
-#   project's design documents, and mixing a build output into hand-written notes is how stale
-#   pages and lost documentation happen - choosing `pages_folder: docs` here is supported only
-#   because some repositories are already set up that way, and it warns about it.
-#   Pages must still be set to Source: GitHub Actions for this job to deploy.
-#
-#   SHAPE (c) - BRANCH-BASED PAGES, verified not deployed (manual run, pages_source =
-#   verify-committed-folder). For Settings -> Pages -> Source: **Deploy from a branch** with folder
-#   `/site (root)`, GitHub publishes on push by itself and no workflow deploys anything. This job
-#   then only runs the same completeness checks, so you can prove the folder is a real PWA before
-#   and after pushing. If you keep branch-based Pages, also disable the automatic `push` trigger
-#   (Settings -> Actions -> general -> Workflow triggers, or delete the `on.push:` block), otherwise
-#   shape (a) fails at configure-pages because the repository setting and the workflow disagree
-#   about who publishes the site. That failure is intentional and loud, not a silent skip.
-#
-# WHY THE COMPLETENESS GATE EXISTS: a Pages deploy of a PWA whose `manifest.webmanifest`,
-# `data/manifest.json` or pack shards are missing produces no error page - the app installs, the
-# service worker registers, and the dictionary never loads. Silent failure is the worst outcome for
-# a dictionary, so publishing stops instead.
-#
-# DATA: this pipeline never downloads an upstream source. `npm run data:fetch` and
-# `npm run data:build` are maintainer-only commands that need the network and keep the raw downloads
-# in the cache dir OUTSIDE the repository (`<repo>/../.cache/raw`, overridable with `--cache <dir>`
-# or `HANYU_CACHE`; `.gitignore` covers `.cache/`). Only the generated packs under `public/data/`
-# and the licence texts under `public/licenses/` are committed, so a fresh clone builds and deploys
-# offline. `npm run data:check` verifies those committed bytes against `public/data/manifest.json`
-# and `scripts/content/provenance.json` and reports "raw cache ... is absent (expected in CI)"
-# rather than trying to fetch it. After an upstream release: run data:fetch, data:build and
-# data:check locally, then commit the changed public/data and public/licenses files.
+# No secret is read here: the only credential is the run's own GITHUB_TOKEN for the Pages deploy.
+# The app itself never ships a token - the owner pastes a fine-grained PAT into the running app,
+# and it is stored only in that browser's localStorage.
 
 name: Deploy GitHub Pages
 
 on:
   push:
-    branches: [main, master] # add your default branch's name if it is neither
+    branches: [main, master]
   workflow_dispatch:
-    inputs:
-      pages_source:
-        description: 'What should happen?'
-        type: choice
-        required: true
-        default: build-from-source
-        options:
-          - build-from-source # shape (a): rebuild from source and deploy dist/
-          - committed-folder # shape (b): deploy an already-committed site/ or docs/ folder
-          - verify-committed-folder # shape (c): branch-based Pages - check only, deploy nothing
-      pages_folder:
-        description: 'Committed folder to publish or verify (shapes b and c)'
-        type: choice
-        required: false
-        default: site
-        options:
-          - site
-          - docs
 
 permissions:
   contents: read
 
-# Two pushes in a row must not both deploy, and a half-finished publication must not be cancelled.
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: false
@@ -81,14 +36,10 @@ env:
   NODE_VERSION: '20'
 
 jobs:
-  # ---------------------------------------------------------------- shape (a): build, then publish dist/
   build-and-deploy:
-    if: github.event_name == 'push' || inputs.pages_source == 'build-from-source'
     name: Build from source and deploy dist/
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    # configure-pages + upload-pages-artifact + deploy-pages need all three; without pages:write the
-    # deployment step 403s in a way that looks like a GitHub bug rather than a workflow omission.
     permissions:
       contents: read
       pages: write
@@ -113,26 +64,20 @@ jobs:
       - name: Provenance and licence gate (offline, from the committed packs)
         run: npm run data:check
 
+      - name: Public/private legal boundary gate (tracked tree)
+        run: npm run legal:check
+
       - name: Typecheck
         run: npm run typecheck
 
       - name: Unit tests
-        shell: bash
-        run: |
-          set -uo pipefail
-          count=$(git ls-files | grep -cE '\.test\.(ts|tsx)$' || true)
-          if [ "$count" -gt 0 ]; then
-            npm test
-          else
-            # A published release must not skip tests that exist. This branch is a guard for a commit
-            # with no tracked unit tests (there are some today, so it normally does not fire); when it
-            # does, the emptiness is announced rather than a green gate being faked.
-            # ci.yml owns strict enforcement of this gate.
-            echo "::warning title=Deploying without unit tests::no *.test.ts(x) files are tracked in this commit, so this deployment ran no tests. Do not describe this as a tested release."
-          fi
+        run: npm test
 
       - name: Production build
         run: npm run build:only
+
+      - name: Public/private legal boundary gate (dist/)
+        run: npm run legal:check
 
       - name: Artifact completeness gate
         shell: bash
@@ -141,13 +86,12 @@ jobs:
         run: |
           set -uo pipefail
           root="${PWA_ROOT}"
-          # Required members of a deployable PWA. A missing manifest or pack registry is invisible to
-          # a visitor and unrecoverable from the browser, so each one stops the publication.
           for f in index.html manifest.webmanifest sw.js \
                    data/manifest.json \
                    data/packs/dictionary-core/000.txt \
                    data/packs/characters/000.txt \
-                   licenses/THIRD_PARTY_NOTICES.md; do
+                   licenses/THIRD_PARTY_NOTICES.md \
+                   licenses/RUNTIME_NOTICES.md; do
             if [ ! -s "${root}/$f" ]; then
               echo "::error title=Refusing to publish::${root}/$f is missing or empty. The app cannot install, find its packs or satisfy its attribution duties without it."
               exit 1
@@ -158,10 +102,9 @@ jobs:
             exit 1
           }
           if grep -qE '(src|href)="/[^/]' "${root}/index.html"; then
-            echo "::error title=Refusing to publish::index.html uses absolute asset URLs. base './' was not applied, so the site works only at the domain root and not under /<repo>/."
+            echo "::error title=Refusing to publish::index.html uses absolute asset URLs. base './' was not applied."
             exit 1
           fi
-          # Every URL index.html emits must exist in the artifact.
           grep -ohE '(src|href)="\.\/[^"]+"' "${root}/index.html" | sed -E 's/.*="\.\/([^"]+)".*/\1/' \
             | while IFS= read -r ref; do
                 if [ ! -e "${root}/${ref}" ]; then
@@ -169,7 +112,6 @@ jobs:
                   exit 1
                 fi
               done || exit 1
-          # Unparseable JSON means the browser quietly ignores the install manifest.
           for j in "${root}/manifest.webmanifest" "${root}/data/manifest.json"; do
             node -e 'JSON.parse(require("fs").readFileSync(process.argv[1], "utf8"))' "$j" || {
               echo "::error title=Unparseable JSON::$j is not valid JSON."
@@ -203,131 +145,4 @@ jobs:
             echo "Served from a freshly built \`dist/\`: **${PAGE_URL:-see Settings -> Pages}**"
             echo
             echo "Routes are hash-based (\`#/entry/...\`), so deep links need no server rewrite rule."
-          } >> "$GITHUB_STEP_SUMMARY"
-
-  # ---------------------------------------------------------- shapes (b) and (c): committed folder
-  committed-folder:
-    if: github.event_name == 'workflow_dispatch' && (inputs.pages_source == 'committed-folder' || inputs.pages_source == 'verify-committed-folder')
-    name: Publish or verify the committed static folder
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.pages.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          fetch-depth: 1
-          persist-credentials: false
-
-      - uses: actions/setup-node@v7
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-
-      # Even a hand-committed folder has to pass the licence gate: publishing CC BY-SA / Unicode /
-      # Arphic derived data without the accompanying notices is the one failure a static host cannot
-      # take back. This needs no network - it verifies the packs already in git.
-      - name: Provenance and licence gate
-        run: |
-          npm ci --no-audit --no-fund
-          npm run data:check
-
-      - name: Resolve and verify the committed folder
-        id: check
-        shell: bash
-        env:
-          PAGES_FOLDER: ${{ inputs.pages_folder || 'site' }}
-          MODE: ${{ inputs.pages_source }}
-        run: |
-          set -uo pipefail
-          folder="$PAGES_FOLDER"
-          if [ ! -d "$folder" ]; then
-            if [ "$folder" = site ] && [ -d docs ]; then
-              echo "::error title=No folder to publish::site/ is not committed. Run \`npm run pages:sync\` locally and commit site/, or choose pages_folder: docs (and accept that docs/*.md become public)."
-            elif [ "$folder" = docs ]; then
-              echo "::error title=No folder to publish::docs/ is not present."
-            else
-              echo "::error title=No folder to publish::$folder/ is not committed. Produce it with \`npm run build:only && npm run pages:sync\` (that writes site/) and commit the result."
-            fi
-            exit 1
-          fi
-          for f in index.html manifest.webmanifest sw.js \
-                   data/manifest.json \
-                   data/packs/dictionary-core/000.txt \
-                   data/packs/characters/000.txt \
-                   licenses/THIRD_PARTY_NOTICES.md; do
-            if [ ! -s "${folder}/$f" ]; then
-              echo "::error title=Incomplete committed build::${folder}/$f is missing or empty. Branch Pages or an Actions deploy of this folder would serve a PWA that cannot install or load its packs."
-              exit 1
-            fi
-          done
-          grep -q 'http-equiv="Content-Security-Policy"' "${folder}/index.html" || {
-            echo "::error title=Not this project's build::${folder}/index.html has no CSP meta tag, so it was not produced by \`npm run build:only\` of this repository."
-            exit 1
-          }
-          if grep -qE '(src|href)="/[^/]' "${folder}/index.html"; then
-            echo "::error title=Wrong base::${folder}/index.html uses absolute asset URLs; it will 404 under /<repo>/."
-            exit 1
-          fi
-          # The classic shape-(b/c) accident: index.html from build N, assets from build N-1.
-          grep -ohE '(src|href)="\.\/[^"]+"' "${folder}/index.html" | sed -E 's/.*="\.\/([^"]+)".*/\1/' \
-            | while IFS= read -r ref; do
-                if [ ! -e "${folder}/${ref}" ]; then
-                  echo "::error title=Stale committed build::${folder}/index.html references ./${ref}, which is not committed. Re-run \`npm run pages:sync\` and commit."
-                  exit 1
-                fi
-              done || exit 1
-          node -e 'JSON.parse(require("fs").readFileSync(process.argv[1], "utf8"))' "${folder}/manifest.webmanifest" || {
-            echo "::error title=Unparseable manifest::${folder}/manifest.webmanifest is not valid JSON."
-            exit 1
-          }
-          if [ ! -e "${folder}/.nojekyll" ]; then
-            echo "::warning title=Jekyll may rewrite the deploy::branch-based Pages runs Jekyll over ${folder}/ unless ${folder}/.nojekyll exists. npm run pages:sync creates it; a hand-copied folder needs it added."
-          fi
-          if [ "$folder" = docs ]; then
-            echo "::warning title=Documentation becomes public::publishing docs/ also serves docs/APP_CONTRACT.md, docs/DATA_FORMAT.md and docs/PLAN_COMPLIANCE.md. They contain no secrets, but that exposure is a choice - prefer site/."
-          fi
-          if [ "$MODE" = verify-committed-folder ]; then
-            echo "::notice title=Verification only::branch-based Pages publishes this folder itself; this run checked it and deployed nothing."
-          fi
-          echo "folder=$folder" >> "$GITHUB_OUTPUT"
-          echo "Site folder ${folder}/ is a complete PWA ($(du -sh "${folder}" | cut -f1))."
-
-      - name: Configure Pages
-        if: steps.check.outcome == 'success' && inputs.pages_source == 'committed-folder'
-        id: pages
-        uses: actions/configure-pages@v6
-
-      - name: Upload the committed folder as the Pages site
-        if: inputs.pages_source == 'committed-folder'
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: ${{ steps.check.outputs.folder }}
-
-      - name: Deploy to GitHub Pages
-        if: inputs.pages_source == 'committed-folder'
-        id: deployment
-        uses: actions/deploy-pages@v5
-
-      - name: Result
-        if: always()
-        env:
-          MODE: ${{ inputs.pages_source }}
-          FOLDER: ${{ steps.check.outputs.folder }}
-          PAGE_URL: ${{ steps.pages.outputs.page_url }}
-        shell: bash
-        run: |
-          {
-            echo "## Pages: committed folder"
-            echo
-            if [ "$MODE" = verify-committed-folder ]; then
-              echo "Verified \`${FOLDER:-?}/\` for branch-based Pages. Nothing was deployed by this workflow - GitHub publishes the folder itself."
-            else
-              echo "Deployed the committed \`${FOLDER:-?}/\` folder: **${PAGE_URL:-see Settings -> Pages}**"
-            fi
           } >> "$GITHUB_STEP_SUMMARY"

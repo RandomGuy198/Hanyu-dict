@@ -13,7 +13,8 @@
 #    git). Only the *generated* packs in `public/data/` are committed, which is why the site works
 #    without a data build. CI therefore verifies the committed packs offline:
 #      * `npm run data:check` (scripts/content/check-provenance.mjs) re-hashes every file listed in
-#        `public/data/manifest.json`, checks licence texts + THIRD_PARTY_NOTICES.md, the opt-in OCR
+#        `public/data/manifest.json`, checks licence texts + THIRD_PARTY_NOTICES.md + RUNTIME_NOTICES.md
+#        (re-derived from the tree `npm ci` just installed), the opt-in OCR
 #        manifest, and runs its own clean-room scan of `src/`, `public/` and `scripts/`. It prints
 #        "raw cache ... is absent (expected in CI)" and continues, because pack hashes - not the
 #        upstream downloads - are what the shipped site depends on.
@@ -129,9 +130,9 @@ jobs:
             [ -n "$forced" ] || continue
             case "$forced" in
               dist/*|dist-*)
-                # Not illegal, just out of sync with the default Pages shape: deploy.yml rebuilds
-                # from source, so a committed dist/ is never the file set Pages will serve.
-                echo "::warning title=Committed build output::${forced} is gitignored yet tracked. If you chose the committed-folder Pages shape, publish it under docs/ instead (see README)."
+                # Not illegal, just out of sync with the deployment shape: deploy.yml rebuilds from
+                # source, so a committed dist/ is never the file set Pages will serve.
+                echo "::warning title=Committed build output::${forced} is gitignored yet tracked. deploy.yml rebuilds from source; nothing needs to be committed."
                 ;;
               *)
                 echo "::error title=Gitignored material tracked::${forced} is in .gitignore but committed. Raw downloads, caches and reference material never belong in this repository."
@@ -146,6 +147,9 @@ jobs:
 
       - name: Provenance and licence gate (offline, from the committed packs)
         run: npm run data:check
+
+      - name: Public/private legal boundary gate (tracked tree)
+        run: npm run legal:check
 
       - name: Typecheck
         run: npm run typecheck

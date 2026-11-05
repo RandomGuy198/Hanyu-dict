@@ -23,6 +23,7 @@ import { useDictionary, usePreferences, useSavedWords, useToast } from '../../ap
 import { db } from '../../data/db';
 import { speak } from '../../data/speech';
 import { isHanCharacter, numberedToMarks } from '../../domain/pinyin';
+import { TATOEBA_SENTENCE_URL, tatoebaSentenceIds } from '../../domain/sourceRefs';
 import { US } from '../../domain/types';
 import type { DictEntry, ExampleSentence } from '../../domain/types';
 import './dictionary.css';
@@ -384,6 +385,28 @@ export default function EntryPage() {
   );
 }
 
+/** CC BY 2.0 FR obliges attribution to the contributors, and Tatoeba publishes each sentence's
+ *  author on the sentence page rather than in the download. The ids survive in every pack record,
+ *  so the credit is one click deep and never invented here. */
+function TatoebaCredit({ refs }: { refs: string[] }) {
+  const ids = tatoebaSentenceIds(refs);
+  if (ids.length === 0) return null;
+  return (
+    <p className="dict-example-src text-sm faint">
+      Sentence from Tatoeba, by{' '}
+      {ids.map((id, index) => (
+        <span key={id}>
+          {index > 0 ? ', ' : ''}
+          <a href={`${TATOEBA_SENTENCE_URL}${id}`} target="_blank" rel="noreferrer noopener">
+            sentence {id}
+          </a>
+        </span>
+      ))}{' '}
+      - the author name is on that page.
+    </p>
+  );
+}
+
 function ExampleCard({ example }: { example: ExampleSentence }) {
   const { prefs } = usePreferences();
   const zh = prefs.displayScript === 'traditional' ? example.traditional : example.simplified;
@@ -402,6 +425,7 @@ function ExampleCard({ example }: { example: ExampleSentence }) {
       </p>
       {roman ? <p className="dict-example-py">{roman}</p> : null}
       <p className="dict-example-en">{example.english}</p>
+      <TatoebaCredit refs={example.refs} />
     </div>
   );
 }

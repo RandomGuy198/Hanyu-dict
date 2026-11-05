@@ -180,6 +180,11 @@
   color: var(--text);
   font-size: var(--fs-sm);
 }
+.dict-example-src {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  overflow-wrap: anywhere;
+}
 
 @media (max-width: 599px) {
   .dict-wotd {

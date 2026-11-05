@@ -112,6 +112,12 @@ headword US simplifiedSentence US traditionalSentence US pinyin US english US so
 `sourceRefs` = `tatoeba:<id>:<author>` items separated by `+`. At most 3 sentences per headword,
 only headwords of length >= 2, only `cmn`→`eng` linked pairs.
 
+`<author>` is the literal `unknown` in every shipped record: the pinned Tatoeba per-language export
+publishes `id`, `lang`, `text` only, and the dumps that name contributors (1.4 GB and 594 MB) are
+deliberately not vendored. The id is the attribution handle - `src/domain/sourceRefs.ts` reads it and
+the entry screen links `https://tatoeba.org/en/sentences/show/<id>`, the page that names the
+contributor. See `attributionGap` in `scripts/content/provenance.json`.
+
 ## content packs
 
 `content/<id>.json`: `{ id, kind, title, summary, level, license, attribution, blocks[] }`

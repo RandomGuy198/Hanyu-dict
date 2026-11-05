@@ -24,6 +24,7 @@ import { build as buildExamples } from './build-examples.mjs';
 import { build as buildContent } from './build-content.mjs';
 import { build as buildOcr } from './build-ocr.mjs';
 import { build as buildLicenses } from './build-licenses.mjs';
+import { build as buildRuntimeLicenses } from '../collect-runtime-licenses.mjs';
 import { build as buildManifest } from './build-manifest.mjs';
 import { check } from './check-provenance.mjs';
 
@@ -35,6 +36,7 @@ const STAGES = [
   { id: 'content', build: buildContent },
   { id: 'ocr', build: buildOcr },
   { id: 'licenses', build: buildLicenses },
+  { id: 'runtime-licenses', build: buildRuntimeLicenses },
   { id: 'manifest', build: buildManifest },
 ];
 

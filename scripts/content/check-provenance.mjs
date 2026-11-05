@@ -173,6 +173,21 @@ async function checkManifest(reg) {
 
 /** 4 + 5. licence texts and the generated notice document. */
 async function checkLicences(reg) {
+  // The root licence is what GitHub reads to state the project's terms; a repository without it
+  // advertises nothing, and the code-MIT / data-per-source split exists only in prose.
+  const rootLicense = path.join(REPO_ROOT, 'LICENSE');
+  if (!exists(rootLicense)) {
+    fail('licences', 'the repository has no root LICENSE file, so its licence is unstated to anyone who reads the repository rather than package.json');
+  } else {
+    const text = readText(rootLicense);
+    if (!/MIT License/i.test(text) || !/THE SOFTWARE IS PROVIDED "AS IS"/.test(text)) {
+      fail('licences', 'root LICENSE is not the MIT text it is claimed to be');
+    }
+    if (!/^Copyright \(c\) \S/im.test(text)) {
+      fail('licences', 'root LICENSE names no copyright holder');
+    }
+  }
+
   for (const src of reg.sources) {
     const full = path.join(REPO_ROOT, src.licenseFile);
     if (!exists(full)) {
@@ -201,6 +216,39 @@ async function checkLicences(reg) {
     if (src.attributionGap && !doc.includes(src.attributionGap)) fail('licences', `THIRD_PARTY_NOTICES.md hides the known gap for ${src.id}`);
   }
   if (!/generated/i.test(doc)) fail('licences', 'THIRD_PARTY_NOTICES.md does not say it is generated (it must not be hand-edited)');
+
+  await checkRuntimeLicences();
+}
+
+/**
+ * The notices for bundled runtime code (React, Dexie, pdf.js, Workbox, ...) are derived from the
+ * installed dependency tree, so they go stale the moment a dependency moves. When node_modules is
+ * present the document is re-derived and compared byte for byte; without it the check degrades to
+ * naming the libraries that must appear, because the exact versions cannot be known offline.
+ */
+async function checkRuntimeLicences() {
+  const file = path.join(LICENSES_DIR, 'RUNTIME_NOTICES.md');
+  if (!exists(file)) {
+    fail('licences', 'public/licenses/RUNTIME_NOTICES.md is missing - run: node scripts/collect-runtime-licenses.mjs');
+    return;
+  }
+  const doc = readText(file);
+  for (const required of ['react', 'react-dom', 'react-router-dom', 'dexie', 'zod', 'pdfjs-dist', 'hanzi-writer', 'tesseract.js', 'workbox-window']) {
+    if (!doc.includes(`\`${required}\``)) fail('licences', `RUNTIME_NOTICES.md does not list ${required}`);
+  }
+  if (!/Apache-2\.0\.txt/.test(doc)) fail('licences', 'RUNTIME_NOTICES.md does not point at the shipped Apache-2.0 text');
+
+  if (!exists(path.join(REPO_ROOT, 'node_modules'))) {
+    log('  node_modules absent: runtime licences checked by name only (run npm ci for the version-exact check)');
+    return;
+  }
+  try {
+    const { check: checkRuntime } = await import('../collect-runtime-licenses.mjs');
+    const { records } = await checkRuntime();
+    log(`  runtime licences: ${records.length} packages match public/licenses/RUNTIME_NOTICES.md`);
+  } catch (error) {
+    fail('licences', error instanceof Error ? error.message : String(error));
+  }
 }
 
 /** 6. the opt-in OCR payload. */

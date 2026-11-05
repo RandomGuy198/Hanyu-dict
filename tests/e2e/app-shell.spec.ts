@@ -20,6 +20,7 @@ test.describe('published shell', () => {
       '/data/manifest.json',
       '/data/packs/dictionary-core/000.txt',
       '/licenses/THIRD_PARTY_NOTICES.md',
+      '/licenses/RUNTIME_NOTICES.md',
       '/icons/icon-192.png',
     ]) {
       const asset = await request.get(path);
@@ -58,6 +59,9 @@ test.describe('published shell', () => {
     for (const source of ['CC-CEDICT', 'Unihan', 'Tatoeba']) {
       await expect(page.getByText(source, { exact: false }).first(), source).toBeVisible();
     }
+    // The runtime libraries are a separate licence layer from the data, and the audit that added them
+    // is only worth anything if the screen that promises them actually renders them.
+    await expect(page.getByRole('heading', { name: /bundled runtime libraries/i })).toBeVisible();
   });
 
   test('an unknown address is explained instead of left blank', async ({ page }) => {

@@ -60,6 +60,8 @@ readFileAsText, MAX_IMPORT_BYTES`
 `pinyinKey`, `queryPinyinKeys`, `hasCjk`, `isHanCharacter`, `stripToneMarks`),
 `scheduler.ts` (`newCard, schedule, isDue, dueQueue, newCards, previewInterval, reviewDelta`),
 `achievements.ts` (`ACHIEVEMENTS, totals, evaluateAchievements, weeklySummary, currentStreak`),
+`sourceRefs.ts` (`tatoebaSentenceIds`, `TATOEBA_SENTENCE_URL` - the licence attribution mechanism for
+example sentences),
 `service.ts` (`CharRecord` type for character rows).
 
 `DictionaryApi` methods (all async): `search(text, {mode?, limit?})`, `entry(id)`,

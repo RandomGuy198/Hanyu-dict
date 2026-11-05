@@ -77,7 +77,14 @@ const SOURCES: { name: string; licence: string; file: string; used: string; duty
     licence: 'Creative Commons Attribution 2.0 France',
     file: 'CC-BY-2.0-FR.txt',
     used: 'Real example sentences paired with their translations, for the examples pack.',
-    duty: 'Attribution to the contributors; the export this build used names them as “unknown”.',
+    duty: 'Attribution to the contributors: each sentence shown on an entry links to its Tatoeba page, where the author is named.',
+  },
+  {
+    name: 'Bundled runtime libraries',
+    licence: 'MIT / Apache-2.0 / BSD-2-Clause, per package',
+    file: 'RUNTIME_NOTICES.md',
+    used: 'React, React Router, Dexie, Zod, hanzi-writer, pdf.js, Tesseract and the Workbox service-worker runtime, bundled and served from this site.',
+    duty: 'Every licence text and upstream NOTICE is reproduced in the runtime notices, version by version.',
   },
   {
     name: 'tesseract.js 5.1.1, tesseract.js-core 5.1.1 and tessdata_fast',

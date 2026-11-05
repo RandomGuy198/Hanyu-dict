@@ -44,7 +44,7 @@ offline - **not met** (nothing deployed, no device run). No APK-derived content 
 
 | # | Plan item | Status | Where / why |
 | --- | --- | --- | --- |
-| 1.1 | Create `Modded/hanyu-web` as a new Git repository | **P**, deliberately relocated | The app lives in `Hanyu Dictionary/Hanyu dict` because the user asked for the files there (Deviation 1). It is **not yet a git repository** - `git init` is pending, so nothing can be pushed and CI has never executed. |
+| 1.1 | Create `Modded/hanyu-web` as a new Git repository | **D** (relocated) | The app lives in `Hanyu Dictionary/Hanyu dict` because the user asked for the files there (Deviation 1). It is a git repository with `origin = https://github.com/RandomGuy198/Hanyu-dict`, `main` pushed at `8ce9788` (577 tracked files, working tree clean at the time of the 2026-11-05 audit). Whether that repository is public was not verified from this machine (no `gh` CLI installed). |
 | 1.2 | React + TypeScript + Vite with strict type checking | **D** | `package.json`, `tsconfig.json` (`strict`, `noUnusedLocals`, `noUnusedParameters`, `noFallthroughCasesInSwitch`, `isolatedModules`), `vite.config.ts`. |
 | 1.3 | Formatting, linting, unit tests, component tests, Playwright | **P** | Unit tests **D-ish**: `tests/unit/{pinyin,search,scheduler,schema,db}.test.ts`, 165 cases all passing at this snapshot - though `tsc` reports type errors inside `tests/unit/db.test.ts`, because vitest transpiles rather than typechecks its suite. Linting **P**: `eslint.config.js` is written and was run against this codebase with an out-of-tree ESLint 9 install (8 errors, 9 warnings), but the toolchain is not in `package.json`, so `npm run lint` cannot run from a clean checkout (Deviation 7). Formatting **F**: `format`/`format:check` scripts exist but prettier is not installed. Component tests **X**: @testing-library is a dependency and `tests/setup.ts` exists, yet no component-render test is written. Playwright **X**: no `playwright.config.ts`, no `tests/e2e/`, so `npm run test:e2e` fails. |
 | 1.4 | Path aliases, environment typing, error boundaries, minimal logging policy | **D** | `@` and `@data` aliases (tsconfig + vite), `src/vite-env.d.ts`, `src/app/ErrorBoundary.tsx` + a `NotFound` route, logging policy in `docs/APP_CONTRACT.md` rule 6 (no `console.log` of user content, `console.error` for real failures) reinforced by `no-console: ['warn', {allow:['warn','error']}]` for `src/`. |
@@ -209,10 +209,10 @@ assistive-technology pass has happened.
 
 | # | Plan item | Status | Where |
 | --- | --- | --- | --- |
-| 12.1 | Unit tests for normalisation, ranking, scheduling, scoring, migrations, imports | **P** | `tests/unit/` covers pinyin, search/ranking, scheduler, pack schema, content shape, backup export/import and IndexedDB shape - 255 cases in 9 suites, all passing, and `npm run typecheck` covers the suite itself. Scoring and migration coverage is still thin: there is one schema version, so v1→v2 is the first upgrade the app has, and it is asserted only as "the v2 indexes exist" (`tests/unit/db.test.ts`). |
+| 12.1 | Unit tests for normalisation, ranking, scheduling, scoring, migrations, imports | **P** | `tests/unit/` covers pinyin, search/ranking, scheduler, pack schema, content shape, backup export/import and IndexedDB shape - 259 cases in 9 suites, all passing, and `npm run typecheck` covers the suite itself. Scoring and migration coverage is still thin: there is one schema version, so v1→v2 is the first upgrade the app has, and it is asserted only as "the v2 indexes exist" (`tests/unit/db.test.ts`). |
 | 12.2 | Property tests for Unicode normalisation, malformed imports, idempotent migrations | **X** | None. |
 | 12.3 | Integration tests for IndexedDB, Worker protocols, pack install, rollback, SW updates | **P** | fake-indexeddb exercises the db and pack layer; worker protocols, rollback and SW update flows are untested. |
-| 12.4 | Playwright journeys on Chromium, Firefox, WebKit at phone/tablet/desktop widths | **P** | `playwright.config.ts` + 9 specs pass on **Chromium at one desktop width** (recorded 2026-11-04, 19.9s). Firefox, WebKit and the phone/tablet widths are not configured (one project, `devices['Desktop Chrome']`), and no CI workflow runs browsers. |
+| 12.4 | Playwright journeys on Chromium, Firefox, WebKit at phone/tablet/desktop widths | **P** | `playwright.config.ts` + 9 specs pass on **Chromium at one desktop width** (recorded 2026-11-05, 21.0s). Firefox, WebKit and the phone/tablet widths are not configured (one project, `devices['Desktop Chrome']`), and no CI workflow runs browsers. |
 | 12.5 | Golden path: search Hanzi / numbered pinyin / English → entry → save → flashcard → export → reload offline → import | **P** | `tests/e2e/dictionary-flow.spec.ts` automates search in three modes → entry → save → library, plus searching with the network switched off. The flashcard, export and import legs are still only unit-tested (`tests/unit/exportImport.test.ts`, `scheduler.test.ts`), not walked in a browser. |
 | 12.6 | Edge cases: variants, neutral tone, multiple readings, `ü`/`v`, no results, camera denial, no speech voice, large imports, quota, interrupted updates | **P** | `ü`/`v`, tone numbers and no-result states are unit-covered; camera denial, quota exhaustion and interrupted update flows are handled in code but untested. |
 | 12.7 | Measure cold/warm startup, search latency, memory, pack sizes, OCR latency, PDF rendering on a representative phone and PC | **P** | Pack sizes are measured and published; nothing else has been measured on any device. |
@@ -225,7 +225,7 @@ missing is the multi-browser, multi-width sweep and any real-device run (12.7, 1
 ## Defects found only in the browser (2026-11-04)
 
 The first Playwright run failed 8 of 9 specs, and chasing those failures turned up three defects that
-255 passing unit tests had never seen, because each one lived in the seam between the committed data,
+259 passing unit tests had never seen, because each one lived in the seam between the committed data,
 IndexedDB and a real page load. All three are fixed and re-verified by the suite.
 
 1. **Simplified and traditional were inverted for every dictionary entry.** CC-CEDICT writes
@@ -266,12 +266,66 @@ third-party notices", and Unihan readings are tone-marked `zhōng`).
 does not run Playwright - the runner has no browsers installed - so these three defects would have
 shipped green.
 
+## Open-source licence audit (2026-11-05)
+
+Before the repository went public, the tree was re-scanned for anything that would make an open-source
+publication legally unsafe. Two read-only passes: a clean-room trace scan (APK artifacts, decompiled
+output, proprietary assets, embedded credentials, absolute local paths, brand names) and a
+licence-coverage scan of everything the build actually serves.
+
+**Clean-room scan: clear.** No `.apk`, `.dex`, `.smali`, font, audio or SQLite artifact of any kind is
+tracked; the only occurrences of the reference product's name are the disclaimers in `README.md`,
+`docs/APP_CONTRACT.md` and the CI ban in `check-provenance.mjs` §8; the icons are generated by
+`scripts/make-icons.mjs` (its own deterministic PNG encoder, and it refuses to rasterise a glyph it
+cannot draw); no secret and no `C:\Users\…` path is in a tracked file. The names *Hanyu Dictionary* /
+*Hanyu Dict* are descriptive, not a brand.
+
+**Licence coverage: three real gaps, all now closed.**
+
+1. **No root licence.** GitHub reads `LICENSE` to state the project's licence; with none, the repository
+   advertised nothing even though `package.json` said MIT, and the code-MIT / data-per-source split lived
+   only in prose. Added `LICENSE` - the MIT text, so the detector matches it - with a short pointer that
+   it covers application code only and grants no rights over the packs or the bundled libraries.
+2. **Bundled runtime code shipped with no notice.** The audit's first pass covered the *datasets*; the
+   libraries compiled into `dist/assets/*.js` and `dist/sw.js` had no licence anywhere, although MIT
+   requires the copyright and permission notice in every redistribution and Apache-2.0 §4(d) requires
+   reproducing the upstream NOTICE. Affected: react, react-dom, scheduler, react-router,
+   react-router-dom, @remix-run/router, zod, **dexie and dexie-react-hooks (Apache-2.0 - Dexie ships a
+   NOTICE naming David Fahlander)**, pdfjs-dist (Apache-2.0), idb-keyval, wasm-feature-detect, the
+   transitive leaves (loose-envify, js-tokens, whatwg-url, tr46, webidl-conversions, node-fetch,
+   zlibjs, bmp-js, is-url, is-electron, opencollective-postinstall, regenerator-runtime) and the
+   **Workbox 7.4 runtime inlined into the service worker** - 42 installed packages in total.
+   `scripts/collect-runtime-licenses.mjs` now generates `public/licenses/RUNTIME_NOTICES.md` from the
+   tree `npm ci` produces: every MIT/BSD text verbatim, every Apache package with its NOTICE verbatim
+   (or an explicit "this package ships no NOTICE"), plus a section for the one package whose tarball
+   carries a licence id but no licence text. It is a build stage (`runtime-licenses`) and a gate
+   (`npm run data:check` re-derives it and fails on drift), it is linked from
+   `THIRD_PARTY_NOTICES.md` and it is readable in-app on `#/about`.
+   Note the pre-existing `public/licenses/MIT.txt` is *hanzi-writer's* MIT text (copyright David Chanin),
+   which is why per-package texts are generated rather than pointing every MIT library at that file.
+3. **`package.json` had no repository or homepage,** which the npm registry, `npm audit` reports and
+   GitHub's own package insights all use. Added `repository`, `homepage`, `bugs` and keywords. The
+   package stays `"private": true` deliberately: it is an application, never to be published to npm.
+
+**Also fixed while measuring:** the earlier note in this file that the directory "is not a git repository
+yet" was stale - `origin/main` exists and matches the local branch; §8 and the release-blocking list now
+say which half of that work is genuinely done (pushed) and which is not (Pages, first hosted CI run).
+A `.gitattributes` pinning `eol=lf` was added: `core.autocrlf=true` on Windows would convert the
+committed LF pack shards to CRLF on a fresh clone, changing the bytes of a file whose SHA-256 is recorded
+in `data/manifest.json`, and every pack install would then fail verification - a publication-blocking
+foot-gun, not a style preference.
+
+**Remaining, by choice:** the individual-Tatoeba-author gap (deviation 5), and the fact that a licence
+audit is not legal advice - the Arphic Public License and the CC BY-SA share-alike duty on
+`dictionary-core` are the two terms a downstream reuser is most likely to get wrong, which is why both
+are stated in the generated notices and on the About screen rather than only in this file.
+
 ## §8 GitHub repository and Pages publication
 
 | # | Plan step | Status | Note |
 | --- | --- | --- | --- |
 | 8.1 | Working tree contains only intended source, approved assets, generated notices, documentation | **D**, and enforced | `check-provenance.mjs` §8 scans the tree; `ci.yml` scans git's index (APKs, splits, `.dex`, uncompressed `.traineddata`, `.cache/`, `Modded/`, `jadx`/`smali`/`decompiled`, the reference planning documents, `.env`, `*.key`, `*.pem`, `node_modules`). |
-| 8.2-8.4 | Create the public repository, push it (gh CLI or web UI + remote) | **X**, user's action | The directory is not a git repository yet and no remote exists. GitHub CLI availability was not re-checked. The README has the exact command sequence. Never request a token in chat - unchanged rule. |
+| 8.2-8.4 | Create the public repository, push it (gh CLI or web UI + remote) | **D**, user's action | `origin = https://github.com/RandomGuy198/Hanyu-dict`, `main` pushed (`8ce9788 Import Hanyu Dictionary project`, 577 files); `git rev-list --left-right --count origin/main...main` is `0 0`. Visibility, branch protection and Pages settings are GitHub-side and were not asserted from this machine. Never request a token in chat - unchanged rule. |
 | 8.5 | Add `.github/workflows/ci.yml` and `deploy.yml` | **D** | Both written here; deploy runs from the branch you declare default. |
 | 8.6 | Use configure-pages + upload-pages-artifact + deploy-pages, Pages source = GitHub Actions | **D** | `deploy.yml` shape (a), with `permissions: {pages: write, id-token: write}` and a `github-pages` environment. |
 | 8.7 | Deploy only the production artifact | **D** | `path: dist` (shape a) or the verified committed folder (shape b); shape (c) deploys nothing. |
@@ -288,9 +342,9 @@ shipped green.
 | Responsive and installable on verified phone and desktop targets | **Not verified** | Manifest/icons/CSP/routes exist; the verification half has not happened. |
 | User data survives upgrades and can be exported/restored | **Partly** | Backup export/import and separate user/pack storage are implemented; there is one schema version, so no upgrade path has been exercised. |
 | No proprietary APK content or unclear-license asset present | **Yes** | Clean-room register + two enforcement layers; every shipped byte is in `public/data/manifest.json` with a licence and a hash. |
-| Every dependency has provenance and required attribution | **Yes with one honest caveat** | Licence texts and `THIRD_PARTY_NOTICES.md` ship, and the in-app About screen renders them from same-origin files; the individual-Tatoeba-author gap (deviation 5) remains, by choice. |
+| Every dependency has provenance and required attribution | **Yes with one honest caveat** | Data licences and `THIRD_PARTY_NOTICES.md` ship, and since the 2026-11-05 licence audit so do the *code* licences: `LICENSE` (MIT, application code) at the root and `public/licenses/RUNTIME_NOTICES.md` for every production dependency and the Workbox modules inlined into the service worker, with the Apache-2.0 NOTICE files reproduced verbatim. `npm run data:check` re-derives that file from `npm ci`'s tree, so a bump cannot leave a stale notice behind. The in-app About screen renders both. The individual-Tatoeba-author gap (deviation 5) remains, by choice, with the sentence-id link as the recovery path. |
 | No fake social/AI/translation/sync/native capability presented as functional | **Yes** | Enforced by contract and by the absence of any such control. |
-| CI, browser tests, real-device golden paths, accessibility checks, publication checks pass | **No** | CI and the publication gates are written; browser tests, device paths and a11y checks do not exist yet. |
+| CI, browser tests, real-device golden paths, accessibility checks, publication checks pass | **Partly** | `npm run data:check`, `tsc --noEmit`, `vitest` (259 tests, 9 files), `eslint --max-warnings 0`, `vite build` and `playwright test` (9 specs, Chromium) all pass locally. The GitHub Actions workflows are committed but their first real run on the hosted runner has not been observed, and no real-device golden path or accessibility audit has been performed. |
 | GitHub Pages serves the app and all assets under the repository base path | **Not yet** | Relative `./` URLs are asserted at build time; the site is unpublished. |
 
 ## Deliberate deviations from the plan
@@ -317,9 +371,12 @@ shipped green.
 5. **Tatoeba contributor usernames recorded as `unknown`.** The pinned per-language exports carry only
    `id`, `lang`, `text`; usernames live in the 1.4 GB `sentences_detailed` and 594 MB contributions
    dumps, deliberately not vendored. Every `sourceRef` is `tatoeba:<id>:unknown`, and
-   `attributionGap` in `scripts/content/provenance.json` records exactly this plus the recovery path
-   (resolve the id against tatoeba.org). Attribution to the project and licence is intact; individual
-   credit is not, and this is a real gap, not a rounding error.
+   `attributionGap` in `scripts/content/provenance.json` records exactly this. The recovery path is now
+   implemented rather than merely described: `src/domain/sourceRefs.ts` reads the id out of a ref and
+   `EntryPage` renders it as a link to `https://tatoeba.org/en/sentences/show/<id>`, the page that names
+   the contributor, so an individual credit is one deliberate click away and is never invented offline.
+   Attribution to the project and licence is intact; naming authors offline is not, and remains a real
+   gap rather than a rounding error.
 6. **Track B excluded from this release.** Sync, accounts, forums/chat/PK/live voice, hosted AI,
    pronunciation scoring and push notifications are absent by decision (plan §3 Track B, §7 Phase 10).
    No dead button stands in for any of them.
@@ -374,12 +431,16 @@ screens beyond the coarse groups in the inventory.
 
 ## Release-blocking list (what must happen before this is published as 1.0)
 
-1. `git init`, commit, create the repository, push, set Pages to GitHub Actions, and let CI run for
-   real - it has never executed.
+1. ~~`git init`, commit, create the repository, push~~ - **done by the user's publishing agent on
+   2026-11-04**: `origin = https://github.com/RandomGuy198/Hanyu-dict`, `main` at `8ce9788`, 577 files,
+   working tree clean. Still outstanding: the licence-audit changes described above are in the working
+   tree, not in that commit, so they have to be committed and pushed; Pages has to be switched on; and
+   CI still has never executed on a hosted runner.
 2. ~~Get `npm run typecheck` clean~~ - **clean on 2026-11-04** (strict + `noUnusedLocals`, covering
-   `tests/**`), `npm test` green at 255 cases. What is left here is lint: the toolchain is now declared
-   as devDependencies, but nobody has run `npm run lint` inside CI yet, and the
-   `react-hooks/exhaustive-deps` notes are untriaged.
+   `tests/**`) and still clean after the 2026-11-05 audit, now at 259 unit cases. ~~What is left here
+   is lint~~ - **`eslint . --max-warnings 0` is clean** and the `react-hooks/exhaustive-deps` notes are
+   triaged: the two genuine invalidation signals (`voiceTick`, `restartAt`) carry targeted disables with
+   the reason beside them, the rest were fixed. Running lint *inside CI* is the remaining half.
 3. Configure Playwright and encode the Phase 12.5 golden path plus camera-denial, no-voice, quota and
    offline-reload cases; run it on Chromium, Firefox and WebKit at three widths. `playwright.config.ts`
    plus `app-shell.spec.ts` and `dictionary-flow.spec.ts` exist and cover the shell, CSP, registry,
@@ -393,6 +454,6 @@ screens beyond the coarse groups in the inventory.
    `NetworkFirst` runtime rule instead.
 6. ~~Decide the install name~~ - see deviation 10.
 7. ~~Fix the missing `pathToFileURL` import in `scripts/sync-pages.mjs`~~ - fixed, and
-   `npm run pages:sync` has since produced `site/` (224 files, ~60 MB).
+   `npm run pages:sync` has since produced `site/` (227 files, 64.2 MB).
 8. Manual verification on the user's actual phone and PC: install, offline reload, deep link, pack
    download, camera, PDF, speech, then tag the release.

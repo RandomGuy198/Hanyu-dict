@@ -16,6 +16,7 @@ import {
   type ActivityTotals,
 } from '@/domain/achievements';
 import { entryId } from '@/domain/searchRanking';
+import { tatoebaSentenceIds } from '@/domain/sourceRefs';
 import {
   entryKey,
   parseEntryKey,
@@ -420,5 +421,25 @@ describe('preferredHeadword and preferredPinyin', () => {
         expect(preferredHeadword(entry, chosen).length).toBeGreaterThan(0);
       }
     }
+  });
+});
+
+describe('tatoebaSentenceIds', () => {
+  // The examples pack credits contributors by sentence id only (the pinned export names nobody),
+  // and that id is the whole attribution mechanism, so its parsing is a licence concern.
+  it('reads both refs of a linked pair in order', () => {
+    expect(tatoebaSentenceIds(['tatoeba:7891:unknown', 'tatoeba:456:unknown'])).toEqual(['7891', '456']);
+  });
+
+  it('drops malformed and non-Tatoeba refs instead of guessing a link', () => {
+    expect(tatoebaSentenceIds(['tatoeba:unknown:1', 'tatoeba:abc', 'original:note-3', '', 'tatoeba:12:unknown'])).toEqual(['12']);
+  });
+
+  it('collapses the repeated ids a headword can carry', () => {
+    expect(tatoebaSentenceIds(['tatoeba:33:a', 'tatoeba:33:b', 'tatoeba:44:c'])).toEqual(['33', '44']);
+  });
+
+  it('yields nothing for a record without refs', () => {
+    expect(tatoebaSentenceIds([])).toEqual([]);
   });
 });
