@@ -124,11 +124,29 @@ contributor. See `attributionGap` in `scripts/content/provenance.json`.
 where `blocks[] = { type: "text"|"dialogue"|"list"|"note", title?, body }`. All content is
 originally authored for this project (CC BY 4.0) unless `provenance.json` records otherwise.
 
-## OCR pack
+## Private study data (not in this repository)
 
-`ocr/manifest.json` records file sizes and sha256 for `worker.min.js`, the tesseract core
-wasm/js, and `<lang>.traineddata.gz`. Models are opt-in downloads; the UI must show the byte
-size before downloading and keep images local.
+v0.2 retired the OCR pack: camera recognition and its models are gone, and nothing derived from a
+third-party textbook is published here. The reader-facing course material instead lives in **the
+owner's own private GitHub repository** and is fetched at runtime through the Contents API, then
+cached in the IndexedDB `remoteCache` table keyed by the repository path. The shapes below are the
+contract the app validates them against (`src/data/schema.ts`); a file that fails validation is
+treated as absent, never half-trusted.
+
+| Path in the private repo | Shape | Read by |
+| --- | --- | --- |
+| `books/manifest.json` | `{ schemaVersion, generatedAt, books[] }` - one entry per volume: id, volume number, page count, lesson summaries | the book shelf and the version check for cached lessons |
+| `books/<bookId>/book.json` | volume metadata and the lesson index | the volume page |
+| `books/<bookId>/pages/p<NNN>.webp` | one rendered page image, `1224x1584` | the page view, shown through a `blob:` URL |
+| `books/<bookId>/lessons/l<NN>.json` | `lessonDocumentSchema`: lesson id, volume, numbers, titles in three scripts, page range, `lessonAudioPath` + duration, `pages[]` with percentage `hotspots`, `vocabulary[]`, `dialogues[]` (sentence + `tokens` + `sandhiNotes` + slice timings), `notes[]`, `grammar[]`, optional `pronunciation`, `exercises[]`, `writingTargets[]` | the reader, the audio bar and the 5-step course |
+| `audio/lessons/<bookId>/l<NN>.mp3` (+ `.align.json`) | the full lesson recording and its per-sentence timestamps | sentence-slice playback |
+| `audio/tts/words/<xx>/<hash>.mp3`, `audio/tts/sentences/<xx>/<hash>.mp3` | one clip per word / per sentence, addressed by the hash of its text | standalone word and sentence audio |
+| `audio/manifest.json` | `audioManifestSchema`: `words` and `sentences` maps from key to `{ path, durationMs, voice?, engine? }` | resolves a text to a clip path |
+| `sync/state.json` | `SyncStateFile` (`src/domain/types.ts`): `schemaVersion`, `updatedAt`, `deviceId`, `deletedIds` tombstones, preferences, saved words, lists, notebooks, categories, decks, SRS cards and course progress | `src/data/syncEngine.ts`, pull with `ETag`/`If-None-Match`, debounced push with merge-on-conflict |
+
+A cached lesson is only served when the record's `version` still equals the manifest's `generatedAt`,
+so a rebuilt private repository invalidates stale copies instead of showing them. Nothing in this
+table is committed here, and `npm run legal:check` fails the build if any of it appears.
 
 ## Integrity rules enforced by CI
 

@@ -52,6 +52,13 @@ const SOURCES: { name: string; licence: string; file: string; used: string; duty
     duty: 'Share-alike: the derived word data in this app is published under CC BY-SA 4.0 too.',
   },
   {
+    name: 'CVDICT — Chinese-Vietnamese dictionary by Phong Phan',
+    licence: 'Creative Commons Attribution-ShareAlike 4.0',
+    file: 'CC-BY-SA-4.0.txt',
+    used: 'The Vietnamese glosses on entries and search results, machine-adapted from CC-CEDICT and hand-corrected upstream.',
+    duty: 'Share-alike, like CC-CEDICT: the merged word data stays under CC BY-SA 4.0. Source: https://github.com/ph0ngp/CVDICT',
+  },
+  {
     name: 'Unicode Unihan Database 16.0.0',
     licence: 'Unicode License v3',
     file: 'Unicode-License-v3.txt',
@@ -83,15 +90,8 @@ const SOURCES: { name: string; licence: string; file: string; used: string; duty
     name: 'Bundled runtime libraries',
     licence: 'MIT / Apache-2.0 / BSD-2-Clause, per package',
     file: 'RUNTIME_NOTICES.md',
-    used: 'React, React Router, Dexie, Zod, hanzi-writer, pdf.js, Tesseract and the Workbox service-worker runtime, bundled and served from this site.',
+    used: 'React, React Router, Dexie, Zod, hanzi-writer and the Workbox service-worker runtime, bundled and served from this site.',
     duty: 'Every licence text and upstream NOTICE is reproduced in the runtime notices, version by version.',
-  },
-  {
-    name: 'tesseract.js 5.1.1, tesseract.js-core 5.1.1 and tessdata_fast',
-    licence: 'Apache License 2.0',
-    file: 'Apache-2.0.txt',
-    used: 'Optional on-device text recognition for the camera screen (chi_sim and eng).',
-    duty: 'The Apache notice and the model licence ship alongside; nothing is fetched at runtime.',
   },
   {
     name: 'Original content by this project',
@@ -105,9 +105,10 @@ const SOURCES: { name: string; licence: string; file: string; used: string; duty
 /** Things the reference product does that this one deliberately does not. Naming them keeps the
  *  “free and unlocked” claim honest instead of merely silent. */
 const NOT_DONE: string[] = [
-  'No account, no sign-in, no cloud sync. Backup and restore are files this device writes.',
+  'No account, no sign-in and no server of ours. Optional sync writes only to a GitHub repository you own and connect yourself in Settings.',
   'No advertisements, trials, locked tiers or entitlement checks. Every feature is enabled.',
-  'No recorded human audio. Pronunciation uses the voices your device already has, and says so when it has none.',
+  'No hosted audio or page-image library. Readings use the voices your device already has - labelled as synthetic, with an honest "no Chinese voice here" state - unless you connect your own repository.',
+  'No third-party site is ever contacted for content: the only outward request the app can make is the GitHub API for the repository you connected, and it carries your token to that host alone.',
   'No server-side translation, no AI chat, no pronunciation scoring, no simulated other users.',
   'No public leaderboard, chat or live competition. Practice challenges are local and labelled as such.',
   'No home-screen widget, lock-screen card or screen overlay: a browser cannot offer those honestly.',
@@ -269,8 +270,9 @@ function Registry({ rows, problem, retry }: { rows: PackOverview[]; problem: str
       </div>
       <p className="prof-help">
         Versions are the upstream release plus a digest of the generated files, so a rebuilt pack
-        always reads as a new version. Sizes are the download cost before installation.{' '}
-        <Link to="/offline-data">Install, remove or re-verify packs here</Link>.
+        always reads as a new version. Sizes are the download cost before installation. Packs install
+        themselves the first time a screen needs them and re-download on their own if part of one goes
+        missing, so there is nothing to install by hand.
       </p>
     </section>
   );
@@ -324,12 +326,14 @@ function About() {
           <span className="chip">app v{APP_VERSION}</span>
         </div>
         <p>
-          {APP_NAME} searches a {manifest ? `${manifest.packs.length}-pack ` : ''}dictionary, shows
-          character data, animates stroke order, drills flashcards, reads PDFs and photographs, and
-          keeps notes, lists and study schedules - all on this device. Searches, saved words, notes,
-          documents and photos stay in this browser's IndexedDB. The only requests the app makes are
-          for files this same site publishes: the pack registry, the data packs you choose to
-          install and the licence texts quoted here.
+          {APP_NAME} searches a {manifest ? `${manifest.packs.length}-pack ` : ''}dictionary with
+          English and Vietnamese glosses, shows character data, animates and quizzes stroke order,
+          drills flashcards, runs guided lesson courses with textbook pages and audio when you connect
+          your own study repository, and keeps notes, lists and study schedules - all on this device.
+          Searches, saved words, notes and progress stay in this browser's IndexedDB. The files the
+          app needs come from this same site: the pack registry and the data packs, plus the licence
+          texts quoted here. Nothing else is contacted unless you connect a repository, and then only
+          the GitHub API.
         </p>
         <p className="muted text-sm">
           Nothing is metered, locked or sold. There is no account to create and nothing to upgrade.
@@ -371,6 +375,10 @@ function About() {
           build. The modifications column of each pack is recorded in the registry; the notices file
           repeats it per source.
         </p>
+        <p className="prof-sharealike">
+          Dictionary packs in this app are adapted from CC-CEDICT and CVDICT and are distributed under
+          CC BY-SA 4.0.
+        </p>
         <ul className="prof-src-grid">
           {SOURCES.map((source) => (
             <li className="prof-src" key={source.name}>
@@ -408,16 +416,13 @@ function About() {
         </div>
         <ul className="prof-list">
           <li>
-            <Link to="/settings">Themes, script, pinyin style, speech and accessibility</Link>
-          </li>
-          <li>
-            <Link to="/offline-data">Which packs are on this device, and what they cost</Link>
+            <Link to="/settings">Themes, script, pinyin style, speech, accessibility and the optional study repository</Link>
           </li>
           <li>
             <Link to="/data">Back up or restore your own words, notes and schedule</Link>
           </li>
           <li>
-            <Link to="/learn">The reading library built from text written for this app</Link>
+            <Link to="/books">The book shelf and the guided courses alongside the reading library</Link>
           </li>
         </ul>
         <p className="prof-help">

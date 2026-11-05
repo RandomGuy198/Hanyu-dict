@@ -66,12 +66,19 @@ test.describe('published shell', () => {
   test('the about screen names the upstream sources and links the licence texts', async ({ page }) => {
     await gotoReady(page, '/#/about');
     await expect(page.getByRole('link', { name: /third-party notices/i }).first()).toBeVisible();
-    for (const source of ['CC-CEDICT', 'Unihan', 'Tatoeba']) {
+    for (const source of ['CC-CEDICT', 'CVDICT', 'Unihan', 'Tatoeba']) {
       await expect(page.getByText(source, { exact: false }).first(), source).toBeVisible();
     }
+    // R8: the share-alike duty is stated in the interface, not only in the notices file.
+    await expect(
+      page.getByText(/adapted from CC-CEDICT and CVDICT and are distributed under CC BY-SA 4\.0/),
+    ).toBeVisible();
     // The runtime libraries are a separate licence layer from the data, and the audit that added them
     // is only worth anything if the screen that promises them actually renders them.
     await expect(page.getByRole('heading', { name: /bundled runtime libraries/i })).toBeVisible();
+    // v0.2 retired camera OCR and the PDF engine; their notices must have gone with them.
+    await expect(page.getByText(/tesseract/i)).toHaveCount(0);
+    await expect(page.getByText(/pdf\.js/i)).toHaveCount(0);
   });
 
   test('an unknown address is explained instead of left blank', async ({ page }) => {

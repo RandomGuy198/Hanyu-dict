@@ -1,91 +1,126 @@
 # Hanyu Dictionary
 
-A free, installable, offline-capable **Chinese (Mandarin) dictionary and study app** that runs
-entirely in your browser. It is built from open-licensed dictionary data plus content written for
-this project, ships as a Progressive Web App, and is designed to be published on GitHub Pages under
-any repository name.
+A free, installable, offline-first **Chinese (Mandarin) dictionary and study app** that runs entirely
+in your browser. Dictionary data is open-licensed; the reading library is written for this project. It
+ships as a Progressive Web App and is designed to publish on GitHub Pages under any repository name.
 
-**This is an independent application.** It is not a Hanzii client, port, clone, unlock, patch or
-wrapper, it is not affiliated with or approved by the makers of any commercial dictionary app, and
-it contains no code, assets, databases, layouts, audio or text taken from one. It was written
-clean-room against a *feature checklist* only: the names and counts of declared screens in a
-reference APK, never its internals. See [docs/PLAN_COMPLIANCE.md](docs/PLAN_COMPLIANCE.md) for the
-full boundary, and [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md) for the (original) data schema.
+**Version 0.2** added the textbook study side: a six-volume course shelf, an interactive page reader,
+a five-step guided lesson, stroke-order writing practice fed into the spaced-repetition scheduler, and
+Vietnamese definitions and Hán-Việt readings on every entry.
 
-Everything here costs nothing and nothing is locked: no account, no subscription, no entitlement
-flag, no trial counter, no ad slot, no telemetry, no "pro" tier. Every included feature is available
-to every user on every device that can load the site.
+**This is an independent application.** It is not a client, port, clone, unlock, patch or wrapper of
+any commercial dictionary app, is not affiliated with or approved by any of them, and contains no code,
+assets, databases, layouts, audio or text taken from one. It was written clean-room against a feature
+checklist only.
 
-## What is deliberately absent, and what the app does instead
+Everything here costs nothing and nothing is locked: no account of ours, no subscription, no
+entitlement flag, no trial counter, no ad slot, no telemetry, no "pro" tier.
 
-These capabilities from the commercial app this project was scoped against cannot be delivered by a
-static site, a third party's servers, or content this project has no rights to. They are **absent,
-not hidden, not stubbed and not "coming soon"**: there are no placeholder buttons and no simulated
-online behaviour anywhere in the UI.
+---
 
-| Not included | Why | What this app does instead |
+## Two repositories, and the line between them
+
+| | Public repository (this one) | Private study repository |
 | --- | --- | --- |
-| Accounts, sign-in, QR linking | Needs a server and a privacy/retention regime this project has not chosen | No account exists. State lives in IndexedDB on your device; `#/data` exports and imports it |
-| Automatic cross-device sync | Needs that same server | Versioned backup files you move yourself (JSON, size-capped, schema-validated, confirm-before-overwrite) |
-| Forums, chat, live voice, public rankings, PK | Require hosting, moderation, abuse controls and an operator | Device-local achievements, streaks and activity summaries, explicitly labelled as local (`#/progress`) |
-| Hosted AI explanation / grammar correction / translation / pronunciation scoring | Requires an API key in the client or a backend, both unacceptable here | Nothing. Dictionary glosses are labelled as glosses, never as "translation"; no model is called |
-| Human pronunciation audio | Every recording needs per-file redistribution rights; the reviewed open corpora did not clear at the coverage this app needs | Device speech synthesis through `SpeechSynthesis`, labelled in the UI as *synthetic*, with an honest "no Chinese voice installed on this device" state |
-| Android widgets, lock-screen vocabulary, screen overlay, background alarms | No general web equivalent | Installable PWA with a home-screen icon, manifest shortcuts, a share target, and a URL that carries a search (`#/search?q=`) |
-| Server-side OCR or translation | Data would leave the device | Tesseract OCR compiled to WebAssembly, run in a Worker, with opt-in model downloads and the byte cost shown first |
-| Push notifications | Cross-browser push needs a server | Nothing faked; reminders are out of scope for this release |
+| Contains | the app, the open data packs, the licence texts | page images, structured lesson text, lesson recordings and generated speech of the textbook you own, plus your own progress |
+| Served by | GitHub Pages | the GitHub Contents API of a repository **you** own |
+| Guarded by | `npm run legal:check`, before and after every build | a README notice stating it is a private study copy, not for redistribution |
 
-If a feature is missing, the screen says so in plain language rather than showing a dead control.
+The split is the whole legal position. Book-derived material never enters this repository, its history,
+or `dist/`; `scripts/legal/check-public-tree.mjs` fails the build on the first hit. Without a connected
+repository the app is a complete dictionary, flashcard and writing app that simply has no textbook to
+read - and it says so on screen instead of pretending otherwise.
 
-## Features, screen by screen
+## What the app does, screen by screen
 
-Routes are hash-based (`#/entry/...`), which is what makes deep links work on GitHub Pages without
-any server rewrite rule.
+Routes are hash-based (`#/entry/...`), which is what makes deep links work on GitHub Pages without any
+server rewrite rule. The five primary destinations are **Sách & Khóa học**, **Từ điển**, **Ôn tập**,
+**Tập viết** and **Sổ tay**.
 
 | Route | Screen | What it actually does |
 | --- | --- | --- |
-| `#/` | Dictionary home | Search box (Hanzi, pinyin with tone marks, tone numbers, no tones, `ü`/`v`), recent searches, daily goal summary, device-voice status, quick jumps |
+| `#/` | Home | Search box (Hanzi, pinyin with tone marks, tone numbers, no tones, `ü`/`v`, Vietnamese diacritics), recent searches, a character drawn from your own dictionary, device-voice status and quick jumps |
 | `#/search?q=` | Results | Ranked results (exact → prefix → meaning), match-type labels, coverage warnings when a pack is not installed, shareable URL |
-| `#/entry/:key` | Entry | Headword in both scripts, readings, glosses, example sentences when the examples pack is installed, save/list actions, character links |
-| `#/character/:char` | Character | Unihan readings (Mandarin, Cantonese), definition, radical + residual strokes, stroke count, simplified/traditional variant sets, stroke animation |
-| `#/writing` | Writing practice | Pointer-events (mouse/touch/stylus) tracing over the licensed median guides, per-stroke play/replay and speed, undo/clear, grid guides; strokes without guide data are drawn **unscored** rather than given a fake grade |
-| `#/library` | Library | Saved words, word lists, notebooks, categories, with cascade delete and duplicate handling |
-| `#/list/:id`, `#/notebook/:id` | List / notebook detail | Entries, search within, notes, add/remove, export of a single list |
-| `#/practice` | Practice hub | Deck choice, session configuration, due counts |
-| `#/flashcards` | Flashcards | The project's own interval-repetition scheduler (documented in `src/domain/scheduler.ts`), ratings, suspension, per-deck statistics |
-| `#/test`, `#/test/:id` | Assessments | Original question sets generated from licensed entries (`src/modules/learning/questionBank.ts`), listening/reading/writing drills, scoring and review; the screen states these are not official exam equivalents |
-| `#/progress` | Progress | Local activity, streak, achievement evaluation - all device-local |
-| `#/capture` | Camera & OCR | Explicit camera permission flow, image upload and typed-text fallbacks (denial never blocks you), crop/rotate, recognised text shown for correction before lookup, results into entries/lists; images stay in IndexedDB |
-| `#/reader` | Reader | Your own text or PDF (pdf.js, in a Worker) with tap-to-lookup annotation, simplified/traditional switching, deletion controls; large files do not block the main thread |
-| `#/learn`, `#/learn/:id` | Learn | Original tips, lessons, stories and articles written for this project (CC BY 4.0) |
-| `#/settings` | Settings | Script (simplified/traditional/both), pinyin style, theme, contrast, reduce motion, text scale, speech language and rate, daily goal |
-| `#/offline-data` | Offline data | Pack list with sizes, record counts, licences and coverage; install/uninstall with progress, storage usage, persistence request, and honest handling when the browser refuses |
+| `#/entry/:key` | Entry | Headword in both scripts, readings, **Vietnamese glosses above English**, Hán-Việt reading, Tatoeba examples with their sentence ids linked upstream, save/list actions, character links |
+| `#/character/:value` | Character | Unihan readings (Mandarin, Cantonese, Hán-Việt), definition, radical + residual strokes, stroke count, variant sets, stroke animation and tracing |
+| `#/books` | Book shelf | The six volumes with per-volume progress, the 76-lesson roadmap with five-step completion dots, and a "continue" card resolving your last bookmark |
+| `#/books/:bookId`, `#/books/:bookId/page/:n` | Reader | Page image / clean text / split views over the pages from your private repository, with percentage-positioned hotspots on every sentence and vocabulary row, a sticky audio bar (sentence stepping, speed, loop, original recording vs synthetic) and a word popover |
+| `#/courses/:bookId/:lessonId` | 5-step lesson | Từ mới → Bài khóa → Chú thích & Ngữ pháp → Luyện nhận biết (a 12-question auto-generated drill, ≥80 % to pass) → Tập viết chữ Hán. Each step seeds SRS cards, records progress and marks the sync state dirty |
+| `#/study` | Study hub | Due counts for recognition and writing cards per deck, start a review or a drill, or draw the due characters in the writing review panel that grades strokes into the scheduler |
+| `#/writing` | Writing practice | Pointer-events tracing over licensed median guides, per-stroke replay and speed, undo/clear, grid guides; characters without guide data are drawn **unscored** rather than given a fake grade |
+| `#/library`, `#/list/:id`, `#/notebook/:id` | Library | Saved words, word lists, notebooks and categories, with cascade delete and duplicate handling |
+| `#/flashcards` | Flashcards | The project's own interval-repetition scheduler (`src/domain/scheduler.ts`), ratings, suspension, per-deck statistics |
+| `#/test`, `#/test/:id` | Assessments | Question sets generated from licensed entries and from your own lists; the screen states these are not official exam equivalents |
+| `#/progress` | Progress | Local activity, streaks and achievement evaluation - all device-local |
+| `#/reader` | Reader | Your own Chinese text with tap-to-lookup annotation and simplified/traditional switching |
+| `#/learn/:id` | Reading library | Original tips, lessons, stories and articles written for this project (CC BY 4.0) |
+| `#/settings` | Settings | Script, pinyin style, theme, contrast, reduce motion, text scale, speech, daily goal, and the GitHub connection card that turns on the study repository |
 | `#/data` | Data | Export, import (validated, confirmed), storage statistics, clear-everything |
-| `#/about` | About | Provenance register, source versions and licence documents: it reads the same-origin files under `licenses/` (nothing third party is contacted) and falls back to naming the file in `public/licenses/` if a text is unavailable |
+| `#/about`, `#/licenses` | About | The provenance register with live pack versions and sizes, the ShareAlike duty, and every licence text read from this same origin |
 
-Search runs in a Web Worker against a prebuilt index; dictionary packs are verified by SHA-256 before
-installation and are stored separately from your own data, so updating content never erases progress.
+Retired screens keep their bookmarks alive by redirecting: `#/capture` → `#/reader`, `#/offline-data` →
+`#/settings`, `#/practice` → `#/study`, `#/learn` → `#/books`.
 
-## Browser and device support
+Search runs in a Web Worker against a prebuilt index; packs are verified by SHA-256 before installation,
+install themselves on first use and self-heal if part of one goes missing, and are stored separately
+from your own data, so updating content never erases progress.
 
-Capability-driven and stated conservatively. **No real-device verification has been performed for
-this repository yet** - the matrix below is what the code requires, not what has been measured.
+## Your own study repository, and how it is kept private
 
-| Platform | Expected status | Notes |
-| --- | --- | --- |
-| Desktop Chrome / Edge (current and previous major) | Full | Install prompt, offline after packs, OCR, PDF, writing, speech if a voice is installed |
-| Desktop Firefox (current and previous major) | Full except install-offline nuances | Service-worker/IndexedDB persistence behaves differently; the app requests persistence and reports the result |
-| Desktop Safari (macOS, current and previous major) | Full, with storage caveats | Safari can evict IndexedDB; the app says so rather than assuming it kept your data |
-| Android Chrome | Full | Install, share target, manifest shortcuts, camera OCR |
-| Android Firefox | Mostly full | Install support varies by version |
-| iOS / iPadOS Safari (17+) | Works with caveats | Manifest install supported since 16.4; background storage eviction is the real risk; speech needs a Chinese voice added in Settings |
-| Older browsers / text-only / no-JavaScript | Not supported | `index.html` explains that the app needs JavaScript and sends nothing anywhere |
+- A **fine-grained** personal access token is entered once per device on `#/settings`. Its scope should
+  be a single repository with *Contents: Read and write* and nothing else.
+- It is stored only in `localStorage['hanyu.gh.pat']` on that device, is never written to IndexedDB,
+  never appears in a URL, and is shown masked. "Forget token" removes it and the cached private data.
+- It is sent only as `Authorization: Bearer …` to `https://api.github.com`. The CSP says so and the
+  build enforces it: `connect-src 'self' https://api.github.com data: blob:`. There is no CDN, no
+  analytics host, no font host and no speech endpoint in the bundle.
+- Pulls use `If-None-Match`/ETag so unchanged files answer `304` and cost no API quota; pushes of
+  `sync/state.json` are debounced and, on a `409` conflict, merge remote and local state and retry.
+- Pages, lesson JSON and audio are cached in IndexedDB, so a downloaded lesson keeps working offline.
+  Images and audio are shown as `blob:` URLs, never as upstream URLs.
 
-Technically the app needs: ES2022 modules, dynamic `import()`, Web Workers, IndexedDB, Service
-Workers + Cache API, a Web App Manifest, Pointer Events, `navigator.storage.persist()`,
-`speechSynthesis`, and WebAssembly (with SIMD where available) for OCR. Accessibility targets are
-WCAG 2.2 AA for the primary flows: one `h1` per page, labelled inputs, visible focus, `aria-live`
-status, 44px targets, no colour-only meaning, reduced-motion support, readable at 200% zoom. A
-formal audit has not been run - treat the claim as intent plus implemented mechanics.
+## The open data
+
+`scripts/content/` is an auditable, build-time-only pipeline. Nothing in `src/` talks to a third-party
+server; the app fetches same-origin `public/data` and `public/licenses`, plus the GitHub API only when
+you connect a repository.
+
+```bash
+npm run data:fetch   # the ONLY step that touches the network (a maintainer machine)
+npm run data:build   # rebuild every pack + the licence texts from the cache
+npm run data:check   # the release gate; runs offline, no cache required
+```
+
+- Raw downloads never enter the repository: they land in `<repo>/../.cache/raw` (overridable with
+  `--cache <dir>` or `HANYU_CACHE`), which `.gitignore` keeps out of git.
+- Every source is pinned in `scripts/content/provenance.json` before use: upstream project, exact URL,
+  version or commit SHA, licence id and licence file, attribution text, ShareAlike duty, the
+  transformations applied, the checksum of each download, and which packs it produces. `data:fetch`
+  refuses a hash mismatch.
+- Generated packs are committed, so a fresh clone deploys with no data build and no network.
+
+Eight packs, 273,481 records, 57.6 MB (`npm run data:check` prints the current totals):
+
+| Pack | Source | Licence | Records | Installed by |
+| --- | --- | --- | --- | --- |
+| `dictionary-core` | CC-CEDICT (MDBG) merged with CVDICT and Unihan `kVietnamese` | CC BY-SA 4.0 | 125,365 entries, 115,382 with Vietnamese glosses, 121,391 with Hán-Việt readings | required, automatic |
+| `characters` | Unicode Unihan 16.0.0 | Unicode License v3 | 98,682 characters | required, automatic |
+| `strokes` | Make Me a Hanzi via hanzi-writer-data | Arphic Public License 1999 | 9,574 characters | optional |
+| `examples` | Tatoeba `cmn`/`eng` export | CC BY 2.0 FR | 39,806 sentence pairs over 20,011 headwords | optional |
+| `content-tips`, `content-lessons`, `content-stories`, `content-articles` | written for this project | CC BY 4.0 | 30 / 12 / 8 / 4 | required, automatic |
+
+The textbook course material is **not** in this table and **not** in this repository. Its shape - the
+page images, `books/<id>/lessons/l<NN>.json`, `audio/…` and `sync/state.json` - is documented in
+[docs/DATA_FORMAT.md](docs/DATA_FORMAT.md) and validated at runtime by the same Zod schemas the app
+uses, so a malformed file is treated as absent rather than half-trusted.
+
+## Private-repo pipelines
+
+The generators live with the data they produce, in the private repository under `tools/`:
+`build_books.py` (page rendering and lesson extraction), `encode_lesson_audio.py` and
+`align_lesson_audio.py` (re-encode the recordings you own and time them to sentences), `generate_tts.py`
+(optional synthetic speech; see [scripts/tts/README.md](scripts/tts/README.md) for the rules it keeps)
+and `verify_private_repo.py --all` (the gate that re-counts pages, lessons, records and sizes).
 
 ## Quick start
 
@@ -94,270 +129,166 @@ npm ci          # installs exactly what package-lock.json pins (Node 20 is what 
 npm run dev     # Vite dev server on http://localhost:5173
 ```
 
-The dev server serves the committed packs in `public/data`, so the dictionary works on a fresh
-clone with **no data build and no network fetch of upstream sources**. Useful commands:
+The dev server serves the committed packs in `public/data`, so the dictionary works on a fresh clone
+with no data build and no upstream fetch. For the textbook screens in development, the private
+repository can be served from a local bridge instead of GitHub.
 
 ```bash
-npm run typecheck      # tsc --noEmit (strict)
-npm test               # vitest run (unit + jsdom)
-npm run test:watch     # vitest in watch mode
-npm run build:only     # production build into dist/ (base './', CSP meta injected)
-npm run build          # data:check -> typecheck -> vitest -> vite build (the full chain)
-npm run preview        # serve dist/ locally
-npm run lint           # eslint . over src, tests, scripts and the root configs
+npm run typecheck          # tsc --noEmit (strict; also covers tests/)
+npm test                   # vitest run (unit + jsdom)
+npm run lint               # eslint . over src, tests, scripts and the root configs
+npm run legal:check        # the public-tree guard over the tracked tree (+ dist/ if present)
 npm run licenses:runtime   # regenerate public/licenses/RUNTIME_NOTICES.md from node_modules
-npm run pages:sync     # copy dist/ -> site/ for branch-based Pages
+npm run licenses:runtime:check
+npm run build              # data:check -> legal:check -> typecheck -> vitest -> vite build -> legal:check
+npm run build:only         # vite build into dist/ (base './', CSP meta injected)
+npm run preview            # serve dist/ locally
+npm run test:e2e           # playwright against a production build on 127.0.0.1:4173
 ```
-
-## The data pipeline
-
-`scripts/content/` is an auditable, build-time-only pipeline. Nothing in `src/` talks to a third
-party server; the app only ever fetches same-origin `public/data` and `public/licenses`.
-
-```bash
-npm run data:fetch   # the ONLY step that touches the network
-npm run data:build   # rebuild every pack + the licence texts from the cache
-npm run data:check   # the release gate; runs offline, no cache required
-```
-
-- **Raw downloads never enter the repository.** They go to the cache directory *outside* it:
-  `<repo>/../.cache/raw` by default, overridable with `--cache <dir>` or `HANYU_CACHE`. `.gitignore`
-  covers `.cache/`, and CI asserts that no ignored cache path is tracked.
-- **Every source is pinned before use** in `scripts/content/provenance.json`: upstream project, exact
-  URL, version/date, licence id + licence file, attribution text, ShareAlike duty, the transformations
-  applied, the original checksum of each download, and which packs it produces. `data:fetch` refuses a
-  hash mismatch; deliberate re-pinning needs `--pin` and changes that file for review.
-- **Generated packs are committed** (`public/data/`, `public/licenses/`) so a fresh clone deploys and a
-  PR can be reviewed as the real artifact. Shards are deterministic (`SOURCE_DATE_EPOCH` honoured).
-- **`npm run data:check` is the legal gate.** It verifies that every file listed in
-  `public/data/manifest.json` exists with the recorded SHA-256 and byte count, that no unlisted file
-  hides in a pack directory, that each licence text exists and matches its pinned hash, that
-  `THIRD_PARTY_NOTICES.md` names every source, that `RUNTIME_NOTICES.md` still matches the installed
-  dependency tree, that the opt-in OCR manifest matches its models, that
-  the pack registry satisfies the same Zod rules the runtime applies, and it runs a clean-room scan of
-  `src/`, `public/` and `scripts/` for reference-app material - CI applies the same deny patterns to
-  every path git tracks, so documentation and the workflows are covered too. It re-verifies the raw
-  cache only when that cache happens to be present.
-
-Committed content, regenerated by `npm run data:build` and verified by `npm run data:check` -
-8 packs, 273,481 records, 50.3 MB:
-
-| Pack | Source | Licence | Records | Installed by |
-| --- | --- | --- | --- | --- |
-| `dictionary-core` | CC-CEDICT (MDBG) | CC BY-SA 4.0 | 125,365 words | required, automatic |
-| `characters` | Unicode Unihan 16.0.0 | Unicode License v3 | 98,682 characters | required, automatic |
-| `strokes` | Make Me a Hanzi via hanzi-writer-data | Arphic Public License 1999 | 9,574 characters | optional |
-| `examples` | Tatoeba `cmn`/`eng` export | CC BY 2.0 FR | 39,806 sentence pairs over 20,011 headwords | optional |
-| `content-tips`, `content-lessons`, `content-stories`, `content-articles` | written for this project | CC BY 4.0 | 30 / 12 / 8 / 4 | required, automatic |
-| OCR models (`chi_sim`, `eng`) + tesseract core | tesseract-ocr/tessdata_fast, tesseract.js | Apache-2.0 | - | opt-in, size shown first |
 
 ## Licences and attribution
 
-Three licence layers apply, and none of them overrides another:
+Three licence layers apply, and none overrides another:
 
 | Layer | Licence | Where it is written down |
 | --- | --- | --- |
-| Application code (`src/`, `scripts/`, `tests/`, configs, this README) | MIT | [`LICENSE`](LICENSE) at the repository root |
-| Data packs the app ships | per source: CC BY-SA 4.0, Unicode License v3, Arphic Public License 1999, CC BY 2.0 FR, CC BY 4.0 | `public/licenses/THIRD_PARTY_NOTICES.md` + the texts in `public/licenses/*.txt` |
+| Application code (`src/`, `scripts/`, `tests/`, configs, this README) | MIT | [`LICENSE`](LICENSE) |
+| Data packs this repository ships | per source: CC BY-SA 4.0, Unicode License v3, Arphic Public License 1999, CC BY 2.0 FR, CC BY 4.0 | [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) (pointer) and `public/licenses/THIRD_PARTY_NOTICES.md` (the generated, version-pinned notice) + the texts in `public/licenses/*.txt` |
 | Third-party runtime code bundled into the build | MIT, Apache-2.0, BSD-2-Clause, package by package | `public/licenses/RUNTIME_NOTICES.md`, generated from the installed dependency tree |
 
-Licensing the code MIT does **not** relicense the data: CC-CEDICT is ShareAlike, so the derived
-`dictionary-core` pack is distributed under CC BY-SA 4.0, and this project's own reading content is
-CC BY 4.0. Anyone who reuses only the source under MIT takes no rights to the packs.
+**Share-alike:** dictionary packs in this app are adapted from CC-CEDICT and CVDICT and are distributed
+under CC BY-SA 4.0. Licensing the code MIT does not relicense the data, and anyone reusing only the
+source takes no rights to the packs.
 
-The app must be usable offline *with* its credits, so attribution is shipped as data, not prose:
+Attribution is shipped as data, not prose, so the app can be used offline *with* its credits:
+`public/licenses/` holds the generated notices and every full licence text, `npm run data:check` fails
+if a provenance entry, licence text or runtime notice drifts from what is actually installed, and the
+About screen (`#/about`, also reachable at `#/licenses`) renders them from the same origin.
 
-- `public/licenses/THIRD_PARTY_NOTICES.md` - generated notice for every data source, with versions,
-  modification notes and ShareAlike duties.
-- `public/licenses/RUNTIME_NOTICES.md` - generated, version by version, for every production
-  dependency plus the Workbox modules copied into the service worker: each MIT/BSD text reproduced
-  verbatim, each Apache-2.0 package with its upstream `NOTICE` file verbatim (Dexie's included).
-  Refresh with `npm run licenses:runtime`; `npm run data:check` fails if it no longer matches
-  `npm ci`'s tree, so a dependency bump cannot leave a stale notice behind.
-- `public/licenses/*.txt` - the full licence texts (CC BY-SA 4.0, CC BY 4.0, CC BY 2.0 FR, Unicode
-  License v3, Arphic Public License, Apache-2.0, MIT).
-- `scripts/content/provenance.json` - the machine-readable register CI checks against.
-- In-app: the About screen (`#/about`) renders the same notices, reading the licence texts from this
-  same origin (`licenses/*.txt`) so they are available offline. A text that is not reachable is
-  reported as unavailable on screen rather than silently replaced with a summary.
+One honest gap: Tatoeba's pinned per-language exports publish `id`, `lang` and `text` only - the dumps
+that name contributors are multi-GB and deliberately not vendored - so the author segment of every
+`sourceRef` is the literal `unknown`. Each sentence keeps its id and the entry screen links it to
+`https://tatoeba.org/en/sentences/show/<id>`, where the contributor is named.
 
-One honest attribution note: Tatoeba contributor usernames are not in the pinned per-language
-exports (they live in multi-GB dumps this project deliberately does not vendor), so the author field
-of every `sourceRef` is the literal `unknown` and an offline build cannot name the author itself.
-Each sentence keeps its Tatoeba id, and the entry screen links it to
-`https://tatoeba.org/en/sentences/show/<id>` - the page where the contributor is named. See
-`attributionGap` in `scripts/content/provenance.json`.
-
-`.gitattributes` pins `eol=lf` for the whole tree. That is not cosmetics: the pack installer verifies
-each downloaded shard against a SHA-256 in `data/manifest.json`, so a clone that silently converted
-LF to CRLF on commit would publish shards whose bytes no longer match their recorded hashes and every
-install would fail.
+`.gitattributes` pins `eol=lf` for the whole tree: the pack installer verifies each downloaded shard
+against a SHA-256, so a clone that silently converted LF to CRLF would publish shards that no longer
+match their recorded hashes and every install would fail.
 
 ## Tests
 
-```bash
-npm test           # vitest run - unit tests for pinyin, ranking, scheduler, schema, db, packs
-npm run test:e2e   # playwright test
-```
-
-Status, stated plainly.
-
-- **Unit tests exist and pass.** `npm test` reports 259 passing cases across 9 suites (pinyin
-  normalisation, search ranking, scheduler, pack schema, backup export/import, content-pack shape,
-  IndexedDB via fake-indexeddb).
-- **End-to-end tests run and pass on Chromium.** `npm run test:e2e` builds the production bundle,
-  serves it with `vite preview` on `127.0.0.1:4173` and executes 9 specs
-  (`tests/e2e/app-shell.spec.ts`, `tests/e2e/dictionary-flow.spec.ts`): same-origin asset/CSP/manifest
-  assertions, first-run pack install, the offline-data pack table, the licence pages, the 404 screen,
-  search by Hanzi / toneless pinyin / English, entry → save → library, search with the network off,
-  and the character page's honest "not recorded" state. That is one browser at one desktop width;
-  Firefox, WebKit and phone widths have not been run, and the camera-denial, no-voice and storage-quota
-  paths are still not encoded. Prerequisite: `npx playwright install chromium` (the config does not
-  download browsers).
-- One caveat worth repeating: `vitest` transpiles and does **not** typecheck its own suite, so a green
-  `npm test` says nothing about the types inside `tests/**`. `npm run typecheck` covers them, because
-  `tsconfig.json` includes `tests`.
+- **Unit tests pass.** `npm test` runs 304 cases across 15 suites: pinyin normalisation and tone
+  sandhi, search ranking (including Vietnamese folding), the SRS scheduler, pack and lesson schemas,
+  backup export/import, pack self-healing, the sync engine, the audio client, the course drill
+  generator, the five-step lesson screens and the writing-review grading path.
+- **End-to-end tests build the production bundle and drive it** (`npm run test:e2e` runs
+  `vite preview` on `127.0.0.1:4173`): same-origin asset/CSP/manifest assertions, first-run pack
+  install, the five-tab shell, retired-route redirects, the licence pages, the 404 screen, search by
+  Hanzi / toneless pinyin / English, entry → save → library, search with the network off, and the
+  character page's honest "not recorded" state. Prerequisite: `npx playwright install chromium`.
+  Chromium only, one desktop width; Firefox, WebKit and phone widths are not run, and no CI workflow
+  executes them.
+- `vitest` transpiles and does **not** typecheck its own suite, so a green `npm test` says nothing
+  about the types inside `tests/**`. `npm run typecheck` covers them, because `tsconfig.json`
+  includes `tests`.
 
 ## Quality gates and CI
 
-`.github/workflows/ci.yml` runs, on a pull request or a push to the default branch, on Node 20:
+`.github/workflows/ci.yml` runs on a pull request or a push to the default branch, on Node 20:
+`npm ci` → a clean-room assertion over git's index (no `.apk`, `.dex`, `Modded/`, `.cache/`, planning
+documents, `.env`, keys or tracked `node_modules`) → `npm run data:check` → `npm run legal:check` →
+`npm run typecheck` → `npm test` → `npm run lint` (`eslint . --max-warnings 0`) → `npm run build:only`
+→ the artifact-completeness assertion → `dist/` uploaded for inspection. Each gate is the project's own
+script, and a step that cannot run reports itself as `NOT RUN` rather than pretending to pass.
 
-`npm ci` → clean-room assertion (git index must contain no `*.apk`, `*.apk.xz`, `*.dex`,
-uncompressed `*.traineddata`, `.cache/`, `Modded/`, `jadx`/`smali`/`decompiled` output, reference
-planning documents, `.env`, `*.key`, `*.pem` or tracked `node_modules`) → `npm run data:check` →
-`npm run typecheck` → `npm test` → `npm run lint` → `npm run build:only` → a build-completeness
-assertion → `dist/` uploaded as an artifact for inspection. npm is cached via
-`actions/setup-node`.
-
-**Lint runs and is clean.** `eslint.config.js` is a flat config (TypeScript + React + react-hooks) and
-the toolchain - `eslint`, `@eslint/js`, `typescript-eslint`, `eslint-plugin-react`,
-`eslint-plugin-react-hooks`, `globals` - is declared in `devDependencies`, so `npm ci` gives you a
-working `npm run lint`. `npx eslint . --max-warnings 0` currently reports **0 errors and 0 warnings**;
-three `react-hooks/exhaustive-deps` cases are silenced inline because `voiceTick` and `restartAt` are
-deliberate invalidation signals rather than inputs to the memo, and the rule cannot see that.
-`eslint.config.js` skips `dist/`, the committed `site/` artifact, `public/` (generated packs and
-licence texts) and the raw cache - those are build output, not source.
-
-The unit-test step uses the same honesty rule: it runs `npm test` whenever any `*.test.ts(x)` file is
-tracked, and warns `NOT RUN` when none is. A gate that can run always fails the job when it fails;
-warnings do not.
+`.github/workflows/deploy.yml` is the Pages publisher; see below.
 
 ## Publishing to GitHub Pages
 
 `base: './'` in `vite.config.ts` means the build works under **any** repository name
-(`https://<user>.github.io/<repo>/`): every emitted URL is relative (`./assets/...`,
-`./manifest.webmanifest`, `./data/manifest.json`). Nothing needs to be renamed if you do not call the
-repository `hanyu-web`. There are no secrets in either workflow - no tokens are stored, and CI never
-downloads an upstream data source, because the generated packs are committed.
+(`https://<user>.github.io/<repo>/`): every emitted URL is relative. There are no secrets in either
+workflow, and CI never downloads an upstream data source because the generated packs are committed.
 
-The repository is not initialised as a git repository yet. To publish:
+The default shape is **build in CI, deploy `dist/`**: push to `main`, and `deploy.yml` runs the
+provenance gate, `legal:check`, typecheck, tests, `npm run build:only`, the artifact completeness gate,
+then `actions/configure-pages` → `upload-pages-artifact` → `deploy-pages`. Set Settings → Pages →
+Source: **GitHub Actions** once. (The committed `site/` folder and `npm run pages:sync` were retired in
+v0.2; Pages cannot send headers, which is why the CSP is injected as a `<meta http-equiv>`.)
 
-```bash
-git init -b main
-git add .
-git commit -m "Hanyu Dictionary: clean-room dictionary PWA"
-# then create the (empty) repository on GitHub and:
-git remote add origin https://github.com/<user>/<repo>.git
-git push -u origin main
-```
-
-**Shape (a) - build in CI, deploy `dist/` (default, recommended).**
-Push to `main`; `.github/workflows/deploy.yml` runs the provenance gate, typecheck, tests when
-present, `npm run build:only`, the artifact completeness gate, then
-`actions/configure-pages` → `actions/upload-pages-artifact` → `actions/deploy-pages`.
-Set Settings → Pages → Source: **GitHub Actions** once. The job declares
-`permissions: { pages: write, id-token: write }` and exposes the deployment as a `github-pages`
-environment, which is where the live URL comes from.
-
-**Shape (b) - publish a committed static folder.**
-`npm run build:only` then `npm run pages:sync` writes `site/` (byte-for-byte copy of `dist/`, plus
-`.nojekyll`, stale files pruned, incomplete builds refused) - commit `site/`, then run *Deploy GitHub
-Pages* manually with `pages_source: committed-folder`, `pages_folder: site`. Pages stays on Source:
-GitHub Actions for that job to deploy. `docs/` is selectable but discouraged: it holds this project's
-design documents, and publishing it makes them part of the site. `site/` is currently populated in
-this folder (227 files, 64.2 MB), so shape (b) needs no build before the first upload.
-
-**Shape (c) - branch-based Pages.**
-In Settings → Pages choose **Deploy from a branch** → `main` → `/site (root)` and GitHub publishes on
-push with no workflow. Then disable the automatic `push` trigger of `deploy.yml` (or the default-branch
-build will fail at `configure-pages`, because the repository setting and the workflow disagree about
-who publishes). Run the workflow manually with `pages_source: verify-committed-folder` to prove the
-committed folder is a complete PWA - that mode deploys nothing.
-
-Whichever shape you choose, publishing stops if the artifact is missing `index.html`,
-`manifest.webmanifest`, `sw.js`, `data/manifest.json`, the core pack shards,
-`licenses/THIRD_PARTY_NOTICES.md` or `licenses/RUNTIME_NOTICES.md`, if the CSP meta tag was not injected, if any URL emitted into
-`index.html` does not exist, or if the JSON does not parse. A Pages deploy of a PWA without its
-manifest is otherwise invisible: it installs, registers a service worker, and simply never loads a
-dictionary.
+Publishing stops if the artifact is missing `index.html`, `manifest.webmanifest`, `sw.js`,
+`data/manifest.json`, the core pack shards, `licenses/THIRD_PARTY_NOTICES.md` or
+`licenses/RUNTIME_NOTICES.md`, if the CSP meta tag was not injected, if any URL emitted into
+`index.html` does not exist, or if the JSON does not parse.
 
 After the first deploy, verify on the published HTTPS URL: install prompt, offline reload, a deep link
-(`#/entry/...`), pack download in `#/offline-data`, OCR model opt-in, and the licence pages. Tag a
-release only after you have done that on a real phone.
+(`#/entry/...`), pack install on first use, and the licence pages. Tag a release only after trying it on
+a real phone.
 
 ## Repository layout
 
 ```
-LICENSE            MIT, application code only (the data and the libraries keep their own terms)
-.gitattributes     pins eol=lf so committed pack shards keep their recorded SHA-256 bytes
-.github/workflows/ CI (ci.yml) and Pages deployment (deploy.yml)
-docs/                APP_CONTRACT.md (module boundaries), DATA_FORMAT.md (pack schema),
-                     PLAN_COMPLIANCE.md (phase-by-phase status vs. the implementation plan)
-public/data/         generated, committed content packs + pack registry
-public/licenses/     generated third-party notices, runtime notices and full licence texts
+LICENSE                     MIT, application code only (data and libraries keep their own terms)
+THIRD_PARTY_NOTICES.md      pointer to the generated, version-pinned notices
+.gitattributes              pins eol=lf so committed pack shards keep their recorded SHA-256 bytes
+.github/workflows/          CI (ci.yml) and Pages deployment (deploy.yml)
+docs/                       APP_CONTRACT.md (module boundaries), DATA_FORMAT.md (pack + private-repo schema),
+                            PLAN_COMPLIANCE.md (status against the implementation plan)
+public/data/                generated, committed content packs + the pack registry
+public/licenses/            generated notices, runtime notices and the full licence texts
 public/manifest.webmanifest, public/icons/, public/share-target/
-scripts/content/     the build-time data pipeline (fetch, build, check) and original content
-scripts/collect-runtime-licenses.mjs  regenerates public/licenses/RUNTIME_NOTICES.md
-src/app/             shell, providers, routing, error boundary, icons
-src/components/      shared UI vocabulary
-src/data/            Dexie tables, pack installation, dictionary API, speech, backup
-src/domain/          pure logic: pinyin, search index/ranking, scheduler, achievements
-src/modules/         one folder per feature area (dictionary, characters, library, learning,
-                     capture, reading, content, profile)
-src/styles/          design tokens and component styles
-src/workers/         the search worker
-tests/               vitest suites (unit) and the jsdom setup
+scripts/content/            the build-time data pipeline (fetch, build, check) and original content
+scripts/legal/              check-public-tree.mjs + allowlist.json - the public-tree guard
+scripts/tts/                README only: how a reader generates speech locally, and why it stays private
+scripts/collect-runtime-licenses.mjs   regenerates public/licenses/RUNTIME_NOTICES.md
+src/app/                    shell, providers, routing, error boundary, icons
+src/components/             shared UI vocabulary
+src/data/                   Dexie tables, pack installation and self-healing, the dictionary API,
+                            the GitHub client, private-data resolution, the sync engine, audio, backup
+src/domain/                 pure logic: pinyin, search index and ranking, scheduler, achievements
+src/modules/                one folder per feature area (dictionary, characters, books, learning,
+                            library, reading, content, profile)
+src/styles/                 design tokens and component styles
+src/workers/                the search worker
+tests/                      vitest suites (unit + fixtures) and the Playwright specs (e2e)
 ```
 
-Planning and legal documents (`IMPLEMENTATION_PLAN.md`, `DATA_SOURCES.md`,
-`FEATURE_INVENTORY.md`) and the reference APKs live **outside** this repository, in `../Modded` and
-`..`, and CI fails if any of them appears in git.
+Planning and legal documents for the release (`Modded/v0.2/…`) and the reference material live
+**outside** this repository, and CI fails if any of them appears in git.
 
 ## Known gaps at the time of writing
 
-This section exists so nobody has to guess whether the claims above are aspirational. Re-run these
-commands to get the live answer; the numbers below are a snapshot, not a permanent state:
+The numbers below are a snapshot. Re-run the commands to get the live answer.
 
 | Area | State | How to re-check |
 | --- | --- | --- |
-| Unit tests | 9 suites, 259 cases passing | `npm test` |
-| Typecheck | Clean under `strict` + `noUnusedLocals`, and it covers `tests/**` | `npm run typecheck` |
-| End-to-end tests | 9 specs pass on Chromium at one desktop width (`npx playwright test`, recorded 2026-11-05). Firefox, WebKit and phone/tablet widths have not been run; no CI workflow executes them, because headless browsers are not installed in the runner | `npx playwright install chromium && npm run test:e2e` |
-| Lint | Toolchain installed, config in place, `npx eslint . --max-warnings 0` reports nothing | `npm run lint` |
-| Real-device testing | None. Nothing in this repository has been loaded on a phone or tablet | install the built site and try it |
-| IDS component decomposition, human pronunciation audio | Not shipped - documented data/rights gaps, not oversights | docs/PLAN_COMPLIANCE.md |
-| Track B (accounts, sync, forums, hosted AI) | Out of scope by design; no server exists | README section above |
-| Storage eviction | The app requests persistence and reports the answer, but iOS/Safari can still evict IndexedDB; unverified on real hardware | `#/offline-data` |
+| Unit tests | 15 suites, 304 cases passing | `npm test` |
+| Typecheck | Clean under `strict` + `noUnusedLocals`, covers `tests/**` | `npm run typecheck` |
+| Lint | `npx eslint . --max-warnings 0` reports nothing | `npm run lint` |
+| Legal guard | `legal:check` OK over the tracked tree and a fresh `dist/` | `npm run legal:check` |
+| Runtime notices | match the installed dependency tree | `npm run licenses:runtime:check` |
+| End-to-end | Chromium at one desktop width; Firefox/WebKit/phone widths never run, no CI execution | `npx playwright install chromium && npm run test:e2e` |
+| Real-device testing | None recorded in this repository. Nothing has been verified on a phone or tablet by the maintainers | install the built site and try it |
+| IDS component decomposition | Not shipped - the upstream file is LGPL and that model was not accepted; the gap is stated in the app | docs/PLAN_COMPLIANCE.md |
+| Sync debounce | Writes are debounced at 3 s rather than the ≥30 s the cost register suggests; still orders of magnitude inside the 5,000 req/h allowance because ETag `304`s cost nothing | `src/data/syncEngine.ts` |
 
 ## Contributing and quality
 
-- Read [docs/APP_CONTRACT.md](docs/APP_CONTRACT.md) before touching a screen: it fixes what a module
-  may import, the route list, and the rules every screen follows (honest states, everything free,
-  local by default, accessibility, tokens only).
-- Keep the boundary. Do not add a network call that leaves the device, a locked tier, a fake "online"
-  control, or anything derived from a proprietary app. If a feature needs a server, it is Track B and
-  needs its own design and approval - see docs/PLAN_COMPLIANCE.md.
+- Read [docs/APP_CONTRACT.md](docs/APP_CONTRACT.md) before touching a screen: it fixes what a module may
+  import, the route list, and the rules every screen follows (honest states, everything free, local by
+  default, accessibility, tokens only).
+- Keep the boundary. Do not add a network call that leaves the device except the GitHub API, do not add
+  a locked tier or a fake "online" control, and never add book-derived text, images or audio to this
+  repository - the guard exists to make that unmissable.
 - New data source? Add a full provenance entry (URL, version, checksum, licence, attribution,
   transformations) *before* processing it, ship the licence text in `public/licenses/`, and make
   `npm run data:check` pass. A source with unclear rights stays rejected.
-- Before opening a pull request: `npm run typecheck`, `npm test`, `npm run data:check`,
-  `npm run build:only`. CI runs the same gates and its summary states which gates did not execute.
+- Before opening a pull request: `npm run typecheck`, `npm test`, `npm run lint`,
+  `npm run legal:check`, `npm run build`. CI runs the same gates.
 - Prefer deleting a feature to faking it.
 
 ## Licence
 
-Application code: MIT (see `package.json`). Data: each pack keeps its own licence - CC BY-SA 4.0 for
-the dictionary, Unicode License v3 for character metadata, Arphic Public License for stroke
-outlines, CC BY 2.0 FR for example sentences, CC BY 4.0 for the project's own lessons and articles,
+Application code: MIT (see [`LICENSE`](LICENSE)). Data: each pack keeps its own licence - CC BY-SA 4.0
+for the dictionary, Unicode License v3 for character metadata, the Arphic Public License for stroke
+outlines, CC BY 2.0 FR for example sentences, CC BY 4.0 for this project's own lessons and articles,
 Apache-2.0/MIT for bundled runtime components. `public/licenses/THIRD_PARTY_NOTICES.md` is the
-authoritative list and is generated; do not hand-edit it.
+authoritative list, is generated, and must not be hand-edited.

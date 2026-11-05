@@ -25,6 +25,15 @@
   margin: 0;
 }
 
+/* The CC BY-SA duty is a legal statement, so it is set apart from the surrounding help text. */
+.prof-sharealike {
+  margin: 0;
+  padding: var(--sp-2);
+  border-left: 3px solid var(--ok-600);
+  background: var(--bg-raised);
+  font-size: var(--fs-sm);
+}
+
 .prof-block-label {
   font-size: var(--fs-sm);
   font-weight: 600;

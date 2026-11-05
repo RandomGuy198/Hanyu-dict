@@ -14,8 +14,8 @@
 #    without a data build. CI therefore verifies the committed packs offline:
 #      * `npm run data:check` (scripts/content/check-provenance.mjs) re-hashes every file listed in
 #        `public/data/manifest.json`, checks licence texts + THIRD_PARTY_NOTICES.md + RUNTIME_NOTICES.md
-#        (re-derived from the tree `npm ci` just installed), the opt-in OCR
-#        manifest, and runs its own clean-room scan of `src/`, `public/` and `scripts/`. It prints
+#        (re-derived from the tree `npm ci` just installed), and runs its own clean-room scan of
+#        `src/`, `public/` and `scripts/`. It prints
 #        "raw cache ... is absent (expected in CI)" and continues, because pack hashes - not the
 #        upstream downloads - are what the shipped site depends on.
 #    To regenerate the data after an upstream release, run locally (network required):
@@ -104,8 +104,8 @@ jobs:
             '\.apk\.[a-z0-9]+$'          # e.g. base_1.apk.xz
             '\.dex$'                     # Dalvik bytecode, only ever extracted from an APK
             '\.traineddata$'             # uncompressed OCR model = raw cache artifact.
-                                         # public/data/ocr/lang/*.traineddata.gz is the *generated*,
-                                         # Apache-2.0-licensed pack file and stays allowed.
+                                         # v0.2 retired camera OCR, so no traineddata of any
+                                         # compression belongs in this tree any more.
             '(^|/)Modded/'               # the analysis directory (lives outside this repo by design)
             '(^|/)\.cache/'              # raw upstream downloads
             'jadx|smali|decompiled|apktool'
