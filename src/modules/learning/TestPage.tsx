@@ -7,7 +7,8 @@ import { Link, useParams } from 'react-router-dom';
 import { uid, formatDate } from '../../app/hooks';
 import { IconAlert, IconChevronLeft, IconCheck, IconSpeaker, IconStar } from '../../app/icons';
 import { useDictionary, usePreferences, useToast } from '../../app/providers';
-import { inspectSpeech, onVoicesChanged, speak } from '../../data/speech';
+import { playWordAudio } from '../../data/audioPlayer';
+import { inspectSpeech, onVoicesChanged } from '../../data/speech';
 import { db } from '../../data/db';
 import type { SourceRef } from './learningStore';
 import { closeSession, discardRun, persistAnswer } from './learningStore';
@@ -286,7 +287,7 @@ export default function TestPage() {
         <div className="notice notice-danger" role="alert">
           <span>
             These questions could not be generated. Nothing of yours was changed — the dictionary
-            data may need reloading from the offline-data screen.
+            data may need reloading.
           </span>
         </div>
       ) : null}
@@ -303,12 +304,12 @@ export default function TestPage() {
               ? 'Every question in this set is generated from the licensed dictionary lines, and that data pack is not installed here yet — so there is nothing to write questions from. Install it and this page builds the same set again, with the same seed.'
               : fromOwnData
                 ? 'A multiple-choice item needs four different real words to choose between, and this device does not have enough of your own words for it yet. Save a few more from an entry, then come back.'
-                : 'The dictionary lines on this device did not produce four distinct options for these items. Reinstall the dictionary pack, then try again.'
+                : 'The dictionary lines on this device did not produce four distinct options for these items. Reload the dictionary pack, then try again.'
           }
           action={
             built?.blocked === 'dictionary' ? (
-              <Link to="/offline-data" className="btn btn-primary">
-                Install the dictionary data
+              <Link to="/settings" className="btn btn-primary">
+                Open settings
               </Link>
             ) : (
               <Link to={fromOwnData ? '/library' : '/test'} className="btn btn-primary">
@@ -795,6 +796,6 @@ function wordPoolOf(question: TestQuestion): TestSpec['pool'] {
 }
 
 async function playSpoken(text: string, lang: string, rate: number, toast: ReturnType<typeof useToast>) {
-  const result = await speak(text, { lang, rate });
+  const result = await playWordAudio(text, undefined, undefined, { lang, rate });
   if (!result.ok) toast.push({ message: result.reason ?? 'No audio available on this device.', tone: 'warn' });
 }

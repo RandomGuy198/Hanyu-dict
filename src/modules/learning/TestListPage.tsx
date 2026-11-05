@@ -172,7 +172,7 @@ export default function TestListPage() {
       <PageHeader
         title="Practice tests"
         subtitle="Multiple-choice sets built from the dictionary data installed here and from your own words."
-        back={{ label: 'Practice', to: '/practice' }}
+        back={{ label: 'Study', to: '/study' }}
       />
 
       <div className="notice notice-info" role="note">
@@ -301,7 +301,7 @@ export default function TestListPage() {
       ) : null}
 
       <div className="row-wrap">
-        <Link to="/practice" className="btn">
+        <Link to="/study" className="btn">
           <IconCards /> Flashcards and drills
         </Link>
         <Link to="/library" className="btn btn-ghost">
@@ -412,7 +412,7 @@ function TestCard({ entry, pinned }: { entry: Entry; pinned: boolean }) {
           </span>
           {ownData ? (
             <Link
-              to={spec.pool === 'cards' ? '/practice' : '/library'}
+              to={spec.pool === 'cards' ? '/study' : '/library'}
               className="btn btn-ghost"
             >
               {spec.pool === 'cards'
@@ -420,8 +420,8 @@ function TestCard({ entry, pinned }: { entry: Entry; pinned: boolean }) {
                 : 'Save words and lists to build this set'}
             </Link>
           ) : (
-            <Link to="/offline-data" className="btn btn-ghost">
-              Install the dictionary data
+            <Link to="/settings" className="btn btn-ghost">
+              Open settings
             </Link>
           )}
         </div>

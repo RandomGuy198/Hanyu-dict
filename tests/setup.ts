@@ -90,6 +90,7 @@ const noisePatterns: RegExp[] = [
   // React 18's act() advice is printed through console.error; our component tests settle
   // updates with `await` / findBy queries, so a stray warning here is worth failing on anyway.
   /not wrapped in act\(\)/,
+  /React Router Future Flag Warning/,
 ];
 
 /** Let a test declare console output it deliberately provoked. */

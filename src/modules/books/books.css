@@ -1,4 +1,4 @@
-/* Shelf, reader and course screens (`src/modules/books/`). */
+/* Shelf, reader, word popover, audio bar and course screens (`src/modules/books/`). */
 
 .books-page .card,
 .books-reader .card,
@@ -6,12 +6,14 @@
   padding: var(--sp-4);
 }
 
+/* Connection & Continue cards */
 .books-connection-body {
   display: flex;
   gap: var(--sp-4);
   align-items: flex-start;
 }
 
+.books-connection-body > span > svg,
 .books-connection-body > svg {
   flex: none;
   width: 2.25rem;
@@ -24,10 +26,24 @@
   font-size: var(--fs-lg);
 }
 
+.books-connect-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+  margin-top: var(--sp-2);
+}
+
+.books-connect-form .input {
+  flex: 1 1 16rem;
+  min-width: 14rem;
+}
+
 .books-continue {
   display: flex;
   gap: var(--sp-4);
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -36,10 +52,11 @@
   font-size: var(--fs-lg);
 }
 
+/* 6-Volume Shelf Grid */
 .books-grid {
   display: grid;
   gap: var(--sp-4);
-  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
 }
 
 .books-volume {
@@ -52,6 +69,7 @@
   display: flex;
   align-items: center;
   gap: var(--sp-3);
+  flex-wrap: wrap;
 }
 
 .books-volume-head h3 {
@@ -101,7 +119,76 @@
   font-variant-numeric: tabular-nums;
 }
 
-.books-reader-bar {
+/* Expandable lesson rows inside volume cards */
+.books-lesson-list {
+  list-style: none;
+  margin: var(--sp-2) 0 0;
+  padding: var(--sp-2) 0 0;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.books-lesson-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius);
+  background: var(--bg-sunken);
+  flex-wrap: wrap;
+}
+
+.books-lesson-info {
+  flex: 1 1 14rem;
+  min-width: 0;
+}
+
+.books-lesson-title {
+  font-size: var(--fs-sm);
+}
+
+.books-lesson-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  margin-top: 2px;
+}
+
+.books-step-dots {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.books-step-dot {
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--bg-raised);
+  color: var(--text-faint);
+}
+
+.books-step-dot.is-done {
+  background: color-mix(in srgb, var(--ok-600) 16%, var(--bg-raised));
+  border-color: var(--ok-600);
+  color: var(--ok-600);
+  font-weight: 600;
+}
+
+.books-lesson-actions {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+/* Reader Top Toolbar */
+.books-reader-bar,
+.books-reader-toolbar-row {
   display: flex;
   align-items: center;
   gap: var(--sp-2);
@@ -115,6 +202,358 @@
   font-weight: 600;
 }
 
+.books-lesson-select {
+  width: auto;
+  min-width: 11rem;
+  max-width: 18rem;
+  min-height: 36px;
+  padding: var(--sp-1) var(--sp-2);
+  font-size: var(--fs-xs);
+}
+
+.books-page-stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+
+.books-page-jump-form {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.books-page-input {
+  width: 4rem;
+  min-height: 34px;
+  padding: 2px 6px;
+  text-align: center;
+  font-size: var(--fs-xs);
+}
+
+/* Reader Split / Single Layout */
+.books-reader-layout {
+  display: grid;
+  gap: var(--sp-4);
+  align-items: start;
+}
+
+.books-reader-mode-split {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+@media (max-width: 960px) {
+  .books-reader-mode-split {
+    grid-template-columns: 1fr;
+  }
+}
+
+.books-pane {
+  min-width: 0;
+}
+
+/* Page Scan Canvas & Hotspots */
+.books-page-canvas {
+  position: relative;
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  aspect-ratio: 1224 / 1584;
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.books-page-canvas img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.books-page-placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: var(--sp-4);
+  text-align: center;
+}
+
+.page-hotspot {
+  position: absolute;
+  padding: 0;
+  border: 1.5px solid rgba(217, 119, 6, 0.22);
+  border-radius: 4px;
+  background: rgba(217, 119, 6, 0.06);
+  cursor: pointer;
+  transition: background var(--motion) var(--ease), border-color var(--motion) var(--ease);
+}
+
+.page-hotspot:hover,
+.page-hotspot:focus-visible {
+  border-color: rgba(217, 119, 6, 0.75);
+  background: rgba(217, 119, 6, 0.18);
+}
+
+.page-hotspot.is-active {
+  border-color: rgb(217, 119, 6);
+  background: rgba(217, 119, 6, 0.28);
+  box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.35);
+}
+
+.books-floating-sentence {
+  margin-top: var(--sp-3);
+  border-color: rgb(217, 119, 6);
+  box-shadow: var(--shadow-1);
+}
+
+/* Clean Interactive Text Mode & Segmented Word Tokens */
+.books-sentence-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.books-sentence-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-3);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-sunken);
+}
+
+.books-sentence-card.is-active {
+  border-color: rgb(217, 119, 6);
+  background: color-mix(in srgb, rgb(217, 119, 6) 10%, var(--bg-raised));
+}
+
+.books-sentence-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+}
+
+.books-sentence-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.books-token-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-2);
+}
+
+.books-speaker {
+  font-weight: 700;
+}
+
+.zh-token {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  user-select: none;
+  transition: background var(--motion) var(--ease), border-color var(--motion) var(--ease);
+}
+
+.zh-token:hover,
+.zh-token:focus-visible {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+
+.zh-token-surface {
+  font-size: var(--fs-xl);
+  line-height: 1.25;
+}
+
+.zh-token-pinyin {
+  font-family: var(--font-ui);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+
+.zh-token.has-sandhi .zh-token-surface {
+  text-decoration: underline dotted rgb(217, 119, 6);
+  text-underline-offset: 4px;
+}
+
+/* Vocabulary Table in Reader */
+.books-vocab-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.books-vocab-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-sunken);
+  cursor: pointer;
+}
+
+.books-vocab-row:hover,
+.books-vocab-row:focus-visible {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.books-vocab-hanzi {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+}
+
+.books-vocab-meaning {
+  font-size: var(--fs-sm);
+}
+
+.books-note-card {
+  padding: var(--sp-3);
+  border-radius: var(--radius);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+}
+
+/* Sticky Bottom AudioBar */
+.books-audio-bar {
+  position: sticky;
+  bottom: calc(var(--sp-2));
+  z-index: 25;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  box-shadow: var(--shadow-2);
+  border-color: var(--primary);
+}
+
+.books-audio-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.books-audio-controls,
+.books-audio-options,
+.books-audio-speeds,
+.books-audio-source {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-1);
+}
+
+.books-audio-active-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  padding-top: var(--sp-2);
+  border-top: 1px solid var(--border);
+}
+
+.books-audio-zh {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+}
+
+/* WordPopover Modal / Popover */
+.word-popover-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 75;
+  background: rgba(10, 16, 14, 0.48);
+  display: grid;
+  place-items: center;
+  padding: var(--sp-4);
+}
+
+.word-popover {
+  width: min(94vw, 34rem);
+  max-height: 88dvh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  box-shadow: var(--shadow-2);
+}
+
+.word-popover-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--sp-2);
+}
+
+.word-popover-hanzi {
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.word-popover-trad {
+  font-size: var(--fs-xl);
+}
+
+.word-popover-pinyin {
+  font-size: var(--fs-lg);
+  color: var(--primary-strong);
+  font-weight: 600;
+}
+
+.word-popover-audio-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: var(--sp-2);
+}
+
+.word-popover-meaning-block {
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+}
+
+.word-popover-meaning-block h4 {
+  margin: 0 0 4px;
+}
+
+.word-popover-meaning-block p {
+  margin: 0;
+}
+
+.word-popover-sentence-preview {
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius-sm);
+  background: var(--bg-sunken);
+}
+
+.word-popover-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  padding-top: var(--sp-2);
+  border-top: 1px solid var(--border);
+}
+
+/* Course Steps (preserved for LessonCoursePage) */
 .books-reading .stack {
   margin-top: var(--sp-3);
 }
@@ -157,46 +596,6 @@
 
 .books-step > div {
   flex: 1;
-}
-
-/* The reader will place a 1224 x 1584 page inside this box; the ratio reserves the space before
-   the WebP arrives so the toolbar never jumps. */
-.books-page-canvas {
-  position: relative;
-  width: 100%;
-  max-width: 40rem;
-  aspect-ratio: 1224 / 1584;
-  background: var(--bg-sunken);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.books-page-canvas img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
-.page-hotspot {
-  position: absolute;
-  padding: 0;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  background: transparent;
-  cursor: pointer;
-}
-
-.page-hotspot:hover,
-.page-hotspot:focus-visible {
-  border-color: rgba(217, 119, 6, 0.55);
-  background: rgba(217, 119, 6, 0.18);
-}
-
-.page-hotspot.is-active {
-  border-color: rgb(217, 119, 6);
-  background: rgba(217, 119, 6, 0.24);
 }
 
 @media (max-width: 640px) {

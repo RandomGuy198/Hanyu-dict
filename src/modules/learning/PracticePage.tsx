@@ -4,9 +4,10 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { IconCards, IconPen, IconSpark } from '../../app/icons';
+import { IconBook, IconCards, IconPen, IconSpark } from '../../app/icons';
 import { useDictionary, usePreferences, useToast } from '../../app/providers';
 import { currentStreak, totals, weeklySummary } from '../../domain/achievements';
+import { isDue } from '../../domain/scheduler';
 import { LoadingGate, PageHeader, ProgressBar, Segmented, EmptyState } from '../../components';
 import { db, todayKey } from '../../data/db';
 import type { Deck } from '../../domain/types';
@@ -53,12 +54,36 @@ export default function PracticePage() {
   const deckId = deckIdFor(source);
   const deck = useLiveQuery(() => db.decks.get(deckId), [deckId]);
   const cards = useLiveQuery(() => db.cards.where('deckId').equals(deckId).toArray(), [deckId], []);
+  const allCards = useLiveQuery(() => db.cards.toArray(), [], []);
   const lists = useLiveQuery(() => db.wordLists.toArray(), [], []);
   const notebooks = useLiveQuery(() => db.notebooks.toArray(), [], []);
   const savedCounts = useLiveQuery(() => db.savedWords.toArray(), [], []);
   const days = useLiveQuery(() => db.activity.toArray(), [], []);
   const todayRow = useLiveQuery(() => db.activity.get(todayKey()), [], undefined);
   const allDecks = useLiveQuery(() => db.decks.toArray(), [], []);
+
+  const globalSrsBreakdown = useMemo(() => {
+    const now = new Date();
+    const live = allCards.filter((card) => !card.suspended);
+    const recognitionCards = live.filter((card) => card.kind !== 'writing');
+    const writingCards = live.filter((card) => card.kind === 'writing');
+    const recognitionDue = recognitionCards.filter((card) => isDue(card, now)).length;
+    const writingDue = writingCards.filter((card) => isDue(card, now)).length;
+    const dueChars = [...new Set(writingCards.filter((card) => isDue(card, now)).map((c) => c.simplified))].join('');
+    return {
+      recognitionTotal: recognitionCards.length,
+      recognitionDue,
+      writingTotal: writingCards.length,
+      writingDue,
+      dueChars,
+      firstDeckId: allDecks[0]?.id ?? '',
+    };
+  }, [allCards, allDecks]);
+
+  const courseDecks = useMemo(
+    () => allDecks.filter((d) => d.id.startsWith('deck-book-')),
+    [allDecks],
+  );
 
   useEffect(() => {
     void loadSessionCap().then(setCap);
@@ -135,19 +160,71 @@ export default function PracticePage() {
     }
   };
 
-  const nothingSaved = !wordsLoading && words.length === 0 && source.kind === 'saved' && savedCounts.length === 0;
+  const nothingSaved =
+    !wordsLoading &&
+    words.length === 0 &&
+    source.kind === 'saved' &&
+    savedCounts.length === 0 &&
+    allDecks.length === 0;
 
   return (
     <div className="stack learn-flow">
       <PageHeader
         title="Practice"
-        subtitle="Flashcards, quick drills and practice tests, built from the words you saved on this device."
+        subtitle="Ôn tập SRS (Nhận biết & Tập viết chữ Hán), thẻ từ vựng và bài tập nhanh."
         actions={
           <Link to="/progress" className="btn btn-sm">
             <IconSpark /> Progress
           </Link>
         }
       />
+
+      <section className="card learn-panel" aria-labelledby="study-srs-hub-heading">
+        <h2 id="study-srs-hub-heading" className="h3">
+          Lịch ôn tập SRS hôm nay
+        </h2>
+        <div className="learn-stats">
+          <div className="learn-stat">
+            <span className="learn-stat-value">{globalSrsBreakdown.recognitionDue}</span>
+            <span className="learn-stat-label">
+              Thẻ nhận biết (Recognition SRS) cần ôn ({globalSrsBreakdown.recognitionTotal} tổng)
+            </span>
+          </div>
+          <div className="learn-stat">
+            <span className="learn-stat-value">{globalSrsBreakdown.writingDue}</span>
+            <span className="learn-stat-label">
+              Thẻ tập viết chữ Hán (Writing SRS) cần ôn ({globalSrsBreakdown.writingTotal} tổng)
+            </span>
+          </div>
+          <div className="learn-stat">
+            <span className="learn-stat-value">{courseDecks.length}</span>
+            <span className="learn-stat-label">Bộ thẻ khoá học đã mở</span>
+          </div>
+        </div>
+        <div className="row-wrap">
+          {globalSrsBreakdown.firstDeckId ? (
+            <Link
+              to={`/flashcards?deck=${encodeURIComponent(globalSrsBreakdown.firstDeckId)}`}
+              className="btn btn-primary btn-sm"
+            >
+              <IconCards /> Ôn thẻ nhận biết ({globalSrsBreakdown.recognitionDue})
+            </Link>
+          ) : null}
+          <Link
+            to={
+              globalSrsBreakdown.dueChars
+                ? `/writing?chars=${encodeURIComponent(globalSrsBreakdown.dueChars.slice(0, 20))}`
+                : '/writing'
+            }
+            className="btn btn-sm"
+          >
+            <IconPen /> Ôn tập viết chữ Hán ({globalSrsBreakdown.writingDue})
+          </Link>
+          <Link to="/books" className="btn btn-ghost btn-sm">
+            <IconBook /> Học bài mới trong sách
+          </Link>
+        </div>
+      </section>
 
       {nothingSaved ? (
         <EmptyState
@@ -344,9 +421,9 @@ export default function PracticePage() {
         </div>
       </section>
 
-      {allDecks.length > 1 ? (
+      {allDecks.length > 0 ? (
         <section className="card learn-panel" aria-labelledby="learn-decks-heading">
-          <h2 id="learn-decks-heading" className="h3">Your decks</h2>
+          <h2 id="learn-decks-heading" className="h3">Your decks &amp; Course decks</h2>
           <ul className="list">
             {allDecks.map((row) => (
               <li key={row.id}>
@@ -359,14 +436,16 @@ export default function PracticePage() {
                     </span>
                   </span>
                   <span className="item-side">
-                    <span className="badge">deck</span>
+                    <span className="badge">
+                      {row.id.startsWith('deck-book-') ? 'khoá học' : 'deck'}
+                    </span>
                   </span>
                 </Link>
               </li>
             ))}
           </ul>
           <p className="learn-footnote">
-            Decks are made from your own content and live only in this browser’s storage.
+            Decks are made from your own content and course lessons, synced automatically via GitHub.
           </p>
         </section>
       ) : null}

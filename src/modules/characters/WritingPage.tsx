@@ -6,12 +6,13 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { PointerEvent as ReactPointerEvent } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { EmptyState, LoadingGate, PageHeader, SpeakButton } from '../../components';
 import { IconPen, IconSpark, IconTrash } from '../../app/icons';
 import { useQueryState } from '../../app/hooks';
 import { useDictionary, useToast } from '../../app/providers';
 import { bumpActivity, todayKey } from '../../data/db';
+import { getLessonDocument } from '../../data/privateData';
 import { isHanCharacter } from '../../domain/pinyin';
 import type { CharRecord } from '../../domain/service';
 import type { StrokeData } from '../../domain/types';
@@ -230,8 +231,44 @@ function PracticeDesk({ char, sd }: { char: string; sd: StrokeData | null | unde
 export default function WritingPage() {
   const { api } = useDictionary();
   const toast = useToast();
+  const [params] = useSearchParams();
   const [raw, setRaw] = useQueryState('c', '');
-  const char = [...raw.trim()][0] ?? '';
+
+  // Support ?chars=... and ?lesson=... (e.g. b1-l02)
+  const charsParam = params.get('chars') ?? '';
+  const lessonParam = params.get('lesson') ?? '';
+  const [lessonChars, setLessonChars] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (!lessonParam) {
+      setLessonChars([]);
+      return;
+    }
+    const [bookId] = lessonParam.split('-');
+    if (!bookId) return;
+    let alive = true;
+    void getLessonDocument(bookId, lessonParam).then((doc) => {
+      if (alive && doc?.writingTargets) {
+        setLessonChars(doc.writingTargets);
+        if (!raw && doc.writingTargets.length > 0) {
+          setRaw(doc.writingTargets[0]);
+        }
+      }
+    });
+    return () => {
+      alive = false;
+    };
+  }, [lessonParam, raw, setRaw]);
+
+  const queue = useMemo(() => {
+    if (lessonChars.length > 0) return lessonChars;
+    if (charsParam) {
+      return [...new Set([...charsParam].filter(isHanCharacter))];
+    }
+    return [];
+  }, [lessonChars, charsParam]);
+
+  const char = [...raw.trim()][0] ?? (queue[0] ?? '');
   const valid = char !== '' && isHanCharacter(char);
   const [sd, setSd] = useState<StrokeData | null | undefined>(undefined);
   const [rec, setRec] = useState<CharRecord | null | undefined>(undefined);
@@ -290,22 +327,38 @@ export default function WritingPage() {
   return (
     <div className="stack">
       <PageHeader
-        title="Writing practice"
-        subtitle="Stroke animation, quiz and tracing grid built only on locally installed data — nothing here needs a connection once the optional stroke pack is downloaded."
-        back={{ label: 'Back to dictionary', to: '/' }}
-        actions={
-          <Link className="btn btn-sm" to="/offline-data">
-            Data packs
-          </Link>
-        }
+        title="Tập viết chữ Hán"
+        subtitle="Mô phỏng nét bút, kiểm tra và bàn vẽ viết tay chữ Hán — tự động tải dữ liệu nét không cần cài thủ công."
+        back={{ label: 'Trang chủ', to: '/' }}
       />
+
+      {queue.length > 0 ? (
+        <section className="card card-tight" aria-label="Danh sách chữ cần tập viết">
+          <div className="row-wrap" style={{ alignItems: 'center', gap: '0.5rem' }}>
+            <span className="text-sm muted">
+              {lessonParam ? `Chữ tập viết bài ${lessonParam}:` : 'Danh sách chữ:'}
+            </span>
+            {queue.map((c) => (
+              <button
+                key={c}
+                type="button"
+                className={`btn btn-sm ${c === char ? 'btn-primary' : 'btn-ghost'}`}
+                onClick={() => setRaw(c)}
+              >
+                {c}
+              </button>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       <div className="field">
-        <label htmlFor="writing-char-input">Practice character</label>
+        <label htmlFor="writing-char-input">Chữ Hán cần luyện</label>
         <div className="row row-wrap">
           <input
             id="writing-char-input"
             className="input char-input"
-            value={raw}
+            value={raw || char}
             onChange={(event) => setRaw(event.target.value)}
             placeholder="中"
             autoComplete="off"
@@ -318,13 +371,13 @@ export default function WritingPage() {
             onClick={() => void pickRandom()}
             disabled={!api || busyRandom}
           >
-            <IconSpark /> Random character
+            <IconSpark /> Chữ ngẫu nhiên
           </button>
         </div>
         <span className="help" role="status" aria-live="polite">
           {raw.length > 0 && !valid
-            ? 'Enter exactly one Chinese character, e.g. 中 or 学. Invalid text is only kept in the address bar.'
-            : 'One Hanzi at a time — the panel and grid below follow it.'}
+            ? 'Nhập đúng 1 chữ Hán (ví dụ: 中 hoặc 学).'
+            : 'Mỗi lần tập 1 chữ — bảng vẽ bên dưới sẽ đi theo chữ này.'}
         </span>
       </div>
 

@@ -8,7 +8,9 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { uid } from '../../app/hooks';
 import { IconAlert, IconCards, IconSpeaker, IconChevronLeft } from '../../app/icons';
 import { useDictionary, usePreferences, useToast } from '../../app/providers';
-import { inspectSpeech, onVoicesChanged, speak } from '../../data/speech';
+import { playWordAudio } from '../../data/audioPlayer';
+import { marksToNumbered } from '../../domain/pinyin';
+import { inspectSpeech, onVoicesChanged } from '../../data/speech';
 import { db } from '../../data/db';
 import { previewInterval } from '../../domain/scheduler';
 import type { Deck, ExampleSentence, Preferences, SrsCard, SrsRating } from '../../domain/types';
@@ -209,7 +211,7 @@ export default function FlashcardsPage() {
 
   const showAnswer = () => {
     setRevealed((value) => ({ ...value, answer: true }));
-    if (prefs.autoSpeak && voice.chineseVoice && card) void play(card, voice, prefs, toast);
+    if (prefs.autoSpeak && card) void play(card, prefs, toast);
   };
 
   const onKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
@@ -271,13 +273,13 @@ export default function FlashcardsPage() {
   if (decks.length === 0) {
     return (
       <div className="stack learn-flow">
-        <PageHeader title="Flashcards" back={{ label: 'Practice', to: '/practice' }} />
+        <PageHeader title="Flashcards" back={{ label: 'Study', to: '/study' }} />
         <EmptyState
           title="No deck on this device yet"
-          detail="Pick a source in Practice and a deck is built from your saved words."
+          detail="Pick a source in Study and a deck is built from your saved words or course lessons."
           action={
-            <Link to="/practice" className="btn btn-primary btn-sm">
-              Go to practice
+            <Link to="/study" className="btn btn-primary btn-sm">
+              Go to study
             </Link>
           }
           icon={<IconCards />}
@@ -291,7 +293,7 @@ export default function FlashcardsPage() {
       <PageHeader
         title="Flashcards"
         subtitle={deck ? `Reviewing ${deck.name}` : 'Loading this deck'}
-        back={{ label: 'Practice', to: '/practice' }}
+        back={{ label: 'Study', to: '/study' }}
       />
 
       {phase === 'setup' ? (
@@ -442,10 +444,9 @@ export default function FlashcardsPage() {
               <button
                 type="button"
                 className="btn btn-sm btn-icon"
-                onClick={() => void play(card, voice, prefs, toast)}
-                disabled={!voice.chineseVoice}
+                onClick={() => void play(card, prefs, toast)}
                 aria-label={`Play the pronunciation of ${hanziPrimary(card, prefs.displayScript)}`}
-                title={voice.chineseVoice ? `Device voice: ${voice.voiceName ?? 'default'}` : 'No Chinese voice installed'}
+                title={voice.chineseVoice ? `Device voice: ${voice.voiceName ?? 'default'}` : 'Play pronunciation audio'}
               >
                 <IconSpeaker />
               </button>
@@ -570,8 +571,8 @@ export default function FlashcardsPage() {
             <button type="button" className="btn" onClick={() => setPhase('setup')}>
               Back to the session setup
             </button>
-            <Link to="/practice" className="btn">
-              Practice
+            <Link to="/study" className="btn">
+              Study
             </Link>
             <Link to="/progress" className="btn btn-ghost">
               See progress
@@ -585,11 +586,13 @@ export default function FlashcardsPage() {
 
 async function play(
   card: SrsCard,
-  voice: { chineseVoice: boolean },
   prefs: Preferences,
   toast: { push: (message: string) => unknown },
 ): Promise<void> {
-  if (!voice.chineseVoice) return;
-  const result = await speak(hanziPrimary(card, prefs.displayScript), { lang: prefs.ttsLang, rate: prefs.ttsRate });
+  const pinyinNum = card.pinyinNumbered || marksToNumbered(card.pinyinMarked);
+  const result = await playWordAudio(hanziPrimary(card, prefs.displayScript), pinyinNum, undefined, {
+    lang: prefs.ttsLang,
+    rate: prefs.ttsRate,
+  });
   if (!result.ok) toast.push(result.reason ?? 'No audio available on this device.');
 }

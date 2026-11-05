@@ -4,14 +4,18 @@
 
 import { uid } from '../../app/hooks';
 import { bumpActivity, db, getMeta, setMeta, todayKey } from '../../data/db';
+import { markDirty } from '../../data/syncEngine';
 import { dueQueue, isDue, newCard, newCards, reviewDelta, schedule } from '../../domain/scheduler';
 import { marksToNumbered } from '../../domain/pinyin';
+import { entryId } from '../../domain/searchRanking';
 import type {
   Deck,
   DictEntry,
+  LessonVocabItem,
   PracticeAttempt,
   PracticeSession,
   Preferences,
+  SavedWord,
   SrsCard,
   SrsRating,
 } from '../../domain/types';
@@ -140,12 +144,14 @@ export async function ensureDeck(
   now = new Date(),
 ): Promise<DeckSetup> {
   const id = deckIdFor(src);
-  return db.transaction('rw', db.decks, db.cards, async () => {
+  const iso = now.toISOString();
+  const setup = await db.transaction('rw', db.decks, db.cards, async () => {
     const existing = await db.decks.get(id);
     const deck: Deck = existing ?? {
       id,
       name: label,
-      createdAt: now.toISOString(),
+      createdAt: iso,
+      updatedAt: iso,
       prompt: 'zh2en',
       newPerDay: Math.max(1, Math.round(newPerDay)),
     };
@@ -155,20 +161,205 @@ export async function ensureDeck(
     const stamped = deck.id + '|';
     const additions = words
       .filter((word) => !have.has(stamped + word.id))
-      .map((word) => newCard(deck.id, word, now));
+      .map((word) => ({
+        ...newCard(deck.id, word, now),
+        kind: 'recognition' as const,
+        updatedAt: iso,
+      }));
     if (additions.length > 0) await db.cards.bulkPut(additions);
     return { deck, cards: [...cards, ...additions], added: additions.length };
   });
+  markDirty();
+  return setup;
 }
 
-/** `Deck` has no `updatedAt` field (the schema indexes one anyway), so the patch is exactly
- *  the fields the record type carries. */
+/** `Deck` carries `updatedAt` for deterministic cross-device sync. */
 export async function updateDeck(id: string, patch: Partial<Omit<Deck, 'id' | 'createdAt'>>): Promise<void> {
+  const iso = new Date().toISOString();
   await db.transaction('rw', db.decks, async () => {
     const deck = await db.decks.get(id);
-    if (deck) await db.decks.put({ ...deck, ...patch });
+    if (deck) await db.decks.put({ ...deck, ...patch, updatedAt: iso });
   });
+  markDirty();
 }
+
+export interface CourseDeckResult {
+  deck: Deck;
+  addedRecognition: number;
+  addedWriting: number;
+  totalCards: number;
+}
+
+/**
+ * Creates or updates the course deck `deck-book-${bookId}` ("Khoá học Hán ngữ — Quyển ${volumeNumber}")
+ * with recognition cards for vocabulary items and writing cards for single characters, plus saves
+ * vocabulary into `savedWords` if requested.
+ */
+export async function ensureCourseLessonDeckAndCards(
+  bookId: string,
+  volumeNumber: number,
+  vocab: LessonVocabItem[],
+  writingTargets: string[],
+  options?: {
+    lessonId?: string;
+    saveToLibrary?: boolean;
+    scheduleInitialReview?: boolean;
+    now?: Date;
+  },
+): Promise<CourseDeckResult> {
+  const now = options?.now ?? new Date();
+  const iso = now.toISOString();
+  const deckId = `deck-book-${bookId}`;
+  const deckName = `Khoá học Hán ngữ — Quyển ${volumeNumber}`;
+  const lessonId = options?.lessonId;
+
+  const result = await db.transaction('rw', db.decks, db.cards, db.savedWords, async () => {
+    const existingDeck = await db.decks.get(deckId);
+    const deck: Deck = existingDeck
+      ? { ...existingDeck, name: deckName, updatedAt: iso }
+      : {
+          id: deckId,
+          name: deckName,
+          createdAt: iso,
+          updatedAt: iso,
+          prompt: 'zh2en',
+          newPerDay: 20,
+        };
+    await db.decks.put(deck);
+
+    const existingCards = await db.cards.where('deckId').equals(deckId).toArray();
+    const byId = new Map<string, SrsCard>(existingCards.map((c) => [c.id, c]));
+    const cardsToPut: SrsCard[] = [];
+    let addedRecognition = 0;
+    let addedWriting = 0;
+
+    if (options?.saveToLibrary) {
+      const existingSaved = await db.savedWords.toArray();
+      const savedById = new Map<string, SavedWord>(existingSaved.map((w) => [w.id, w]));
+      const savedToPut: SavedWord[] = [];
+
+      for (const item of vocab) {
+        const wordId = entryId(item.hanzi, item.pinyinNumbered || marksToNumbered(item.pinyin));
+        if (!savedById.has(wordId)) {
+          savedToPut.push({
+            id: wordId,
+            addedAt: iso,
+            updatedAt: iso,
+            lists: [],
+            simplified: item.hanzi,
+            traditional: item.traditional || item.hanzi,
+            pinyinMarked: item.pinyin,
+            definition: item.meaningVi ? `${item.meaningVi}; ${item.meaningEn}` : item.meaningEn,
+            definitionVi: item.meaningVi,
+            hanViet: item.hanViet,
+          });
+        }
+      }
+      if (savedToPut.length > 0) {
+        await db.savedWords.bulkPut(savedToPut);
+      }
+    }
+
+    for (const item of vocab) {
+      const wordId = entryId(item.hanzi, item.pinyinNumbered || marksToNumbered(item.pinyin));
+      const baseCard = newCard(
+        deckId,
+        {
+          id: wordId,
+          simplified: item.hanzi,
+          traditional: item.traditional || item.hanzi,
+          pinyinMarked: item.pinyin,
+          definition: item.meaningVi
+            ? `${item.meaningVi}${item.meaningEn ? ` — ${item.meaningEn}` : ''}`
+            : item.meaningEn,
+        },
+        now,
+      );
+      const existing = byId.get(baseCard.id);
+      if (!existing) {
+        const enriched: SrsCard = {
+          ...baseCard,
+          kind: 'recognition',
+          pinyinNumbered: item.pinyinNumbered,
+          hanViet: item.hanViet,
+          definitionVi: item.meaningVi,
+          ...(lessonId ? { lessonId } : {}),
+          updatedAt: iso,
+        };
+        const finalCard = options?.scheduleInitialReview
+          ? { ...schedule(enriched, 'good', now), updatedAt: iso }
+          : enriched;
+        cardsToPut.push(finalCard);
+        byId.set(finalCard.id, finalCard);
+        addedRecognition += 1;
+      } else if (options?.scheduleInitialReview && existing.repetitions === 0) {
+        const scheduled = { ...schedule(existing, 'good', now), updatedAt: iso };
+        cardsToPut.push(scheduled);
+        byId.set(scheduled.id, scheduled);
+      }
+    }
+
+    for (const char of writingTargets) {
+      const trimmed = char.trim();
+      if (!trimmed) continue;
+      // Find matching vocab item containing this character for reading/meaning context
+      const sourceVocab =
+        vocab.find((v) => v.hanzi === trimmed) ?? vocab.find((v) => v.hanzi.includes(trimmed));
+      const charCardEntryId = `write:${trimmed}`;
+      const baseWrite = newCard(
+        deckId,
+        {
+          id: charCardEntryId,
+          simplified: trimmed,
+          traditional: sourceVocab?.traditional && sourceVocab.hanzi === trimmed ? sourceVocab.traditional : trimmed,
+          pinyinMarked: sourceVocab?.pinyin ?? '',
+          definition: sourceVocab
+            ? `Tập viết chữ ${trimmed} (từ: ${sourceVocab.hanzi} — ${sourceVocab.meaningVi || sourceVocab.meaningEn})`
+            : `Tập viết chữ Hán: ${trimmed}`,
+        },
+        now,
+      );
+      const existingWrite = byId.get(baseWrite.id);
+      if (!existingWrite) {
+        const enrichedWrite: SrsCard = {
+          ...baseWrite,
+          kind: 'writing',
+          pinyinNumbered: sourceVocab?.pinyinNumbered,
+          hanViet: sourceVocab?.hanViet,
+          definitionVi: sourceVocab?.meaningVi,
+          ...(lessonId ? { lessonId } : {}),
+          updatedAt: iso,
+        };
+        const finalWrite = options?.scheduleInitialReview
+          ? { ...schedule(enrichedWrite, 'good', now), updatedAt: iso }
+          : enrichedWrite;
+        cardsToPut.push(finalWrite);
+        byId.set(finalWrite.id, finalWrite);
+        addedWriting += 1;
+      } else if (options?.scheduleInitialReview && existingWrite.repetitions === 0) {
+        const scheduledWrite = { ...schedule(existingWrite, 'good', now), updatedAt: iso };
+        cardsToPut.push(scheduledWrite);
+        byId.set(scheduledWrite.id, scheduledWrite);
+      }
+    }
+
+    if (cardsToPut.length > 0) {
+      await db.cards.bulkPut(cardsToPut);
+    }
+
+    return {
+      deck,
+      addedRecognition,
+      addedWriting,
+      totalCards: byId.size,
+    };
+  });
+
+  markDirty();
+  return result;
+}
+
+export const ensureLessonCourseSrsCards = ensureCourseLessonDeckAndCards;
 
 export function entryIdOfCard(card: SrsCard): string {
   const prefix = `${card.deckId}|`;
@@ -258,7 +449,10 @@ export interface ReviewWrite {
 /** Persist one grade: next schedule, an attempt row, the running session, today's activity. */
 export async function persistRating(write: ReviewWrite): Promise<SrsCard> {
   const now = write.now ?? new Date();
-  const next = schedule(write.card, write.rating, now);
+  const next: SrsCard = {
+    ...schedule(write.card, write.rating, now),
+    updatedAt: now.toISOString(),
+  };
   const delta = reviewDelta(write.card, write.rating);
   await db.transaction('rw', db.cards, db.attempts, db.sessions, db.activity, async () => {
     await db.cards.put(next);
@@ -286,6 +480,7 @@ export async function persistRating(write: ReviewWrite): Promise<SrsCard> {
     );
     await bumpActivity(todayKey(now), { reviews: delta.reviews, newCards: delta.newCards });
   });
+  markDirty();
   return next;
 }
 
