@@ -12,7 +12,7 @@
  * Usage:
  *   node scripts/content/build-all.mjs                  everything
  *   node scripts/content/build-all.mjs --only strokes   one stage
- *   node scripts/content/build-all.mjs --skip ocr       leave a stage out
+ *   node scripts/content/build-all.mjs --skip content   leave a stage out
  *   node scripts/content/build-all.mjs --cache <dir>    non-default cache location
  */
 import { pathToFileURL } from 'node:url';
@@ -22,7 +22,6 @@ import { build as buildCharacters } from './build-characters.mjs';
 import { build as buildStrokes } from './build-strokes.mjs';
 import { build as buildExamples } from './build-examples.mjs';
 import { build as buildContent } from './build-content.mjs';
-import { build as buildOcr } from './build-ocr.mjs';
 import { build as buildLicenses } from './build-licenses.mjs';
 import { build as buildRuntimeLicenses } from '../collect-runtime-licenses.mjs';
 import { build as buildManifest } from './build-manifest.mjs';
@@ -34,7 +33,6 @@ const STAGES = [
   { id: 'strokes', build: buildStrokes },
   { id: 'examples', build: buildExamples },
   { id: 'content', build: buildContent },
-  { id: 'ocr', build: buildOcr },
   { id: 'licenses', build: buildLicenses },
   { id: 'runtime-licenses', build: buildRuntimeLicenses },
   { id: 'manifest', build: buildManifest },

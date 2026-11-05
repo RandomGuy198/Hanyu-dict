@@ -9,30 +9,16 @@ The application code in this repository is MIT and covered by the root `LICENSE`
 | Package | Version | Licence | Copyright holder as recorded | How it is reached |
 | --- | --- | --- | --- | --- |
 | `@remix-run/router` | 1.23.4 | MIT | Copyright (c) React Training LLC 2015-2019 | dependency of react-router-dom@6.30.6 |
-| `bmp-js` | 0.1.0 | MIT | Copyright (c) 2014 @丝刀口 | dependency of tesseract.js@5.1.1 |
 | `dexie` | 4.4.7 | Apache-2.0 | Copyright (c) 2014-2017 David Fahlander | direct dependency |
 | `dexie-react-hooks` | 1.1.7 | Apache-2.0 | _no copyright line in the licence text; see below_ | direct dependency |
 | `hanzi-writer` | 3.7.3 | MIT | Copyright 1999 Arphic Technology Co., Ltd.; licensed under the Arphic Public License | direct dependency |
-| `idb-keyval` | 6.3.0 | Apache-2.0 | Copyright 2016, Jake Archibald | dependency of tesseract.js@5.1.1 |
-| `is-electron` | 2.2.2 | MIT | Copyright (c) 2016-2018 Cheton Wu | dependency of tesseract.js@5.1.1 |
-| `is-url` | 1.2.4 | MIT | _no copyright line in the licence text; see below_ | dependency of tesseract.js@5.1.1 |
 | `js-tokens` | 4.0.0 | MIT | Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell | dependency of loose-envify@1.4.0 |
 | `loose-envify` | 1.4.0 | MIT | Copyright (c) 2015 Andres Suarez <zertosh@gmail.com> | dependency of react@18.3.1 |
-| `node-fetch` | 2.7.0 | MIT | Copyright (c) 2016 David Frank | dependency of tesseract.js@5.1.1 |
-| `opencollective-postinstall` | 2.0.3 | MIT | Copyright (c) 2018 Open Collective | dependency of tesseract.js@5.1.1 |
-| `pdfjs-dist` | 4.10.38 | Apache-2.0 | _no copyright line in the licence text; see below_ | direct dependency |
 | `react` | 18.3.1 | MIT | Copyright (c) Facebook, Inc. and its affiliates. | direct dependency |
 | `react-dom` | 18.3.1 | MIT | Copyright (c) Facebook, Inc. and its affiliates. | direct dependency |
 | `react-router` | 6.30.6 | MIT | Copyright (c) React Training LLC 2015-2019 | dependency of react-router-dom@6.30.6 |
 | `react-router-dom` | 6.30.6 | MIT | Copyright (c) React Training LLC 2015-2019 | direct dependency |
-| `regenerator-runtime` | 0.13.11 | MIT | Copyright (c) 2014-present, Facebook, Inc. | dependency of tesseract.js@5.1.1 |
 | `scheduler` | 0.23.2 | MIT | Copyright (c) Facebook, Inc. and its affiliates. | dependency of react-dom@18.3.1 |
-| `tesseract.js` | 5.1.1 | Apache-2.0 | _no copyright line in the licence text; see below_ | direct dependency |
-| `tesseract.js-core` | 5.1.1 | Apache-2.0 | _no copyright line in the licence text; see below_ | dependency of tesseract.js@5.1.1 |
-| `tr46` | 0.0.3 | MIT | _the published tarball ships no licence text; see below_ | dependency of whatwg-url@5.0.0 |
-| `wasm-feature-detect` | 1.9.0 | Apache-2.0 | Copyright 2017 Google Inc. | dependency of tesseract.js@5.1.1 |
-| `webidl-conversions` | 3.0.1 | BSD-2-Clause | Copyright (c) 2014, Domenic Denicola | dependency of whatwg-url@5.0.0 |
-| `whatwg-url` | 5.0.0 | MIT | Copyright (c) 2015–2016 Sebastian Mayr | dependency of node-fetch@2.7.0 |
 | `workbox-background-sync` | 7.4.1 | MIT | Copyright 2018 Google LLC | copied into the generated service worker by workbox-build |
 | `workbox-broadcast-update` | 7.4.1 | MIT | Copyright 2018 Google LLC | copied into the generated service worker by workbox-build |
 | `workbox-cacheable-response` | 7.4.1 | MIT | Copyright 2018 Google LLC | copied into the generated service worker by workbox-build |
@@ -48,10 +34,9 @@ The application code in this repository is MIT and covered by the root `LICENSE`
 | `workbox-streams` | 7.4.1 | MIT | Copyright 2018 Google LLC | copied into the generated service worker by workbox-build |
 | `workbox-sw` | 7.4.1 | MIT | Copyright 2018 Google LLC | copied into the generated service worker by workbox-build |
 | `workbox-window` | 7.4.1 | MIT | Copyright 2018 Google LLC | imported by the service-worker registration this site generates |
-| `zlibjs` | 0.3.1 | MIT | _no copyright line in the licence text; see below_ | dependency of tesseract.js@5.1.1 |
 | `zod` | 3.25.76 | MIT | Copyright (c) 2025 Colin McDonnell | direct dependency |
 
-## Packages under an inlined permissive licence (34)
+## Packages under an inlined permissive licence (25)
 
 The MIT-family and BSD texts are short enough to reproduce in full, which is what those licences require of a redistribution. Each block below is the licence document as it ships inside the installed package, byte for byte.
 
@@ -65,34 +50,6 @@ MIT License
 Copyright (c) React Training LLC 2015-2019
 Copyright (c) Remix Software Inc. 2020-2021
 Copyright (c) Shopify Inc. 2022-2023
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### `bmp-js` 0.1.0 - MIT
-
-Source: `bmp-js` 0.1.0, licence file `LICENSE` in the installed package, Copyright (c) 2014 @丝刀口.
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2014 @丝刀口
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -156,60 +113,6 @@ Copyright 1999 Arphic Technology Co., Ltd., copyright 2016 Shaunak Kishore; lice
 https://github.com/skishore/makemeahanzi
 ```
 
-### `is-electron` 2.2.2 - MIT
-
-Source: `is-electron` 2.2.2, licence file `LICENSE` in the installed package, Copyright (c) 2016-2018 Cheton Wu.
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2016-2018 Cheton Wu
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### `is-url` 1.2.4 - MIT
-
-Source: `is-url` 1.2.4, licence file `LICENSE-MIT` in the installed package.
-
-```
-MIT LICENSE
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
-
 ### `js-tokens` 4.0.0 - MIT
 
 Source: `js-tokens` 4.0.0, licence file `LICENSE` in the installed package, Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell.
@@ -264,62 +167,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-```
-
-### `node-fetch` 2.7.0 - MIT
-
-Source: `node-fetch` 2.7.0, licence file `LICENSE.md` in the installed package, Copyright (c) 2016 David Frank.
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2016 David Frank
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### `opencollective-postinstall` 2.0.3 - MIT
-
-Source: `opencollective-postinstall` 2.0.3, licence file `LICENSE` in the installed package, Copyright (c) 2018 Open Collective.
-
-```
-MIT License
-
-Copyright (c) 2018 Open Collective
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 ```
 
 ### `react` 18.3.1 - MIT
@@ -438,34 +285,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### `regenerator-runtime` 0.13.11 - MIT
-
-Source: `regenerator-runtime` 0.13.11, licence file `LICENSE` in the installed package, Copyright (c) 2014-present, Facebook, Inc..
-
-```
-MIT License
-
-Copyright (c) 2014-present, Facebook, Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
 ### `scheduler` 0.23.2 - MIT
 
 Source: `scheduler` 0.23.2, licence file `LICENSE` in the installed package, Copyright (c) Facebook, Inc. and its affiliates..
@@ -492,53 +311,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
-
-### `webidl-conversions` 3.0.1 - BSD-2-Clause
-
-Source: `webidl-conversions` 3.0.1, licence file `LICENSE.md` in the installed package, Copyright (c) 2014, Domenic Denicola.
-
-```
-# The BSD 2-Clause License
-
-Copyright (c) 2014, Domenic Denicola
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-```
-
-### `whatwg-url` 5.0.0 - MIT
-
-Source: `whatwg-url` 5.0.0, licence file `LICENSE.txt` in the installed package, Copyright (c) 2015–2016 Sebastian Mayr.
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2015–2016 Sebastian Mayr
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
 ```
 
 ### `workbox-background-sync` 7.4.1 - MIT
@@ -931,41 +703,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### `zlibjs` 0.3.1 - MIT
-
-Source: `zlibjs` 0.3.1, licence file `LICENSE` in the installed package.
-
-```
-/**
- * @license
- * zlib.js
- * JavaScript Zlib Library
- * https://github.com/imaya/zlib.js
- *
- * The MIT License
- *
- * Copyright (c) 2012 imaya
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
-```
-
 ### `zod` 3.25.76 - MIT
 
 Source: `zod` 3.25.76, licence file `LICENSE` in the installed package, Copyright (c) 2025 Colin McDonnell.
@@ -994,7 +731,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Packages under Apache License 2.0 (7)
+## Packages under Apache License 2.0 (2)
 
 The Apache-2.0 terms apply to each package in this section; the full text ships unaltered at [`Apache-2.0.txt`](./Apache-2.0.txt) and is not repeated here. Section 4(d) obliges a redistribution to reproduce any NOTICE file the upstream supplies, so the notices below are included verbatim; where a package ships no NOTICE, that is stated instead.
 
@@ -1027,44 +764,6 @@ limitations under the License.
 Licence: Apache-2.0, see [`Apache-2.0.txt`](./Apache-2.0.txt).
 
 _This package ships no NOTICE file, so there is no additional notice to reproduce._
-
-### `idb-keyval` 6.3.0 - Apache-2.0
-
-Licence: Apache-2.0, see [`Apache-2.0.txt`](./Apache-2.0.txt). Copyright line in the package: Copyright 2016, Jake Archibald.
-
-_This package ships no NOTICE file, so there is no additional notice to reproduce._
-
-### `pdfjs-dist` 4.10.38 - Apache-2.0
-
-Licence: Apache-2.0, see [`Apache-2.0.txt`](./Apache-2.0.txt).
-
-_This package ships no NOTICE file, so there is no additional notice to reproduce._
-
-### `tesseract.js` 5.1.1 - Apache-2.0
-
-Licence: Apache-2.0, see [`Apache-2.0.txt`](./Apache-2.0.txt).
-
-_This package ships no NOTICE file, so there is no additional notice to reproduce._
-
-### `tesseract.js-core` 5.1.1 - Apache-2.0
-
-Licence: Apache-2.0, see [`Apache-2.0.txt`](./Apache-2.0.txt).
-
-_This package ships no NOTICE file, so there is no additional notice to reproduce._
-
-### `wasm-feature-detect` 1.9.0 - Apache-2.0
-
-Licence: Apache-2.0, see [`Apache-2.0.txt`](./Apache-2.0.txt). Copyright line in the package: Copyright 2017 Google Inc..
-
-_This package ships no NOTICE file, so there is no additional notice to reproduce._
-
-## Packages whose tarball ships no licence text (1)
-
-These packages declare a licence id in `package.json` but the published tarball contains no licence document, so there is no upstream text to reproduce. They are recorded here rather than silently dropped. Some are reached only through Node code paths that a bundler replaces using the importing package's `browser` field, so no copy of them is served to a user. Before any build starts shipping one, take the notice from the upstream repository named below and add it to this document.
-
-| Package | Version | Declared licence | Upstream |
-| --- | --- | --- | --- |
-| `tr46` | 0.0.3 | MIT | git+https://github.com/Sebmaster/tr46.js.git |
 
 ## Development-only tooling
 

@@ -2,22 +2,14 @@
  *  No accounts, no uploads, no leaderboards, no comparisons — every number below is counted
  *  on this machine from the user's rows and labelled as such. A zero always reads as zero. */
 
-import { useEffect, useMemo } from 'react';
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { IconAlert, IconBook, IconCards, IconCheck, IconPen, IconSpark } from '../../app/icons';
-import { formatDate } from '../../app/hooks';
+import { IconAlert, IconBook, IconCards, IconPen, IconSpark } from '../../app/icons';
 import { usePreferences } from '../../app/providers';
-import {
-  ACHIEVEMENTS,
-  currentStreak,
-  evaluateAchievements,
-  metricValue,
-  totals,
-  weeklySummary,
-} from '../../domain/achievements';
+import { currentStreak, totals, weeklySummary } from '../../domain/achievements';
 import { isDue } from '../../domain/scheduler';
-import type { Achievement, ActivityDay } from '../../domain/types';
+import type { ActivityDay } from '../../domain/types';
 import { db, todayKey } from '../../data/db';
 import { EmptyState, PageHeader, ProgressBar } from '../../components';
 import { DayBars, MonthGrid, type DayPoint } from './ProgressCharts';
@@ -57,16 +49,6 @@ function weekdayLabel(key: string): string {
   return new Date(`${key}T00:00:00`).toLocaleDateString(undefined, { weekday: 'short' });
 }
 
-const METRIC_NOUNS: Record<Achievement['metric'], string> = {
-  searches: 'searches',
-  entriesSaved: 'saved words',
-  reviews: 'reviews',
-  correct: 'correct answers',
-  characters: 'character pages',
-  readings: 'read texts',
-  days: 'study days',
-};
-
 export default function ProgressPage() {
   const { prefs } = usePreferences();
 
@@ -76,7 +58,6 @@ export default function ProgressPage() {
   const savedRows = useLiveQuery(() => db.savedWords.toArray(), [], []);
   const lists = useLiveQuery(() => db.wordLists.toArray(), [], []);
   const notebooks = useLiveQuery(() => db.notebooks.toArray(), [], []);
-  const unlockedRows = useLiveQuery(() => db.achievements.toArray(), [], []);
 
   const sums = useMemo(() => totals(days), [days]);
   const activeKeys = useMemo(() => days.filter(isActiveDay).map((day) => day.day), [days]);
@@ -111,17 +92,6 @@ export default function ProgressPage() {
       return { key, label: show ? `${day}` : '', value: byDay.get(key)?.reviews ?? 0 };
     });
   }, [byDay]);
-
-  const evaluated = useMemo(
-    () => evaluateAchievements(sums, unlockedRows),
-    [sums, unlockedRows],
-  );
-  useEffect(() => {
-    if (evaluated.newly.length === 0) return;
-    void db.achievements
-      .bulkPut(evaluated.newly)
-      .catch((error: unknown) => console.error('Could not store unlocked achievements', error));
-  }, [evaluated]);
 
   const noDataAtAll =
     activeKeys.length === 0 &&
@@ -257,48 +227,6 @@ export default function ProgressPage() {
           Charts are plain CSS and HTML drawn on this device — no chart library, no network request.
           Colour never carries meaning alone: each bar and cell also prints its number.
         </p>
-      </section>
-
-      <section className="card learn-panel" aria-labelledby="prog-achieve-heading">
-        <h2 id="prog-achieve-heading" className="h3">
-          Achievements
-        </h2>
-        <p className="learn-section-lead">
-          These are the app’s fixed {ACHIEVEMENTS.length} goals, measured only against this device.
-          A goal shows as locked until its criterion has truly happened here, and none of them
-          gate a feature.
-        </p>
-        <div className="learn-achieve">
-          {evaluated.rows.map((row) => {
-            const reached = metricValue(row.metric, sums);
-            const done = Boolean(row.unlockedAt);
-            return (
-              <div key={row.id} className="learn-achieve-item" data-locked={done ? 'false' : 'true'}>
-                <div className="learn-achieve-head">
-                  {done ? <IconCheck className="learn-spark" /> : <IconSpark className="learn-spark" />}
-                  <strong>{row.title}</strong>
-                  {done ? (
-                    <span className="badge badge-ok">earned</span>
-                  ) : (
-                    <span className="badge">locked</span>
-                  )}
-                </div>
-                <span className="text-sm muted">{row.description}</span>
-                <ProgressBar
-                  value={Math.min(reached, row.goal)}
-                  total={row.goal}
-                  label={`${row.title}: ${reached} of ${row.goal}`}
-                />
-                <p className="learn-footnote">
-                  {reached} of {row.goal} {METRIC_NOUNS[row.metric]}
-                  {done
-                    ? ` · earned ${formatDate(row.unlockedAt)}`
-                    : ' · not reached on this device yet'}
-                </p>
-              </div>
-            );
-          })}
-        </div>
       </section>
 
       <p className="learn-local-line">

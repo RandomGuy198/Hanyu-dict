@@ -115,6 +115,10 @@
   background: color-mix(in srgb, var(--danger-600) 16%, var(--bg-raised));
   color: var(--danger-600);
 }
+.badge-info {
+  background: color-mix(in srgb, var(--accent-600, var(--ok-600)) 14%, var(--bg-raised));
+  color: var(--accent-600, var(--ok-600));
+}
 
 .field {
   display: flex;

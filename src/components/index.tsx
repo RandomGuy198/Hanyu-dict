@@ -357,19 +357,19 @@ export function LoadingGate({ children }: { children: ReactNode }) {
       <div className="stack">
         <div className="notice notice-danger" role="alert">
           <div>
-            <strong>Dictionary data is not available</strong>
+            <strong>Chưa tải được dữ liệu từ điển</strong>
             <p>{state.error ?? state.message}</p>
             <p className="text-sm faint">
-              Saved words, notes and flashcard schedules are untouched. Check the offline-data
-              screen, then try again.
+              Từ đã lưu, ghi chú và lịch ôn tập vẫn còn nguyên. Kiểm tra màn Dữ liệu &amp; đồng bộ
+              rồi thử lại.
             </p>
             <button type="button" className="btn btn-sm" onClick={() => void reload()}>
-              Try again
+              Thử lại
             </button>
           </div>
         </div>
-        <Link to="/offline-data" className="btn btn-sm">
-          Manage downloaded data
+        <Link to="/data" className="btn btn-sm">
+          Quản lý dữ liệu đã tải
         </Link>
       </div>
     );

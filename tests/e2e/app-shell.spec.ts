@@ -40,17 +40,27 @@ test.describe('published shell', () => {
     await gotoReady(page);
     await expect(page.getByRole('heading', { level: 1, name: APP_NAME })).toBeVisible();
     await expect(page.getByLabel(/Search — Hanzi, pinyin or English/).first()).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Library' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Offline data' })).toBeVisible();
+    // The five primary destinations from D-22, in both the sidebar and the mobile bar.
+    for (const label of ['Sách & Khóa học', 'Từ điển', 'Ôn tập', 'Tập viết', 'Sổ tay']) {
+      await expect(page.getByRole('link', { name: label }).first(), label).toBeVisible();
+    }
     expect(failures).toEqual([]);
   });
 
-  test('the offline-data screen reports the packs that were installed', async ({ page }) => {
+  test('retired screens redirect instead of breaking old bookmarks', async ({ page }) => {
+    // `/capture` (camera/OCR) and `/offline-data` (manual packs) were removed in v0.2.
+    await gotoReady(page, '/#/capture');
+    await expect(page).toHaveURL(/#\/reader$/);
     await gotoReady(page, '/#/offline-data');
-    await expect(page.getByText('dictionary-core', { exact: false }).first()).toBeVisible();
-    // Byte sizes and licence names come from the registry, never from a hardcoded string.
-    // The registry stores the SPDX id, so this matches `CC-BY-SA-4.0` as printed.
-    await expect(page.getByText(/CC[- ]BY[- ]SA[- ]4\.0/).first()).toBeVisible();
+    await expect(page).toHaveURL(/#\/settings$/);
+    await expect(page.getByRole('heading', { level: 1, name: 'Cài đặt' })).toBeVisible();
+  });
+
+  test('the settings screen offers no device-voice picker', async ({ page }) => {
+    await gotoReady(page, '/#/settings');
+    await expect(page.getByRole('heading', { name: 'Âm thanh' })).toBeVisible();
+    await expect(page.getByText(/Device text-to-speech only/)).toHaveCount(0);
+    await expect(page.getByLabel(/Spoken language tag/)).toHaveCount(0);
   });
 
   test('the about screen names the upstream sources and links the licence texts', async ({ page }) => {

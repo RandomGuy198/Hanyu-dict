@@ -51,7 +51,7 @@ function matchesQuery(text: string, needle: string): boolean {
   return text.toLowerCase().includes(needle);
 }
 
-export default function LearnPage() {
+export default function LearnPage({ compact = false }: { compact?: boolean } = {}) {
   const toast = useToast();
   const catalog = useLiveQuery(() => loadContentCatalog(), []);
   const { marks, toggle: toggleRead } = useReadMarks();
@@ -125,19 +125,29 @@ export default function LearnPage() {
 
   const body = (
     <div className="stack">
-      <PageHeader
-        title="Learn"
-        subtitle={
-          catalog
-            ? `${visible.length} of ${items.length} items shown · ${installedCount} of ${catalog.packs.length} content packs on this device`
-            : 'Reading content from this project’s own packs'
-        }
-        actions={
+      {compact ? (
+        <div className="prof-section-head">
+          <h2>Bài đọc ngắn &amp; mẹo học</h2>
+          <span className="spacer" />
           <Link to="/settings" className="btn btn-sm">
-            Display settings
+            Cài đặt hiển thị
           </Link>
-        }
-      />
+        </div>
+      ) : (
+        <PageHeader
+          title="Learn"
+          subtitle={
+            catalog
+              ? `${visible.length} of ${items.length} items shown · ${installedCount} of ${catalog.packs.length} content packs on this device`
+              : 'Reading content from this project’s own packs'
+          }
+          actions={
+            <Link to="/settings" className="btn btn-sm">
+              Display settings
+            </Link>
+          }
+        />
+      )}
 
       <div className="notice notice-info">
         <div>

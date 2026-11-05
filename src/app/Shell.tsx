@@ -1,21 +1,19 @@
-/** Application chrome: landmarks, navigation, update and offline status. */
+/** Application chrome: landmarks, navigation, update status, GitHub sync status. */
 
 import { useEffect, useState, type ReactNode } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { registerSW } from 'virtual:pwa-register';
 import { usePreferences } from './providers';
 import { useAnnounceRoute } from './hooks';
+import { SyncStatusPill } from '../modules/books/SyncStatusPill';
 import {
   BrandMark,
   IconBook,
-  IconCamera,
   IconCards,
-  IconDownload,
   IconGear,
   IconGrid,
   IconPen,
   IconSearch,
-  IconSpark,
 } from './icons';
 
 interface NavItem {
@@ -25,20 +23,23 @@ interface NavItem {
   end?: boolean;
 }
 
+/**
+ * Five primary destinations (D-22). Both the desktop sidebar and the mobile bottom bar render this
+ * same list, so a route can never exist in one and be missing from the other.
+ */
 const PRIMARY_NAV: NavItem[] = [
-  { to: '/', label: 'Dictionary', icon: <IconSearch />, end: true },
-  { to: '/library', label: 'Library', icon: <IconGrid /> },
-  { to: '/practice', label: 'Practice', icon: <IconCards /> },
-  { to: '/learn', label: 'Learn', icon: <IconBook /> },
-  { to: '/settings', label: 'Settings', icon: <IconGear /> },
+  { to: '/books', label: 'Sách & Khóa học', icon: <IconBook /> },
+  { to: '/', label: 'Từ điển', icon: <IconSearch />, end: true },
+  { to: '/study', label: 'Ôn tập', icon: <IconCards /> },
+  { to: '/writing', label: 'Tập viết', icon: <IconPen /> },
+  { to: '/library', label: 'Sổ tay', icon: <IconGrid /> },
 ];
 
+/** Destinations reachable from the header/sidebar, not part of the five primary tabs. */
 const SECONDARY_NAV: NavItem[] = [
-  { to: '/capture', label: 'Camera & OCR', icon: <IconCamera /> },
-  { to: '/reader', label: 'Reader', icon: <IconBook /> },
-  { to: '/writing', label: 'Writing practice', icon: <IconPen /> },
-  { to: '/progress', label: 'Progress', icon: <IconSpark /> },
-  { to: '/offline-data', label: 'Offline data', icon: <IconDownload /> },
+  { to: '/reader', label: 'Dán văn bản', icon: <IconBook /> },
+  { to: '/progress', label: 'Tiến độ', icon: <IconCards /> },
+  { to: '/test', label: 'Kiểm tra', icon: <IconPen /> },
 ];
 
 function UpdateBanner() {
@@ -59,12 +60,12 @@ function UpdateBanner() {
   return (
     <div className="notice notice-info update-banner" role="status">
       <div className="row-wrap">
-        <span>A new version is ready. Updating does not delete your notes or study schedule.</span>
+        <span>Có bản mới. Cập nhật không làm mất ghi chú hay lịch ôn tập của bạn.</span>
         <button type="button" className="btn btn-sm btn-primary" onClick={() => window.location.reload()}>
-          Update now
+          Cập nhật ngay
         </button>
         <button type="button" className="btn btn-sm" onClick={() => setAvailable(false)}>
-          Later
+          Để sau
         </button>
       </div>
     </div>
@@ -84,11 +85,7 @@ function OfflinePill() {
     };
   }, []);
   if (online) return null;
-  return (
-    <span className="badge badge-warn offline-pill">
-      Offline — installed data only
-    </span>
-  );
+  return <span className="badge badge-warn offline-pill">Ngoại tuyến</span>;
 }
 
 export function Shell() {
@@ -99,15 +96,15 @@ export function Shell() {
   return (
     <div className="app-shell">
       <a className="skip-link" href="#main">
-        Skip to content
+        Bỏ qua tới nội dung
       </a>
 
-      <nav className="app-sidebar" aria-label="Main sections">
-        <Link to="/" className="brand" aria-label="Hanyu Dictionary home">
+      <nav className="app-sidebar" aria-label="Khu vực chính">
+        <Link to="/" className="brand" aria-label="Hán Ngữ — trang chủ">
           <BrandMark />
           <span>
-            Hanyu Dictionary
-            <span className="visually-hidden"> — independent, offline-capable</span>
+            Hán Ngữ
+            <span className="visually-hidden"> — từ điển và giáo trình</span>
           </span>
         </Link>
         {PRIMARY_NAV.map((item) => (
@@ -116,7 +113,7 @@ export function Shell() {
             <span>{item.label}</span>
           </NavLink>
         ))}
-        <p className="side-title">Tools</p>
+        <p className="side-title">Công cụ</p>
         {SECONDARY_NAV.map((item) => (
           <NavLink key={item.to} to={item.to}>
             {item.icon}
@@ -124,25 +121,26 @@ export function Shell() {
           </NavLink>
         ))}
         <span className="spacer" />
-        <p className="side-title">Status</p>
+        <p className="side-title">Trạng thái</p>
         <p className="text-sm faint" style={{ padding: '0 0.75rem' }}>
           <OfflinePill />
-          <span>Data packs: {prefs.installedPacks.length || 'checking'}</span>
+          <span>Gói dữ liệu: {prefs.installedPacks.length || '…'}</span>
         </p>
-        <Link to="/about" className="btn btn-ghost btn-sm">
-          About &amp; licences
+        <Link to="/settings" className="btn btn-ghost btn-sm">
+          <IconGear /> Cài đặt &amp; bản quyền
         </Link>
       </nav>
 
       <div className="app-body">
         <header className="app-bar">
-          <Link to="/" className="brand" aria-label="Hanyu Dictionary home">
+          <Link to="/" className="brand" aria-label="Hán Ngữ — trang chủ">
             <BrandMark />
-            <span>Hanyu Dictionary</span>
+            <span>Hán Ngữ</span>
           </Link>
           <span className="spacer" />
+          <SyncStatusPill />
           <OfflinePill />
-          <Link to="/settings" className="btn btn-ghost btn-icon" aria-label="Settings">
+          <Link to="/settings" className="btn btn-ghost btn-icon" aria-label="Cài đặt">
             <IconGear />
           </Link>
         </header>
@@ -152,7 +150,7 @@ export function Shell() {
           <Outlet />
         </main>
 
-        <nav className="app-nav" aria-label="Primary">
+        <nav className="app-nav" aria-label="Điều hướng chính">
           {PRIMARY_NAV.map((item) => (
             <NavLink key={item.to} to={item.to} end={item.end}>
               {item.icon}

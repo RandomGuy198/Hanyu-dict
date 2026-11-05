@@ -86,24 +86,6 @@ export const PACK_DEFS = {
     coverageMode: 'item-files',
     shardGlob: '*.json',
   },
-  'ocr-chi_sim': {
-    kind: 'ocr',
-    label: 'OCR: Simplified Chinese',
-    source: 'tessdata-fast',
-    required: false,
-    languages: ['zh-Hans'],
-    coverageMode: 'item-files',
-    shardGlob: '*.gz',
-  },
-  'ocr-eng': {
-    kind: 'ocr',
-    label: 'OCR: English',
-    source: 'tessdata-fast',
-    required: false,
-    languages: ['en'],
-    coverageMode: 'item-files',
-    shardGlob: '*.gz',
-  },
 };
 
 export const PACK_ORDER = [
@@ -115,16 +97,6 @@ export const PACK_ORDER = [
   'content-lessons',
   'content-stories',
   'content-articles',
-  'ocr-chi_sim',
-  'ocr-eng',
-];
-
-/** Runtime code / binaries bundled with the OCR pack. */
-export const OCR_WORKER_FILES = ['worker.min.js', 'tesseract-core-lstm.wasm.js', 'tesseract-core-simd-lstm.wasm.js'];
-
-export const OCR_LANGS = [
-  { packId: 'ocr-chi_sim', lang: 'chi_sim', label: 'Simplified Chinese' },
-  { packId: 'ocr-eng', lang: 'eng', label: 'English' },
 ];
 
 export function packDef(packId) {

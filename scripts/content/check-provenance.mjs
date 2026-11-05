@@ -12,10 +12,9 @@
  *      unrecorded file hides in a pack directory.
  *   4. Every licence text referenced by provenance exists, is non-empty and matches any pinned hash.
  *   5. THIRD_PARTY_NOTICES.md names every source and its licence.
- *   6. The opt-in OCR assets match public/data/ocr/manifest.json and the pinned model hashes.
- *   7. If the raw cache is present, every pinned download hash is re-verified (skipped with a note
+ *   6. If the raw cache is present, every pinned download hash is re-verified (skipped with a note
  *      when it is not, as in CI).
- *   8. Clean-room guard: no reference APK, decompiled source or third-party product name leaks into
+ *   7. Clean-room guard: no reference APK, decompiled source or third-party product name leaks into
  *      the shipped app.
  */
 import fs from 'node:fs';
@@ -24,7 +23,6 @@ import { pathToFileURL } from 'node:url';
 import {
   DATA_DIR,
   LICENSES_DIR,
-  OCR_DIR,
   PACKS_DIR,
   REPO_ROOT,
   exists,
@@ -37,7 +35,6 @@ import {
 import { PACK_DEFS, PACK_ORDER } from './lib/packs.mjs';
 import { loadProvenance, sourceForPack, cacheExpectations } from './lib/provenance.mjs';
 
-const STATIC_ONLY_KINDS = new Set(['ocr']);
 const SHA = /^[a-f0-9]{64}$/;
 const failures = [];
 const notes = [];
@@ -62,7 +59,6 @@ function checkRegister(reg) {
   for (const packId of PACK_ORDER) {
     const def = PACK_DEFS[packId];
     if (!def) fail('register', `PACK_ORDER lists ${packId} but PACK_DEFS has no entry for it`);
-    if (def && def.kind === 'ocr' && !STATIC_ONLY_KINDS.has(def.kind)) fail('register', `${packId} kind mismatch`);
   }
   for (const [packId, def] of Object.entries(PACK_DEFS)) {
     if (!PACK_ORDER.includes(packId)) fail('register', `PACK_DEFS entry ${packId} (${def.kind}) is not in PACK_ORDER`);
@@ -158,7 +154,7 @@ async function checkManifest(reg) {
 
   for (const packId of PACK_ORDER) {
     const def = PACK_DEFS[packId];
-    if (STATIC_ONLY_KINDS.has(def.kind)) continue;
+    if (!def) continue;
     if (!exists(path.join(PACKS_DIR, packId))) continue;
     if (!declaredDirs.has(packId)) fail('manifest', `public/data/packs/${packId} exists on disk but no manifest pack declares it`);
   }
@@ -233,7 +229,7 @@ async function checkRuntimeLicences() {
     return;
   }
   const doc = readText(file);
-  for (const required of ['react', 'react-dom', 'react-router-dom', 'dexie', 'zod', 'pdfjs-dist', 'hanzi-writer', 'tesseract.js', 'workbox-window']) {
+  for (const required of ['react', 'react-dom', 'react-router-dom', 'dexie', 'zod', 'hanzi-writer', 'workbox-window']) {
     if (!doc.includes(`\`${required}\``)) fail('licences', `RUNTIME_NOTICES.md does not list ${required}`);
   }
   if (!/Apache-2\.0\.txt/.test(doc)) fail('licences', 'RUNTIME_NOTICES.md does not point at the shipped Apache-2.0 text');
@@ -251,37 +247,7 @@ async function checkRuntimeLicences() {
   }
 }
 
-/** 6. the opt-in OCR payload. */
-async function checkOcr(reg) {
-  const manifestPath = path.join(OCR_DIR, 'manifest.json');
-  if (!exists(manifestPath)) {
-    fail('ocr', 'public/data/ocr/manifest.json is missing - run: node scripts/content/build-ocr.mjs');
-    return;
-  }
-  const doc = JSON.parse(readText(manifestPath));
-  const tess = reg.byId.get('tessdata-fast');
-  for (const model of doc.models || []) {
-    const full = path.join(OCR_DIR, model.path);
-    if (!exists(full)) {
-      fail('ocr', `${model.path} is declared but missing`);
-      continue;
-    }
-    const digest = await sha256File(full);
-    if (digest !== model.sha256) fail('ocr', `${model.path}: sha256 drift`);
-    if (fs.statSync(full).size !== model.bytes) fail('ocr', `${model.path}: size drift`);
-    const pin = (tess?.downloads || []).find((d) => d.cacheFile === `${model.lang}.traineddata`);
-    if (!pin) fail('ocr', `no provenance pin for ${model.lang}.traineddata`);
-    else if (model.rawSha256 !== pin.sha256) fail('ocr', `${model.lang}: model hash ${model.rawSha256} does not match the pinned raw traineddata ${pin.sha256}`);
-  }
-  for (const runtime of doc.runtime || []) {
-    const full = path.join(OCR_DIR, runtime.path);
-    if (!exists(full)) fail('ocr', `${runtime.path} is declared but missing`);
-    else if ((await sha256File(full)) !== runtime.sha256) fail('ocr', `${runtime.path}: sha256 drift`);
-  }
-  if (!(doc.runtime || []).length) fail('ocr', 'no OCR worker/core files staged');
-}
-
-/** 7. optional cache re-verification. */
+/** 6. optional cache re-verification. */
 async function checkCache(reg, cacheDir) {
   if (!exists(cacheDir)) {
     notes.push(`raw cache ${cacheDir} is absent (expected in CI); pack hashes were verified instead`);
@@ -301,7 +267,7 @@ async function checkCache(reg, cacheDir) {
   notes.push(`${verified}/${cacheExpectations(reg).length} cache files re-verified against provenance.json`);
 }
 
-/** 8. clean-room guard over the shipped application only. */
+/** 7. clean-room guard over the shipped application only. */
 function checkCleanRoom() {
   const shipped = [path.join(REPO_ROOT, 'src'), path.join(REPO_ROOT, 'public'), path.join(REPO_ROOT, 'scripts')];
   const bannedNames = /\.apk$|\.apk\.|jadx|smali|decompil/i;
@@ -335,7 +301,6 @@ export async function check({ cacheDir, quiet = false } = {}) {
   checkRegister(reg);
   const manifest = await checkManifest(reg);
   await checkLicences(reg);
-  await checkOcr(reg);
   await checkCache(reg, cache);
   checkCleanRoom();
 

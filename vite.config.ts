@@ -12,7 +12,7 @@ import { fileURLToPath, URL } from 'node:url';
 function cspForProduction(): Plugin {
   const policy = [
     "default-src 'self'",
-    "script-src 'self' 'wasm-unsafe-eval'",
+    "script-src 'self'",
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob:",
     "media-src 'self' data: blob:",
@@ -54,8 +54,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,webmanifest}', 'licenses/**/*.{txt,md}'],
         // Nothing under data/ is ever precached: packs are installed into IndexedDB with hash
-        // verification, and the opt-in OCR runtime (data/ocr/*.js) must not be pushed to the
-        // device by the service worker either.
+        // verification, so the service worker must not push any of them to the device.
         globIgnores: ['**/data/**'],
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,

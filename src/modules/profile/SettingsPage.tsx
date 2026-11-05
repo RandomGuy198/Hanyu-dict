@@ -1,8 +1,9 @@
-/** `/settings` — every preference the spine exposes, all of it free and stored on this device.
+/** `/settings` — mọi tuỳ chọn của ứng dụng, tất cả đều miễn phí và lưu trên máy này.
  *
- *  Speech claims are checked against `inspectSpeech()`, so the screen never promises a Chinese
- *  voice the device does not have. Install guidance uses the real `beforeinstallprompt` event
- *  when the browser offers one and manual steps when it does not. */
+ *  Màn hình này không còn bộ chọn giọng đọc của thiết bị (`D-21.5`): âm thanh phát âm đến từ
+ *  kho riêng `Hanyu-data` (bản thu bài khoá + Edge TTS), được quản lý ở thẻ kết nối GitHub.
+ *  Phần cài đặt ứng dụng dùng đúng sự kiện `beforeinstallprompt` khi trình duyệt cung cấp và
+ *  hướng dẫn thủ công khi không có. */
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -14,7 +15,6 @@ import {
 import { IconDownload, IconGear } from '../../app/icons';
 import { usePreferences, useToast } from '../../app/providers';
 import type { Preferences } from '../../domain/types';
-import { SpeechPanel } from './settingsSpeech';
 import './profile.css';
 
 /** `beforeinstallprompt` is not in the DOM lib; the two members we call are documented by the
@@ -80,7 +80,7 @@ export default function SettingsPage() {
     const onInstalled = () => {
       setInstalled(true);
       setInstallEvent(null);
-      setInstallNote('The browser reports this copy as installed.');
+      setInstallNote('Trình duyệt báo bản này đã được cài.');
     };
     window.addEventListener('beforeinstallprompt', onPrompt);
     window.addEventListener('appinstalled', onInstalled);
@@ -96,8 +96,8 @@ export default function SettingsPage() {
     const choice = await installEvent.userChoice;
     setInstallNote(
       choice.outcome === 'accepted'
-        ? 'The browser accepted the install. It is still the browser that owns the shortcut.'
-        : 'You dismissed the browser install dialog, so nothing was installed.',
+        ? 'Trình duyệt đã nhận lệnh cài. Lối tắt vẫn do trình duyệt quản lý.'
+        : 'Bạn đã đóng hộp thoại cài đặt nên chưa có gì được cài.',
     );
     if (choice.outcome === 'accepted') setInstalled(true);
     setInstallEvent(null);
@@ -113,22 +113,22 @@ export default function SettingsPage() {
   const installSteps = useMemo<string[]>(() => {
     if (platform === 'ios') {
       return [
-        'Open this site in Safari (Chrome on iOS cannot install web apps).',
-        'Tap the Share button in the toolbar.',
-        'Choose “Add to Home Screen”, then confirm.',
+        'Mở trang này bằng Safari (Chrome trên iOS không cài được web app).',
+        'Bấm nút Chia sẻ trên thanh công cụ.',
+        'Chọn “Thêm vào Màn hình chính” rồi xác nhận.',
       ];
     }
     if (platform === 'android') {
       return [
-        'Open this site in Chrome or Edge.',
-        'Open the browser menu (three dots).',
-        'Choose “Add to home screen” / “Install app”. If neither appears, this browser does not offer installs.',
+        'Mở trang này bằng Chrome hoặc Edge.',
+        'Mở menu trình duyệt (ba dấu chấm).',
+        'Chọn “Thêm vào màn hình chính” / “Cài đặt ứng dụng”. Nếu không thấy mục nào, trình duyệt này không hỗ trợ cài đặt.',
       ];
     }
     return [
-      'In Chrome or Edge, look for the install icon at the right end of the address bar.',
-      'Or open the browser menu and choose “Install app” / “Apps”, then “Install this site as an app”.',
-      'Firefox and Safari on the desktop do not offer an install entry for this site; a bookmark works offline once the data is downloaded.',
+      'Trên Chrome hoặc Edge, tìm biểu tượng cài đặt ở cuối thanh địa chỉ.',
+      'Hoặc mở menu trình duyệt, chọn “Cài đặt ứng dụng” / “Ứng dụng” rồi “Cài trang này thành ứng dụng”.',
+      'Firefox và Safari trên máy tính không có mục cài đặt cho trang này; dùng dấu trang vẫn đọc offline được sau khi tải dữ liệu.',
     ];
   }, [platform]);
 
@@ -137,10 +137,10 @@ export default function SettingsPage() {
   if (!ready) {
     return (
       <div className="stack" role="status" aria-live="polite">
-        <PageHeader title="Settings" />
+        <PageHeader title="Cài đặt" />
         <div className="skeleton" style={{ height: 96 }} />
         <div className="skeleton" style={{ height: 96 }} />
-        <p className="prof-status">Reading your saved settings from this device…</p>
+        <p className="prof-status">Đang đọc cài đặt đã lưu trên máy…</p>
       </div>
     );
   }
@@ -148,98 +148,98 @@ export default function SettingsPage() {
   return (
     <div className="stack">
       <PageHeader
-        title="Settings"
-        subtitle="Everything here is stored in this browser’s IndexedDB. No account, no server, no paid tier."
+        title="Cài đặt"
+        subtitle="Mọi thứ ở đây được lưu trong IndexedDB của trình duyệt này. Không tài khoản, không máy chủ, không gói trả phí."
         actions={
           <button type="button" className="btn btn-sm" onClick={() => setResetOpen(true)}>
-            <IconGear /> Reset to defaults
+            <IconGear /> Về mặc định
           </button>
         }
       />
 
       <section className="card prof-section" aria-labelledby="prof-appearance">
         <div className="prof-section-head">
-          <h2 id="prof-appearance">Appearance</h2>
+          <h2 id="prof-appearance">Giao diện</h2>
           <span className="spacer" />
-          <span className="prof-count">Applies as soon as you tap it</span>
+          <span className="prof-count">Áp dụng ngay khi bấm</span>
         </div>
         <div className="field">
-          <span className="prof-block-label" id="prof-theme-label">Colour theme</span>
+          <span className="prof-block-label" id="prof-theme-label">Màu nền</span>
           <Segmented<Preferences['theme']>
-            label="Colour theme"
+            label="Màu nền"
             value={prefs.theme}
             onChange={(value) => setPref({ theme: value })}
             options={[
-              { value: 'auto', label: 'Follow system' },
-              { value: 'light', label: 'Light' },
-              { value: 'dark', label: 'Dark' },
+              { value: 'auto', label: 'Theo hệ thống' },
+              { value: 'light', label: 'Sáng' },
+              { value: 'dark', label: 'Tối' },
             ]}
           />
         </div>
         <div className="field">
-          <span className="prof-block-label" id="prof-contrast-label">Contrast</span>
+          <span className="prof-block-label" id="prof-contrast-label">Độ tương phản</span>
           <Segmented<Preferences['contrast']>
-            label="Contrast"
+            label="Độ tương phản"
             value={prefs.contrast}
             onChange={(value) => setPref({ contrast: value })}
             options={[
-              { value: 'normal', label: 'Normal' },
-              { value: 'high', label: 'High contrast' },
+              { value: 'normal', label: 'Bình thường' },
+              { value: 'high', label: 'Tương phản cao' },
             ]}
           />
         </div>
         <div className="field">
-          <span className="prof-block-label" id="prof-motion-label">Motion</span>
+          <span className="prof-block-label" id="prof-motion-label">Chuyển động</span>
           <Segmented<'reduced' | 'default'>
-            label="Animation"
+            label="Hiệu ứng"
             value={prefs.reduceMotion ? 'reduced' : 'default'}
             onChange={(value) => setPref({ reduceMotion: value === 'reduced' })}
             options={[
-              { value: 'default', label: 'Animated' },
-              { value: 'reduced', label: 'Reduced' },
+              { value: 'default', label: 'Có hiệu ứng' },
+              { value: 'reduced', label: 'Giảm hiệu ứng' },
             ]}
           />
           <p className="prof-help">
-            Reduced also shortens every transition; the browser’s own “reduce motion” system
-            setting is honoured too.
+            Chế độ giảm cũng rút ngắn mọi hiệu ứng chuyển; thiết lập “giảm chuyển động” của hệ
+            thống cũng được tôn trọng.
           </p>
         </div>
         <div className="field">
-          <span className="prof-block-label" id="prof-script-label">Headword script</span>
+          <span className="prof-block-label" id="prof-script-label">Chữ hiển thị</span>
           <Segmented<Preferences['displayScript']>
-            label="Headword script"
+            label="Chữ hiển thị"
             value={prefs.displayScript}
             onChange={(value) => setPref({ displayScript: value })}
             options={[
-              { value: 'simplified', label: 'Simplified' },
-              { value: 'traditional', label: 'Traditional' },
-              { value: 'both', label: 'Both' },
+              { value: 'simplified', label: 'Giản thể' },
+              { value: 'traditional', label: 'Phồn thể' },
+              { value: 'both', label: 'Cả hai' },
             ]}
           />
           <p className="prof-help">
-            Both forms come from the Unihan variant maps in the character pack; characters Unihan
-            does not map stay as written.
+            Hai dạng chữ lấy từ bảng biến thể Unihan trong gói chữ; ký tự Unihan không ánh xạ
+            được sẽ giữ nguyên như văn bản gốc.
           </p>
         </div>
         <div className="field">
-          <span className="prof-block-label" id="prof-font-label">Font face</span>
+          <span className="prof-block-label" id="prof-font-label">Phông chữ</span>
           <Segmented<Preferences['fontStack']>
-            label="Font face"
+            label="Phông chữ"
             value={prefs.fontStack}
             onChange={(value) => setPref({ fontStack: value })}
             options={[
-              { value: 'system', label: 'System sans' },
-              { value: 'serif-cjk', label: 'Serif where available' },
+              { value: 'system', label: 'Sans hệ thống' },
+              { value: 'serif-cjk', label: 'Serif nếu có' },
             ]}
           />
           <p className="prof-help">
-            No font files are downloaded: this uses faces already installed on your device, so
-            results differ between devices.
+            Không tải tệp phông nào: ứng dụng dùng phông đã có trên máy nên kết quả khác nhau
+            giữa các thiết bị.
           </p>
         </div>
         <div className="field prof-range-row">
           <label htmlFor="prof-scale">
-            Text size ({Math.round(prefs.textScale * 100)}% of the default)
+            Cỡ chữ ({Math.round(prefs.textScale * 100)}% so với mặc định)
           </label>
           <input
             id="prof-scale"
@@ -251,73 +251,93 @@ export default function SettingsPage() {
             onChange={(event) => setPref({ textScale: Number(event.target.value) })}
           />
           <p className="prof-help">
-            Sample: <span className="cjk">中文拼音</span> — layout is also tested at 200% browser
-            zoom.
+            Mẫu: <span className="cjk">中文拼音</span> — bố cục cũng được kiểm tra ở mức thu phóng
+            200%.
           </p>
         </div>
       </section>
 
       <section className="card prof-section" aria-labelledby="prof-reading">
         <div className="prof-section-head">
-          <h2 id="prof-reading">Reading &amp; pinyin</h2>
+          <h2 id="prof-reading">Đọc &amp; phiên âm</h2>
         </div>
         <div className="field">
-          <span className="prof-block-label" id="prof-py-style-label">Pinyin style</span>
+          <span className="prof-block-label" id="prof-py-style-label">Kiểu phiên âm</span>
           <Segmented<Preferences['pinyinStyle']>
-            label="Pinyin style"
+            label="Kiểu phiên âm"
             value={prefs.pinyinStyle}
             onChange={(value) => setPref({ pinyinStyle: value })}
             options={[
-              { value: 'marks', label: 'Tone marks (mā)' },
-              { value: 'numbers', label: 'Tone numbers (ma1)' },
-              { value: 'none', label: 'Hidden' },
+              { value: 'marks', label: 'Dấu thanh (mā)' },
+              { value: 'numbers', label: 'Số thanh (ma1)' },
+              { value: 'none', label: 'Ẩn' },
             ]}
           />
         </div>
         <SwitchRow
           id="prof-show-py"
-          label="Show pinyin"
-          help="Master switch for entry lines, examples and the reading screens. Each reading screen can also be toggled from the item itself."
+          label="Hiện phiên âm"
+          help="Công tắc chung cho dòng mục từ, ví dụ và các màn đọc. Mỗi màn đọc vẫn có thể bật/tắt riêng."
           checked={prefs.showPinyin}
           onChange={(next) => setPref({ showPinyin: next })}
         />
         <SwitchRow
           id="prof-show-ex"
-          label="Show example sentences"
-          help="Examples come from the Tatoeba pack; if that pack is not installed the section says so instead of inventing sentences."
+          label="Hiện câu ví dụ"
+          help="Ví dụ lấy từ gói Tatoeba; nếu chưa có gói đó, mục này ghi rõ thay vì tự tạo câu."
           checked={prefs.showExamples}
           onChange={(next) => setPref({ showExamples: next })}
         />
         <p className="prof-help">
-          Definitions are English only in this build, because that is what the dictionary pack
-          contains.
+          Nghĩa tiếng Việt lấy từ CVDICT và nghĩa Hán-Việt từ Unihan; nghĩa tiếng Anh vẫn được
+          giữ song song để đối chiếu.
         </p>
       </section>
 
-      <section className="card prof-section" aria-labelledby="prof-speech">
+      <section className="card prof-section" aria-labelledby="prof-audio">
         <div className="prof-section-head">
-          <h2 id="prof-speech">Voice</h2>
+          <h2 id="prof-audio">Âm thanh</h2>
           <span className="spacer" />
-          <span className="prof-count">Device text-to-speech only</span>
+          <span className="prof-count">Bản thu bài khoá + Edge TTS</span>
         </div>
-
-        <SpeechPanel prefs={prefs} setPref={setPref} />
-
         <SwitchRow
           id="prof-autospeak"
-          label="Speak a headword automatically when an entry is opened"
-          help="Only ever uses a Chinese voice that really exists on this device."
+          label="Tự phát âm khi mở một mục từ"
+          help="Dùng tệp phát âm đã đồng bộ từ kho riêng Hanyu-data; nếu chưa có tệp thì giữ im lặng thay vì đọc bằng giọng máy."
           checked={prefs.autoSpeak}
           onChange={(next) => setPref({ autoSpeak: next })}
         />
+        <div className="field prof-range-row">
+          <label htmlFor="prof-rate">
+            Tốc độ phát ({Math.round(prefs.ttsRate * 100)}% tốc độ thường)
+          </label>
+          <input
+            id="prof-rate"
+            type="range"
+            min={0.5}
+            max={1.5}
+            step={0.05}
+            value={prefs.ttsRate}
+            onChange={(event) => setPref({ ttsRate: Number(event.target.value) })}
+          />
+          <p className="prof-help">
+            Tốc độ này áp dụng cho mọi đoạn âm thanh phát trong ứng dụng, gồm cả bản thu gốc của
+            bài khoá.
+          </p>
+        </div>
+        <p className="prof-help">
+          Kho sách, bài khoá và âm thanh nằm trong repository riêng tư{' '}
+          <code>RandomGuy198/Hanyu-data</code>. Kết nối và đồng bộ ở màn{' '}
+          <Link to="/data">Dữ liệu &amp; đồng bộ</Link>.
+        </p>
       </section>
 
       <section className="card prof-section" aria-labelledby="prof-goals">
         <div className="prof-section-head">
-          <h2 id="prof-goals">Daily goal</h2>
+          <h2 id="prof-goals">Mục tiêu hằng ngày</h2>
         </div>
         <div className="field">
-          <label htmlFor="prof-goal">Target items per day</label>
+          <label htmlFor="prof-goal">Số mục mỗi ngày</label>
           <input
             id="prof-goal"
             className="input"
@@ -332,75 +352,71 @@ export default function SettingsPage() {
             }}
           />
           <p className="prof-help">
-            Counted locally on the progress screen. 0 means no target rather than a locked feature.
+            Đếm cục bộ trên màn tiến độ. 0 nghĩa là không đặt mục tiêu, không phải khoá tính năng.
           </p>
         </div>
       </section>
 
       <section className="card prof-section" aria-labelledby="prof-install">
         <div className="prof-section-head">
-          <h2 id="prof-install">Install as an app</h2>
+          <h2 id="prof-install">Cài thành ứng dụng</h2>
           <span className="spacer" />
-          <span className="badge badge-ok">{installed ? 'Running installed' : 'Running in a browser tab'}</span>
+          <span className="badge badge-ok">{installed ? 'Đang chạy bản đã cài' : 'Đang chạy trong tab trình duyệt'}</span>
         </div>
         <p className="prof-status" role="status" aria-live="polite">
           {installed
-            ? 'This copy is already running as an installed app, so there is nothing to install.'
+            ? 'Bản này đã chạy như ứng dụng đã cài nên không cần cài thêm.'
             : installEvent
-              ? 'Your browser is offering an install shortcut right now.'
-              : 'Your browser has not offered an install shortcut for this visit, so there is no install button to press. That is normal — the browser decides when to offer one (usually after a few visits over some days).'}
+              ? 'Trình duyệt đang đề nghị lối tắt cài đặt ngay lúc này.'
+              : 'Trình duyệt chưa đề nghị lối tắt cài đặt trong lần truy cập này nên không có nút cài nào để bấm. Điều này bình thường — trình duyệt tự quyết định khi nào đề nghị (thường sau vài lần truy cập trong nhiều ngày).'}
         </p>
         {installEvent && !installed ? (
           <button type="button" className="btn btn-primary" onClick={() => void runInstallPrompt()}>
-            <IconDownload /> Use the browser’s install offer
+            <IconDownload /> Dùng lời mời cài của trình duyệt
           </button>
         ) : null}
         {installNote ? <p className="prof-help">{installNote}</p> : null}
-        <h3>Manual steps for this device</h3>
+        <h3>Các bước thủ công cho thiết bị này</h3>
         <ol className="prof-voice-list">
           {installSteps.map((step) => (
             <li key={step}>{step}</li>
           ))}
         </ol>
         <p className="prof-help">
-          Installing changes nothing about your data: the dictionary packs are already stored in
-          this browser either way. See{' '}
-          <Link to="/offline-data">offline data</Link> for what is downloaded.
+          Cài đặt không thay đổi dữ liệu của bạn: các gói từ điển vẫn nằm trong trình duyệt này
+          như trước. Xem <Link to="/data">Dữ liệu &amp; đồng bộ</Link> để biết những gì đã tải.
         </p>
       </section>
 
-      <nav className="row-wrap" aria-label="More settings screens">
-        <Link className="btn btn-sm" to="/offline-data">
-          Offline data packs
-        </Link>
+      <nav className="row-wrap" aria-label="Các màn cài đặt khác">
         <Link className="btn btn-sm" to="/data">
-          Backup &amp; erase
+          Dữ liệu &amp; đồng bộ
         </Link>
         <Link className="btn btn-sm" to="/about">
-          About &amp; licences
+          Giới thiệu &amp; giấy phép
         </Link>
       </nav>
 
       <ConfirmDialog
         open={resetOpen}
-        title="Reset every setting to its default?"
+        title="Đặt mọi cài đặt về mặc định?"
         body={
           <div className="stack">
             <p>
-              Theme, contrast, motion, text size, script, pinyin, voice and daily goal go back to
-              the shipped defaults.
+              Màu nền, độ tương phản, chuyển động, cỡ chữ, chữ hiển thị, phiên âm, âm thanh và
+              mục tiêu ngày sẽ trở về giá trị mặc định.
             </p>
             <p className="prof-status">
-              Saved words, lists, notes, decks and history are not touched.
+              Từ đã lưu, danh sách, ghi chú, bộ thẻ và lịch sử học không bị ảnh hưởng.
             </p>
           </div>
         }
-        confirmLabel="Reset settings"
+        confirmLabel="Đặt lại cài đặt"
         danger
         onConfirm={() => {
           reset();
           setResetOpen(false);
-          toast.push({ message: 'Settings reset to defaults', tone: 'info' });
+          toast.push({ message: 'Đã đặt cài đặt về mặc định', tone: 'info' });
         }}
         onCancel={() => setResetOpen(false)}
       />

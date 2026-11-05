@@ -1,0 +1,206 @@
+/* Shelf, reader and course screens (`src/modules/books/`). */
+
+.books-page .card,
+.books-reader .card,
+.books-course .card {
+  padding: var(--sp-4);
+}
+
+.books-connection-body {
+  display: flex;
+  gap: var(--sp-4);
+  align-items: flex-start;
+}
+
+.books-connection-body > svg {
+  flex: none;
+  width: 2.25rem;
+  height: 2.25rem;
+  color: var(--primary);
+}
+
+.books-connection h2 {
+  margin: 0;
+  font-size: var(--fs-lg);
+}
+
+.books-continue {
+  display: flex;
+  gap: var(--sp-4);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.books-continue h2 {
+  margin: 0 0 var(--sp-1);
+  font-size: var(--fs-lg);
+}
+
+.books-grid {
+  display: grid;
+  gap: var(--sp-4);
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+}
+
+.books-volume {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.books-volume-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.books-volume-head h3 {
+  margin: 0;
+  font-size: var(--fs-lg);
+}
+
+.books-volume-head p {
+  margin: 0;
+}
+
+.books-volume-number {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius);
+  background: var(--primary-soft);
+  color: var(--primary-strong);
+  font-weight: 700;
+  font-size: var(--fs-lg);
+}
+
+.books-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2) var(--sp-5);
+  margin: 0;
+}
+
+.books-facts div {
+  display: flex;
+  flex-direction: column;
+}
+
+.books-facts dt {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.books-facts dd {
+  margin: 0;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.books-reader-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.books-reader-title {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  font-weight: 600;
+}
+
+.books-reading .stack {
+  margin-top: var(--sp-3);
+}
+
+.books-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--sp-3);
+}
+
+.books-step {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.books-step h3 {
+  margin: 0;
+  font-size: var(--fs-md);
+}
+
+.books-step p {
+  margin: 0;
+}
+
+.books-step-number {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.books-step > div {
+  flex: 1;
+}
+
+/* The reader will place a 1224 x 1584 page inside this box; the ratio reserves the space before
+   the WebP arrives so the toolbar never jumps. */
+.books-page-canvas {
+  position: relative;
+  width: 100%;
+  max-width: 40rem;
+  aspect-ratio: 1224 / 1584;
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.books-page-canvas img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.page-hotspot {
+  position: absolute;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.page-hotspot:hover,
+.page-hotspot:focus-visible {
+  border-color: rgba(217, 119, 6, 0.55);
+  background: rgba(217, 119, 6, 0.18);
+}
+
+.page-hotspot.is-active {
+  border-color: rgb(217, 119, 6);
+  background: rgba(217, 119, 6, 0.24);
+}
+
+@media (max-width: 640px) {
+  .books-connection-body {
+    flex-direction: column;
+  }
+}

@@ -20,7 +20,6 @@ export const REPO_ROOT = path.resolve(HERE, '..', '..', '..');
 export const PUBLIC_DIR = path.join(REPO_ROOT, 'public');
 export const DATA_DIR = path.join(PUBLIC_DIR, 'data');
 export const PACKS_DIR = path.join(DATA_DIR, 'packs');
-export const OCR_DIR = path.join(DATA_DIR, 'ocr');
 export const LICENSES_DIR = path.join(PUBLIC_DIR, 'licenses');
 
 /** Default raw-download cache; always OUTSIDE the repository. */

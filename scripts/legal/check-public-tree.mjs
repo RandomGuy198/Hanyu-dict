@@ -209,6 +209,11 @@ function scanText(rel, abs, scope) {
     }
   }
 
+  // The detector itself necessarily spells out the strings it detects. Only these two files are
+  // exempt, and only from the content scans — secret detection still applies to them.
+  const isDetector = rel === 'scripts/legal/check-public-tree.mjs' || rel === 'scripts/legal/allowlist.json';
+  if (isDetector) return;
+
   if (BAIDU_URL.test(text)) {
     violate('baidu-url', rel, 'contains a bcebos.com signed URL (D-18: strip it; never a runtime dependency).');
   }
@@ -242,15 +247,18 @@ function checkCsp(rel, abs) {
   const text = readText(abs);
   if (text === null) return;
 
-  const meta = text.match(/http-equiv=["']Content-Security-Policy["'][^>]*content=["']([^"']+)["']/i)
-    ?? text.match(/content=["']([^"']*default-src[^"']*)["'][^>]*http-equiv=["']Content-Security-Policy["']/i);
+  // Attribute values may be single-quoted inside a double-quoted `content` (CSP keywords are),
+  // so parse the tag first and then read `content` with its own quoting.
+  const metaTag = text.match(/<meta\b[^>]*http-equiv=["']Content-Security-Policy["'][^>]*>/i)?.[0];
+  const contentMatch = metaTag?.match(/\bcontent=(?:"([^"]*)"|'([^']*)')/i);
+  const policy = contentMatch ? (contentMatch[1] ?? contentMatch[2]) : null;
 
-  if (!meta) {
+  if (!policy) {
     violate('csp', rel, 'no Content-Security-Policy meta tag. Pages cannot send headers, so this tag is the policy.');
     return;
   }
 
-  const directive = meta[1]
+  const directive = policy
     .split(';')
     .map((part) => part.trim())
     .find((part) => part.toLowerCase().startsWith('connect-src'));
@@ -279,9 +287,9 @@ function checkCsp(rel, abs) {
   }
 
   // Hardening directives that protect the localStorage-resident PAT from XSS.
-  const policy = meta[1].toLowerCase();
+  const lowered = policy.toLowerCase();
   for (const [name, expected] of [["object-src", "'none'"], ["base-uri", "'self'"], ["frame-ancestors", "'none'"]]) {
-    const found = policy.split(';').map((part) => part.trim()).find((part) => part.startsWith(name));
+    const found = lowered.split(';').map((part) => part.trim()).find((part) => part.startsWith(name));
     if (!found) {
       violate('csp', rel, `CSP is missing \`${name} ${expected}\` (02 §7).`);
     }
