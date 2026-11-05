@@ -277,8 +277,8 @@ function AddEntry({ dictReady, onSearch, onAdd }: {
           </button>
         </div>
       ) : !dictReady ? (
-        <p className="muted text-sm">The dictionary pack is not installed, so lookup is unavailable. Free text
-          and file import still work. <Link to="/offline-data">Manage downloaded data</Link>.</p>
+        <p className="muted text-sm">The dictionary pack is still arriving on this device, so lookup is
+          unavailable for the moment — it downloads on its own. Free text and file import still work.</p>
       ) : (
         <div className="lib-add-form">
           <div className="lib-inline">

@@ -783,9 +783,9 @@ export default function BookReaderPage() {
             <IconChevronLeft /> Kệ sách
           </Link>
 
-          <span className="books-reader-title">
+          <h1 className="books-reader-title">
             <IconBook /> Quyển {catalogBook.volume} — {catalogBook.series}
-          </span>
+          </h1>
 
           {bookDetail && bookDetail.lessons.length > 0 ? (
             <select

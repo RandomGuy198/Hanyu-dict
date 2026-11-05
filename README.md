@@ -69,8 +69,12 @@ from your own data, so updating content never erases progress.
 
 - A **fine-grained** personal access token is entered once per device on `#/settings`. Its scope should
   be a single repository with *Contents: Read and write* and nothing else.
-- It is stored only in `localStorage['hanyu.gh.pat']` on that device, is never written to IndexedDB,
-  never appears in a URL, and is shown masked. "Forget token" removes it and the cached private data.
+- It is stored only in `localStorage['hanyu.gh.pat']` on that device, never written to IndexedDB, and
+  shown masked. "Forget token" removes it and the cached private data.
+- The one place it leaves memory is the device-connect link: `#/settings?connect=<base64>` and the QR
+  made from it carry the token inside the URL fragment. A fragment is never sent to a server, so
+  GitHub Pages cannot log it, but it does reach the second device's clipboard, browser history and
+  the QR image on screen — treat that link like a password and do not paste it into a chat.
 - It is sent only as `Authorization: Bearer …` to `https://api.github.com`. The CSP says so and the
   build enforces it: `connect-src 'self' https://api.github.com data: blob:`. There is no CDN, no
   analytics host, no font host and no speech endpoint in the bundle.

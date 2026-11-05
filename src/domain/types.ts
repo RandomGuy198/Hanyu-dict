@@ -4,7 +4,7 @@
 /** Pack fields are separated by the ASCII unit separator (decimal 31). */
 export const US = String.fromCharCode(31);
 
-export type PackKind = 'dictionary' | 'characters' | 'strokes' | 'examples' | 'content' | 'ocr';
+export type PackKind = 'dictionary' | 'characters' | 'strokes' | 'examples' | 'content';
 
 export interface PackFileRef {
   path: string;

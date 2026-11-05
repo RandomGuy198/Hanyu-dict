@@ -18,7 +18,6 @@ export const packKindSchema = z.enum([
   'strokes',
   'examples',
   'content',
-  'ocr',
 ]);
 
 export const packDescriptorSchema = z

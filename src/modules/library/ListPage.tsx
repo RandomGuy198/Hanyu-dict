@@ -231,12 +231,7 @@ export default function ListPage() {
         {!dictReady ? (
           <EmptyState
             title="Search needs the dictionary pack"
-            detail="The dictionary data is not installed on this device, so you cannot look up new words right now. Your existing list is safe and listed above. Install the pack from Offline data to add more."
-            action={
-              <Link to="/offline-data" className="btn btn-sm">
-                Manage downloaded data
-              </Link>
-            }
+            detail="The dictionary data is still arriving on this device — it downloads on its own and works without a connection afterwards. Your existing list is safe and listed above."
           />
         ) : (
           <>

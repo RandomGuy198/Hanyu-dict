@@ -64,15 +64,6 @@ export const IconCards = ({ className, title }: IconProps) => (
   </span>
 );
 
-export const IconCamera = ({ className, title }: IconProps) => (
-  <span className={className}>
-    <Svg title={title}>
-      <path d="M3.5 8.5A2 2 0 015.5 6.5h2L9 4.5h6l1.5 2h2a2 2 0 012 2v8a2 2 0 01-2 2H5.5a2 2 0 01-2-2z" />
-      <circle cx={12} cy={12.5} r={3.2} />
-    </Svg>
-  </span>
-);
-
 export const IconPen = ({ className, title }: IconProps) => (
   <span className={className}>
     <Svg title={title}>

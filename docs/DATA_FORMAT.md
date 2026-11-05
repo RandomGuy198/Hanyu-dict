@@ -14,7 +14,6 @@ public/data/packs/strokes/<n>.jsonl             # per-character stroke geometry
 public/data/packs/strokes/index.txt             # char -> shard file
 public/data/packs/examples/000.txt ...          # example sentences
 public/data/packs/content/<id>.json             # original lessons/tips/stories
-public/data/ocr/                                # worker + wasm + traineddata (opt-in)
 public/licenses/*.txt                             # full license texts
 public/licenses/THIRD_PARTY_NOTICES.md            # generated attribution
 ```
@@ -39,7 +38,7 @@ or a raw newline. Empty field = empty string.
   "packs": [
     {
       "id": "dictionary-core",
-      "kind": "dictionary",           // dictionary|characters|strokes|examples|content|ocr
+      "kind": "dictionary",           // dictionary|characters|strokes|examples|content
       "label": "CC-CEDICT words",
       "version": "1.0.46",            // pinned upstream release or build date for original content
       "required": true,               // core packs auto-install; optional packs are user-installed

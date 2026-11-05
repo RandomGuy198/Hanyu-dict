@@ -34,7 +34,7 @@ preferredHeadword, preferredPinyin, parseEntryKey, entryKey`
 uid, sleep`
 
 ### Icons — `src/app/icons`
-`IconSearch, IconBook, IconGrid, IconCards, IconCamera, IconPen, IconSpark, IconGear,
+`IconSearch, IconBook, IconGrid, IconCards, IconPen, IconSpark, IconGear,
 IconSpeaker, IconStar, IconChevronLeft, IconTrash, IconDownload, IconCheck, IconAlert, BrandMark`
 
 ### Storage — `src/data/db`
@@ -71,9 +71,12 @@ example sentences),
 `search()` returns `{ results: SearchResult[], coverage: { entries, partial }, tookMs }`.
 
 ## Routes (hash-based, react-router 6)
-`/`, `/search?q=`, `/entry/:key`, `/character/:value`, `/writing`, `/library`, `/list/:id`,
-`/notebook/:id`, `/practice`, `/flashcards`, `/test`, `/test/:id`, `/progress`, `/capture`,
-`/reader`, `/learn`, `/learn/:id`, `/settings`, `/offline-data`, `/data`, `/about`
+`/`, `/search?q=`, `/entry/:key`, `/character/:value`, `/books`, `/books/:bookId`,
+`/books/:bookId/page/:pageNum`, `/courses/:bookId/:lessonId`, `/study`, `/writing`, `/library`,
+`/list/:id`, `/notebook/:id`, `/flashcards`, `/test`, `/test/:id`, `/progress`, `/reader`,
+`/learn/:id`, `/settings`, `/data`, `/about`, `/licenses`, and `*` for the explained 404 screen.
+Retired routes stay as redirects for old bookmarks: `/practice` → `/study`, `/learn` → `/books`,
+`/capture` → `/reader`, `/offline-data` → `/settings`, `/home` → `/`.
 `<Link to="…">` / `useNavigate()` take the path without the `#`.
 
 ## Rules every screen follows
@@ -81,10 +84,13 @@ example sentences),
    "no Chinese voice installed" and "pack not downloaded" are designed screens, not console logs.
    Never fake a result, a network call, a sync, or an online user.
 2. **Everything free.** No paywall, entitlement flag, ad slot, trial counter or locked tier.
-3. **Local by default.** No network request except same-origin `public/data` and `public/licenses`
-   fetches. Camera images, PDFs and notes stay in IndexedDB. Anything leaving the device must be
-   explicitly opted into and labelled.
-4. **Accessibility.** One `h1` per page (via `PageHeader`); labels on every input; `aria-live`
+3. **Local by default.** The only network calls are same-origin `public/data` and `public/licenses`
+   fetches and, once the owner connects a study repository, `https://api.github.com` — the CSP allows
+   nothing else, and the legal guard fails the build if the policy widens. Notes, saved words and
+   practice data stay in IndexedDB. Anything leaving the device must be explicitly opted into and
+   labelled.
+4. **Accessibility.** One `h1` per page (via `PageHeader`; a full-screen pane such as the reader
+   may carry its own `h1` in its toolbar instead); labels on every input; `aria-live`
    for changing status; visible focus; 44px targets (already in tokens); no colour-only meaning;
    reduced-motion respected (`prefs.reduceMotion` / `--motion`); text stays readable at 200% zoom.
 5. **Styling.** Tokens only (`var(--…)`) — never hard-coded hex, px font sizes or magic spacing.

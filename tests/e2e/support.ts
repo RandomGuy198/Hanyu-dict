@@ -10,7 +10,8 @@ const GATE_HEADINGS = ['Downloading dictionary data', 'Preparing the dictionary'
 /** Opens a route and waits until the app itself, rather than the gate, is on screen.
  *
  *  A fresh browser profile has no data packs in IndexedDB, so this is the real first-run path:
- *  the required packs (about 15 MB) are fetched from this same origin, verified and installed.
+ *  the required packs (22.18 MB by the registry's own byte counts) are fetched from this same
+ *  origin, verified and installed.
  *  Timing that out is a genuine failure - it means a visitor would wait forever.
  *
  *  Readiness is the shell's `main` landmark, not an `h1`: the reader and course screens title

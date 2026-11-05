@@ -6,10 +6,6 @@
  * single place where product metadata (packs.mjs) and rights metadata (provenance.json) meet.
  * It never invents a licence, an attribution or a source URL: missing provenance fails the build.
  *
- * OCR packs (`kind: 'ocr'`) are deliberately NOT manifest entries. They are opaque binaries and
- * WebAssembly, not text records the app stores in IndexedDB, so they ship as static same-origin
- * files under public/data/ocr/ with their own ocr/manifest.json (see build-ocr.mjs).
- *
  * Paths in the manifest are relative to public/data/ and are always verified against the bytes
  * actually present, so a stale or truncated shard cannot be published.
  */
@@ -24,9 +20,6 @@ import { loadProvenance, sourceForPack } from './lib/provenance.mjs';
 const MANIFEST_PATH = path.join(DATA_DIR, 'manifest.json');
 const SCHEMA_VERSION = 1;
 const MIN_APP_VERSION = '1.0.0';
-
-/** Packs that are served as static assets instead of IndexedDB text packs. */
-const STATIC_ONLY_KINDS = new Set(['ocr']);
 
 function globToRegExp(glob) {
   const escaped = glob.replace(/[.+^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*');
@@ -102,14 +95,9 @@ function packVersion(src, files) {
 export async function build({ quiet = false } = {}) {
   const reg = loadProvenance();
   const packs = [];
-  const skipped = [];
 
   for (const packId of PACK_ORDER) {
     const def = PACK_DEFS[packId];
-    if (STATIC_ONLY_KINDS.has(def.kind)) {
-      skipped.push(packId);
-      continue;
-    }
     const src = sourceForPack(reg, packId);
     const { files, extras } = await collectFiles(packId, def);
     const bytes = files.reduce((sum, f) => sum + f.bytes, 0);
@@ -161,11 +149,10 @@ export async function build({ quiet = false } = {}) {
       ['licence', 'license'],
       ['version', 'version'],
     ]));
-    if (skipped.length) log(`  not manifest packs (served statically from public/data/ocr/): ${skipped.join(', ')}`);
     log(`  wrote ${path.relative(process.cwd(), MANIFEST_PATH)}`);
   }
 
-  return { manifest, path: MANIFEST_PATH, skipped };
+  return { manifest, path: MANIFEST_PATH };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

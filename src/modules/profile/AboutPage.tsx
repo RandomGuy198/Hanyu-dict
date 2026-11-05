@@ -26,7 +26,6 @@ const KIND_LABEL: Record<PackKind, string> = {
   strokes: 'stroke artwork',
   examples: 'example sentences',
   content: 'reading content',
-  ocr: 'recognition models',
 };
 
 /** A manifest licence id to the file that carries its full verbatim text under `public/licenses/`.

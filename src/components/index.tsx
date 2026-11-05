@@ -410,7 +410,7 @@ export function LoadingGate({ children }: { children: ReactNode }) {
       </p>
       <ProgressBar value={percent ?? 0} total={100} label="Dictionary download progress" />
       <p className="text-sm faint">
-        About 4 MB of open-licensed data, once. Everything afterwards works with no connection.
+        About 22 MB of open-licensed data, once. Everything afterwards works with no connection.
       </p>
       {percent === null ? <div className="skeleton" style={{ height: 12 }} /> : null}
     </div>
