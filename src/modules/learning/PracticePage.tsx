@@ -12,6 +12,7 @@ import { LoadingGate, PageHeader, ProgressBar, Segmented, EmptyState } from '../
 import { db, todayKey } from '../../data/db';
 import type { Deck } from '../../domain/types';
 import DrillPanel from './DrillPanel';
+import WritingReviewPanel from './WritingReviewPanel';
 import {
   deckIdFor,
   ensureDeck,
@@ -68,13 +69,14 @@ export default function PracticePage() {
     const recognitionCards = live.filter((card) => card.kind !== 'writing');
     const writingCards = live.filter((card) => card.kind === 'writing');
     const recognitionDue = recognitionCards.filter((card) => isDue(card, now)).length;
-    const writingDue = writingCards.filter((card) => isDue(card, now)).length;
-    const dueChars = [...new Set(writingCards.filter((card) => isDue(card, now)).map((c) => c.simplified))].join('');
+    const dueWritingCards = writingCards.filter((card) => isDue(card, now));
+    const dueChars = [...new Set(dueWritingCards.map((card) => card.simplified))].join('');
     return {
       recognitionTotal: recognitionCards.length,
       recognitionDue,
       writingTotal: writingCards.length,
-      writingDue,
+      writingDue: dueWritingCards.length,
+      dueWritingCards,
       dueChars,
       firstDeckId: allDecks[0]?.id ?? '',
     };
@@ -218,12 +220,17 @@ export default function PracticePage() {
             }
             className="btn btn-sm"
           >
-            <IconPen /> Ôn tập viết chữ Hán ({globalSrsBreakdown.writingDue})
+            <IconPen /> Tự do luyện viết trên bàn viết
           </Link>
           <Link to="/books" className="btn btn-ghost btn-sm">
             <IconBook /> Học bài mới trong sách
           </Link>
         </div>
+
+        <WritingReviewPanel
+          cards={globalSrsBreakdown.dueWritingCards}
+          sessionLabel="Ôn viết chữ Hán"
+        />
       </section>
 
       {nothingSaved ? (

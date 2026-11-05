@@ -603,3 +603,255 @@
     flex-direction: column;
   }
 }
+
+/* ------------------------------------------------------------------ five-step course (Phase 7) */
+
+.books-course-stepper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.books-course-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-raised);
+  color: var(--text-muted);
+  font: inherit;
+  font-size: var(--fs-sm);
+  cursor: pointer;
+}
+
+.books-course-tab:hover,
+.books-course-tab:focus-visible {
+  border-color: var(--primary);
+  color: var(--text);
+}
+
+.books-course-tab.is-active {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  color: var(--primary-strong);
+  font-weight: 600;
+}
+
+.books-course-tab.is-done {
+  color: var(--ok-600);
+}
+
+.books-course-tab-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 50%;
+  background: var(--bg-sunken);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.books-course-step {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.books-course-vocab-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.books-vocab-stroke {
+  padding: var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-sunken);
+}
+
+.books-sentence-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.books-sentence-zh {
+  margin: 0;
+  font-family: var(--font-cjk);
+  font-size: var(--fs-cjk);
+  line-height: 1.5;
+}
+
+.books-sentence-pinyin,
+.books-sentence-vi {
+  margin: 0;
+}
+
+.books-sentence-sandhi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin: 0;
+}
+
+.zh-token-static {
+  font-family: var(--font-cjk);
+  font-size: var(--fs-lg);
+}
+
+.books-grammar-list,
+.books-example-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.books-grammar-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.books-grammar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-2);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.books-grammar-head:hover,
+.books-grammar-head:focus-visible {
+  color: var(--primary-strong);
+}
+
+.books-example-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.books-drill-question {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.books-drill-label {
+  margin: 0;
+}
+
+.books-drill-stem {
+  margin: 0;
+  font-family: var(--font-cjk);
+  font-size: var(--fs-2xl);
+}
+
+.books-drill-options {
+  display: grid;
+  gap: var(--sp-2);
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+
+.books-drill-option {
+  padding: var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+  color: inherit;
+  font: inherit;
+  font-family: var(--font-cjk);
+  text-align: left;
+  cursor: pointer;
+}
+
+.books-drill-option:hover:not(:disabled),
+.books-drill-option:focus-visible:not(:disabled) {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.books-drill-option:disabled {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.books-drill-option.is-correct {
+  border-color: var(--ok-600);
+  background: color-mix(in srgb, var(--ok-600) 12%, var(--bg-raised));
+  opacity: 1;
+}
+
+.books-drill-option.is-wrong {
+  border-color: var(--danger-600);
+  background: color-mix(in srgb, var(--danger-600) 10%, var(--bg-raised));
+  opacity: 1;
+}
+
+.books-drill-result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-sunken);
+}
+
+.books-writing-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+.books-writing-char {
+  font-family: var(--font-cjk);
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.books-writing-progress {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.books-writing-progress li {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  padding: var(--sp-1) var(--sp-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-cjk);
+  color: var(--text-muted);
+}
+
+.books-writing-progress li.is-done {
+  border-color: var(--ok-600);
+  color: var(--ok-600);
+}

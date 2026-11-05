@@ -497,3 +497,16 @@
   font-size: var(--fs-sm);
 }
 
+/* The due-writing-card queue in the study hub: prompt line above the shared Hanzi Writer box. */
+.write-review-queue {
+  gap: var(--sp-3);
+}
+.write-review-prompt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-2);
+}
+.write-review-meaning {
+  font-size: var(--fs-lg);
+}

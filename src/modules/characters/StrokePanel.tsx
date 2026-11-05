@@ -44,7 +44,7 @@ export function pathStartPoint(d: string): [number, number] | null {
 
 /* Hanzi Writer parses hex colour strings; values come from the design tokens and the
  * fallbacks only mirror the library's documented defaults (boundary demand, rule 6). */
-function cssColor(token: string, fallback: string): string {
+export function cssColor(token: string, fallback: string): string {
   const value = getComputedStyle(document.documentElement).getPropertyValue(token).trim();
   return /^#[0-9a-fA-F]{3,8}$/.test(value) ? value : fallback;
 }

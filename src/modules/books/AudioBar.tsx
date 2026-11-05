@@ -57,8 +57,9 @@ export function AudioBar({
   }, [playbackRate]);
 
   useEffect(() => {
+    const runId = runIdRef;
     return () => {
-      runIdRef.current++;
+      runId.current++;
       stopAudio();
     };
   }, []);

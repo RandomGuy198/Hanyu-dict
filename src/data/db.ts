@@ -174,8 +174,12 @@ export async function savePreferences(next: Preferences): Promise<void> {
   notifyLocalMutation();
 }
 
+/** Meta always belongs to its own transaction. `notifyLocalMutation()` can fire while a helper's
+ *  Dexie transaction is still the active zone, and a table that is not one of that transaction's
+ *  stores rejects with NotFoundError when it tries to join — which is how `sync.dirty` used to get
+ *  lost after every card review. */
 export async function setMeta(key: string, value: unknown): Promise<void> {
-  await db.meta.put({ key, value });
+  await Dexie.ignoreTransaction(() => db.meta.put({ key, value }));
 }
 
 export async function getMeta<T>(key: string): Promise<T | undefined> {
