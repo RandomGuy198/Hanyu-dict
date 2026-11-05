@@ -184,7 +184,11 @@ match their recorded hashes and every install would fail.
   `vite preview` on `127.0.0.1:4173`): same-origin asset/CSP/manifest assertions, first-run pack
   install, the five-tab shell, retired-route redirects, the licence pages, the 404 screen, search by
   Hanzi / toneless pinyin / English, entry → save → library, search with the network off, and the
-  character page's honest "not recorded" state. Prerequisite: `npx playwright install chromium`.
+  character page's honest "not recorded" state. `tests/e2e/study-flow.spec.ts` covers the books
+  shelf, the reader, all five course steps, `#/writing?chars=` and sync pull/push/`409`-merge against
+  a faked `api.github.com` and synthetic lesson fixtures; those tests close the `/__local_private_data__/`
+  dev bridge so a run cannot depend on which folder happens to sit next to the checkout. Prerequisite:
+  `npx playwright install chromium`.
   Chromium only, one desktop width; Firefox, WebKit and phone widths are not run, and no CI workflow
   executes them.
 - `vitest` transpiles and does **not** typecheck its own suite, so a green `npm test` says nothing
@@ -265,7 +269,8 @@ The numbers below are a snapshot. Re-run the commands to get the live answer.
 | Lint | `npx eslint . --max-warnings 0` reports nothing | `npm run lint` |
 | Legal guard | `legal:check` OK over the tracked tree and a fresh `dist/` | `npm run legal:check` |
 | Runtime notices | match the installed dependency tree | `npm run licenses:runtime:check` |
-| End-to-end | Chromium at one desktop width; Firefox/WebKit/phone widths never run, no CI execution | `npx playwright install chromium && npm run test:e2e` |
+| End-to-end | 14 tests in Chromium at one desktop width; Firefox/WebKit/phone widths never run, no CI execution | `npx playwright install chromium && npm run test:e2e` |
+| Sync against the real API | The pull, push and `409` merge are proven against a faked `api.github.com`; no test holds a real token, so the live path is verified only by the owner's first connection | `tests/e2e/study-flow.spec.ts` |
 | Real-device testing | None recorded in this repository. Nothing has been verified on a phone or tablet by the maintainers | install the built site and try it |
 | IDS component decomposition | Not shipped - the upstream file is LGPL and that model was not accepted; the gap is stated in the app | docs/PLAN_COMPLIANCE.md |
 | Sync debounce | Writes are debounced at 3 s rather than the ≥30 s the cost register suggests; still orders of magnitude inside the 5,000 req/h allowance because ETag `304`s cost nothing | `src/data/syncEngine.ts` |
