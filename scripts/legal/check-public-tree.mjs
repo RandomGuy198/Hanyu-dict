@@ -62,6 +62,7 @@ const PDF_EXT = /\.pdf$/i;
 const PAGE_IMAGE = /(^|\/)page[-_]?\d+\.(png|jpe?g|webp|avif)$/i;
 const SHORT_PAGE_IMAGE = /(^|\/)p\d{3,4}\.(png|jpe?g|webp)$/i;
 const BOOK_DIRS = /(^|\/)(book|books|hanyu-data|lessons-audio|pages|scans)(\/|$)/i;
+const CODE_MODULE_PREFIX = 'src/modules/books/';
 
 const SECRET_PATTERNS = [
   /ghp_[A-Za-z0-9]{36}/,
@@ -171,7 +172,7 @@ function checkFilePath(rel, abs, allowlist) {
     }
   }
 
-  if (BOOK_DIRS.test(rel)) {
+  if (BOOK_DIRS.test(rel) && !(rel.startsWith(CODE_MODULE_PREFIX) && /\.(tsx?|css)$/i.test(rel))) {
     violate('book-folder', rel, 'path segment looks like a mirrored book/private tree. Private content lives in the `Hanyu data` repo only.');
   }
 
@@ -218,7 +219,7 @@ function scanText(rel, abs, scope) {
     violate('baidu-url', rel, 'contains a bcebos.com signed URL (D-18: strip it; never a runtime dependency).');
   }
 
-  if (scope === 'content') {
+  if (scope === 'content' || scope === 'source') {
     if (BOOK_IDENTIFIERS.test(text)) {
       const match = text.match(BOOK_IDENTIFIERS);
       violate('book-identifier', rel, `contains the book/publisher identifier "${match?.[0] ?? '?'}" (R16).`);
@@ -321,7 +322,7 @@ function checkLfs() {
 function scopeFor(rel) {
   if (rel.startsWith('src/') || rel.startsWith('public/') || rel === 'index.html') return 'source';
   if (rel.startsWith('dist/')) {
-    if (/^dist\/assets\//.test(rel)) return 'other';
+    if (/^dist\/assets\//.test(rel)) return 'content';
     return 'content';
   }
   return 'other';

@@ -26,7 +26,7 @@ export default function LessonCoursePage() {
     return (
       <div className="stack">
         <PageHeader title="Không tìm thấy bài học" />
-        <p className="muted">Địa chỉ không khớp quyển nào trong giáo trình sáu tập.</p>
+        <p className="muted">Địa chỉ không khớp quyển nào trong bộ sáu tập.</p>
         <Link className="btn btn-primary" to="/books">
           <IconChevronLeft /> Về kệ sách
         </Link>

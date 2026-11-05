@@ -18,7 +18,7 @@ export default function BookReaderPage() {
     return (
       <div className="stack">
         <PageHeader title="Không tìm thấy quyển" />
-        <p className="muted">Địa chỉ không khớp quyển nào trong giáo trình sáu tập.</p>
+        <p className="muted">Địa chỉ không khớp quyển nào trong bộ sáu tập.</p>
         <Link className="btn btn-primary" to="/books">
           <IconChevronLeft /> Về kệ sách
         </Link>
@@ -61,7 +61,7 @@ export default function BookReaderPage() {
         <p className="muted">
           Ảnh trang, lớp chạm từng câu và bản thu bài khoá được tải từ repository riêng tư{' '}
           <code>RandomGuy198/Hanyu-data</code>. Chúng không được đóng gói vào bản công khai để tôn
-          trọng bản quyền giáo trình.
+          trọng bản quyền.
         </p>
         <div className="row-wrap">
           <Link className="btn btn-primary" to="/settings">

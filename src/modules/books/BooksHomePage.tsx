@@ -1,4 +1,4 @@
-/** `#/books` — the shelf of *Giáo trình Hán ngữ* plus the owner-authored reading index.
+/** `#/books` — the shelf of the 6-volume Mandarin course plus the owner-authored reading index.
  *
  *  What ships in this bundle is only the bibliography (volume, series, lesson range, page count).
  *  Pages, lesson text and audio are fetched from the private `Hanyu-data` repository through the
@@ -22,7 +22,7 @@ import './books.css';
 type ShelfTab = 'course' | 'reading';
 
 const TAB_LABEL: Record<ShelfTab, string> = {
-  course: 'Giáo trình',
+  course: 'Bộ sách 6 quyển',
   reading: 'Bài đọc ngắn & Mẹo học',
 };
 
@@ -142,7 +142,7 @@ export default function BooksHomePage() {
     <div className="stack books-page">
       <PageHeader
         title="Sách & Khóa học"
-        subtitle={`Giáo trình Hán ngữ — ${BOOK_VOLUMES.length} quyển, ${TOTAL_LESSONS} bài, ${TOTAL_PAGES.toLocaleString('vi-VN')} trang.`}
+        subtitle={`Bộ sách 6 quyển — ${BOOK_VOLUMES.length} quyển, ${TOTAL_LESSONS} bài, ${TOTAL_PAGES.toLocaleString('vi-VN')} trang.`}
       />
 
       <Segmented<ShelfTab>
@@ -184,7 +184,7 @@ export default function BooksHomePage() {
             <div>
               <strong>Về bản quyền</strong>
               <p className="text-sm">
-                Nội dung giáo trình chỉ tải về máy cho mục đích học cá nhân và không nằm trong
+                Nội dung sách chỉ tải về máy cho mục đích học cá nhân và không nằm trong
                 repository công khai. Xem{' '}
                 <Link to="/about">giới thiệu &amp; giấy phép</Link> để biết ranh giới sử dụng.
               </p>

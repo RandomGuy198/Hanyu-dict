@@ -104,7 +104,7 @@ export function Shell() {
           <BrandMark />
           <span>
             Hán Ngữ
-            <span className="visually-hidden"> — từ điển và giáo trình</span>
+            <span className="visually-hidden"> — từ điển và khóa học</span>
           </span>
         </Link>
         {PRIMARY_NAV.map((item) => (

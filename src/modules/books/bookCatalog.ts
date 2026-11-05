@@ -1,4 +1,4 @@
-/** Bibliographic shelf data for *Giáo trình Hán ngữ*.
+/** Bibliographic shelf data for the 6-volume Mandarin textbook series.
  *
  *  Only facts that are safe to ship publicly live here: volume numbers, series names, lesson ranges
  *  and page counts. Every page image, lesson text, translation and audio file comes from the

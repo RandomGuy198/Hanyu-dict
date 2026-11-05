@@ -190,7 +190,7 @@ function Desk() {
     <div className="stack read-page">
       <PageHeader
         title="Dán văn bản"
-        subtitle="Dán hoặc nhập một đoạn tiếng Trung, chạm vào từ để xem nghĩa. Muốn đọc sách giáo trình, hãy mở Sách & Khóa học."
+        subtitle="Dán hoặc nhập một đoạn tiếng Trung, chạm vào từ để xem nghĩa. Muốn đọc sách theo bài, hãy mở Sách & Khóa học."
       />
 
       <p className="notice notice-info read-lead" role="note">
@@ -204,7 +204,7 @@ function Desk() {
 
       <p className="read-row">
         <Link className="btn btn-primary" to="/books">
-          <IconBook /> Mở sách giáo trình tương tác
+          <IconBook /> Mở sách học tương tác
         </Link>
         <Link className="btn" to="/">
           Tra từ điển
