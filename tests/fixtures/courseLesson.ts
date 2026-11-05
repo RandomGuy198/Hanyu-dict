@@ -2,7 +2,6 @@
  *  and three dialogue sentences, which is what the twelve-question drill (`courseDrill.ts`) needs.
  *  `booksReader.test.tsx` keeps its own smaller fixture because the reader only shows hotspots. */
 
-import { db } from '@/data/db';
 import type { BooksManifest, LessonDocument } from '@/domain/types';
 
 export const COURSE_FIXTURE_GENERATED_AT = '2026-11-05T09:20:36Z';
@@ -230,8 +229,11 @@ export const COURSE_MANIFEST: BooksManifest = {
   ],
 };
 
-/** Writes the lesson the way the private-data loader expects to find it in `remoteCache`. */
+/** Writes the lesson the way the private-data loader expects to find it in `remoteCache`.
+ *  `db` is imported here rather than at module scope so the fixtures above can also be read by the
+ *  Playwright specs, which run in Node and have no IndexedDB. */
 export async function seedCourseFixtures(): Promise<void> {
+  const { db } = await import('@/data/db');
   await db.remoteCache.put({
     path: 'books/manifest.json',
     category: 'manifest',

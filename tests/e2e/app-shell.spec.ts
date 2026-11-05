@@ -39,7 +39,10 @@ test.describe('published shell', () => {
     page.on('pageerror', (error) => failures.push(String(error)));
     await gotoReady(page);
     await expect(page.getByRole('heading', { level: 1, name: APP_NAME })).toBeVisible();
-    await expect(page.getByLabel(/Search — Hanzi, pinyin or English/).first()).toBeVisible();
+    // The home search box is labelled in the interface language v0.2 settled on.
+    await expect(
+      page.getByLabel(/Tìm kiếm — Chữ Hán, Pinyin, Hán-Việt hoặc Tiếng Việt/).first(),
+    ).toBeVisible();
     // The five primary destinations from D-22, in both the sidebar and the mobile bar.
     for (const label of ['Sách & Khóa học', 'Từ điển', 'Ôn tập', 'Tập viết', 'Sổ tay']) {
       await expect(page.getByRole('link', { name: label }).first(), label).toBeVisible();

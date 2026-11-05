@@ -11,10 +11,14 @@ const GATE_HEADINGS = ['Downloading dictionary data', 'Preparing the dictionary'
  *
  *  A fresh browser profile has no data packs in IndexedDB, so this is the real first-run path:
  *  the required packs (about 15 MB) are fetched from this same origin, verified and installed.
- *  Timing that out is a genuine failure - it means a visitor would wait forever. */
+ *  Timing that out is a genuine failure - it means a visitor would wait forever.
+ *
+ *  Readiness is the shell's `main` landmark, not an `h1`: the reader and course screens title
+ *  themselves with `h2`s, and the gate renders its own `h1` inside `main` while packs install, so
+ *  the heading check below is what actually waits the download out. */
 export async function gotoReady(page: Page, path = '/'): Promise<void> {
   await page.goto(path);
-  await expect(page.getByRole('heading', { level: 1 }).first()).toBeVisible({ timeout: 20_000 });
+  await expect(page.getByRole('main')).toBeVisible({ timeout: 20_000 });
   await page.waitForFunction(
     (gate: string[]) => !gate.includes(document.querySelector('h1')?.textContent?.trim() ?? ''),
     GATE_HEADINGS,
