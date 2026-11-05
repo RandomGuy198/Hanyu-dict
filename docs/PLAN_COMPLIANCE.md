@@ -1,5 +1,14 @@
 # Plan compliance record
 
+> **This is the v0.1 snapshot.** It measures the app against `../Modded/IMPLEMENTATION_PLAN.md` as it
+> stood before v0.2, so every row about camera/OCR (Phase 7), PDF reading (Phase 8) and the manual
+> pack screen says `D` for work that v0.2 later **retired**, and the counts in it (50.3 MB of content,
+> 259 tests, 9 specs) are older than the shipped tree. For the current position read
+> `Modded/v0.2/ACCEPTANCE_REPORT.md` (gates and measurements) and
+> `Modded/v0.2/11_PROMPT_COVERAGE_AUDIT.md` (owner brief → shipped). This file is kept because it is
+> the only record of which v0.1 plan items were ever attempted; nothing in it should be quoted as
+> present-day evidence.
+
 Against `../Modded/IMPLEMENTATION_PLAN.md` (dated 2026-11-04, read-only reference). Snapshot taken
 **2026-11-04**, while several workstreams were still landing modules. This repository moves: re-run
 the commands in *How to re-verify* instead of trusting the statuses below.
