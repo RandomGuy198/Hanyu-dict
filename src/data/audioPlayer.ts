@@ -78,6 +78,20 @@ async function sha1HexPrefix16(text: string): Promise<string> {
   return '';
 }
 
+/** Resolve when `el` fires `name`, or after `timeoutMs` — whichever comes first. Keeps the
+ *  seek-before-play bootstrap from hanging where media events never arrive (headless/jsdom). */
+function once(el: HTMLAudioElement, name: string, timeoutMs: number): Promise<void> {
+  return new Promise<void>((resolve) => {
+    const handler = () => {
+      clearTimeout(timer);
+      el.removeEventListener(name, handler);
+      resolve();
+    };
+    const timer = setTimeout(handler, timeoutMs);
+    el.addEventListener(name, handler);
+  });
+}
+
 function playBlobSliceOrFull(
   blob: Blob,
   sourceKind: 'lesson-slice' | 'tts-file',
@@ -127,51 +141,8 @@ function playBlobSliceOrFull(
 
     const startSec = slice ? Math.max(0, slice.startMs / 1000) : 0;
     const endSec = slice ? Math.max(startSec, slice.endMs / 1000) : undefined;
-
-    if (slice) {
-      try {
-        audio.currentTime = startSec;
-      } catch {
-        // Some browsers require setting currentTime on loadedmetadata
-      }
-      audio.addEventListener(
-        'loadedmetadata',
-        () => {
-          try {
-            if (Math.abs(audio.currentTime - startSec) > 0.05) {
-              audio.currentTime = startSec;
-            }
-          } catch {
-            // Ignore
-          }
-        },
-        { once: true },
-      );
-    }
-
-    if (endSec !== undefined) {
-      audio.ontimeupdate = () => {
-        if (audio.currentTime >= endSec) {
-          finish({ ok: true, source: sourceKind });
-        }
-      };
-      const durationMs = Math.max(20, (slice!.endMs - slice!.startMs) / audio.playbackRate);
-      activeTimer = setTimeout(() => {
-        if (audio.currentTime < endSec) {
-          try {
-            audio.currentTime = endSec;
-          } catch {
-            // Ignore
-          }
-        }
-        finish({ ok: true, source: sourceKind });
-      }, durationMs);
-    } else {
-      // Full file playback timeout guard so tests/headless environments without real audio decoders resolve cleanly
-      activeTimer = setTimeout(() => {
-        finish({ ok: true, source: sourceKind });
-      }, 2500);
-    }
+    const rate = audio.playbackRate;
+    audio.preload = 'auto';
 
     audio.onended = () => {
       finish({ ok: true, source: sourceKind });
@@ -185,34 +156,49 @@ function playBlobSliceOrFull(
       });
     };
 
-    try {
-      const playPromise = audio.play();
-      if (playPromise && typeof playPromise.then === 'function') {
-        playPromise
-          .then(() => {
-            if (!slice && (audio.duration === 0 || Number.isNaN(audio.duration))) {
-              // In jsdom where `onended` does not fire automatically unless triggered, settle shortly after play() resolves
-              if (activeTimer) clearTimeout(activeTimer);
-              activeTimer = setTimeout(() => {
-                finish({ ok: true, source: sourceKind });
-              }, 30);
-            }
-          })
-          .catch((err) => {
-            finish({
-              ok: false,
-              source: sourceKind,
-              reason: err instanceof Error ? err.message : 'Audio playback failed.',
-            });
-          });
-      }
-    } catch (err) {
-      finish({
-        ok: false,
-        source: sourceKind,
-        reason: err instanceof Error ? err.message : 'Audio playback failed.',
-      });
+    if (endSec !== undefined) {
+      audio.ontimeupdate = () => {
+        if (audio.currentTime >= endSec) finish({ ok: true, source: sourceKind });
+      };
     }
+
+    // Wall-clock backstop so a stuck or undecodable source still settles (and headless tests
+    // without a real decoder resolve). Sized generously so it never truncates a real slice.
+    const guardMs = slice ? Math.max(20, (slice.endMs - slice.startMs) / rate) + 1500 : 2500;
+    activeTimer = setTimeout(() => finish({ ok: true, source: sourceKind }), guardMs);
+
+    // Load metadata, seek to the slice start, and only then start playback. A seek issued
+    // before the browser knows the duration is silently dropped — which is exactly what made
+    // every slice replay from 0 (the previous sentence) instead of its own range.
+    void (async () => {
+      await once(audio, 'loadedmetadata', 2000);
+      if (settled || activeAudio !== audio) return;
+      if (slice) {
+        try {
+          audio.currentTime = startSec;
+        } catch {
+          // Ignore
+        }
+        await once(audio, 'seeked', 1000);
+        if (settled || activeAudio !== audio) return;
+        if (Math.abs(audio.currentTime - startSec) > 0.02) {
+          try {
+            audio.currentTime = startSec;
+          } catch {
+            // Ignore
+          }
+        }
+      }
+      try {
+        await audio.play();
+      } catch (err) {
+        finish({
+          ok: false,
+          source: sourceKind,
+          reason: err instanceof Error ? err.message : 'Audio playback failed.',
+        });
+      }
+    })();
   });
 }
 

@@ -386,6 +386,71 @@ export async function fetchRepoRaw(path: string): Promise<Response> {
   }
 }
 
+export interface TreeBlobEntry {
+  path: string;
+  sha: string;
+  size?: number;
+}
+
+/**
+ * Recursive tree listing (path → blob sha + size) in one request. The Git Blob API below can
+ * serve files well over the Contents API's 1 MB cap, but it needs a sha, which only the tree gives.
+ */
+export async function fetchRepoTree(): Promise<{ entries: TreeBlobEntry[]; truncated: boolean }> {
+  const { owner, repo, branch, pat } = getGitHubConfig();
+  if (!pat) {
+    throw new Error('Missing GitHub token.');
+  }
+  const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(
+    repo,
+  )}/git/trees/${encodeURIComponent(branch)}?recursive=1`;
+  try {
+    const response = await fetch(url, { method: 'GET', headers: apiHeaders(pat) });
+    if (!response.ok) {
+      const errText = await response.text().catch(() => '');
+      throw new Error(redactSecrets(`GitHub tree GET failed (${response.status}): ${errText.slice(0, 200)}`));
+    }
+    const body = (await response.json()) as {
+      tree?: Array<{ path: string; type: string; sha: string; size?: number }>;
+      truncated?: boolean;
+    };
+    const entries = (body.tree ?? [])
+      .filter((t) => t.type === 'blob')
+      .map((t) => ({ path: t.path, sha: t.sha, size: t.size }));
+    return { entries, truncated: Boolean(body.truncated) };
+  } catch (error) {
+    const msg = error instanceof Error ? error.message : String(error);
+    throw new Error(redactSecrets(msg));
+  }
+}
+
+/** Raw bytes for a blob sha via the Git Data API (no 1 MB limit). */
+export async function fetchRepoBlob(sha: string): Promise<Response> {
+  const { owner, repo, pat } = getGitHubConfig();
+  if (!pat) {
+    throw new Error('Missing GitHub token.');
+  }
+  const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(
+    repo,
+  )}/git/blobs/${encodeURIComponent(sha)}`;
+  try {
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: apiHeaders(pat, 'application/vnd.github.raw'),
+    });
+    if (!response.ok) {
+      const errText = await response.text().catch(() => '');
+      throw new Error(
+        redactSecrets(`GitHub blob GET failed (${response.status}): ${errText.slice(0, 200)}`),
+      );
+    }
+    return response;
+  } catch (error) {
+    const msg = error instanceof Error ? error.message : String(error);
+    throw new Error(redactSecrets(msg));
+  }
+}
+
 export function encodeBase64Utf8(text: string): string {
   const bytes = new TextEncoder().encode(text);
   let binary = '';

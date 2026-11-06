@@ -17,7 +17,7 @@ class FakeAudioElement {
   static instances: FakeAudioElement[] = [];
 
   src: string;
-  currentTime = 0;
+  preload = '';
   playbackRate = 1.0;
   duration = 120;
   paused = true;
@@ -25,24 +25,46 @@ class FakeAudioElement {
   onerror: (() => void) | null = null;
   ontimeupdate: (() => void) | null = null;
 
+  private _currentTime = 0;
+  private listeners: Record<string, Set<() => void>> = {};
+
   constructor(src = '') {
     this.src = src;
     FakeAudioElement.instances.push(this);
   }
 
-  addEventListener(event: string, cb: () => void): void {
-    if (event === 'loadedmetadata') {
-      cb();
-    }
+  get currentTime(): number {
+    return this._currentTime;
+  }
+
+  set currentTime(value: number) {
+    this._currentTime = value;
+    // Real media elements fire 'seeked' asynchronously once a seek completes.
+    setTimeout(() => this.emit('seeked'), 0);
+  }
+
+  addEventListener(name: string, cb: () => void): void {
+    (this.listeners[name] ??= new Set()).add(cb);
+    if (name === 'loadedmetadata') setTimeout(() => cb(), 0);
+  }
+
+  removeEventListener(name: string, cb: () => void): void {
+    this.listeners[name]?.delete(cb);
+  }
+
+  private emit(name: string): void {
+    this.listeners[name]?.forEach((cb) => cb());
   }
 
   play(): Promise<void> {
     this.paused = false;
-    // Simulate time advancing to end if no slice or during slice test
+    const start = this._currentTime;
     setTimeout(() => {
-      if (!this.paused && this.onended) {
-        this.onended();
-      }
+      if (this.paused) return;
+      // Advance just past the slice end so ontimeupdate settles, then fire ended.
+      this._currentTime = start + 0.05;
+      this.ontimeupdate?.();
+      this.onended?.();
     }, 10);
     return Promise.resolve();
   }

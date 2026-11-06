@@ -6,7 +6,13 @@
  */
 
 import { db } from './db';
-import { fetchRepoRaw, hasGitHubPat } from './githubClient';
+import {
+  fetchRepoBlob,
+  fetchRepoRaw,
+  fetchRepoTree,
+  getGitHubConfig,
+  hasGitHubPat,
+} from './githubClient';
 import {
   audioManifestSchema,
   booksManifestSchema,
@@ -52,6 +58,47 @@ function toBlob(data: unknown, mimeType: string): Blob | null {
     return new Blob([data as ArrayBuffer], { type: mimeType });
   }
   return null;
+}
+
+async function getTreeMap(): Promise<Map<string, { sha: string; size?: number }>> {
+  const key = `git/trees/${getGitHubConfig().branch}`;
+  const cached = await db.remoteCache.get(key);
+  if (cached && cached.data && typeof cached.data === 'object') {
+    return new Map(Object.entries(cached.data as Record<string, { sha: string; size?: number }>));
+  }
+  const { entries, truncated } = await fetchRepoTree();
+  const map = new Map<string, { sha: string; size?: number }>();
+  for (const e of entries) map.set(e.path, { sha: e.sha, size: e.size });
+  if (!truncated) {
+    await db.remoteCache.put({
+      path: key,
+      category: 'tree',
+      data: Object.fromEntries(map),
+      updatedAt: new Date().toISOString(),
+    });
+  }
+  return map;
+}
+
+/**
+ * Fetch a private file's raw bytes. Small files use the Contents API directly; if that fails —
+ * the Contents API caps at 1 MB — resolve the blob sha from the cached tree and use the Git Blob
+ * API, which serves the large lesson audio recordings.
+ */
+async function fetchPrivateFile(path: string): Promise<Response> {
+  const clean = path.replace(/^\/+/, '');
+  try {
+    return await fetchRepoRaw(clean);
+  } catch (contentsError) {
+    try {
+      const map = await getTreeMap();
+      const entry = map.get(clean);
+      if (entry) return await fetchRepoBlob(entry.sha);
+    } catch {
+      // Fall through to the original Contents API error.
+    }
+    throw contentsError;
+  }
 }
 
 export async function getBooksManifest(forceRefresh = false): Promise<BooksManifest | null> {
@@ -142,7 +189,7 @@ export async function getPageImageBlobUrl(imagePath: string): Promise<string | n
   }
 
   try {
-    const response = await fetchRepoRaw(path);
+    const response = await fetchPrivateFile(path);
     const buffer = await response.arrayBuffer();
     const blob = new Blob([buffer], { type: 'image/webp' });
     await db.remoteCache.put({
@@ -168,7 +215,7 @@ export async function getAudioBlob(audioPath: string): Promise<Blob | null> {
   }
 
   try {
-    const response = await fetchRepoRaw(path);
+    const response = await fetchPrivateFile(path);
     const buffer = await response.arrayBuffer();
     const blob = new Blob([buffer], { type: 'audio/mpeg' });
     await db.remoteCache.put({

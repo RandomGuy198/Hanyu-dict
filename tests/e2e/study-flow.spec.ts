@@ -126,6 +126,31 @@ function mockPrivateRepo(page: Page, repo: MockRepo) {
       return;
     }
 
+    // Git Data API fallback (used only when the Contents API rejects a >1 MB file).
+    const trees = /^\/repos\/mock\/hanyu-mock\/git\/trees\/(.+)$/.exec(pathname);
+    if (request.method() === 'GET' && trees) {
+      const tree = [...repo.files.keys()].map((p) => ({ path: p, type: 'blob', sha: `sha-${p}`, size: p.length }));
+      await route.fulfill({
+        status: 200,
+        contentType: 'application/json',
+        body: JSON.stringify({ tree, truncated: false }),
+      });
+      return;
+    }
+
+    const blobs = /^\/repos\/mock\/hanyu-mock\/git\/blobs\/(.+)$/.exec(pathname);
+    if (request.method() === 'GET' && blobs) {
+      const sha = blobs[1];
+      const path = [...repo.files.keys()].find((p) => `sha-${p}` === sha);
+      const text = path ? repo.files.get(path) : undefined;
+      if (text === undefined) {
+        await route.fulfill({ status: 404, contentType: 'application/json', body: '{"message":"Not Found"}' });
+        return;
+      }
+      await route.fulfill({ status: 200, contentType: 'application/octet-stream', body: text });
+      return;
+    }
+
     if (request.method() === 'GET' && pathname === '/repos/mock/hanyu-mock') {
       await route.fulfill({
         status: 200,

@@ -53,7 +53,7 @@ export interface PhotoImageRow {
 
 export interface RemoteCacheRow {
   path: string;
-  category: 'book' | 'lesson' | 'page' | 'audio' | 'manifest';
+  category: 'book' | 'lesson' | 'page' | 'audio' | 'manifest' | 'tree';
   version?: string;
   data: unknown;
   updatedAt: string;
