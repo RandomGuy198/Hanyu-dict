@@ -40,7 +40,9 @@ export default function PracticePage() {
   const toast = useToast();
   const navigate = useNavigate();
   const [params, setParams] = useSearchParams();
-  const source = parseSource(params.get('list') ?? '', params.get('notebook') ?? '');
+  const listParam = params.get('list') ?? '';
+  const notebookParam = params.get('notebook') ?? '';
+  const source = useMemo(() => parseSource(listParam, notebookParam), [listParam, notebookParam]);
   const sourceKey = `${source.kind}:${'id' in source ? source.id : ''}`;
   const dictionaryReady = state.phase === 'ready';
 
