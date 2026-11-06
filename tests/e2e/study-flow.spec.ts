@@ -267,6 +267,111 @@ test.describe('study flow with a mocked private repository', () => {
     await expect(page.getByText(/Chữ 1\/3/)).toBeVisible();
   });
 
+  test('the reader is a chrome-free PDF-like page and word clicks look up without playing audio', async ({
+    page,
+  }) => {
+    // Count every attempt the app makes to play something, before any of its scripts run.
+    await page.addInitScript(() => {
+      const w = window as unknown as {
+        __audioAttempts: number;
+        Audio: typeof Audio;
+        AudioContext?: typeof AudioContext;
+        webkitAudioContext?: typeof AudioContext;
+        speechSynthesis?: SpeechSynthesis;
+      };
+      w.__audioAttempts = 0;
+      const OrigAudio = w.Audio;
+      const AudioShim = function (this: HTMLAudioElement, ...args: ConstructorParameters<typeof Audio>) {
+        w.__audioAttempts += 1;
+        return new OrigAudio(...args);
+      } as unknown as typeof Audio;
+      AudioShim.prototype = OrigAudio.prototype;
+      w.Audio = AudioShim;
+      for (const key of ['AudioContext', 'webkitAudioContext'] as const) {
+        const OrigCtx = w[key];
+        if (!OrigCtx) continue;
+        const CtxShim = function (this: AudioContext, ...args: ConstructorParameters<typeof AudioContext>) {
+          w.__audioAttempts += 1;
+          return new OrigCtx(...args);
+        } as unknown as typeof AudioContext;
+        CtxShim.prototype = OrigCtx.prototype;
+        w[key] = CtxShim;
+      }
+      if (w.speechSynthesis) {
+        const synth = w.speechSynthesis;
+        const orig = synth.speak.bind(synth);
+        synth.speak = (utterance: SpeechSynthesisUtterance) => {
+          w.__audioAttempts += 1;
+          orig(utterance);
+        };
+      }
+    });
+
+    const repo = courseRepo();
+    await mockPrivateRepo(page, repo);
+    await closeLocalBridge(page);
+    await connectAsOwner(page);
+
+    await gotoReady(page, '/#/books/b1/page/40');
+    const textPane = page.getByRole('region', { name: 'Văn bản tương tác' });
+    await expect(textPane, 'the reader always shows the interactive text pane').toBeVisible();
+    await expect(
+      page.getByRole('region', { name: 'Trang sách' }),
+      'the reader always shows the clean page pane',
+    ).toBeVisible();
+
+    // Every piece of removed chrome stays removed.
+    await expect(page.locator('.page-hotspot'), 'no hotspot overlay boxes').toHaveCount(0);
+    await expect(
+      page.getByRole('region', { name: 'Trình phát âm thanh bài học' }),
+      'no bottom AudioBar',
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole('radio', { name: /📄 Trang sách/ }),
+      'no view-mode toggle',
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole('button', { name: /🎓 Luyện bài này/ }),
+      'no in-reader course button',
+    ).toHaveCount(0);
+    await expect(
+      page.getByLabel('Chọn bài học'),
+      'no in-reader lesson picker',
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole('button', { name: /▶ Nghe câu/ }),
+      'no per-sentence play buttons',
+    ).toHaveCount(0);
+
+    // Clicking a word opens a dictionary popover instead of firing audio.
+    const dialogue = textPane.getByRole('region', { name: COURSE_LESSON.dialogues[0].title });
+    await dialogue.getByRole('button', { name: /^汉语/ }).click();
+
+    const dialog = page.getByRole('dialog', { name: /Chi tiết từ 汉语/ });
+    await expect(dialog, 'the popover opens as a dictionary lookup').toBeVisible();
+    await expect(
+      dialog.getByRole('link', { name: /Mở trang từ điển/ }),
+      'the popover links to the full dictionary entry',
+    ).toBeVisible();
+    await expect(
+      dialog.getByRole('button', { name: /Từ đơn/ }),
+      'the standalone-audio button is gone',
+    ).toHaveCount(0);
+    await expect(
+      dialog.getByRole('button', { name: /Trong câu/ }),
+      'the in-sentence-audio button is gone',
+    ).toHaveCount(0);
+
+    // Closing with Escape returns to the plain reader.
+    await dialog.getByRole('button', { name: /Đóng/ }).click();
+    await expect(dialog).toHaveCount(0);
+
+    expect(
+      await page.evaluate(() => (window as unknown as { __audioAttempts: number }).__audioAttempts),
+      'clicking a word must never start audio',
+    ).toBe(0);
+  });
+
   test('writing practice opens the characters the course asks for', async ({ page }) => {
     await gotoReady(page, `/#/writing?chars=${encodeURIComponent(COURSE_LESSON.writingTargets.join(''))}`);
     await expect(page.getByRole('region', { name: `Practice grid for ${COURSE_LESSON.writingTargets[0]}` })).toBeVisible();
