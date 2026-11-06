@@ -127,7 +127,12 @@ export async function installPack(
 
   try {
     for (const [index, file] of pack.files.entries()) {
-      const response = await fetch(dataUrl(file.path), { cache: 'default' });
+      let response = await fetch(dataUrl(file.path), { cache: 'default' });
+      if (!response.ok) {
+        // A transient failure can leave a negative entry in the browser HTTP cache
+        // (GitHub Pages sends max-age=600); retry once, bypassing the cache.
+        response = await fetch(dataUrl(file.path), { cache: 'reload' });
+      }
       if (!response.ok) throw new Error(`${file.path}: HTTP ${response.status}`);
       const buffer = await response.arrayBuffer();
       downloaded += buffer.byteLength;

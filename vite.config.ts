@@ -102,7 +102,7 @@ export default defineConfig({
     localPrivateDataBridge(),
     cspForProduction(),
     VitePWA({
-      registerType: 'prompt',
+      registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons/icon-192.png', 'icons/icon-512.png'],
       manifest: false, // supplied by public/manifest.webmanifest so the file is reviewable
       injectRegister: 'auto',

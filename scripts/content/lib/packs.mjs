@@ -36,7 +36,7 @@ export const PACK_DEFS = {
     kind: 'strokes',
     label: 'Stroke order graphics',
     source: 'hanzi-writer-data',
-    required: false,
+    required: true,
     languages: ['zh-Hans', 'zh-Hant'],
     coverageMode: 'sum-jsonl', // index.txt mirrors the shards and must not be counted twice
     shardGlob: '*.jsonl',
@@ -45,7 +45,7 @@ export const PACK_DEFS = {
     kind: 'examples',
     label: 'Example sentences',
     source: 'tatoeba',
-    required: false,
+    required: true,
     languages: ['zh-Hans', 'zh-Hant', 'en'],
     coverageMode: 'sum-shards',
     shardGlob: '*.txt',

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T09:31:52.550Z",
+  "generatedAt": "2026-11-06T08:28:10.392Z",
   "minAppVersion": "1.0.0",
   "packs": [
     {
@@ -443,7 +443,7 @@
       "kind": "strokes",
       "label": "Stroke order graphics",
       "version": "2.0.1-26f7d044",
-      "required": false,
+      "required": true,
       "license": "Arphic-Public-License-1999",
       "sourceUrl": "https://registry.npmjs.org/hanzi-writer-data/-/hanzi-writer-data-2.0.1.tgz",
       "attribution": "Stroke outlines and medians from the Make Me a Hanzi project (https://github.com/skishore/makemeahanzi), distributed via hanzi-writer-data by David Chanin (https://github.com/chanind/hanzi-writer-data), licensed under the Arphic Public License (Copyright (C) 1999 Arphic Technology Co., Ltd.).",
@@ -614,7 +614,7 @@
       "kind": "examples",
       "label": "Example sentences",
       "version": "2026-10-31-export-snapsh-0c5de70d",
-      "required": false,
+      "required": true,
       "license": "CC-BY-2.0-FR",
       "sourceUrl": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2",
       "attribution": "Sentences and translations from the Tatoeba project (https://tatoeba.org), licensed CC BY 2.0 FR. Every example the app shows carries its Tatoeba sentence id as a link to https://tatoeba.org/en/sentences/show/<id>, which is the page where the contributor is named.",

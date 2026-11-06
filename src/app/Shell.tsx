@@ -42,34 +42,13 @@ const SECONDARY_NAV: NavItem[] = [
   { to: '/test', label: 'Kiểm tra', icon: <IconPen /> },
 ];
 
-function UpdateBanner() {
-  const [available, setAvailable] = useState(false);
+function ServiceWorkerAutoUpdate() {
   useEffect(() => {
-    const registration = registerSW({
-      immediate: true,
-      onNeedRefresh() {
-        setAvailable(true);
-      },
-      onOfflineReady() {
-        setAvailable(false);
-      },
-    });
-    return () => void registration;
+    // registerType 'autoUpdate' injects skipWaiting + clientsClaim, so a newly
+    // deployed worker activates and takes control on its own — no manual reload.
+    registerSW({ immediate: true });
   }, []);
-  if (!available) return null;
-  return (
-    <div className="notice notice-info update-banner" role="status">
-      <div className="row-wrap">
-        <span>Có bản mới. Cập nhật không làm mất ghi chú hay lịch ôn tập của bạn.</span>
-        <button type="button" className="btn btn-sm btn-primary" onClick={() => window.location.reload()}>
-          Cập nhật ngay
-        </button>
-        <button type="button" className="btn btn-sm" onClick={() => setAvailable(false)}>
-          Để sau
-        </button>
-      </div>
-    </div>
-  );
+  return null;
 }
 
 function OfflinePill() {
@@ -146,7 +125,7 @@ export function Shell() {
         </header>
 
         <main id="main" className="app-main">
-          <UpdateBanner />
+          <ServiceWorkerAutoUpdate />
           <Outlet />
         </main>
 
