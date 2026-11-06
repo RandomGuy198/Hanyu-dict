@@ -39,7 +39,13 @@ function coverageOf(median: number[][], user: DrawPoint[]): number {
 }
 
 function PracticeDesk({ char, sd }: { char: string; sd: StrokeData | null | undefined }) {
-  const guides = useMemo(() => (sd ? pairMedians(sd.medians) : []), [sd]);
+  // Median guides arrive in the pack's y-up grid; the pointer captures screen-space y-down.
+  // Flip the guides once so rendering, the numbered badge, and coverage matching all share one
+  // coordinate system — otherwise the guide renders upside down and never matches the drawing.
+  const guides = useMemo(
+    () => (sd ? pairMedians(sd.medians).map((pts) => pts.map(([x, y]) => [x, 1024 - y])) : []),
+    [sd],
+  );
   const total = guides.length;
   const [userStrokes, setUserStrokes] = useState<DrawPoint[][]>([]);
   const [results, setResults] = useState<number[]>([]);
@@ -172,9 +178,13 @@ function PracticeDesk({ char, sd }: { char: string; sd: StrokeData | null | unde
         <line className="char-grid-line char-grid-dashed" x1={10} y1={512} x2={1014} y2={512} />
         <line className="char-grid-line char-grid-dashed" x1={10} y1={10} x2={1014} y2={1014} />
         <line className="char-grid-line char-grid-dashed" x1={1014} y1={10} x2={10} y2={1014} />
-        {sd
-          ? sd.strokes.map((d, i) => <path key={`outline-${i}`} className="char-desk-outline" d={d} />)
-          : null}
+        {sd ? (
+          <g transform="translate(0 1024) scale(1 -1)">
+            {sd.strokes.map((d, i) => (
+              <path key={`outline-${i}`} className="char-desk-outline" d={d} />
+            ))}
+          </g>
+        ) : null}
         {!sd && char ? (
           <text className="char-desk-glyph" x={512} y={512}>
             {char}

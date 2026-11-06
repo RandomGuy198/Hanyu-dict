@@ -323,17 +323,22 @@ function StaticOutline({ sd }: { sd: StrokeData }) {
         role="img"
         aria-label={`Static outline of ${sd.char} with numbered stroke start points`}
       >
-        {sd.strokes.map((d, i) => (
-          <path
-            key={`p-${i}`}
-            className={`char-static-path ${lit === i ? 'is-lit' : lit !== null ? 'is-dim' : ''}`}
-            d={d}
-          />
-        ))}
+        {/* Stroke data uses a y-up grid (makemeahanzi / Hanzi Writer); SVG is y-down, so flip the
+            outlines into screen space. Hanzi Writer does this internally for the animation, which is
+            why only this raw static render was upside down. */}
+        <g transform="translate(0 1024) scale(1 -1)">
+          {sd.strokes.map((d, i) => (
+            <path
+              key={`p-${i}`}
+              className={`char-static-path ${lit === i ? 'is-lit' : lit !== null ? 'is-dim' : ''}`}
+              d={d}
+            />
+          ))}
+        </g>
         {sd.strokes.map((d, i) => {
           const start = pathStartPoint(d) ?? [120, 120];
           const x = Math.max(44, Math.min(980, start[0]));
-          const y = Math.max(60, Math.min(980, start[1]));
+          const y = Math.max(60, Math.min(980, 1024 - start[1]));
           return (
             <g key={`n-${i}`} className="char-num-badge">
               <circle cx={x} cy={y} r={32} />
