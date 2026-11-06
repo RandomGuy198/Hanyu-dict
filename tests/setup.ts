@@ -55,6 +55,23 @@ if (typeof globalThis.matchMedia !== 'function') {
   });
 }
 
+// jsdom's Blob has no `arrayBuffer()` (every target browser does), and Web Audio decode needs the
+// bytes, so back it with FileReader rather than special-casing production code for the test env.
+if (typeof Blob !== 'undefined' && typeof Blob.prototype.arrayBuffer !== 'function') {
+  Object.defineProperty(Blob.prototype, 'arrayBuffer', {
+    configurable: true,
+    writable: true,
+    value(this: Blob): Promise<ArrayBuffer> {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result as ArrayBuffer);
+        reader.onerror = () => reject(reader.error);
+        reader.readAsArrayBuffer(this);
+      });
+    },
+  });
+}
+
 /** Invariants every test file depends on; a broken setup fails loudly here, not later. */
 async function assertEnvironment(): Promise<void> {
   expect(typeof globalThis.indexedDB?.open).toBe('function');

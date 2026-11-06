@@ -74,12 +74,43 @@ class FakeAudioElement {
   }
 }
 
+class FakeBufferSource {
+  buffer: AudioBuffer | null = null;
+  playbackRate = { value: 1 };
+  onended: (() => void) | null = null;
+  connect(): void {}
+  start(when: number, offset: number, duration: number): void {
+    FakeAudioContext.starts.push({ when, offset, duration });
+    setTimeout(() => this.onended?.(), 0);
+  }
+  stop(): void {
+    this.onended = null;
+  }
+}
+
+class FakeAudioContext {
+  static starts: { when: number; offset: number; duration: number }[] = [];
+  state = 'running';
+  destination = {};
+  resume(): Promise<void> {
+    return Promise.resolve();
+  }
+  createBufferSource(): FakeBufferSource {
+    return new FakeBufferSource();
+  }
+  decodeAudioData(): Promise<AudioBuffer> {
+    return Promise.resolve({ duration: 120 } as unknown as AudioBuffer);
+  }
+}
+
 describe('audioPlayer (contextual lesson slices, TTS files, and speech fallback)', () => {
   beforeEach(() => {
     stopAudio();
     clearGitHubConfig();
     FakeAudioElement.instances = [];
+    FakeAudioContext.starts = [];
     vi.stubGlobal('Audio', FakeAudioElement);
+    vi.stubGlobal('AudioContext', FakeAudioContext);
     if (typeof URL.createObjectURL !== 'function') {
       Object.defineProperty(URL, 'createObjectURL', {
         configurable: true,
@@ -100,7 +131,7 @@ describe('audioPlayer (contextual lesson slices, TTS files, and speech fallback)
     }
   });
 
-  it('playSentenceAudio(sentence, "context") loads lesson MP3 blob and seeks to startMs / 1000, pausing at endMs / 1000', async () => {
+  it('playSentenceAudio(sentence, "context") plays exactly the lesson slice [startMs, endMs] via Web Audio', async () => {
     const lessonMp3Bytes = new Uint8Array([0x49, 0x44, 0x33, 0x04, 0x00]).buffer;
     await db.remoteCache.put({
       path: 'audio/lessons/b1/l02.mp3',
@@ -127,11 +158,14 @@ describe('audioPlayer (contextual lesson slices, TTS files, and speech fallback)
     const result = await playSentenceAudio(sentence, 'context', 1.0);
     expect(result.ok).toBe(true);
     expect(result.source).toBe('lesson-slice');
-    expect(FakeAudioElement.instances).toHaveLength(1);
-    const instance = FakeAudioElement.instances[0];
-    // Started at 14.2s and paused at or after 14.23s
-    expect(instance.currentTime).toBeGreaterThanOrEqual(14.2);
-    expect(instance.paused).toBe(true);
+    expect(result.source).toBe('lesson-slice');
+    // Slices now play through Web Audio, not an HTMLAudioElement seek.
+    expect(FakeAudioElement.instances).toHaveLength(0);
+    expect(FakeAudioContext.starts).toHaveLength(1);
+    const played = FakeAudioContext.starts[0];
+    // start(when, offset, duration) → offset 14.2s, duration 0.03s
+    expect(played.offset).toBeCloseTo(14.2, 2);
+    expect(played.duration).toBeCloseTo(0.03, 2);
   });
 
   it('playWordAudio("忙", "mang2") resolves "忙|mang2" in audio/manifest.json and plays the TTS MP3 blob', async () => {

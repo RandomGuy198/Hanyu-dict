@@ -25,6 +25,9 @@ let activeAudio: HTMLAudioElement | null = null;
 let activeObjectUrl: string | null = null;
 let activeTimer: ReturnType<typeof setTimeout> | null = null;
 let activeFinish: ((result: PlayAudioResult) => void) | null = null;
+let activeSource: AudioBufferSourceNode | null = null;
+let audioCtx: AudioContext | null = null;
+const decodedBuffers = new Map<string, Promise<AudioBuffer>>();
 
 function cleanupActiveAudio(): void {
   if (activeTimer) {
@@ -50,6 +53,15 @@ function cleanupActiveAudio(): void {
     }
     activeObjectUrl = null;
   }
+  if (activeSource) {
+    try {
+      activeSource.onended = null;
+      activeSource.stop();
+    } catch {
+      // Ignore stop errors in headless environments
+    }
+    activeSource = null;
+  }
   if (activeFinish) {
     const finish = activeFinish;
     activeFinish = null;
@@ -64,6 +76,92 @@ export function stopAudio(): void {
 
 export function getActiveAudioElement(): HTMLAudioElement | null {
   return activeAudio;
+}
+
+function getAudioContext(): AudioContext {
+  if (!audioCtx) {
+    const g = globalThis as unknown as {
+      AudioContext?: typeof AudioContext;
+      webkitAudioContext?: typeof AudioContext;
+    };
+    const Ctor = g.AudioContext ?? g.webkitAudioContext;
+    if (!Ctor) throw new Error('Web Audio is not supported on this device.');
+    audioCtx = new Ctor();
+  }
+  return audioCtx;
+}
+
+/** Decode a lesson recording once and reuse the buffer, so repeated sentence clicks in the same
+ *  lesson don't re-download or re-decode the MP3. Keyed by the private-repo path. */
+async function decodeLessonBuffer(key: string, blob: Blob): Promise<AudioBuffer> {
+  const hit = decodedBuffers.get(key);
+  if (hit) return hit;
+  const ctx = getAudioContext();
+  const bytes = await blob.arrayBuffer();
+  const pending = ctx.decodeAudioData(bytes.slice(0));
+  decodedBuffers.set(key, pending);
+  pending.catch(() => decodedBuffers.delete(key));
+  return pending;
+}
+
+/**
+ * Play an exact `[startSec, endSec]` range from a decoded buffer via Web Audio. This is
+ * sample-accurate and does not depend on `HTMLAudioElement.currentTime` seeking, which Firefox
+ * and Safari silently drop on blob MP3s — the reason slices replayed from 0 there.
+ */
+function playBufferRange(
+  buffer: AudioBuffer,
+  startSec: number,
+  endSec: number,
+  playbackRate: number,
+): Promise<PlayAudioResult> {
+  const ctx = getAudioContext();
+  const rate = playbackRate > 0 ? playbackRate : 1;
+  return new Promise<PlayAudioResult>((resolve) => {
+    let settled = false;
+    let guard: ReturnType<typeof setTimeout> | null = null;
+    const src = ctx.createBufferSource();
+    const finish = (result: PlayAudioResult) => {
+      if (settled) return;
+      settled = true;
+      if (guard) {
+        clearTimeout(guard);
+        guard = null;
+      }
+      if (activeSource === src) {
+        try {
+          src.onended = null;
+        } catch {
+          // Ignore
+        }
+        activeSource = null;
+      }
+      if (activeFinish === finish) activeFinish = null;
+      resolve(result);
+    };
+    activeFinish = finish;
+    src.buffer = buffer;
+    src.playbackRate.value = rate;
+    src.connect(ctx.destination);
+    src.onended = () => finish({ ok: true, source: 'lesson-slice' });
+    activeSource = src;
+    const duration = Math.max(0.001, endSec - startSec);
+    guard = setTimeout(() => finish({ ok: true, source: 'lesson-slice' }), (duration / rate) * 1000 + 1500);
+    const begin = () => {
+      if (settled) return;
+      try {
+        src.start(0, startSec, duration);
+      } catch (err) {
+        finish({
+          ok: false,
+          source: 'lesson-slice',
+          reason: err instanceof Error ? err.message : 'Audio playback failed.',
+        });
+      }
+    };
+    if (ctx.state === 'suspended') ctx.resume().then(begin).catch(begin);
+    else begin();
+  });
 }
 
 async function sha1HexPrefix16(text: string): Promise<string> {
@@ -221,10 +319,17 @@ export async function playLessonSlice(
       reason: 'Lesson audio file is not available.',
     };
   }
-  const res = await playBlobSliceOrFull(blob, 'lesson-slice', playbackRate, {
-    startMs: slice.startMs,
-    endMs: slice.endMs,
-  });
+  let res: PlayAudioResult;
+  try {
+    const buffer = await decodeLessonBuffer(slice.audioPath, blob);
+    res = await playBufferRange(buffer, slice.startMs / 1000, slice.endMs / 1000, playbackRate);
+  } catch (error) {
+    return {
+      ok: false,
+      source: 'lesson-slice',
+      reason: error instanceof Error ? error.message : 'Could not decode lesson audio.',
+    };
+  }
   return {
     ok: res.ok,
     source: 'lesson-slice',
