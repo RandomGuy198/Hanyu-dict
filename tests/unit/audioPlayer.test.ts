@@ -131,12 +131,17 @@ describe('audioPlayer (contextual lesson slices, TTS files, and speech fallback)
     }
   });
 
-  it('playSentenceAudio(sentence, "context") plays exactly the lesson slice [startMs, endMs] via Web Audio', async () => {
-    const lessonMp3Bytes = new Uint8Array([0x49, 0x44, 0x33, 0x04, 0x00]).buffer;
+  it('playSentenceAudio prefers the Edge TTS file over the lesson recording', async () => {
     await db.remoteCache.put({
       path: 'audio/lessons/b1/l02.mp3',
       category: 'audio',
-      data: lessonMp3Bytes,
+      data: new Uint8Array([0x49, 0x44, 0x33, 0x04, 0x00]).buffer,
+      updatedAt: '2026-11-05T00:00:00.000Z',
+    });
+    await db.remoteCache.put({
+      path: 'audio/tts/sentences/aa/aa11.mp3',
+      category: 'audio',
+      data: new Uint8Array([0xff, 0xfb, 0x90, 0x00]).buffer,
       updatedAt: '2026-11-05T00:00:00.000Z',
     });
 
@@ -157,10 +162,25 @@ describe('audioPlayer (contextual lesson slices, TTS files, and speech fallback)
 
     const result = await playSentenceAudio(sentence, 'context', 1.0);
     expect(result.ok).toBe(true);
+    expect(result.source).toBe('tts-file');
+    expect(FakeAudioElement.instances).toHaveLength(1); // TTS plays through HTMLAudio
+    expect(FakeAudioContext.starts).toHaveLength(0); // lesson slice not used
+  });
+
+  it('playLessonSlice plays the exact [startMs, endMs] range via Web Audio', async () => {
+    await db.remoteCache.put({
+      path: 'audio/lessons/b1/l02.mp3',
+      category: 'audio',
+      data: new Uint8Array([0x49, 0x44, 0x33, 0x04, 0x00]).buffer,
+      updatedAt: '2026-11-05T00:00:00.000Z',
+    });
+
+    const result = await playLessonSlice(
+      { audioPath: 'audio/lessons/b1/l02.mp3', startMs: 14200, endMs: 14230, confidence: 0.92 },
+      1.0,
+    );
+    expect(result.ok).toBe(true);
     expect(result.source).toBe('lesson-slice');
-    expect(result.source).toBe('lesson-slice');
-    // Slices now play through Web Audio, not an HTMLAudioElement seek.
-    expect(FakeAudioElement.instances).toHaveLength(0);
     expect(FakeAudioContext.starts).toHaveLength(1);
     const played = FakeAudioContext.starts[0];
     // start(when, offset, duration) → offset 14.2s, duration 0.03s

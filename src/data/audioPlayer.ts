@@ -383,15 +383,9 @@ export async function playSentenceAudio(
   mode: 'context' | 'tts' = 'context',
   playbackRate = 1.0,
 ): Promise<PlayAudioResult> {
-  if (
-    mode === 'context' &&
-    sentence.lessonAudioSlice &&
-    sentence.lessonAudioSlice.confidence >= 0.75
-  ) {
-    const sliceRes = await playLessonSlice(sentence.lessonAudioSlice, playbackRate);
-    if (sliceRes.ok) return sliceRes;
-  }
-
+  // Edge TTS is the primary voice for book sentences: it is clean, correctly timed, and already
+  // generated for every sentence (and carried on sentence.ttsAudioPath). The lesson recording is
+  // only a fallback for the rare sentence with no TTS file, because the recordings were misaligned.
   let ttsPath = sentence.ttsAudioPath?.trim();
   if (!ttsPath && sentence.zh) {
     const manifest = await getAudioManifest();
@@ -409,6 +403,15 @@ export async function playSentenceAudio(
       const played = await playBlobSliceOrFull(blob, 'tts-file', playbackRate);
       if (played.ok) return played;
     }
+  }
+
+  if (
+    mode === 'context' &&
+    sentence.lessonAudioSlice &&
+    sentence.lessonAudioSlice.confidence >= 0.75
+  ) {
+    const sliceRes = await playLessonSlice(sentence.lessonAudioSlice, playbackRate);
+    if (sliceRes.ok) return sliceRes;
   }
 
   const speechRes = await speak(sentence.zh, {
