@@ -235,26 +235,17 @@
 
 /* Reader Split / Single Layout */
 .books-reader-layout {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: var(--sp-4);
-  align-items: start;
-}
-
-.books-reader-mode-split {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-}
-
-@media (max-width: 960px) {
-  .books-reader-mode-split {
-    grid-template-columns: 1fr;
-  }
+  align-items: stretch;
 }
 
 .books-pane {
   min-width: 0;
 }
 
-/* Page Scan Canvas & Hotspots */
+/* Page Scan Canvas */
 .books-page-canvas {
   position: relative;
   width: 100%;
@@ -264,6 +255,7 @@
   background: var(--bg-sunken);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
   overflow: hidden;
 }
 
@@ -281,34 +273,6 @@
   place-items: center;
   padding: var(--sp-4);
   text-align: center;
-}
-
-.page-hotspot {
-  position: absolute;
-  padding: 0;
-  border: 1.5px solid rgba(217, 119, 6, 0.22);
-  border-radius: 4px;
-  background: rgba(217, 119, 6, 0.06);
-  cursor: pointer;
-  transition: background var(--motion) var(--ease), border-color var(--motion) var(--ease);
-}
-
-.page-hotspot:hover,
-.page-hotspot:focus-visible {
-  border-color: rgba(217, 119, 6, 0.75);
-  background: rgba(217, 119, 6, 0.18);
-}
-
-.page-hotspot.is-active {
-  border-color: rgb(217, 119, 6);
-  background: rgba(217, 119, 6, 0.28);
-  box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.35);
-}
-
-.books-floating-sentence {
-  margin-top: var(--sp-3);
-  border-color: rgb(217, 119, 6);
-  box-shadow: var(--shadow-1);
 }
 
 /* Clean Interactive Text Mode & Segmented Word Tokens */
@@ -331,13 +295,6 @@
 .books-sentence-card.is-active {
   border-color: rgb(217, 119, 6);
   background: color-mix(in srgb, rgb(217, 119, 6) 10%, var(--bg-raised));
-}
-
-.books-sentence-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--sp-2);
-  align-items: center;
 }
 
 .books-sentence-body {

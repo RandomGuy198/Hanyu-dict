@@ -1,33 +1,29 @@
 /**
  * Shared Word Popover (`src/modules/books/WordPopover.tsx`, `07_UI_SPEC.md` §2.3).
  *
- * Opened when a word token inside a sentence or a vocabulary row/hotspot is clicked.
- * Displays:
- * - Header: Large Hanzi (and traditional if different), Pinyin, contextual tone sandhi badge
- *   (`Đọc trong câu: bú · Đọc riêng: bù`), Hán-Việt badge, and Part of Speech (`pos`).
- * - Two Audio Buttons side by side:
- *   1. `🔊 Từ đơn (TTS)` — plays standalone TTS audio for the word.
- *   2. `🎧 Trong câu (Băng gốc)` — plays the containing sentence's audio or vocabulary slice.
- * - Meanings:
- *   - Nghĩa trong sách (TV & EN)
- *   - Từ điển mở rộng (CVDICT / CC-CEDICT)
+ * Opened when a word token inside a sentence or a vocabulary row is clicked — a lightweight
+ * dictionary lookup, not an audio trigger. Displays:
+ * - Header: `<EntryDetailCard />` — the same content as a dictionary entry (large Hanzi,
+ *   pinyin, Hán-Việt badge, Vietnamese + English glosses) — plus a part-of-speech badge and,
+ *   when the contextual reading differs from the citation reading, a tone-sandhi badge
+ *   (`Đọc trong câu: bú · Đọc riêng: bù`).
+ * - The containing sentence's sandhi notes and a short sentence preview.
  * - Quick Actions Footer:
  *   - `⭐ Lưu từ & thêm thẻ SRS`
  *   - `✍️ Tập viết chữ`
- *   - `📖 Mở trang từ điển`
+ *   - `📖 Mở trang từ điển` (full dictionary page with examples & related words)
  */
 
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDictionary, useSavedWords, useToast } from '../../app/providers';
-import { playLessonSlice, playSentenceAudio, playWordAudio } from '../../data/audioPlayer';
 import { db, notifyLocalMutation } from '../../data/db';
 import { markDirty } from '../../data/syncEngine';
 import { marksToNumbered } from '../../domain/pinyin';
 import { EASE_DEFAULT } from '../../domain/scheduler';
 import { entryId } from '../../domain/searchRanking';
+import { EntryDetailCard } from '../../components';
 import type {
-  AudioSliceRef,
   Deck,
   DictEntry,
   LessonSentence,
@@ -82,7 +78,6 @@ export function WordPopover({
 
   const [dictEntries, setDictEntries] = useState<DictEntry[]>([]);
   const [charHanViet, setCharHanViet] = useState<string>('');
-  const [busyAudio, setBusyAudio] = useState<'word' | 'context' | null>(null);
   const [savingSrs, setSavingSrs] = useState(false);
   const [srsAdded, setSrsAdded] = useState(false);
 
@@ -195,21 +190,6 @@ export function WordPopover({
     return out;
   }, [dictEntries]);
 
-  const dictEnList = useMemo(() => {
-    const out: string[] = [];
-    for (const entry of dictEntries) {
-      const items = entry.definition ? entry.definition.split('; ').filter(Boolean) : [];
-      for (const item of items) {
-        if (item && !out.includes(item)) out.push(item);
-      }
-    }
-    return out;
-  }, [dictEntries]);
-
-  const contextSlice: AudioSliceRef | undefined =
-    sentence?.lessonAudioSlice ?? matchedVocab?.lessonAudioSlice;
-  const hasContextAudio = Boolean(sentence || contextSlice);
-
   const syntheticEntry: DictEntry = useMemo(() => {
     if (primaryDict) {
       return {
@@ -247,39 +227,6 @@ export function WordPopover({
   ]);
 
   const alreadySaved = isSaved(syntheticEntry.id) || srsAdded;
-
-  const handlePlayStandalone = async () => {
-    setBusyAudio('word');
-    try {
-      const result = await playWordAudio(hanzi, pinyinNumbered || undefined, undefined);
-      if (!result.ok) {
-        toast.push({ message: result.reason ?? 'Không phát được âm thanh từ đơn.', tone: 'warn' });
-      }
-    } finally {
-      setBusyAudio(null);
-    }
-  };
-
-  const handlePlayContext = async () => {
-    setBusyAudio('context');
-    try {
-      if (sentence) {
-        const result = await playSentenceAudio(sentence, 'context', 1.0);
-        if (!result.ok) {
-          toast.push({ message: result.reason ?? 'Không phát được âm thanh câu.', tone: 'warn' });
-        }
-        return;
-      }
-      if (contextSlice) {
-        const result = await playLessonSlice(contextSlice, 1.0);
-        if (!result.ok) {
-          toast.push({ message: result.reason ?? 'Không phát được băng gốc.', tone: 'warn' });
-        }
-      }
-    } finally {
-      setBusyAudio(null);
-    }
-  };
 
   const handleSaveWordAndSrs = async () => {
     if (savingSrs || !hanzi) return;
@@ -395,32 +342,21 @@ export function WordPopover({
       >
         <header className="word-popover-header">
           <div className="word-popover-title-group">
-            <div className="row-wrap" style={{ alignItems: 'baseline', gap: 'var(--sp-2)' }}>
-              <span className="word-popover-hanzi cjk" lang="zh">
-                {hanzi}
-              </span>
-              {traditional && traditional !== hanzi ? (
-                <span className="word-popover-trad cjk faint" lang="zh">
-                  {traditional}
-                </span>
-              ) : null}
-              {displayPinyin ? <span className="word-popover-pinyin">{displayPinyin}</span> : null}
-              {pos ? <span className="badge">({pos})</span> : null}
-            </div>
-
-            <div className="row-wrap" style={{ gap: 'var(--sp-2)', marginTop: 'var(--sp-1)' }}>
-              {hanViet ? (
-                <span className="badge badge-info word-popover-hv">
-                  [HÁN VIỆT: {hanViet.toUpperCase()}]
-                </span>
-              ) : null}
-              {hasSandhi && citationPinyin ? (
-                <span className="badge badge-warn word-popover-sandhi">
-                  Đọc trong câu: <strong>{displayPinyin}</strong> · Đọc riêng:{' '}
-                  <strong>{citationPinyin}</strong>
-                </span>
-              ) : null}
-            </div>
+            <EntryDetailCard
+              entry={syntheticEntry}
+              pinyin={displayPinyin}
+              extraBadges={
+                <>
+                  {pos ? <span className="badge">({pos})</span> : null}
+                  {hasSandhi && citationPinyin ? (
+                    <span className="badge badge-warn word-popover-sandhi">
+                      Đọc trong câu: <strong>{displayPinyin}</strong> · Đọc riêng:{' '}
+                      <strong>{citationPinyin}</strong>
+                    </span>
+                  ) : null}
+                </>
+              }
+            />
           </div>
 
           <button
@@ -439,70 +375,15 @@ export function WordPopover({
           </div>
         ) : null}
 
-        <div className="word-popover-audio-row">
-          <button
-            type="button"
-            className="btn btn-primary btn-sm word-popover-audio-btn"
-            disabled={busyAudio === 'word'}
-            onClick={() => void handlePlayStandalone()}
-          >
-            🔊 Từ đơn (TTS)
-          </button>
-          {hasContextAudio ? (
-            <button
-              type="button"
-              className="btn btn-sm word-popover-audio-btn"
-              disabled={busyAudio === 'context'}
-              onClick={() => void handlePlayContext()}
-            >
-              🎧 Trong câu (Băng gốc)
-            </button>
-          ) : null}
-        </div>
-
-        <div className="word-popover-meanings stack" style={{ gap: 'var(--sp-3)' }}>
-          {bookMeaningVi || bookMeaningEn ? (
-            <div className="word-popover-meaning-block">
-              <h4 className="text-sm muted">Nghĩa trong sách (TV)</h4>
-              {bookMeaningVi ? (
-                <p className="word-popover-vi">
-                  <strong>{bookMeaningVi}</strong>
-                </p>
-              ) : null}
-              {bookMeaningEn ? <p className="text-sm muted">EN: {bookMeaningEn}</p> : null}
-            </div>
-          ) : null}
-
-          {dictViList.length > 0 || dictEnList.length > 0 ? (
-            <div className="word-popover-meaning-block">
-              <h4 className="text-sm muted">Từ điển mở rộng (CVDICT / CC-CEDICT)</h4>
-              {dictViList.length > 0 ? (
-                <p className="text-sm">
-                  <strong>TV:</strong> {dictViList.slice(0, 4).join('; ')}
-                </p>
-              ) : null}
-              {dictEnList.length > 0 ? (
-                <p className="text-sm muted">
-                  <strong>EN:</strong> {dictEnList.slice(0, 4).join('; ')}
-                </p>
-              ) : null}
-            </div>
-          ) : !bookMeaningVi && !bookMeaningEn ? (
-            <p className="text-sm muted">
-              Nhấn “Mở trang từ điển” bên dưới để tra cứu chi tiết từ này.
-            </p>
-          ) : null}
-
-          {sentence ? (
-            <div className="word-popover-sentence-preview">
-              <span className="text-sm faint">Câu chứa từ: </span>
-              <span className="cjk" lang="zh">
-                {sentence.zh}
-              </span>{' '}
-              <span className="pinyin text-sm">({sentence.pinyin})</span>
-            </div>
-          ) : null}
-        </div>
+        {sentence ? (
+          <div className="word-popover-sentence-preview">
+            <span className="text-sm faint">Câu chứa từ: </span>
+            <span className="cjk" lang="zh">
+              {sentence.zh}
+            </span>{' '}
+            <span className="pinyin text-sm">({sentence.pinyin})</span>
+          </div>
+        ) : null}
 
         <footer className="word-popover-footer">
           <button

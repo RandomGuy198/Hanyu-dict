@@ -7,10 +7,9 @@ import { Link, useParams } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import {
   AttributionNote,
-  DefinitionText,
   EmptyState,
+  EntryDetailCard,
   EntryLine,
-  HanziText,
   LoadingGate,
   PageHeader,
   SaveButton,
@@ -203,7 +202,6 @@ export default function EntryPage() {
 
   const headword = preferredHeadword(entry, prefs);
   const pinyin = prefs.showPinyin ? preferredPinyin(entry, prefs) : '';
-
   const copy = async () => {
     const hvLine = entry.hanViet ? ` [Hán Việt: ${entry.hanViet}]` : '';
     const viLine = entry.definitionVi ? `\nTiếng Việt: ${entry.definitionVi}` : '';
@@ -244,8 +242,6 @@ export default function EntryPage() {
     }
   };
 
-  const glossesVi = entry.definitionsVi ?? (entry.definitionVi ? entry.definitionVi.split('; ').filter(Boolean) : []);
-
   return (
     <div className="dict-page stack">
       <LoadingGate>
@@ -271,33 +267,7 @@ export default function EntryPage() {
         ) : null}
 
         <section className="card">
-          <div className="dict-entry-head">
-            <HanziText entry={entry} size="xl" />
-            {pinyin ? <span className="pinyin dict-pinyin-lg">{pinyin}</span> : null}
-            {entry.hanViet ? (
-              <span className="badge" lang="vi">
-                [Hán Việt: {entry.hanViet}]
-              </span>
-            ) : null}
-          </div>
-          {glossesVi.length > 0 ? (
-            <div className="definition dict-glosses" lang="vi" style={{ marginBottom: 'var(--sp-3)' }}>
-              <strong className="text-sm muted">Tiếng Việt: </strong>
-              {glossesVi.length > 2 ? (
-                <ol className="gloss-list">
-                  {glossesVi.map((gloss, idx) => (
-                    <li key={`vi-${idx}-${gloss.slice(0, 12)}`}>{gloss}</li>
-                  ))}
-                </ol>
-              ) : (
-                <span>{glossesVi.join('; ')}</span>
-              )}
-            </div>
-          ) : null}
-          <div className="definition dict-glosses" lang="en">
-            {glossesVi.length > 0 ? <strong className="text-sm muted">English: </strong> : null}
-            <DefinitionText entry={entry} />
-          </div>
+          <EntryDetailCard entry={entry} pinyin={pinyin} />
           <div className="row-wrap" style={{ marginTop: 'var(--sp-4)' }}>
             <SpeakButton text={headword} label={`Play ${headword} with the device voice`} />
             <SaveButton entry={entry} />

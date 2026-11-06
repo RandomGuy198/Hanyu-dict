@@ -130,6 +130,56 @@ export function DefinitionText({ entry }: { entry: DictEntry }) {
   );
 }
 
+/** The dictionary entry's core card: headword, pinyin, Hán Việt, optional extra badges, and the
+ *  Vietnamese + English glosses. Presentational only — consumers own the action row (Speak/Save/
+ *  Copy) and any book-specific extras. Shared by the dictionary page and the book word popover so
+ *  a word looked up from a book reads exactly like a dictionary lookup. */
+export function EntryDetailCard({
+  entry,
+  pinyin,
+  extraBadges,
+  className,
+}: {
+  entry: DictEntry;
+  pinyin?: string;
+  extraBadges?: ReactNode;
+  className?: string;
+}) {
+  const glossesVi = entry.definitionsVi ?? (entry.definitionVi ? entry.definitionVi.split('; ').filter(Boolean) : []);
+  return (
+    <div className={className}>
+      <div className="dict-entry-head">
+        <HanziText entry={entry} size="xl" />
+        {pinyin ? <span className="pinyin dict-pinyin-lg">{pinyin}</span> : null}
+        {entry.hanViet ? (
+          <span className="badge" lang="vi">
+            [Hán Việt: {entry.hanViet}]
+          </span>
+        ) : null}
+        {extraBadges}
+      </div>
+      {glossesVi.length > 0 ? (
+        <div className="definition dict-glosses" lang="vi" style={{ marginBottom: 'var(--sp-3)' }}>
+          <strong className="text-sm muted">Tiếng Việt: </strong>
+          {glossesVi.length > 2 ? (
+            <ol className="gloss-list">
+              {glossesVi.map((gloss, idx) => (
+                <li key={`vi-${idx}-${gloss.slice(0, 12)}`}>{gloss}</li>
+              ))}
+            </ol>
+          ) : (
+            <span>{glossesVi.join('; ')}</span>
+          )}
+        </div>
+      ) : null}
+      <div className="definition dict-glosses" lang="en">
+        {glossesVi.length > 0 ? <strong className="text-sm muted">English: </strong> : null}
+        <DefinitionText entry={entry} />
+      </div>
+    </div>
+  );
+}
+
 export function SpeakButton({
   text,
   pinyin,

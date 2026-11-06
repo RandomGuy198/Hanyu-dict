@@ -1,22 +1,16 @@
 /**
- * `#/books/:bookId` and `#/books/:bookId/page/:pageNum` — Interactive Dual-Mode Book Reader (`07_UI_SPEC.md` §2.2).
+ * `#/books/:bookId` and `#/books/:bookId/page/:pageNum` — Minimal PDF-like Book Reader (`07_UI_SPEC.md` §2.2).
  *
- * Supports:
- * - `📄 Trang sách` (`page`): Rendered textbook page (`1224×1584` WebP) with interactive `<button className="page-hotspot">` overlays.
- * - `📝 Văn bản` (`text`): Structured dialogues, vocabulary, grammar, and notes with clickable segmented word tokens (`zh-token`).
- * - `Song song` (`split`): Page Scan on the left, Clean Interactive Text on the right.
- * - Synchronized `<AudioBar />` at the bottom and `<WordPopover />` on word/vocab click.
+ * Presents the rendered textbook page (`1224×1584` WebP) as a clean, chrome-free sheet with the
+ * structured interactive text stacked below it (dialogues, vocabulary, grammar, notes). Clicking a
+ * word token (`zh-token`) or a vocabulary row opens `<WordPopover />` with the dictionary entry —
+ * no autoplay and no overlay hotspot boxes.
  */
 
 import { useCallback, useEffect, useMemo, useState, type FormEvent } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { PageHeader, Segmented } from '../../components';
+import { PageHeader } from '../../components';
 import { IconBook, IconChevronLeft, IconGear } from '../../app/icons';
-import {
-  playLessonSlice,
-  playSentenceAudio,
-  playWordAudio,
-} from '../../data/audioPlayer';
 import { getBookBookmark, saveBookBookmark } from '../../data/db';
 import {
   getBookDetail,
@@ -24,40 +18,22 @@ import {
   getPageImageBlobUrl,
 } from '../../data/privateData';
 import { markDirty } from '../../data/syncEngine';
-import { marksToNumbered } from '../../domain/pinyin';
 import type {
   BookSummary,
   LessonDocument,
   LessonSentence,
   LessonSummary,
   LessonVocabItem,
-  PageHotspot,
   SentenceToken,
 } from '../../domain/types';
-import { AudioBar } from './AudioBar';
 import { findVolume } from './bookCatalog';
 import { WordPopover } from './WordPopover';
 import './books.css';
-
-type ReaderViewMode = 'page' | 'text' | 'split';
 
 interface PopoverState {
   vocab?: LessonVocabItem;
   token?: SentenceToken;
   sentence?: LessonSentence;
-}
-
-function defaultViewMode(): ReaderViewMode {
-  if (typeof window !== 'undefined' && typeof window.matchMedia === 'function') {
-    try {
-      if (window.matchMedia('(min-width: 1024px)').matches) {
-        return 'split';
-      }
-    } catch {
-      // Ignore matchMedia errors
-    }
-  }
-  return 'page';
 }
 
 function padPageNumber(pageNum: number): string {
@@ -88,20 +64,13 @@ export default function BookReaderPage() {
     return Number.isInteger(parsed) && parsed >= 1 ? parsed : 1;
   });
   const [pageJumpInput, setPageJumpInput] = useState<string>(() => String(currentPage));
-  const [viewMode, setViewMode] = useState<ReaderViewMode>(defaultViewMode);
   const [bookmarkInitialized, setBookmarkInitialized] = useState(false);
 
   const [showPinyin, setShowPinyin] = useState(true);
   const [showVi, setShowVi] = useState(true);
 
   const [activeSentenceId, setActiveSentenceId] = useState<string | null>(null);
-  const [activeHotspotId, setActiveHotspotId] = useState<string | null>(null);
-  const [floatingSentence, setFloatingSentence] = useState<LessonSentence | null>(null);
   const [popover, setPopover] = useState<PopoverState | null>(null);
-
-  const [audioMode, setAudioMode] = useState<'context' | 'tts'>('context');
-  const [playbackRate, setPlaybackRate] = useState<number>(1.0);
-  const [loopSentence, setLoopSentence] = useState<boolean>(false);
 
   const maxPages = bookDetail?.pageCount ?? catalogBook?.pageCount ?? 177;
 
@@ -117,9 +86,6 @@ export default function BookReaderPage() {
       ]);
       if (!alive) return;
       if (detail) setBookDetail(detail);
-      if (savedBookmark?.viewMode) {
-        setViewMode(savedBookmark.viewMode);
-      }
 
       if (pageNum !== undefined) {
         const parsed = Number(pageNum);
@@ -186,7 +152,7 @@ export default function BookReaderPage() {
     currentPage,
   ]);
 
-  // Save BookBookmark whenever currentPage, activeLessonId, or viewMode changes
+  // Save BookBookmark whenever currentPage or activeLessonId changes
   useEffect(() => {
     if (!bookId || !bookmarkInitialized) return;
     const now = new Date().toISOString();
@@ -194,46 +160,12 @@ export default function BookReaderPage() {
       bookId,
       lastPageNumber: currentPage,
       lastLessonId: activeLessonId,
-      viewMode,
+      viewMode: 'split',
       updatedAt: now,
     }).then(() => {
       markDirty();
     });
-  }, [activeLessonId, bookId, bookmarkInitialized, currentPage, viewMode]);
-
-  const allLessonSentences = useMemo<LessonSentence[]>(() => {
-    if (!lessonDoc) return [];
-    const list: LessonSentence[] = [];
-    for (const block of lessonDoc.dialogues) {
-      for (const sentence of block.sentences) {
-        list.push(sentence);
-      }
-    }
-    return list;
-  }, [lessonDoc]);
-
-  const sentenceById = useMemo(() => {
-    const map = new Map<string, LessonSentence>();
-    for (const s of allLessonSentences) {
-      map.set(s.id, s);
-    }
-    return map;
-  }, [allLessonSentences]);
-
-  const vocabById = useMemo(() => {
-    const map = new Map<string, LessonVocabItem>();
-    for (const v of lessonDoc?.vocabulary ?? []) {
-      map.set(v.id, v);
-    }
-    return map;
-  }, [lessonDoc]);
-
-  const pageMap = useMemo(() => {
-    if (!lessonDoc) return undefined;
-    return (
-      lessonDoc.pages.find((p) => p.pageNumber === currentPage) ?? lessonDoc.pages[0]
-    );
-  }, [currentPage, lessonDoc]);
+  }, [activeLessonId, bookId, bookmarkInitialized, currentPage]);
 
   const goToPage = useCallback(
     (nextPage: number) => {
@@ -241,8 +173,6 @@ export default function BookReaderPage() {
       const clamped = Math.max(1, Math.min(maxPages, Math.round(nextPage)));
       setCurrentPage(clamped);
       setPageJumpInput(String(clamped));
-      setFloatingSentence(null);
-      setActiveHotspotId(null);
       navigate(`/books/${bookId}/page/${clamped}`);
     },
     [bookId, maxPages, navigate],
@@ -256,122 +186,13 @@ export default function BookReaderPage() {
     }
   };
 
-  const handleLessonSelect = (lessonId: string) => {
-    const found = bookDetail?.lessons.find((l) => l.lessonId === lessonId);
-    if (found) {
-      goToPage(found.startPage);
-    }
-  };
-
-  const handleHotspotClick = async (hotspot: PageHotspot) => {
-    setActiveHotspotId(hotspot.id);
-
-    if (hotspot.kind === 'sentence') {
-      const matchedSentence =
-        (hotspot.refId ? sentenceById.get(hotspot.refId) : undefined) ??
-        allLessonSentences.find((s) => s.zh === hotspot.zhText);
-
-      if (matchedSentence) {
-        setActiveSentenceId(matchedSentence.id);
-        setFloatingSentence(matchedSentence);
-        await playSentenceAudio(matchedSentence, audioMode, playbackRate);
-        return;
-      }
-
-      if (hotspot.audioSlice) {
-        await playLessonSlice(hotspot.audioSlice, playbackRate);
-        return;
-      }
-
-      const fallbackSentence: LessonSentence = {
-        id: hotspot.id,
-        zh: hotspot.zhText,
-        pinyin: hotspot.pinyin ?? '',
-        vi: hotspot.viText,
-        pageNumber: currentPage,
-        ttsAudioPath: hotspot.ttsAudioPath ?? '',
-        lessonAudioSlice: hotspot.audioSlice,
-        tokens: [...hotspot.zhText].map((ch) => ({
-          surface: ch,
-          pinyin: '',
-        })),
-      };
-      setActiveSentenceId(fallbackSentence.id);
-      setFloatingSentence(fallbackSentence);
-      await playSentenceAudio(fallbackSentence, audioMode, playbackRate);
-      return;
-    }
-
-    if (hotspot.kind === 'vocab') {
-      const matchedVocab =
-        (hotspot.refId ? vocabById.get(hotspot.refId) : undefined) ??
-        lessonDoc?.vocabulary.find((v) => v.hanzi === hotspot.zhText);
-
-      if (matchedVocab) {
-        setPopover({ vocab: matchedVocab });
-        await playWordAudio(
-          matchedVocab.hanzi,
-          matchedVocab.pinyinNumbered,
-          matchedVocab.lessonAudioSlice,
-          { rate: playbackRate },
-        );
-        return;
-      }
-
-      const fallbackVocab: LessonVocabItem = {
-        id: hotspot.id,
-        index: 1,
-        hanzi: hotspot.zhText,
-        pos: '',
-        pinyin: hotspot.pinyin ?? '',
-        pinyinNumbered: hotspot.pinyin ? marksToNumbered(hotspot.pinyin) : '',
-        hanViet: '',
-        meaningEn: '',
-        meaningVi: hotspot.viText ?? '',
-        pageNumber: currentPage,
-        lessonAudioSlice: hotspot.audioSlice,
-        ttsAudioPath: hotspot.ttsAudioPath ?? '',
-      };
-      setPopover({ vocab: fallbackVocab });
-      await playWordAudio(
-        fallbackVocab.hanzi,
-        fallbackVocab.pinyinNumbered || undefined,
-        fallbackVocab.lessonAudioSlice,
-        { rate: playbackRate },
-      );
-      return;
-    }
-
-    if (hotspot.audioSlice) {
-      await playLessonSlice(hotspot.audioSlice, playbackRate);
-    } else if (hotspot.zhText) {
-      await playWordAudio(hotspot.zhText, undefined, undefined, { rate: playbackRate });
-    }
-  };
-
   const handleTokenClick = (token: SentenceToken, sentence: LessonSentence) => {
     setActiveSentenceId(sentence.id);
     setPopover({ token, sentence });
-
-    const matchedVocab =
-      (token.vocabId ? vocabById.get(token.vocabId) : undefined) ??
-      lessonDoc?.vocabulary.find((v) => v.hanzi === token.surface);
-    const pyNumbered =
-      matchedVocab?.pinyinNumbered ||
-      (token.citationPinyin
-        ? marksToNumbered(token.citationPinyin)
-        : token.pinyin
-          ? marksToNumbered(token.pinyin)
-          : undefined);
-
-    void playWordAudio(token.surface, pyNumbered, undefined, { rate: playbackRate });
   };
 
   const handleVocabRowClick = (vocabItem: LessonVocabItem) => {
     setPopover({ vocab: vocabItem });
-    void playWordAudio(vocabItem.hanzi, vocabItem.pinyinNumbered, undefined, {
-      rate: playbackRate,
-    });
   };
 
   if (!catalogBook || !bookId) {
@@ -386,14 +207,8 @@ export default function BookReaderPage() {
     );
   }
 
-  const lessonTitleLabel = lessonDoc
-    ? `Bài ${lessonDoc.lessonNumber}: ${lessonDoc.titleZh}${lessonDoc.titleVi ? ` — ${lessonDoc.titleVi}` : ''}`
-    : currentLessonSummary
-      ? `Bài ${currentLessonSummary.lessonNumber}: ${currentLessonSummary.titleZh}`
-      : `Quyển ${catalogBook.volume}`;
-
   const renderPageScanPane = () => (
-    <section className="books-pane books-pane-scan" aria-label="Trang sách tương tác">
+    <section className="books-pane books-pane-scan" aria-label="Trang sách">
       <div className="books-page-canvas">
         {pageImageUrl ? (
           <img
@@ -406,132 +221,11 @@ export default function BookReaderPage() {
             <p className="text-sm muted">
               {loading
                 ? `Đang tải trang ${currentPage}...`
-                : `Trang ${currentPage} — Nhấn vào các vùng tương tác bên dưới để nghe âm thanh hoặc tra từ.`}
+                : `Chưa tải được ảnh trang ${currentPage}.`}
             </p>
           </div>
         )}
-
-        {(pageMap?.hotspots ?? []).map((hotspot) => {
-          const [xPct, yPct, wPct, hPct] = hotspot.bboxPct;
-          const isSentenceActive =
-            hotspot.refId && hotspot.refId === activeSentenceId;
-          const isHotspotSelected =
-            hotspot.id === activeHotspotId || Boolean(isSentenceActive);
-
-          return (
-            <button
-              key={hotspot.id}
-              type="button"
-              className={`page-hotspot page-hotspot-${hotspot.kind} ${
-                isHotspotSelected ? 'is-active' : ''
-              }`}
-              style={{
-                left: `${xPct * 100}%`,
-                top: `${yPct * 100}%`,
-                width: `${wPct * 100}%`,
-                height: `${hPct * 100}%`,
-              }}
-              aria-label={`${
-                hotspot.kind === 'sentence'
-                  ? 'Câu thoại'
-                  : hotspot.kind === 'vocab'
-                    ? 'Từ mới'
-                    : 'Mục sách'
-              }: ${hotspot.zhText}`}
-              title={`${hotspot.zhText}${hotspot.pinyin ? ` (${hotspot.pinyin})` : ''}`}
-              onClick={() => void handleHotspotClick(hotspot)}
-            >
-              <span className="visually-hidden">{hotspot.zhText}</span>
-            </button>
-          );
-        })}
       </div>
-
-      {floatingSentence ? (
-        <div
-          className="card books-floating-sentence"
-          role="region"
-          aria-label="Thanh phân tích câu đang chọn"
-        >
-          <div className="row-wrap" style={{ justifyContent: 'space-between' }}>
-            <div className="row-wrap">
-              <button
-                type="button"
-                className="btn btn-primary btn-sm"
-                onClick={() =>
-                  void playSentenceAudio(floatingSentence, 'context', playbackRate)
-                }
-              >
-                ▶ Nghe câu
-              </button>
-              <button
-                type="button"
-                className="btn btn-sm"
-                onClick={() =>
-                  void playSentenceAudio(floatingSentence, 'context', 0.75)
-                }
-              >
-                🐢 0.75×
-              </button>
-            </div>
-            <button
-              type="button"
-              className="btn btn-ghost btn-sm"
-              onClick={() => setFloatingSentence(null)}
-            >
-              Đóng
-            </button>
-          </div>
-
-          <div className="books-token-line" style={{ marginTop: 'var(--sp-2)' }}>
-            {floatingSentence.tokens.length > 0 ? (
-              floatingSentence.tokens.map((tok, idx) => {
-                const hasSandhi = Boolean(
-                  tok.citationPinyin &&
-                    tok.citationPinyin.toLowerCase() !== tok.pinyin.toLowerCase(),
-                );
-                return (
-                  <span
-                    key={`${floatingSentence.id}-float-tok-${idx}`}
-                    role="button"
-                    tabIndex={0}
-                    className={`zh-token cjk ${hasSandhi ? 'has-sandhi' : ''}`}
-                    lang="zh"
-                    onClick={() => handleTokenClick(tok, floatingSentence)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        handleTokenClick(tok, floatingSentence);
-                      }
-                    }}
-                  >
-                    <span className="zh-token-surface">{tok.surface}</span>
-                    {showPinyin && tok.pinyin ? (
-                      <span className="zh-token-pinyin">{tok.pinyin}</span>
-                    ) : null}
-                  </span>
-                );
-              })
-            ) : (
-              <span className="cjk text-lg" lang="zh">
-                {floatingSentence.zh}
-              </span>
-            )}
-          </div>
-
-          {showPinyin && floatingSentence.pinyin ? (
-            <div className="pinyin text-sm">{floatingSentence.pinyin}</div>
-          ) : null}
-          {showVi && floatingSentence.vi ? (
-            <div className="text-sm muted">{floatingSentence.vi}</div>
-          ) : null}
-          {floatingSentence.sandhiNotes && floatingSentence.sandhiNotes.length > 0 ? (
-            <div className="badge badge-warn" style={{ marginTop: 'var(--sp-1)' }}>
-              {floatingSentence.sandhiNotes.join(' · ')}
-            </div>
-          ) : null}
-        </div>
-      ) : null}
     </section>
   );
 
@@ -583,10 +277,6 @@ export default function BookReaderPage() {
               <h3 style={{ margin: 0 }}>
                 Bài khóa{block.title ? ` — ${block.title}` : ''}
               </h3>
-              <p className="text-sm faint" style={{ margin: 0 }}>
-                Nhấn <strong>▶ Nghe câu</strong> để nghe băng gốc cả câu. Nhấn vào từng từ tiếng
-                Trung để nghe phát âm từ đơn (TTS) và xem biến điệu / nghĩa chi tiết.
-              </p>
 
               <div className="books-sentence-list">
                 {block.sentences.map((sentence) => {
@@ -596,42 +286,6 @@ export default function BookReaderPage() {
                       key={sentence.id}
                       className={`books-sentence-card ${isActive ? 'is-active' : ''}`}
                     >
-                      <div className="books-sentence-actions">
-                        <button
-                          type="button"
-                          className="btn btn-primary btn-sm"
-                          onClick={() => {
-                            setActiveSentenceId(sentence.id);
-                            void playSentenceAudio(sentence, 'context', playbackRate);
-                          }}
-                        >
-                          ▶ Nghe câu
-                        </button>
-                        <button
-                          type="button"
-                          className="btn btn-sm"
-                          onClick={() => {
-                            setActiveSentenceId(sentence.id);
-                            void playSentenceAudio(sentence, 'context', 0.75);
-                          }}
-                        >
-                          🐢 0.75×
-                        </button>
-                        <button
-                          type="button"
-                          className={`btn btn-sm ${
-                            loopSentence && isActive ? 'is-active' : ''
-                          }`}
-                          aria-pressed={loopSentence && isActive}
-                          onClick={() => {
-                            setActiveSentenceId(sentence.id);
-                            setLoopSentence((v) => !v);
-                          }}
-                        >
-                          🔁 Lặp
-                        </button>
-                      </div>
-
                       <div className="books-sentence-body">
                         <div className="books-token-line">
                           {sentence.speaker ? (
@@ -787,23 +441,6 @@ export default function BookReaderPage() {
             <IconBook /> Quyển {catalogBook.volume} — {catalogBook.series}
           </h1>
 
-          {bookDetail && bookDetail.lessons.length > 0 ? (
-            <select
-              className="select books-lesson-select"
-              aria-label="Chọn bài học"
-              value={activeLessonId}
-              onChange={(e) => handleLessonSelect(e.target.value)}
-            >
-              {bookDetail.lessons.map((l) => (
-                <option key={l.lessonId} value={l.lessonId}>
-                  Bài {l.lessonNumber}: {l.titleZh} (Tr.{l.startPage})
-                </option>
-              ))}
-            </select>
-          ) : (
-            <span className="badge">{lessonTitleLabel}</span>
-          )}
-
           <div className="books-page-stepper">
             <button
               type="button"
@@ -843,49 +480,13 @@ export default function BookReaderPage() {
               ▶
             </button>
           </div>
-
-          <Segmented<ReaderViewMode>
-            label="Chế độ xem"
-            value={viewMode}
-            onChange={setViewMode}
-            options={[
-              { value: 'page', label: '📄 Trang sách' },
-              { value: 'text', label: '📝 Văn bản' },
-              { value: 'split', label: 'Song song' },
-            ]}
-          />
-
-          <Link
-            className="btn btn-primary btn-sm"
-            to={`/courses/${bookId}/${activeLessonId}`}
-          >
-            🎓 Luyện bài này (5 bước)
-          </Link>
         </div>
       </nav>
 
-      <div className={`books-reader-layout books-reader-mode-${viewMode}`}>
-        {viewMode === 'page' && renderPageScanPane()}
-        {viewMode === 'text' && renderCleanTextPane()}
-        {viewMode === 'split' && (
-          <>
-            {renderPageScanPane()}
-            {renderCleanTextPane()}
-          </>
-        )}
+      <div className="books-reader-layout">
+        {renderPageScanPane()}
+        {renderCleanTextPane()}
       </div>
-
-      <AudioBar
-        sentences={allLessonSentences}
-        activeSentenceId={activeSentenceId}
-        onActiveSentenceChange={setActiveSentenceId}
-        audioMode={audioMode}
-        onAudioModeChange={setAudioMode}
-        playbackRate={playbackRate}
-        onPlaybackRateChange={setPlaybackRate}
-        loopSentence={loopSentence}
-        onLoopSentenceChange={setLoopSentence}
-      />
 
       {popover ? (
         <WordPopover

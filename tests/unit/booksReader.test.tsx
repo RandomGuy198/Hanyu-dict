@@ -1,5 +1,5 @@
 /**
- * Unit & Component tests for `BookReaderPage`, `BooksHomePage`, `WordPopover`, and `AudioBar`
+ * Unit & Component tests for `BookReaderPage`, `BooksHomePage`, and `WordPopover`
  * (`09_TESTS_AND_ACCEPTANCE.md` §3.5).
  */
 
@@ -320,46 +320,26 @@ describe('BookReaderPage & WordPopover (09 §3.5)', () => {
     await seedBookFixtures();
   });
 
-  it('renders BookReaderPage for b1 Page 31 (Lesson 2: 汉语不太难) and plays lessonAudioSlice when sentence hotspot is clicked', async () => {
-    const playSentenceSpy = vi
-      .spyOn(audioPlayer, 'playSentenceAudio')
-      .mockResolvedValue({ ok: true, source: 'lesson-slice' });
-
+  it('renders a clean PDF-like reader for b1 Page 31: page image, no hotspot overlays, no audio bar', async () => {
     renderWithRouter('/books/b1/page/31');
 
-    // Wait for page image and hotspots to render
+    // The rendered page image shows as a plain sheet
     const pageImg = await screen.findByAltText(/Trang 31/i);
     expect(pageImg).toBeInTheDocument();
 
-    const hotspotBtn = await screen.findByRole('button', {
-      name: /Câu thoại: 不太难。/i,
-    });
-    expect(hotspotBtn).toBeInTheDocument();
+    // Hotspot overlay boxes, the bottom AudioBar, view-mode toggle and course button are gone
+    expect(document.querySelectorAll('.page-hotspot')).toHaveLength(0);
+    expect(screen.queryByRole('region', { name: /Thanh phân tích câu/i })).not.toBeInTheDocument();
+    expect(screen.queryByText(/🎓 Luyện bài này/i)).not.toBeInTheDocument();
+    expect(screen.queryByRole('radio', { name: /📄 Trang sách/i })).not.toBeInTheDocument();
+    expect(screen.queryByText(/Trình phát âm thanh bài học/i)).not.toBeInTheDocument();
 
-    fireEvent.click(hotspotBtn);
-
-    await waitFor(() => {
-      expect(playSentenceSpy).toHaveBeenCalledTimes(1);
-    });
-
-    const [calledSentence, calledMode] = playSentenceSpy.mock.calls[0];
-    expect(calledSentence.id).toBe('b1-l02-s04');
-    expect(calledSentence.lessonAudioSlice).toEqual({
-      audioPath: 'audio/lessons/b1/l02.mp3',
-      startMs: 12702,
-      endMs: 14920,
-      confidence: 0.838,
-    });
-    expect(calledMode).toBe('context');
-
-    // Floating sentence bar also opens with segmented tokens
-    const floatingRegion = await screen.findByRole('region', {
-      name: /Thanh phân tích câu đang chọn/i,
-    });
-    expect(within(floatingRegion).getByText('不')).toBeInTheDocument();
+    // The interactive text pane is stacked below and still offers clickable word tokens
+    const buTokens = await screen.findAllByRole('button', { name: /^不/ });
+    expect(buTokens.length).toBeGreaterThan(0);
   });
 
-  it('clicking token "不" in "不太难" opens WordPopover showing contextual Pinyin bú vs citation bù, Hán-Việt bất, Vietnamese meaning, and both audio buttons', async () => {
+  it('clicking token "不" in "不太难" opens a WordPopover with the dictionary entry (no audio) and can save + add SRS cards', async () => {
     const playWordSpy = vi
       .spyOn(audioPlayer, 'playWordAudio')
       .mockResolvedValue({ ok: true, source: 'tts-file' });
@@ -369,50 +349,33 @@ describe('BookReaderPage & WordPopover (09 §3.5)', () => {
 
     renderWithRouter('/books/b1/page/31');
 
-    // Switch to Clean Interactive Text mode ("📝 Văn bản")
-    const textModeRadio = await screen.findByRole('radio', { name: /📝 Văn bản/i });
-    fireEvent.click(textModeRadio);
-
-    // Find segmented token "不" inside "不太难。"
+    // Find segmented token "不" inside "不太难。" (text pane is always visible now)
     const buTokens = await screen.findAllByRole('button', { name: /^不/ });
     expect(buTokens.length).toBeGreaterThan(0);
     fireEvent.click(buTokens[0]);
 
-    // Clicking token immediately plays standalone word audio
-    await waitFor(() => {
-      expect(playWordSpy).toHaveBeenCalledWith('不', 'bu4', undefined, expect.any(Object));
-    });
+    // Clicking a word must look it up, NOT auto-play audio
+    expect(playWordSpy).not.toHaveBeenCalled();
+    expect(playSentenceSpy).not.toHaveBeenCalled();
 
     // WordPopover dialog opens
     const dialog = await screen.findByRole('dialog', { name: /Chi tiết từ 不/i });
     expect(dialog).toBeInTheDocument();
 
-    // Checks contextual Pinyin bú vs citation bù
+    // Shared EntryDetailCard dictionary content: contextual bú vs citation bù, Hán Việt, VI gloss
     expect(dialog.textContent).toMatch(/Đọc trong câu:\s*bú/i);
     expect(dialog.textContent).toMatch(/Đọc riêng:\s*bù/i);
-
-    // Checks Hán-Việt bất
     expect(dialog.textContent).toMatch(/HÁN VIỆT:\s*BẤT/i);
-
-    // Checks Vietnamese meaning
     expect(dialog.textContent).toMatch(/không, chẳng/i);
 
-    // Checks both audio buttons ("Từ đơn" and "Trong câu")
-    const standaloneBtn = within(dialog).getByRole('button', { name: /Từ đơn/i });
-    const contextBtn = within(dialog).getByRole('button', { name: /Trong câu/i });
-    expect(standaloneBtn).toBeInTheDocument();
-    expect(contextBtn).toBeInTheDocument();
+    // No audio buttons; a link to the full dictionary page replaces them
+    expect(within(dialog).queryByRole('button', { name: /Từ đơn/i })).not.toBeInTheDocument();
+    expect(within(dialog).queryByRole('button', { name: /Trong câu/i })).not.toBeInTheDocument();
+    expect(
+      within(dialog).getByRole('link', { name: /Mở trang từ điển/i }),
+    ).toBeInTheDocument();
 
-    fireEvent.click(contextBtn);
-    await waitFor(() => {
-      expect(playSentenceSpy).toHaveBeenCalledWith(
-        expect.objectContaining({ id: 'b1-l02-s04' }),
-        'context',
-        1.0,
-      );
-    });
-
-    // Test saving word & adding SRS cards from WordPopover
+    // Saving the word still creates recognition + writing SRS cards
     const saveSrsBtn = within(dialog).getByRole('button', { name: /Lưu từ & thêm thẻ SRS/i });
     fireEvent.click(saveSrsBtn);
 
